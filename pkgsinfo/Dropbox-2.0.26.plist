@@ -11,7 +11,7 @@
 	<key>installer_item_hash</key>
 	<string>3ddf14f8a531ed292dcd79589117825bbfb51c5eea33144c46660c460f77bd76</string>
 	<key>installer_item_location</key>
-	<string>jenkins/Dropbox-2.0.26.dmg</string>
+	<string>Dropbox-2.0.26.dmg</string>
 	<key>installer_item_size</key>
 	<integer>28649</integer>
 	<key>installer_type</key>

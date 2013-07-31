@@ -11,7 +11,7 @@
 	<key>installer_item_hash</key>
 	<string>59338cd6ecf9f8f9f846eaa270c3b670bc38404d0d0a4eaca29263027d9e9885</string>
 	<key>installer_item_location</key>
-	<string>jenkins/Google-Chrome-28.0.1500.95.dmg</string>
+	<string>Google-Chrome-28.0.1500.95.dmg</string>
 	<key>installer_item_size</key>
 	<integer>50254</integer>
 	<key>installer_type</key>
