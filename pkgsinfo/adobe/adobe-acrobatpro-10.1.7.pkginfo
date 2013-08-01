@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>autoremove</key>
+	<false/>
+	<key>catalogs</key>
+	<array>
+		<string>testing</string>
+		<string>production</string>
+	</array>
+	<key>description</key>
+	<string></string>
+	<key>display_name</key>
+	<string>Adobe Acrobat X Pro</string>
+	<key>installed_size</key>
+	<integer>139000</integer>
+	<key>installer_item_hash</key>
+	<string>1947fa17a6d8e9cfe0c4dcb825a23035a7904274ca0a56f5f0f2d17f519ad2da</string>
+	<key>installer_item_location</key>
+	<string>adobe/AcrobatUpd1017-10.1.7.dmg</string>
+	<key>installer_item_size</key>
+	<integer>141336</integer>
+	<key>minimum_os_version</key>
+	<string>10.5.0</string>
+	<key>name</key>
+	<string>adobe-acrobatpro</string>
+	<key>receipts</key>
+	<array>
+		<dict>
+			<key>installed_size</key>
+			<integer>139000</integer>
+			<key>packageid</key>
+			<string>com.adobe.acrobat.a10.AcrobatUpd1017</string>
+			<key>version</key>
+			<string>10.1.7</string>
+		</dict>
+	</array>
+	<key>uninstall_method</key>
+	<string>removepackages</string>
+	<key>uninstallable</key>
+	<true/>
+	<key>version</key>
+	<string>10.1.7</string>
+	<key>update_for</key>
+  <array>
+    <string>adobe-acrobatpro</string>
+  </array>
+	<key>requires</key>
+  <array>
+    <string>adobe-acrobatpro-10.0.0</string>
+  </array>
+  <key>preinstall_script</key>
+  <string>#!/bin/sh
+if [ -e "/Applications/Adobe Reader.app" ]; then
+  rm -r "/Applications/Adobe Reader.app"
+fi
+exit 0
+  </string>  
+</dict>
+</plist>

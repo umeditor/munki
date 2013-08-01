@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>autoremove</key>
+	<false/>
+	<key>catalogs</key>
+	<array>
+		<string>testing</string>
+		<string>production</string>
+	</array>
+	<key>description</key>
+	<string></string>
+	<key>display_name</key>
+	<string>Adobe Provisioning Tool</string>
+	<key>installer_item_hash</key>
+	<string>10ab320e0521694923dbb1e8db832b6592c119130e28c9f708c246629df4d609</string>
+	<key>installer_item_location</key>
+	<string>adobe/adobe_provisioning_tool-1.2.0.13.dmg</string>
+	<key>installer_item_size</key>
+	<integer>2174</integer>
+	<key>installer_type</key>
+	<string>copy_from_dmg</string>
+	<key>installs</key>
+	<array>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.adobe.adobe_provisioning_tool</string>
+			<key>CFBundleName</key>
+			<string>adobe_provisioning_tool</string>
+			<key>CFBundleShortVersionString</key>
+			<string>Adobe Provisioning Tool 1.2.0.13 (BuildVersion: 1.0; BuildDate: Fri May 21 2010 21:49:00)</string>
+			<key>CFBundleVersion</key>
+			<string>1.2.0.13</string>
+			<key>path</key>
+			<string>/Applications/Utilities/adobe_provisioning_tool.app</string>
+			<key>type</key>
+			<string>application</string>
+			<key>version_comparison_key</key>
+			<string>CFBundleVersion</string>
+		</dict>
+	</array>
+	<key>items_to_copy</key>
+	<array>
+		<dict>
+			<key>destination_path</key>
+			<string>/Applications/Utilities</string>
+			<key>source_item</key>
+			<string>adobe_provisioning_tool.app</string>
+		</dict>
+	</array>
+	<key>minimum_os_version</key>
+	<string>10.4.0</string>
+	<key>name</key>
+	<string>adobe_provisioning_tool</string>
+	<key>uninstall_method</key>
+	<string>remove_copied_items</string>
+	<key>uninstallable</key>
+	<true/>
+	<key>version</key>
+	<string>1.2.0.13</string>
+	<key>update_for</key>
+  <array>
+    <string>adobe-acrobatpro</string>
+  </array>
+	<key>requires</key>
+  <array>
+    <string>adobe-acrobatpro-10.0.0</string>
+  </array>
+  <key>postinstall_script</key>
+  <string>#!/bin/sh
+
+/Applications/Utilities/adobe_provisioning_tool.app/Contents/MacOS/adobe_provisioning_tool -C -a "/Library/Application Support/Adobe/Acrobat 10 AMT/AMT" -s 111804284627403130747325
+/Applications/Utilities/adobe_provisioning_tool.app/Contents/MacOS/adobe_provisioning_tool -S -a "/Library/Application Support/Adobe/Acrobat 10 AMT/AMT"
+/Applications/Utilities/adobe_provisioning_tool.app/Contents/MacOS/adobe_provisioning_tool -R -a "/Library/Application Support/Adobe/Acrobat 10 AMT/AMT"
+
+exit 0
+  </string>
+</dict>
+</plist>

@@ -16,6 +16,7 @@
 		<string>CertAid</string>
 		<string>Chrome</string>
 		<string>Dropbox</string>
+		<string>adobe-acrobatpro</string>
 	</array>
 	<key>managed_uninstalls</key>
 	<array>
