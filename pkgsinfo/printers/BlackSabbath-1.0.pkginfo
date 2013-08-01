@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>autoremove</key>
+	<false/>
+	<key>catalogs</key>
+	<array>
+		<string>testing</string>
+		<string>production</string>
+	</array>
+	<key>description</key>
+	<string>Install the printer BlackSabbath, located in E53-310.</string>
+	<key>display_name</key>
+	<string>Printer: BlackSabbath</string>
+	<key>installer_item_hash</key>
+	<string>702eaf682cea7088b7b49536e523de8b3b9829adcf51e77e7e3c46d7a459e151</string>
+	<key>installer_item_location</key>
+	<string>printers/BlackSabbath-1.0.dmg</string>
+	<key>installer_item_size</key>
+	<integer>13</integer>
+	<key>minimum_os_version</key>
+	<string>10.4.0</string>
+	<key>name</key>
+	<string>BlackSabbath</string>
+	<key>requires</key>
+	<string>HewlettPackardPrinterDrivers</string>
+	<key>receipts</key>
+	<array>
+		<dict>
+			<key>filename</key>
+			<string>BlackSabbath-1.0.pkg</string>
+			<key>installed_size</key>
+			<integer>0</integer>
+			<key>packageid</key>
+			<string>org.povertyactionlab.BlackSabbath</string>
+			<key>version</key>
+			<string>1.0</string>
+		</dict>
+	</array>
+	<key>uninstall_method</key>
+	<string>removepackages</string>
+	<key>uninstallable</key>
+	<true/>
+	<key>version</key>
+	<string>1.0</string>
+</dict>
+</plist>

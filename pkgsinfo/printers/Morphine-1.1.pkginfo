@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>autoremove</key>
+	<false/>
+	<key>catalogs</key>
+	<array>
+		<string>testing</string>
+		<string>production</string>
+	</array>
+	<key>description</key>
+	<string>Install the printer Morphine, located in E53-380.</string>
+	<key>display_name</key>
+	<string>Printer: Morphine</string>
+	<key>installer_item_hash</key>
+	<string>3cb68f6f8bf3393c6309ecb29841fed51f53ddcc81271bce3b6dafc2d493be04</string>
+	<key>installer_item_location</key>
+	<string>printers/Morphine-1.1.dmg</string>
+	<key>installer_item_size</key>
+	<integer>13</integer>
+	<key>minimum_os_version</key>
+	<string>10.4.0</string>
+	<key>name</key>
+	<string>Morphine</string>
+	<key>receipts</key>
+	<array>
+		<dict>
+			<key>filename</key>
+			<string>Morphine-1.1.pkg</string>
+			<key>installed_size</key>
+			<integer>0</integer>
+			<key>packageid</key>
+			<string>org.povertyactionlab.Morphine</string>
+			<key>version</key>
+			<string>1.1</string>
+		</dict>
+	</array>
+	<key>requires</key>
+	<string>Dell5350dnDriver</string>
+	<key>uninstall_method</key>
+	<string>removepackages</string>
+	<key>uninstallable</key>
+	<true/>
+	<key>version</key>
+	<string>1.1</string>
+</dict>
+</plist>

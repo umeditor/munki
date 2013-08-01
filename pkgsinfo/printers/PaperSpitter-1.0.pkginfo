@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>autoremove</key>
+	<false/>
+	<key>catalogs</key>
+	<array>
+		<string>testing</string>
+		<string>production</string>
+	</array>
+	<key>description</key>
+	<string>Install the printer PaperSpitter, located in E53-316.</string>
+	<key>display_name</key>
+	<string>Printer: PaperSpitter</string>
+	<key>installer_item_hash</key>
+	<string>2a43559995983fbd29203af7d379428ffd0f21111fa8c048df0aa8a928be24da</string>
+	<key>installer_item_location</key>
+	<string>printers/PaperSpitter-1.0.dmg</string>
+	<key>installer_item_size</key>
+	<integer>13</integer>
+	<key>minimum_os_version</key>
+	<string>10.4.0</string>
+	<key>name</key>
+	<string>PaperSpitter</string>
+	<key>receipts</key>
+	<array>
+		<dict>
+			<key>filename</key>
+			<string>PaperSpitter-1.0.pkg</string>
+			<key>installed_size</key>
+			<integer>0</integer>
+			<key>packageid</key>
+			<string>org.povertyactionlab.PaperSpitter</string>
+			<key>version</key>
+			<string>1.0</string>
+		</dict>
+	</array>
+	<key>requires</key>
+	<string>BizHubC280Drivers</string>
+	<key>uninstall_method</key>
+	<string>removepackages</string>
+	<key>uninstallable</key>
+	<true/>
+	<key>version</key>
+	<string>1.0</string>
+</dict>
+</plist>
