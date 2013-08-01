@@ -12,6 +12,7 @@
 	<key>managed_installs</key>
 	<array>
 		<string>Skype</string>
+		<string>CertAid</string>
 	</array>
 	<key>managed_uninstalls</key>
 	<array>

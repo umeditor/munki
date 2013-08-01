@@ -66,6 +66,68 @@
 			<string>testing</string>
 		</array>
 		<key>installer_item_hash</key>
+		<string>66f82e1bb3ebdda6d93e9d0a8daa484d457b47789ddddd1e91f1da8c3f984edc</string>
+		<key>installer_item_location</key>
+		<string>CertAid-2.2.dmg</string>
+		<key>installer_item_size</key>
+		<integer>1109</integer>
+		<key>installer_type</key>
+		<string>copy_from_dmg</string>
+		<key>installs</key>
+		<array>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>edu.mit.CertAid</string>
+				<key>CFBundleName</key>
+				<string>CertAid</string>
+				<key>CFBundleShortVersionString</key>
+				<string>2.2</string>
+				<key>CFBundleVersion</key>
+				<string>2.2</string>
+				<key>minosversion</key>
+				<string>10.6</string>
+				<key>path</key>
+				<string>/Applications/CertAid.app</string>
+				<key>type</key>
+				<string>application</string>
+				<key>version_comparison_key</key>
+				<string>CFBundleShortVersionString</string>
+			</dict>
+		</array>
+		<key>items_to_copy</key>
+		<array>
+			<dict>
+				<key>destination_path</key>
+				<string>/Applications</string>
+				<key>group</key>
+				<string>admin</string>
+				<key>mode</key>
+				<string>go-w</string>
+				<key>source_item</key>
+				<string>CertAid.app</string>
+				<key>user</key>
+				<string>root</string>
+			</dict>
+		</array>
+		<key>minimum_os_version</key>
+		<string>10.7.0</string>
+		<key>name</key>
+		<string>CertAid</string>
+		<key>uninstall_method</key>
+		<string>remove_copied_items</string>
+		<key>uninstallable</key>
+		<false/>
+		<key>version</key>
+		<string>2.2</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>testing</string>
+		</array>
+		<key>installer_item_hash</key>
 		<string>3ddf14f8a531ed292dcd79589117825bbfb51c5eea33144c46660c460f77bd76</string>
 		<key>installer_item_location</key>
 		<string>Dropbox-2.0.26.dmg</string>
