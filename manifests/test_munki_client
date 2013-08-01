@@ -14,6 +14,7 @@
 		<string>Skype</string>
 		<string>CertAid</string>
 		<string>Chrome</string>
+		<string>Dropbox</string>
 	</array>
 	<key>managed_uninstalls</key>
 	<array>
