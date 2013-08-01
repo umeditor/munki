@@ -17,6 +17,7 @@
 		<string>Chrome</string>
 		<string>Dropbox</string>
 		<string>adobe-acrobatpro</string>
+		<string>Office2011</string>
 	</array>
 	<key>managed_uninstalls</key>
 	<array>
