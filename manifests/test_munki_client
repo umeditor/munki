@@ -13,6 +13,7 @@
 	<array>
 		<string>Skype</string>
 		<string>CertAid</string>
+		<string>Chrome</string>
 	</array>
 	<key>managed_uninstalls</key>
 	<array>
