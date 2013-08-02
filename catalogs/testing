@@ -127,6 +127,47 @@
 		<array>
 			<string>testing</string>
 		</array>
+		<key>description</key>
+		<string></string>
+		<key>display_name</key>
+		<string>AnyConnect Secure Mobility Client</string>
+		<key>installed_size</key>
+		<integer>12108</integer>
+		<key>installer_item_hash</key>
+		<string>7960b3f49cf50a4dbe1f599719681907634eb7a895a9bd671b493c97dbfa0c84</string>
+		<key>installer_item_location</key>
+		<string>CiscoAnyConnectVPN-3.1.02026.dmg</string>
+		<key>installer_item_size</key>
+		<integer>4742</integer>
+		<key>minimum_os_version</key>
+		<string>10.7.0</string>
+		<key>name</key>
+		<string>CiscoAnyConnectVPN</string>
+		<key>receipts</key>
+		<array>
+			<dict>
+				<key>installed_size</key>
+				<integer>12108</integer>
+				<key>packageid</key>
+				<string>com.cisco.pkg.anyconnect.vpn</string>
+				<key>version</key>
+				<string>3.1.02026</string>
+			</dict>
+		</array>
+		<key>uninstall_method</key>
+		<string>removepackages</string>
+		<key>uninstallable</key>
+		<false/>
+		<key>version</key>
+		<string>3.1.02026</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>testing</string>
+		</array>
 		<key>installer_item_hash</key>
 		<string>3ddf14f8a531ed292dcd79589117825bbfb51c5eea33144c46660c460f77bd76</string>
 		<key>installer_item_location</key>

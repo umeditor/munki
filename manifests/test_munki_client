@@ -18,6 +18,7 @@
 		<string>Dropbox</string>
 		<string>adobe-acrobatpro</string>
 		<string>Office2011</string>
+		<string>CiscoAnyConnectVPN</string>
 	</array>
 	<key>managed_uninstalls</key>
 	<array>
