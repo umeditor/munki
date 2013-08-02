@@ -139,6 +139,51 @@
 		<string>CiscoAnyConnectVPN-3.1.02026.dmg</string>
 		<key>installer_item_size</key>
 		<integer>4742</integer>
+		<key>installs</key>
+		<array>
+			<dict>
+				<key>CFBundleShortVersionString</key>
+				<string>3.1</string>
+				<key>CFBundleVersion</key>
+				<string>1</string>
+				<key>path</key>
+				<string>./Applications/Cisco/Cisco AnyConnect Secure Mobility Client.app/Contents/Info.plist</string>
+				<key>type</key>
+				<string>plist</string>
+				<key>version_comparison_key</key>
+				<string>CFBundleShortVersionString</string>
+			</dict>
+			<dict>
+				<key>CFBundleVersion</key>
+				<string>3.1.02026</string>
+				<key>path</key>
+				<string>./Applications/Cisco/Uninstall AnyConnect.app/Contents/Info.plist</string>
+				<key>type</key>
+				<string>plist</string>
+				<key>version_comparison_key</key>
+				<string>CFBundleVersion</string>
+			</dict>
+			<dict>
+				<key>CFBundleVersion</key>
+				<string>1.1.0</string>
+				<key>path</key>
+				<string>./System/Library/Extensions/acsock.kext/Contents/Info.plist</string>
+				<key>type</key>
+				<string>plist</string>
+				<key>version_comparison_key</key>
+				<string>CFBundleVersion</string>
+			</dict>
+			<dict>
+				<key>CFBundleVersion</key>
+				<string>3.1.02026</string>
+				<key>path</key>
+				<string>./opt/cisco/anyconnect/bin/vpndownloader.app/Contents/Info.plist</string>
+				<key>type</key>
+				<string>plist</string>
+				<key>version_comparison_key</key>
+				<string>CFBundleVersion</string>
+			</dict>
+		</array>
 		<key>minimum_os_version</key>
 		<string>10.7.0</string>
 		<key>name</key>
