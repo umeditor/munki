@@ -19,6 +19,7 @@
 		<string>adobe-acrobatpro</string>
 		<string>Office2011</string>
 		<string>CiscoAnyConnectVPN</string>
+		<string>SophosAntiVirus</string>
 	</array>
 	<key>managed_uninstalls</key>
 	<array>
