@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>autoremove</key>
+	<false/>
+	<key>catalogs</key>
+	<array>
+		<string>testing</string>
+	</array>
+	<key>description</key>
+	<string>VMware Fusion is a desktop application that lets you create and run virtual machines on your Intel-based Macintosh.</string>
+	<key>display_name</key>
+	<string>VMware Fusion</string>
+	<key>installer_item_hash</key>
+	<string>0e6bf1118ead18aac6f3608f1025027106c7be688c45959853af0b102886f3a9</string>
+	<key>installer_item_location</key>
+	<string>VMwareFusion-5.0.3.dmg</string>
+	<key>installer_item_size</key>
+	<integer>229786</integer>
+	<key>installer_type</key>
+	<string>copy_from_dmg</string>
+	<key>installs</key>
+	<array>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.vmware.fusion</string>
+			<key>CFBundleName</key>
+			<string>VMware Fusion</string>
+			<key>CFBundleShortVersionString</key>
+			<string>5.0.3</string>
+			<key>CFBundleVersion</key>
+			<string>1040386</string>
+			<key>minosversion</key>
+			<string>10.6.7</string>
+			<key>path</key>
+			<string>/Applications/VMware Fusion.app</string>
+			<key>type</key>
+			<string>application</string>
+			<key>version_comparison_key</key>
+			<string>CFBundleShortVersionString</string>
+		</dict>
+	</array>
+	<key>items_to_copy</key>
+	<array>
+		<dict>
+			<key>destination_path</key>
+			<string>/Applications</string>
+			<key>group</key>
+			<string>admin</string>
+			<key>mode</key>
+			<string>go-w</string>
+			<key>source_item</key>
+			<string>VMware Fusion.app</string>
+			<key>user</key>
+			<string>root</string>
+		</dict>
+	</array>
+	<key>minimum_os_version</key>
+	<string>10.7.0</string>
+	<key>name</key>
+	<string>VMwareFusion</string>
+	<key>uninstall_method</key>
+	<string>remove_copied_items</string>
+	<key>uninstallable</key>
+	<false/>
+	<key>version</key>
+	<string>5.0.3</string>
+</dict>
+</plist>
