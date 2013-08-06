@@ -22,6 +22,7 @@
 		<string>SophosAntiVirus</string>
 		<string>VMwareFusion</string>
 		<string>Java6</string>
+		<string>CrashPlanPro</string>
 	</array>
 	<key>managed_uninstalls</key>
 	<array>

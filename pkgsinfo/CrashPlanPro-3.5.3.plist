@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>autoremove</key>
+	<false/>
+	<key>catalogs</key>
+	<array>
+		<string>testing</string>
+	</array>
+	<key>description</key>
+	<string></string>
+	<key>display_name</key>
+	<string>CrashPlan Pro Backup Client</string>
+	<key>installed_size</key>
+	<integer>27308</integer>
+	<key>installer_item_hash</key>
+	<string>787dba3d152bc27fb7fcef9c752ec7d2f9c4d1d5992d50779d7fa77b108222ad</string>
+	<key>installer_item_location</key>
+	<string>CrashPlanPro-3.5.3.dmg</string>
+	<key>installer_item_size</key>
+	<integer>21782</integer>
+	<key>installs</key>
+	<array>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.backup42.desktop</string>
+			<key>CFBundleName</key>
+			<string>CrashPlan</string>
+			<key>CFBundleShortVersionString</key>
+			<string>3.5.3</string>
+			<key>CFBundleVersion</key>
+			<string>3.5.3</string>
+			<key>path</key>
+			<string>/Applications/CrashPlan.app</string>
+			<key>type</key>
+			<string>application</string>
+			<key>version_comparison_key</key>
+			<string>CFBundleShortVersionString</string>
+		</dict>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.code42.b42menuextra</string>
+			<key>CFBundleName</key>
+			<string>CrashPlan menu bar</string>
+			<key>CFBundleShortVersionString</key>
+			<string>1.0</string>
+			<key>CFBundleVersion</key>
+			<string>1.0</string>
+			<key>minosversion</key>
+			<string>10.5</string>
+			<key>path</key>
+			<string>/Applications/CrashPlan.app/Contents/Resources/CrashPlan menu bar.app</string>
+			<key>type</key>
+			<string>application</string>
+			<key>version_comparison_key</key>
+			<string>CFBundleShortVersionString</string>
+		</dict>
+		<dict>
+			<key>CFBundleName</key>
+			<string>Uninstall CrashPlan</string>
+			<key>path</key>
+			<string>/Applications/CrashPlan.app/Contents/Uninstall.app</string>
+			<key>type</key>
+			<string>file</string>
+		</dict>
+	</array>
+	<key>minimum_os_version</key>
+	<string>10.7.0</string>
+	<key>name</key>
+	<string>CrashPlanPro</string>
+	<key>receipts</key>
+	<array>
+		<dict>
+			<key>installed_size</key>
+			<integer>0</integer>
+			<key>packageid</key>
+			<string>com.crashplan.runasuser.pkg</string>
+			<key>version</key>
+			<string>1</string>
+		</dict>
+		<dict>
+			<key>installed_size</key>
+			<integer>27308</integer>
+			<key>packageid</key>
+			<string>com.crashplan.app.pkg</string>
+			<key>version</key>
+			<string>1</string>
+		</dict>
+	</array>
+	<key>requires</key>
+	<array>
+		<string>Java6</string>
+	</array>
+	<key>uninstall_method</key>
+	<string>removepackages</string>
+	<key>uninstallable</key>
+	<false/>
+	<key>version</key>
+	<string>3.5.3</string>
+</dict>
+</plist>
