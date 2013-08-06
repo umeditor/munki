@@ -13,13 +13,11 @@
 	<key>display_name</key>
 	<string>VMware Fusion</string>
 	<key>installer_item_hash</key>
-	<string>0e6bf1118ead18aac6f3608f1025027106c7be688c45959853af0b102886f3a9</string>
+	<string>81f1070eaf10dc50439e41fce5fa39b255c836100a786e2e77cc714c16c2af39</string>
 	<key>installer_item_location</key>
 	<string>VMwareFusion-5.0.3.dmg</string>
 	<key>installer_item_size</key>
-	<integer>229786</integer>
-	<key>installer_type</key>
-	<string>copy_from_dmg</string>
+	<integer>229797</integer>
 	<key>installs</key>
 	<array>
 		<dict>
@@ -34,34 +32,62 @@
 			<key>minosversion</key>
 			<string>10.6.7</string>
 			<key>path</key>
-			<string>/Applications/VMware Fusion.app</string>
+			<string>Applications/VMware Fusion.app</string>
+			<key>type</key>
+			<string>application</string>
+			<key>version_comparison_key</key>
+			<string>CFBundleShortVersionString</string>
+		</dict>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.vmware.installHelper.gettingstarted</string>
+			<key>CFBundleName</key>
+			<string>Getting Started</string>
+			<key>CFBundleShortVersionString</key>
+			<string>5.0.3</string>
+			<key>CFBundleVersion</key>
+			<string>1040386</string>
+			<key>path</key>
+			<string>Applications/VMware Fusion.app/Contents/Library/Getting Started.app</string>
+			<key>type</key>
+			<string>application</string>
+			<key>version_comparison_key</key>
+			<string>CFBundleShortVersionString</string>
+		</dict>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.vmware.fusionStartMenu</string>
+			<key>CFBundleName</key>
+			<string>VMware Fusion Start Menu</string>
+			<key>CFBundleShortVersionString</key>
+			<string>5.0.3</string>
+			<key>CFBundleVersion</key>
+			<string>1040386</string>
+			<key>path</key>
+			<string>Applications/VMware Fusion.app/Contents/Library/VMware Fusion Start Menu.app</string>
 			<key>type</key>
 			<string>application</string>
 			<key>version_comparison_key</key>
 			<string>CFBundleShortVersionString</string>
 		</dict>
 	</array>
-	<key>items_to_copy</key>
-	<array>
-		<dict>
-			<key>destination_path</key>
-			<string>/Applications</string>
-			<key>group</key>
-			<string>admin</string>
-			<key>mode</key>
-			<string>go-w</string>
-			<key>source_item</key>
-			<string>VMware Fusion.app</string>
-			<key>user</key>
-			<string>root</string>
-		</dict>
-	</array>
 	<key>minimum_os_version</key>
 	<string>10.7.0</string>
 	<key>name</key>
 	<string>VMwareFusion</string>
+	<key>receipts</key>
+	<array>
+		<dict>
+			<key>installed_size</key>
+			<integer>0</integer>
+			<key>packageid</key>
+			<string>com.vmware.fusion.pkg.massdeploy</string>
+			<key>version</key>
+			<string>1.0</string>
+		</dict>
+	</array>
 	<key>uninstall_method</key>
-	<string>remove_copied_items</string>
+	<string>removepackages</string>
 	<key>uninstallable</key>
 	<false/>
 	<key>version</key>
