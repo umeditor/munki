@@ -328,7 +328,7 @@
 		<key>description</key>
 		<string></string>
 		<key>display_name</key>
-		<string>Java 7</string>
+		<string>Java 6</string>
 		<key>installed_size</key>
 		<integer>75873</integer>
 		<key>installer_item_hash</key>
