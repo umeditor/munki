@@ -21,6 +21,7 @@
 		<string>CiscoAnyConnectVPN</string>
 		<string>SophosAntiVirus</string>
 		<string>VMwareFusion</string>
+		<string>Java6</string>
 	</array>
 	<key>managed_uninstalls</key>
 	<array>
