@@ -8,22 +8,10 @@
 	</array>
 	<key>included_manifests</key>
 	<array>
-		<string>printers</string>
-		<string>munki_client</string>
 	</array>
 	<key>managed_installs</key>
 	<array>
-		<string>Skype</string>
-		<string>CertAid</string>
-		<string>Chrome</string>
-		<string>Dropbox</string>
-		<string>adobe-acrobatpro</string>
-		<string>Office2011</string>
-		<string>CiscoAnyConnectVPN</string>
-		<string>SophosAntiVirus</string>
-		<string>VMwareFusion</string>
-		<string>Java6</string>
-		<string>CrashPlanPro</string>
+		<string>munkitools_app</string>
 	</array>
 	<key>managed_uninstalls</key>
 	<array>
