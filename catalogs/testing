@@ -1190,11 +1190,11 @@
 		<key>display_name</key>
 		<string>VMware Fusion</string>
 		<key>installer_item_hash</key>
-		<string>18ecdfd7cf139d64a522bb67d33d70a7f03e445a718a692e60b35a9e455b246a</string>
+		<string>cfff06414ebcdb0ca8857da867f59b9f84740ec2416d906c46ddcef1c3fb13a5</string>
 		<key>installer_item_location</key>
 		<string>VMwareFusion-5.0.3.dmg</string>
 		<key>installer_item_size</key>
-		<integer>229579</integer>
+		<integer>229521</integer>
 		<key>installs</key>
 		<array>
 			<dict>
