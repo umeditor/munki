@@ -25,6 +25,7 @@
 		<string>Java6</string>
 		<string>CrashPlanPro</string>
 		<string>Xcode</string>
+		<string>CitrixReceiver</string>
 	</array>
 	<key>managed_uninstalls</key>
 	<array>
