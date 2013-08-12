@@ -2,3 +2,4 @@
 *.pkg
 *.mpkg
 .DS_Store
+.htpasswd
