@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>catalogs</key>
+	<array>
+		<string>testing</string>
+	</array>
+	<key>included_manifests</key>
+	<array>
+		<string>printers</string>
+		<string>munki_client</string>
+	</array>
+	<key>managed_installs</key>
+	<array>
+		<string>Skype</string>
+		<string>CertAid</string>
+		<string>Chrome</string>
+		<string>Dropbox</string>
+		<string>adobe-acrobatpro</string>
+		<string>Office2011</string>
+		<string>CiscoAnyConnectVPN</string>
+		<string>SophosAntiVirus</string>
+		<string>Java6</string>
+		<string>CrashPlanPro</string>
+	</array>
+	<key>managed_uninstalls</key>
+	<array>
+	</array>
+</dict>
+</plist>
