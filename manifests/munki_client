@@ -12,6 +12,7 @@
 	<key>managed_installs</key>
 	<array>
 		<string>munkitools_app</string>
+		<string>AdobeFlashPlayer</string>
 	</array>
 	<key>managed_uninstalls</key>
 	<array>
