@@ -821,7 +821,7 @@
 		<key>catalogs</key>
 		<array>
 			<string>testing</string>
-			<string>jpal_laptop</string>
+			<string>production</string>
 		</array>
 		<key>description</key>
 		<string>Configure login windows to display name and password fields.</string>
