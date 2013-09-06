@@ -849,7 +849,7 @@ fi
 
 /usr/bin/defaults write /Library/Preferences/com.apple.loginwindow SHOWFULLNAME -bool "TRUE"
 
-exit 1
+exit 0
 </string>
 		<key>unattended_install</key>
 		<true/>
