@@ -822,6 +822,50 @@
 		<array>
 			<string>testing</string>
 		</array>
+		<key>description</key>
+		<string>Configure login windows to display name and password fields.</string>
+		<key>display_name</key>
+		<string>Settings: Login Window</string>
+		<key>installcheck_script</key>
+		<string>#!/bin/sh
+
+DesiredValue=1
+CurrentValue=`/usr/bin/defaults read /Library/Preferences/com.apple.loginwindow SHOWFULLNAME`
+
+if [ "$DesiredValue" = "$CurrentValue" ] ; then
+	echo "Matches!"
+	exit 1
+else
+	echo "Doesn't Match!"
+	exit 0
+fi
+</string>
+		<key>installer_type</key>
+		<string>nopkg</string>
+		<key>minimum_os_version</key>
+		<string>10.8.0</string>
+		<key>name</key>
+		<string>setting-login-window</string>
+		<key>postinstall_script</key>
+		<string>#!/bin/sh
+
+/usr/bin/defaults write /Library/Preferences/com.apple.loginwindow 
+SHOWFULLNAME -bool "TRUE"
+
+exit 1
+</string>
+		<key>unattended_install</key>
+		<true/>
+		<key>version</key>
+		<string>1.0.0</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>testing</string>
+		</array>
 		<key>installer_item_hash</key>
 		<string>cc549d8dfccd5f056917500cb7bfadaffe4db536c14cab2c0c5c6e9c1f2abefc</string>
 		<key>installer_item_location</key>
