@@ -11,6 +11,7 @@
 	<key>catalogs</key>
 	<array>
 		<string>testing</string>
+		<string>jpal_laptop</string>
 	</array>
 	<key>installcheck_script</key>
 	<string>#!/bin/sh
