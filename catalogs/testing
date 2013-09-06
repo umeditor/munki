@@ -833,10 +833,8 @@ DesiredValue=1
 CurrentValue=`/usr/bin/defaults read /Library/Preferences/com.apple.loginwindow SHOWFULLNAME`
 
 if [ "$DesiredValue" = "$CurrentValue" ] ; then
-	echo "Matches!"
 	exit 1
 else
-	echo "Doesn't Match!"
 	exit 0
 fi
 </string>
