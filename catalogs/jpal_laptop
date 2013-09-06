@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>testing</string>
+			<string>jpal_laptop</string>
+		</array>
+		<key>description</key>
+		<string>Configure login windows to display name and password fields.</string>
+		<key>display_name</key>
+		<string>Settings: Login Window</string>
+		<key>installcheck_script</key>
+		<string>#!/bin/sh
+
+DesiredValue=1
+CurrentValue=`/usr/bin/defaults read /Library/Preferences/com.apple.loginwindow SHOWFULLNAME`
+
+if [ "$DesiredValue" = "$CurrentValue" ] ; then
+	exit 1
+else
+	exit 0
+fi
+</string>
+		<key>installer_type</key>
+		<string>nopkg</string>
+		<key>minimum_os_version</key>
+		<string>10.8.0</string>
+		<key>name</key>
+		<string>setting-login-window</string>
+		<key>postinstall_script</key>
+		<string>#!/bin/sh
+
+/usr/bin/defaults write /Library/Preferences/com.apple.loginwindow SHOWFULLNAME -bool "TRUE"
+
+exit 0
+</string>
+		<key>unattended_install</key>
+		<true/>
+		<key>version</key>
+		<string>1.0.0</string>
+	</dict>
+</array>
+</plist>
