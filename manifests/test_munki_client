@@ -27,6 +27,7 @@
 		<string>Xcode</string>
 		<string>CitrixReceiver</string>
 		<string>AdobeFlashPlayer</string>
+		<string>setting-login-window</string>
 	</array>
 	<key>managed_uninstalls</key>
 	<array>
