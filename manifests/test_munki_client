@@ -28,6 +28,7 @@
 		<string>CitrixReceiver</string>
 		<string>AdobeFlashPlayer</string>
 		<string>setting-login-window</string>
+		<string>jpal-disable8021x</string>
 	</array>
 	<key>managed_uninstalls</key>
 	<array>
