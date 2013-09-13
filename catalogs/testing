@@ -1700,7 +1700,7 @@ exit 0
 		<key>description</key>
 		<string></string>
 		<key>display_name</key>
-		<string>Adobe Acrobat X Pro (10.1.8)</string>
+		<string>Adobe Acrobat X Pro</string>
 		<key>installed_size</key>
 		<integer>139304</integer>
 		<key>installer_item_hash</key>
