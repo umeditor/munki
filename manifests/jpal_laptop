@@ -26,6 +26,7 @@
 		<string>AdobeFlashPlayer</string>
 		<string>setting-login-window</string>
 		<string>jpal-disable8021x</string>
+		<string>setting-munki-InstallAppleSoftwareUpdates</string>
 	</array>
 	<key>managed_uninstalls</key>
 	<array>

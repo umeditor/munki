@@ -13,6 +13,7 @@
 	<array>
 		<string>munkitools_app</string>
 		<string>AdobeFlashPlayer</string>
+		<string>setting-munki-InstallAppleSoftwareUpdates</string>
 	</array>
 	<key>managed_uninstalls</key>
 	<array>

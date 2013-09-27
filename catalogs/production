@@ -11,6 +11,48 @@
 			<string>production</string>
 		</array>
 		<key>description</key>
+		<string>Configure Munki to install Apple software updates.</string>
+		<key>display_name</key>
+		<string>Settings: Munki Apple Software Updates</string>
+		<key>installcheck_script</key>
+		<string>#!/bin/sh
+
+DesiredValue=true
+CurrentValue=`/usr/bin/defaults read /Library/Preferences/ManagedInstalls.plist InstallAppleSoftwareUpdates`
+
+if [ "$DesiredValue" = "$CurrentValue" ] ; then
+	exit 1
+else
+	exit 0
+fi
+</string>
+		<key>installer_type</key>
+		<string>nopkg</string>
+		<key>minimum_os_version</key>
+		<string>10.8.0</string>
+		<key>name</key>
+		<string>setting-munki-InstallAppleSoftwareUpdates</string>
+		<key>postinstall_script</key>
+		<string>#!/bin/sh
+
+/usr/bin/defaults write /Library/Preferences/ManagedInstalls.plist InstallAppleSoftwareUpdates -bool "TRUE"
+
+exit 0
+</string>
+		<key>unattended_install</key>
+		<true/>
+		<key>version</key>
+		<string>1.0.0</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>testing</string>
+			<string>production</string>
+		</array>
+		<key>description</key>
 		<string>Configure login windows to display name and password fields.</string>
 		<key>display_name</key>
 		<string>Settings: Login Window</string>
