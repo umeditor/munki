@@ -5,7 +5,7 @@
 	<key>autoremove</key>
 	<false/>
 	<key>display_name</key>
-	<string>Settings: Munki Apple Software Updates</string>
+	<string>Settings: Apple Software Updates</string>
 	<key>description</key>
 	<string>Configure Munki to install Apple software updates.</string>
 	<key>catalogs</key>
