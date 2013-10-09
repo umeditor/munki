@@ -59,7 +59,7 @@ exit 0
 		<key>installcheck_script</key>
 		<string>#!/bin/sh
 
-DesiredValue=true
+DesiredValue=1
 CurrentValue=`/usr/bin/defaults read /Library/Preferences/ManagedInstalls.plist InstallAppleSoftwareUpdates`
 
 if [ "$DesiredValue" = "$CurrentValue" ] ; then
