@@ -1880,7 +1880,7 @@ exit 0
 		<key>installer_item_hash</key>
 		<string>be0f3277630ea2eee08b75ff59d0692d0af25e989e228905f0c9a5eb8772b060</string>
 		<key>installer_item_location</key>
-		<string>internet_plugins/AdobeFlashPlayer-11.9.900.117__3.dmg</string>
+		<string>internet_plugins/AdobeFlashPlayer-11.9.900.117.dmg</string>
 		<key>installer_item_size</key>
 		<integer>17974</integer>
 		<key>minimum_os_version</key>
