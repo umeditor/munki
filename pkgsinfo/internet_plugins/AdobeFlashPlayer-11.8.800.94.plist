@@ -17,7 +17,7 @@
 	<key>installer_item_hash</key>
 	<string>61456672f1052958008e320dc5d2f99286a7fe67bcece67703e37d36ae6c1677</string>
 	<key>installer_item_location</key>
-	<string>AdobeFlashPlayer-11.8.800.94.dmg</string>
+	<string>internet_plugins/AdobeFlashPlayer-11.8.800.94.dmg</string>
 	<key>installer_item_size</key>
 	<integer>17699</integer>
 	<key>installs</key>

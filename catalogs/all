@@ -1816,6 +1816,62 @@ exit 0
 			<string>testing</string>
 		</array>
 		<key>description</key>
+		<string></string>
+		<key>display_name</key>
+		<string>Adobe Flash Plug-In</string>
+		<key>installed_size</key>
+		<integer>18208</integer>
+		<key>installer_item_hash</key>
+		<string>61456672f1052958008e320dc5d2f99286a7fe67bcece67703e37d36ae6c1677</string>
+		<key>installer_item_location</key>
+		<string>internet_plugins/AdobeFlashPlayer-11.8.800.94.dmg</string>
+		<key>installer_item_size</key>
+		<integer>17699</integer>
+		<key>installs</key>
+		<array>
+			<dict>
+				<key>CFBundleShortVersionString</key>
+				<string>11.8.800.94</string>
+				<key>path</key>
+				<string>/Library/Internet Plug-Ins/Flash Player.plugin</string>
+				<key>type</key>
+				<string>bundle</string>
+			</dict>
+		</array>
+		<key>minimum_os_version</key>
+		<string>10.7.0</string>
+		<key>name</key>
+		<string>AdobeFlashPlayer</string>
+		<key>package_path</key>
+		<string>Install Adobe Flash Player.app/Contents/Resources/Adobe Flash Player.pkg</string>
+		<key>receipts</key>
+		<array>
+			<dict>
+				<key>filename</key>
+				<string>Adobe Flash Player.pkg</string>
+				<key>installed_size</key>
+				<integer>18208</integer>
+				<key>packageid</key>
+				<string>com.adobe.pkg.FlashPlayer</string>
+				<key>version</key>
+				<string>11.8.800.94</string>
+			</dict>
+		</array>
+		<key>uninstall_method</key>
+		<string>removepackages</string>
+		<key>uninstallable</key>
+		<false/>
+		<key>version</key>
+		<string>11.8.800.94</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>testing</string>
+		</array>
+		<key>description</key>
 		<string>Adobe® Flash® Player is a cross-platform browser-based application runtime that delivers uncompromised viewing of expressive applications, content, and videos across screens and browsers.</string>
 		<key>display_name</key>
 		<string>Adobe Flash Player</string>
