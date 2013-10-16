@@ -36,8 +36,6 @@
 			<string>1.0</string>
 		</dict>
 	</array>
-	<key>requires</key>
-	<string>HewlettPackardPrinterDrivers</string>
 	<key>uninstall_method</key>
 	<string>removepackages</string>
 	<key>uninstallable</key>
