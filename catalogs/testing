@@ -5044,22 +5044,6 @@ exit 0
 				<key>version_comparison_key</key>
 				<string>CFBundleShortVersionString</string>
 			</dict>
-			<dict>
-				<key>md5checksum</key>
-				<string>413897452cd3340b77b6db3d8f433620</string>
-				<key>path</key>
-				<string>/Library/Printers/PPDs/Contents/Resources/HP Color LaserJet CP5520 Series.gz</string>
-				<key>type</key>
-				<string>file</string>
-			</dict>
-			<dict>
-				<key>md5checksum</key>
-				<string>8b1a42f39819e48beae338c22239e991</string>
-				<key>path</key>
-				<string>/Library/Printers/PPDs/Contents/Resources/HP LaserJet 4350.gz</string>
-				<key>type</key>
-				<string>file</string>
-			</dict>
 		</array>
 		<key>minimum_os_version</key>
 		<string>10.5.0</string>
