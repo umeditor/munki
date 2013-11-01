@@ -75,17 +75,6 @@
 	<string>10.7.0</string>
 	<key>name</key>
 	<string>VMwareFusion</string>
-	<key>receipts</key>
-	<array>
-		<dict>
-			<key>installed_size</key>
-			<integer>0</integer>
-			<key>packageid</key>
-			<string>com.vmware.fusion.pkg.massdeploy</string>
-			<key>version</key>
-			<string>1.0</string>
-		</dict>
-	</array>
 	<key>uninstall_method</key>
 	<string>removepackages</string>
 	<key>uninstallable</key>
