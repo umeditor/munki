@@ -40,22 +40,6 @@
 		</dict>
 		<dict>
 			<key>CFBundleIdentifier</key>
-			<string>com.vmware.installHelper.gettingstarted</string>
-			<key>CFBundleName</key>
-			<string>Getting Started</string>
-			<key>CFBundleShortVersionString</key>
-			<string>5.0.3</string>
-			<key>CFBundleVersion</key>
-			<string>1040386</string>
-			<key>path</key>
-			<string>Applications/VMware Fusion.app/Contents/Library/Getting Started.app</string>
-			<key>type</key>
-			<string>application</string>
-			<key>version_comparison_key</key>
-			<string>CFBundleShortVersionString</string>
-		</dict>
-		<dict>
-			<key>CFBundleIdentifier</key>
 			<string>com.vmware.fusionStartMenu</string>
 			<key>CFBundleName</key>
 			<string>VMware Fusion Start Menu</string>
