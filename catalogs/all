@@ -1740,7 +1740,7 @@ exit 0
   </string>
 		<key>requires</key>
 		<array>
-			<string>adobe-acrobatpro-10.0.0</string>
+			<string>AdobeAcrobatProX-10.0.0</string>
 		</array>
 		<key>uninstall_method</key>
 		<string>remove_copied_items</string>
@@ -1763,6 +1763,7 @@ exit 0
 		<key>catalogs</key>
 		<array>
 			<string>testing</string>
+			<string>production</string>
 		</array>
 		<key>description</key>
 		<string></string>

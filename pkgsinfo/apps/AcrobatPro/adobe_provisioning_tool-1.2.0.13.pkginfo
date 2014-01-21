@@ -65,7 +65,7 @@
   </array>
 	<key>requires</key>
   <array>
-    <string>adobe-acrobatpro-10.0.0</string>
+    <string>AdobeAcrobatProX-10.0.0</string>
   </array>
   <key>postinstall_script</key>
   <string>#!/bin/sh
