@@ -16,7 +16,7 @@
 	<key>installed_size</key>
 	<integer>1796730</integer>
 	<key>installer_item_location</key>
-	<string>microsoft/ms-office-2011-14.3.0.dmg</string>
+	<string>apps/Office2011/ms-office-2011-14.3.0.dmg</string>
 	<key>installer_item_size</key>
 	<integer>1048198</integer>
 	<key>minimum_os_version</key>

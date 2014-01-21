@@ -18,7 +18,7 @@
 	<key>installer_item_hash</key>
 	<string>6ddf86a7fd4cf3a3a5e0875ef5bc50178e2be0b691426e5eed997712bc9bb60e</string>
 	<key>installer_item_location</key>
-	<string>microsoft/Office2011-1435UpdateEN-14.3.5.dmg</string>
+	<string>apps/Office2011/Office2011-1435UpdateEN-14.3.5.dmg</string>
 	<key>installer_item_size</key>
 	<integer>115751</integer>
 	<key>minimum_os_version</key>
