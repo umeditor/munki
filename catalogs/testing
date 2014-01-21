@@ -1587,7 +1587,7 @@ exit 0
 		<key>minimum_os_version</key>
 		<string>10.5.0</string>
 		<key>name</key>
-		<string>adobe-acrobatpro</string>
+		<string>AdobeAcrobatProX</string>
 		<key>preinstall_script</key>
 		<string>#!/bin/sh
 if [ -e "/Applications/Adobe Reader.app" ]; then
@@ -1608,7 +1608,7 @@ exit 0
 		</array>
 		<key>requires</key>
 		<array>
-			<string>adobe-acrobatpro-10.0.0</string>
+			<string>AdobeAcrobatProX-10.0.0</string>
 		</array>
 		<key>uninstall_method</key>
 		<string>removepackages</string>
@@ -1664,7 +1664,7 @@ exit 0
 		</array>
 		<key>requires</key>
 		<array>
-			<string>adobe-acrobatpro-10.0.0</string>
+			<string>AdobeAcrobatProX-10.0.0</string>
 		</array>
 		<key>uninstall_method</key>
 		<string>removepackages</string>
@@ -1672,7 +1672,7 @@ exit 0
 		<true/>
 		<key>update_for</key>
 		<array>
-			<string>adobe-acrobatpro</string>
+			<string>AdobeAcrobatProX</string>
 		</array>
 		<key>version</key>
 		<string>10.1.8</string>

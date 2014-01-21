@@ -24,7 +24,7 @@
 	<key>minimum_os_version</key>
 	<string>10.5.0</string>
 	<key>name</key>
-	<string>adobe-acrobatpro</string>
+	<string>AdobeAcrobatProX</string>
 	<key>receipts</key>
 	<array>
 		<dict>
@@ -48,7 +48,7 @@
   </array>
 	<key>requires</key>
   <array>
-    <string>adobe-acrobatpro-10.0.0</string>
+    <string>AdobeAcrobatProX-10.0.0</string>
   </array>
   <key>preinstall_script</key>
   <string>#!/bin/sh
