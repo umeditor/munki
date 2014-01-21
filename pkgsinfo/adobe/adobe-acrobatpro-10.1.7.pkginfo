@@ -44,7 +44,7 @@
 	<string>10.1.7</string>
 	<key>update_for</key>
   <array>
-    <string>adobe-acrobatpro</string>
+    <string>AdobeAcrobatProX</string>
   </array>
 	<key>requires</key>
   <array>

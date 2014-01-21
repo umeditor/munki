@@ -61,7 +61,7 @@
 	<string>1.2.0.13</string>
 	<key>update_for</key>
   <array>
-    <string>adobe-acrobatpro</string>
+    <string>AdobeAcrobatProX</string>
   </array>
 	<key>requires</key>
   <array>
