@@ -5476,7 +5476,7 @@ exit 0
 		<key>installer_item_hash</key>
 		<string>a6ec92e3a0fbbee8ebba55cdd08b32a9e8912022fbff68e6409160b751902d34</string>
 		<key>installer_item_location</key>
-		<string>apps/vmware/VMwareFusion-6.0.dmg</string>
+		<string>apps/vmware/VMwareFusion-6.0.2.dmg</string>
 		<key>installer_item_size</key>
 		<integer>542869</integer>
 		<key>installs</key>
