@@ -5,14 +5,17 @@
 	<key>catalogs</key>
 	<array>
 		<string>testing</string>
+		<string>production</string>
 	</array>
 	<key>included_manifests</key>
 	<array>
 	</array>
 	<key>managed_installs</key>
 	<array>
-		<string>munkitools_app</string>
-		<string>AdobeFlashPlayer</string>
+		<string>munkitools_core</string>
+		<string>munkitools</string>
+		<string>munkitools_admin</string>
+		<string>munkitools_launchd</string>
 		<string>setting-munki-InstallAppleSoftwareUpdates</string>
 	</array>
 	<key>managed_uninstalls</key>

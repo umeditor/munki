@@ -7,6 +7,7 @@
 	<key>catalogs</key>
 	<array>
 		<string>development</string>
+		<string>production</string>
 	</array>
 	<key>description</key>
 	<string>Command-line Managed Software Update admin tools.</string>

@@ -7,11 +7,9 @@
 		<string>production</string>
 	</array>
 	<key>included_manifests</key>
-	<array>
-		<string>munki_client</string>
-	</array>
 	<key>managed_installs</key>
 	<array>
+		<string>munkitools_app</string>
 	</array>
 	<key>optional_installs</key>
 	<array>

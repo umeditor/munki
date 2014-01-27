@@ -19,7 +19,7 @@
 	<key>installer_item_hash</key>
 	<string>b1fa1117d325f4d0f478fc69eb59a6811b02499ccf5363c0ac160abd59392a7c</string>
 	<key>installer_item_location</key>
-	<string>munkitools-0.9.0.1803.0.dmg</string>
+	<string>munkitools/munkitools-0.9.0.1803.0.dmg</string>
 	<key>installer_item_size</key>
 	<integer>886</integer>
 	<key>minimum_os_version</key>

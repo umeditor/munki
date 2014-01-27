@@ -2,52 +2,51 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>RestartAction</key>
+	<string>RequireRestart</string>
 	<key>autoremove</key>
 	<false/>
 	<key>catalogs</key>
 	<array>
-		<string>testing</string>
+		<string>development</string>
+		<string>production</string>
 	</array>
 	<key>description</key>
-	<string></string>
+	<string>launchd configuration files for use by Managed Software Update</string>
 	<key>display_name</key>
-	<string>Munki Core Components</string>
+	<string>Managed Software Update launchd files</string>
 	<key>installed_size</key>
-	<integer>568</integer>
+	<integer>32</integer>
 	<key>installer_item_hash</key>
-	<string>b1fa1117d325f4d0f478fc69eb59a6811b02499ccf5363c0ac160abd59392a7c</string>
+	<string>3edb00563029a981d8208afd5b8faa5270e199946bd62cbdb13be9328fafce68</string>
 	<key>installer_item_location</key>
-	<string>munkitools-0.9.0.1803.0.dmg</string>
+	<string>munkitools/munkitools-1.0.0.1864.0.dmg</string>
 	<key>installer_item_size</key>
-	<integer>886</integer>
+	<integer>891</integer>
 	<key>minimum_os_version</key>
 	<string>10.4.0</string>
 	<key>name</key>
-	<string>munkitools_core</string>
+	<string>munkitools_launchd</string>
 	<key>package_path</key>
-	<string>munkitools-0.9.0.1803.0.mpkg/Contents/Packages/munkitools_core-0.9.0.1797.0.pkg</string>
+	<string>munkitools-1.0.0.1864.0.mpkg/Contents/Packages/munkitools_launchd-0.8.0.1.pkg</string>
 	<key>receipts</key>
 	<array>
 		<dict>
 			<key>filename</key>
-			<string>munkitools_core-0.9.0.1797.0.pkg</string>
+			<string>munkitools_launchd-0.8.0.1.pkg</string>
 			<key>installed_size</key>
-			<integer>568</integer>
+			<integer>32</integer>
 			<key>packageid</key>
-			<string>com.googlecode.munki.core</string>
+			<string>com.googlecode.munki.launchd</string>
 			<key>version</key>
-			<string>0.9.0.1797.0</string>
+			<string>0.8.0.1</string>
 		</dict>
-	</array>
-	<key>requires</key>
-	<array>
-		<string>munkitools_launchd</string>
 	</array>
 	<key>uninstall_method</key>
 	<string>removepackages</string>
 	<key>uninstallable</key>
-	<false/>
+	<true/>
 	<key>version</key>
-	<string>0.9.0.1797.0</string>
+	<string>0.8.0.1</string>
 </dict>
 </plist>
