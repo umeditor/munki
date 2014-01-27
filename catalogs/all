@@ -5765,6 +5765,7 @@ exit 0
 		<array>
 			<string>development</string>
 			<string>production</string>
+			<string>testing</string>
 		</array>
 		<key>description</key>
 		<string>Managed Software Update application.</string>
@@ -5818,6 +5819,7 @@ exit 0
 		<array>
 			<string>development</string>
 			<string>production</string>
+			<string>testing</string>
 		</array>
 		<key>description</key>
 		<string>Command-line Managed Software Update admin tools.</string>
@@ -5870,6 +5872,7 @@ exit 0
 		<array>
 			<string>development</string>
 			<string>production</string>
+			<string>testing</string>
 		</array>
 		<key>description</key>
 		<string>Core command-line tools used by Managed Software Update.</string>
@@ -5924,6 +5927,7 @@ exit 0
 		<array>
 			<string>development</string>
 			<string>production</string>
+			<string>testing</string>
 		</array>
 		<key>description</key>
 		<string>launchd configuration files for use by Managed Software Update</string>

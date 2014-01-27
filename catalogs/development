@@ -9,6 +9,7 @@
 		<array>
 			<string>development</string>
 			<string>production</string>
+			<string>testing</string>
 		</array>
 		<key>description</key>
 		<string>Managed Software Update application.</string>
@@ -62,6 +63,7 @@
 		<array>
 			<string>development</string>
 			<string>production</string>
+			<string>testing</string>
 		</array>
 		<key>description</key>
 		<string>Command-line Managed Software Update admin tools.</string>
@@ -114,6 +116,7 @@
 		<array>
 			<string>development</string>
 			<string>production</string>
+			<string>testing</string>
 		</array>
 		<key>description</key>
 		<string>Core command-line tools used by Managed Software Update.</string>
@@ -168,6 +171,7 @@
 		<array>
 			<string>development</string>
 			<string>production</string>
+			<string>testing</string>
 		</array>
 		<key>description</key>
 		<string>launchd configuration files for use by Managed Software Update</string>
