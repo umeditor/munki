@@ -45,11 +45,32 @@
 			<string>1.0</string>
 		</dict>
 	</array>
+	<key>installs</key>
+	<array>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.vmware.fusion</string>
+			<key>CFBundleName</key>
+			<string>VMware Fusion</string>
+			<key>CFBundleShortVersionString</key>
+			<string>6.0.2</string>
+			<key>CFBundleVersion</key>
+			<string>1398658</string>
+			<key>minosversion</key>
+			<string>10.7.0</string>
+			<key>path</key>
+			<string>/Applications/VMware Fusion.app</string>
+			<key>type</key>
+			<string>application</string>
+			<key>version_comparison_key</key>
+			<string>CFBundleShortVersionString</string>
+		</dict>
+	</array>
 	<key>uninstall_method</key>
 	<string>removepackages</string>
 	<key>uninstallable</key>
 	<true/>
 	<key>version</key>
-	<string>6.0</string>
+	<string>6.0.2</string>
 </dict>
 </plist>
