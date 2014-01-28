@@ -1500,63 +1500,6 @@ exit 0
 		<key>description</key>
 		<string></string>
 		<key>display_name</key>
-		<string>Adobe Acrobat X Pro</string>
-		<key>installed_size</key>
-		<integer>139304</integer>
-		<key>installer_item_hash</key>
-		<string>1f3e4f2890ee8332c1ccb608d7eeec2252a8e1864a37c583a02ec367e85ba9a2</string>
-		<key>installer_item_location</key>
-		<string>adobe/AcrobatUpd1018-10.1.8.dmg</string>
-		<key>installer_item_size</key>
-		<integer>141634</integer>
-		<key>minimum_os_version</key>
-		<string>10.5.0</string>
-		<key>name</key>
-		<string>AdobeAcrobatProX</string>
-		<key>preinstall_script</key>
-		<string>#!/bin/sh
-if [ -e "/Applications/Adobe Reader.app" ]; then
-  rm -r "/Applications/Adobe Reader.app"
-fi
-exit 0
-  	</string>
-		<key>receipts</key>
-		<array>
-			<dict>
-				<key>installed_size</key>
-				<integer>139304</integer>
-				<key>packageid</key>
-				<string>com.adobe.acrobat.a10.AcrobatUpd1018</string>
-				<key>version</key>
-				<string>10.1.8</string>
-			</dict>
-		</array>
-		<key>requires</key>
-		<array>
-			<string>AdobeAcrobatProX-10.0.0</string>
-		</array>
-		<key>uninstall_method</key>
-		<string>removepackages</string>
-		<key>uninstallable</key>
-		<true/>
-		<key>update_for</key>
-		<array>
-			<string>AdobeAcrobatProX</string>
-		</array>
-		<key>version</key>
-		<string>10.1.8</string>
-	</dict>
-	<dict>
-		<key>autoremove</key>
-		<false/>
-		<key>catalogs</key>
-		<array>
-			<string>testing</string>
-			<string>production</string>
-		</array>
-		<key>description</key>
-		<string></string>
-		<key>display_name</key>
 		<string>Adobe Provisioning Tool</string>
 		<key>installer_item_hash</key>
 		<string>10ab320e0521694923dbb1e8db832b6592c119130e28c9f708c246629df4d609</string>
@@ -3457,6 +3400,7 @@ exit 0
 		<key>catalogs</key>
 		<array>
 			<string>testing</string>
+			<string>production</string>
 		</array>
 		<key>description</key>
 		<string></string>
@@ -3981,6 +3925,7 @@ exit 0
 		<key>catalogs</key>
 		<array>
 			<string>testing</string>
+			<string>production</string>
 		</array>
 		<key>description</key>
 		<string></string>
@@ -4505,6 +4450,7 @@ exit 0
 		<key>catalogs</key>
 		<array>
 			<string>testing</string>
+			<string>production</string>
 		</array>
 		<key>description</key>
 		<string></string>

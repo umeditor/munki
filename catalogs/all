@@ -1493,10 +1493,7 @@ exit 0
 		<key>autoremove</key>
 		<false/>
 		<key>catalogs</key>
-		<array>
-			<string>testing</string>
-			<string>production</string>
-		</array>
+		<array/>
 		<key>description</key>
 		<string></string>
 		<key>display_name</key>
@@ -3457,6 +3454,7 @@ exit 0
 		<key>catalogs</key>
 		<array>
 			<string>testing</string>
+			<string>production</string>
 		</array>
 		<key>description</key>
 		<string></string>
@@ -3981,6 +3979,7 @@ exit 0
 		<key>catalogs</key>
 		<array>
 			<string>testing</string>
+			<string>production</string>
 		</array>
 		<key>description</key>
 		<string></string>
@@ -4505,6 +4504,7 @@ exit 0
 		<key>catalogs</key>
 		<array>
 			<string>testing</string>
+			<string>production</string>
 		</array>
 		<key>description</key>
 		<string></string>
