@@ -1699,7 +1699,7 @@ exit 0
 		<key>minimum_os_version</key>
 		<string>10.5.0</string>
 		<key>name</key>
-		<string>Office2011</string>
+		<string>Office2011_update</string>
 		<key>receipts</key>
 		<array>
 			<dict>
@@ -2236,7 +2236,7 @@ exit 0
 		<key>minimum_os_version</key>
 		<string>10.5.0</string>
 		<key>name</key>
-		<string>Office2011</string>
+		<string>Office2011_update</string>
 		<key>receipts</key>
 		<array>
 			<dict>
@@ -2761,7 +2761,7 @@ exit 0
 		<key>minimum_os_version</key>
 		<string>10.6.0</string>
 		<key>name</key>
-		<string>Office2011Update</string>
+		<string>Office2011_update</string>
 		<key>receipts</key>
 		<array>
 			<dict>
@@ -3286,7 +3286,7 @@ exit 0
 		<key>minimum_os_version</key>
 		<string>10.6.0</string>
 		<key>name</key>
-		<string>Office2011Update</string>
+		<string>Office2011_update</string>
 		<key>receipts</key>
 		<array>
 			<dict>
@@ -3811,7 +3811,7 @@ exit 0
 		<key>minimum_os_version</key>
 		<string>10.6.0</string>
 		<key>name</key>
-		<string>Office2011Update</string>
+		<string>Office2011_update</string>
 		<key>receipts</key>
 		<array>
 			<dict>
