@@ -736,66 +736,6 @@ exit 0
 		<array>
 			<string>testing</string>
 		</array>
-		<key>installer_item_hash</key>
-		<string>cc549d8dfccd5f056917500cb7bfadaffe4db536c14cab2c0c5c6e9c1f2abefc</string>
-		<key>installer_item_location</key>
-		<string>Skype-6.7.0.373.dmg</string>
-		<key>installer_item_size</key>
-		<integer>40035</integer>
-		<key>installer_type</key>
-		<string>copy_from_dmg</string>
-		<key>installs</key>
-		<array>
-			<dict>
-				<key>CFBundleIdentifier</key>
-				<string>com.skype.skype</string>
-				<key>CFBundleShortVersionString</key>
-				<string>6.7.0.373</string>
-				<key>CFBundleVersion</key>
-				<string>6.7.0.373</string>
-				<key>minosversion</key>
-				<string>10.6.0</string>
-				<key>path</key>
-				<string>/Applications/Skype.app</string>
-				<key>type</key>
-				<string>application</string>
-				<key>version_comparison_key</key>
-				<string>CFBundleShortVersionString</string>
-			</dict>
-		</array>
-		<key>items_to_copy</key>
-		<array>
-			<dict>
-				<key>destination_path</key>
-				<string>/Applications</string>
-				<key>group</key>
-				<string>admin</string>
-				<key>mode</key>
-				<string>go-w</string>
-				<key>source_item</key>
-				<string>Skype.app</string>
-				<key>user</key>
-				<string>root</string>
-			</dict>
-		</array>
-		<key>minimum_os_version</key>
-		<string>10.7.0</string>
-		<key>name</key>
-		<string>Skype</string>
-		<key>uninstall_method</key>
-		<string>remove_copied_items</string>
-		<key>uninstallable</key>
-		<false/>
-		<key>version</key>
-		<string>6.7.0.373</string>
-	</dict>
-	<dict>
-		<key>autoremove</key>
-		<false/>
-		<key>catalogs</key>
-		<array>
-			<string>testing</string>
-		</array>
 		<key>description</key>
 		<string>This software detects and cleans up viruses, Trojans, worms and spyware, as well as adware and other potentially unwanted applications.</string>
 		<key>display_name</key>
@@ -1338,6 +1278,66 @@ exit 0
 		<true/>
 		<key>version</key>
 		<string>6.12</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>testing</string>
+		</array>
+		<key>installer_item_hash</key>
+		<string>cc549d8dfccd5f056917500cb7bfadaffe4db536c14cab2c0c5c6e9c1f2abefc</string>
+		<key>installer_item_location</key>
+		<string>apps/Skype-6.7.0.373.dmg</string>
+		<key>installer_item_size</key>
+		<integer>40035</integer>
+		<key>installer_type</key>
+		<string>copy_from_dmg</string>
+		<key>installs</key>
+		<array>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>com.skype.skype</string>
+				<key>CFBundleShortVersionString</key>
+				<string>6.7.0.373</string>
+				<key>CFBundleVersion</key>
+				<string>6.7.0.373</string>
+				<key>minosversion</key>
+				<string>10.6.0</string>
+				<key>path</key>
+				<string>/Applications/Skype.app</string>
+				<key>type</key>
+				<string>application</string>
+				<key>version_comparison_key</key>
+				<string>CFBundleShortVersionString</string>
+			</dict>
+		</array>
+		<key>items_to_copy</key>
+		<array>
+			<dict>
+				<key>destination_path</key>
+				<string>/Applications</string>
+				<key>group</key>
+				<string>admin</string>
+				<key>mode</key>
+				<string>go-w</string>
+				<key>source_item</key>
+				<string>Skype.app</string>
+				<key>user</key>
+				<string>root</string>
+			</dict>
+		</array>
+		<key>minimum_os_version</key>
+		<string>10.7.0</string>
+		<key>name</key>
+		<string>Skype</string>
+		<key>uninstall_method</key>
+		<string>remove_copied_items</string>
+		<key>uninstallable</key>
+		<false/>
+		<key>version</key>
+		<string>6.7.0.373</string>
 	</dict>
 	<dict>
 		<key>autoremove</key>
