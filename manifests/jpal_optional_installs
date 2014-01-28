@@ -7,6 +7,8 @@
 		<string>production</string>
 	</array>
 	<key>included_manifests</key>
+	<array>
+	</array>
 	<key>managed_installs</key>
 	<array>
 		<string>munkitools_core</string>
