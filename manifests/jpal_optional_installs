@@ -9,7 +9,10 @@
 	<key>included_manifests</key>
 	<key>managed_installs</key>
 	<array>
-		<string>munkitools_app</string>
+		<string>munkitools_core</string>
+		<string>munkitools</string>
+		<string>munkitools_admin</string>
+		<string>munkitools_launchd</string>
 	</array>
 	<key>optional_installs</key>
 	<array>
