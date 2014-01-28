@@ -235,6 +235,339 @@ exit 0
 			<string>production</string>
 		</array>
 		<key>description</key>
+		<string>This software detects and cleans up viruses, Trojans, worms and spyware, as well as adware and other potentially unwanted applications.</string>
+		<key>display_name</key>
+		<string>Sophos Anti-Virus</string>
+		<key>installed_size</key>
+		<integer>234504</integer>
+		<key>installer_item_hash</key>
+		<string>f190527afd6448c0b71887277ccebd967015f2c0a992a1a97eb39689c5557ee0</string>
+		<key>installer_item_location</key>
+		<string>SophosAntiVirus-8.0.14.dmg</string>
+		<key>installer_item_size</key>
+		<integer>86787</integer>
+		<key>installs</key>
+		<array>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>com.sophos.sav</string>
+				<key>CFBundleName</key>
+				<string>Sophos Anti-Virus</string>
+				<key>CFBundleShortVersionString</key>
+				<string>8.0.14</string>
+				<key>CFBundleVersion</key>
+				<string>2305469</string>
+				<key>path</key>
+				<string>/Applications/Sophos Anti-Virus.app</string>
+				<key>type</key>
+				<string>application</string>
+				<key>version_comparison_key</key>
+				<string>CFBundleShortVersionString</string>
+			</dict>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>com.sophos.sav.ic</string>
+				<key>CFBundleName</key>
+				<string>InterCheck</string>
+				<key>CFBundleShortVersionString</key>
+				<string>8.0.8.1</string>
+				<key>CFBundleVersion</key>
+				<string>8.0.8.1</string>
+				<key>path</key>
+				<string>/Library/Sophos Anti-Virus/InterCheck.app</string>
+				<key>type</key>
+				<string>application</string>
+				<key>version_comparison_key</key>
+				<string>CFBundleShortVersionString</string>
+			</dict>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>com.Sophos.SophosServer</string>
+				<key>CFBundleName</key>
+				<string>SophosAntiVirus</string>
+				<key>CFBundleShortVersionString</key>
+				<string>8.0.8.1</string>
+				<key>CFBundleVersion</key>
+				<string>8.0.8.1</string>
+				<key>path</key>
+				<string>/Library/Sophos Anti-Virus/SophosAntiVirus.app</string>
+				<key>type</key>
+				<string>application</string>
+				<key>version_comparison_key</key>
+				<string>CFBundleShortVersionString</string>
+			</dict>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>com.sophos.autoupdate</string>
+				<key>CFBundleName</key>
+				<string>Sophos AutoUpdate</string>
+				<key>CFBundleShortVersionString</key>
+				<string>8.0.12</string>
+				<key>CFBundleVersion</key>
+				<string>8.0.12</string>
+				<key>path</key>
+				<string>/Library/Sophos Anti-Virus/SophosAutoUpdate.app</string>
+				<key>type</key>
+				<string>application</string>
+				<key>version_comparison_key</key>
+				<string>CFBundleShortVersionString</string>
+			</dict>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>com.sophos.ui</string>
+				<key>CFBundleName</key>
+				<string>SophosUIServer</string>
+				<key>CFBundleShortVersionString</key>
+				<string>8.0.14</string>
+				<key>CFBundleVersion</key>
+				<string>2305469</string>
+				<key>path</key>
+				<string>/Library/Sophos Anti-Virus/SophosUIServer.app</string>
+				<key>type</key>
+				<string>application</string>
+				<key>version_comparison_key</key>
+				<string>CFBundleShortVersionString</string>
+			</dict>
+		</array>
+		<key>minimum_os_version</key>
+		<string>10.7.0</string>
+		<key>name</key>
+		<string>SophosAntiVirus</string>
+		<key>receipts</key>
+		<array>
+			<dict>
+				<key>filename</key>
+				<string>SophosAUCLI8.0.1.pkg</string>
+				<key>installed_size</key>
+				<integer>44</integer>
+				<key>name</key>
+				<string>Sophos AutoUpdate CLI Installer</string>
+				<key>packageid</key>
+				<string>com.sophos.sau.cli.8.0.1.installer</string>
+				<key>version</key>
+				<string>8.0.1</string>
+			</dict>
+			<dict>
+				<key>filename</key>
+				<string>SophosAUSrv8.0.12.pkg</string>
+				<key>installed_size</key>
+				<integer>108256</integer>
+				<key>name</key>
+				<string>Sophos AutoUpdate Server Installer</string>
+				<key>packageid</key>
+				<string>com.sophos.sau.srv.8.0.12.installer</string>
+				<key>version</key>
+				<string>8.0.12</string>
+			</dict>
+			<dict>
+				<key>filename</key>
+				<string>SophosAVCLI2.07.343.10.pkg</string>
+				<key>installed_size</key>
+				<integer>228</integer>
+				<key>name</key>
+				<string>Sophos Anti-Virus Command Line Scanner Installer</string>
+				<key>packageid</key>
+				<string>com.sophos.sav.cli.4.89.0.installer</string>
+				<key>version</key>
+				<string>2.07.343.10</string>
+			</dict>
+			<dict>
+				<key>filename</key>
+				<string>SophosAVData4.89.pkg</string>
+				<key>installed_size</key>
+				<integer>56276</integer>
+				<key>name</key>
+				<string>Sophos Anti-Virus Virus Data Installer</string>
+				<key>packageid</key>
+				<string>com.sophos.sav.data.8.0.installer</string>
+				<key>version</key>
+				<string>4.89</string>
+			</dict>
+			<dict>
+				<key>filename</key>
+				<string>SophosAVFinderPlugin8.0.1.pkg</string>
+				<key>installed_size</key>
+				<integer>96</integer>
+				<key>name</key>
+				<string>Sophos Anti-Virus Immediate Scanner Finder Plugin Installer</string>
+				<key>packageid</key>
+				<string>com.sophos.cmplugin.8.0.1.installer</string>
+				<key>version</key>
+				<string>8.0.1</string>
+			</dict>
+			<dict>
+				<key>filename</key>
+				<string>SophosAVImmediate8.0.14.pkg</string>
+				<key>installed_size</key>
+				<integer>12368</integer>
+				<key>name</key>
+				<string>Sophos Anti-Virus Immediate Scanner Installer</string>
+				<key>packageid</key>
+				<string>com.sophos.sav.gui.8.0.14.installer</string>
+				<key>version</key>
+				<string>8.0.14</string>
+			</dict>
+			<dict>
+				<key>filename</key>
+				<string>SophosAVOnAccess8.0.14.pkg</string>
+				<key>installed_size</key>
+				<integer>584</integer>
+				<key>name</key>
+				<string>Sophos Anti-Virus On-Access Scanner Installer</string>
+				<key>packageid</key>
+				<string>com.sophos.sav.ic.8.0.14.installer</string>
+				<key>version</key>
+				<string>8.0.14</string>
+			</dict>
+			<dict>
+				<key>filename</key>
+				<string>SophosAVSAVI2.07.343.10.pkg</string>
+				<key>installed_size</key>
+				<integer>26896</integer>
+				<key>name</key>
+				<string>Sophos Anti-Virus SAV Interface Installer</string>
+				<key>packageid</key>
+				<string>com.sophos.sav.savi.4.89.0.installer</string>
+				<key>version</key>
+				<string>2.07.343.10</string>
+			</dict>
+			<dict>
+				<key>filename</key>
+				<string>SophosAVSrv8.0.8.1.pkg</string>
+				<key>installed_size</key>
+				<integer>1148</integer>
+				<key>name</key>
+				<string>Sophos Anti-Virus Server Installer</string>
+				<key>packageid</key>
+				<string>com.sophos.sav.srv.8.0.8.1.installer</string>
+				<key>version</key>
+				<string>8.0.8.1</string>
+			</dict>
+			<dict>
+				<key>filename</key>
+				<string>SophosAVSUMScanKit8.0.8.1.pkg</string>
+				<key>installed_size</key>
+				<integer>820</integer>
+				<key>name</key>
+				<string>Sophos Anti-Virus Scan Kit Installer</string>
+				<key>packageid</key>
+				<string>com.sophos.sav.sumscankit.8.0.8.1.installer</string>
+				<key>version</key>
+				<string>8.0.8.1</string>
+			</dict>
+			<dict>
+				<key>filename</key>
+				<string>SophosLibs7.2.0.pkg</string>
+				<key>installed_size</key>
+				<integer>16268</integer>
+				<key>name</key>
+				<string>Sophos Libraries Installer</string>
+				<key>packageid</key>
+				<string>com.sophos.libs.7.2.0.installer</string>
+				<key>version</key>
+				<string>7.2.0</string>
+			</dict>
+			<dict>
+				<key>filename</key>
+				<string>SophosRMSAUAdptr8.0.8.1.pkg</string>
+				<key>installed_size</key>
+				<integer>184</integer>
+				<key>name</key>
+				<string>Sophos Remote Management System SAU Adapter Installer</string>
+				<key>packageid</key>
+				<string>com.sophos.rms.sau.8.0.8.1.installer</string>
+				<key>version</key>
+				<string>8.0.8.1</string>
+			</dict>
+			<dict>
+				<key>filename</key>
+				<string>SophosRMSAVAdptr8.0.5.pkg</string>
+				<key>installed_size</key>
+				<integer>140</integer>
+				<key>name</key>
+				<string>Sophos Remote Management System SAV Adapter Installer</string>
+				<key>packageid</key>
+				<string>com.sophos.rms.sav.8.0.5.installer</string>
+				<key>version</key>
+				<string>8.0.5</string>
+			</dict>
+			<dict>
+				<key>filename</key>
+				<string>SophosRMSLibs.pkg</string>
+				<key>installed_size</key>
+				<integer>564</integer>
+				<key>name</key>
+				<string>Sophos Remote Management System Libraries Installer</string>
+				<key>packageid</key>
+				<string>com.sophos.rms.libs.8.0.4.installer</string>
+				<key>version</key>
+				<string>8.0.4</string>
+			</dict>
+			<dict>
+				<key>filename</key>
+				<string>SophosRMSMgmtAgent.pkg</string>
+				<key>installed_size</key>
+				<integer>3660</integer>
+				<key>name</key>
+				<string>Sophos Remote Management System Agent Installer</string>
+				<key>packageid</key>
+				<string>com.sophos.rms.agent.8.0.14.installer</string>
+				<key>version</key>
+				<string>8.0.14</string>
+			</dict>
+			<dict>
+				<key>filename</key>
+				<string>SophosRMSMsgRouter.pkg</string>
+				<key>installed_size</key>
+				<integer>4084</integer>
+				<key>name</key>
+				<string>Sophos Remote Management System Router Installer</string>
+				<key>packageid</key>
+				<string>com.sophos.rms.router.8.0.8.installer</string>
+				<key>version</key>
+				<string>8.0.8</string>
+			</dict>
+			<dict>
+				<key>filename</key>
+				<string>SophosSecurityLibs7.2.0.pkg</string>
+				<key>installed_size</key>
+				<integer>2236</integer>
+				<key>name</key>
+				<string>Sophos Security Libraries Installer</string>
+				<key>packageid</key>
+				<string>com.sophos.security.7.2.0.installer</string>
+				<key>version</key>
+				<string>7.2.0</string>
+			</dict>
+			<dict>
+				<key>filename</key>
+				<string>SophosUI8.0.14.pkg</string>
+				<key>installed_size</key>
+				<integer>652</integer>
+				<key>name</key>
+				<string>Sophos Anti-Virus UI Installer</string>
+				<key>packageid</key>
+				<string>com.sophos.ui.8.0.14.installer</string>
+				<key>version</key>
+				<string>8.0.14</string>
+			</dict>
+		</array>
+		<key>uninstall_method</key>
+		<string>removepackages</string>
+		<key>uninstallable</key>
+		<false/>
+		<key>version</key>
+		<string>8.0.14</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>testing</string>
+			<string>production</string>
+		</array>
+		<key>description</key>
 		<string>Internet voice and video chat application</string>
 		<key>display_name</key>
 		<string>Skype</string>

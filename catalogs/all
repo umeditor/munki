@@ -737,6 +737,7 @@ exit 0
 		<key>catalogs</key>
 		<array>
 			<string>testing</string>
+			<string>production</string>
 		</array>
 		<key>description</key>
 		<string>This software detects and cleans up viruses, Trojans, worms and spyware, as well as adware and other potentially unwanted applications.</string>
