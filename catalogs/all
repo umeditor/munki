@@ -6424,51 +6424,6 @@ exit 0
 		<key>catalogs</key>
 		<array>
 			<string>testing</string>
-		</array>
-		<key>description</key>
-		<string>Install the printer BlackSabbath, located in E53-310.</string>
-		<key>display_name</key>
-		<string>Printer: BlackSabbath</string>
-		<key>installer_item_hash</key>
-		<string>66f6c6b1d942a3e576b13dce9c271ad4c9e6547c3026126def8e28e8096cf746</string>
-		<key>installer_item_location</key>
-		<string>printers/BlackSabbath-1.1.dmg</string>
-		<key>installer_item_size</key>
-		<integer>13</integer>
-		<key>minimum_os_version</key>
-		<string>10.4.0</string>
-		<key>name</key>
-		<string>BlackSabbath</string>
-		<key>receipts</key>
-		<array>
-			<dict>
-				<key>filename</key>
-				<string>BlackSabbath-1.1.pkg</string>
-				<key>installed_size</key>
-				<integer>0</integer>
-				<key>packageid</key>
-				<string>org.povertyactionlab.BlackSabbath</string>
-				<key>version</key>
-				<string>1.1</string>
-			</dict>
-		</array>
-		<key>requires</key>
-		<array>
-			<string>BizHubC280Drivers</string>
-		</array>
-		<key>uninstall_method</key>
-		<string>removepackages</string>
-		<key>uninstallable</key>
-		<true/>
-		<key>version</key>
-		<string>1.2</string>
-	</dict>
-	<dict>
-		<key>autoremove</key>
-		<false/>
-		<key>catalogs</key>
-		<array>
-			<string>testing</string>
 			<string>production</string>
 		</array>
 		<key>description</key>
