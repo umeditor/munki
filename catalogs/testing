@@ -6157,6 +6157,105 @@ exit 0
 		<string>printers/bizhub_C360_109-3.6.0.pkg</string>
 		<key>installer_item_size</key>
 		<integer>9398</integer>
+		<key>installs</key>
+		<array>
+			<dict>
+				<key>CFBundleShortVersionString</key>
+				<string>3.11.2</string>
+				<key>CFBundleVersion</key>
+				<string>3.11.2</string>
+				<key>path</key>
+				<string>/Library/Printers/KONICAMINOLTA/C360/PDEs/KONICA MINOLTA C360 Cover.plugin</string>
+				<key>type</key>
+				<string>bundle</string>
+				<key>version_comparison_key</key>
+				<string>CFBundleShortVersionString</string>
+			</dict>
+			<dict>
+				<key>CFBundleShortVersionString</key>
+				<string>3.11.2</string>
+				<key>CFBundleVersion</key>
+				<string>3.11.2</string>
+				<key>path</key>
+				<string>/Library/Printers/KONICAMINOLTA/C360/PDEs/KONICA MINOLTA C360 Finishing.plugin</string>
+				<key>type</key>
+				<string>bundle</string>
+				<key>version_comparison_key</key>
+				<string>CFBundleShortVersionString</string>
+			</dict>
+			<dict>
+				<key>CFBundleShortVersionString</key>
+				<string>3.11.2</string>
+				<key>CFBundleVersion</key>
+				<string>3.11.2</string>
+				<key>path</key>
+				<string>/Library/Printers/KONICAMINOLTA/C360/PDEs/KONICA MINOLTA C360 ImageQuality.plugin</string>
+				<key>type</key>
+				<string>bundle</string>
+				<key>version_comparison_key</key>
+				<string>CFBundleShortVersionString</string>
+			</dict>
+			<dict>
+				<key>CFBundleShortVersionString</key>
+				<string>3.11.2</string>
+				<key>CFBundleVersion</key>
+				<string>3.11.2</string>
+				<key>path</key>
+				<string>/Library/Printers/KONICAMINOLTA/C360/PDEs/KONICA MINOLTA C360 Output.plugin</string>
+				<key>type</key>
+				<string>bundle</string>
+				<key>version_comparison_key</key>
+				<string>CFBundleShortVersionString</string>
+			</dict>
+			<dict>
+				<key>CFBundleShortVersionString</key>
+				<string>3.11.2</string>
+				<key>CFBundleVersion</key>
+				<string>3.11.2</string>
+				<key>path</key>
+				<string>/Library/Printers/KONICAMINOLTA/C360/PDEs/KONICA MINOLTA C360 PerPage.plugin</string>
+				<key>type</key>
+				<string>bundle</string>
+				<key>version_comparison_key</key>
+				<string>CFBundleShortVersionString</string>
+			</dict>
+			<dict>
+				<key>CFBundleShortVersionString</key>
+				<string>3.11.2</string>
+				<key>CFBundleVersion</key>
+				<string>3.11.2</string>
+				<key>path</key>
+				<string>/Library/Printers/KONICAMINOLTA/C360/PDEs/KONICA MINOLTA C360 Stamp.plugin</string>
+				<key>type</key>
+				<string>bundle</string>
+				<key>version_comparison_key</key>
+				<string>CFBundleShortVersionString</string>
+			</dict>
+			<dict>
+				<key>CFBundleShortVersionString</key>
+				<string>3.11.2</string>
+				<key>CFBundleVersion</key>
+				<string>3.11.2</string>
+				<key>path</key>
+				<string>/Library/Printers/KONICAMINOLTA/C360/PDEs/KONICA MINOLTA C360 Tray.plugin</string>
+				<key>type</key>
+				<string>bundle</string>
+				<key>version_comparison_key</key>
+				<string>CFBundleShortVersionString</string>
+			</dict>
+			<dict>
+				<key>CFBundleShortVersionString</key>
+				<string>3.11.2</string>
+				<key>CFBundleVersion</key>
+				<string>3.11.2</string>
+				<key>path</key>
+				<string>/Library/Printers/KONICAMINOLTA/C360/PDEs/pde.framework</string>
+				<key>type</key>
+				<string>bundle</string>
+				<key>version_comparison_key</key>
+				<string>CFBundleShortVersionString</string>
+			</dict>
+		</array>
 		<key>minimum_os_version</key>
 		<string>10.9.0</string>
 		<key>name</key>
