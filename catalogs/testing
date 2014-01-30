@@ -6144,6 +6144,47 @@ exit 0
 		<key>catalogs</key>
 		<array>
 			<string>testing</string>
+		</array>
+		<key>description</key>
+		<string>Print drivers for Konica Minolta’s bizhub C280 printer.</string>
+		<key>display_name</key>
+		<string>BizHub C280 Drivers</string>
+		<key>installed_size</key>
+		<integer>19850</integer>
+		<key>installer_item_hash</key>
+		<string>31bf2c423bba1d9349e3e32690139b34a739e8a5735e2019b9fee1eda4160b7c</string>
+		<key>installer_item_location</key>
+		<string>printers/bizhub_C360_109-3.6.0.pkg</string>
+		<key>installer_item_size</key>
+		<integer>9398</integer>
+		<key>minimum_os_version</key>
+		<string>10.9.0</string>
+		<key>name</key>
+		<string>BizHubC280Drivers</string>
+		<key>receipts</key>
+		<array>
+			<dict>
+				<key>installed_size</key>
+				<integer>19850</integer>
+				<key>packageid</key>
+				<string>jp.konicaminolta.print.package.C360</string>
+				<key>version</key>
+				<string>3.6.0</string>
+			</dict>
+		</array>
+		<key>uninstall_method</key>
+		<string>removepackages</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>3.6.0</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>testing</string>
 			<string>production</string>
 		</array>
 		<key>description</key>
