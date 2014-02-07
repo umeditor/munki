@@ -42,5 +42,22 @@
 	<true/>
 	<key>version</key>
 	<string>1.0</string>
+	<key>installcheck_script</key>
+    <string>#!/bin/sh
+
+# Print queue to check
+queue=Slayer
+
+# Test queue
+lpstat -p ${queue} > /dev/null 
+rc=$?
+
+# Compare with the version we want to install
+if [ $rc == 0 ]; then
+        exit 0
+else
+        exit 1
+fi
+</string>
 </dict>
 </plist>

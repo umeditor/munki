@@ -5758,6 +5758,23 @@ exit 0
 		<string>Install the printer Slayer, located in E53-320.</string>
 		<key>display_name</key>
 		<string>Printer: Slayer</string>
+		<key>installcheck_script</key>
+		<string>#!/bin/sh
+
+# Print queue to check
+queue=Slayer
+
+# Test queue
+lpstat -p ${queue} &gt; /dev/null 
+rc=$?
+
+# Compare with the version we want to install
+if [ $rc == 0 ]; then
+        exit 0
+else
+        exit 1
+fi
+</string>
 		<key>installer_item_hash</key>
 		<string>0694c6a18ffa4466f18433d389ab83eb005f5df87e20864ae3127aff1c3740a7</string>
 		<key>installer_item_location</key>
