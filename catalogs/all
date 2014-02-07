@@ -6573,6 +6573,23 @@ fi
 		<string>Install the printer BlackSabbath, located in E53-310.</string>
 		<key>display_name</key>
 		<string>Printer: BlackSabbath</string>
+		<key>installcheck_script</key>
+		<string>#!/bin/sh
+
+# Print queue to check
+queue=BlackSabbath
+
+# Test queue
+lpstat -p ${queue} &gt; /dev/null 
+rc=$?
+
+# Compare with the version we want to install
+if [ $rc == 0 ]; then
+        exit 0
+else
+        exit 1
+fi
+</string>
 		<key>installer_item_hash</key>
 		<string>66f6c6b1d942a3e576b13dce9c271ad4c9e6547c3026126def8e28e8096cf746</string>
 		<key>installer_item_location</key>
@@ -6901,6 +6918,23 @@ fi
 		<string>Install the printer Multipitch, located in E53-330.</string>
 		<key>display_name</key>
 		<string>Printer: Multipitch</string>
+		<key>installcheck_script</key>
+		<string>#!/bin/sh
+
+# Print queue to check
+queue=Multipitch
+
+# Test queue
+lpstat -p ${queue} &gt; /dev/null 
+rc=$?
+
+# Compare with the version we want to install
+if [ $rc == 0 ]; then
+        exit 0
+else
+        exit 1
+fi
+</string>
 		<key>installer_item_hash</key>
 		<string>87b0ff80d854b394590745485703191c06d2c85a6940b41c5023e426353a1373</string>
 		<key>installer_item_location</key>
