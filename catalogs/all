@@ -6585,9 +6585,9 @@ rc=$?
 
 # Compare with the version we want to install
 if [ $rc == 0 ]; then
-        exit 0
-else
         exit 1
+else
+        exit 0
 fi
 </string>
 		<key>installer_item_hash</key>
@@ -6930,9 +6930,9 @@ rc=$?
 
 # Compare with the version we want to install
 if [ $rc == 0 ]; then
-        exit 0
-else
         exit 1
+else
+        exit 0
 fi
 </string>
 		<key>installer_item_hash</key>
@@ -7033,9 +7033,9 @@ rc=$?
 
 # Compare with the version we want to install
 if [ $rc == 0 ]; then
-        exit 0
-else
         exit 1
+else
+        exit 0
 fi
 </string>
 		<key>installer_item_hash</key>
