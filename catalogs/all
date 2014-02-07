@@ -287,6 +287,7 @@
 		<key>catalogs</key>
 		<array>
 			<string>testing</string>
+			<string>production</string>
 		</array>
 		<key>installer_item_hash</key>
 		<string>3ddf14f8a531ed292dcd79589117825bbfb51c5eea33144c46660c460f77bd76</string>
@@ -1228,6 +1229,7 @@ exit 0
 		<key>catalogs</key>
 		<array>
 			<string>testing</string>
+			<string>production</string>
 		</array>
 		<key>description</key>
 		<string>Google's web browser.</string>
