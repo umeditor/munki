@@ -1295,6 +1295,52 @@ exit 0
 			<string>production</string>
 		</array>
 		<key>description</key>
+		<string>Rich media web plugin.</string>
+		<key>display_name</key>
+		<string>Microsoft Silverlight</string>
+		<key>installed_size</key>
+		<integer>99420</integer>
+		<key>installer_item_hash</key>
+		<string>f3e9e1bf30adbeb891ce44595541acba7d35b23c03f96a2b7df91b15325bf4cf</string>
+		<key>installer_item_location</key>
+		<string>apps/Silverlight-5.1.20913.0.dmg</string>
+		<key>installer_item_size</key>
+		<integer>14837</integer>
+		<key>minimum_os_version</key>
+		<string>10.4.0</string>
+		<key>name</key>
+		<string>Silverlight</string>
+		<key>receipts</key>
+		<array>
+			<dict>
+				<key>filename</key>
+				<string>Silverlight.pkg</string>
+				<key>installed_size</key>
+				<integer>99420</integer>
+				<key>packageid</key>
+				<string>com.microsoft.SilverlightInstaller</string>
+				<key>version</key>
+				<string>5.1.20913.0</string>
+			</dict>
+		</array>
+		<key>unattended_install</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>removepackages</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>5.1.20913.0</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>testing</string>
+			<string>production</string>
+		</array>
+		<key>description</key>
 		<string>Internet voice and video chat application</string>
 		<key>display_name</key>
 		<string>Skype</string>
