@@ -31,6 +31,10 @@
 		<string>jpal-disable8021x</string>
 		<string>setting-munki-InstallAppleSoftwareUpdates</string>
 	</array>
+	<key>optional_installs</key>
+	<array>
+		<string>Silverlight</string>
+	</array>
 	<key>managed_uninstalls</key>
 	<array>
 	</array>
