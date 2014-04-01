@@ -34,6 +34,7 @@
 	<key>optional_installs</key>
 	<array>
 		<string>Silverlight</string>
+		<string>MPEGStreamclip</string
 	</array>
 	<key>managed_uninstalls</key>
 	<array>

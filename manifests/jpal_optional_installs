@@ -23,6 +23,7 @@
 		<string>Office2011</string>
 		<string>CiscoAnyConnectVPN</string>
 		<string>SophosAntiVirus</string>
+		<string>MPEGStreamclip</string
 	</array>
 	<key>managed_uninstalls</key>
 	<array>
