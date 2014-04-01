@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>_metadata</key>
+	<dict>
+		<key>created_by</key>
+		<string>mitadm</string>
+		<key>creation_date</key>
+		<string>2014-03-14T16:24:39.365000</string>
+		<key>munki_version</key>
+		<string>UNKNOWN</string>
+		<key>os_version</key>
+		<string>6.1.7601</string>
+	</dict>
+	<key>autoremove</key>
+	<false/>
+	<key>catalogs</key>
+	<array>
+		<string>testing</string>
+	</array>
+	<key>displayname</key>
+	<string>7-Zip 9.11 (x64 edition)</string>
+	<key>installer_item_hash</key>
+	<string>27cb5a6283731326e4682574adba358aa2f487319b1a31dcf7257aeef1382817</string>
+	<key>installer_item_location</key>
+	<string>7z911-x64.msi</string>
+	<key>installer_item_size</key>
+	<integer>1290</integer>
+	<key>installer_type</key>
+	<string>msi</string>
+	<key>minimum_os_version</key>
+	<string>6.1.7601</string>
+	<key>msi</key>
+	<array>
+		<dict>
+			<key>PackageCode</key>
+			<string>{23170F69-40C1-2702-0911-000002000000}</string>
+			<key>ProdcutCode</key>
+			<string>{23170F69-40C1-2702-0911-000001000000}</string>
+			<key>UpgradeCode</key>
+			<string>{23170F69-40C1-2702-0000-000004000000}</string>
+			<key>name</key>
+			<string>7-Zip 9.11 (x64 edition)</string>
+			<key>version</key>
+			<string>9.11.00.0</string>
+		</dict>
+	</array>
+	<key>name</key>
+	<string>7-Zip9.11(x64edition)</string>
+	<key>version</key>
+	<string>9.11.00.0</string>
+</dict>
+</plist>
+
