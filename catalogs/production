@@ -692,6 +692,61 @@ exit 0
 			<string>production</string>
 		</array>
 		<key>description</key>
+		<string>MPEG Streamclip converts QuickTime movies, MPEG-1/2/4 files and transport streams into several formats; for MPEG-2 playback and export, the QuickTime MPEG-2 Playback Component is required.MPEG Streamclip can play and convert selectable parts of QuickTime movies, MPEG files and transport streams with MPEG/AC3/PCM audio into DV streams or QuickTime, AVI, MPEG-4 movies using any video codec, with optional 2D-FIR professional scaling, motion-adaptive deinterlacing, and other pro options; all in YUV, with audio in perfect sync. It also performs fast conversions to muxed MPEG files and demuxed M2V, AIFF, M1A, AC3 files, for direct burning with DVD Studio Pro and Toast 6, 7, 8.</string>
+		<key>display_name</key>
+		<string>MPEG Streamclip</string>
+		<key>installer_item_hash</key>
+		<string>f539e527a7232a9ac4398c0d3e7730010058b300c8d7fd33c4baf8c9ac232b85</string>
+		<key>installer_item_location</key>
+		<string>apps/MPEG_Streamclip_1.9.2.dmg</string>
+		<key>installer_item_size</key>
+		<integer>1305</integer>
+		<key>installer_type</key>
+		<string>copy_from_dmg</string>
+		<key>installs</key>
+		<array>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>it.alfanet.squared5.MPEGStreamclip</string>
+				<key>CFBundleVersion</key>
+				<string>1.9.2</string>
+				<key>path</key>
+				<string>/Applications/MPEG Streamclip.app</string>
+				<key>type</key>
+				<string>application</string>
+				<key>version_comparison_key</key>
+				<string>CFBundleVersion</string>
+			</dict>
+		</array>
+		<key>items_to_copy</key>
+		<array>
+			<dict>
+				<key>destination_path</key>
+				<string>/Applications</string>
+				<key>source_item</key>
+				<string>MPEG Streamclip.app</string>
+			</dict>
+		</array>
+		<key>minimum_os_version</key>
+		<string>10.4.0</string>
+		<key>name</key>
+		<string>MPEGStreamclip</string>
+		<key>uninstall_method</key>
+		<string>remove_copied_items</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>1.9.2</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>testing</string>
+			<string>production</string>
+		</array>
+		<key>description</key>
 		<string>Rich media web plugin.</string>
 		<key>display_name</key>
 		<string>Microsoft Silverlight</string>

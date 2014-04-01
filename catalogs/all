@@ -1370,6 +1370,7 @@ exit 0
 		<key>catalogs</key>
 		<array>
 			<string>testing</string>
+			<string>production</string>
 		</array>
 		<key>description</key>
 		<string>MPEG Streamclip converts QuickTime movies, MPEG-1/2/4 files and transport streams into several formats; for MPEG-2 playback and export, the QuickTime MPEG-2 Playback Component is required.MPEG Streamclip can play and convert selectable parts of QuickTime movies, MPEG files and transport streams with MPEG/AC3/PCM audio into DV streams or QuickTime, AVI, MPEG-4 movies using any video codec, with optional 2D-FIR professional scaling, motion-adaptive deinterlacing, and other pro options; all in YUV, with audio in perfect sync. It also performs fast conversions to muxed MPEG files and demuxed M2V, AIFF, M1A, AC3 files, for direct burning with DVD Studio Pro and Toast 6, 7, 8.</string>
