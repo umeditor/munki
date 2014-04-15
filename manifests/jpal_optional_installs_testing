@@ -8,23 +8,29 @@
 	</array>
 	<key>included_manifests</key>
 	<array>
-		<string>printers</string>
+			<string>munki_client</string>
 	</array>
 	<key>managed_installs</key>
 	<array>
-		<string>munkitools_core</string>
-		<string>munkitools</string>
-		<string>munkitools_admin</string>
-		<string>munkitools_launchd</string>
 	</array>
 	<key>optional_installs</key>
 	<array>
+		<string>Skype</string>
 		<string>CertAid</string>
+		<string>GoogleChrome</string>
+		<string>Dropbox</string>
 		<string>AdobeAcrobatProX</string>
 		<string>Office2011</string>
 		<string>CiscoAnyConnectVPN</string>
 		<string>SophosAntiVirus</string>
-		<string>MPEGStreamclip</string
+		<string>Java6</string>
+		<string>CrashPlanPro</string>
+		<string>AdobeFlashPlayer</string>
+		<string>setting-login-window</string>
+		<string>jpal-disable8021x</string>
+		<string>setting-munki-InstallAppleSoftwareUpdates</string>
+		<string>Silverlight</string>
+		<string>MPEGStreamclip</string>
 	</array>
 	<key>managed_uninstalls</key>
 	<array>
