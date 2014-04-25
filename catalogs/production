@@ -621,17 +621,6 @@ exit 0
 		<string>8.0.14</string>
 	</dict>
 	<dict>
-		<key>_metadata</key>
-		<dict>
-			<key>created_by</key>
-			<string>mcneal</string>
-			<key>creation_date</key>
-			<date>2014-02-07T14:53:03Z</date>
-			<key>munki_version</key>
-			<string>1.0.0.1864</string>
-			<key>os_version</key>
-			<string>10.8.5</string>
-		</dict>
 		<key>autoremove</key>
 		<false/>
 		<key>catalogs</key>
@@ -695,17 +684,6 @@ exit 0
 		<string>32.0.1700.107</string>
 	</dict>
 	<dict>
-		<key>_metadata</key>
-		<dict>
-			<key>created_by</key>
-			<string>mcneal</string>
-			<key>creation_date</key>
-			<date>2014-04-01T16:26:14Z</date>
-			<key>munki_version</key>
-			<string>1.0.0.1864</string>
-			<key>os_version</key>
-			<string>10.8.5</string>
-		</dict>
 		<key>autoremove</key>
 		<false/>
 		<key>catalogs</key>
@@ -761,17 +739,6 @@ exit 0
 		<string>1.9.2</string>
 	</dict>
 	<dict>
-		<key>_metadata</key>
-		<dict>
-			<key>created_by</key>
-			<string>mcneal</string>
-			<key>creation_date</key>
-			<date>2014-02-10T17:21:01Z</date>
-			<key>munki_version</key>
-			<string>1.0.0.1864</string>
-			<key>os_version</key>
-			<string>10.8.5</string>
-		</dict>
 		<key>autoremove</key>
 		<false/>
 		<key>catalogs</key>
@@ -818,17 +785,6 @@ exit 0
 		<string>5.1.20913.0</string>
 	</dict>
 	<dict>
-		<key>_metadata</key>
-		<dict>
-			<key>created_by</key>
-			<string>mcneal</string>
-			<key>creation_date</key>
-			<date>2014-01-28T15:02:08Z</date>
-			<key>munki_version</key>
-			<string>1.0.0.1864</string>
-			<key>os_version</key>
-			<string>10.8.5</string>
-		</dict>
 		<key>autoremove</key>
 		<false/>
 		<key>catalogs</key>
@@ -5019,17 +4975,6 @@ exit 0
 		<string>14.3.9</string>
 	</dict>
 	<dict>
-		<key>_metadata</key>
-		<dict>
-			<key>created_by</key>
-			<string>mcneal</string>
-			<key>creation_date</key>
-			<date>2014-01-27T16:48:29Z</date>
-			<key>munki_version</key>
-			<string>1.0.0.1864</string>
-			<key>os_version</key>
-			<string>10.8.5</string>
-		</dict>
 		<key>autoremove</key>
 		<false/>
 		<key>catalogs</key>
@@ -5091,17 +5036,6 @@ exit 0
 		<string>6.0.2</string>
 	</dict>
 	<dict>
-		<key>_metadata</key>
-		<dict>
-			<key>created_by</key>
-			<string>mcneal</string>
-			<key>creation_date</key>
-			<date>2014-01-27T18:57:36Z</date>
-			<key>munki_version</key>
-			<string>1.0.0.1864</string>
-			<key>os_version</key>
-			<string>10.8.5</string>
-		</dict>
 		<key>autoremove</key>
 		<false/>
 		<key>catalogs</key>
@@ -5148,17 +5082,6 @@ exit 0
 		<string>12.0.0.38</string>
 	</dict>
 	<dict>
-		<key>_metadata</key>
-		<dict>
-			<key>created_by</key>
-			<string>mcneal</string>
-			<key>creation_date</key>
-			<date>2014-02-05T13:34:27Z</date>
-			<key>munki_version</key>
-			<string>1.0.0.1864</string>
-			<key>os_version</key>
-			<string>10.8.5</string>
-		</dict>
 		<key>autoremove</key>
 		<false/>
 		<key>catalogs</key>
