@@ -46,6 +46,7 @@
 	<key>catalogs</key>
 	<array>
 		<string>testing</string>
+		<string>production</string>
 	</array>
 	<key>description</key>
 	<string>&lt;html&gt;&lt;p&gt;This update fixes critical issues and also helps to improve security. It includes fixes for vulnerabilities that an attacker can use to overwrite the contents of your computer's memory with malicious code.&lt;/p&gt;
