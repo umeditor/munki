@@ -32,6 +32,7 @@
 	<array>
 		<string>Silverlight</string>
 		<string>MPEGStreamclip</string>
+		<string>Spotify</string>
 	</array>
 	<key>managed_uninstalls</key>
 	<array>
