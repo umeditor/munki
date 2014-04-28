@@ -502,10 +502,6 @@
 			<string>14.4.1</string>
 		</dict>
 	</array>
-	<key>requires</key>
-	<array>
-		<string>Office2011_update-14.1.0</string>
-	</array>
 	<key>uninstall_method</key>
 	<string>removepackages</string>
 	<key>uninstallable</key>
