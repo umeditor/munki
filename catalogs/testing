@@ -6899,6 +6899,52 @@ fi
 		<key>catalogs</key>
 		<array>
 			<string>testing</string>
+			<string>production</string>
+		</array>
+		<key>description</key>
+		<string>Adobe® Flash® Player is a cross-platform browser-based application runtime that delivers uncompromised viewing of expressive applications, content, and videos across screens and browsers.</string>
+		<key>display_name</key>
+		<string>Adobe Flash Player</string>
+		<key>installed_size</key>
+		<integer>16115</integer>
+		<key>installer_item_hash</key>
+		<string>fc00856e77e55fadf8574212430aff6aaa3a7f3e12eb431cd505a54d02dec2fe</string>
+		<key>installer_item_location</key>
+		<string>internet_plugins/AdobeFlashPlayer-13.0.0.206.dmg</string>
+		<key>installer_item_size</key>
+		<integer>15344</integer>
+		<key>minimum_os_version</key>
+		<string>10.5.0</string>
+		<key>name</key>
+		<string>AdobeFlashPlayer</string>
+		<key>package_path</key>
+		<string>Install Adobe Flash Player.app/Contents/Resources/Adobe Flash Player.pkg</string>
+		<key>receipts</key>
+		<array>
+			<dict>
+				<key>installed_size</key>
+				<integer>16115</integer>
+				<key>packageid</key>
+				<string>com.adobe.pkg.FlashPlayer</string>
+				<key>version</key>
+				<string>13.0.0.206</string>
+			</dict>
+		</array>
+		<key>unattended_install</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>removepackages</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>13.0.0.206</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>testing</string>
 		</array>
 		<key>description</key>
 		<string></string>
