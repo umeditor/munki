@@ -27,6 +27,7 @@
 		<string>setting-login-window</string>
 		<string>jpal-disable8021x</string>
 		<string>setting-munki-InstallAppleSoftwareUpdates</string>
+		<string>Google Voice and Video</string>
 	</array>
 	<key>optional_installs</key>
 	<array>
