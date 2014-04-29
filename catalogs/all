@@ -8214,20 +8214,18 @@ fi
 				<key>version_comparison_key</key>
 				<string>CFBundleShortVersionString</string>
 			</dict>
-			<array>
-				<dict>
-					<key>CFBundleShortVersionString</key>
-					<string>5.2.4.18058</string>
-					<key>CFBundleVersion</key>
-					<string>5.2.4.18058</string>
-					<key>path</key>
-					<string>/Library/Internet Plug-Ins/googletalkbrowserplugin.plugin</string>
-					<key>type</key>
-					<string>bundle</string>
-					<key>version_comparison_key</key>
-					<string>CFBundleShortVersionString</string>
-				</dict>
-			</array>
+			<dict>
+				<key>CFBundleShortVersionString</key>
+				<string>5.2.4.18058</string>
+				<key>CFBundleVersion</key>
+				<string>5.2.4.18058</string>
+				<key>path</key>
+				<string>/Library/Internet Plug-Ins/googletalkbrowserplugin.plugin</string>
+				<key>type</key>
+				<string>bundle</string>
+				<key>version_comparison_key</key>
+				<string>CFBundleShortVersionString</string>
+			</dict>
 			<dict>
 				<key>CFBundleShortVersionString</key>
 				<string>5.2.4.18058</string>
