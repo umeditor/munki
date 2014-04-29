@@ -54,23 +54,65 @@
 	<string>10.5.0</string>
 	<key>name</key>
 	<string>Google Voice and Video</string>
-	<key>receipts</key>
+	<key>installs</key>
 	<array>
 		<dict>
-			<key>installed_size</key>
-			<integer>0</integer>
-			<key>packageid</key>
-			<string>com.google.pkg.Keystone</string>
-			<key>version</key>
-			<string>1.1.0.3659</string>
+			<key>CFBundleIdentifier</key>
+			<string>com.google.GoogleTalkPluginD</string>
+			<key>CFBundleName</key>
+			<string>GoogleTalkPlugin</string>
+			<key>CFBundleShortVersionString</key>
+			<string>5.2.4.18058</string>
+			<key>CFBundleVersion</key>
+			<string>5.2.4.18058</string>
+			<key>path</key>
+			<string>/Library/Application Support/Google/GoogleTalkPlugin.app</string>
+			<key>type</key>
+			<string>application</string>
+			<key>version_comparison_key</key>
+			<string>CFBundleShortVersionString</string>
 		</dict>
 		<dict>
-			<key>installed_size</key>
-			<integer>17191</integer>
-			<key>packageid</key>
-			<string>com.google.pkg.GoogleVoiceAndVideo</string>
-			<key>version</key>
+			<key>CFBundleIdentifier</key>
+			<string>com.google.GoogleTalkPluginUninstaller</string>
+			<key>CFBundleName</key>
+			<string>GoogleVoiceAndVideoUninstaller</string>
+			<key>CFBundleShortVersionString</key>
 			<string>5.2.4.18058</string>
+			<key>CFBundleVersion</key>
+			<string>5.2.4.18058</string>
+			<key>path</key>
+			<string>/Library/Application Support/Google/GoogleVoiceAndVideoUninstaller.app</string>
+			<key>type</key>
+			<string>application</string>
+			<key>version_comparison_key</key>
+			<string>CFBundleShortVersionString</string>
+		</dict>
+		<array>
+			<dict>
+				<key>CFBundleShortVersionString</key>
+				<string>5.2.4.18058</string>
+				<key>CFBundleVersion</key>
+				<string>5.2.4.18058</string>
+				<key>path</key>
+				<string>/Library/Internet Plug-Ins/googletalkbrowserplugin.plugin</string>
+				<key>type</key>
+				<string>bundle</string>
+				<key>version_comparison_key</key>
+				<string>CFBundleShortVersionString</string>
+			</dict>
+		</array>
+		<dict>
+			<key>CFBundleShortVersionString</key>
+			<string>5.2.4.18058</string>
+			<key>CFBundleVersion</key>
+			<string>5.2.4.18058</string>
+			<key>path</key>
+			<string>/Library/Internet Plug-Ins/o1dbrowserplugin.plugin</string>
+			<key>type</key>
+			<string>bundle</string>
+			<key>version_comparison_key</key>
+			<string>CFBundleShortVersionString</string>
 		</dict>
 	</array>
 	<key>unattended_install</key>

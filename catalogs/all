@@ -8180,29 +8180,71 @@ fi
 		<string>Utilities/Google Voice and Video-5.2.4.18058.dmg</string>
 		<key>installer_item_size</key>
 		<integer>8539</integer>
+		<key>installs</key>
+		<array>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>com.google.GoogleTalkPluginD</string>
+				<key>CFBundleName</key>
+				<string>GoogleTalkPlugin</string>
+				<key>CFBundleShortVersionString</key>
+				<string>5.2.4.18058</string>
+				<key>CFBundleVersion</key>
+				<string>5.2.4.18058</string>
+				<key>path</key>
+				<string>/Library/Application Support/Google/GoogleTalkPlugin.app</string>
+				<key>type</key>
+				<string>application</string>
+				<key>version_comparison_key</key>
+				<string>CFBundleShortVersionString</string>
+			</dict>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>com.google.GoogleTalkPluginUninstaller</string>
+				<key>CFBundleName</key>
+				<string>GoogleVoiceAndVideoUninstaller</string>
+				<key>CFBundleShortVersionString</key>
+				<string>5.2.4.18058</string>
+				<key>CFBundleVersion</key>
+				<string>5.2.4.18058</string>
+				<key>path</key>
+				<string>/Library/Application Support/Google/GoogleVoiceAndVideoUninstaller.app</string>
+				<key>type</key>
+				<string>application</string>
+				<key>version_comparison_key</key>
+				<string>CFBundleShortVersionString</string>
+			</dict>
+			<array>
+				<dict>
+					<key>CFBundleShortVersionString</key>
+					<string>5.2.4.18058</string>
+					<key>CFBundleVersion</key>
+					<string>5.2.4.18058</string>
+					<key>path</key>
+					<string>/Library/Internet Plug-Ins/googletalkbrowserplugin.plugin</string>
+					<key>type</key>
+					<string>bundle</string>
+					<key>version_comparison_key</key>
+					<string>CFBundleShortVersionString</string>
+				</dict>
+			</array>
+			<dict>
+				<key>CFBundleShortVersionString</key>
+				<string>5.2.4.18058</string>
+				<key>CFBundleVersion</key>
+				<string>5.2.4.18058</string>
+				<key>path</key>
+				<string>/Library/Internet Plug-Ins/o1dbrowserplugin.plugin</string>
+				<key>type</key>
+				<string>bundle</string>
+				<key>version_comparison_key</key>
+				<string>CFBundleShortVersionString</string>
+			</dict>
+		</array>
 		<key>minimum_os_version</key>
 		<string>10.5.0</string>
 		<key>name</key>
 		<string>Google Voice and Video</string>
-		<key>receipts</key>
-		<array>
-			<dict>
-				<key>installed_size</key>
-				<integer>0</integer>
-				<key>packageid</key>
-				<string>com.google.pkg.Keystone</string>
-				<key>version</key>
-				<string>1.1.0.3659</string>
-			</dict>
-			<dict>
-				<key>installed_size</key>
-				<integer>17191</integer>
-				<key>packageid</key>
-				<string>com.google.pkg.GoogleVoiceAndVideo</string>
-				<key>version</key>
-				<string>5.2.4.18058</string>
-			</dict>
-		</array>
 		<key>unattended_install</key>
 		<true/>
 		<key>uninstall_method</key>
