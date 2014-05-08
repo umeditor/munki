@@ -2095,6 +2095,66 @@ exit 0
 			<string>testing</string>
 		</array>
 		<key>description</key>
+		<string>iPhoto lets you do more than you ever thought possible with your photos, with easy ways to find, sort, and rediscover your favorite shots. Simple but powerful editing tools let you turn good photos into magnificent ones. Share directly to Facebook, Flickr, Twitter, and Messages. iPhoto also works with iCloud, so the photos you take on your iOS devices automatically appear in iPhoto, and you can share selected photos and videos with family and friends using iCloud Photo Sharing. You can even create professional-quality photo books, calendars and letterpress cards quickly and easily.</string>
+		<key>display_name</key>
+		<string>iPhoto</string>
+		<key>installer_item_hash</key>
+		<string>21d499bf877d76129c21988cc35bdefe368f71fd8c73bfcd959bb535d1a4d84f</string>
+		<key>installer_item_location</key>
+		<string>apps/Apple/iPhoto-9.5.1.dmg</string>
+		<key>installer_item_size</key>
+		<integer>1163897</integer>
+		<key>installer_type</key>
+		<string>copy_from_dmg</string>
+		<key>installs</key>
+		<array>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>com.apple.iPhoto</string>
+				<key>CFBundleName</key>
+				<string>iPhoto</string>
+				<key>CFBundleShortVersionString</key>
+				<string>9.5.1</string>
+				<key>CFBundleVersion</key>
+				<string>902.17</string>
+				<key>minosversion</key>
+				<string>10.9</string>
+				<key>path</key>
+				<string>/Applications/iPhoto.app</string>
+				<key>type</key>
+				<string>application</string>
+				<key>version_comparison_key</key>
+				<string>CFBundleShortVersionString</string>
+			</dict>
+		</array>
+		<key>items_to_copy</key>
+		<array>
+			<dict>
+				<key>destination_path</key>
+				<string>/Applications</string>
+				<key>source_item</key>
+				<string>iPhoto.app</string>
+			</dict>
+		</array>
+		<key>minimum_os_version</key>
+		<string>10.9</string>
+		<key>name</key>
+		<string>iPhoto</string>
+		<key>uninstall_method</key>
+		<string>remove_copied_items</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>9.5.1</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>testing</string>
+		</array>
+		<key>description</key>
 		<string>Dropbox is a free service that lets you bring all your photos, docs, and videos anywhere. This means that any file you save to your Dropbox will automatically save to all your computers, phones and even the Dropbox website.</string>
 		<key>display_name</key>
 		<string>Dropbox</string>
