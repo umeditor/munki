@@ -36,6 +36,8 @@
 	<array>
 		<string>Silverlight</string>
 		<string>MPEGStreamclip</string
+		<string>Spotify</string>
+		<string>iPhoto</string>
 	</array>
 	<key>managed_uninstalls</key>
 	<array>

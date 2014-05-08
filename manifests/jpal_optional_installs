@@ -25,6 +25,8 @@
 		<string>SophosAntiVirus</string>
 		<string>MPEGStreamclip</string
 		<string>Google Voice and Video</string>
+		<string>Spotify</string>
+		<string>iPhoto</string>
 	</array>
 	<key>managed_uninstalls</key>
 	<array>
