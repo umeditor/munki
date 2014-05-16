@@ -1455,68 +1455,6 @@ exit 0
 		<key>catalogs</key>
 		<array>
 			<string>testing</string>
-		</array>
-		<key>description</key>
-		<string>With an easy to use interface, connect to FTP, SFTP, WebDAV, Amazon S3, Google Storage, Windows Azure, Rackspace Cloud Files and even Google Docs.</string>
-		<key>display_name</key>
-		<string>Cyberduck</string>
-		<key>installer_item_hash</key>
-		<string>93817481db5f47b4368ed89d2d5abad2331227422bcf191372145d6fd2b25747</string>
-		<key>installer_item_location</key>
-		<string>apps/Cyberduck-4.4.4__1.dmg</string>
-		<key>installer_item_size</key>
-		<integer>56081</integer>
-		<key>installer_type</key>
-		<string>copy_from_dmg</string>
-		<key>installs</key>
-		<array>
-			<dict>
-				<key>CFBundleIdentifier</key>
-				<string>ch.sudo.cyberduck</string>
-				<key>CFBundleName</key>
-				<string>Cyberduck</string>
-				<key>CFBundleShortVersionString</key>
-				<string>4.4.4</string>
-				<key>CFBundleVersion</key>
-				<string>14505</string>
-				<key>minosversion</key>
-				<string>10.6</string>
-				<key>path</key>
-				<string>/Applications/Cyberduck.app</string>
-				<key>type</key>
-				<string>application</string>
-				<key>version_comparison_key</key>
-				<string>CFBundleShortVersionString</string>
-			</dict>
-		</array>
-		<key>items_to_copy</key>
-		<array>
-			<dict>
-				<key>destination_path</key>
-				<string>/Applications</string>
-				<key>source_item</key>
-				<string>Cyberduck.app</string>
-			</dict>
-		</array>
-		<key>minimum_os_version</key>
-		<string>10.6</string>
-		<key>name</key>
-		<string>Cyberduck</string>
-		<key>unattended_install</key>
-		<true/>
-		<key>uninstall_method</key>
-		<string>remove_copied_items</string>
-		<key>uninstallable</key>
-		<true/>
-		<key>version</key>
-		<string>4.4.4</string>
-	</dict>
-	<dict>
-		<key>autoremove</key>
-		<false/>
-		<key>catalogs</key>
-		<array>
-			<string>testing</string>
 			<string>production</string>
 		</array>
 		<key>description</key>
@@ -1642,6 +1580,7 @@ exit 0
 		<key>catalogs</key>
 		<array>
 			<string>testing</string>
+			<string>testing</string>
 		</array>
 		<key>description</key>
 		<string>Chrome is a fast, simple, and secure web browser, built for the modern web.</string>
@@ -1706,129 +1645,11 @@ exit 0
 			<string>testing</string>
 		</array>
 		<key>description</key>
-		<string>Chrome is a fast, simple, and secure web browser, built for the modern web.</string>
-		<key>display_name</key>
-		<string>Google Chrome</string>
-		<key>installer_item_hash</key>
-		<string>c4795c579caf0a4fb45ff4c5fa9aa94fba410bb9b8e561e7a8e4b8f8e41b9708</string>
-		<key>installer_item_location</key>
-		<string>apps/GoogleChrome-34.0.1847.137__1.dmg</string>
-		<key>installer_item_size</key>
-		<integer>56246</integer>
-		<key>installer_type</key>
-		<string>copy_from_dmg</string>
-		<key>installs</key>
-		<array>
-			<dict>
-				<key>CFBundleIdentifier</key>
-				<string>com.google.Chrome</string>
-				<key>CFBundleName</key>
-				<string>Chrome</string>
-				<key>CFBundleShortVersionString</key>
-				<string>34.0.1847.137</string>
-				<key>CFBundleVersion</key>
-				<string>1847.137</string>
-				<key>minosversion</key>
-				<string>10.6.0</string>
-				<key>path</key>
-				<string>/Applications/Google Chrome.app</string>
-				<key>type</key>
-				<string>application</string>
-				<key>version_comparison_key</key>
-				<string>CFBundleShortVersionString</string>
-			</dict>
-		</array>
-		<key>items_to_copy</key>
-		<array>
-			<dict>
-				<key>destination_path</key>
-				<string>/Applications</string>
-				<key>source_item</key>
-				<string>Google Chrome.app</string>
-			</dict>
-		</array>
-		<key>minimum_os_version</key>
-		<string>10.6.0</string>
-		<key>name</key>
-		<string>GoogleChrome</string>
-		<key>unattended_install</key>
-		<true/>
-		<key>uninstall_method</key>
-		<string>remove_copied_items</string>
-		<key>uninstallable</key>
-		<true/>
-		<key>version</key>
-		<string>34.0.1847.137</string>
-	</dict>
-	<dict>
-		<key>autoremove</key>
-		<false/>
-		<key>catalogs</key>
-		<array>
-			<string>testing</string>
-		</array>
-		<key>description</key>
 		<string>GrandPerspective is a small utility application for Mac OS X that graphically shows the disk usage within a file system. It can help you to manage your disk, as you can easily spot which files and folders take up the most space. It uses a so called tree map for visualisation. Each file is shown as a rectangle with an area proportional to the file's size. Files in the same folder appear together, but their placement is otherwise arbitrary.</string>
 		<key>installer_item_hash</key>
 		<string>92204458042a337c1091879e167ea95e45cae33a7be16fa6c11e80572c54d135</string>
 		<key>installer_item_location</key>
 		<string>apps/GrandPerspective-1.5.1.dmg</string>
-		<key>installer_item_size</key>
-		<integer>733</integer>
-		<key>installer_type</key>
-		<string>copy_from_dmg</string>
-		<key>installs</key>
-		<array>
-			<dict>
-				<key>CFBundleIdentifier</key>
-				<string>net.sourceforge.grandperspectiv</string>
-				<key>CFBundleShortVersionString</key>
-				<string>1.5.1</string>
-				<key>CFBundleVersion</key>
-				<string>30</string>
-				<key>path</key>
-				<string>/Applications/Utilities/GrandPerspective.app</string>
-				<key>type</key>
-				<string>application</string>
-				<key>version_comparison_key</key>
-				<string>CFBundleShortVersionString</string>
-			</dict>
-		</array>
-		<key>items_to_copy</key>
-		<array>
-			<dict>
-				<key>destination_path</key>
-				<string>/Applications/Utilities</string>
-				<key>source_item</key>
-				<string>GrandPerspective.app</string>
-			</dict>
-		</array>
-		<key>minimum_os_version</key>
-		<string>10.4.0</string>
-		<key>name</key>
-		<string>GrandPerspective</string>
-		<key>unattended_install</key>
-		<true/>
-		<key>uninstall_method</key>
-		<string>remove_copied_items</string>
-		<key>uninstallable</key>
-		<true/>
-		<key>version</key>
-		<string>1.5.1</string>
-	</dict>
-	<dict>
-		<key>autoremove</key>
-		<false/>
-		<key>catalogs</key>
-		<array>
-			<string>testing</string>
-		</array>
-		<key>description</key>
-		<string>GrandPerspective is a small utility application for Mac OS X that graphically shows the disk usage within a file system. It can help you to manage your disk, as you can easily spot which files and folders take up the most space. It uses a so called tree map for visualisation. Each file is shown as a rectangle with an area proportional to the file's size. Files in the same folder appear together, but their placement is otherwise arbitrary.</string>
-		<key>installer_item_hash</key>
-		<string>92204458042a337c1091879e167ea95e45cae33a7be16fa6c11e80572c54d135</string>
-		<key>installer_item_location</key>
-		<string>apps/GrandPerspective-1.5.1__1.dmg</string>
 		<key>installer_item_size</key>
 		<integer>733</integer>
 		<key>installer_type</key>
@@ -2851,92 +2672,6 @@ exit 0
 		<key>catalogs</key>
 		<array>
 			<string>testing</string>
-		</array>
-		<key>description</key>
-		<string>The Adobe AIR runtime enables developers to package the same code into native applications and games for Windows and Mac OS desktops as well as iOS and Android devices, reaching over a billion desktop systems and mobile app stores for over 500 million devices.</string>
-		<key>display_name</key>
-		<string>Adobe® Integrated Runtime</string>
-		<key>installed_size</key>
-		<integer>120728</integer>
-		<key>installer_item_hash</key>
-		<string>76f2afbe4a1ae0df701637135c7004b0bf6340c1595daa42add2a4c7c420195d</string>
-		<key>installer_item_location</key>
-		<string>apps/adobe/AdobeAIR-13.0.0.111__1.pkg</string>
-		<key>installer_item_size</key>
-		<integer>52660</integer>
-		<key>minimum_os_version</key>
-		<string>10.5.0</string>
-		<key>name</key>
-		<string>AdobeAIR</string>
-		<key>receipts</key>
-		<array>
-			<dict>
-				<key>installed_size</key>
-				<integer>120728</integer>
-				<key>packageid</key>
-				<string>com.adobe.pkg.AIR</string>
-				<key>version</key>
-				<string>13.0.0.111</string>
-			</dict>
-		</array>
-		<key>unattended_install</key>
-		<true/>
-		<key>uninstall_method</key>
-		<string>removepackages</string>
-		<key>uninstallable</key>
-		<true/>
-		<key>version</key>
-		<string>13.0.0.111</string>
-	</dict>
-	<dict>
-		<key>autoremove</key>
-		<false/>
-		<key>catalogs</key>
-		<array>
-			<string>testing</string>
-		</array>
-		<key>description</key>
-		<string>The Adobe AIR runtime enables developers to package the same code into native applications and games for Windows and Mac OS desktops as well as iOS and Android devices, reaching over a billion desktop systems and mobile app stores for over 500 million devices.</string>
-		<key>display_name</key>
-		<string>Adobe® Integrated Runtime</string>
-		<key>installed_size</key>
-		<integer>120728</integer>
-		<key>installer_item_hash</key>
-		<string>ff3382fc4e1aa2a4fa60a8c9ef578f5fe2fb41fd16ae71e53b602f8f46583452</string>
-		<key>installer_item_location</key>
-		<string>apps/adobe/AdobeAIR-13.0.0.111__2.pkg</string>
-		<key>installer_item_size</key>
-		<integer>52660</integer>
-		<key>minimum_os_version</key>
-		<string>10.5.0</string>
-		<key>name</key>
-		<string>AdobeAIR</string>
-		<key>receipts</key>
-		<array>
-			<dict>
-				<key>installed_size</key>
-				<integer>120728</integer>
-				<key>packageid</key>
-				<string>com.adobe.pkg.AIR</string>
-				<key>version</key>
-				<string>13.0.0.111</string>
-			</dict>
-		</array>
-		<key>unattended_install</key>
-		<true/>
-		<key>uninstall_method</key>
-		<string>removepackages</string>
-		<key>uninstallable</key>
-		<true/>
-		<key>version</key>
-		<string>13.0.0.111</string>
-	</dict>
-	<dict>
-		<key>autoremove</key>
-		<false/>
-		<key>catalogs</key>
-		<array>
-			<string>testing</string>
 			<string>production</string>
 		</array>
 		<key>description</key>
@@ -3223,17 +2958,18 @@ fi
 		<key>catalogs</key>
 		<array>
 			<string>testing</string>
+			<string>production</string>
 		</array>
 		<key>description</key>
 		<string>Dropbox is a free service that lets you bring all your photos, docs, and videos anywhere. This means that any file you save to your Dropbox will automatically save to all your computers, phones and even the Dropbox website.</string>
 		<key>display_name</key>
 		<string>Dropbox</string>
 		<key>installer_item_hash</key>
-		<string>983673c3afefe9823299a6729f079589245f6b9b226b76a716f89078232b7be0</string>
+		<string>e3d189dc2effd03cdc523766380cbc3c6e3409ab75e877c53c0c83decb1ff16c</string>
 		<key>installer_item_location</key>
-		<string>apps/Dropbox/Dropbox-2.6.33__1.dmg</string>
+		<string>apps/Dropbox/Dropbox-2.8.0.dmg</string>
 		<key>installer_item_size</key>
-		<integer>34524</integer>
+		<integer>35126</integer>
 		<key>installer_type</key>
 		<string>copy_from_dmg</string>
 		<key>installs</key>
@@ -3268,7 +3004,7 @@ fi
 # https://groups.google.com/group/munki-dev/browse_thread/thread/a2813e7f62535f13/63d127534541f863
 # modifications:
 # - always extract the helper tool with each install instead of skipping if it exists
-# - remove xattr com.apple.quarantine removal, as Munki will have already done this upon 
+# - remove xattr com.apple.quarantine removal, as Munki will have already done this upon
 #   installation; normal autopkg runs also won't quarantine the download to begin with
 
 HELPER_SRC_PATH=/Applications/Dropbox.app/Contents/Resources/DropboxHelperInstaller.tgz
@@ -3290,7 +3026,7 @@ fi
 		<key>uninstallable</key>
 		<true/>
 		<key>version</key>
-		<string>2.6.33</string>
+		<string>2.8.0</string>
 	</dict>
 	<dict>
 		<key>autoremove</key>
@@ -3307,68 +3043,6 @@ fi
 		<string>851701557eeacd6b1e5a087388f5b5462855c3e7944693e31690a922e23bda81</string>
 		<key>installer_item_location</key>
 		<string>apps/firefox/Firefox-29.0.1.dmg</string>
-		<key>installer_item_size</key>
-		<integer>57397</integer>
-		<key>installer_type</key>
-		<string>copy_from_dmg</string>
-		<key>installs</key>
-		<array>
-			<dict>
-				<key>CFBundleIdentifier</key>
-				<string>org.mozilla.firefox</string>
-				<key>CFBundleName</key>
-				<string>Firefox</string>
-				<key>CFBundleShortVersionString</key>
-				<string>29.0.1</string>
-				<key>CFBundleVersion</key>
-				<string>2914.5.6</string>
-				<key>minosversion</key>
-				<string>10.6</string>
-				<key>path</key>
-				<string>/Applications/Firefox.app</string>
-				<key>type</key>
-				<string>application</string>
-				<key>version_comparison_key</key>
-				<string>CFBundleShortVersionString</string>
-			</dict>
-		</array>
-		<key>items_to_copy</key>
-		<array>
-			<dict>
-				<key>destination_path</key>
-				<string>/Applications</string>
-				<key>source_item</key>
-				<string>Firefox.app</string>
-			</dict>
-		</array>
-		<key>minimum_os_version</key>
-		<string>10.6</string>
-		<key>name</key>
-		<string>Firefox</string>
-		<key>unattended_install</key>
-		<true/>
-		<key>uninstall_method</key>
-		<string>remove_copied_items</string>
-		<key>uninstallable</key>
-		<true/>
-		<key>version</key>
-		<string>29.0.1</string>
-	</dict>
-	<dict>
-		<key>autoremove</key>
-		<false/>
-		<key>catalogs</key>
-		<array>
-			<string>testing</string>
-		</array>
-		<key>description</key>
-		<string>Mozilla Firefox is a free and open source web browser.</string>
-		<key>display_name</key>
-		<string>Mozilla Firefox</string>
-		<key>installer_item_hash</key>
-		<string>851701557eeacd6b1e5a087388f5b5462855c3e7944693e31690a922e23bda81</string>
-		<key>installer_item_location</key>
-		<string>apps/firefox/Firefox-29.0.1__1.dmg</string>
 		<key>installer_item_size</key>
 		<integer>57397</integer>
 		<key>installer_type</key>
@@ -8317,90 +7991,6 @@ fi
 	<dict>
 		<key>autoremove</key>
 		<false/>
-		<key>blocking_applications</key>
-		<array>
-			<string>Citrix Receiver</string>
-			<string>Safari</string>
-			<string>Firefox</string>
-			<string>Opera</string>
-			<string>Google Chrome</string>
-		</array>
-		<key>catalogs</key>
-		<array>
-			<string>testing</string>
-		</array>
-		<key>description</key>
-		<string>Access your content from any device with Citrix Receiver, the enterprise mobility solution that delivers a high def experience simply and securely.</string>
-		<key>display_name</key>
-		<string>Citrix Receiver</string>
-		<key>installed_size</key>
-		<integer>77823</integer>
-		<key>installer_item_hash</key>
-		<string>388c2dfcb3cb0a3393db8cd011c49b6176fe4c250941080361aa8151dcc6449c</string>
-		<key>installer_item_location</key>
-		<string>internet_plugins/CitrixReceiverWeb-11.8.2__1.dmg</string>
-		<key>installer_item_size</key>
-		<integer>24605</integer>
-		<key>installs</key>
-		<array>
-			<dict>
-				<key>CFBundleShortVersionString</key>
-				<string>11.8.2</string>
-				<key>CFBundleVersion</key>
-				<string>255309</string>
-				<key>path</key>
-				<string>/Library/Internet Plug-Ins/CitrixICAClientPlugIn.plugin</string>
-				<key>type</key>
-				<string>bundle</string>
-				<key>version_comparison_key</key>
-				<string>CFBundleShortVersionString</string>
-			</dict>
-			<dict>
-				<key>CFBundleIdentifier</key>
-				<string>com.citrix.receiver.nomas</string>
-				<key>CFBundleName</key>
-				<string>Citrix Receiver</string>
-				<key>CFBundleShortVersionString</key>
-				<string>11.8.2</string>
-				<key>CFBundleVersion</key>
-				<string>255309</string>
-				<key>minosversion</key>
-				<string>10.6</string>
-				<key>path</key>
-				<string>/Applications/Citrix Receiver.app</string>
-				<key>type</key>
-				<string>application</string>
-				<key>version_comparison_key</key>
-				<string>CFBundleShortVersionString</string>
-			</dict>
-		</array>
-		<key>minimum_os_version</key>
-		<string>10.6.0</string>
-		<key>name</key>
-		<string>CitrixReceiver</string>
-		<key>receipts</key>
-		<array>
-			<dict>
-				<key>installed_size</key>
-				<integer>77823</integer>
-				<key>packageid</key>
-				<string>com.citrix.ICAClient</string>
-				<key>version</key>
-				<string>11.8.2</string>
-			</dict>
-		</array>
-		<key>unattended_install</key>
-		<true/>
-		<key>uninstall_method</key>
-		<string>removepackages</string>
-		<key>uninstallable</key>
-		<true/>
-		<key>version</key>
-		<string>11.8.2</string>
-	</dict>
-	<dict>
-		<key>autoremove</key>
-		<false/>
 		<key>catalogs</key>
 		<array>
 			<string>testing</string>
@@ -8413,72 +8003,6 @@ fi
 		<string>7df8e8791958903c6073f6269bb8ba24b763ab9ecae3ff6167723aa422f85777</string>
 		<key>installer_item_location</key>
 		<string>Mathematics/RStudio-0.98.507.dmg</string>
-		<key>installer_item_size</key>
-		<integer>16164</integer>
-		<key>installer_type</key>
-		<string>copy_from_dmg</string>
-		<key>installs</key>
-		<array>
-			<dict>
-				<key>CFBundleIdentifier</key>
-				<string>org.rstudio.RStudio</string>
-				<key>CFBundleName</key>
-				<string>RStudio</string>
-				<key>CFBundleShortVersionString</key>
-				<string>0.98.507</string>
-				<key>CFBundleVersion</key>
-				<string>0.98.507</string>
-				<key>minosversion</key>
-				<string>10.6.0</string>
-				<key>path</key>
-				<string>/Applications/RStudio.app</string>
-				<key>type</key>
-				<string>application</string>
-				<key>version_comparison_key</key>
-				<string>CFBundleShortVersionString</string>
-			</dict>
-		</array>
-		<key>items_to_copy</key>
-		<array>
-			<dict>
-				<key>destination_path</key>
-				<string>/Applications</string>
-				<key>source_item</key>
-				<string>RStudio.app</string>
-			</dict>
-		</array>
-		<key>minimum_os_version</key>
-		<string>10.6.0</string>
-		<key>name</key>
-		<string>RStudio</string>
-		<key>requires</key>
-		<array>
-			<string>R</string>
-		</array>
-		<key>unattended_install</key>
-		<true/>
-		<key>uninstall_method</key>
-		<string>remove_copied_items</string>
-		<key>uninstallable</key>
-		<true/>
-		<key>version</key>
-		<string>0.98.507</string>
-	</dict>
-	<dict>
-		<key>autoremove</key>
-		<false/>
-		<key>catalogs</key>
-		<array>
-			<string>testing</string>
-		</array>
-		<key>description</key>
-		<string>RStudio is the premier integrated development environment for R. It is available in open source and commercial editions and runs on the desktop (Windows, Mac, and Linux) or over the web with RStudio Server.</string>
-		<key>display_name</key>
-		<string>RStudio</string>
-		<key>installer_item_hash</key>
-		<string>7df8e8791958903c6073f6269bb8ba24b763ab9ecae3ff6167723aa422f85777</string>
-		<key>installer_item_location</key>
-		<string>Mathematics/RStudio-0.98.507__1.dmg</string>
 		<key>installer_item_size</key>
 		<integer>16164</integer>
 		<key>installer_type</key>
