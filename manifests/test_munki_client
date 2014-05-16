@@ -35,9 +35,10 @@
 	<key>optional_installs</key>
 	<array>
 		<string>Silverlight</string>
-		<string>MPEGStreamclip</string
+		<string>MPEGStreamclip</string>
 		<string>Spotify</string>
 		<string>iPhoto</string>
+		<string>TrueCrypt</string>
 	</array>
 	<key>managed_uninstalls</key>
 	<array>

@@ -16,6 +16,7 @@
 		<string>CiscoAnyConnectVPN</string>
 		<string>setting-munki-InstallAppleSoftwareUpdates</string>
 		<string>adobe-acrobatpro</string>
+		<string>TrueCrypt</string>
 	</array>
 	<key>managed_uninstalls</key>
 	<array>

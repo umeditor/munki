@@ -27,6 +27,7 @@
 		<string>Google Voice and Video</string>
 		<string>Spotify</string>
 		<string>iPhoto</string>
+		<string>TrueCrypt</string>
 	</array>
 	<key>managed_uninstalls</key>
 	<array>
