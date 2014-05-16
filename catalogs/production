@@ -1084,6 +1084,58 @@ exit 0
 		<key>display_name</key>
 		<string>Adobe Acrobat Pro Update</string>
 		<key>installed_size</key>
+		<integer>139072</integer>
+		<key>installer_item_hash</key>
+		<string>142ccddd9a1a286d041484318d65acc231293412b6e7040bf0fdd3c661b1bb6a</string>
+		<key>installer_item_location</key>
+		<string>apps/AcrobatPro/AcrobatUpd10110-10.1.10.pkg</string>
+		<key>installer_item_size</key>
+		<integer>141229</integer>
+		<key>minimum_os_version</key>
+		<string>10.5.0</string>
+		<key>name</key>
+		<string>AdobeAcrobatProX_Update</string>
+		<key>receipts</key>
+		<array>
+			<dict>
+				<key>installed_size</key>
+				<integer>139072</integer>
+				<key>packageid</key>
+				<string>com.adobe.acrobat.a10.AcrobatUpd10110</string>
+				<key>version</key>
+				<string>10.1.10</string>
+			</dict>
+		</array>
+		<key>unattended_install</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>removepackages</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>update_for</key>
+		<array>
+			<string>AdobeAcrobatProX</string>
+		</array>
+		<key>version</key>
+		<string>10.1.10</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>blocking_applications</key>
+		<array>
+			<string>Adobe Acrobat Pro.app</string>
+		</array>
+		<key>catalogs</key>
+		<array>
+			<string>testing</string>
+			<string>production</string>
+		</array>
+		<key>description</key>
+		<string></string>
+		<key>display_name</key>
+		<string>Adobe Acrobat Pro Update</string>
+		<key>installed_size</key>
 		<integer>139296</integer>
 		<key>installer_item_hash</key>
 		<string>574397054da60ebc41c3a4c79425f40011a63f2ac7a3cce94a21f7b67352e7eb</string>
@@ -5780,6 +5832,52 @@ exit 0
 		<true/>
 		<key>version</key>
 		<string>13.0.0.206</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>testing</string>
+			<string>production</string>
+		</array>
+		<key>description</key>
+		<string>Adobe® Flash® Player is a cross-platform browser-based application runtime that delivers uncompromised viewing of expressive applications, content, and videos across screens and browsers.</string>
+		<key>display_name</key>
+		<string>Adobe Flash Player</string>
+		<key>installed_size</key>
+		<integer>16124</integer>
+		<key>installer_item_hash</key>
+		<string>3ea587b006399bc2a6f8fb6479ce4d4792492f128b58e35b60824c4fa58cb877</string>
+		<key>installer_item_location</key>
+		<string>internet_plugins/AdobeFlashPlayer-13.0.0.214.dmg</string>
+		<key>installer_item_size</key>
+		<integer>15352</integer>
+		<key>minimum_os_version</key>
+		<string>10.5.0</string>
+		<key>name</key>
+		<string>AdobeFlashPlayer</string>
+		<key>package_path</key>
+		<string>Install Adobe Flash Player.app/Contents/Resources/Adobe Flash Player.pkg</string>
+		<key>receipts</key>
+		<array>
+			<dict>
+				<key>installed_size</key>
+				<integer>16124</integer>
+				<key>packageid</key>
+				<string>com.adobe.pkg.FlashPlayer</string>
+				<key>version</key>
+				<string>13.0.0.214</string>
+			</dict>
+		</array>
+		<key>unattended_install</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>removepackages</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>13.0.0.214</string>
 	</dict>
 	<dict>
 		<key>autoremove</key>
