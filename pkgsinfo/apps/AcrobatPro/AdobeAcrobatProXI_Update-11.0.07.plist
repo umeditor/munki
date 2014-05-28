@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>_metadata</key>
+	<dict>
+		<key>created_by</key>
+		<string>mcneal</string>
+		<key>creation_date</key>
+		<date>2014-05-28T20:59:28Z</date>
+		<key>munki_version</key>
+		<string>1.0.0.1864</string>
+		<key>os_version</key>
+		<string>10.9.3</string>
+	</dict>
+	<key>autoremove</key>
+	<false/>
+	<key>blocking_applications</key>
+	<array>
+		<string>Adobe Acrobat Pro.app</string>
+	</array>
+	<key>catalogs</key>
+	<array>
+		<string>testing</string>
+	</array>
+	<key>description</key>
+	<string></string>
+	<key>display_name</key>
+	<string>Adobe Acrobat Pro Update</string>
+	<key>installed_size</key>
+	<integer>218352</integer>
+	<key>installer_item_hash</key>
+	<string>a8cb339658e2bb8680a18919bbd382f4e56454658cd60f30a1422525992d5989</string>
+	<key>installer_item_location</key>
+	<string>apps/AcrobatPro/AcrobatUpd11007-11.0.07.pkg</string>
+	<key>installer_item_size</key>
+	<integer>283229</integer>
+	<key>minimum_os_version</key>
+	<string>10.5.0</string>
+	<key>name</key>
+	<string>AdobeAcrobatProXI_Update</string>
+	<key>receipts</key>
+	<array>
+		<dict>
+			<key>installed_size</key>
+			<integer>0</integer>
+			<key>packageid</key>
+			<string>com.adobe.PDApp.AdobeApplicationManager.installer.pkg</string>
+			<key>version</key>
+			<string>1</string>
+		</dict>
+		<dict>
+			<key>installed_size</key>
+			<integer>218352</integer>
+			<key>packageid</key>
+			<string>com.adobe.acrobat.viewer.11.0.07.patch.pkg</string>
+			<key>version</key>
+			<string>11.0.07</string>
+		</dict>
+	</array>
+	<key>unattended_install</key>
+	<true/>
+	<key>uninstall_method</key>
+	<string>removepackages</string>
+	<key>uninstallable</key>
+	<true/>
+	<key>update_for</key>
+	<array>
+		<string>AdobeAcrobatProXI</string>
+	</array>
+	<key>version</key>
+	<string>11.0.07</string>
+</dict>
+</plist>
