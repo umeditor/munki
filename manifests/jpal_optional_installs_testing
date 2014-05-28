@@ -36,6 +36,7 @@
 		<string>iPhoto</string>
 		<string>TrueCrypt</string>
 		<string>XDDecode</string>
+		<string>AdobeAcrobatProXI</string>
 	</array>
 	<key>managed_uninstalls</key>
 	<array>
