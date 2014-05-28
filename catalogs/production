@@ -955,6 +955,56 @@ exit 0
 			<string>production</string>
 		</array>
 		<key>description</key>
+		<string>Calibrated{Q} XD Decode is a multi-threaded QuickTime Codec(Decode Only) that enables you to view QuickTime XDCAM HD/EX and HDV .MOV Movies in QuickTime Player and other 3rd party applications that support QuickTime.</string>
+		<key>display_name</key>
+		<string>Calibrated{Q} XD Decode</string>
+		<key>installed_size</key>
+		<integer>9128</integer>
+		<key>installer_item_hash</key>
+		<string>6bfe5d8b48072538a067ab5676462e4fb81a552afee6e2a26ff8548ea9147c51</string>
+		<key>installer_item_location</key>
+		<string>apps/XDDecode-v1.9.6.pkg</string>
+		<key>installer_item_size</key>
+		<integer>3222</integer>
+		<key>minimum_os_version</key>
+		<string>10.5.0</string>
+		<key>name</key>
+		<string>XDDecode</string>
+		<key>receipts</key>
+		<array>
+			<dict>
+				<key>installed_size</key>
+				<integer>9128</integer>
+				<key>packageid</key>
+				<string>com.calibratedsoftware.calibratedqxdDecode.Calibrated.pkg</string>
+				<key>version</key>
+				<string>1.9.6</string>
+			</dict>
+			<dict>
+				<key>installed_size</key>
+				<integer>0</integer>
+				<key>packageid</key>
+				<string>com.calibratedsoftware.calibratedqxdDecode.Licenses.pkg</string>
+				<key>version</key>
+				<string>1.9.6</string>
+			</dict>
+		</array>
+		<key>uninstall_method</key>
+		<string>removepackages</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>1.9.6</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>testing</string>
+			<string>production</string>
+		</array>
+		<key>description</key>
 		<string>Adobe Acrobat X Pro PDF Utility.</string>
 		<key>display_name</key>
 		<string>Adobe Acrobat X Pro</string>

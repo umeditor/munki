@@ -2494,6 +2494,7 @@ exit 0
 		<key>catalogs</key>
 		<array>
 			<string>testing</string>
+			<string>production</string>
 		</array>
 		<key>description</key>
 		<string>Calibrated{Q} XD Decode is a multi-threaded QuickTime Codec(Decode Only) that enables you to view QuickTime XDCAM HD/EX and HDV .MOV Movies in QuickTime Player and other 3rd party applications that support QuickTime.</string>
