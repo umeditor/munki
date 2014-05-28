@@ -35,6 +35,7 @@
 		<string>Spotify</string>
 		<string>iPhoto</string>
 		<string>TrueCrypt</string>
+		<string>XDDecode</string>
 	</array>
 	<key>managed_uninstalls</key>
 	<array>
