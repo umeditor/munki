@@ -82,7 +82,7 @@
 	<key>minimum_os_version</key>
 	<string>10.5.8</string>
 	<key>name</key>
-	<string>Office2011_update-14.1.0</string>
+	<string>Office2011_update</string>
 	<key>receipts</key>
 	<array>
 		<dict>
