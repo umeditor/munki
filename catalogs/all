@@ -8612,19 +8612,18 @@ fi
 		<key>catalogs</key>
 		<array>
 			<string>testing</string>
+			<string>production</string>
 		</array>
 		<key>description</key>
 		<string>VMware Fusion is a desktop application that lets you create and run virtual machines on your Intel-based Macintosh.</string>
 		<key>display_name</key>
 		<string>VMware Fusion</string>
 		<key>installer_item_hash</key>
-		<string>d51daed60baef6252136d9024ac6dd59df3b402bc8a9aa7cd1d663d61e6dc6d8</string>
+		<string>efd6faed4a3e44de3d74f2499783114196d4f0e878cdc207a135a75aa788bacb</string>
 		<key>installer_item_location</key>
-		<string>apps/vmware/VMware-Fusion-6.0.3-1747349-light-6.0.3.dmg</string>
+		<string>apps/vmware/Deploy VMware Fusion-6.0.3.dmg</string>
 		<key>installer_item_size</key>
-		<integer>241974</integer>
-		<key>installer_type</key>
-		<string>copy_from_dmg</string>
+		<integer>260291</integer>
 		<key>installs</key>
 		<array>
 			<dict>
@@ -8646,21 +8645,12 @@ fi
 				<string>CFBundleShortVersionString</string>
 			</dict>
 		</array>
-		<key>items_to_copy</key>
-		<array>
-			<dict>
-				<key>destination_path</key>
-				<string>/Applications</string>
-				<key>source_item</key>
-				<string>VMware Fusion.app</string>
-			</dict>
-		</array>
 		<key>minimum_os_version</key>
-		<string>10.7.0</string>
+		<string>10.4.0</string>
 		<key>name</key>
 		<string>VMwareFusion</string>
 		<key>uninstall_method</key>
-		<string>remove_copied_items</string>
+		<string>removepackages</string>
 		<key>uninstallable</key>
 		<true/>
 		<key>version</key>

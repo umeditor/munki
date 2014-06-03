@@ -6388,6 +6388,56 @@ fi
 			<string>production</string>
 		</array>
 		<key>description</key>
+		<string>VMware Fusion is a desktop application that lets you create and run virtual machines on your Intel-based Macintosh.</string>
+		<key>display_name</key>
+		<string>VMware Fusion</string>
+		<key>installer_item_hash</key>
+		<string>efd6faed4a3e44de3d74f2499783114196d4f0e878cdc207a135a75aa788bacb</string>
+		<key>installer_item_location</key>
+		<string>apps/vmware/Deploy VMware Fusion-6.0.3.dmg</string>
+		<key>installer_item_size</key>
+		<integer>260291</integer>
+		<key>installs</key>
+		<array>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>com.vmware.fusion</string>
+				<key>CFBundleName</key>
+				<string>VMware Fusion</string>
+				<key>CFBundleShortVersionString</key>
+				<string>6.0.3</string>
+				<key>CFBundleVersion</key>
+				<string>1747349</string>
+				<key>minosversion</key>
+				<string>10.7.0</string>
+				<key>path</key>
+				<string>/Applications/VMware Fusion.app</string>
+				<key>type</key>
+				<string>application</string>
+				<key>version_comparison_key</key>
+				<string>CFBundleShortVersionString</string>
+			</dict>
+		</array>
+		<key>minimum_os_version</key>
+		<string>10.4.0</string>
+		<key>name</key>
+		<string>VMwareFusion</string>
+		<key>uninstall_method</key>
+		<string>removepackages</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>6.0.3</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>testing</string>
+			<string>production</string>
+		</array>
+		<key>description</key>
 		<string>Adobe® Flash® Player is a cross-platform browser-based application runtime that delivers uncompromised viewing of expressive applications, content, and videos across screens and browsers.</string>
 		<key>display_name</key>
 		<string>Adobe Flash Player</string>
