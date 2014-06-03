@@ -28,17 +28,23 @@
 	<string>munkitools</string>
 	<key>package_path</key>
 	<string>munkitools-1.0.0.1864.0.mpkg/Contents/Packages/munkitools_app-3.6.0.1864.pkg</string>
-	<key>receipts</key>
+	<key>installs</key>
 	<array>
 		<dict>
-			<key>filename</key>
-			<string>munkitools_app-3.6.0.1864.pkg</string>
-			<key>installed_size</key>
-			<integer>1520</integer>
-			<key>packageid</key>
-			<string>com.googlecode.munki.app</string>
-			<key>version</key>
+			<key>CFBundleIdentifier</key>
+			<string>com.googlecode.munki.ManagedSoftwareUpdate</string>
+			<key>CFBundleName</key>
+			<string>Managed Software Update</string>
+			<key>CFBundleShortVersionString</key>
 			<string>3.6.0.1864</string>
+			<key>CFBundleVersion</key>
+			<string>1864</string>
+			<key>path</key>
+			<string>/Applications/Utilities/Managed Software Update.app</string>
+			<key>type</key>
+			<string>application</string>
+			<key>version_comparison_key</key>
+			<string>CFBundleShortVersionString</string>
 		</dict>
 	</array>
 	<key>requires</key>
