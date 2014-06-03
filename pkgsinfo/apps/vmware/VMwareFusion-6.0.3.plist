@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>_metadata</key>
+	<dict>
+		<key>created_by</key>
+		<string>mcneal</string>
+		<key>creation_date</key>
+		<date>2014-06-03T13:07:26Z</date>
+		<key>munki_version</key>
+		<string>1.0.0.1864</string>
+		<key>os_version</key>
+		<string>10.9.3</string>
+	</dict>
+	<key>autoremove</key>
+	<false/>
+	<key>catalogs</key>
+	<array>
+		<string>testing</string>
+		<string>production</string>
+	</array>
+	<key>description</key>
+	<string>VMware Fusion is a desktop application that lets you create and run virtual machines on your Intel-based Macintosh.</string>
+	<key>display_name</key>
+	<string>VMware Fusion</string>
+	<key>installer_item_hash</key>
+	<string>d51daed60baef6252136d9024ac6dd59df3b402bc8a9aa7cd1d663d61e6dc6d8</string>
+	<key>installer_item_location</key>
+	<string>apps/vmware/VMware-Fusion-6.0.3-1747349-light-6.0.3.dmg</string>
+	<key>installer_item_size</key>
+	<integer>241974</integer>
+	<key>installer_type</key>
+	<string>copy_from_dmg</string>
+	<key>installs</key>
+	<array>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.vmware.fusion</string>
+			<key>CFBundleName</key>
+			<string>VMware Fusion</string>
+			<key>CFBundleShortVersionString</key>
+			<string>6.0.3</string>
+			<key>CFBundleVersion</key>
+			<string>1747349</string>
+			<key>minosversion</key>
+			<string>10.7.0</string>
+			<key>path</key>
+			<string>/Applications/VMware Fusion.app</string>
+			<key>type</key>
+			<string>application</string>
+			<key>version_comparison_key</key>
+			<string>CFBundleShortVersionString</string>
+		</dict>
+	</array>
+	<key>items_to_copy</key>
+	<array>
+		<dict>
+			<key>destination_path</key>
+			<string>/Applications</string>
+			<key>source_item</key>
+			<string>VMware Fusion.app</string>
+		</dict>
+	</array>
+	<key>minimum_os_version</key>
+	<string>10.7.0</string>
+	<key>name</key>
+	<string>VMwareFusion</string>
+	<key>uninstall_method</key>
+	<string>remove_copied_items</string>
+	<key>uninstallable</key>
+	<true/>
+	<key>version</key>
+	<string>6.0.3</string>
+</dict>
+</plist>

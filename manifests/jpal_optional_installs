@@ -29,6 +29,7 @@
 		<string>iPhoto</string>
 		<string>TrueCrypt</string>
 		<string>XDDecode</string>
+		<string>VMwareFusion</string>
 	</array>
 	<key>managed_uninstalls</key>
 	<array>

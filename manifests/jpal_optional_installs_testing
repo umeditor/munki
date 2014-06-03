@@ -37,6 +37,7 @@
 		<string>TrueCrypt</string>
 		<string>XDDecode</string>
 		<string>AdobeAcrobatProXI</string>
+		<string>VMwareFusion</string>
 	</array>
 	<key>managed_uninstalls</key>
 	<array>
