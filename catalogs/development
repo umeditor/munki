@@ -83,31 +83,25 @@
 		<string>munkitools/munkitools-1.0.0.1864.0.dmg</string>
 		<key>installer_item_size</key>
 		<integer>891</integer>
-		<key>installs</key>
-		<array>
-			<dict>
-				<key>CFBundleIdentifier</key>
-				<string>com.googlecode.munki.ManagedSoftwareUpdate</string>
-				<key>CFBundleName</key>
-				<string>Managed Software Update</string>
-				<key>CFBundleShortVersionString</key>
-				<string>3.6.0.1864</string>
-				<key>CFBundleVersion</key>
-				<string>1864</string>
-				<key>path</key>
-				<string>/Applications/Utilities/Managed Software Update.app</string>
-				<key>type</key>
-				<string>application</string>
-				<key>version_comparison_key</key>
-				<string>CFBundleShortVersionString</string>
-			</dict>
-		</array>
 		<key>minimum_os_version</key>
 		<string>10.4.0</string>
 		<key>name</key>
 		<string>munkitools_admin</string>
 		<key>package_path</key>
 		<string>munkitools-1.0.0.1864.0.mpkg/Contents/Packages/munkitools_admin-1.0.0.1864.0.pkg</string>
+		<key>receipts</key>
+		<array>
+			<dict>
+				<key>filename</key>
+				<string>munkitools_admin-1.0.0.1864.0.pkg</string>
+				<key>installed_size</key>
+				<integer>132</integer>
+				<key>packageid</key>
+				<string>com.googlecode.munki.admin</string>
+				<key>version</key>
+				<string>1.0.0.1864.0</string>
+			</dict>
+		</array>
 		<key>unattended_install</key>
 		<true/>
 		<key>uninstall_method</key>
@@ -142,31 +136,25 @@
 		<string>munkitools/munkitools-1.0.0.1864.0.dmg</string>
 		<key>installer_item_size</key>
 		<integer>891</integer>
-		<key>installs</key>
-		<array>
-			<dict>
-				<key>CFBundleIdentifier</key>
-				<string>com.googlecode.munki.ManagedSoftwareUpdate</string>
-				<key>CFBundleName</key>
-				<string>Managed Software Update</string>
-				<key>CFBundleShortVersionString</key>
-				<string>3.6.0.1864</string>
-				<key>CFBundleVersion</key>
-				<string>1864</string>
-				<key>path</key>
-				<string>/Applications/Utilities/Managed Software Update.app</string>
-				<key>type</key>
-				<string>application</string>
-				<key>version_comparison_key</key>
-				<string>CFBundleShortVersionString</string>
-			</dict>
-		</array>
 		<key>minimum_os_version</key>
 		<string>10.4.0</string>
 		<key>name</key>
 		<string>munkitools_core</string>
 		<key>package_path</key>
 		<string>munkitools-1.0.0.1864.0.mpkg/Contents/Packages/munkitools_core-1.0.0.1864.0.pkg</string>
+		<key>receipts</key>
+		<array>
+			<dict>
+				<key>filename</key>
+				<string>munkitools_core-1.0.0.1864.0.pkg</string>
+				<key>installed_size</key>
+				<integer>584</integer>
+				<key>packageid</key>
+				<string>com.googlecode.munki.core</string>
+				<key>version</key>
+				<string>1.0.0.1864.0</string>
+			</dict>
+		</array>
 		<key>requires</key>
 		<array>
 			<string>munkitools_launchd</string>
