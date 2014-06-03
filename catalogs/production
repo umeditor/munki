@@ -6394,7 +6394,7 @@ fi
 		<key>installer_item_hash</key>
 		<string>efd6faed4a3e44de3d74f2499783114196d4f0e878cdc207a135a75aa788bacb</string>
 		<key>installer_item_location</key>
-		<string>apps/vmware/Deploy VMware Fusion-6.0.3.dmg</string>
+		<string>apps/vmware/VMware-Fusion-6.0.3-1747349-light-6.0.3.dmg</string>
 		<key>installer_item_size</key>
 		<integer>260291</integer>
 		<key>installs</key>
