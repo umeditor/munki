@@ -9166,6 +9166,25 @@ fi
 		<string>munkitools/munkitools-0.9.0.1803.0.dmg</string>
 		<key>installer_item_size</key>
 		<integer>886</integer>
+		<key>installs</key>
+		<array>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>com.googlecode.munki.ManagedSoftwareUpdate</string>
+				<key>CFBundleName</key>
+				<string>Managed Software Update</string>
+				<key>CFBundleShortVersionString</key>
+				<string>3.6.0.1864</string>
+				<key>CFBundleVersion</key>
+				<string>1864</string>
+				<key>path</key>
+				<string>/Applications/Utilities/Managed Software Update.app</string>
+				<key>type</key>
+				<string>application</string>
+				<key>version_comparison_key</key>
+				<string>CFBundleShortVersionString</string>
+			</dict>
+		</array>
 		<key>minimum_os_version</key>
 		<string>10.4.0</string>
 		<key>name</key>

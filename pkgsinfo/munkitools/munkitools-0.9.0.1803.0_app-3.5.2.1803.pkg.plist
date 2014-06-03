@@ -41,6 +41,25 @@
 			<string>3.5.2.1803</string>
 		</dict>
 	</array>
+	<key>installs</key>
+	<array>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.googlecode.munki.ManagedSoftwareUpdate</string>
+			<key>CFBundleName</key>
+			<string>Managed Software Update</string>
+			<key>CFBundleShortVersionString</key>
+			<string>3.6.0.1864</string>
+			<key>CFBundleVersion</key>
+			<string>1864</string>
+			<key>path</key>
+			<string>/Applications/Utilities/Managed Software Update.app</string>
+			<key>type</key>
+			<string>application</string>
+			<key>version_comparison_key</key>
+			<string>CFBundleShortVersionString</string>
+		</dict>
+	</array>
 	<key>requires</key>
 	<array>
 		<string>munkitools_core</string>
