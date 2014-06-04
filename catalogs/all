@@ -348,10 +348,6 @@
 				<string>1</string>
 			</dict>
 		</array>
-		<key>requires</key>
-		<array>
-			<string>Java6</string>
-		</array>
 		<key>uninstall_method</key>
 		<string>removepackages</string>
 		<key>uninstallable</key>
