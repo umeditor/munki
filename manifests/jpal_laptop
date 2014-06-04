@@ -21,7 +21,6 @@
 		<string>Office2011</string>
 		<string>CiscoAnyConnectVPN</string>
 		<string>SophosAntiVirus</string>
-		<string>Java6</string>
 		<string>CrashPlanPro</string>
 		<string>AdobeFlashPlayer</string>
 		<string>setting-login-window</string>
@@ -31,6 +30,7 @@
 	</array>
 	<key>optional_installs</key>
 	<array>
+		<string>Java6</string>
 		<string>Silverlight</string>
 		<string>MPEGStreamclip</string>
 		<string>Spotify</string>
