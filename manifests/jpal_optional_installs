@@ -19,7 +19,7 @@
 	<key>optional_installs</key>
 	<array>
 		<string>CertAid</string>
-		<string>AdobeAcrobatProX</string>
+		<string>AdobeAcrobatProXI</string>
 		<string>Office2011</string>
 		<string>CiscoAnyConnectVPN</string>
 		<string>SophosAntiVirus</string>
