@@ -30,6 +30,7 @@
 		<string>TrueCrypt</string>
 		<string>XDDecode</string>
 		<string>VMwareFusion</string>
+		<string>Silverlight</string>
 	</array>
 	<key>managed_uninstalls</key>
 	<array>
