@@ -9063,6 +9063,7 @@ fi
 		<key>catalogs</key>
 		<array>
 			<string>testing</string>
+			<string>production</string>
 		</array>
 		<key>description</key>
 		<string>&lt;html&gt;&lt;p&gt;This update fixes critical issues. &lt;/p&gt;
