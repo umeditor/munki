@@ -7,6 +7,7 @@
 	<key>catalogs</key>
 	<array>
 		<string>testing</string>
+		<string>production</string>
 	</array>
 	<key>description</key>
 	<string>Citrix is a universal client for accessing desktop applications via a server solution. MIT's Citrix implementation allows Mac OS X users to access Windows-only enterprise applications, such as BrioQuery, CCure, Adonis and SAPgui.</string>

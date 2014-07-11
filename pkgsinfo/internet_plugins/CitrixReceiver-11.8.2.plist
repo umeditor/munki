@@ -26,6 +26,7 @@
 	<key>catalogs</key>
 	<array>
 		<string>testing</string>
+		<string>production</string>
 	</array>
 	<key>description</key>
 	<string>Access your content from any device with Citrix Receiver, the enterprise mobility solution that delivers a high def experience simply and securely.</string>

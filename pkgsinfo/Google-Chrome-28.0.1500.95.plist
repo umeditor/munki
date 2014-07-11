@@ -7,6 +7,7 @@
 	<key>catalogs</key>
 	<array>
 		<string>testing</string>
+		<string>production</string>
 	</array>
 	<key>installer_item_hash</key>
 	<string>59338cd6ecf9f8f9f846eaa270c3b670bc38404d0d0a4eaca29263027d9e9885</string>
