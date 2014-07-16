@@ -3689,6 +3689,7 @@ fi
 		<key>catalogs</key>
 		<array>
 			<string>testing</string>
+			<string>production</string>
 		</array>
 		<key>description</key>
 		<string>Dropbox is a free service that lets you bring all your photos, docs, and videos anywhere. This means that any file you save to your Dropbox will automatically save to all your computers, phones and even the Dropbox website.</string>
@@ -3734,7 +3735,7 @@ fi
 # https://groups.google.com/group/munki-dev/browse_thread/thread/a2813e7f62535f13/63d127534541f863
 # modifications:
 # - always extract the helper tool with each install instead of skipping if it exists
-# - remove xattr com.apple.quarantine removal, as Munki will have already done this upon 
+# - remove xattr com.apple.quarantine removal, as Munki will have already done this upon
 #   installation; normal autopkg runs also won't quarantine the download to begin with
 
 HELPER_SRC_PATH=/Applications/Dropbox.app/Contents/Resources/DropboxHelperInstaller.tgz
