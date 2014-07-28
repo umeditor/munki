@@ -23,7 +23,7 @@
 	<key>description</key>
 	<string>The Adobe AIR runtime enables developers to package the same code into native applications and games for Windows and Mac OS desktops as well as iOS and Android devices, reaching over a billion desktop systems and mobile app stores for over 500 million devices.</string>
 	<key>display_name</key>
-	<string>Adobe® Integrated Runtime</string>
+	<string>Adobe AIR</string>
 	<key>installed_size</key>
 	<integer>121215</integer>
 	<key>installer_item_hash</key>
