@@ -38,6 +38,7 @@
 		<string>TrueCrypt</string>
 		<string>XDDecode</string>
 		<string>VMwareFusion</string>
+		<string>AdobeAIR</string>
 	</array>
 	<key>managed_uninstalls</key>
 	<array>

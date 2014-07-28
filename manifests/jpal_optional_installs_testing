@@ -38,6 +38,7 @@
 		<string>XDDecode</string>
 		<string>AdobeAcrobatProXI</string>
 		<string>VMwareFusion</string>
+		<string>AdobeAIR</string>
 	</array>
 	<key>managed_uninstalls</key>
 	<array>
