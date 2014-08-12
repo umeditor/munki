@@ -3788,6 +3788,50 @@ exit 0
 			<string>production</string>
 		</array>
 		<key>description</key>
+		<string>The Adobe AIR runtime enables developers to package the same code into native applications and games for Windows and Mac OS desktops as well as iOS and Android devices, reaching over a billion desktop systems and mobile app stores for over 500 million devices.</string>
+		<key>display_name</key>
+		<string>Adobe AIR</string>
+		<key>installed_size</key>
+		<integer>121282</integer>
+		<key>installer_item_hash</key>
+		<string>4971dafc66220eb8fc695bf9c092032e9b07583c4ae34b133ae2346d168d995a</string>
+		<key>installer_item_location</key>
+		<string>apps/adobe/AdobeAIR-14.0.0.178.pkg</string>
+		<key>installer_item_size</key>
+		<integer>53719</integer>
+		<key>minimum_os_version</key>
+		<string>10.5.0</string>
+		<key>name</key>
+		<string>AdobeAIR</string>
+		<key>receipts</key>
+		<array>
+			<dict>
+				<key>installed_size</key>
+				<integer>121282</integer>
+				<key>packageid</key>
+				<string>com.adobe.pkg.AIR</string>
+				<key>version</key>
+				<string>14.0.0.178</string>
+			</dict>
+		</array>
+		<key>unattended_install</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>removepackages</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>14.0.0.178</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>testing</string>
+			<string>production</string>
+		</array>
+		<key>description</key>
 		<string>iPhoto lets you do more than you ever thought possible with your photos, with easy ways to find, sort, and rediscover your favorite shots. Simple but powerful editing tools let you turn good photos into magnificent ones. Share directly to Facebook, Flickr, Twitter, and Messages. iPhoto also works with iCloud, so the photos you take on your iOS devices automatically appear in iPhoto, and you can share selected photos and videos with family and friends using iCloud Photo Sharing. You can even create professional-quality photo books, calendars and letterpress cards quickly and easily.</string>
 		<key>display_name</key>
 		<string>iPhoto</string>
@@ -10981,6 +11025,73 @@ fi
 		<true/>
 		<key>version</key>
 		<string>11.8.2</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>testing</string>
+			<string>production</string>
+		</array>
+		<key>description</key>
+		<string>RStudio is the premier integrated development environment for R. It is available in open source and commercial editions and runs on the desktop (Windows, Mac, and Linux) or over the web with RStudio Server.</string>
+		<key>display_name</key>
+		<string>RStudio</string>
+		<key>installer_item_hash</key>
+		<string>dce1a2d5b3f4ad1427cf98433947f2152e1375c3474f7bba81e37199eb81a5b1</string>
+		<key>installer_item_location</key>
+		<string>Mathematics/RStudio-0.98.1006.dmg</string>
+		<key>installer_item_size</key>
+		<integer>38714</integer>
+		<key>installer_type</key>
+		<string>copy_from_dmg</string>
+		<key>installs</key>
+		<array>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>org.rstudio.RStudio</string>
+				<key>CFBundleName</key>
+				<string>RStudio</string>
+				<key>CFBundleShortVersionString</key>
+				<string>0.98.1006</string>
+				<key>CFBundleVersion</key>
+				<string>0.98.1006</string>
+				<key>minosversion</key>
+				<string>10.6.0</string>
+				<key>path</key>
+				<string>/Applications/RStudio.app</string>
+				<key>type</key>
+				<string>application</string>
+				<key>version_comparison_key</key>
+				<string>CFBundleShortVersionString</string>
+			</dict>
+		</array>
+		<key>items_to_copy</key>
+		<array>
+			<dict>
+				<key>destination_path</key>
+				<string>/Applications</string>
+				<key>source_item</key>
+				<string>RStudio.app</string>
+			</dict>
+		</array>
+		<key>minimum_os_version</key>
+		<string>10.6.0</string>
+		<key>name</key>
+		<string>RStudio</string>
+		<key>requires</key>
+		<array>
+			<string>R</string>
+		</array>
+		<key>unattended_install</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>remove_copied_items</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>0.98.1006</string>
 	</dict>
 	<dict>
 		<key>autoremove</key>
