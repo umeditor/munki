@@ -1971,6 +1971,69 @@ exit 0
 			<string>production</string>
 		</array>
 		<key>description</key>
+		<string>Chrome is a fast, simple, and secure web browser, built for the modern web.</string>
+		<key>display_name</key>
+		<string>Google Chrome</string>
+		<key>installer_item_hash</key>
+		<string>c5dbfef17b4cf78790f2b960ca6cd8838e7acc1bcad38a1238e09fd589ab86b5</string>
+		<key>installer_item_location</key>
+		<string>apps/GoogleChrome-36.0.1985.143.dmg</string>
+		<key>installer_item_size</key>
+		<integer>59516</integer>
+		<key>installer_type</key>
+		<string>copy_from_dmg</string>
+		<key>installs</key>
+		<array>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>com.google.Chrome</string>
+				<key>CFBundleName</key>
+				<string>Chrome</string>
+				<key>CFBundleShortVersionString</key>
+				<string>36.0.1985.143</string>
+				<key>CFBundleVersion</key>
+				<string>1985.143</string>
+				<key>minosversion</key>
+				<string>10.6.0</string>
+				<key>path</key>
+				<string>/Applications/Google Chrome.app</string>
+				<key>type</key>
+				<string>application</string>
+				<key>version_comparison_key</key>
+				<string>CFBundleShortVersionString</string>
+			</dict>
+		</array>
+		<key>items_to_copy</key>
+		<array>
+			<dict>
+				<key>destination_path</key>
+				<string>/Applications</string>
+				<key>source_item</key>
+				<string>Google Chrome.app</string>
+			</dict>
+		</array>
+		<key>minimum_os_version</key>
+		<string>10.6.0</string>
+		<key>name</key>
+		<string>GoogleChrome</string>
+		<key>unattended_install</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>remove_copied_items</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>36.0.1985.143</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>testing</string>
+			<string>production</string>
+		</array>
+		<key>description</key>
 		<string>GrandPerspective is a small utility application for Mac OS X that graphically shows the disk usage within a file system. It can help you to manage your disk, as you can easily spot which files and folders take up the most space. It uses a so called tree map for visualisation. Each file is shown as a rectangle with an area proportional to the file's size. Files in the same folder appear together, but their placement is otherwise arbitrary.</string>
 		<key>installer_item_hash</key>
 		<string>92204458042a337c1091879e167ea95e45cae33a7be16fa6c11e80572c54d135</string>
@@ -10944,6 +11007,52 @@ fi
 	<dict>
 		<key>autoremove</key>
 		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>testing</string>
+			<string>production</string>
+		</array>
+		<key>description</key>
+		<string>Adobe® Flash® Player is a cross-platform browser-based application runtime that delivers uncompromised viewing of expressive applications, content, and videos across screens and browsers.</string>
+		<key>display_name</key>
+		<string>Adobe Flash Player</string>
+		<key>installed_size</key>
+		<integer>16872</integer>
+		<key>installer_item_hash</key>
+		<string>1c51318fa41cba96c28e06e171c2323f6dbd9d8bee124ad0593b9ab96a4d1ad8</string>
+		<key>installer_item_location</key>
+		<string>internet_plugins/AdobeFlashPlayer-14.0.0.176.dmg</string>
+		<key>installer_item_size</key>
+		<integer>16106</integer>
+		<key>minimum_os_version</key>
+		<string>10.5.0</string>
+		<key>name</key>
+		<string>AdobeFlashPlayer</string>
+		<key>package_path</key>
+		<string>Install Adobe Flash Player.app/Contents/Resources/Adobe Flash Player.pkg</string>
+		<key>receipts</key>
+		<array>
+			<dict>
+				<key>installed_size</key>
+				<integer>16872</integer>
+				<key>packageid</key>
+				<string>com.adobe.pkg.FlashPlayer</string>
+				<key>version</key>
+				<string>14.0.0.176</string>
+			</dict>
+		</array>
+		<key>unattended_install</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>removepackages</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>14.0.0.176</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
 		<key>blocking_applications</key>
 		<array>
 			<string>Citrix Receiver</string>
@@ -11092,6 +11201,73 @@ fi
 		<true/>
 		<key>version</key>
 		<string>0.98.1006</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>testing</string>
+			<string>production</string>
+		</array>
+		<key>description</key>
+		<string>RStudio is the premier integrated development environment for R. It is available in open source and commercial editions and runs on the desktop (Windows, Mac, and Linux) or over the web with RStudio Server.</string>
+		<key>display_name</key>
+		<string>RStudio</string>
+		<key>installer_item_hash</key>
+		<string>44938e25d6b9ce0e765896d3722b373026db984657990cfa0d7bdad293415d10</string>
+		<key>installer_item_location</key>
+		<string>Mathematics/RStudio-0.98.1017.dmg</string>
+		<key>installer_item_size</key>
+		<integer>38714</integer>
+		<key>installer_type</key>
+		<string>copy_from_dmg</string>
+		<key>installs</key>
+		<array>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>org.rstudio.RStudio</string>
+				<key>CFBundleName</key>
+				<string>RStudio</string>
+				<key>CFBundleShortVersionString</key>
+				<string>0.98.1017</string>
+				<key>CFBundleVersion</key>
+				<string>0.98.1017</string>
+				<key>minosversion</key>
+				<string>10.6.0</string>
+				<key>path</key>
+				<string>/Applications/RStudio.app</string>
+				<key>type</key>
+				<string>application</string>
+				<key>version_comparison_key</key>
+				<string>CFBundleShortVersionString</string>
+			</dict>
+		</array>
+		<key>items_to_copy</key>
+		<array>
+			<dict>
+				<key>destination_path</key>
+				<string>/Applications</string>
+				<key>source_item</key>
+				<string>RStudio.app</string>
+			</dict>
+		</array>
+		<key>minimum_os_version</key>
+		<string>10.6.0</string>
+		<key>name</key>
+		<string>RStudio</string>
+		<key>requires</key>
+		<array>
+			<string>R</string>
+		</array>
+		<key>unattended_install</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>remove_copied_items</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>0.98.1017</string>
 	</dict>
 	<dict>
 		<key>autoremove</key>
