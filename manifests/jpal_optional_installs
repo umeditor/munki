@@ -18,20 +18,29 @@
 	</array>
 	<key>optional_installs</key>
 	<array>
-		<string>CertAid</string>
-		<string>AdobeAcrobatProXI</string>
-		<string>Office2011</string>
-		<string>CiscoAnyConnectVPN</string>
-		<string>SophosAntiVirus</string>
-		<string>MPEGStreamclip</string
-		<string>Google Voice and Video</string>
-		<string>Spotify</string>
-		<string>iPhoto</string>
-		<string>TrueCrypt</string>
-		<string>XDDecode</string>
-		<string>VMwareFusion</string>
-		<string>Silverlight</string>
 		<string>AdobeAIR</string>
+		<string>AdobeAcrobatProXI</string>
+		<string>AdobeFlashPlayer</string>
+		<string>BlackSabbath</string>
+		<string>CertAid</string>
+		<string>CiscoAnyConnectVPN</string>
+		<string>CitrixReceiver</string>
+		<string>CrashPlanPro</string>
+		<string>Dropbox</string>
+		<string>GoogleChrome</string>
+		<string>GoogleVoiceandVideo</string>
+		<string>Java6</string>
+		<string>MPEGStreamclip</string>
+		<string>Office2011</string>
+		<string>Silverlight</string>
+		<string>Skype</string>
+		<string>SophosAntiVirus</string>
+		<string>Spotify</string>
+		<string>TrueCrypt</string>
+		<string>VMwareFusion</string>
+		<string>XDDecode</string>
+		<string>Xcode</string>
+		<string>iPhoto</string>
 	</array>
 	<key>managed_uninstalls</key>
 	<array>
