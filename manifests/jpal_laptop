@@ -39,6 +39,7 @@
 		<string>XDDecode</string>
 		<string>VMwareFusion</string>
 		<string>AdobeAIR</string>
+		<string>Firefox</string>
 	</array>
 	<key>managed_uninstalls</key>
 	<array>
