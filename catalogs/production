@@ -11090,9 +11090,7 @@ fi
 			</dict>
 		</array>
 		<key>requires</key>
-		<array>
-			<string>Office2011_update-14.1.0</string>
-		</array>
+		<array/>
 		<key>uninstall_method</key>
 		<string>removepackages</string>
 		<key>uninstallable</key>
