@@ -2164,6 +2164,69 @@ exit 0
 		<key>display_name</key>
 		<string>Google Chrome</string>
 		<key>installer_item_hash</key>
+		<string>060aabc2f1a01b174b3afae9b05b8a6dacfef201688f6f654dcef1b9a6cb42fb</string>
+		<key>installer_item_location</key>
+		<string>apps/GoogleChrome-37.0.2062.122.dmg</string>
+		<key>installer_item_size</key>
+		<integer>60767</integer>
+		<key>installer_type</key>
+		<string>copy_from_dmg</string>
+		<key>installs</key>
+		<array>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>com.google.Chrome</string>
+				<key>CFBundleName</key>
+				<string>Chrome</string>
+				<key>CFBundleShortVersionString</key>
+				<string>37.0.2062.122</string>
+				<key>CFBundleVersion</key>
+				<string>2062.122</string>
+				<key>minosversion</key>
+				<string>10.6.0</string>
+				<key>path</key>
+				<string>/Applications/Google Chrome.app</string>
+				<key>type</key>
+				<string>application</string>
+				<key>version_comparison_key</key>
+				<string>CFBundleShortVersionString</string>
+			</dict>
+		</array>
+		<key>items_to_copy</key>
+		<array>
+			<dict>
+				<key>destination_path</key>
+				<string>/Applications</string>
+				<key>source_item</key>
+				<string>Google Chrome.app</string>
+			</dict>
+		</array>
+		<key>minimum_os_version</key>
+		<string>10.6.0</string>
+		<key>name</key>
+		<string>GoogleChrome</string>
+		<key>unattended_install</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>remove_copied_items</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>37.0.2062.122</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>testing</string>
+			<string>production</string>
+		</array>
+		<key>description</key>
+		<string>Chrome is a fast, simple, and secure web browser, built for the modern web.</string>
+		<key>display_name</key>
+		<string>Google Chrome</string>
+		<key>installer_item_hash</key>
 		<string>74c73d6ab6e67d0c2b9ac87176e0d783318671b396ea2ccfb663184725d983d2</string>
 		<key>installer_item_location</key>
 		<string>apps/GoogleChrome-37.0.2062.94.dmg</string>
@@ -3331,6 +3394,67 @@ exit 0
 		<key>display_name</key>
 		<string>Spotify</string>
 		<key>installer_item_hash</key>
+		<string>1cb807a5c0fabde3f951aeccbf85eb2c25b649fa4fbdde3a65ff04483f68d51b</string>
+		<key>installer_item_location</key>
+		<string>apps/Spotify-0.9.13.24.g5dbb3103.dmg</string>
+		<key>installer_item_size</key>
+		<integer>47602</integer>
+		<key>installer_type</key>
+		<string>copy_from_dmg</string>
+		<key>installs</key>
+		<array>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>com.spotify.client</string>
+				<key>CFBundleShortVersionString</key>
+				<string>0.9.13.24.g5dbb3103</string>
+				<key>CFBundleVersion</key>
+				<string>91300024</string>
+				<key>minosversion</key>
+				<string>10.6</string>
+				<key>path</key>
+				<string>/Applications/Spotify.app</string>
+				<key>type</key>
+				<string>application</string>
+				<key>version_comparison_key</key>
+				<string>CFBundleShortVersionString</string>
+			</dict>
+		</array>
+		<key>items_to_copy</key>
+		<array>
+			<dict>
+				<key>destination_path</key>
+				<string>/Applications</string>
+				<key>source_item</key>
+				<string>Spotify.app</string>
+			</dict>
+		</array>
+		<key>minimum_os_version</key>
+		<string>10.6</string>
+		<key>name</key>
+		<string>Spotify</string>
+		<key>unattended_install</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>remove_copied_items</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>0.9.13.24.g5dbb3103</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>testing</string>
+			<string>production</string>
+		</array>
+		<key>description</key>
+		<string>Spotify is a music streaming service offering unlimited streaming of selected music from a range of major and independent record labels.</string>
+		<key>display_name</key>
+		<string>Spotify</string>
+		<key>installer_item_hash</key>
 		<string>89859f5a6b19ad3c9f0cd069b897674651a2f811ece20e69a4dd817d3cc40260</string>
 		<key>installer_item_location</key>
 		<string>apps/Spotify-0.9.8.296.g91f68827.dmg</string>
@@ -3941,6 +4065,58 @@ exit 0
 		<key>display_name</key>
 		<string>Adobe Acrobat Pro Update</string>
 		<key>installed_size</key>
+		<integer>139060</integer>
+		<key>installer_item_hash</key>
+		<string>5b95da51e337b277f6869f70a3c612d0a4864469b890fb65152f6214e322b9db</string>
+		<key>installer_item_location</key>
+		<string>apps/AcrobatPro/AcrobatUpd10112-10.1.12.pkg</string>
+		<key>installer_item_size</key>
+		<integer>141211</integer>
+		<key>minimum_os_version</key>
+		<string>10.5.0</string>
+		<key>name</key>
+		<string>AdobeAcrobatProX_Update</string>
+		<key>receipts</key>
+		<array>
+			<dict>
+				<key>installed_size</key>
+				<integer>139060</integer>
+				<key>packageid</key>
+				<string>com.adobe.acrobat.a10.AcrobatUpd10112</string>
+				<key>version</key>
+				<string>10.1.12</string>
+			</dict>
+		</array>
+		<key>unattended_install</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>removepackages</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>update_for</key>
+		<array>
+			<string>AdobeAcrobatProX</string>
+		</array>
+		<key>version</key>
+		<string>10.1.12</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>blocking_applications</key>
+		<array>
+			<string>Adobe Acrobat Pro.app</string>
+		</array>
+		<key>catalogs</key>
+		<array>
+			<string>testing</string>
+			<string>production</string>
+		</array>
+		<key>description</key>
+		<string></string>
+		<key>display_name</key>
+		<string>Adobe Acrobat Pro Update</string>
+		<key>installed_size</key>
 		<integer>139296</integer>
 		<key>installer_item_hash</key>
 		<string>574397054da60ebc41c3a4c79425f40011a63f2ac7a3cce94a21f7b67352e7eb</string>
@@ -4125,6 +4301,66 @@ exit 0
 		</array>
 		<key>version</key>
 		<string>11.0.07</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>blocking_applications</key>
+		<array>
+			<string>Adobe Acrobat Pro.app</string>
+		</array>
+		<key>catalogs</key>
+		<array>
+			<string>testing</string>
+			<string>production</string>
+		</array>
+		<key>description</key>
+		<string></string>
+		<key>display_name</key>
+		<string>Adobe Acrobat Pro Update</string>
+		<key>installed_size</key>
+		<integer>256320</integer>
+		<key>installer_item_hash</key>
+		<string>52b464b2e6807df1e4f54f1c87405777d30e029c9682408d96349d4f4abce2d6</string>
+		<key>installer_item_location</key>
+		<string>apps/AcrobatPro/AcrobatUpd11009-11.0.09.pkg</string>
+		<key>installer_item_size</key>
+		<integer>321213</integer>
+		<key>minimum_os_version</key>
+		<string>10.5.0</string>
+		<key>name</key>
+		<string>AdobeAcrobatProXI_Update</string>
+		<key>receipts</key>
+		<array>
+			<dict>
+				<key>installed_size</key>
+				<integer>0</integer>
+				<key>packageid</key>
+				<string>com.adobe.PDApp.AdobeApplicationManager.installer.pkg</string>
+				<key>version</key>
+				<string>1</string>
+			</dict>
+			<dict>
+				<key>installed_size</key>
+				<integer>256320</integer>
+				<key>packageid</key>
+				<string>com.adobe.acrobat.viewer.11.0.09.patch.pkg</string>
+				<key>version</key>
+				<string>11.0.09</string>
+			</dict>
+		</array>
+		<key>unattended_install</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>removepackages</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>update_for</key>
+		<array>
+			<string>AdobeAcrobatProXI</string>
+		</array>
+		<key>version</key>
+		<string>11.0.09</string>
 	</dict>
 	<dict>
 		<key>autoremove</key>
@@ -4818,6 +5054,82 @@ fi
 		<true/>
 		<key>version</key>
 		<string>2.10.3</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>testing</string>
+			<string>production</string>
+		</array>
+		<key>description</key>
+		<string>Dropbox is a free service that lets you bring all your photos, docs, and videos anywhere. This means that any file you save to your Dropbox will automatically save to all your computers, phones and even the Dropbox website.</string>
+		<key>display_name</key>
+		<string>Dropbox</string>
+		<key>installer_item_hash</key>
+		<string>eea7dfc29058eab08313fdfec50c4363ba7331ea8bcacef3def2d9962d937a2f</string>
+		<key>installer_item_location</key>
+		<string>apps/Dropbox/Dropbox-2.10.30.dmg</string>
+		<key>installer_item_size</key>
+		<integer>41164</integer>
+		<key>installer_type</key>
+		<string>copy_from_dmg</string>
+		<key>installs</key>
+		<array>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>com.getdropbox.dropbox</string>
+				<key>CFBundleName</key>
+				<string>Dropbox</string>
+				<key>path</key>
+				<string>/Applications/Dropbox.app</string>
+				<key>type</key>
+				<string>file</string>
+			</dict>
+		</array>
+		<key>items_to_copy</key>
+		<array>
+			<dict>
+				<key>destination_path</key>
+				<string>/Applications</string>
+				<key>source_item</key>
+				<string>Dropbox.app</string>
+			</dict>
+		</array>
+		<key>minimum_os_version</key>
+		<string>10.4.0</string>
+		<key>name</key>
+		<string>Dropbox</string>
+		<key>postinstall_script</key>
+		<string>#!/bin/sh
+# based on Ruby postinstall script by Riley Shott:
+# https://groups.google.com/group/munki-dev/browse_thread/thread/a2813e7f62535f13/63d127534541f863
+# modifications:
+# - always extract the helper tool with each install instead of skipping if it exists
+# - remove xattr com.apple.quarantine removal, as Munki will have already done this upon 
+#   installation; normal autopkg runs also won't quarantine the download to begin with
+
+HELPER_SRC_PATH=/Applications/Dropbox.app/Contents/Resources/DropboxHelperInstaller.tgz
+HELPER_DST_DIR=/Library/DropboxHelperTools
+HELPER_DST_PATH="$HELPER_DST_DIR/DropboxHelperInstaller"
+
+if [ -e "$HELPER_SRC_PATH" ]; then
+  [ -d "$HELPER_DST_DIR" ] || mkdir "$HELPER_DST_DIR"
+  /usr/bin/tar -C "$HELPER_DST_DIR" -xz -f "$HELPER_SRC_PATH"
+  /bin/chmod 04511 "$HELPER_DST_PATH"
+  /usr/sbin/chown root:wheel "$HELPER_DST_PATH"
+else
+  echo "Expected $HELPER_SRC_PATH, but it was not present in the Dropbox dmg."
+  exit 1
+fi
+</string>
+		<key>uninstall_method</key>
+		<string>remove_copied_items</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>2.10.30</string>
 	</dict>
 	<dict>
 		<key>autoremove</key>
@@ -12848,6 +13160,73 @@ fi
 		<true/>
 		<key>version</key>
 		<string>0.98.1059</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>testing</string>
+			<string>production</string>
+		</array>
+		<key>description</key>
+		<string>RStudio is the premier integrated development environment for R. It is available in open source and commercial editions and runs on the desktop (Windows, Mac, and Linux) or over the web with RStudio Server.</string>
+		<key>display_name</key>
+		<string>RStudio</string>
+		<key>installer_item_hash</key>
+		<string>9b4fb44efd8afcee7317f3c0f2cf44b371d42ad27c09f6018172c4b98c596f1e</string>
+		<key>installer_item_location</key>
+		<string>Mathematics/RStudio-0.98.1060.dmg</string>
+		<key>installer_item_size</key>
+		<integer>39386</integer>
+		<key>installer_type</key>
+		<string>copy_from_dmg</string>
+		<key>installs</key>
+		<array>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>org.rstudio.RStudio</string>
+				<key>CFBundleName</key>
+				<string>RStudio</string>
+				<key>CFBundleShortVersionString</key>
+				<string>0.98.1060</string>
+				<key>CFBundleVersion</key>
+				<string>0.98.1060</string>
+				<key>minosversion</key>
+				<string>10.6.0</string>
+				<key>path</key>
+				<string>/Applications/RStudio.app</string>
+				<key>type</key>
+				<string>application</string>
+				<key>version_comparison_key</key>
+				<string>CFBundleShortVersionString</string>
+			</dict>
+		</array>
+		<key>items_to_copy</key>
+		<array>
+			<dict>
+				<key>destination_path</key>
+				<string>/Applications</string>
+				<key>source_item</key>
+				<string>RStudio.app</string>
+			</dict>
+		</array>
+		<key>minimum_os_version</key>
+		<string>10.6.0</string>
+		<key>name</key>
+		<string>RStudio</string>
+		<key>requires</key>
+		<array>
+			<string>R</string>
+		</array>
+		<key>unattended_install</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>remove_copied_items</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>0.98.1060</string>
 	</dict>
 	<dict>
 		<key>autoremove</key>
