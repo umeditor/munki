@@ -164,6 +164,54 @@
 		<key>catalogs</key>
 		<array>
 			<string>development</string>
+		</array>
+		<key>description</key>
+		<string>Managed Software Center application.</string>
+		<key>display_name</key>
+		<string>Managed Software Center</string>
+		<key>installed_size</key>
+		<integer>4223</integer>
+		<key>installer_item_hash</key>
+		<string>57d1993145ac7c806962ebf8e4f268cca3d96973dfeb873d361489822aa9e049</string>
+		<key>installer_item_location</key>
+		<string>munkitools/munkitools_app-4.0.2227.pkg</string>
+		<key>installer_item_size</key>
+		<integer>3184</integer>
+		<key>minimum_os_version</key>
+		<string>10.5.0</string>
+		<key>name</key>
+		<string>munkitools</string>
+		<key>receipts</key>
+		<array>
+			<dict>
+				<key>installed_size</key>
+				<integer>4223</integer>
+				<key>packageid</key>
+				<string>com.googlecode.munki.app</string>
+				<key>version</key>
+				<string>4.0.2227</string>
+			</dict>
+		</array>
+		<key>requires</key>
+		<array>
+			<string>munkitools_core</string>
+			<string>munkitools_launchd</string>
+		</array>
+		<key>unattended_install</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>removepackages</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>4.0.2227</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>development</string>
 			<string>production</string>
 			<string>testing</string>
 		</array>
@@ -264,6 +312,53 @@
 		<key>catalogs</key>
 		<array>
 			<string>development</string>
+		</array>
+		<key>description</key>
+		<string>Command-line Managed Software Center admin tools.</string>
+		<key>display_name</key>
+		<string>Managed Software Center admin tools</string>
+		<key>installed_size</key>
+		<integer>130</integer>
+		<key>installer_item_hash</key>
+		<string>7eb2d1404c04e5cf5e975f701b1b9b50089c6ef977feb80bf35cb05ac010abe0</string>
+		<key>installer_item_location</key>
+		<string>munkitools/munkitools_admin-2.0.0.2226.pkg</string>
+		<key>installer_item_size</key>
+		<integer>28</integer>
+		<key>minimum_os_version</key>
+		<string>10.5.0</string>
+		<key>name</key>
+		<string>munkitools_admin</string>
+		<key>receipts</key>
+		<array>
+			<dict>
+				<key>installed_size</key>
+				<integer>130</integer>
+				<key>packageid</key>
+				<string>com.googlecode.munki.admin</string>
+				<key>version</key>
+				<string>2.0.0.2226</string>
+			</dict>
+		</array>
+		<key>unattended_install</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>removepackages</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>update_for</key>
+		<array>
+			<string>munkitools_core</string>
+		</array>
+		<key>version</key>
+		<string>2.0.0.2226</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>development</string>
 			<string>production</string>
 			<string>testing</string>
 		</array>
@@ -357,6 +452,53 @@
 		<true/>
 		<key>version</key>
 		<string>2.0.0.2212</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>development</string>
+		</array>
+		<key>description</key>
+		<string>Core command-line tools used by Managed Software Center.</string>
+		<key>display_name</key>
+		<string>Managed Software Center core tools</string>
+		<key>installed_size</key>
+		<integer>579</integer>
+		<key>installer_item_hash</key>
+		<string>30f9201c147e95c0c58ee7c3d6eb8266724bc03fbdae3bde0edf5c857cddadcf</string>
+		<key>installer_item_location</key>
+		<string>munkitools/munkitools_core-2.0.0.2226.pkg</string>
+		<key>installer_item_size</key>
+		<integer>128</integer>
+		<key>minimum_os_version</key>
+		<string>10.5.0</string>
+		<key>name</key>
+		<string>munkitools_core</string>
+		<key>receipts</key>
+		<array>
+			<dict>
+				<key>installed_size</key>
+				<integer>579</integer>
+				<key>packageid</key>
+				<string>com.googlecode.munki.core</string>
+				<key>version</key>
+				<string>2.0.0.2226</string>
+			</dict>
+		</array>
+		<key>requires</key>
+		<array>
+			<string>munkitools_launchd</string>
+		</array>
+		<key>unattended_install</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>removepackages</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>2.0.0.2226</string>
 	</dict>
 	<dict>
 		<key>RestartAction</key>
