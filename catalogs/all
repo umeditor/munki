@@ -3518,6 +3518,67 @@ exit 0
 		<key>display_name</key>
 		<string>Spotify</string>
 		<key>installer_item_hash</key>
+		<string>2728d828ddbcfa6da389449518c3f0bea619a2a0b6be695ef0b0cf0e0c94deb6</string>
+		<key>installer_item_location</key>
+		<string>apps/Spotify-0.9.14.13.gba5645ad.dmg</string>
+		<key>installer_item_size</key>
+		<integer>47915</integer>
+		<key>installer_type</key>
+		<string>copy_from_dmg</string>
+		<key>installs</key>
+		<array>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>com.spotify.client</string>
+				<key>CFBundleShortVersionString</key>
+				<string>0.9.14.13.gba5645ad</string>
+				<key>CFBundleVersion</key>
+				<string>91400013</string>
+				<key>minosversion</key>
+				<string>10.6</string>
+				<key>path</key>
+				<string>/Applications/Spotify.app</string>
+				<key>type</key>
+				<string>application</string>
+				<key>version_comparison_key</key>
+				<string>CFBundleShortVersionString</string>
+			</dict>
+		</array>
+		<key>items_to_copy</key>
+		<array>
+			<dict>
+				<key>destination_path</key>
+				<string>/Applications</string>
+				<key>source_item</key>
+				<string>Spotify.app</string>
+			</dict>
+		</array>
+		<key>minimum_os_version</key>
+		<string>10.6</string>
+		<key>name</key>
+		<string>Spotify</string>
+		<key>unattended_install</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>remove_copied_items</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>0.9.14.13.gba5645ad</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>testing</string>
+			<string>production</string>
+		</array>
+		<key>description</key>
+		<string>Spotify is a music streaming service offering unlimited streaming of selected music from a range of major and independent record labels.</string>
+		<key>display_name</key>
+		<string>Spotify</string>
+		<key>installer_item_hash</key>
 		<string>89859f5a6b19ad3c9f0cd069b897674651a2f811ece20e69a4dd817d3cc40260</string>
 		<key>installer_item_location</key>
 		<string>apps/Spotify-0.9.8.296.g91f68827.dmg</string>
@@ -14651,6 +14712,54 @@ fi
 		<key>catalogs</key>
 		<array>
 			<string>development</string>
+		</array>
+		<key>description</key>
+		<string>Managed Software Center application.</string>
+		<key>display_name</key>
+		<string>Managed Software Center</string>
+		<key>installed_size</key>
+		<integer>4223</integer>
+		<key>installer_item_hash</key>
+		<string>a7ab39d5282be8ad94d27e06b4d8f486eb256659c550bc4d191a3e98aa473340</string>
+		<key>installer_item_location</key>
+		<string>munkitools/munkitools_app-4.0.2228.pkg</string>
+		<key>installer_item_size</key>
+		<integer>3184</integer>
+		<key>minimum_os_version</key>
+		<string>10.5.0</string>
+		<key>name</key>
+		<string>munkitools</string>
+		<key>receipts</key>
+		<array>
+			<dict>
+				<key>installed_size</key>
+				<integer>4223</integer>
+				<key>packageid</key>
+				<string>com.googlecode.munki.app</string>
+				<key>version</key>
+				<string>4.0.2228</string>
+			</dict>
+		</array>
+		<key>requires</key>
+		<array>
+			<string>munkitools_core</string>
+			<string>munkitools_launchd</string>
+		</array>
+		<key>unattended_install</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>removepackages</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>4.0.2228</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>development</string>
 			<string>production</string>
 			<string>testing</string>
 		</array>
@@ -14798,6 +14907,53 @@ fi
 		<key>catalogs</key>
 		<array>
 			<string>development</string>
+		</array>
+		<key>description</key>
+		<string>Command-line Managed Software Center admin tools.</string>
+		<key>display_name</key>
+		<string>Managed Software Center admin tools</string>
+		<key>installed_size</key>
+		<integer>130</integer>
+		<key>installer_item_hash</key>
+		<string>3be887213fd26c95a6b0b840eac63f29d229a28a4b6f78c4d63bc8a72b704561</string>
+		<key>installer_item_location</key>
+		<string>munkitools/munkitools_admin-2.0.0.2229.pkg</string>
+		<key>installer_item_size</key>
+		<integer>28</integer>
+		<key>minimum_os_version</key>
+		<string>10.5.0</string>
+		<key>name</key>
+		<string>munkitools_admin</string>
+		<key>receipts</key>
+		<array>
+			<dict>
+				<key>installed_size</key>
+				<integer>130</integer>
+				<key>packageid</key>
+				<string>com.googlecode.munki.admin</string>
+				<key>version</key>
+				<string>2.0.0.2229</string>
+			</dict>
+		</array>
+		<key>unattended_install</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>removepackages</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>update_for</key>
+		<array>
+			<string>munkitools_core</string>
+		</array>
+		<key>version</key>
+		<string>2.0.0.2229</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>development</string>
 			<string>production</string>
 			<string>testing</string>
 		</array>
@@ -14938,6 +15094,53 @@ fi
 		<true/>
 		<key>version</key>
 		<string>2.0.0.2226</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>development</string>
+		</array>
+		<key>description</key>
+		<string>Core command-line tools used by Managed Software Center.</string>
+		<key>display_name</key>
+		<string>Managed Software Center core tools</string>
+		<key>installed_size</key>
+		<integer>579</integer>
+		<key>installer_item_hash</key>
+		<string>2f4fbf2c21f328e00ff691b996b5af09d2b8eb03618ea73abeb67a97c50330b8</string>
+		<key>installer_item_location</key>
+		<string>munkitools/munkitools_core-2.0.0.2229.pkg</string>
+		<key>installer_item_size</key>
+		<integer>128</integer>
+		<key>minimum_os_version</key>
+		<string>10.5.0</string>
+		<key>name</key>
+		<string>munkitools_core</string>
+		<key>receipts</key>
+		<array>
+			<dict>
+				<key>installed_size</key>
+				<integer>579</integer>
+				<key>packageid</key>
+				<string>com.googlecode.munki.core</string>
+				<key>version</key>
+				<string>2.0.0.2229</string>
+			</dict>
+		</array>
+		<key>requires</key>
+		<array>
+			<string>munkitools_launchd</string>
+		</array>
+		<key>unattended_install</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>removepackages</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>2.0.0.2229</string>
 	</dict>
 	<dict>
 		<key>RestartAction</key>
