@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>_metadata</key>
+	<dict>
+		<key>created_by</key>
+		<string>mcneal</string>
+		<key>creation_date</key>
+		<date>2014-09-30T19:09:22Z</date>
+		<key>munki_version</key>
+		<string>1.0.0.1864</string>
+		<key>os_version</key>
+		<string>10.9.5</string>
+	</dict>
+	<key>autoremove</key>
+	<false/>
+	<key>catalogs</key>
+	<array>
+		<string>testing</string>
+	</array>
+	<key>description</key>
+	<string>This update fixes a security flaw in the bash UNIX shell.</string>
+	<key>display_name</key>
+	<string>OS X bash Update</string>
+	<key>installed_size</key>
+	<integer>3906</integer>
+	<key>installer_item_hash</key>
+	<string>1e5940f3c994c49b2d8008d2bf918b34428c79adbefc6f73acd698c834201af6</string>
+	<key>installer_item_location</key>
+	<string>BashUpdateLion-1.0.1.1306847324.dmg</string>
+	<key>installer_item_size</key>
+	<integer>3394</integer>
+	<key>minimum_os_version</key>
+	<string>10.7.0</string>
+	<key>name</key>
+	<string>BashUpdateLion</string>
+	<key>receipts</key>
+	<array>
+		<dict>
+			<key>installed_size</key>
+			<integer>6010</integer>
+			<key>packageid</key>
+			<string>com.apple.pkg.update.os.bash.lion.1.0.163-3</string>
+			<key>version</key>
+			<string>1.0.1.1306847324</string>
+		</dict>
+	</array>
+	<key>uninstall_method</key>
+	<string>removepackages</string>
+	<key>uninstallable</key>
+	<true/>
+	<key>version</key>
+	<string>1.0.1.1306847324</string>
+</dict>
+</plist>

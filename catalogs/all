@@ -88,6 +88,129 @@
 		<key>catalogs</key>
 		<array>
 			<string>testing</string>
+		</array>
+		<key>description</key>
+		<string>This update fixes a security flaw in the bash UNIX shell.</string>
+		<key>display_name</key>
+		<string>OS X bash Update</string>
+		<key>installed_size</key>
+		<integer>3906</integer>
+		<key>installer_item_hash</key>
+		<string>1e5940f3c994c49b2d8008d2bf918b34428c79adbefc6f73acd698c834201af6</string>
+		<key>installer_item_location</key>
+		<string>BashUpdateLion-1.0.1.1306847324.dmg</string>
+		<key>installer_item_size</key>
+		<integer>3394</integer>
+		<key>minimum_os_version</key>
+		<string>10.7.0</string>
+		<key>name</key>
+		<string>BashUpdateLion</string>
+		<key>receipts</key>
+		<array>
+			<dict>
+				<key>installed_size</key>
+				<integer>6010</integer>
+				<key>packageid</key>
+				<string>com.apple.pkg.update.os.bash.lion.1.0.163-3</string>
+				<key>version</key>
+				<string>1.0.1.1306847324</string>
+			</dict>
+		</array>
+		<key>uninstall_method</key>
+		<string>removepackages</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>1.0.1.1306847324</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>testing</string>
+		</array>
+		<key>description</key>
+		<string>This update fixes a security flaw in the bash UNIX shell.</string>
+		<key>display_name</key>
+		<string>OS X bash Update</string>
+		<key>installed_size</key>
+		<integer>3724</integer>
+		<key>installer_item_hash</key>
+		<string>0085fb5f7745a0256a5a38375868df2c30db75867adca26a4df89a0ab7c1553d</string>
+		<key>installer_item_location</key>
+		<string>BashUpdateMavericks-1.0.0.0.1.1306847324.dmg</string>
+		<key>installer_item_size</key>
+		<integer>3316</integer>
+		<key>minimum_os_version</key>
+		<string>10.9.0</string>
+		<key>name</key>
+		<string>BashUpdateMavericks</string>
+		<key>receipts</key>
+		<array>
+			<dict>
+				<key>installed_size</key>
+				<integer>5730</integer>
+				<key>packageid</key>
+				<string>com.apple.pkg.update.os.bash.mavericks.1.0.2.1.15.24-3</string>
+				<key>version</key>
+				<string>1.0.0.0.1.1306847324</string>
+			</dict>
+		</array>
+		<key>uninstall_method</key>
+		<string>removepackages</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>1.0.0.0.1.1306847324</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>testing</string>
+		</array>
+		<key>description</key>
+		<string>This update fixes a security flaw in the bash UNIX shell.</string>
+		<key>display_name</key>
+		<string>OS X bash Update</string>
+		<key>installed_size</key>
+		<integer>3859</integer>
+		<key>installer_item_hash</key>
+		<string>5be8bc72208c7b8fed8c68fb48364628c44728e3ec341decf2cc566248ccecf0</string>
+		<key>installer_item_location</key>
+		<string>BashUpdateMountainLion-1.0.0.0.1.1306847324.dmg</string>
+		<key>installer_item_size</key>
+		<integer>3264</integer>
+		<key>minimum_os_version</key>
+		<string>10.8.0</string>
+		<key>name</key>
+		<string>BashUpdateMountainLion</string>
+		<key>receipts</key>
+		<array>
+			<dict>
+				<key>installed_size</key>
+				<integer>5938</integer>
+				<key>packageid</key>
+				<string>com.apple.pkg.update.os.bash.mountainlion.1.0.58.0.30-3</string>
+				<key>version</key>
+				<string>1.0.0.0.1.1306847324</string>
+			</dict>
+		</array>
+		<key>uninstall_method</key>
+		<string>removepackages</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>1.0.0.0.1.1306847324</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>testing</string>
 			<string>production</string>
 		</array>
 		<key>installer_item_hash</key>
