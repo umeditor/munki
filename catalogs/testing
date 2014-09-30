@@ -88,6 +88,7 @@
 		<key>catalogs</key>
 		<array>
 			<string>testing</string>
+			<string>production</string>
 		</array>
 		<key>description</key>
 		<string>This update fixes a security flaw in the bash UNIX shell.</string>
@@ -129,6 +130,7 @@
 		<key>catalogs</key>
 		<array>
 			<string>testing</string>
+			<string>production</string>
 		</array>
 		<key>description</key>
 		<string>This update fixes a security flaw in the bash UNIX shell.</string>
@@ -170,6 +172,7 @@
 		<key>catalogs</key>
 		<array>
 			<string>testing</string>
+			<string>production</string>
 		</array>
 		<key>description</key>
 		<string>This update fixes a security flaw in the bash UNIX shell.</string>

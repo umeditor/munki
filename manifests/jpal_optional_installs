@@ -44,5 +44,32 @@
 	<key>managed_uninstalls</key>
 	<array>
 	</array>
+	<key>conditional_items</key>
+	<array>
+		<dict>
+			<key>condition</key>
+			<string>os_vers BEGINSWITH "10.9"</string>
+			<key>managed_installs</key>
+			<array>
+				<string>BashUpdateMavericks</string>
+			</array>
+		</dict>
+		<dict>
+			<key>condition</key>
+			<string>os_vers BEGINSWITH "10.8"</string>
+			<key>managed_installs</key>
+			<array>
+				<string>BashUpdateMountainLion</string>
+			</array>
+		</dict>
+		<dict>
+			<key>condition</key>
+			<string>os_vers BEGINSWITH "10.7"</string>
+			<key>managed_installs</key>
+			<array>
+				<string>BashUpdateLion</string>
+			</array>
+		</dict>
+	</array>
 </dict>
 </plist>
