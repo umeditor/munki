@@ -33,7 +33,7 @@
 	<key>installer_item_size</key>
 	<integer>3394</integer>
 	<key>minimum_os_version</key>
-	<string>10.7.0</string>
+	<string>10.7.5</string>
 	<key>name</key>
 	<string>BashUpdateLion</string>
 	<key>receipts</key>
