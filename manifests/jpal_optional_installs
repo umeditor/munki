@@ -40,6 +40,7 @@
 		<string>XDDecode</string>
 		<string>Xcode</string>
 		<string>iPhoto</string>
+		<string>CasperClient</string>
 	</array>
 	<key>managed_uninstalls</key>
 	<array>
