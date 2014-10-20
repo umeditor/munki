@@ -216,6 +216,107 @@
 			<string>testing</string>
 			<string>production</string>
 		</array>
+		<key>description</key>
+		<string>The Casper Suite is the leading endpoint management solution for Mac, iPad, iPhone, and Apple TV. Secure and manage devices automatically across your entire organization, while enabling users to help themselves on-demand using Self Service.</string>
+		<key>display_name</key>
+		<string>Casper Client</string>
+		<key>installed_size</key>
+		<integer>10765</integer>
+		<key>installer_item_hash</key>
+		<string>012b65956cf8ff5db830f43dadc0d61547967cf8c039e3b5feb1cf078a6401e8</string>
+		<key>installer_item_location</key>
+		<string>Casper_9.52_jpal-9.52.dmg</string>
+		<key>installer_item_size</key>
+		<integer>3009</integer>
+		<key>installs</key>
+		<array>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>com.jamfsoftware.selfservice</string>
+				<key>CFBundleName</key>
+				<string>Self Service</string>
+				<key>CFBundleShortVersionString</key>
+				<string>9.52</string>
+				<key>CFBundleVersion</key>
+				<string>1</string>
+				<key>minosversion</key>
+				<string>10.7</string>
+				<key>path</key>
+				<string>/Applications/Self Service.app</string>
+				<key>type</key>
+				<string>application</string>
+				<key>version_comparison_key</key>
+				<string>CFBundleShortVersionString</string>
+			</dict>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>com.jamfsoftware.Management-Action</string>
+				<key>CFBundleName</key>
+				<string>Management Action</string>
+				<key>CFBundleShortVersionString</key>
+				<string>9.52</string>
+				<key>CFBundleVersion</key>
+				<string>1</string>
+				<key>minosversion</key>
+				<string>10.8</string>
+				<key>path</key>
+				<string>Library/Application Support/JAMF/bin/Management Action.app</string>
+				<key>type</key>
+				<string>application</string>
+				<key>version_comparison_key</key>
+				<string>CFBundleShortVersionString</string>
+			</dict>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>com.jamfsoftware.jamfHelper</string>
+				<key>CFBundleName</key>
+				<string>jamfHelper</string>
+				<key>CFBundleShortVersionString</key>
+				<string>9.52</string>
+				<key>CFBundleVersion</key>
+				<string>7.2rc3</string>
+				<key>minosversion</key>
+				<string>10.7</string>
+				<key>path</key>
+				<string>Library/Application Support/JAMF/bin/jamfHelper.app</string>
+				<key>type</key>
+				<string>application</string>
+				<key>version_comparison_key</key>
+				<string>CFBundleShortVersionString</string>
+			</dict>
+		</array>
+		<key>minimum_os_version</key>
+		<string>10.4.0</string>
+		<key>name</key>
+		<string>CasperClient</string>
+		<key>receipts</key>
+		<array>
+			<dict>
+				<key>filename</key>
+				<string>Casper_9.52_jpal.pkg</string>
+				<key>name</key>
+				<string>Casper_9.52_jpal</string>
+				<key>packageid</key>
+				<string>Casper_9.52_jpal9.52</string>
+				<key>version</key>
+				<string>9.52</string>
+			</dict>
+		</array>
+		<key>uninstall_method</key>
+		<string>removepackages</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>9.52</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>testing</string>
+			<string>production</string>
+		</array>
 		<key>installer_item_hash</key>
 		<string>66f82e1bb3ebdda6d93e9d0a8daa484d457b47789ddddd1e91f1da8c3f984edc</string>
 		<key>installer_item_location</key>
