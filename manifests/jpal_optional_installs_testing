@@ -39,6 +39,7 @@
 		<string>AdobeAcrobatProXI</string>
 		<string>VMwareFusion</string>
 		<string>AdobeAIR</string>
+		<string>CasperClient</string>
 	</array>
 	<key>managed_uninstalls</key>
 	<array>
