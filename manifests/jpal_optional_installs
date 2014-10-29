@@ -41,6 +41,7 @@
 		<string>Xcode</string>
 		<string>iPhoto</string>
 		<string>CasperClient</string>
+		<string>SketchUpPro</string>
 	</array>
 	<key>managed_uninstalls</key>
 	<array>

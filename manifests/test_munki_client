@@ -41,6 +41,7 @@
 		<string>TrueCrypt</string>
 		<string>XDDecode</string>
 		<string>AdobeAIR</string>
+		<string>SketchUpPro</string>
 	</array>
 	<key>managed_uninstalls</key>
 	<array>
