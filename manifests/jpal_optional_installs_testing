@@ -40,7 +40,6 @@
 		<string>VMwareFusion</string>
 		<string>AdobeAIR</string>
 		<string>CasperClient</string>
-		<string>SketchUpPro</string>
 		<string>SketchUpMake</string>
 	</array>
 	<key>managed_uninstalls</key>
