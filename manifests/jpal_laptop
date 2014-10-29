@@ -41,6 +41,7 @@
 		<string>AdobeAIR</string>
 		<string>Firefox</string>
 		<string>CitrixReceiver</string>
+		<string>SketchUpMake</string>
 	</array>
 	<key>managed_uninstalls</key>
 	<array>
