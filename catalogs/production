@@ -3625,6 +3625,67 @@ exit 0
 			<string>production</string>
 		</array>
 		<key>description</key>
+		<string>Calling, seeing, messaging and sharing with others – wherever they are.</string>
+		<key>display_name</key>
+		<string>Skype</string>
+		<key>installer_item_hash</key>
+		<string>60c466c1eb9f02355f18c913d7999f7f67ad156f6b9d1a8169ca49942dd055ba</string>
+		<key>installer_item_location</key>
+		<string>apps/Skype-7.1.0.665.dmg</string>
+		<key>installer_item_size</key>
+		<integer>46557</integer>
+		<key>installer_type</key>
+		<string>copy_from_dmg</string>
+		<key>installs</key>
+		<array>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>com.skype.skype</string>
+				<key>CFBundleShortVersionString</key>
+				<string>7.1</string>
+				<key>CFBundleVersion</key>
+				<string>7.1.0.665</string>
+				<key>minosversion</key>
+				<string>10.9</string>
+				<key>path</key>
+				<string>/Applications/Skype.app</string>
+				<key>type</key>
+				<string>application</string>
+				<key>version_comparison_key</key>
+				<string>CFBundleVersion</string>
+			</dict>
+		</array>
+		<key>items_to_copy</key>
+		<array>
+			<dict>
+				<key>destination_path</key>
+				<string>/Applications</string>
+				<key>source_item</key>
+				<string>Skype.app</string>
+			</dict>
+		</array>
+		<key>minimum_os_version</key>
+		<string>10.9</string>
+		<key>name</key>
+		<string>Skype</string>
+		<key>unattended_install</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>remove_copied_items</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>7.1.0.665</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>testing</string>
+			<string>production</string>
+		</array>
+		<key>description</key>
 		<string>Spotify is a music streaming service offering unlimited streaming of selected music from a range of major and independent record labels.</string>
 		<key>display_name</key>
 		<string>Spotify</string>
@@ -13322,113 +13383,6 @@ fi
 	<dict>
 		<key>autoremove</key>
 		<false/>
-		<key>blocking_applications</key>
-		<array>
-			<string>SketchUp.app</string>
-			<string>Style Builder.app</string>
-			<string>Layout.app</string>
-		</array>
-		<key>catalogs</key>
-		<array>
-			<string>testing</string>
-			<string>production</string>
-		</array>
-		<key>description</key>
-		<string>SketchUp Pro is the most intuitive way to design, document and communicate your ideas in 3D. http://www.sketchup.com/products/sketchup-pro</string>
-		<key>display_name</key>
-		<string>SketchUpPro</string>
-		<key>installed_size</key>
-		<integer>296600</integer>
-		<key>installer_item_hash</key>
-		<string>3c64a71f699a20205165f12a26c84ad41efda8c7502beb784a1d811a7323f414</string>
-		<key>installer_item_location</key>
-		<string>apps/SketchUpPro/SketchUpPro-14.1.1283__1.pkg</string>
-		<key>installer_item_size</key>
-		<integer>107074</integer>
-		<key>installs</key>
-		<array>
-			<dict>
-				<key>CFBundleIdentifier</key>
-				<string>com.sketchup.SketchUp.2014</string>
-				<key>CFBundleName</key>
-				<string>SketchUp</string>
-				<key>CFBundleShortVersionString</key>
-				<string>14.1</string>
-				<key>CFBundleVersion</key>
-				<string>14.1.1283</string>
-				<key>minosversion</key>
-				<string>10.7.0</string>
-				<key>path</key>
-				<string>/Applications/SketchUp 2014/SketchUp.app</string>
-				<key>type</key>
-				<string>application</string>
-				<key>version_comparison_key</key>
-				<string>CFBundleShortVersionString</string>
-			</dict>
-			<dict>
-				<key>CFBundleIdentifier</key>
-				<string>com.sketchup.LayOut</string>
-				<key>CFBundleShortVersionString</key>
-				<string>14.1</string>
-				<key>CFBundleVersion</key>
-				<string>14.1.1283</string>
-				<key>minosversion</key>
-				<string>10.7.0</string>
-				<key>path</key>
-				<string>/Applications/SketchUp 2014/Layout.app</string>
-				<key>type</key>
-				<string>application</string>
-				<key>version_comparison_key</key>
-				<string>CFBundleShortVersionString</string>
-			</dict>
-			<dict>
-				<key>CFBundleIdentifier</key>
-				<string>com.sketchup.StyleBuilder</string>
-				<key>CFBundleName</key>
-				<string>Style Builder</string>
-				<key>CFBundleShortVersionString</key>
-				<string>14.1</string>
-				<key>CFBundleVersion</key>
-				<string>14.1.1283</string>
-				<key>minosversion</key>
-				<string>10.7.0</string>
-				<key>path</key>
-				<string>/Applications/SketchUp 2014/Style Builder.app</string>
-				<key>type</key>
-				<string>application</string>
-				<key>version_comparison_key</key>
-				<string>CFBundleShortVersionString</string>
-			</dict>
-		</array>
-		<key>minimum_os_version</key>
-		<string>10.5.0</string>
-		<key>name</key>
-		<string>SketchUpPro</string>
-		<key>receipts</key>
-		<array>
-			<dict>
-				<key>installed_size</key>
-				<integer>296600</integer>
-				<key>packageid</key>
-				<string>com.sketchup.SketchUp.pkg</string>
-				<key>version</key>
-				<string>14.1.1283</string>
-			</dict>
-		</array>
-		<key>unattended_install</key>
-		<true/>
-		<key>unattended_uninstall</key>
-		<true/>
-		<key>uninstall_method</key>
-		<string>removepackages</string>
-		<key>uninstallable</key>
-		<true/>
-		<key>version</key>
-		<string>14.1.1283</string>
-	</dict>
-	<dict>
-		<key>autoremove</key>
-		<false/>
 		<key>catalogs</key>
 		<array>
 			<string>testing</string>
@@ -15390,6 +15344,73 @@ fi
 		<true/>
 		<key>version</key>
 		<string>0.98.1083</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>testing</string>
+			<string>production</string>
+		</array>
+		<key>description</key>
+		<string>RStudio is the premier integrated development environment for R. It is available in open source and commercial editions and runs on the desktop (Windows, Mac, and Linux) or over the web with RStudio Server.</string>
+		<key>display_name</key>
+		<string>RStudio</string>
+		<key>installer_item_hash</key>
+		<string>c44ba7cd6dfb3b7466d6d7d6e5ed32d6be08044da9cdd4a5928975fb2e19ac63</string>
+		<key>installer_item_location</key>
+		<string>Mathematics/RStudio-0.98.1085.dmg</string>
+		<key>installer_item_size</key>
+		<integer>39336</integer>
+		<key>installer_type</key>
+		<string>copy_from_dmg</string>
+		<key>installs</key>
+		<array>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>org.rstudio.RStudio</string>
+				<key>CFBundleName</key>
+				<string>RStudio</string>
+				<key>CFBundleShortVersionString</key>
+				<string>0.98.1085</string>
+				<key>CFBundleVersion</key>
+				<string>0.98.1085</string>
+				<key>minosversion</key>
+				<string>10.6.0</string>
+				<key>path</key>
+				<string>/Applications/RStudio.app</string>
+				<key>type</key>
+				<string>application</string>
+				<key>version_comparison_key</key>
+				<string>CFBundleShortVersionString</string>
+			</dict>
+		</array>
+		<key>items_to_copy</key>
+		<array>
+			<dict>
+				<key>destination_path</key>
+				<string>/Applications</string>
+				<key>source_item</key>
+				<string>RStudio.app</string>
+			</dict>
+		</array>
+		<key>minimum_os_version</key>
+		<string>10.6.0</string>
+		<key>name</key>
+		<string>RStudio</string>
+		<key>requires</key>
+		<array>
+			<string>R</string>
+		</array>
+		<key>unattended_install</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>remove_copied_items</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>0.98.1085</string>
 	</dict>
 	<dict>
 		<key>autoremove</key>
