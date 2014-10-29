@@ -13322,6 +13322,113 @@ fi
 	<dict>
 		<key>autoremove</key>
 		<false/>
+		<key>blocking_applications</key>
+		<array>
+			<string>SketchUp.app</string>
+			<string>Style Builder.app</string>
+			<string>Layout.app</string>
+		</array>
+		<key>catalogs</key>
+		<array>
+			<string>testing</string>
+			<string>production</string>
+		</array>
+		<key>description</key>
+		<string>SketchUp Pro is the most intuitive way to design, document and communicate your ideas in 3D. http://www.sketchup.com/products/sketchup-pro</string>
+		<key>display_name</key>
+		<string>SketchUpPro</string>
+		<key>installed_size</key>
+		<integer>296600</integer>
+		<key>installer_item_hash</key>
+		<string>3c64a71f699a20205165f12a26c84ad41efda8c7502beb784a1d811a7323f414</string>
+		<key>installer_item_location</key>
+		<string>apps/SketchUpPro/SketchUpPro-14.1.1283__1.pkg</string>
+		<key>installer_item_size</key>
+		<integer>107074</integer>
+		<key>installs</key>
+		<array>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>com.sketchup.SketchUp.2014</string>
+				<key>CFBundleName</key>
+				<string>SketchUp</string>
+				<key>CFBundleShortVersionString</key>
+				<string>14.1</string>
+				<key>CFBundleVersion</key>
+				<string>14.1.1283</string>
+				<key>minosversion</key>
+				<string>10.7.0</string>
+				<key>path</key>
+				<string>/Applications/SketchUp 2014/SketchUp.app</string>
+				<key>type</key>
+				<string>application</string>
+				<key>version_comparison_key</key>
+				<string>CFBundleShortVersionString</string>
+			</dict>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>com.sketchup.LayOut</string>
+				<key>CFBundleShortVersionString</key>
+				<string>14.1</string>
+				<key>CFBundleVersion</key>
+				<string>14.1.1283</string>
+				<key>minosversion</key>
+				<string>10.7.0</string>
+				<key>path</key>
+				<string>/Applications/SketchUp 2014/Layout.app</string>
+				<key>type</key>
+				<string>application</string>
+				<key>version_comparison_key</key>
+				<string>CFBundleShortVersionString</string>
+			</dict>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>com.sketchup.StyleBuilder</string>
+				<key>CFBundleName</key>
+				<string>Style Builder</string>
+				<key>CFBundleShortVersionString</key>
+				<string>14.1</string>
+				<key>CFBundleVersion</key>
+				<string>14.1.1283</string>
+				<key>minosversion</key>
+				<string>10.7.0</string>
+				<key>path</key>
+				<string>/Applications/SketchUp 2014/Style Builder.app</string>
+				<key>type</key>
+				<string>application</string>
+				<key>version_comparison_key</key>
+				<string>CFBundleShortVersionString</string>
+			</dict>
+		</array>
+		<key>minimum_os_version</key>
+		<string>10.5.0</string>
+		<key>name</key>
+		<string>SketchUpPro</string>
+		<key>receipts</key>
+		<array>
+			<dict>
+				<key>installed_size</key>
+				<integer>296600</integer>
+				<key>packageid</key>
+				<string>com.sketchup.SketchUp.pkg</string>
+				<key>version</key>
+				<string>14.1.1283</string>
+			</dict>
+		</array>
+		<key>unattended_install</key>
+		<true/>
+		<key>unattended_uninstall</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>removepackages</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>14.1.1283</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
 		<key>catalogs</key>
 		<array>
 			<string>testing</string>
