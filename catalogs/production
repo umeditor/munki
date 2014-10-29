@@ -13389,6 +13389,69 @@ fi
 			<string>production</string>
 		</array>
 		<key>description</key>
+		<string>SketchUp is 3D modeling software that's easy to learn and incredibly fun to use.</string>
+		<key>display_name</key>
+		<string>SketchUpMake</string>
+		<key>installer_item_hash</key>
+		<string>b9cb2078cbbb06c5f7f088cfcca56c201a51bd8898d1e2bff0e3632f5d8884f9</string>
+		<key>installer_item_location</key>
+		<string>apps/SketchUpMake/SketchUp-14.1.dmg</string>
+		<key>installer_item_size</key>
+		<integer>67273</integer>
+		<key>installer_type</key>
+		<string>copy_from_dmg</string>
+		<key>installs</key>
+		<array>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>com.sketchup.SketchUp.2014</string>
+				<key>CFBundleName</key>
+				<string>SketchUp</string>
+				<key>CFBundleShortVersionString</key>
+				<string>14.1</string>
+				<key>CFBundleVersion</key>
+				<string>14.1.1283</string>
+				<key>minosversion</key>
+				<string>10.7.0</string>
+				<key>path</key>
+				<string>/Applications/SketchUp.app</string>
+				<key>type</key>
+				<string>application</string>
+				<key>version_comparison_key</key>
+				<string>CFBundleShortVersionString</string>
+			</dict>
+		</array>
+		<key>items_to_copy</key>
+		<array>
+			<dict>
+				<key>destination_path</key>
+				<string>/Applications</string>
+				<key>source_item</key>
+				<string>SketchUp.app</string>
+			</dict>
+		</array>
+		<key>minimum_os_version</key>
+		<string>10.7.0</string>
+		<key>name</key>
+		<string>SketchUpMake</string>
+		<key>unattended_install</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>remove_copied_items</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>14.1</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>testing</string>
+			<string>production</string>
+		</array>
+		<key>description</key>
 		<string>VLC is a free and open source cross-platform multimedia player and framework that plays most multimedia files as well as DVD, Audio CD, VCD, and various streaming protocols.</string>
 		<key>display_name</key>
 		<string>VLC Media Player</string>
