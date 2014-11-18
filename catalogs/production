@@ -14397,9 +14397,7 @@ fi
 			</dict>
 		</array>
 		<key>requires</key>
-		<array>
-			<string>Office2011_update-14.1.0</string>
-		</array>
+		<array/>
 		<key>uninstall_method</key>
 		<string>removepackages</string>
 		<key>uninstallable</key>
@@ -14473,6 +14471,69 @@ fi
 		<true/>
 		<key>version</key>
 		<string>14.1</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>testing</string>
+			<string>production</string>
+		</array>
+		<key>description</key>
+		<string>SketchUp is 3D modeling software that's easy to learn and incredibly fun to use.</string>
+		<key>display_name</key>
+		<string>SketchUpMake</string>
+		<key>installer_item_hash</key>
+		<string>9144b9a15bc9e6afef160e96f4ac0d789ad11ddb3f136f5c0b82104d1d360922</string>
+		<key>installer_item_location</key>
+		<string>apps/SketchUpMake/SketchUp-15.0.dmg</string>
+		<key>installer_item_size</key>
+		<integer>89048</integer>
+		<key>installer_type</key>
+		<string>copy_from_dmg</string>
+		<key>installs</key>
+		<array>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>com.sketchup.SketchUp.2015</string>
+				<key>CFBundleName</key>
+				<string>SketchUp</string>
+				<key>CFBundleShortVersionString</key>
+				<string>15.0</string>
+				<key>CFBundleVersion</key>
+				<string>15.0.9349</string>
+				<key>minosversion</key>
+				<string>10.8.0</string>
+				<key>path</key>
+				<string>/Applications/SketchUp.app</string>
+				<key>type</key>
+				<string>application</string>
+				<key>version_comparison_key</key>
+				<string>CFBundleShortVersionString</string>
+			</dict>
+		</array>
+		<key>items_to_copy</key>
+		<array>
+			<dict>
+				<key>destination_path</key>
+				<string>/Applications</string>
+				<key>source_item</key>
+				<string>SketchUp.app</string>
+			</dict>
+		</array>
+		<key>minimum_os_version</key>
+		<string>10.8.0</string>
+		<key>name</key>
+		<string>SketchUpMake</string>
+		<key>unattended_install</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>remove_copied_items</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>15.0</string>
 	</dict>
 	<dict>
 		<key>autoremove</key>
