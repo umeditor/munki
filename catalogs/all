@@ -1883,6 +1883,69 @@ exit 0
 			<string>production</string>
 		</array>
 		<key>description</key>
+		<string>With an easy to use interface, connect to FTP, SFTP, WebDAV, Amazon S3, Google Storage, Windows Azure, Rackspace Cloud Files and even Google Docs.</string>
+		<key>display_name</key>
+		<string>Cyberduck</string>
+		<key>installer_item_hash</key>
+		<string>ae3f5d2b5831320e020a2d3de62494812941135365c0561962ff3d60a92bea02</string>
+		<key>installer_item_location</key>
+		<string>apps/Cyberduck-4.6.dmg</string>
+		<key>installer_item_size</key>
+		<integer>57675</integer>
+		<key>installer_type</key>
+		<string>copy_from_dmg</string>
+		<key>installs</key>
+		<array>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>ch.sudo.cyberduck</string>
+				<key>CFBundleName</key>
+				<string>Cyberduck</string>
+				<key>CFBundleShortVersionString</key>
+				<string>4.6</string>
+				<key>CFBundleVersion</key>
+				<string>15810</string>
+				<key>minosversion</key>
+				<string>10.6</string>
+				<key>path</key>
+				<string>/Applications/Cyberduck.app</string>
+				<key>type</key>
+				<string>application</string>
+				<key>version_comparison_key</key>
+				<string>CFBundleShortVersionString</string>
+			</dict>
+		</array>
+		<key>items_to_copy</key>
+		<array>
+			<dict>
+				<key>destination_path</key>
+				<string>/Applications</string>
+				<key>source_item</key>
+				<string>Cyberduck.app</string>
+			</dict>
+		</array>
+		<key>minimum_os_version</key>
+		<string>10.6</string>
+		<key>name</key>
+		<string>Cyberduck</string>
+		<key>unattended_install</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>remove_copied_items</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>4.6</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>testing</string>
+			<string>production</string>
+		</array>
+		<key>description</key>
 		<string>Google's web browser.</string>
 		<key>display_name</key>
 		<string>Google Chrome</string>
@@ -14597,6 +14660,69 @@ fi
 		<true/>
 		<key>version</key>
 		<string>15.0</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>testing</string>
+			<string>production</string>
+		</array>
+		<key>description</key>
+		<string>SketchUp is 3D modeling software that's easy to learn and incredibly fun to use.</string>
+		<key>display_name</key>
+		<string>SketchUpMake</string>
+		<key>installer_item_hash</key>
+		<string>72abd4a812e7ca6661ce64119652dc02f605d10141ae4731c2c283cf555fb0c9</string>
+		<key>installer_item_location</key>
+		<string>apps/SketchUpMake/SketchUp-15.1.dmg</string>
+		<key>installer_item_size</key>
+		<integer>89098</integer>
+		<key>installer_type</key>
+		<string>copy_from_dmg</string>
+		<key>installs</key>
+		<array>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>com.sketchup.SketchUp.2015</string>
+				<key>CFBundleName</key>
+				<string>SketchUp</string>
+				<key>CFBundleShortVersionString</key>
+				<string>15.1</string>
+				<key>CFBundleVersion</key>
+				<string>15.1.104</string>
+				<key>minosversion</key>
+				<string>10.8.0</string>
+				<key>path</key>
+				<string>/Applications/SketchUp.app</string>
+				<key>type</key>
+				<string>application</string>
+				<key>version_comparison_key</key>
+				<string>CFBundleShortVersionString</string>
+			</dict>
+		</array>
+		<key>items_to_copy</key>
+		<array>
+			<dict>
+				<key>destination_path</key>
+				<string>/Applications</string>
+				<key>source_item</key>
+				<string>SketchUp.app</string>
+			</dict>
+		</array>
+		<key>minimum_os_version</key>
+		<string>10.8.0</string>
+		<key>name</key>
+		<string>SketchUpMake</string>
+		<key>unattended_install</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>remove_copied_items</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>15.1</string>
 	</dict>
 	<dict>
 		<key>autoremove</key>
