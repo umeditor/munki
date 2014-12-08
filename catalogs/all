@@ -7087,6 +7087,82 @@ fi
 			<string>production</string>
 		</array>
 		<key>description</key>
+		<string>Dropbox is a free service that lets you bring all your photos, docs, and videos anywhere. This means that any file you save to your Dropbox will automatically save to all your computers, phones and even the Dropbox website.</string>
+		<key>display_name</key>
+		<string>Dropbox</string>
+		<key>installer_item_hash</key>
+		<string>aa4ba772aea5f4f1b494cdffea42e1a5f0fc9045520c703e2f919fdf730779e1</string>
+		<key>installer_item_location</key>
+		<string>apps/Dropbox/Dropbox-3.0.2.dmg</string>
+		<key>installer_item_size</key>
+		<integer>45271</integer>
+		<key>installer_type</key>
+		<string>copy_from_dmg</string>
+		<key>installs</key>
+		<array>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>com.getdropbox.dropbox</string>
+				<key>CFBundleName</key>
+				<string>Dropbox</string>
+				<key>path</key>
+				<string>/Applications/Dropbox.app</string>
+				<key>type</key>
+				<string>file</string>
+			</dict>
+		</array>
+		<key>items_to_copy</key>
+		<array>
+			<dict>
+				<key>destination_path</key>
+				<string>/Applications</string>
+				<key>source_item</key>
+				<string>Dropbox.app</string>
+			</dict>
+		</array>
+		<key>minimum_os_version</key>
+		<string>10.4.0</string>
+		<key>name</key>
+		<string>Dropbox</string>
+		<key>postinstall_script</key>
+		<string>#!/bin/sh
+# based on Ruby postinstall script by Riley Shott:
+# https://groups.google.com/group/munki-dev/browse_thread/thread/a2813e7f62535f13/63d127534541f863
+# modifications:
+# - always extract the helper tool with each install instead of skipping if it exists
+# - remove xattr com.apple.quarantine removal, as Munki will have already done this upon 
+#   installation; normal autopkg runs also won't quarantine the download to begin with
+
+HELPER_SRC_PATH=/Applications/Dropbox.app/Contents/Resources/DropboxHelperInstaller.tgz
+HELPER_DST_DIR=/Library/DropboxHelperTools
+HELPER_DST_PATH="$HELPER_DST_DIR/DropboxHelperInstaller"
+
+if [ -e "$HELPER_SRC_PATH" ]; then
+  [ -d "$HELPER_DST_DIR" ] || mkdir "$HELPER_DST_DIR"
+  /usr/bin/tar -C "$HELPER_DST_DIR" -xz -f "$HELPER_SRC_PATH"
+  /bin/chmod 04511 "$HELPER_DST_PATH"
+  /usr/sbin/chown root:wheel "$HELPER_DST_PATH"
+else
+  echo "Expected $HELPER_SRC_PATH, but it was not present in the Dropbox dmg."
+  exit 1
+fi
+</string>
+		<key>uninstall_method</key>
+		<string>remove_copied_items</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>3.0.2</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>testing</string>
+			<string>production</string>
+		</array>
+		<key>description</key>
 		<string>Mozilla Firefox is a free and open source web browser.</string>
 		<key>display_name</key>
 		<string>Mozilla Firefox</string>
@@ -16049,6 +16125,91 @@ fi
 		<true/>
 		<key>version</key>
 		<string>11.8.2</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>blocking_applications</key>
+		<array>
+			<string>Citrix Receiver</string>
+			<string>Safari</string>
+			<string>Firefox</string>
+			<string>Opera</string>
+			<string>Google Chrome</string>
+		</array>
+		<key>catalogs</key>
+		<dict>
+			<key>1</key>
+			<string>production</string>
+		</dict>
+		<key>description</key>
+		<string>Access your content from any device with Citrix Receiver, the enterprise mobility solution that delivers a high def experience simply and securely.</string>
+		<key>display_name</key>
+		<string>Citrix Receiver</string>
+		<key>installed_size</key>
+		<integer>70865</integer>
+		<key>installer_item_hash</key>
+		<string>56723deb1ba99ff3e4ce80ec9e5e3cef1846ae42aa5f6486f291244733a08bc4</string>
+		<key>installer_item_location</key>
+		<string>internet_plugins/CitrixReceiverWeb-11.9.0.dmg</string>
+		<key>installer_item_size</key>
+		<integer>23386</integer>
+		<key>installs</key>
+		<array>
+			<dict>
+				<key>CFBundleShortVersionString</key>
+				<string>11.9.0</string>
+				<key>CFBundleVersion</key>
+				<string>293855</string>
+				<key>path</key>
+				<string>/Library/Internet Plug-Ins/CitrixICAClientPlugIn.plugin</string>
+				<key>type</key>
+				<string>bundle</string>
+				<key>version_comparison_key</key>
+				<string>CFBundleShortVersionString</string>
+			</dict>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>com.citrix.receiver.nomas</string>
+				<key>CFBundleName</key>
+				<string>Citrix Receiver</string>
+				<key>CFBundleShortVersionString</key>
+				<string>11.9.0</string>
+				<key>CFBundleVersion</key>
+				<string>293855</string>
+				<key>minosversion</key>
+				<string>10.7</string>
+				<key>path</key>
+				<string>/Applications/Citrix Receiver.app</string>
+				<key>type</key>
+				<string>application</string>
+				<key>version_comparison_key</key>
+				<string>CFBundleShortVersionString</string>
+			</dict>
+		</array>
+		<key>minimum_os_version</key>
+		<string>10.6.0</string>
+		<key>name</key>
+		<string>CitrixReceiver</string>
+		<key>receipts</key>
+		<array>
+			<dict>
+				<key>installed_size</key>
+				<integer>70865</integer>
+				<key>packageid</key>
+				<string>com.citrix.ICAClient</string>
+				<key>version</key>
+				<string>11.9.0</string>
+			</dict>
+		</array>
+		<key>unattended_install</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>removepackages</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>11.9.0</string>
 	</dict>
 	<dict>
 		<key>autoremove</key>
