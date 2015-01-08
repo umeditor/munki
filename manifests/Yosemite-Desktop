@@ -4,6 +4,7 @@
 <dict>
   <key>catalogs</key>
   <array>
+    <string>production</string>
   </array>
   <key>included_manifests</key>
   <array>
