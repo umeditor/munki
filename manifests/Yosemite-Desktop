@@ -17,6 +17,7 @@
   </array>
   <key>optional_installs</key>
   <array>
+    <string>GoogleChrome</string>
   </array>
 </dict>
 </plist>
