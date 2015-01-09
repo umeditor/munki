@@ -40,19 +40,89 @@
 	<string>10.4.0</string>
 	<key>name</key>
 	<string>SophosAntiVirus</string>
-	<key>receipts</key>
+	<key>installs</key>
 	<array>
 		<dict>
-			<key>filename</key>
-			<string>SophosInstaller.pkg</string>
-			<key>installed_size</key>
-			<integer>675840</integer>
-			<key>name</key>
-			<string>Sophos Endpoint Installer</string>
-			<key>packageid</key>
-			<string>com.sophos.9.0.0.installer</string>
-			<key>version</key>
-			<string>9.0.0</string>
+			<key>CFBundleIdentifier</key>
+			<string>com.sophos.macendpoint.Sophos-Anti-Virus</string>
+			<key>CFBundleName</key>
+			<string>Sophos Anti-Virus</string>
+			<key>CFBundleShortVersionString</key>
+			<string>9.1.4</string>
+			<key>CFBundleVersion</key>
+			<string></string>
+			<key>path</key>
+			<string>/Applications/Sophos Anti-Virus.app</string>
+			<key>type</key>
+			<string>application</string>
+			<key>version_comparison_key</key>
+			<string>CFBundleShortVersionString</string>
+		</dict>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.sophos.sav.ic</string>
+			<key>CFBundleName</key>
+			<string>InterCheck</string>
+			<key>CFBundleShortVersionString</key>
+			<string>9.1.5</string>
+			<key>CFBundleVersion</key>
+			<string></string>
+			<key>path</key>
+			<string>/Library/Sophos Anti-Virus/InterCheck.app</string>
+			<key>type</key>
+			<string>application</string>
+			<key>version_comparison_key</key>
+			<string>CFBundleShortVersionString</string>
+		</dict>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.sophos.SophosAntiVirus</string>
+			<key>CFBundleName</key>
+			<string>SophosAntiVirus</string>
+			<key>CFBundleShortVersionString</key>
+			<string>9.1.6</string>
+			<key>CFBundleVersion</key>
+			<string></string>
+			<key>minosversion</key>
+			<string>10.6</string>
+			<key>path</key>
+			<string>/Library/Sophos Anti-Virus/SophosAntiVirus.app</string>
+			<key>type</key>
+			<string>application</string>
+			<key>version_comparison_key</key>
+			<string>CFBundleShortVersionString</string>
+		</dict>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.sophos.autoupdate</string>
+			<key>CFBundleName</key>
+			<string>Sophos AutoUpdate</string>
+			<key>CFBundleShortVersionString</key>
+			<string>9.1.7</string>
+			<key>CFBundleVersion</key>
+			<string></string>
+			<key>path</key>
+			<string>/Library/Sophos Anti-Virus/SophosAutoUpdate.app</string>
+			<key>type</key>
+			<string>application</string>
+			<key>version_comparison_key</key>
+			<string>CFBundleShortVersionString</string>
+		</dict>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.sophos.ui</string>
+			<key>CFBundleName</key>
+			<string>SophosUIServer</string>
+			<key>CFBundleShortVersionString</key>
+			<string>9.1.4</string>
+			<key>CFBundleVersion</key>
+			<string></string>
+			<key>path</key>
+			<string>/Library/Sophos Anti-Virus/SophosUIServer.app</string>
+			<key>type</key>
+			<string>application</string>
+			<key>version_comparison_key</key>
+			<string>CFBundleShortVersionString</string>
 		</dict>
 	</array>
 	<key>uninstall_method</key>
