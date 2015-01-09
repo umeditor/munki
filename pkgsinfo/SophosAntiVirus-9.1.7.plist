@@ -7,7 +7,7 @@
 		<key>created_by</key>
 		<string>mcneal</string>
 		<key>creation_date</key>
-		<date>2015-01-09T19:46:28Z</date>
+		<date>2015-01-09T21:17:12Z</date>
 		<key>munki_version</key>
 		<string>2.1.0.2349</string>
 		<key>os_version</key>
@@ -31,11 +31,11 @@
 	<key>installed_size</key>
 	<integer>1351680</integer>
 	<key>installer_item_hash</key>
-	<string>8f13d25ecd838aee864a818c2bcc4d01a488d26a90116263b0ca63dcdbf219b6</string>
+	<string>8aaa0073ab45d74f6f9ae351a9905c6b4ad5a1deb73cb3ebd4a5a88289cb1ab8</string>
 	<key>installer_item_location</key>
-	<string>mit-sophos-9_17-osx-9.1.7.dmg</string>
+	<string>SophosAntiVirus-9.1.7.dmg</string>
 	<key>installer_item_size</key>
-	<integer>121393</integer>
+	<integer>122032</integer>
 	<key>minimum_os_version</key>
 	<string>10.4.0</string>
 	<key>name</key>
