@@ -19,6 +19,8 @@
   <array>
     <string>GoogleChrome</string>
     <string>AdobeAcrobatProXI</string>
+    <string>CertAid</string>
+    <string>SophosAntiVirus</string>
   </array>
 </dict>
 </plist>
