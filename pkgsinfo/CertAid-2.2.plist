@@ -20,7 +20,7 @@
 	<key>category</key>
 	<string>MIT</string>
 	<key>developer</key>
-	<string>IS&T</string>
+	<string>IS&amp;T</string>
 	<key>installs</key>
 	<array>
 		<dict>
