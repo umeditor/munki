@@ -317,6 +317,73 @@
 			<string>testing</string>
 			<string>production</string>
 		</array>
+		<key>category</key>
+		<string>MIT</string>
+		<key>developer</key>
+		<string>IS&amp;T</string>
+		<key>installer_item_hash</key>
+		<string>66f82e1bb3ebdda6d93e9d0a8daa484d457b47789ddddd1e91f1da8c3f984edc</string>
+		<key>installer_item_location</key>
+		<string>CertAid-2.2.dmg</string>
+		<key>installer_item_size</key>
+		<integer>1109</integer>
+		<key>installer_type</key>
+		<string>copy_from_dmg</string>
+		<key>installs</key>
+		<array>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>edu.mit.CertAid</string>
+				<key>CFBundleName</key>
+				<string>CertAid</string>
+				<key>CFBundleShortVersionString</key>
+				<string>2.2</string>
+				<key>CFBundleVersion</key>
+				<string>2.2</string>
+				<key>minosversion</key>
+				<string>10.6</string>
+				<key>path</key>
+				<string>/Applications/CertAid.app</string>
+				<key>type</key>
+				<string>application</string>
+				<key>version_comparison_key</key>
+				<string>CFBundleShortVersionString</string>
+			</dict>
+		</array>
+		<key>items_to_copy</key>
+		<array>
+			<dict>
+				<key>destination_path</key>
+				<string>/Applications</string>
+				<key>group</key>
+				<string>admin</string>
+				<key>mode</key>
+				<string>go-w</string>
+				<key>source_item</key>
+				<string>CertAid.app</string>
+				<key>user</key>
+				<string>root</string>
+			</dict>
+		</array>
+		<key>minimum_os_version</key>
+		<string>10.7.0</string>
+		<key>name</key>
+		<string>CertAid</string>
+		<key>uninstall_method</key>
+		<string>remove_copied_items</string>
+		<key>uninstallable</key>
+		<false/>
+		<key>version</key>
+		<string>2.2</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>testing</string>
+			<string>production</string>
+		</array>
 		<key>description</key>
 		<string></string>
 		<key>display_name</key>
@@ -1397,6 +1464,56 @@ exit 0
 		<false/>
 		<key>version</key>
 		<string>8.0.14</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>testing</string>
+			<string>production</string>
+		</array>
+		<key>category</key>
+		<string>Security</string>
+		<key>description</key>
+		<string>Sophos Anti-Virus is the virus protection software recommended by MIT. This software detects and cleans up viruses, Trojans, worms and spyware, as well as adware and other potentially unwanted applications. Sophos Anti-Virus provides virus definitions and software updates regularly when you are connected to the Internet. You do not need to be on campus to receive these updates.</string>
+		<key>developer</key>
+		<string>Sophos</string>
+		<key>display_name</key>
+		<string>Sophos Anti-Virus</string>
+		<key>installed_size</key>
+		<integer>1351680</integer>
+		<key>installer_item_hash</key>
+		<string>8f13d25ecd838aee864a818c2bcc4d01a488d26a90116263b0ca63dcdbf219b6</string>
+		<key>installer_item_location</key>
+		<string>mit-sophos-9_17-osx-9.1.7.dmg</string>
+		<key>installer_item_size</key>
+		<integer>121393</integer>
+		<key>minimum_os_version</key>
+		<string>10.4.0</string>
+		<key>name</key>
+		<string>SophosAntiVirus</string>
+		<key>receipts</key>
+		<array>
+			<dict>
+				<key>filename</key>
+				<string>SophosInstaller.pkg</string>
+				<key>installed_size</key>
+				<integer>675840</integer>
+				<key>name</key>
+				<string>Sophos Endpoint Installer</string>
+				<key>packageid</key>
+				<string>com.sophos.9.0.0.installer</string>
+				<key>version</key>
+				<string>9.0.0</string>
+			</dict>
+		</array>
+		<key>uninstall_method</key>
+		<string>removepackages</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>9.1.7</string>
 	</dict>
 	<dict>
 		<key>autoremove</key>
