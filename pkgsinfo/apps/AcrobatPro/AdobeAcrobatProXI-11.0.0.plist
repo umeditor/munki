@@ -24,6 +24,9 @@
 	<string></string>
 	<key>display_name</key>
 	<string>Adobe Acrobat XI Pro</string>
+	<string>Productivity</string>
+	<key>developer</key>
+	<string>Adbobe</string>
 	<key>installed_size</key>
 	<integer>1483468</integer>
 	<key>installer_item_hash</key>

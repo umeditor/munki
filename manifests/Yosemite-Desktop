@@ -18,6 +18,7 @@
   <key>optional_installs</key>
   <array>
     <string>GoogleChrome</string>
+    <string>AdobeAcrobatProXI</string>
   </array>
 </dict>
 </plist>
