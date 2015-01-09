@@ -24,6 +24,10 @@
 	<string>Chrome is a fast, simple, and secure web browser, built for the modern web.</string>
 	<key>display_name</key>
 	<string>Google Chrome</string>
+	<key>category</key>
+	<string>Internet</string>
+	<key>developer</key>
+	<string>Google</string>
 	<key>installer_item_hash</key>
 	<string>00fdc259b43356a095be8794a5c200ef68ecafc0374eadefcb4be4a28f46fe70</string>
 	<key>installer_item_location</key>
