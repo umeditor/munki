@@ -11,6 +11,7 @@
   </array>
   <key>managed_installs</key>
   <array>
+    <string>SophosAntiVirus</string>
   </array>
   <key>managed_uninstalls</key>
   <array>
@@ -26,7 +27,6 @@
     <string>Office2011</string>
     <string>Silverlight</string>
     <string>Skype</string>
-    <string>SophosAntiVirus</string>
   </array>
 </dict>
 </plist>
