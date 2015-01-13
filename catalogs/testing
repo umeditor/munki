@@ -459,6 +459,51 @@
 		<key>catalogs</key>
 		<array>
 			<string>testing</string>
+		</array>
+		<key>category</key>
+		<string>Security</string>
+		<key>description</key>
+		<string>Cisco AnyConnect Secure Mobility Client (formerly known as Cisco AnyConnect VPN) is a Virtual Private Network (VPN) client.</string>
+		<key>developer</key>
+		<string>Cisco</string>
+		<key>display_name</key>
+		<string>AnyConnect Secure Mobility Client</string>
+		<key>installed_size</key>
+		<integer>12446</integer>
+		<key>installer_item_hash</key>
+		<string>16fa2a23bcd053e5ce5b1aa11cb738569a0cfc74aba11e30776620352e77d393</string>
+		<key>installer_item_location</key>
+		<string>anyconnect-macosx-3.1.05152-web-deploy-k9-3.1.05152.dmg</string>
+		<key>installer_item_size</key>
+		<integer>4911</integer>
+		<key>minimum_os_version</key>
+		<string>10.5.0</string>
+		<key>name</key>
+		<string>CiscoAnyConnectVPN</string>
+		<key>receipts</key>
+		<array>
+			<dict>
+				<key>installed_size</key>
+				<integer>12446</integer>
+				<key>packageid</key>
+				<string>com.cisco.pkg.anyconnect.vpn</string>
+				<key>version</key>
+				<string>3.1.05152</string>
+			</dict>
+		</array>
+		<key>uninstall_method</key>
+		<string>removepackages</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>3.1.05152</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>testing</string>
 			<string>production</string>
 		</array>
 		<key>description</key>
@@ -1156,13 +1201,13 @@ exit 0
 		<array>
 			<dict>
 				<key>CFBundleIdentifier</key>
-				<string>com.sophos.sav</string>
+				<string>com.sophos.macendpoint.Sophos-Anti-Virus</string>
 				<key>CFBundleName</key>
 				<string>Sophos Anti-Virus</string>
 				<key>CFBundleShortVersionString</key>
-				<string>8.0.14</string>
+				<string>9.1.4</string>
 				<key>CFBundleVersion</key>
-				<string>2305469</string>
+				<string></string>
 				<key>path</key>
 				<string>/Applications/Sophos Anti-Virus.app</string>
 				<key>type</key>
@@ -1176,9 +1221,9 @@ exit 0
 				<key>CFBundleName</key>
 				<string>InterCheck</string>
 				<key>CFBundleShortVersionString</key>
-				<string>8.0.8.1</string>
+				<string>9.1.5</string>
 				<key>CFBundleVersion</key>
-				<string>8.0.8.1</string>
+				<string></string>
 				<key>path</key>
 				<string>/Library/Sophos Anti-Virus/InterCheck.app</string>
 				<key>type</key>
@@ -1188,13 +1233,15 @@ exit 0
 			</dict>
 			<dict>
 				<key>CFBundleIdentifier</key>
-				<string>com.Sophos.SophosServer</string>
+				<string>com.sophos.SophosAntiVirus</string>
 				<key>CFBundleName</key>
 				<string>SophosAntiVirus</string>
 				<key>CFBundleShortVersionString</key>
-				<string>8.0.8.1</string>
+				<string>9.1.6</string>
 				<key>CFBundleVersion</key>
-				<string>8.0.8.1</string>
+				<string></string>
+				<key>minosversion</key>
+				<string>10.6</string>
 				<key>path</key>
 				<string>/Library/Sophos Anti-Virus/SophosAntiVirus.app</string>
 				<key>type</key>
@@ -1208,9 +1255,9 @@ exit 0
 				<key>CFBundleName</key>
 				<string>Sophos AutoUpdate</string>
 				<key>CFBundleShortVersionString</key>
-				<string>8.0.12</string>
+				<string>9.1.7</string>
 				<key>CFBundleVersion</key>
-				<string>8.0.12</string>
+				<string></string>
 				<key>path</key>
 				<string>/Library/Sophos Anti-Virus/SophosAutoUpdate.app</string>
 				<key>type</key>
@@ -1224,9 +1271,9 @@ exit 0
 				<key>CFBundleName</key>
 				<string>SophosUIServer</string>
 				<key>CFBundleShortVersionString</key>
-				<string>8.0.14</string>
+				<string>9.1.4</string>
 				<key>CFBundleVersion</key>
-				<string>2305469</string>
+				<string></string>
 				<key>path</key>
 				<string>/Library/Sophos Anti-Virus/SophosUIServer.app</string>
 				<key>type</key>
