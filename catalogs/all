@@ -6140,8 +6140,12 @@ exit 0
 			<string>testing</string>
 			<string>production</string>
 		</array>
+		<key>category</key>
+		<string>System</string>
 		<key>description</key>
 		<string>CrashPlan is is the recommended desktop/laptop backup solution for desktops and laptops for the MIT Community.</string>
+		<key>developer</key>
+		<string>Code42</string>
 		<key>display_name</key>
 		<string>CrashPlanPROe</string>
 		<key>installed_size</key>
