@@ -28,6 +28,10 @@
 	<string>Free open-source disk encryption software for Windows 7/Vista/XP, Mac OS X, and Linux</string>
 	<key>display_name</key>
 	<string>TrueCrypt</string>
+	<key>category</key>
+	<string>Security</string>
+	<key>developer</key>
+	<string>TrueCrypt</string>
 	<key>installed_size</key>
 	<integer>15508</integer>
 	<key>installer_item_hash</key>

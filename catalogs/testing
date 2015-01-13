@@ -3474,8 +3474,12 @@ exit 0
 			<string>testing</string>
 			<string>production</string>
 		</array>
+		<key>category</key>
+		<string>Internet Plugin</string>
 		<key>description</key>
 		<string>Microsoft Silverlight is a free web-browser plug-in that enables interactive media experiences, rich business applications and immersive mobile apps.</string>
+		<key>developer</key>
+		<string>Microsoft</string>
 		<key>display_name</key>
 		<string>Microsoft Silverlight</string>
 		<key>installed_size</key>
@@ -4191,8 +4195,12 @@ exit 0
 			<string>testing</string>
 			<string>production</string>
 		</array>
+		<key>category</key>
+		<string>Communication</string>
 		<key>description</key>
 		<string>Calling, seeing, messaging and sharing with others – wherever they are.</string>
+		<key>developer</key>
+		<string>Skype</string>
 		<key>display_name</key>
 		<string>Skype</string>
 		<key>installer_item_hash</key>
@@ -4868,8 +4876,12 @@ exit 0
 			<string>testing</string>
 			<string>production</string>
 		</array>
+		<key>category</key>
+		<string>Security</string>
 		<key>description</key>
 		<string>Free open-source disk encryption software for Windows 7/Vista/XP, Mac OS X, and Linux</string>
+		<key>developer</key>
+		<string>TrueCrypt</string>
 		<key>display_name</key>
 		<string>TrueCrypt</string>
 		<key>installed_size</key>
@@ -6042,8 +6054,12 @@ exit 0
 			<string>testing</string>
 			<string>production</string>
 		</array>
+		<key>category</key>
+		<string>Internet</string>
 		<key>description</key>
 		<string>The Adobe AIR runtime enables developers to package the same code into native applications and games for Windows and Mac OS desktops as well as iOS and Android devices, reaching over a billion desktop systems and mobile app stores for over 500 million devices.</string>
+		<key>developer</key>
+		<string>Adobe</string>
 		<key>display_name</key>
 		<string>Adobe AIR</string>
 		<key>installed_size</key>
@@ -6955,8 +6971,12 @@ fi
 			<string>testing</string>
 			<string>production</string>
 		</array>
+		<key>category</key>
+		<string>File Sharing</string>
 		<key>description</key>
 		<string>Dropbox is a free service that lets you bring all your photos, docs, and videos anywhere. This means that any file you save to your Dropbox will automatically save to all your computers, phones and even the Dropbox website.</string>
+		<key>developer</key>
+		<string>Dropbox</string>
 		<key>display_name</key>
 		<string>Dropbox</string>
 		<key>installer_item_hash</key>
@@ -6999,7 +7019,7 @@ fi
 # https://groups.google.com/group/munki-dev/browse_thread/thread/a2813e7f62535f13/63d127534541f863
 # modifications:
 # - always extract the helper tool with each install instead of skipping if it exists
-# - remove xattr com.apple.quarantine removal, as Munki will have already done this upon 
+# - remove xattr com.apple.quarantine removal, as Munki will have already done this upon
 #   installation; normal autopkg runs also won't quarantine the download to begin with
 
 HELPER_SRC_PATH=/Applications/Dropbox.app/Contents/Resources/DropboxHelperInstaller.tgz
@@ -8686,8 +8706,12 @@ fi
 			<string>testing</string>
 			<string>production</string>
 		</array>
+		<key>category</key>
+		<string>Productivity</string>
 		<key>description</key>
 		<string>Microsoft Office is a suite of products that includes Microsoft Word, Excel, PowerPoint, and Outlook.</string>
+		<key>developer</key>
+		<string>Microsoft</string>
 		<key>display_name</key>
 		<string>Microsoft Office for Mac 2011</string>
 		<key>installed_size</key>
@@ -17257,8 +17281,12 @@ fi
 			<string>testing</string>
 			<string>production</string>
 		</array>
+		<key>category</key>
+		<string>Internet Plugin</string>
 		<key>description</key>
 		<string>Adobe® Flash® Player is a cross-platform browser-based application runtime that delivers uncompromised viewing of expressive applications, content, and videos across screens and browsers.</string>
+		<key>developer</key>
+		<string>Adobe</string>
 		<key>display_name</key>
 		<string>Adobe Flash Player</string>
 		<key>installed_size</key>

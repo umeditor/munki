@@ -24,6 +24,10 @@
 	<string>Adobe® Flash® Player is a cross-platform browser-based application runtime that delivers uncompromised viewing of expressive applications, content, and videos across screens and browsers.</string>
 	<key>display_name</key>
 	<string>Adobe Flash Player</string>
+	<key>category</key>
+	<string>Internet Plugin</string>
+	<key>developer</key>
+	<string>Adobe</string>
 	<key>installed_size</key>
 	<integer>16058</integer>
 	<key>installer_item_hash</key>

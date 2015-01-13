@@ -23,6 +23,10 @@
 	<string>10.5.0</string>
 	<key>name</key>
 	<string>Office2011</string>
+	<key>category</key>
+	<string>Productivity</string>
+	<key>developer</key>
+	<string>Microsoft</string>
 	<key>installs</key>
 	<array>
 		<dict>
