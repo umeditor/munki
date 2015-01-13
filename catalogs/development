@@ -1275,7 +1275,7 @@
 		<key>installer_item_size</key>
 		<integer>137</integer>
 		<key>minimum_os_version</key>
-		<string>10.5.0</string>
+		<string>10.10.0</string>
 		<key>name</key>
 		<string>munkitools_core</string>
 		<key>receipts</key>
