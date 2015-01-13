@@ -33,11 +33,30 @@
 	<key>installer_item_location</key>
 	<string>apps/Code42/CrashPlanPROe_Mac-3.6.4.dmg</string>
 	<key>installer_item_size</key>
-	<integer>64350</integer>
+	<integer>55534</integer>
 	<key>minimum_os_version</key>
 	<string>10.5.0</string>
 	<key>name</key>
 	<string>CrashPlanPROe</string>
+	<key>installs</key>
+	<array>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.backup42.desktop</string>
+			<key>CFBundleName</key>
+			<string>CrashPlan</string>
+			<key>CFBundleShortVersionString</key>
+			<string>3.6.4</string>
+			<key>CFBundleVersion</key>
+			<string>3.6.4</string>
+			<key>path</key>
+			<string>/Applications/CrashPlan.app</string>
+			<key>type</key>
+			<string>application</string>
+			<key>version_comparison_key</key>
+			<string>CFBundleShortVersionString</string>
+		</dict>
+	</array>
 	<key>receipts</key>
 	<array>
 		<dict>
