@@ -17,10 +17,17 @@
   </array>
   <key>optional_installs</key>
   <array>
-    <string>GoogleChrome</string>
+    <string>AdobeAIR</string>
     <string>AdobeAcrobatProXI</string>
+    <string>AdobeFlashPlayer</string>
     <string>CertAid</string>
+    <string>Dropbox</string>
+    <string>GoogleChrome</string>
+    <string>Office2011</string>
+    <string>Silverlight</string>
+    <string>Skype</string>
     <string>SophosAntiVirus</string>
+    <string>TrueCrypt</string>
   </array>
 </dict>
 </plist>
