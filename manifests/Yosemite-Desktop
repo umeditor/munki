@@ -13,6 +13,7 @@
   <array>
     <string>SophosAntiVirus</string>
     <string>LoginWindow-DisplayNamePasswordFields</string>
+    <string>DisableSendingDiagnosticData</string>
   </array>
   <key>managed_uninstalls</key>
   <array>
