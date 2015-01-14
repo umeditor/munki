@@ -15,6 +15,10 @@
     <string>SophosAntiVirus</string>
     <string>LoginWindow-DisplayNamePasswordFields</string>
     <string>DisableSendingDiagnosticData</string>
+    <string>munkitools_core</string>
+    <string>munkitools</string>
+    <string>munkitools_admin</string>
+    <string>munkitools_launchd</string>
   </array>
   <key>managed_uninstalls</key>
   <array>
