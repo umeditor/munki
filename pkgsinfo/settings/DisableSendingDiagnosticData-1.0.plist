@@ -52,5 +52,7 @@
 	<true/>
 	<key>version</key>
 	<string>1.0</string>
+	<key>minimum_munki_version</key>
+	<string>2.2</string>
 </dict>
 </plist>

@@ -20717,6 +20717,8 @@ fi
 		<integer>3</integer>
 		<key>installer_type</key>
 		<string>profile</string>
+		<key>minimum_munki_version</key>
+		<string>2.2</string>
 		<key>minimum_os_version</key>
 		<string>10.10</string>
 		<key>name</key>
