@@ -22158,6 +22158,8 @@ fi
 		<string>nopkg</string>
 		<key>minimum_os_version</key>
 		<string>10.10.0</string>
+		<key>name</key>
+		<string>LoginWindow-DisplayNamePasswordFields</string>
 		<key>preinstall_script</key>
 		<string>#!/bin/sh
 
