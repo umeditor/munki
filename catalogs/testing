@@ -20792,10 +20792,10 @@ value="$(defaults read /Library/Preferences/com.apple.loginwindow SHOWFULLNAME 2
 # Compare with the value we want
 if [ ${value:-0} -eq 1 ]; then
 	# Setting is correct
-	exit 0
+	exit 1
 else
 	# Setting is not correct
-	exit 1
+	exit 0
 fi
 	</string>
 		<key>installer_type</key>
