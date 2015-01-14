@@ -20780,6 +20780,42 @@ fi
 		<key>catalogs</key>
 		<array>
 			<string>testing</string>
+			<string>prodcution</string>
+		</array>
+		<key>installcheck_script</key>
+		<string>#!/bin/sh
+
+# Grab current value
+value="$(defaults read /Library/Preferences/com.apple.loginwindow SHOWFULLNAME
+)"
+
+# Compare with the value we want
+if [ ${value:-0} -eq 1 ]; then
+	# Setting is correct
+	exit 0
+else
+	# Setting is not correct
+	exit 1
+fi
+	</string>
+		<key>installer_type</key>
+		<string>nopkg</string>
+		<key>minimum_os_version</key>
+		<string>10.10.0</string>
+		<key>preinstall_script</key>
+		<string>#!/bin/sh
+
+defaults write /Library/Preferences/com.apple.loginwindow SHOWFULLNAME -bool true
+	</string>
+		<key>version</key>
+		<string>1.0.0</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>testing</string>
 			<string>production</string>
 		</array>
 		<key>description</key>
