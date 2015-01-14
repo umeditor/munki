@@ -1,5 +1,6 @@
 *.dmg
 *.pkg
+pkgs
 *.mpkg
 .DS_Store
 .htpasswd
