@@ -28,6 +28,7 @@
     <string>Office2011</string>
     <string>Silverlight</string>
     <string>Skype</string>
+    <string>LoginWindow-DisplayNamePasswordFields</string>
   </array>
 </dict>
 </plist>
