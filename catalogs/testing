@@ -20780,7 +20780,7 @@ fi
 		<key>catalogs</key>
 		<array>
 			<string>testing</string>
-			<string>prodcution</string>
+			<string>production</string>
 		</array>
 		<key>installcheck_script</key>
 		<string>#!/bin/sh
