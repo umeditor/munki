@@ -22165,6 +22165,8 @@ fi
 
 defaults write /Library/Preferences/com.apple.loginwindow SHOWFULLNAME -bool true
 	</string>
+		<key>unattended_uninstall</key>
+		<true/>
 		<key>version</key>
 		<string>1.0.0</string>
 	</dict>
