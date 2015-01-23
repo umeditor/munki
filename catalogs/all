@@ -22689,6 +22689,8 @@ fi
 				<string>1.0</string>
 			</dict>
 		</array>
+		<key>unattended_install</key>
+		<true/>
 		<key>uninstall_method</key>
 		<string>removepackages</string>
 		<key>uninstallable</key>
