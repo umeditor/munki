@@ -19,7 +19,7 @@
 	<false/>
 	<key>catalogs</key>
 	<array>
-		<string>development</string>
+		<string>production</string>
 	</array>
 	<key>description</key>
 	<string>launchd configuration files for use by Managed Software Center.</string>
