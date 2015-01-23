@@ -11,9 +11,6 @@
   </array>
   <key>managed_installs</key>
   <array>
-    <string>SophosAntiVirus</string>
-    <string>LoginWindow-DisplayNamePasswordFields</string>
-    <string>DisableSendingDiagnosticData</string>
     <string>Disable802.1xAutomaticConnection-1.0</string>
     <string>munkitools_core</string>
     <string>munkitools</string>
@@ -25,16 +22,6 @@
   </array>
   <key>optional_installs</key>
   <array>
-    <string>AdobeAIR</string>
-    <string>AdobeAcrobatProXI</string>
-    <string>AdobeFlashPlayer</string>
-    <string>CertAid</string>
-    <string>CrashPlanPROe</string>
-    <string>Dropbox</string>
-    <string>GoogleChrome</string>
-    <string>Office2011</string>
-    <string>Silverlight</string>
-    <string>Skype</string>
   </array>
 </dict>
 </plist>
