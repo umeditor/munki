@@ -22717,6 +22717,53 @@ fi
 		<key>installed_size</key>
 		<integer>4</integer>
 		<key>installer_item_hash</key>
+		<string>e569f6c5f50f0fed83022972aa9f7b24ef9531932d2c3e56e6067a6c7f9880c3</string>
+		<key>installer_item_location</key>
+		<string>settings/Disable802.1xAutomaticConnection-1.1.1.pkg</string>
+		<key>installer_item_size</key>
+		<integer>3</integer>
+		<key>minimum_os_version</key>
+		<string>10.5.0</string>
+		<key>name</key>
+		<string>Disable802.1xAutomaticConnection</string>
+		<key>receipts</key>
+		<array>
+			<dict>
+				<key>installed_size</key>
+				<integer>4</integer>
+				<key>packageid</key>
+				<string>org.povertyactionlab.Disable802.1xAutomaticConnection</string>
+				<key>version</key>
+				<string>1.1.1</string>
+			</dict>
+		</array>
+		<key>unattended_install</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>removepackages</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>1.1.1</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>testing</string>
+		</array>
+		<key>category</key>
+		<string>Settings</string>
+		<key>description</key>
+		<string>Disable 802.1x automatic connections for ethernet connections.</string>
+		<key>developer</key>
+		<string>J-PAL</string>
+		<key>display_name</key>
+		<string>Disable 802.1x Automatic Connection</string>
+		<key>installed_size</key>
+		<integer>4</integer>
+		<key>installer_item_hash</key>
 		<string>3b989ce5b52c398e44c0712aaf6da4cfe37b2b1d46b7116d50de48cec9357101</string>
 		<key>installer_item_location</key>
 		<string>settings/Disable802.1xAutomaticConnection-1.1.pkg</string>
