@@ -20931,6 +20931,54 @@ fi
 		<string>1.0</string>
 	</dict>
 	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>testing</string>
+			<string>production</string>
+		</array>
+		<key>category</key>
+		<string>Settings</string>
+		<key>description</key>
+		<string>Disable 802.1x automatic connections for ethernet connections.</string>
+		<key>developer</key>
+		<string>J-PAL</string>
+		<key>display_name</key>
+		<string>Disable 802.1x Automatic Connection</string>
+		<key>installed_size</key>
+		<integer>4</integer>
+		<key>installer_item_hash</key>
+		<string>f21cf2ed6ee47fa8fa26e54b0d35a98e7da196ea4648b1ac0136049331e77f42</string>
+		<key>installer_item_location</key>
+		<string>settings/Disable802.1xAutomaticConnection-1.0.pkg</string>
+		<key>installer_item_size</key>
+		<integer>2</integer>
+		<key>minimum_os_version</key>
+		<string>10.5.0</string>
+		<key>name</key>
+		<string>Disable802.1xAutomaticConnection</string>
+		<key>receipts</key>
+		<array>
+			<dict>
+				<key>installed_size</key>
+				<integer>4</integer>
+				<key>packageid</key>
+				<string>org.povertyactionlab.Disable802.1xAutomaticConnection</string>
+				<key>version</key>
+				<string>1.0</string>
+			</dict>
+		</array>
+		<key>unattended_install</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>removepackages</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>1.0</string>
+	</dict>
+	<dict>
 		<key>PayloadIdentifier</key>
 		<string>org.povertyactionlab.munki.profiles.DisableSendingDiagnosticData</string>
 		<key>autoremove</key>
