@@ -20780,7 +20780,7 @@ fi
 		<key>display_name</key>
 		<string>Disable iCloud Setup Assistant</string>
 		<key>installer_item_hash</key>
-		<string>fde1bf6115c1a32c534bcee5087f62dd8ba5f1bdfae76b94a6f75632c8b84aa7</string>
+		<string>1b859a0ef004d7d841d091025b258bac7fabdf1376a065fbe5640d6259d59d72</string>
 		<key>installer_item_location</key>
 		<string>settings/disable_icloud_asst-1.1.mobileconfig</string>
 		<key>installer_item_size</key>
