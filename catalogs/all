@@ -22796,6 +22796,46 @@ fi
 	</dict>
 	<dict>
 		<key>PayloadIdentifier</key>
+		<string>suppress_ml_icloud_asst</string>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>testing</string>
+		</array>
+		<key>category</key>
+		<string>Settings</string>
+		<key>description</key>
+		<string>Prevent the iCloud setup assistant from automatically launching on first login.</string>
+		<key>developer</key>
+		<string>J-PAL</string>
+		<key>display_name</key>
+		<string>Disable iCloud Setup Assistant</string>
+		<key>installer_item_hash</key>
+		<string>cac08985d20186fee2b0e9aa0438d1fffc562cebb21c70e3212c9e2cbf27b9a5</string>
+		<key>installer_item_location</key>
+		<string>settings/disable_icloud_asst-1.0.mobileconfig</string>
+		<key>installer_item_size</key>
+		<integer>2</integer>
+		<key>installer_type</key>
+		<string>profile</string>
+		<key>minimum_os_version</key>
+		<string>10.7</string>
+		<key>name</key>
+		<string>DisableiCloudAssistant</string>
+		<key>unattended_install</key>
+		<true/>
+		<key>unattended_uninstall</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>remove_profile</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>1.0</string>
+	</dict>
+	<dict>
+		<key>PayloadIdentifier</key>
 		<string>org.povertyactionlab.munki.profiles.DisableSendingDiagnosticData</string>
 		<key>autoremove</key>
 		<false/>
