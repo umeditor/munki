@@ -11,7 +11,7 @@
   </array>
   <key>managed_installs</key>
   <array>
-    <string>Disable802.1xAutomaticConnection</string>
+    <string>DisableiCloudAssistant</string>
     <string>munkitools_core</string>
     <string>munkitools</string>
     <string>munkitools_admin</string>
