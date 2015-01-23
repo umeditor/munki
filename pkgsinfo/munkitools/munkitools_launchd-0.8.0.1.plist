@@ -8,9 +8,7 @@
 	<false/>
 	<key>catalogs</key>
 	<array>
-		<string>development</string>
 		<string>production</string>
-		<string>testing</string>
 	</array>
 	<key>description</key>
 	<string>launchd configuration files for use by Managed Software Update</string>

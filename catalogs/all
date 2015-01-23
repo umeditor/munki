@@ -19924,7 +19924,6 @@ fi
 		<false/>
 		<key>catalogs</key>
 		<array>
-			<string>testing</string>
 			<string>production</string>
 		</array>
 		<key>description</key>
@@ -19976,7 +19975,6 @@ fi
 		<false/>
 		<key>catalogs</key>
 		<array>
-			<string>testing</string>
 			<string>production</string>
 		</array>
 		<key>description</key>
@@ -20045,7 +20043,6 @@ fi
 		<false/>
 		<key>catalogs</key>
 		<array>
-			<string>testing</string>
 			<string>production</string>
 		</array>
 		<key>description</key>
@@ -20097,7 +20094,6 @@ fi
 		<false/>
 		<key>catalogs</key>
 		<array>
-			<string>testing</string>
 			<string>production</string>
 		</array>
 		<key>description</key>
@@ -20143,9 +20139,7 @@ fi
 		<false/>
 		<key>catalogs</key>
 		<array>
-			<string>development</string>
 			<string>production</string>
-			<string>testing</string>
 		</array>
 		<key>description</key>
 		<string>Managed Software Update application.</string>
@@ -20203,7 +20197,7 @@ fi
 		<false/>
 		<key>catalogs</key>
 		<array>
-			<string>development</string>
+			<string>production</string>
 		</array>
 		<key>description</key>
 		<string>Managed Software Center application.</string>
@@ -20251,7 +20245,7 @@ fi
 		<false/>
 		<key>catalogs</key>
 		<array>
-			<string>development</string>
+			<string>production</string>
 		</array>
 		<key>description</key>
 		<string>Managed Software Center application.</string>
@@ -20299,7 +20293,7 @@ fi
 		<false/>
 		<key>catalogs</key>
 		<array>
-			<string>development</string>
+			<string>production</string>
 		</array>
 		<key>description</key>
 		<string>Managed Software Center application.</string>
@@ -20347,7 +20341,7 @@ fi
 		<false/>
 		<key>catalogs</key>
 		<array>
-			<string>development</string>
+			<string>production</string>
 		</array>
 		<key>description</key>
 		<string>Managed Software Center application.</string>
@@ -20395,7 +20389,7 @@ fi
 		<false/>
 		<key>catalogs</key>
 		<array>
-			<string>development</string>
+			<string>production</string>
 		</array>
 		<key>description</key>
 		<string>Managed Software Center application.</string>
@@ -20491,9 +20485,7 @@ fi
 		<false/>
 		<key>catalogs</key>
 		<array>
-			<string>development</string>
 			<string>production</string>
-			<string>testing</string>
 		</array>
 		<key>description</key>
 		<string>Command-line Managed Software Update admin tools.</string>
@@ -20544,7 +20536,7 @@ fi
 		<false/>
 		<key>catalogs</key>
 		<array>
-			<string>development</string>
+			<string>production</string>
 		</array>
 		<key>description</key>
 		<string>Command-line Managed Software Center admin tools.</string>
@@ -20591,7 +20583,7 @@ fi
 		<false/>
 		<key>catalogs</key>
 		<array>
-			<string>development</string>
+			<string>production</string>
 		</array>
 		<key>description</key>
 		<string>Command-line Managed Software Center admin tools.</string>
@@ -20638,7 +20630,7 @@ fi
 		<false/>
 		<key>catalogs</key>
 		<array>
-			<string>development</string>
+			<string>production</string>
 		</array>
 		<key>description</key>
 		<string>Command-line Managed Software Center admin tools.</string>
@@ -20685,7 +20677,7 @@ fi
 		<false/>
 		<key>catalogs</key>
 		<array>
-			<string>development</string>
+			<string>production</string>
 		</array>
 		<key>description</key>
 		<string>Command-line Managed Software Center admin tools.</string>
@@ -20732,7 +20724,7 @@ fi
 		<false/>
 		<key>catalogs</key>
 		<array>
-			<string>development</string>
+			<string>production</string>
 		</array>
 		<key>description</key>
 		<string>Command-line Managed Software Center admin tools.</string>
@@ -20779,7 +20771,7 @@ fi
 		<false/>
 		<key>catalogs</key>
 		<array>
-			<string>development</string>
+			<string>production</string>
 		</array>
 		<key>description</key>
 		<string>Command-line Managed Software Center admin tools.</string>
@@ -20826,7 +20818,7 @@ fi
 		<false/>
 		<key>catalogs</key>
 		<array>
-			<string>development</string>
+			<string>production</string>
 		</array>
 		<key>description</key>
 		<string>Command-line Managed Software Center admin tools.</string>
@@ -20873,7 +20865,7 @@ fi
 		<false/>
 		<key>catalogs</key>
 		<array>
-			<string>development</string>
+			<string>production</string>
 		</array>
 		<key>description</key>
 		<string>Command-line Managed Software Center admin tools.</string>
@@ -20920,7 +20912,7 @@ fi
 		<false/>
 		<key>catalogs</key>
 		<array>
-			<string>development</string>
+			<string>production</string>
 		</array>
 		<key>description</key>
 		<string>Command-line Managed Software Center admin tools.</string>
@@ -20967,7 +20959,7 @@ fi
 		<false/>
 		<key>catalogs</key>
 		<array>
-			<string>development</string>
+			<string>production</string>
 		</array>
 		<key>description</key>
 		<string>Command-line Managed Software Center admin tools.</string>
@@ -21014,7 +21006,7 @@ fi
 		<false/>
 		<key>catalogs</key>
 		<array>
-			<string>development</string>
+			<string>production</string>
 		</array>
 		<key>description</key>
 		<string>Command-line Managed Software Center admin tools.</string>
@@ -21061,7 +21053,7 @@ fi
 		<false/>
 		<key>catalogs</key>
 		<array>
-			<string>development</string>
+			<string>production</string>
 		</array>
 		<key>description</key>
 		<string>Command-line Managed Software Center admin tools.</string>
@@ -21155,9 +21147,7 @@ fi
 		<false/>
 		<key>catalogs</key>
 		<array>
-			<string>development</string>
 			<string>production</string>
-			<string>testing</string>
 		</array>
 		<key>description</key>
 		<string>Core command-line tools used by Managed Software Update.</string>
@@ -21208,7 +21198,7 @@ fi
 		<false/>
 		<key>catalogs</key>
 		<array>
-			<string>development</string>
+			<string>production</string>
 		</array>
 		<key>description</key>
 		<string>Core command-line tools used by Managed Software Center.</string>
@@ -21255,7 +21245,7 @@ fi
 		<false/>
 		<key>catalogs</key>
 		<array>
-			<string>development</string>
+			<string>production</string>
 		</array>
 		<key>description</key>
 		<string>Core command-line tools used by Managed Software Center.</string>
@@ -21302,7 +21292,7 @@ fi
 		<false/>
 		<key>catalogs</key>
 		<array>
-			<string>development</string>
+			<string>production</string>
 		</array>
 		<key>description</key>
 		<string>Core command-line tools used by Managed Software Center.</string>
@@ -21349,7 +21339,7 @@ fi
 		<false/>
 		<key>catalogs</key>
 		<array>
-			<string>development</string>
+			<string>production</string>
 		</array>
 		<key>description</key>
 		<string>Core command-line tools used by Managed Software Center.</string>
@@ -21396,7 +21386,7 @@ fi
 		<false/>
 		<key>catalogs</key>
 		<array>
-			<string>development</string>
+			<string>production</string>
 		</array>
 		<key>description</key>
 		<string>Core command-line tools used by Managed Software Center.</string>
@@ -21443,7 +21433,7 @@ fi
 		<false/>
 		<key>catalogs</key>
 		<array>
-			<string>development</string>
+			<string>production</string>
 		</array>
 		<key>description</key>
 		<string>Core command-line tools used by Managed Software Center.</string>
@@ -21490,7 +21480,7 @@ fi
 		<false/>
 		<key>catalogs</key>
 		<array>
-			<string>development</string>
+			<string>production</string>
 		</array>
 		<key>description</key>
 		<string>Core command-line tools used by Managed Software Center.</string>
@@ -21537,7 +21527,7 @@ fi
 		<false/>
 		<key>catalogs</key>
 		<array>
-			<string>development</string>
+			<string>production</string>
 		</array>
 		<key>description</key>
 		<string>Core command-line tools used by Managed Software Center.</string>
@@ -21584,7 +21574,7 @@ fi
 		<false/>
 		<key>catalogs</key>
 		<array>
-			<string>development</string>
+			<string>production</string>
 		</array>
 		<key>description</key>
 		<string>Core command-line tools used by Managed Software Center.</string>
@@ -21631,7 +21621,7 @@ fi
 		<false/>
 		<key>catalogs</key>
 		<array>
-			<string>development</string>
+			<string>production</string>
 		</array>
 		<key>description</key>
 		<string>Core command-line tools used by Managed Software Center.</string>
@@ -21678,7 +21668,7 @@ fi
 		<false/>
 		<key>catalogs</key>
 		<array>
-			<string>development</string>
+			<string>production</string>
 		</array>
 		<key>description</key>
 		<string>Core command-line tools used by Managed Software Center.</string>
@@ -21725,7 +21715,7 @@ fi
 		<false/>
 		<key>catalogs</key>
 		<array>
-			<string>development</string>
+			<string>production</string>
 		</array>
 		<key>description</key>
 		<string>Core command-line tools used by Managed Software Center.</string>
@@ -21821,9 +21811,7 @@ fi
 		<false/>
 		<key>catalogs</key>
 		<array>
-			<string>development</string>
 			<string>production</string>
-			<string>testing</string>
 		</array>
 		<key>description</key>
 		<string>launchd configuration files for use by Managed Software Update</string>
