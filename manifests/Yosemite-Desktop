@@ -14,6 +14,7 @@
     <string>SophosAntiVirus</string>
     <string>LoginWindow-DisplayNamePasswordFields</string>
     <string>DisableSendingDiagnosticData</string>
+    <string>DisableiCloudAssistant</string>
     <string>Disable802.1xAutomaticConnection</string>
     <string>munkitools_core</string>
     <string>munkitools</string>
