@@ -7,12 +7,10 @@
     <string>production</string>
   </array>
   <key>included_manifests</key>
-    <string>Yosemite-Desktop-Core</string>
-    <string>Yosemite-Desktop-Apps</string>
-    <string>Yosemite-Desktop-CrashPlan</string>
   <array>
   </array>
   <key>managed_installs</key>
+    <string>CrashPlanPROe</string>
   <array>
   </array>
   <key>managed_uninstalls</key>

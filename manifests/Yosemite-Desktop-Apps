@@ -7,9 +7,6 @@
     <string>production</string>
   </array>
   <key>included_manifests</key>
-    <string>Yosemite-Desktop-Core</string>
-    <string>Yosemite-Desktop-Apps</string>
-    <string>Yosemite-Desktop-CrashPlan</string>
   <array>
   </array>
   <key>managed_installs</key>
@@ -20,6 +17,15 @@
   </array>
   <key>optional_installs</key>
   <array>
+    <string>AdobeAIR</string>
+    <string>AdobeAcrobatProXI</string>
+    <string>AdobeFlashPlayer</string>
+    <string>CertAid</string>
+    <string>Dropbox</string>
+    <string>GoogleChrome</string>
+    <string>Office2011</string>
+    <string>Silverlight</string>
+    <string>Skype</string>
   </array>
 </dict>
 </plist>
