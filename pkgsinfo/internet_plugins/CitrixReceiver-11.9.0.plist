@@ -24,9 +24,9 @@
 		<string>Google Chrome</string>
 	</array>
 	<key>catalogs</key>
-	<dict>
+	<array>
 		<string>production</string>
-	</dict>
+	</array>
 	<key>description</key>
 	<string>Access your content from any device with Citrix Receiver, the enterprise mobility solution that delivers a high def experience simply and securely.</string>
 	<key>display_name</key>
