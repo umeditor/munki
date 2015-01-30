@@ -25,7 +25,6 @@
 	</array>
 	<key>catalogs</key>
 	<dict>
-		<key>1</key>
 		<string>production</string>
 	</dict>
 	<key>description</key>
