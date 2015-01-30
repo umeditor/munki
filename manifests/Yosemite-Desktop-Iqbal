@@ -7,9 +7,9 @@
     <string>production</string>
   </array>
   <key>included_manifests</key>
+  <array>
     <string>Yosemite-Desktop-Core</string>
     <string>Yosemite-Desktop-Apps</string>
-  <array>
   </array>
   <key>managed_installs</key>
   <array>

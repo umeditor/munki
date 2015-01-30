@@ -10,8 +10,8 @@
   <array>
   </array>
   <key>managed_installs</key>
-    <string>CrashPlanPROe</string>
   <array>
+    <string>CrashPlanPROe</string>
   </array>
   <key>managed_uninstalls</key>
   <array>

@@ -22,8 +22,8 @@
   <array>
   </array>
   <key>optional_installs</key>
-    <string>AdbobeCC2014Print</string>
   <array>
+    <string>AdbobeCC2014Print</string>
   </array>
 </dict>
 </plist>
