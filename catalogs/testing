@@ -6146,638 +6146,6 @@ exit 0
 		<string>11.0.10</string>
 	</dict>
 	<dict>
-		<key>AdobeSetupType</key>
-		<string>ProductInstall</string>
-		<key>autoremove</key>
-		<false/>
-		<key>catalogs</key>
-		<array>
-			<string>testing</string>
-		</array>
-		<key>category</key>
-		<string>Graphics</string>
-		<key>description</key>
-		<string>Adobe CC 2014 Print suite contains the applications you need to create the pixel-perfect print publications from images to photos to typography. The Adobe CC 2014 Print suite contains: Photoshop CC 2014, Illustrator CC 2014, InDesign CC 2014, InCopy CC 2014 and Bridge CC.</string>
-		<key>developer</key>
-		<string>Adobe</string>
-		<key>display_name</key>
-		<string>Adobe Creative Cloud 2014 Print Suite</string>
-		<key>installed_size</key>
-		<integer>4650223</integer>
-		<key>installer_item_hash</key>
-		<string>a9b93f6c20d1a5f6f82d33b1dfffac14f3aeb61e9a6cecdbb70ee76bda3053af</string>
-		<key>installer_item_location</key>
-		<string>apps/adobe/adobe-cc-2014-print-15.0.dmg</string>
-		<key>installer_item_size</key>
-		<integer>3479775</integer>
-		<key>installer_type</key>
-		<string>AdobeCCPInstaller</string>
-		<key>installs</key>
-		<array>
-			<dict>
-				<key>path</key>
-				<string>/Library/Application Support/Adobe/Uninstall/{7C25E7A0-A0A1-4B87-BB30-BF0FBDC37878}.db</string>
-				<key>type</key>
-				<string>file</string>
-			</dict>
-			<dict>
-				<key>path</key>
-				<string>/Library/Application Support/Adobe/Uninstall/{B42E718A-AAE9-4C7D-8990-2AE4C4FE87DF}.db</string>
-				<key>type</key>
-				<string>file</string>
-			</dict>
-			<dict>
-				<key>path</key>
-				<string>/Library/Application Support/Adobe/Uninstall/{CB2632B8-D44B-11E3-88A6-77388C8F654B}.db</string>
-				<key>type</key>
-				<string>file</string>
-			</dict>
-			<dict>
-				<key>path</key>
-				<string>/Library/Application Support/Adobe/Uninstall/{A145C964-D44A-11E3-A7A2-631CDFB1035A}.db</string>
-				<key>type</key>
-				<string>file</string>
-			</dict>
-			<dict>
-				<key>path</key>
-				<string>/Library/Application Support/Adobe/Uninstall/{1742D874-9E57-4175-97B5-44210CA7F230}.db</string>
-				<key>type</key>
-				<string>file</string>
-			</dict>
-		</array>
-		<key>minimum_os_version</key>
-		<string>10.6.8</string>
-		<key>name</key>
-		<string>AdbobeCC2014Print</string>
-		<key>payloads</key>
-		<array>
-			<dict>
-				<key>AdobeCode</key>
-				<string>{83A27043-6FC9-4208-92C6-288B20731DB7}</string>
-				<key>display_name</key>
-				<string>Adobe Bridge CC</string>
-				<key>installed_size</key>
-				<integer>1201105</integer>
-				<key>version</key>
-				<string>6.1</string>
-			</dict>
-			<dict>
-				<key>AdobeCode</key>
-				<string>{B50A5328-440A-4DF9-99AC-35F5A6F73C55}</string>
-				<key>display_name</key>
-				<string>DPS Desktop Tools CC2014</string>
-				<key>installed_size</key>
-				<integer>8981</integer>
-				<key>version</key>
-				<string>31.0.0</string>
-			</dict>
-			<dict>
-				<key>AdobeCode</key>
-				<string>{D640D84A-8002-4C4D-AA98-0639DC3556A9}</string>
-				<key>display_name</key>
-				<string>Photoshop Camera Raw 8</string>
-				<key>installed_size</key>
-				<integer>128336</integer>
-				<key>version</key>
-				<string>8.5</string>
-			</dict>
-			<dict>
-				<key>AdobeCode</key>
-				<string>{08F2E584-AFE2-47EA-9891-94768CFDA234}</string>
-				<key>display_name</key>
-				<string>Camera Profiles Installer</string>
-				<key>installed_size</key>
-				<integer>96191</integer>
-				<key>version</key>
-				<string>8.5</string>
-			</dict>
-			<dict>
-				<key>AdobeCode</key>
-				<string>{6E6ECFC9-FE3D-4314-B937-7E25A7862899}</string>
-				<key>display_name</key>
-				<string>Adobe Player for Embedding 3.4</string>
-				<key>installed_size</key>
-				<integer>64008</integer>
-				<key>version</key>
-				<string>3.4</string>
-			</dict>
-			<dict>
-				<key>AdobeCode</key>
-				<string>{C4196275-B11A-40A1-8727-3C145C8F7D95}</string>
-				<key>display_name</key>
-				<string>AdobeColorCommonSetCMYK</string>
-				<key>installed_size</key>
-				<integer>0</integer>
-				<key>version</key>
-				<string>5.0</string>
-			</dict>
-			<dict>
-				<key>AdobeCode</key>
-				<string>{C8DEBB29-3EB0-4B97-B652-4DE482B111BC}</string>
-				<key>display_name</key>
-				<string>AdobeColorCommonSetRGB</string>
-				<key>installed_size</key>
-				<integer>0</integer>
-				<key>version</key>
-				<string>5.0</string>
-			</dict>
-			<dict>
-				<key>AdobeCode</key>
-				<string>{F6DED2DA-1D20-497E-8810-E745B45DCD28}</string>
-				<key>display_name</key>
-				<string>Adobe Color EU Extra Settings CC</string>
-				<key>installed_size</key>
-				<integer>1976</integer>
-				<key>version</key>
-				<string>5.0</string>
-			</dict>
-			<dict>
-				<key>AdobeCode</key>
-				<string>{A032EB9D-B6EB-45BF-9F15-83B0755DC9AB}</string>
-				<key>display_name</key>
-				<string>Adobe Color JA Extra Settings CC</string>
-				<key>installed_size</key>
-				<integer>2799</integer>
-				<key>version</key>
-				<string>5.0</string>
-			</dict>
-			<dict>
-				<key>AdobeCode</key>
-				<string>{AB955DCF-69CD-4840-B7FB-F318CDD0AE44}</string>
-				<key>display_name</key>
-				<string>Adobe Color NA Recommended Settings CC</string>
-				<key>installed_size</key>
-				<integer>2333</integer>
-				<key>version</key>
-				<string>5.0</string>
-			</dict>
-			<dict>
-				<key>AdobeCode</key>
-				<string>{A145C964-D44A-11E3-A7A2-631CDFB1035A}</string>
-				<key>display_name</key>
-				<string>Adobe InCopy CC 2014</string>
-				<key>installed_size</key>
-				<integer>508814</integer>
-				<key>version</key>
-				<string>10.0</string>
-			</dict>
-			<dict>
-				<key>AdobeCode</key>
-				<string>{2F7A1DD0-D1FC-11E3-892E-41CCDFB1035A}</string>
-				<key>display_name</key>
-				<string>Adobe IC CC2014 AppBase2</string>
-				<key>installed_size</key>
-				<integer>294818</integer>
-				<key>version</key>
-				<string>10.0</string>
-			</dict>
-			<dict>
-				<key>AdobeCode</key>
-				<string>{26F2CDF6-D1FC-11E3-9279-A3CBDFB1035A}</string>
-				<key>display_name</key>
-				<string>Adobe IC CC2014 AppFSet (Roman)</string>
-				<key>installed_size</key>
-				<integer>0</integer>
-				<key>version</key>
-				<string>10.0</string>
-			</dict>
-			<dict>
-				<key>AdobeCode</key>
-				<string>{502788B6-D1FB-11E3-9C67-DAC2DFB1035A}</string>
-				<key>display_name</key>
-				<string>Adobe IC CC2014 AppLang (en_US)</string>
-				<key>installed_size</key>
-				<integer>337</integer>
-				<key>version</key>
-				<string>10.0</string>
-			</dict>
-			<dict>
-				<key>AdobeCode</key>
-				<string>{4D7611D0-D202-11E3-9E02-06C5DFB1035A}</string>
-				<key>display_name</key>
-				<string>Adobe IC CC2014 CBase</string>
-				<key>installed_size</key>
-				<integer>31</integer>
-				<key>version</key>
-				<string>10.0</string>
-			</dict>
-			<dict>
-				<key>AdobeCode</key>
-				<string>{E0F9520C-D1FB-11E3-B37F-AACADFB1035A}</string>
-				<key>display_name</key>
-				<string>Adobe IC CC2014 CLang (en_US)</string>
-				<key>installed_size</key>
-				<integer>0</integer>
-				<key>version</key>
-				<string>10.0</string>
-			</dict>
-			<dict>
-				<key>AdobeCode</key>
-				<string>{6E6ECFC9-FE3D-4314-B937-7E25A7862899}</string>
-				<key>display_name</key>
-				<string>Adobe Player for Embedding 3.4</string>
-				<key>installed_size</key>
-				<integer>64008</integer>
-				<key>version</key>
-				<string>3.4</string>
-			</dict>
-			<dict>
-				<key>AdobeCode</key>
-				<string>{C4196275-B11A-40A1-8727-3C145C8F7D95}</string>
-				<key>display_name</key>
-				<string>AdobeColorCommonSetCMYK</string>
-				<key>installed_size</key>
-				<integer>0</integer>
-				<key>version</key>
-				<string>5.0</string>
-			</dict>
-			<dict>
-				<key>AdobeCode</key>
-				<string>{C8DEBB29-3EB0-4B97-B652-4DE482B111BC}</string>
-				<key>display_name</key>
-				<string>AdobeColorCommonSetRGB</string>
-				<key>installed_size</key>
-				<integer>0</integer>
-				<key>version</key>
-				<string>5.0</string>
-			</dict>
-			<dict>
-				<key>AdobeCode</key>
-				<string>{F6DED2DA-1D20-497E-8810-E745B45DCD28}</string>
-				<key>display_name</key>
-				<string>Adobe Color EU Extra Settings CC</string>
-				<key>installed_size</key>
-				<integer>1976</integer>
-				<key>version</key>
-				<string>5.0</string>
-			</dict>
-			<dict>
-				<key>AdobeCode</key>
-				<string>{A032EB9D-B6EB-45BF-9F15-83B0755DC9AB}</string>
-				<key>display_name</key>
-				<string>Adobe Color JA Extra Settings CC</string>
-				<key>installed_size</key>
-				<integer>2799</integer>
-				<key>version</key>
-				<string>5.0</string>
-			</dict>
-			<dict>
-				<key>AdobeCode</key>
-				<string>{AB955DCF-69CD-4840-B7FB-F318CDD0AE44}</string>
-				<key>display_name</key>
-				<string>Adobe Color NA Recommended Settings CC</string>
-				<key>installed_size</key>
-				<integer>2333</integer>
-				<key>version</key>
-				<string>5.0</string>
-			</dict>
-			<dict>
-				<key>AdobeCode</key>
-				<string>{C632F2C8-F0CB-41DD-B0EE-FEE5A87F46E0}</string>
-				<key>display_name</key>
-				<string>DPS Desktop Tools CC2014</string>
-				<key>installed_size</key>
-				<integer>0</integer>
-				<key>version</key>
-				<string>2.0</string>
-			</dict>
-			<dict>
-				<key>AdobeCode</key>
-				<string>{CB2632B8-D44B-11E3-88A6-77388C8F654B}</string>
-				<key>display_name</key>
-				<string>Adobe InDesign CC 2014</string>
-				<key>installed_size</key>
-				<integer>509744</integer>
-				<key>version</key>
-				<string>10.0</string>
-			</dict>
-			<dict>
-				<key>AdobeCode</key>
-				<string>{0BEAB6E0-D201-11E3-A2D8-24318C8F654B}</string>
-				<key>display_name</key>
-				<string>Adobe ID CC2014 AppBase2</string>
-				<key>installed_size</key>
-				<integer>318400</integer>
-				<key>version</key>
-				<string>10.0</string>
-			</dict>
-			<dict>
-				<key>AdobeCode</key>
-				<string>{02F32E1E-D201-11E3-85E1-D1308C8F654B}</string>
-				<key>display_name</key>
-				<string>Adobe ID CC2014 AppFSet (Roman)</string>
-				<key>installed_size</key>
-				<integer>0</integer>
-				<key>version</key>
-				<string>10.0</string>
-			</dict>
-			<dict>
-				<key>AdobeCode</key>
-				<string>{14C17CE6-D200-11E3-9436-64278C8F654B}</string>
-				<key>display_name</key>
-				<string>Adobe ID CC2014 AppLang (en_US)</string>
-				<key>installed_size</key>
-				<integer>684</integer>
-				<key>version</key>
-				<string>10.0</string>
-			</dict>
-			<dict>
-				<key>AdobeCode</key>
-				<string>{DFD99B46-D207-11E3-95E7-B2648C8F654B}</string>
-				<key>display_name</key>
-				<string>Adobe ID CC2014 CBase</string>
-				<key>installed_size</key>
-				<integer>44</integer>
-				<key>version</key>
-				<string>10.0</string>
-			</dict>
-			<dict>
-				<key>AdobeCode</key>
-				<string>{B7D2723C-D200-11E3-8196-BA2F8C8F654B}</string>
-				<key>display_name</key>
-				<string>Adobe ID CC2014 CLang (en_US)</string>
-				<key>installed_size</key>
-				<integer>0</integer>
-				<key>version</key>
-				<string>10.0</string>
-			</dict>
-			<dict>
-				<key>AdobeCode</key>
-				<string>{6E6ECFC9-FE3D-4314-B937-7E25A7862899}</string>
-				<key>display_name</key>
-				<string>Adobe Player for Embedding 3.4</string>
-				<key>installed_size</key>
-				<integer>64008</integer>
-				<key>version</key>
-				<string>3.4</string>
-			</dict>
-			<dict>
-				<key>AdobeCode</key>
-				<string>{C4196275-B11A-40A1-8727-3C145C8F7D95}</string>
-				<key>display_name</key>
-				<string>AdobeColorCommonSetCMYK</string>
-				<key>installed_size</key>
-				<integer>0</integer>
-				<key>version</key>
-				<string>5.0</string>
-			</dict>
-			<dict>
-				<key>AdobeCode</key>
-				<string>{C8DEBB29-3EB0-4B97-B652-4DE482B111BC}</string>
-				<key>display_name</key>
-				<string>AdobeColorCommonSetRGB</string>
-				<key>installed_size</key>
-				<integer>0</integer>
-				<key>version</key>
-				<string>5.0</string>
-			</dict>
-			<dict>
-				<key>AdobeCode</key>
-				<string>{F6DED2DA-1D20-497E-8810-E745B45DCD28}</string>
-				<key>display_name</key>
-				<string>Adobe Color EU Extra Settings CC</string>
-				<key>installed_size</key>
-				<integer>1976</integer>
-				<key>version</key>
-				<string>5.0</string>
-			</dict>
-			<dict>
-				<key>AdobeCode</key>
-				<string>{A032EB9D-B6EB-45BF-9F15-83B0755DC9AB}</string>
-				<key>display_name</key>
-				<string>Adobe Color JA Extra Settings CC</string>
-				<key>installed_size</key>
-				<integer>2799</integer>
-				<key>version</key>
-				<string>5.0</string>
-			</dict>
-			<dict>
-				<key>AdobeCode</key>
-				<string>{AB955DCF-69CD-4840-B7FB-F318CDD0AE44}</string>
-				<key>display_name</key>
-				<string>Adobe Color NA Recommended Settings CC</string>
-				<key>installed_size</key>
-				<integer>2333</integer>
-				<key>version</key>
-				<string>5.0</string>
-			</dict>
-			<dict>
-				<key>AdobeCode</key>
-				<string>{1742D874-9E57-4175-97B5-44210CA7F230}</string>
-				<key>display_name</key>
-				<string>Adobe Illustrator CC 2014</string>
-				<key>installed_size</key>
-				<integer>0</integer>
-				<key>version</key>
-				<string>18.0</string>
-			</dict>
-			<dict>
-				<key>AdobeCode</key>
-				<string>{01196F1E-0D32-47D7-A47E-8FC683180B84}</string>
-				<key>display_name</key>
-				<string>Adobe Illustrator CC 2014 LangPack (en_US)</string>
-				<key>installed_size</key>
-				<integer>53719</integer>
-				<key>version</key>
-				<string>18.0</string>
-			</dict>
-			<dict>
-				<key>AdobeCode</key>
-				<string>{6E6ECFC9-FE3D-4314-B937-7E25A7862899}</string>
-				<key>display_name</key>
-				<string>Adobe Player for Embedding 3.4</string>
-				<key>installed_size</key>
-				<integer>64008</integer>
-				<key>version</key>
-				<string>3.4</string>
-			</dict>
-			<dict>
-				<key>AdobeCode</key>
-				<string>{B42E718A-AAE9-4C7D-8990-2AE4C4FE87DF}</string>
-				<key>display_name</key>
-				<string>Adobe Bridge CC</string>
-				<key>installed_size</key>
-				<integer>388154</integer>
-				<key>version</key>
-				<string>6.0</string>
-			</dict>
-			<dict>
-				<key>AdobeCode</key>
-				<string>{3E7FC757-D497-4C89-A935-7D38E2164E85}</string>
-				<key>display_name</key>
-				<string>Photoshop Camera Raw 8</string>
-				<key>installed_size</key>
-				<integer>46949</integer>
-				<key>version</key>
-				<string>8.0</string>
-			</dict>
-			<dict>
-				<key>AdobeCode</key>
-				<string>{56DCC6F4-322E-42DA-A5DA-26BAD28C1E10}</string>
-				<key>display_name</key>
-				<string>Camera Profiles Installer</string>
-				<key>installed_size</key>
-				<integer>346649</integer>
-				<key>version</key>
-				<string>8.0</string>
-			</dict>
-			<dict>
-				<key>AdobeCode</key>
-				<string>{84545E79-3A2E-4CA4-A85C-482B178815B4}</string>
-				<key>display_name</key>
-				<string>Adobe Mini Bridge 3</string>
-				<key>installed_size</key>
-				<integer>3793</integer>
-				<key>version</key>
-				<string>3</string>
-			</dict>
-			<dict>
-				<key>AdobeCode</key>
-				<string>{D43DABB8-FFA0-458B-B98E-2733A61DF576}</string>
-				<key>display_name</key>
-				<string>Adobe SwitchBoard 3</string>
-				<key>installed_size</key>
-				<integer>0</integer>
-				<key>version</key>
-				<string>3</string>
-			</dict>
-			<dict>
-				<key>AdobeCode</key>
-				<string>{6E6ECFC9-FE3D-4314-B937-7E25A7862899}</string>
-				<key>display_name</key>
-				<string>Adobe Player for Embedding 3.4</string>
-				<key>installed_size</key>
-				<integer>64008</integer>
-				<key>version</key>
-				<string>3.4</string>
-			</dict>
-			<dict>
-				<key>AdobeCode</key>
-				<string>{3E7FC757-D497-4C89-A935-7D38E2164E85}</string>
-				<key>display_name</key>
-				<string>Photoshop Camera Raw 8</string>
-				<key>installed_size</key>
-				<integer>46949</integer>
-				<key>version</key>
-				<string>8.0</string>
-			</dict>
-			<dict>
-				<key>AdobeCode</key>
-				<string>{56DCC6F4-322E-42DA-A5DA-26BAD28C1E10}</string>
-				<key>display_name</key>
-				<string>Camera Profiles Installer</string>
-				<key>installed_size</key>
-				<integer>346649</integer>
-				<key>version</key>
-				<string>8.0</string>
-			</dict>
-			<dict>
-				<key>AdobeCode</key>
-				<string>{C4196275-B11A-40A1-8727-3C145C8F7D95}</string>
-				<key>display_name</key>
-				<string>AdobeColorCommonSetCMYK</string>
-				<key>installed_size</key>
-				<integer>0</integer>
-				<key>version</key>
-				<string>5.0</string>
-			</dict>
-			<dict>
-				<key>AdobeCode</key>
-				<string>{C8DEBB29-3EB0-4B97-B652-4DE482B111BC}</string>
-				<key>display_name</key>
-				<string>AdobeColorCommonSetRGB</string>
-				<key>installed_size</key>
-				<integer>0</integer>
-				<key>version</key>
-				<string>5.0</string>
-			</dict>
-			<dict>
-				<key>AdobeCode</key>
-				<string>{F6DED2DA-1D20-497E-8810-E745B45DCD28}</string>
-				<key>display_name</key>
-				<string>Adobe Color EU Extra Settings CC</string>
-				<key>installed_size</key>
-				<integer>1976</integer>
-				<key>version</key>
-				<string>5.0</string>
-			</dict>
-			<dict>
-				<key>AdobeCode</key>
-				<string>{A032EB9D-B6EB-45BF-9F15-83B0755DC9AB}</string>
-				<key>display_name</key>
-				<string>Adobe Color JA Extra Settings CC</string>
-				<key>installed_size</key>
-				<integer>2799</integer>
-				<key>version</key>
-				<string>5.0</string>
-			</dict>
-			<dict>
-				<key>AdobeCode</key>
-				<string>{AB955DCF-69CD-4840-B7FB-F318CDD0AE44}</string>
-				<key>display_name</key>
-				<string>Adobe Color NA Recommended Settings CC</string>
-				<key>installed_size</key>
-				<integer>2333</integer>
-				<key>version</key>
-				<string>5.0</string>
-			</dict>
-			<dict>
-				<key>AdobeCode</key>
-				<string>{5C5D62C9-91C6-415E-857E-9130C0F52C66}</string>
-				<key>display_name</key>
-				<string>Adobe Color - Photoshop Specific CC</string>
-				<key>installed_size</key>
-				<integer>0</integer>
-				<key>version</key>
-				<string>5.0</string>
-			</dict>
-			<dict>
-				<key>AdobeCode</key>
-				<string>{7C25E7A0-A0A1-4B87-BB30-BF0FBDC37878}</string>
-				<key>display_name</key>
-				<string>Adobe Photoshop CC 2014</string>
-				<key>installed_size</key>
-				<integer>66</integer>
-				<key>version</key>
-				<string>15.0</string>
-			</dict>
-			<dict>
-				<key>AdobeCode</key>
-				<string>{3F12BA0E-72C1-4862-A9E4-D7EC00C066CB}</string>
-				<key>display_name</key>
-				<string>Adobe Photoshop CC 2014 English Language Pack</string>
-				<key>installed_size</key>
-				<integer>260</integer>
-				<key>version</key>
-				<string>15.0</string>
-			</dict>
-			<dict>
-				<key>AdobeCode</key>
-				<string>{18C53590-8A4E-44FF-B13D-74CB92FD6801}</string>
-				<key>display_name</key>
-				<string>Adobe Photoshop CC 2014 Support</string>
-				<key>installed_size</key>
-				<integer>1078</integer>
-				<key>version</key>
-				<string>15.0</string>
-			</dict>
-			<dict>
-				<key>AdobeCode</key>
-				<string>{CE9B1B00-0421-4701-9698-1C14646D6D94}</string>
-				<key>display_name</key>
-				<string>Adobe Color Video Profiles CS CC</string>
-				<key>installed_size</key>
-				<integer>0</integer>
-				<key>version</key>
-				<string>5.0</string>
-			</dict>
-		</array>
-		<key>uninstallable</key>
-		<false/>
-		<key>version</key>
-		<string>15.0</string>
-	</dict>
-	<dict>
 		<key>autoremove</key>
 		<false/>
 		<key>catalogs</key>
@@ -7220,6 +6588,76 @@ exit 0
 		<true/>
 		<key>version</key>
 		<string>3.6.4</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>testing</string>
+		</array>
+		<key>category</key>
+		<string>System</string>
+		<key>description</key>
+		<string>CrashPlan is is the recommended desktop/laptop backup solution for desktops and laptops for the MIT Community.</string>
+		<key>developer</key>
+		<string>Code42</string>
+		<key>display_name</key>
+		<string>CrashPlan PROe</string>
+		<key>installed_size</key>
+		<integer>115696</integer>
+		<key>installer_item_location</key>
+		<string>apps/Code42/CrashPlanPROe_Mac-3.7.0.dmg</string>
+		<key>installer_item_size</key>
+		<integer>65019</integer>
+		<key>installs</key>
+		<array>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>com.backup42.desktop</string>
+				<key>CFBundleName</key>
+				<string>CrashPlan</string>
+				<key>CFBundleShortVersionString</key>
+				<string>3.7.0</string>
+				<key>CFBundleVersion</key>
+				<string>3.7.0</string>
+				<key>path</key>
+				<string>/Applications/CrashPlan.app</string>
+				<key>type</key>
+				<string>application</string>
+				<key>version_comparison_key</key>
+				<string>CFBundleShortVersionString</string>
+			</dict>
+		</array>
+		<key>minimum_os_version</key>
+		<string>10.5.0</string>
+		<key>name</key>
+		<string>CrashPlanPROe</string>
+		<key>receipts</key>
+		<array>
+			<dict>
+				<key>installed_size</key>
+				<integer>0</integer>
+				<key>packageid</key>
+				<string>com.crashplan.runasuser.pkg</string>
+				<key>version</key>
+				<string>1</string>
+			</dict>
+			<dict>
+				<key>installed_size</key>
+				<integer>115696</integer>
+				<key>packageid</key>
+				<string>com.crashplan.app.pkg</string>
+				<key>version</key>
+				<string>1</string>
+			</dict>
+		</array>
+		<key>uninstall_method</key>
+		<string>removepackages</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>3.7.0</string>
 	</dict>
 	<dict>
 		<key>autoremove</key>
