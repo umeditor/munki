@@ -15,13 +15,13 @@
   </array>
   <key>managed_installs</key>
   <array>
-    <string>VMwareFusion</string>
   </array>
   <key>managed_uninstalls</key>
   <array>
   </array>
   <key>optional_installs</key>
   <array>
+    <string>VMwareFusion</string>
   </array>
 </dict>
 </plist>
