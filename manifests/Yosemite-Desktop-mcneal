@@ -22,6 +22,7 @@
   <key>optional_installs</key>
   <array>
     <string>VMwareFusion</string>
+    <string>CitrixReceiver</string>
   </array>
 </dict>
 </plist>
