@@ -18005,8 +18005,12 @@ fi
 		<array>
 			<string>production</string>
 		</array>
+		<key>category</key>
+		<string>Internet Plugin</string>
 		<key>description</key>
 		<string>Access your content from any device with Citrix Receiver, the enterprise mobility solution that delivers a high def experience simply and securely.</string>
+		<key>developer</key>
+		<string>Citrix Systems, Inc.</string>
 		<key>display_name</key>
 		<string>Citrix Receiver</string>
 		<key>installed_size</key>
