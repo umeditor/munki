@@ -95,5 +95,9 @@
 	<true/>
 	<key>version</key>
 	<string>11.9.0</string>
+	<key>category</key>
+	<string>Internet Plugin</string>
+	<key>developer</key>
+	<string>Citrix Systems, Inc.</string>
 </dict>
 </plist>
