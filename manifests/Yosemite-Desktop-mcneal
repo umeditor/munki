@@ -23,6 +23,7 @@
   <array>
     <string>VMwareFusion</string>
     <string>CitrixReceiver</string>
+    <string>GoogleDrive</string>
   </array>
 </dict>
 </plist>
