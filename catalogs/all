@@ -449,7 +449,9 @@
 		<key>autoremove</key>
 		<false/>
 		<key>catalogs</key>
-		<array/>
+		<array>
+			<string>production</string>
+		</array>
 		<key>category</key>
 		<string>Security</string>
 		<key>description</key>
@@ -1702,7 +1704,9 @@ exit 0
 		<key>autoremove</key>
 		<false/>
 		<key>catalogs</key>
-		<array/>
+		<array>
+			<string>production</string>
+		</array>
 		<key>category</key>
 		<string>Text Editors</string>
 		<key>description</key>
@@ -1818,7 +1822,9 @@ exit 0
 		<key>autoremove</key>
 		<false/>
 		<key>catalogs</key>
-		<array/>
+		<array>
+			<string>production</string>
+		</array>
 		<key>category</key>
 		<string>Text Editors</string>
 		<key>description</key>
@@ -9659,7 +9665,9 @@ fi
 		<key>autoremove</key>
 		<false/>
 		<key>catalogs</key>
-		<array/>
+		<array>
+			<string>production</string>
+		</array>
 		<key>category</key>
 		<string>File Sharing</string>
 		<key>description</key>
@@ -17167,7 +17175,9 @@ rm '/Library/PrivilegedHelperTools/Google Drive Icon Helper'
 		<key>autoremove</key>
 		<false/>
 		<key>catalogs</key>
-		<array/>
+		<array>
+			<string>production</string>
+		</array>
 		<key>category</key>
 		<string>Developer</string>
 		<key>description</key>
@@ -17453,7 +17463,9 @@ rm '/Library/PrivilegedHelperTools/Google Drive Icon Helper'
 			<string>Layout.app</string>
 		</array>
 		<key>catalogs</key>
-		<array/>
+		<array>
+			<string>production</string>
+		</array>
 		<key>description</key>
 		<string>SketchUp Pro is the most intuitive way to design, document and communicate your ideas in 3D. http://www.sketchup.com/products/sketchup-pro</string>
 		<key>display_name</key>
@@ -17792,7 +17804,9 @@ rm '/Library/PrivilegedHelperTools/Google Drive Icon Helper'
 		<key>autoremove</key>
 		<false/>
 		<key>catalogs</key>
-		<array/>
+		<array>
+			<string>production</string>
+		</array>
 		<key>category</key>
 		<string>Utility</string>
 		<key>description</key>

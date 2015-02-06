@@ -17,6 +17,7 @@
 	<false/>
 	<key>catalogs</key>
 	<array>
+		<string>production</string>
 	</array>
 	<key>category</key>
 	<string>Text Editors</string>
