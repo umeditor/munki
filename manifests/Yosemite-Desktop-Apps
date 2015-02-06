@@ -26,6 +26,9 @@
     <string>Office2011</string>
     <string>Silverlight</string>
     <string>Skype</string>
+    <string>Spotify</string>
+    <string>CitrixReceiver</string>
+    <string>GoogleDrive</string>
   </array>
 </dict>
 </plist>
