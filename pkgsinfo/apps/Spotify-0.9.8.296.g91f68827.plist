@@ -23,6 +23,10 @@
 	<string>Spotify is a music streaming service offering unlimited streaming of selected music from a range of major and independent record labels.</string>
 	<key>display_name</key>
 	<string>Spotify</string>
+	<key>category</key>
+	<string>Music</string>
+	<key>developer</key>
+	<string>Spotify</string>
 	<key>installer_item_hash</key>
 	<string>89859f5a6b19ad3c9f0cd069b897674651a2f811ece20e69a4dd817d3cc40260</string>
 	<key>installer_item_location</key>

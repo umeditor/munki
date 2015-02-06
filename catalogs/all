@@ -5466,8 +5466,12 @@ exit 0
 		<array>
 			<string>production</string>
 		</array>
+		<key>category</key>
+		<string>Music</string>
 		<key>description</key>
 		<string>Spotify is a music streaming service offering unlimited streaming of selected music from a range of major and independent record labels.</string>
+		<key>developer</key>
+		<string>Spotify</string>
 		<key>display_name</key>
 		<string>Spotify</string>
 		<key>installer_item_hash</key>
