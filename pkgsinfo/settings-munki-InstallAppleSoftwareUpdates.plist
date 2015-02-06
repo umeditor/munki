@@ -10,7 +10,6 @@
 	<string>Configure Munki to install Apple software updates.</string>
 	<key>catalogs</key>
 	<array>
-		<string>testing</string>
 		<string>production</string>
 	</array>
 	<key>installcheck_script</key>

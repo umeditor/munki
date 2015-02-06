@@ -17,7 +17,6 @@
 	<false/>
 	<key>catalogs</key>
 	<array>
-		<string>testing</string>
 	</array>
 	<key>category</key>
 	<string>Utility</string>

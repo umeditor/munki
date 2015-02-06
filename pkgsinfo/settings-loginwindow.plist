@@ -10,7 +10,6 @@
 	<string>Configure login windows to display name and password fields.</string>
 	<key>catalogs</key>
 	<array>
-		<string>testing</string>
 		<string>production</string>
 	</array>
 	<key>installcheck_script</key>
