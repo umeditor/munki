@@ -29,6 +29,7 @@
     <string>Spotify</string>
     <string>CitrixReceiver</string>
     <string>GoogleDrive</string>
+    <string>VMwareFusion</string>
   </array>
 </dict>
 </plist>
