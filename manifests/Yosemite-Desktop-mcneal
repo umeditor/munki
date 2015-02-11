@@ -21,9 +21,7 @@
   </array>
   <key>optional_installs</key>
   <array>
-    <string>VMwareFusion</string>
-    <string>CitrixReceiver</string>
-    <string>GoogleDrive</string>
+
   </array>
 </dict>
 </plist>
