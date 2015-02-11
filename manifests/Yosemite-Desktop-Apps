@@ -30,6 +30,7 @@
     <string>CitrixReceiver</string>
     <string>GoogleDrive</string>
     <string>VMwareFusion</string>
+    <string>Atom</string>
   </array>
 </dict>
 </plist>
