@@ -31,6 +31,7 @@
     <string>GoogleDrive</string>
     <string>VMwareFusion</string>
     <string>Atom</string>
+    <string>Thunderbird</string>
   </array>
 </dict>
 </plist>
