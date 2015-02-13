@@ -19,7 +19,7 @@
 	<false/>
 	<key>catalogs</key>
 	<array>
-		<string>testing</string>
+		<string>production</string>
 	</array>
 	<key>description</key>
 	<string>CertAid 2.x manages the entire certificate setup procedure for Safari and Google Chrome browsers on Mac OS X 10.7 and up, giving users a more reliable installation experience.
