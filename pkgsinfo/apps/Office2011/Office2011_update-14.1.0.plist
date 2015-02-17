@@ -7,7 +7,7 @@
 		<key>created_by</key>
 		<string>mcneal</string>
 		<key>creation_date</key>
-		<date>2015-02-17T17:14:28Z</date>
+		<date>2015-02-17T17:30:59Z</date>
 		<key>munki_version</key>
 		<string>2.2.0.2399</string>
 		<key>os_version</key>
@@ -721,8 +721,6 @@
 			<string>14.1.0</string>
 		</dict>
 	</array>
-	<key>requires</key>
-	<array/>
 	<key>uninstall_method</key>
 	<string>removepackages</string>
 	<key>uninstallable</key>

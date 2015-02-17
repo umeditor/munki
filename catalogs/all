@@ -11611,8 +11611,6 @@ rm '/Library/PrivilegedHelperTools/Google Drive Icon Helper'
 				<string>14.1.0</string>
 			</dict>
 		</array>
-		<key>requires</key>
-		<array/>
 		<key>uninstall_method</key>
 		<string>removepackages</string>
 		<key>uninstallable</key>
