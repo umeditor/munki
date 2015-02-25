@@ -2415,6 +2415,124 @@ exit 0
 		<array>
 			<string>production</string>
 		</array>
+		<key>category</key>
+		<string>Text Editors</string>
+		<key>description</key>
+		<string>A hackable text editor for the 21st Century</string>
+		<key>developer</key>
+		<string>GitHub, Inc.</string>
+		<key>display_name</key>
+		<string>Atom</string>
+		<key>installer_item_hash</key>
+		<string>fb5478427a67b7489789f108000d5fd96e0495418e096268b5e53c550d829de1</string>
+		<key>installer_item_location</key>
+		<string>apps/Atom-0.182.0.dmg</string>
+		<key>installer_item_size</key>
+		<integer>73218</integer>
+		<key>installer_type</key>
+		<string>copy_from_dmg</string>
+		<key>installs</key>
+		<array>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>com.github.atom</string>
+				<key>CFBundleName</key>
+				<string>Atom</string>
+				<key>CFBundleShortVersionString</key>
+				<string>0.182.0</string>
+				<key>CFBundleVersion</key>
+				<string>0.182.0</string>
+				<key>minosversion</key>
+				<string>10.8</string>
+				<key>path</key>
+				<string>/Applications/Atom.app</string>
+				<key>type</key>
+				<string>application</string>
+				<key>version_comparison_key</key>
+				<string>CFBundleShortVersionString</string>
+			</dict>
+		</array>
+		<key>items_to_copy</key>
+		<array>
+			<dict>
+				<key>destination_path</key>
+				<string>/Applications</string>
+				<key>source_item</key>
+				<string>Atom.app</string>
+			</dict>
+		</array>
+		<key>minimum_os_version</key>
+		<string>10.8</string>
+		<key>name</key>
+		<string>Atom</string>
+		<key>postinstall_script</key>
+		<string>#!/bin/sh
+
+# Simulate the "Atom -&gt; Install Shell Commands"
+
+# /usr/local/bin/atom
+ATOM_SOURCE="/Applications/Atom.app/Contents/Resources/app/atom.sh"
+ATOM_TARGET="/usr/local/bin/atom"
+if [[ -f "${ATOM_SOURCE}" ]]; then
+    echo "Creating symbolic link ${ATOM_SOURCE} -&gt; ${ATOM_TARGET}"
+    /bin/ln -s "${ATOM_SOURCE}" "${ATOM_TARGET}"
+else
+    echo "${ATOM_SOURCE} doesn't exist..."
+fi
+
+# /usr/local/bin/apm
+APM_SOURCE="/Applications/Atom.app/Contents/Resources/app/apm/node_modules/.bin/apm"
+APM_TARGET="/usr/local/bin/apm"
+if [[ -f "${APM_SOURCE}" ]]; then
+    echo "Creating symbolic link ${APM_SOURCE} -&gt; ${APM_TARGET}"
+    /bin/ln -s "${APM_SOURCE}" "${APM_TARGET}"
+else
+    echo "${APM_SOURCE} doesn't exist..."
+fi
+
+exit 0
+</string>
+		<key>postuninstall_script</key>
+		<string>#!/bin/sh
+
+# /usr/local/bin/atom
+ATOM="/usr/local/bin/atom"
+if [[ -L "${ATOM}" ]]; then
+    echo "Removing ${ATOM}"
+    /bin/rm -f "${ATOM}"
+else
+    echo "${ATOM} doesn't exist..."
+fi
+
+# /usr/local/bin/apm
+APM="/usr/local/bin/apm"
+if [[ -L "${APM}" ]]; then
+    echo "Removing ${APM}"
+    /bin/rm -f "${APM}"
+else
+    echo "${APM} doesn't exist..."
+fi
+
+exit 0
+</string>
+		<key>unattended_install</key>
+		<true/>
+		<key>unattended_uninstall</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>remove_copied_items</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>0.182.0</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>production</string>
+		</array>
 		<key>description</key>
 		<string>With an easy to use interface, connect to FTP, SFTP, WebDAV, Amazon S3, Google Storage, Windows Azure, Rackspace Cloud Files and even Google Docs.</string>
 		<key>display_name</key>
@@ -2907,6 +3025,72 @@ exit 0
 		<true/>
 		<key>version</key>
 		<string>4.6.4</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>production</string>
+		</array>
+		<key>category</key>
+		<string>Utilities</string>
+		<key>description</key>
+		<string>With an easy to use interface, connect to FTP, SFTP, WebDAV, Amazon S3, Google Storage, Windows Azure, Rackspace Cloud Files and even Google Docs.</string>
+		<key>developer</key>
+		<string>David V. Kocher and Yves Langisch</string>
+		<key>display_name</key>
+		<string>Cyberduck</string>
+		<key>installer_item_hash</key>
+		<string>e575d6c0fa64741ce18637a75b35d6fc1fc3db38313e2ba6a008a1108ea082fd</string>
+		<key>installer_item_location</key>
+		<string>apps/Cyberduck-4.6.5.dmg</string>
+		<key>installer_item_size</key>
+		<integer>59302</integer>
+		<key>installer_type</key>
+		<string>copy_from_dmg</string>
+		<key>installs</key>
+		<array>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>ch.sudo.cyberduck</string>
+				<key>CFBundleName</key>
+				<string>Cyberduck</string>
+				<key>CFBundleShortVersionString</key>
+				<string>4.6.5</string>
+				<key>CFBundleVersion</key>
+				<string>17000</string>
+				<key>minosversion</key>
+				<string>10.6</string>
+				<key>path</key>
+				<string>/Applications/Cyberduck.app</string>
+				<key>type</key>
+				<string>application</string>
+				<key>version_comparison_key</key>
+				<string>CFBundleShortVersionString</string>
+			</dict>
+		</array>
+		<key>items_to_copy</key>
+		<array>
+			<dict>
+				<key>destination_path</key>
+				<string>/Applications</string>
+				<key>source_item</key>
+				<string>Cyberduck.app</string>
+			</dict>
+		</array>
+		<key>minimum_os_version</key>
+		<string>10.6</string>
+		<key>name</key>
+		<string>Cyberduck</string>
+		<key>unattended_install</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>remove_copied_items</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>4.6.5</string>
 	</dict>
 	<dict>
 		<key>autoremove</key>
@@ -5516,6 +5700,66 @@ exit 0
 		<true/>
 		<key>version</key>
 		<string>7.2.0.412</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>production</string>
+		</array>
+		<key>description</key>
+		<string>Calling, seeing, messaging and sharing with others – wherever they are.</string>
+		<key>display_name</key>
+		<string>Skype</string>
+		<key>installer_item_hash</key>
+		<string>162dfbe1f67ffc93f4ba9258e646881b89fa088321a3f007ca7640caa4990199</string>
+		<key>installer_item_location</key>
+		<string>apps/Skype-7.5.0.738.dmg</string>
+		<key>installer_item_size</key>
+		<integer>39019</integer>
+		<key>installer_type</key>
+		<string>copy_from_dmg</string>
+		<key>installs</key>
+		<array>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>com.skype.skype</string>
+				<key>CFBundleShortVersionString</key>
+				<string>7.5</string>
+				<key>CFBundleVersion</key>
+				<string>7.5.0.738</string>
+				<key>minosversion</key>
+				<string>10.9</string>
+				<key>path</key>
+				<string>/Applications/Skype.app</string>
+				<key>type</key>
+				<string>application</string>
+				<key>version_comparison_key</key>
+				<string>CFBundleVersion</string>
+			</dict>
+		</array>
+		<key>items_to_copy</key>
+		<array>
+			<dict>
+				<key>destination_path</key>
+				<string>/Applications</string>
+				<key>source_item</key>
+				<string>Skype.app</string>
+			</dict>
+		</array>
+		<key>minimum_os_version</key>
+		<string>10.9</string>
+		<key>name</key>
+		<string>Skype</string>
+		<key>unattended_install</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>remove_copied_items</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>7.5.0.738</string>
 	</dict>
 	<dict>
 		<key>autoremove</key>
@@ -10353,6 +10597,72 @@ fi
 		<true/>
 		<key>version</key>
 		<string>35.0</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>production</string>
+		</array>
+		<key>category</key>
+		<string>Internet</string>
+		<key>description</key>
+		<string>Mozilla Firefox is a free and open source web browser.</string>
+		<key>developer</key>
+		<string>Mozilla</string>
+		<key>display_name</key>
+		<string>Mozilla Firefox</string>
+		<key>installer_item_hash</key>
+		<string>97ccc2f03a8af73903b0cae61e17a7b9f336fe320592380f1c811dbc3b0e9e5a</string>
+		<key>installer_item_location</key>
+		<string>apps/firefox/Firefox-36.0.dmg</string>
+		<key>installer_item_size</key>
+		<integer>72980</integer>
+		<key>installer_type</key>
+		<string>copy_from_dmg</string>
+		<key>installs</key>
+		<array>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>org.mozilla.firefox</string>
+				<key>CFBundleName</key>
+				<string>Firefox</string>
+				<key>CFBundleShortVersionString</key>
+				<string>36.0</string>
+				<key>CFBundleVersion</key>
+				<string>3615.2.22</string>
+				<key>minosversion</key>
+				<string>10.6</string>
+				<key>path</key>
+				<string>/Applications/Firefox.app</string>
+				<key>type</key>
+				<string>application</string>
+				<key>version_comparison_key</key>
+				<string>CFBundleShortVersionString</string>
+			</dict>
+		</array>
+		<key>items_to_copy</key>
+		<array>
+			<dict>
+				<key>destination_path</key>
+				<string>/Applications</string>
+				<key>source_item</key>
+				<string>Firefox.app</string>
+			</dict>
+		</array>
+		<key>minimum_os_version</key>
+		<string>10.6</string>
+		<key>name</key>
+		<string>Firefox</string>
+		<key>unattended_install</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>remove_copied_items</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>36.0</string>
 	</dict>
 	<dict>
 		<key>autoremove</key>
