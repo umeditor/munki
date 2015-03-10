@@ -21170,7 +21170,7 @@ rm '/Library/PrivilegedHelperTools/Google Drive Icon Helper'
 			<string>production</string>
 		</array>
 		<key>category</key>
-		<string>Utility</string>
+		<string>Utilities</string>
 		<key>description</key>
 		<string>VMware Fusion is a desktop application that lets you create and run virtual machines on your Intel-based Macintosh.</string>
 		<key>developer</key>
