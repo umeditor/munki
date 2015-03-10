@@ -32,6 +32,10 @@
     <string>VMwareFusion</string>
     <string>Atom</string>
     <string>Thunderbird</string>
+    <string>AutoPkgr</string>
+    <string>Evernote</string>
+    <string>TextMate2</string>
+    <string>GoogleEarth</string>
   </array>
 </dict>
 </plist>
