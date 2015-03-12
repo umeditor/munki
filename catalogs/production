@@ -1599,66 +1599,6 @@ exit 0
 			<string>production</string>
 		</array>
 		<key>description</key>
-		<string>Xcode is Apple's powerful integrated development environment for creating apps for Mac, iPhone, and iPad. Xcode includes the Instruments analysis tool, iOS Simulator, and the latest SDKs for iOS and OS X.</string>
-		<key>display_name</key>
-		<string>Xcode</string>
-		<key>installer_item_hash</key>
-		<string>07c454db2e7b09c7607df33b2d1d7cd3b04cdd9dfcbf9719db0bd0b0e310b69f</string>
-		<key>installer_item_location</key>
-		<string>xcode4630916281a-4.6.3.dmg</string>
-		<key>installer_item_size</key>
-		<integer>1683414</integer>
-		<key>installer_type</key>
-		<string>copy_from_dmg</string>
-		<key>installs</key>
-		<array>
-			<dict>
-				<key>CFBundleIdentifier</key>
-				<string>com.apple.dt.Xcode</string>
-				<key>CFBundleName</key>
-				<string>Xcode</string>
-				<key>CFBundleShortVersionString</key>
-				<string>4.6.3</string>
-				<key>CFBundleVersion</key>
-				<string>2068</string>
-				<key>minosversion</key>
-				<string>10.7.4</string>
-				<key>path</key>
-				<string>/Applications/Xcode.app</string>
-				<key>type</key>
-				<string>application</string>
-				<key>version_comparison_key</key>
-				<string>CFBundleShortVersionString</string>
-			</dict>
-		</array>
-		<key>items_to_copy</key>
-		<array>
-			<dict>
-				<key>destination_path</key>
-				<string>/Applications</string>
-				<key>source_item</key>
-				<string>Xcode.app</string>
-			</dict>
-		</array>
-		<key>minimum_os_version</key>
-		<string>10.7.4</string>
-		<key>name</key>
-		<string>Xcode</string>
-		<key>uninstall_method</key>
-		<string>remove_copied_items</string>
-		<key>uninstallable</key>
-		<true/>
-		<key>version</key>
-		<string>4.6.3</string>
-	</dict>
-	<dict>
-		<key>autoremove</key>
-		<false/>
-		<key>catalogs</key>
-		<array>
-			<string>production</string>
-		</array>
-		<key>description</key>
 		<string>This package enables UNIX-style development via Terminal by installing command line developer tools, as well as Mac OS X SDK frameworks and headers. Many useful tools are included, such as the Apple LLVM compiler, linker, and Make.</string>
 		<key>display_name</key>
 		<string>Xcode Commeand Line Tools</string>
@@ -8144,6 +8084,49 @@ exit 0
 			<string>production</string>
 		</array>
 		<key>description</key>
+		<string>The Adobe AIR runtime enables developers to package the same code into native applications and games for Windows and Mac OS desktops as well as iOS and Android devices, reaching over a billion desktop systems and mobile app stores for over 500 million devices.</string>
+		<key>display_name</key>
+		<string>Adobe AIR</string>
+		<key>installed_size</key>
+		<integer>119783</integer>
+		<key>installer_item_hash</key>
+		<string>595c250477f50a4e5a835584bc902baf842d330905f5ae9817ee43267874104d</string>
+		<key>installer_item_location</key>
+		<string>apps/adobe/AdobeAIR-17.0.0.124.pkg</string>
+		<key>installer_item_size</key>
+		<integer>52884</integer>
+		<key>minimum_os_version</key>
+		<string>10.5.0</string>
+		<key>name</key>
+		<string>AdobeAIR</string>
+		<key>receipts</key>
+		<array>
+			<dict>
+				<key>installed_size</key>
+				<integer>119783</integer>
+				<key>packageid</key>
+				<string>com.adobe.pkg.AIR</string>
+				<key>version</key>
+				<string>17.0.0.124</string>
+			</dict>
+		</array>
+		<key>unattended_install</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>removepackages</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>17.0.0.124</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>production</string>
+		</array>
+		<key>description</key>
 		<string>iPhoto lets you do more than you ever thought possible with your photos, with easy ways to find, sort, and rediscover your favorite shots. Simple but powerful editing tools let you turn good photos into magnificent ones. Share directly to Facebook, Flickr, Twitter, and Messages. iPhoto also works with iCloud, so the photos you take on your iOS devices automatically appear in iPhoto, and you can share selected photos and videos with family and friends using iCloud Photo Sharing. You can even create professional-quality photo books, calendars and letterpress cards quickly and easily.</string>
 		<key>display_name</key>
 		<string>iPhoto</string>
@@ -10511,6 +10494,72 @@ fi
 		<true/>
 		<key>version</key>
 		<string>6.0.6</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>production</string>
+		</array>
+		<key>category</key>
+		<string>Productivity</string>
+		<key>description</key>
+		<string>Evernote makes it easy to remember things big and small from your everyday life using your computer, phone, tablet and the web.</string>
+		<key>developer</key>
+		<string>Evernote Corporation</string>
+		<key>display_name</key>
+		<string>Evernote</string>
+		<key>installer_item_hash</key>
+		<string>a345ca067a865e48810fb4ae6a2daa95292755105715cab90a34b9b4a20d9c3d</string>
+		<key>installer_item_location</key>
+		<string>apps/Evernote/Evernote-6.0.7.dmg</string>
+		<key>installer_item_size</key>
+		<integer>68141</integer>
+		<key>installer_type</key>
+		<string>copy_from_dmg</string>
+		<key>installs</key>
+		<array>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>com.evernote.Evernote</string>
+				<key>CFBundleName</key>
+				<string>Evernote</string>
+				<key>CFBundleShortVersionString</key>
+				<string>6.0.7</string>
+				<key>CFBundleVersion</key>
+				<string>451372</string>
+				<key>minosversion</key>
+				<string>10.7.5</string>
+				<key>path</key>
+				<string>/Applications/Evernote.app</string>
+				<key>type</key>
+				<string>application</string>
+				<key>version_comparison_key</key>
+				<string>CFBundleShortVersionString</string>
+			</dict>
+		</array>
+		<key>items_to_copy</key>
+		<array>
+			<dict>
+				<key>destination_path</key>
+				<string>/Applications</string>
+				<key>source_item</key>
+				<string>Evernote.app</string>
+			</dict>
+		</array>
+		<key>minimum_os_version</key>
+		<string>10.7.5</string>
+		<key>name</key>
+		<string>Evernote</string>
+		<key>unattended_install</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>remove_copied_items</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>6.0.7</string>
 	</dict>
 	<dict>
 		<key>autoremove</key>
@@ -22245,6 +22294,55 @@ rm '/Library/PrivilegedHelperTools/Google Drive Icon Helper'
 		<true/>
 		<key>version</key>
 		<string>16.0.0.305</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>production</string>
+		</array>
+		<key>category</key>
+		<string>Internet Plugin</string>
+		<key>description</key>
+		<string>Adobe® Flash® Player is a cross-platform browser-based application runtime that delivers uncompromised viewing of expressive applications, content, and videos across screens and browsers.</string>
+		<key>developer</key>
+		<string>Adobe</string>
+		<key>display_name</key>
+		<string>Adobe Flash Player</string>
+		<key>installed_size</key>
+		<integer>16092</integer>
+		<key>installer_item_hash</key>
+		<string>9e60b4c0ed492c2e77d674f84e402f2f8e0777fc43fd31a273d6b682cc16bdbe</string>
+		<key>installer_item_location</key>
+		<string>internet_plugins/AdobeFlashPlayer-17.0.0.134.dmg</string>
+		<key>installer_item_size</key>
+		<integer>15291</integer>
+		<key>minimum_os_version</key>
+		<string>10.5.0</string>
+		<key>name</key>
+		<string>AdobeFlashPlayer</string>
+		<key>package_path</key>
+		<string>Install Adobe Flash Player.app/Contents/Resources/Adobe Flash Player.pkg</string>
+		<key>receipts</key>
+		<array>
+			<dict>
+				<key>installed_size</key>
+				<integer>16092</integer>
+				<key>packageid</key>
+				<string>com.adobe.pkg.FlashPlayer</string>
+				<key>version</key>
+				<string>17.0.0.134</string>
+			</dict>
+		</array>
+		<key>unattended_install</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>removepackages</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>17.0.0.134</string>
 	</dict>
 	<dict>
 		<key>autoremove</key>
