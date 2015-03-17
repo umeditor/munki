@@ -27629,6 +27629,46 @@ defaults write /Library/Preferences/com.apple.loginwindow SHOWFULLNAME -bool tru
 		<false/>
 		<key>catalogs</key>
 		<array>
+			<string>production</string>
+		</array>
+		<key>installcheck_script</key>
+		<string>#!/bin/sh
+
+# Grab current value
+value="$(defaults read /Library/Preferences/ManagedInstalls.plist SoftwareRepoURL 2&gt;/dev/null
+)" || values="MISSING"
+
+# Compare with the value we want
+if [ ${value:-0} = "https://munki.povertyactionlab.org" ]; then
+	# Setting is correct
+	exit 1
+else
+	# Setting is not correct
+	exit 0
+fi
+	</string>
+		<key>installer_type</key>
+		<string>nopkg</string>
+		<key>minimum_os_version</key>
+		<string>10.10.0</string>
+		<key>name</key>
+		<string>SetMunkiServer</string>
+		<key>preinstall_script</key>
+		<string>#!/bin/sh
+
+defaults write /Library/Preferences/ManagedInstalls.plist SoftwareRepoURL "https://munki.povertyactionlab.org"
+defaults write /Library/Preferences/ManagedInstalls.plist IconURL "https://munki.povertyactionlab.org"
+	</string>
+		<key>unattended_uninstall</key>
+		<true/>
+		<key>version</key>
+		<string>1.0.0</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
 			<string>testing</string>
 			<string>production</string>
 		</array>
