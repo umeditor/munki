@@ -20,7 +20,7 @@
     <string>munkitools</string>
     <string>munkitools_admin</string>
     <string>munkitools_launchd</string>
-    <string>MunkiSettings</string>
+    <string>SetMunkiServer</string>
   </array>
   <key>managed_uninstalls</key>
   <array>
