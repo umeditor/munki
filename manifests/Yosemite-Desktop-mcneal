@@ -15,7 +15,7 @@
   </array>
   <key>managed_installs</key>
   <array>
-    <string>MunkiSettings</string>
+    <string>SetMunkiServer</string>
   </array>
   <key>managed_uninstalls</key>
   <array>
