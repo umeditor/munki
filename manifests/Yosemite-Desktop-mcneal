@@ -14,8 +14,8 @@
     <string>Yosemite-Desktop-CrashPlan</string>
   </array>
   <key>managed_installs</key>
-    <string>MunkiSettings</string>
   <array>
+    <string>MunkiSettings</string>
   </array>
   <key>managed_uninstalls</key>
   <array>
