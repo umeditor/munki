@@ -27989,6 +27989,53 @@ defaults write /Library/Preferences/com.apple.loginwindow SHOWFULLNAME -bool tru
 		<key>catalogs</key>
 		<array>
 			<string>testing</string>
+		</array>
+		<key>category</key>
+		<string>System</string>
+		<key>description</key>
+		<string>Configure J-PAL Munki system.</string>
+		<key>developer</key>
+		<string>J-PAL</string>
+		<key>display_name</key>
+		<string>Munki Settings.</string>
+		<key>installed_size</key>
+		<integer>2</integer>
+		<key>installer_item_hash</key>
+		<string>53f918040c0354649d548d8054d3ded22ef8f1a005867419628ed5b1c3fb25fa</string>
+		<key>installer_item_location</key>
+		<string>settings/MunkiSettings-1.0.1.pkg</string>
+		<key>installer_item_size</key>
+		<integer>4</integer>
+		<key>minimum_os_version</key>
+		<string>10.5.0</string>
+		<key>name</key>
+		<string>MunkiSettings</string>
+		<key>receipts</key>
+		<array>
+			<dict>
+				<key>installed_size</key>
+				<integer>2</integer>
+				<key>packageid</key>
+				<string>org.povertyactionlab.MunkiSettings</string>
+				<key>version</key>
+				<string>1.0.1</string>
+			</dict>
+		</array>
+		<key>unattended_install</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>removepackages</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>1.0.1</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>testing</string>
 			<string>production</string>
 		</array>
 		<key>description</key>

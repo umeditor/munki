@@ -16,6 +16,7 @@
 		<string>munkitools_admin</string>
 		<string>munkitools_launchd</string>
 		<string>setting-munki-InstallAppleSoftwareUpdates</string>
+		<string>MunkiSettings</string>
 	</array>
 	<key>managed_uninstalls</key>
 	<array>
