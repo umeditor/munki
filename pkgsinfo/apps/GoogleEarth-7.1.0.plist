@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>_metadata</key>
+	<dict>
+		<key>created_by</key>
+		<string>mcneal</string>
+		<key>creation_date</key>
+		<date>2015-04-08T13:30:52Z</date>
+		<key>munki_version</key>
+		<string>2.2.0.2399</string>
+		<key>os_version</key>
+		<string>10.10.2</string>
+	</dict>
+	<key>autoremove</key>
+	<false/>
+	<key>catalogs</key>
+	<array>
+		<string>production</string>
+	</array>
+	<key>category</key>
+	<string>Mapping</string>
+	<key>description</key>
+	<string>Take a virtual journey to any location in the world. Explore 3D buildings, imagery, and terrain. Find cities, places and local businesses.</string>
+	<key>developer</key>
+	<string>Google</string>
+	<key>display_name</key>
+	<string>Google Earth</string>
+	<key>installed_size</key>
+	<integer>215356</integer>
+	<key>installer_item_hash</key>
+	<string>c33869615f5e1d8232178b8de57880cd0ffc6d9c3cbc1badbe5310498e84e35b</string>
+	<key>installer_item_location</key>
+	<string>apps/GoogleEarth-7.1.0.dmg</string>
+	<key>installer_item_size</key>
+	<integer>87040</integer>
+	<key>minimum_os_version</key>
+	<string>10.5.0</string>
+	<key>name</key>
+	<string>GoogleEarth</string>
+	<key>receipts</key>
+	<array>
+		<dict>
+			<key>installed_size</key>
+			<integer>105126</integer>
+			<key>packageid</key>
+			<string>com.Google.GoogleEarthPlus</string>
+			<key>version</key>
+			<string>7.1.0</string>
+		</dict>
+		<dict>
+			<key>installed_size</key>
+			<integer>110230</integer>
+			<key>packageid</key>
+			<string>com.Google.GoogleEarthPlugin.plugin</string>
+			<key>version</key>
+			<string>7.1.0</string>
+		</dict>
+	</array>
+	<key>unattended_install</key>
+	<true/>
+	<key>uninstall_method</key>
+	<string>removepackages</string>
+	<key>uninstallable</key>
+	<true/>
+	<key>version</key>
+	<string>7.1.0</string>
+</dict>
+</plist>
