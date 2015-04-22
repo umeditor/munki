@@ -3181,6 +3181,242 @@ exit 0
 		<array>
 			<string>production</string>
 		</array>
+		<key>category</key>
+		<string>Text Editors</string>
+		<key>description</key>
+		<string>A hackable text editor for the 21st Century</string>
+		<key>developer</key>
+		<string>GitHub, Inc.</string>
+		<key>display_name</key>
+		<string>Atom</string>
+		<key>installer_item_hash</key>
+		<string>939638801bd2e78694d633269a9dbb0d6355b04713e8154715c54fba84c0efb0</string>
+		<key>installer_item_location</key>
+		<string>apps/Atom-0.192.0.dmg</string>
+		<key>installer_item_size</key>
+		<integer>72730</integer>
+		<key>installer_type</key>
+		<string>copy_from_dmg</string>
+		<key>installs</key>
+		<array>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>com.github.atom</string>
+				<key>CFBundleName</key>
+				<string>Atom</string>
+				<key>CFBundleShortVersionString</key>
+				<string>0.192.0</string>
+				<key>CFBundleVersion</key>
+				<string>0.192.0</string>
+				<key>minosversion</key>
+				<string>10.8</string>
+				<key>path</key>
+				<string>/Applications/Atom.app</string>
+				<key>type</key>
+				<string>application</string>
+				<key>version_comparison_key</key>
+				<string>CFBundleShortVersionString</string>
+			</dict>
+		</array>
+		<key>items_to_copy</key>
+		<array>
+			<dict>
+				<key>destination_path</key>
+				<string>/Applications</string>
+				<key>source_item</key>
+				<string>Atom.app</string>
+			</dict>
+		</array>
+		<key>minimum_os_version</key>
+		<string>10.8</string>
+		<key>name</key>
+		<string>Atom</string>
+		<key>postinstall_script</key>
+		<string>#!/bin/sh
+
+# Simulate the "Atom -&gt; Install Shell Commands"
+
+# /usr/local/bin/atom
+ATOM_SOURCE="/Applications/Atom.app/Contents/Resources/app/atom.sh"
+ATOM_TARGET="/usr/local/bin/atom"
+if [[ -f "${ATOM_SOURCE}" ]]; then
+    echo "Creating symbolic link ${ATOM_SOURCE} -&gt; ${ATOM_TARGET}"
+    /bin/ln -s "${ATOM_SOURCE}" "${ATOM_TARGET}"
+else
+    echo "${ATOM_SOURCE} doesn't exist..."
+fi
+
+# /usr/local/bin/apm
+APM_SOURCE="/Applications/Atom.app/Contents/Resources/app/apm/node_modules/.bin/apm"
+APM_TARGET="/usr/local/bin/apm"
+if [[ -f "${APM_SOURCE}" ]]; then
+    echo "Creating symbolic link ${APM_SOURCE} -&gt; ${APM_TARGET}"
+    /bin/ln -s "${APM_SOURCE}" "${APM_TARGET}"
+else
+    echo "${APM_SOURCE} doesn't exist..."
+fi
+
+exit 0
+</string>
+		<key>postuninstall_script</key>
+		<string>#!/bin/sh
+
+# /usr/local/bin/atom
+ATOM="/usr/local/bin/atom"
+if [[ -L "${ATOM}" ]]; then
+    echo "Removing ${ATOM}"
+    /bin/rm -f "${ATOM}"
+else
+    echo "${ATOM} doesn't exist..."
+fi
+
+# /usr/local/bin/apm
+APM="/usr/local/bin/apm"
+if [[ -L "${APM}" ]]; then
+    echo "Removing ${APM}"
+    /bin/rm -f "${APM}"
+else
+    echo "${APM} doesn't exist..."
+fi
+
+exit 0
+</string>
+		<key>unattended_install</key>
+		<true/>
+		<key>unattended_uninstall</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>remove_copied_items</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>0.192.0</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>production</string>
+		</array>
+		<key>category</key>
+		<string>Text Editors</string>
+		<key>description</key>
+		<string>A hackable text editor for the 21st Century</string>
+		<key>developer</key>
+		<string>GitHub, Inc.</string>
+		<key>display_name</key>
+		<string>Atom</string>
+		<key>installer_item_hash</key>
+		<string>227fab1e8dc0aa2f57c3342b9514ba9d69890acfa0db937279cb8de0b200ef40</string>
+		<key>installer_item_location</key>
+		<string>apps/Atom-0.194.0.dmg</string>
+		<key>installer_item_size</key>
+		<integer>70353</integer>
+		<key>installer_type</key>
+		<string>copy_from_dmg</string>
+		<key>installs</key>
+		<array>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>com.github.atom</string>
+				<key>CFBundleName</key>
+				<string>Atom</string>
+				<key>CFBundleShortVersionString</key>
+				<string>0.194.0</string>
+				<key>CFBundleVersion</key>
+				<string>0.194.0</string>
+				<key>minosversion</key>
+				<string>10.8</string>
+				<key>path</key>
+				<string>/Applications/Atom.app</string>
+				<key>type</key>
+				<string>application</string>
+				<key>version_comparison_key</key>
+				<string>CFBundleShortVersionString</string>
+			</dict>
+		</array>
+		<key>items_to_copy</key>
+		<array>
+			<dict>
+				<key>destination_path</key>
+				<string>/Applications</string>
+				<key>source_item</key>
+				<string>Atom.app</string>
+			</dict>
+		</array>
+		<key>minimum_os_version</key>
+		<string>10.8</string>
+		<key>name</key>
+		<string>Atom</string>
+		<key>postinstall_script</key>
+		<string>#!/bin/sh
+
+# Simulate the "Atom -&gt; Install Shell Commands"
+
+# /usr/local/bin/atom
+ATOM_SOURCE="/Applications/Atom.app/Contents/Resources/app/atom.sh"
+ATOM_TARGET="/usr/local/bin/atom"
+if [[ -f "${ATOM_SOURCE}" ]]; then
+    echo "Creating symbolic link ${ATOM_SOURCE} -&gt; ${ATOM_TARGET}"
+    /bin/ln -s "${ATOM_SOURCE}" "${ATOM_TARGET}"
+else
+    echo "${ATOM_SOURCE} doesn't exist..."
+fi
+
+# /usr/local/bin/apm
+APM_SOURCE="/Applications/Atom.app/Contents/Resources/app/apm/node_modules/.bin/apm"
+APM_TARGET="/usr/local/bin/apm"
+if [[ -f "${APM_SOURCE}" ]]; then
+    echo "Creating symbolic link ${APM_SOURCE} -&gt; ${APM_TARGET}"
+    /bin/ln -s "${APM_SOURCE}" "${APM_TARGET}"
+else
+    echo "${APM_SOURCE} doesn't exist..."
+fi
+
+exit 0
+</string>
+		<key>postuninstall_script</key>
+		<string>#!/bin/sh
+
+# /usr/local/bin/atom
+ATOM="/usr/local/bin/atom"
+if [[ -L "${ATOM}" ]]; then
+    echo "Removing ${ATOM}"
+    /bin/rm -f "${ATOM}"
+else
+    echo "${ATOM} doesn't exist..."
+fi
+
+# /usr/local/bin/apm
+APM="/usr/local/bin/apm"
+if [[ -L "${APM}" ]]; then
+    echo "Removing ${APM}"
+    /bin/rm -f "${APM}"
+else
+    echo "${APM} doesn't exist..."
+fi
+
+exit 0
+</string>
+		<key>unattended_install</key>
+		<true/>
+		<key>unattended_uninstall</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>remove_copied_items</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>0.194.0</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>production</string>
+		</array>
 		<key>description</key>
 		<string>With an easy to use interface, connect to FTP, SFTP, WebDAV, Amazon S3, Google Storage, Windows Azure, Rackspace Cloud Files and even Google Docs.</string>
 		<key>display_name</key>
@@ -7001,6 +7237,70 @@ exit 0
 		<array>
 			<string>production</string>
 		</array>
+		<key>category</key>
+		<string>Internet</string>
+		<key>description</key>
+		<string>Calling, seeing, messaging and sharing with others – wherever they are.</string>
+		<key>developer</key>
+		<string>Microsoft</string>
+		<key>display_name</key>
+		<string>Skype</string>
+		<key>installer_item_hash</key>
+		<string>82310b5250ab6ec380576e0542777ad4fa9983675179bd8cbd52aaf76d750789</string>
+		<key>installer_item_location</key>
+		<string>apps/Skype-7.7.0.335.dmg</string>
+		<key>installer_item_size</key>
+		<integer>37806</integer>
+		<key>installer_type</key>
+		<string>copy_from_dmg</string>
+		<key>installs</key>
+		<array>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>com.skype.skype</string>
+				<key>CFBundleShortVersionString</key>
+				<string>7.7</string>
+				<key>CFBundleVersion</key>
+				<string>7.7.0.335</string>
+				<key>minosversion</key>
+				<string>10.9</string>
+				<key>path</key>
+				<string>/Applications/Skype.app</string>
+				<key>type</key>
+				<string>application</string>
+				<key>version_comparison_key</key>
+				<string>CFBundleVersion</string>
+			</dict>
+		</array>
+		<key>items_to_copy</key>
+		<array>
+			<dict>
+				<key>destination_path</key>
+				<string>/Applications</string>
+				<key>source_item</key>
+				<string>Skype.app</string>
+			</dict>
+		</array>
+		<key>minimum_os_version</key>
+		<string>10.9</string>
+		<key>name</key>
+		<string>Skype</string>
+		<key>unattended_install</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>remove_copied_items</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>7.7.0.335</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>production</string>
+		</array>
 		<key>description</key>
 		<string>Spotify is a music streaming service offering unlimited streaming of selected music from a range of major and independent record labels.</string>
 		<key>display_name</key>
@@ -9090,6 +9390,72 @@ exit 0
 		<true/>
 		<key>version</key>
 		<string>1.2.1</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>production</string>
+		</array>
+		<key>category</key>
+		<string>Utilities</string>
+		<key>description</key>
+		<string>AutoPkgr makes it simple to get started using autopkg to automate Mac software packaging.</string>
+		<key>developer</key>
+		<string>The Linde Group, Inc.</string>
+		<key>display_name</key>
+		<string>AutoPkgr</string>
+		<key>installer_item_hash</key>
+		<string>81e8c30ecab78ae2446d0b919760beb5e1c5b3f3dd3d6d948b671f52bd2e714b</string>
+		<key>installer_item_location</key>
+		<string>apps/AutoPkgr/AutoPkgr-1.2.2.dmg</string>
+		<key>installer_item_size</key>
+		<integer>2654</integer>
+		<key>installer_type</key>
+		<string>copy_from_dmg</string>
+		<key>installs</key>
+		<array>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>com.lindegroup.AutoPkgr</string>
+				<key>CFBundleName</key>
+				<string>AutoPkgr</string>
+				<key>CFBundleShortVersionString</key>
+				<string>1.2.2</string>
+				<key>CFBundleVersion</key>
+				<string>751</string>
+				<key>minosversion</key>
+				<string>10.8</string>
+				<key>path</key>
+				<string>/Applications/AutoPkgr.app</string>
+				<key>type</key>
+				<string>application</string>
+				<key>version_comparison_key</key>
+				<string>CFBundleShortVersionString</string>
+			</dict>
+		</array>
+		<key>items_to_copy</key>
+		<array>
+			<dict>
+				<key>destination_path</key>
+				<string>/Applications</string>
+				<key>source_item</key>
+				<string>AutoPkgr.app</string>
+			</dict>
+		</array>
+		<key>minimum_os_version</key>
+		<string>10.8</string>
+		<key>name</key>
+		<string>AutoPkgr</string>
+		<key>unattended_install</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>remove_copied_items</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>1.2.2</string>
 	</dict>
 	<dict>
 		<key>Category</key>
@@ -11524,6 +11890,85 @@ fi
 			<string>production</string>
 		</array>
 		<key>category</key>
+		<string>File Sharing</string>
+		<key>description</key>
+		<string>Dropbox is a free service that lets you bring all your photos, docs, and videos anywhere. This means that any file you save to your Dropbox will automatically save to all your computers, phones and even the Dropbox website.</string>
+		<key>developer</key>
+		<string>Dropbox</string>
+		<key>display_name</key>
+		<string>Dropbox</string>
+		<key>installer_item_hash</key>
+		<string>cefc7afe24cc270b774dd210157a7444b60d101a078801f62101b1ab014c83a1</string>
+		<key>installer_item_location</key>
+		<string>apps/Dropbox/Dropbox-3.4.4.dmg</string>
+		<key>installer_item_size</key>
+		<integer>36466</integer>
+		<key>installer_type</key>
+		<string>copy_from_dmg</string>
+		<key>installs</key>
+		<array>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>com.getdropbox.dropbox</string>
+				<key>CFBundleName</key>
+				<string>Dropbox</string>
+				<key>path</key>
+				<string>/Applications/Dropbox.app</string>
+				<key>type</key>
+				<string>file</string>
+			</dict>
+		</array>
+		<key>items_to_copy</key>
+		<array>
+			<dict>
+				<key>destination_path</key>
+				<string>/Applications</string>
+				<key>source_item</key>
+				<string>Dropbox.app</string>
+			</dict>
+		</array>
+		<key>minimum_os_version</key>
+		<string>10.6.0</string>
+		<key>name</key>
+		<string>Dropbox</string>
+		<key>postinstall_script</key>
+		<string>#!/bin/sh
+# based on Ruby postinstall script by Riley Shott:
+# https://groups.google.com/group/munki-dev/browse_thread/thread/a2813e7f62535f13/63d127534541f863
+# modifications:
+# - always extract the helper tool with each install instead of skipping if it exists
+# - remove xattr com.apple.quarantine removal, as Munki will have already done this upon
+#   installation; normal autopkg runs also won't quarantine the download to begin with
+
+HELPER_SRC_PATH=/Applications/Dropbox.app/Contents/Resources/DropboxHelperInstaller.tgz
+HELPER_DST_DIR=/Library/DropboxHelperTools
+HELPER_DST_PATH="$HELPER_DST_DIR/DropboxHelperInstaller"
+
+if [ -e "$HELPER_SRC_PATH" ]; then
+  [ -d "$HELPER_DST_DIR" ] || mkdir "$HELPER_DST_DIR"
+  /usr/bin/tar -C "$HELPER_DST_DIR" -xz -f "$HELPER_SRC_PATH"
+  /bin/chmod 04511 "$HELPER_DST_PATH"
+  /usr/sbin/chown root:wheel "$HELPER_DST_PATH"
+else
+  echo "Expected $HELPER_SRC_PATH, but it was not present in the Dropbox dmg."
+  exit 1
+fi
+</string>
+		<key>uninstall_method</key>
+		<string>remove_copied_items</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>3.4.4</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>production</string>
+		</array>
+		<key>category</key>
 		<string>Productivity</string>
 		<key>description</key>
 		<string>Evernote makes it easy to remember things big and small from your everyday life using your computer, phone, tablet and the web.</string>
@@ -12911,6 +13356,72 @@ fi
 		<true/>
 		<key>version</key>
 		<string>37.0.1</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>production</string>
+		</array>
+		<key>category</key>
+		<string>Internet</string>
+		<key>description</key>
+		<string>Mozilla Firefox is a free and open source web browser.</string>
+		<key>developer</key>
+		<string>Mozilla</string>
+		<key>display_name</key>
+		<string>Mozilla Firefox</string>
+		<key>installer_item_hash</key>
+		<string>b8cdafc0b9fedab065d9737bb8411159770c8ea6f19d3b0b2ba50f01e754043c</string>
+		<key>installer_item_location</key>
+		<string>apps/firefox/Firefox-37.0.2.dmg</string>
+		<key>installer_item_size</key>
+		<integer>73115</integer>
+		<key>installer_type</key>
+		<string>copy_from_dmg</string>
+		<key>installs</key>
+		<array>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>org.mozilla.firefox</string>
+				<key>CFBundleName</key>
+				<string>Firefox</string>
+				<key>CFBundleShortVersionString</key>
+				<string>37.0.2</string>
+				<key>CFBundleVersion</key>
+				<string>3715.4.15</string>
+				<key>minosversion</key>
+				<string>10.6</string>
+				<key>path</key>
+				<string>/Applications/Firefox.app</string>
+				<key>type</key>
+				<string>application</string>
+				<key>version_comparison_key</key>
+				<string>CFBundleShortVersionString</string>
+			</dict>
+		</array>
+		<key>items_to_copy</key>
+		<array>
+			<dict>
+				<key>destination_path</key>
+				<string>/Applications</string>
+				<key>source_item</key>
+				<string>Firefox.app</string>
+			</dict>
+		</array>
+		<key>minimum_os_version</key>
+		<string>10.6</string>
+		<key>name</key>
+		<string>Firefox</string>
+		<key>unattended_install</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>remove_copied_items</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>37.0.2</string>
 	</dict>
 	<dict>
 		<key>autoremove</key>
@@ -23335,6 +23846,72 @@ rm '/Library/PrivilegedHelperTools/Google Drive Icon Helper'
 		<true/>
 		<key>version</key>
 		<string>2.1.5</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>production</string>
+		</array>
+		<key>description</key>
+		<string>VLC is a free and open source cross-platform multimedia player and framework that plays most multimedia files as well as DVD, Audio CD, VCD, and various streaming protocols.</string>
+		<key>display_name</key>
+		<string>VLC Media Player</string>
+		<key>installer_item_hash</key>
+		<string>ef881ca19fc7cc6b7c54699c99c064b9a5d553aa4181d1d1e185758d32405740</string>
+		<key>installer_item_location</key>
+		<string>apps/VLC/VLC-2.2.1.dmg</string>
+		<key>installer_item_size</key>
+		<integer>34498</integer>
+		<key>installer_type</key>
+		<string>copy_from_dmg</string>
+		<key>installs</key>
+		<array>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>org.videolan.vlc</string>
+				<key>CFBundleName</key>
+				<string>VLC media player</string>
+				<key>CFBundleShortVersionString</key>
+				<string>2.2.1</string>
+				<key>CFBundleVersion</key>
+				<string>2.2.1</string>
+				<key>minosversion</key>
+				<string>10.6.0</string>
+				<key>path</key>
+				<string>/Applications/VLC.app</string>
+				<key>type</key>
+				<string>application</string>
+				<key>version_comparison_key</key>
+				<string>CFBundleShortVersionString</string>
+			</dict>
+		</array>
+		<key>items_to_copy</key>
+		<array>
+			<dict>
+				<key>destination_path</key>
+				<string>/Applications</string>
+				<key>source_item</key>
+				<string>VLC.app</string>
+			</dict>
+		</array>
+		<key>minimum_os_version</key>
+		<string>10.6.0</string>
+		<key>name</key>
+		<string>VLC</string>
+		<key>supported_architectures</key>
+		<array>
+			<string>x86_64</string>
+		</array>
+		<key>unattended_install</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>remove_copied_items</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>2.2.1</string>
 	</dict>
 	<dict>
 		<key>autoremove</key>
