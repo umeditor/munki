@@ -7915,6 +7915,72 @@ exit 0
 		<array>
 			<string>production</string>
 		</array>
+		<key>category</key>
+		<string>Music</string>
+		<key>description</key>
+		<string>Spotify is a music streaming service offering unlimited streaming of selected music from a range of major and independent record labels.</string>
+		<key>developer</key>
+		<string>Spotify</string>
+		<key>display_name</key>
+		<string>Spotify</string>
+		<key>installer_item_hash</key>
+		<string>b70c5b9087eea5c8c66af1575e46ced6fcf4926179dc828d304b673e31a8d2c9</string>
+		<key>installer_item_location</key>
+		<string>apps/Spotify-1.0.4.90.g0b6df40b.dmg</string>
+		<key>installer_item_size</key>
+		<integer>53287</integer>
+		<key>installer_type</key>
+		<string>copy_from_dmg</string>
+		<key>installs</key>
+		<array>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>com.spotify.client</string>
+				<key>CFBundleName</key>
+				<string>Spotify</string>
+				<key>CFBundleShortVersionString</key>
+				<string>1.0.4.90.g0b6df40b</string>
+				<key>CFBundleVersion</key>
+				<string>1.0.4.90.g0b6df40b-13</string>
+				<key>minosversion</key>
+				<string>10.6.0</string>
+				<key>path</key>
+				<string>/Applications/Spotify.app</string>
+				<key>type</key>
+				<string>application</string>
+				<key>version_comparison_key</key>
+				<string>CFBundleShortVersionString</string>
+			</dict>
+		</array>
+		<key>items_to_copy</key>
+		<array>
+			<dict>
+				<key>destination_path</key>
+				<string>/Applications</string>
+				<key>source_item</key>
+				<string>Spotify.app</string>
+			</dict>
+		</array>
+		<key>minimum_os_version</key>
+		<string>10.6.0</string>
+		<key>name</key>
+		<string>Spotify</string>
+		<key>unattended_install</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>remove_copied_items</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>1.0.4.90.g0b6df40b</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>production</string>
+		</array>
 		<key>description</key>
 		<string>The Unarchiver is a much more capable replacement for "Archive Utility.app", the built-in archive unpacker program on Mac OS X. The Unarchiver is designed to handle many more formats than Archive Utility, and to better fit in with the design of the Finder.</string>
 		<key>display_name</key>
@@ -13652,6 +13718,84 @@ rm '/Library/PrivilegedHelperTools/Google Drive Icon Helper'
 		<true/>
 		<key>version</key>
 		<string>1.20.8672.3137</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>testing</string>
+		</array>
+		<key>description</key>
+		<string>Google Drive sync for Mac. Access files on your computer from anywhere.</string>
+		<key>display_name</key>
+		<string>Google Drive</string>
+		<key>installer_item_hash</key>
+		<string>23a1e762f6e711ad128172d38f6798ac39325df30fa4f5814099e94aa4a0e9b2</string>
+		<key>installer_item_location</key>
+		<string>apps/google/GoogleDrive-1.21.9135.5822.dmg</string>
+		<key>installer_item_size</key>
+		<integer>41281</integer>
+		<key>installer_type</key>
+		<string>copy_from_dmg</string>
+		<key>installs</key>
+		<array>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>com.google.GoogleDrive</string>
+				<key>CFBundleName</key>
+				<string>Google Drive</string>
+				<key>CFBundleShortVersionString</key>
+				<string>1.21</string>
+				<key>CFBundleVersion</key>
+				<string>1.21.9135.5822</string>
+				<key>path</key>
+				<string>/Applications/Google Drive.app</string>
+				<key>type</key>
+				<string>application</string>
+				<key>version_comparison_key</key>
+				<string>CFBundleVersion</string>
+			</dict>
+		</array>
+		<key>items_to_copy</key>
+		<array>
+			<dict>
+				<key>destination_path</key>
+				<string>/Applications</string>
+				<key>source_item</key>
+				<string>Google Drive.app</string>
+			</dict>
+		</array>
+		<key>minimum_os_version</key>
+		<string>10.6</string>
+		<key>name</key>
+		<string>GoogleDrive</string>
+		<key>postinstall_script</key>
+		<string>#!/bin/sh
+
+# Appreciatively copied from
+# https://github.com/Ginja/Admin_Scripts/blob/master/google_drive_helper.rb
+
+cp \
+        '/Applications/Google Drive.app/Contents/Helpers/Google Drive Icon Helper' \
+        '/Library/PrivilegedHelperTools/Google Drive Icon Helper'
+
+chmod 6755 '/Library/PrivilegedHelperTools/Google Drive Icon Helper'
+chown root:procmod '/Library/PrivilegedHelperTools/Google Drive Icon Helper'
+</string>
+		<key>postuninstall_script</key>
+		<string>#/bin/sh
+
+rm '/Library/PrivilegedHelperTools/Google Drive Icon Helper'
+</string>
+		<key>unattended_install</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>remove_copied_items</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>1.21.9135.5822</string>
 	</dict>
 	<dict>
 		<key>autoremove</key>
