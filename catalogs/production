@@ -9868,8 +9868,12 @@ exit 0
 		<array>
 			<string>production</string>
 		</array>
+		<key>category</key>
+		<string>Utilities</string>
 		<key>description</key>
 		<string>The Adobe AIR runtime enables developers to package the same code into native applications and games for Windows and Mac OS desktops as well as iOS and Android devices, reaching over a billion desktop systems and mobile app stores for over 500 million devices.</string>
+		<key>developer</key>
+		<string>Adobe</string>
 		<key>display_name</key>
 		<string>Adobe AIR</string>
 		<key>installed_size</key>
@@ -9971,6 +9975,10 @@ exit 0
 		<array>
 			<string>production</string>
 		</array>
+		<key>category</key>
+		<string>Productivity</string>
+		<key>developer</key>
+		<string>Apple</string>
 		<key>display_name</key>
 		<string>Keynote</string>
 		<key>installer_item_hash</key>

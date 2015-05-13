@@ -54,5 +54,9 @@
 	<true/>
 	<key>version</key>
 	<string>17.0.0.172</string>
+	<key>category</key>
+	<string>Utilities</string>
+	<key>developer</key>
+	<string>Adobe</string>
 </dict>
 </plist>

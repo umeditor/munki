@@ -71,5 +71,9 @@
 	<true/>
 	<key>version</key>
 	<string>6.5.3</string>
+	<key>category</key>
+	<string>Productivity</string>
+	<key>developer</key>
+	<string>Apple</string>
 </dict>
 </plist>
