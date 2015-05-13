@@ -56,5 +56,9 @@
 	<true/>
 	<key>version</key>
 	<string>5.1.40416.0</string>
+	<key>category</key>
+	<string>Internet Plugin</string>
+	<key>developer</key>
+	<string>Microsoft</string>
 </dict>
 </plist>
