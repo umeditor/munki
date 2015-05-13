@@ -17,7 +17,7 @@
 	<false/>
 	<key>catalogs</key>
 	<array>
-		<string>release</string>
+		<string>production</string>
 	</array>
 	<key>display_name</key>
 	<string>Keynote</string>
