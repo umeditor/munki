@@ -24,7 +24,7 @@
 	<key>installer_item_hash</key>
 	<string>abec7bdda29d975151d8560da633853f354f30f3bb797f4a32d370b859555529</string>
 	<key>installer_item_location</key>
-	<string>apps/apple/Keynote-6.5.3.dmg</string>
+	<string>apps/Apple/Keynote-6.5.3.dmg</string>
 	<key>installer_item_size</key>
 	<integer>429249</integer>
 	<key>installer_type</key>
