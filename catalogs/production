@@ -10337,6 +10337,65 @@ exit 0
 	<dict>
 		<key>autoremove</key>
 		<false/>
+		<key>blocking_applications</key>
+		<array>
+			<string>Adobe Acrobat Pro.app</string>
+		</array>
+		<key>catalogs</key>
+		<array>
+			<string>production</string>
+		</array>
+		<key>description</key>
+		<string></string>
+		<key>display_name</key>
+		<string>Adobe Acrobat Pro Update</string>
+		<key>installed_size</key>
+		<integer>256644</integer>
+		<key>installer_item_hash</key>
+		<string>56029701191e26adb26ee8bbb31cf3a3b89be175ea35f1533079b891e8f0be80</string>
+		<key>installer_item_location</key>
+		<string>apps/AcrobatPro/AcrobatUpd11011-11.0.11.pkg</string>
+		<key>installer_item_size</key>
+		<integer>321536</integer>
+		<key>minimum_os_version</key>
+		<string>10.5.0</string>
+		<key>name</key>
+		<string>AdobeAcrobatProX_Update</string>
+		<key>receipts</key>
+		<array>
+			<dict>
+				<key>installed_size</key>
+				<integer>0</integer>
+				<key>packageid</key>
+				<string>com.adobe.PDApp.AdobeApplicationManager.installer.pkg</string>
+				<key>version</key>
+				<string>1</string>
+			</dict>
+			<dict>
+				<key>installed_size</key>
+				<integer>256644</integer>
+				<key>packageid</key>
+				<string>com.adobe.acrobat.viewer.11.0.11.patch.pkg</string>
+				<key>version</key>
+				<string>11.0.11</string>
+			</dict>
+		</array>
+		<key>unattended_install</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>removepackages</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>update_for</key>
+		<array>
+			<string>AdobeAcrobatProX</string>
+		</array>
+		<key>version</key>
+		<string>11.0.11</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
 		<key>catalogs</key>
 		<array>
 			<string>production</string>
