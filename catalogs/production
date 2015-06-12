@@ -4243,6 +4243,478 @@ exit 0
 		<array>
 			<string>production</string>
 		</array>
+		<key>category</key>
+		<string>Text Editors</string>
+		<key>description</key>
+		<string>A hackable text editor for the 21st Century</string>
+		<key>developer</key>
+		<string>GitHub, Inc.</string>
+		<key>display_name</key>
+		<string>Atom</string>
+		<key>installer_item_hash</key>
+		<string>fe873c47517116196d57b41cf795ca824318927ce3b58850d08f8be5d31c52dc</string>
+		<key>installer_item_location</key>
+		<string>apps/Atom-0.206.0.dmg</string>
+		<key>installer_item_size</key>
+		<integer>71110</integer>
+		<key>installer_type</key>
+		<string>copy_from_dmg</string>
+		<key>installs</key>
+		<array>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>com.github.atom</string>
+				<key>CFBundleName</key>
+				<string>Atom</string>
+				<key>CFBundleShortVersionString</key>
+				<string>0.206.0</string>
+				<key>CFBundleVersion</key>
+				<string>0.206.0</string>
+				<key>minosversion</key>
+				<string>10.8</string>
+				<key>path</key>
+				<string>/Applications/Atom.app</string>
+				<key>type</key>
+				<string>application</string>
+				<key>version_comparison_key</key>
+				<string>CFBundleShortVersionString</string>
+			</dict>
+		</array>
+		<key>items_to_copy</key>
+		<array>
+			<dict>
+				<key>destination_path</key>
+				<string>/Applications</string>
+				<key>source_item</key>
+				<string>Atom.app</string>
+			</dict>
+		</array>
+		<key>minimum_os_version</key>
+		<string>10.8</string>
+		<key>name</key>
+		<string>Atom</string>
+		<key>postinstall_script</key>
+		<string>#!/bin/sh
+
+# Simulate the "Atom -&gt; Install Shell Commands"
+
+# /usr/local/bin/atom
+ATOM_SOURCE="/Applications/Atom.app/Contents/Resources/app/atom.sh"
+ATOM_TARGET="/usr/local/bin/atom"
+if [[ -f "${ATOM_SOURCE}" ]]; then
+    echo "Creating symbolic link ${ATOM_SOURCE} -&gt; ${ATOM_TARGET}"
+    /bin/ln -s "${ATOM_SOURCE}" "${ATOM_TARGET}"
+else
+    echo "${ATOM_SOURCE} doesn't exist..."
+fi
+
+# /usr/local/bin/apm
+APM_SOURCE="/Applications/Atom.app/Contents/Resources/app/apm/node_modules/.bin/apm"
+APM_TARGET="/usr/local/bin/apm"
+if [[ -f "${APM_SOURCE}" ]]; then
+    echo "Creating symbolic link ${APM_SOURCE} -&gt; ${APM_TARGET}"
+    /bin/ln -s "${APM_SOURCE}" "${APM_TARGET}"
+else
+    echo "${APM_SOURCE} doesn't exist..."
+fi
+
+exit 0
+</string>
+		<key>postuninstall_script</key>
+		<string>#!/bin/sh
+
+# /usr/local/bin/atom
+ATOM="/usr/local/bin/atom"
+if [[ -L "${ATOM}" ]]; then
+    echo "Removing ${ATOM}"
+    /bin/rm -f "${ATOM}"
+else
+    echo "${ATOM} doesn't exist..."
+fi
+
+# /usr/local/bin/apm
+APM="/usr/local/bin/apm"
+if [[ -L "${APM}" ]]; then
+    echo "Removing ${APM}"
+    /bin/rm -f "${APM}"
+else
+    echo "${APM} doesn't exist..."
+fi
+
+exit 0
+</string>
+		<key>unattended_install</key>
+		<true/>
+		<key>unattended_uninstall</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>remove_copied_items</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>0.206.0</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>production</string>
+		</array>
+		<key>category</key>
+		<string>Text Editors</string>
+		<key>description</key>
+		<string>A hackable text editor for the 21st Century</string>
+		<key>developer</key>
+		<string>GitHub, Inc.</string>
+		<key>display_name</key>
+		<string>Atom</string>
+		<key>installer_item_hash</key>
+		<string>c4a0a82480d1a3d1c991277b3c75162129a918a871feb0bdf236916c45a59ed9</string>
+		<key>installer_item_location</key>
+		<string>apps/Atom-0.207.0.dmg</string>
+		<key>installer_item_size</key>
+		<integer>71104</integer>
+		<key>installer_type</key>
+		<string>copy_from_dmg</string>
+		<key>installs</key>
+		<array>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>com.github.atom</string>
+				<key>CFBundleName</key>
+				<string>Atom</string>
+				<key>CFBundleShortVersionString</key>
+				<string>0.207.0</string>
+				<key>CFBundleVersion</key>
+				<string>0.207.0</string>
+				<key>minosversion</key>
+				<string>10.8</string>
+				<key>path</key>
+				<string>/Applications/Atom.app</string>
+				<key>type</key>
+				<string>application</string>
+				<key>version_comparison_key</key>
+				<string>CFBundleShortVersionString</string>
+			</dict>
+		</array>
+		<key>items_to_copy</key>
+		<array>
+			<dict>
+				<key>destination_path</key>
+				<string>/Applications</string>
+				<key>source_item</key>
+				<string>Atom.app</string>
+			</dict>
+		</array>
+		<key>minimum_os_version</key>
+		<string>10.8</string>
+		<key>name</key>
+		<string>Atom</string>
+		<key>postinstall_script</key>
+		<string>#!/bin/sh
+
+# Simulate the "Atom -&gt; Install Shell Commands"
+
+# /usr/local/bin/atom
+ATOM_SOURCE="/Applications/Atom.app/Contents/Resources/app/atom.sh"
+ATOM_TARGET="/usr/local/bin/atom"
+if [[ -f "${ATOM_SOURCE}" ]]; then
+    echo "Creating symbolic link ${ATOM_SOURCE} -&gt; ${ATOM_TARGET}"
+    /bin/ln -s "${ATOM_SOURCE}" "${ATOM_TARGET}"
+else
+    echo "${ATOM_SOURCE} doesn't exist..."
+fi
+
+# /usr/local/bin/apm
+APM_SOURCE="/Applications/Atom.app/Contents/Resources/app/apm/node_modules/.bin/apm"
+APM_TARGET="/usr/local/bin/apm"
+if [[ -f "${APM_SOURCE}" ]]; then
+    echo "Creating symbolic link ${APM_SOURCE} -&gt; ${APM_TARGET}"
+    /bin/ln -s "${APM_SOURCE}" "${APM_TARGET}"
+else
+    echo "${APM_SOURCE} doesn't exist..."
+fi
+
+exit 0
+</string>
+		<key>postuninstall_script</key>
+		<string>#!/bin/sh
+
+# /usr/local/bin/atom
+ATOM="/usr/local/bin/atom"
+if [[ -L "${ATOM}" ]]; then
+    echo "Removing ${ATOM}"
+    /bin/rm -f "${ATOM}"
+else
+    echo "${ATOM} doesn't exist..."
+fi
+
+# /usr/local/bin/apm
+APM="/usr/local/bin/apm"
+if [[ -L "${APM}" ]]; then
+    echo "Removing ${APM}"
+    /bin/rm -f "${APM}"
+else
+    echo "${APM} doesn't exist..."
+fi
+
+exit 0
+</string>
+		<key>unattended_install</key>
+		<true/>
+		<key>unattended_uninstall</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>remove_copied_items</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>0.207.0</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>production</string>
+		</array>
+		<key>category</key>
+		<string>Text Editors</string>
+		<key>description</key>
+		<string>A hackable text editor for the 21st Century</string>
+		<key>developer</key>
+		<string>GitHub, Inc.</string>
+		<key>display_name</key>
+		<string>Atom</string>
+		<key>installer_item_hash</key>
+		<string>f24d24480565ea1aee78a557a9a6541a4a245600f7d61cae9ec56308b24c699e</string>
+		<key>installer_item_location</key>
+		<string>apps/Atom-0.208.0.dmg</string>
+		<key>installer_item_size</key>
+		<integer>71362</integer>
+		<key>installer_type</key>
+		<string>copy_from_dmg</string>
+		<key>installs</key>
+		<array>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>com.github.atom</string>
+				<key>CFBundleName</key>
+				<string>Atom</string>
+				<key>CFBundleShortVersionString</key>
+				<string>0.208.0</string>
+				<key>CFBundleVersion</key>
+				<string>0.208.0</string>
+				<key>minosversion</key>
+				<string>10.8</string>
+				<key>path</key>
+				<string>/Applications/Atom.app</string>
+				<key>type</key>
+				<string>application</string>
+				<key>version_comparison_key</key>
+				<string>CFBundleShortVersionString</string>
+			</dict>
+		</array>
+		<key>items_to_copy</key>
+		<array>
+			<dict>
+				<key>destination_path</key>
+				<string>/Applications</string>
+				<key>source_item</key>
+				<string>Atom.app</string>
+			</dict>
+		</array>
+		<key>minimum_os_version</key>
+		<string>10.8</string>
+		<key>name</key>
+		<string>Atom</string>
+		<key>postinstall_script</key>
+		<string>#!/bin/sh
+
+# Simulate the "Atom -&gt; Install Shell Commands"
+
+# /usr/local/bin/atom
+ATOM_SOURCE="/Applications/Atom.app/Contents/Resources/app/atom.sh"
+ATOM_TARGET="/usr/local/bin/atom"
+if [[ -f "${ATOM_SOURCE}" ]]; then
+    echo "Creating symbolic link ${ATOM_SOURCE} -&gt; ${ATOM_TARGET}"
+    /bin/ln -s "${ATOM_SOURCE}" "${ATOM_TARGET}"
+else
+    echo "${ATOM_SOURCE} doesn't exist..."
+fi
+
+# /usr/local/bin/apm
+APM_SOURCE="/Applications/Atom.app/Contents/Resources/app/apm/node_modules/.bin/apm"
+APM_TARGET="/usr/local/bin/apm"
+if [[ -f "${APM_SOURCE}" ]]; then
+    echo "Creating symbolic link ${APM_SOURCE} -&gt; ${APM_TARGET}"
+    /bin/ln -s "${APM_SOURCE}" "${APM_TARGET}"
+else
+    echo "${APM_SOURCE} doesn't exist..."
+fi
+
+exit 0
+</string>
+		<key>postuninstall_script</key>
+		<string>#!/bin/sh
+
+# /usr/local/bin/atom
+ATOM="/usr/local/bin/atom"
+if [[ -L "${ATOM}" ]]; then
+    echo "Removing ${ATOM}"
+    /bin/rm -f "${ATOM}"
+else
+    echo "${ATOM} doesn't exist..."
+fi
+
+# /usr/local/bin/apm
+APM="/usr/local/bin/apm"
+if [[ -L "${APM}" ]]; then
+    echo "Removing ${APM}"
+    /bin/rm -f "${APM}"
+else
+    echo "${APM} doesn't exist..."
+fi
+
+exit 0
+</string>
+		<key>unattended_install</key>
+		<true/>
+		<key>unattended_uninstall</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>remove_copied_items</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>0.208.0</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>production</string>
+		</array>
+		<key>category</key>
+		<string>Text Editors</string>
+		<key>description</key>
+		<string>A hackable text editor for the 21st Century</string>
+		<key>developer</key>
+		<string>GitHub, Inc.</string>
+		<key>display_name</key>
+		<string>Atom</string>
+		<key>installer_item_hash</key>
+		<string>866675467f5058a21ef8d629379ec654a7857effa3adc899711de5391de75818</string>
+		<key>installer_item_location</key>
+		<string>apps/Atom-0.209.0.dmg</string>
+		<key>installer_item_size</key>
+		<integer>70939</integer>
+		<key>installer_type</key>
+		<string>copy_from_dmg</string>
+		<key>installs</key>
+		<array>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>com.github.atom</string>
+				<key>CFBundleName</key>
+				<string>Atom</string>
+				<key>CFBundleShortVersionString</key>
+				<string>0.209.0</string>
+				<key>CFBundleVersion</key>
+				<string>0.209.0</string>
+				<key>minosversion</key>
+				<string>10.8</string>
+				<key>path</key>
+				<string>/Applications/Atom.app</string>
+				<key>type</key>
+				<string>application</string>
+				<key>version_comparison_key</key>
+				<string>CFBundleShortVersionString</string>
+			</dict>
+		</array>
+		<key>items_to_copy</key>
+		<array>
+			<dict>
+				<key>destination_path</key>
+				<string>/Applications</string>
+				<key>source_item</key>
+				<string>Atom.app</string>
+			</dict>
+		</array>
+		<key>minimum_os_version</key>
+		<string>10.8</string>
+		<key>name</key>
+		<string>Atom</string>
+		<key>postinstall_script</key>
+		<string>#!/bin/sh
+
+# Simulate the "Atom -&gt; Install Shell Commands"
+
+# /usr/local/bin/atom
+ATOM_SOURCE="/Applications/Atom.app/Contents/Resources/app/atom.sh"
+ATOM_TARGET="/usr/local/bin/atom"
+if [[ -f "${ATOM_SOURCE}" ]]; then
+    echo "Creating symbolic link ${ATOM_SOURCE} -&gt; ${ATOM_TARGET}"
+    /bin/ln -s "${ATOM_SOURCE}" "${ATOM_TARGET}"
+else
+    echo "${ATOM_SOURCE} doesn't exist..."
+fi
+
+# /usr/local/bin/apm
+APM_SOURCE="/Applications/Atom.app/Contents/Resources/app/apm/node_modules/.bin/apm"
+APM_TARGET="/usr/local/bin/apm"
+if [[ -f "${APM_SOURCE}" ]]; then
+    echo "Creating symbolic link ${APM_SOURCE} -&gt; ${APM_TARGET}"
+    /bin/ln -s "${APM_SOURCE}" "${APM_TARGET}"
+else
+    echo "${APM_SOURCE} doesn't exist..."
+fi
+
+exit 0
+</string>
+		<key>postuninstall_script</key>
+		<string>#!/bin/sh
+
+# /usr/local/bin/atom
+ATOM="/usr/local/bin/atom"
+if [[ -L "${ATOM}" ]]; then
+    echo "Removing ${ATOM}"
+    /bin/rm -f "${ATOM}"
+else
+    echo "${ATOM} doesn't exist..."
+fi
+
+# /usr/local/bin/apm
+APM="/usr/local/bin/apm"
+if [[ -L "${APM}" ]]; then
+    echo "Removing ${APM}"
+    /bin/rm -f "${APM}"
+else
+    echo "${APM} doesn't exist..."
+fi
+
+exit 0
+</string>
+		<key>unattended_install</key>
+		<true/>
+		<key>unattended_uninstall</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>remove_copied_items</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>0.209.0</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>production</string>
+		</array>
 		<key>description</key>
 		<string>With an easy to use interface, connect to FTP, SFTP, WebDAV, Amazon S3, Google Storage, Windows Azure, Rackspace Cloud Files and even Google Docs.</string>
 		<key>display_name</key>
@@ -11111,6 +11583,49 @@ exit 0
 			<string>production</string>
 		</array>
 		<key>description</key>
+		<string>The Adobe AIR runtime enables developers to package the same code into native applications and games for Windows and Mac OS desktops as well as iOS and Android devices, reaching over a billion desktop systems and mobile app stores for over 500 million devices.</string>
+		<key>display_name</key>
+		<string>Adobe AIR</string>
+		<key>installed_size</key>
+		<integer>120891</integer>
+		<key>installer_item_hash</key>
+		<string>9bb8b127ef9302b41d5f3e80727fb0a8d56380fb6740d72f68a0d5014f50d620</string>
+		<key>installer_item_location</key>
+		<string>apps/adobe/AdobeAIR-18.0.0.143.pkg</string>
+		<key>installer_item_size</key>
+		<integer>53568</integer>
+		<key>minimum_os_version</key>
+		<string>10.5.0</string>
+		<key>name</key>
+		<string>AdobeAIR</string>
+		<key>receipts</key>
+		<array>
+			<dict>
+				<key>installed_size</key>
+				<integer>120891</integer>
+				<key>packageid</key>
+				<string>com.adobe.pkg.AIR</string>
+				<key>version</key>
+				<string>18.0.0.143</string>
+			</dict>
+		</array>
+		<key>unattended_install</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>removepackages</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>18.0.0.143</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>production</string>
+		</array>
+		<key>description</key>
 		<string>iPhoto lets you do more than you ever thought possible with your photos, with easy ways to find, sort, and rediscover your favorite shots. Simple but powerful editing tools let you turn good photos into magnificent ones. Share directly to Facebook, Flickr, Twitter, and Messages. iPhoto also works with iCloud, so the photos you take on your iOS devices automatically appear in iPhoto, and you can share selected photos and videos with family and friends using iCloud Photo Sharing. You can even create professional-quality photo books, calendars and letterpress cards quickly and easily.</string>
 		<key>display_name</key>
 		<string>iPhoto</string>
@@ -14161,6 +14676,164 @@ fi
 		<true/>
 		<key>version</key>
 		<string>3.6.5</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>production</string>
+		</array>
+		<key>category</key>
+		<string>File Sharing</string>
+		<key>description</key>
+		<string>Dropbox is a free service that lets you bring all your photos, docs, and videos anywhere. This means that any file you save to your Dropbox will automatically save to all your computers, phones and even the Dropbox website.</string>
+		<key>developer</key>
+		<string>Dropbox</string>
+		<key>display_name</key>
+		<string>Dropbox</string>
+		<key>installer_item_hash</key>
+		<string>b53d954fcbe68e1261669575f1e0d466609f9cc1f0ca2aa8acb59d005e6e4456</string>
+		<key>installer_item_location</key>
+		<string>apps/Dropbox/Dropbox-3.6.6.dmg</string>
+		<key>installer_item_size</key>
+		<integer>37043</integer>
+		<key>installer_type</key>
+		<string>copy_from_dmg</string>
+		<key>installs</key>
+		<array>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>com.getdropbox.dropbox</string>
+				<key>CFBundleName</key>
+				<string>Dropbox</string>
+				<key>path</key>
+				<string>/Applications/Dropbox.app</string>
+				<key>type</key>
+				<string>file</string>
+			</dict>
+		</array>
+		<key>items_to_copy</key>
+		<array>
+			<dict>
+				<key>destination_path</key>
+				<string>/Applications</string>
+				<key>source_item</key>
+				<string>Dropbox.app</string>
+			</dict>
+		</array>
+		<key>minimum_os_version</key>
+		<string>10.6.0</string>
+		<key>name</key>
+		<string>Dropbox</string>
+		<key>postinstall_script</key>
+		<string>#!/bin/sh
+# based on Ruby postinstall script by Riley Shott:
+# https://groups.google.com/group/munki-dev/browse_thread/thread/a2813e7f62535f13/63d127534541f863
+# modifications:
+# - always extract the helper tool with each install instead of skipping if it exists
+# - remove xattr com.apple.quarantine removal, as Munki will have already done this upon
+#   installation; normal autopkg runs also won't quarantine the download to begin with
+
+HELPER_SRC_PATH=/Applications/Dropbox.app/Contents/Resources/DropboxHelperInstaller.tgz
+HELPER_DST_DIR=/Library/DropboxHelperTools
+HELPER_DST_PATH="$HELPER_DST_DIR/DropboxHelperInstaller"
+
+if [ -e "$HELPER_SRC_PATH" ]; then
+  [ -d "$HELPER_DST_DIR" ] || mkdir "$HELPER_DST_DIR"
+  /usr/bin/tar -C "$HELPER_DST_DIR" -xz -f "$HELPER_SRC_PATH"
+  /bin/chmod 04511 "$HELPER_DST_PATH"
+  /usr/sbin/chown root:wheel "$HELPER_DST_PATH"
+else
+  echo "Expected $HELPER_SRC_PATH, but it was not present in the Dropbox dmg."
+  exit 1
+fi
+</string>
+		<key>uninstall_method</key>
+		<string>remove_copied_items</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>3.6.6</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>production</string>
+		</array>
+		<key>category</key>
+		<string>File Sharing</string>
+		<key>description</key>
+		<string>Dropbox is a free service that lets you bring all your photos, docs, and videos anywhere. This means that any file you save to your Dropbox will automatically save to all your computers, phones and even the Dropbox website.</string>
+		<key>developer</key>
+		<string>Dropbox</string>
+		<key>display_name</key>
+		<string>Dropbox</string>
+		<key>installer_item_hash</key>
+		<string>2866d0544d437fba8a9ef892da5b8f018d28100356c5914c88a66afc81012fea</string>
+		<key>installer_item_location</key>
+		<string>apps/Dropbox/Dropbox-3.6.7.dmg</string>
+		<key>installer_item_size</key>
+		<integer>37043</integer>
+		<key>installer_type</key>
+		<string>copy_from_dmg</string>
+		<key>installs</key>
+		<array>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>com.getdropbox.dropbox</string>
+				<key>CFBundleName</key>
+				<string>Dropbox</string>
+				<key>path</key>
+				<string>/Applications/Dropbox.app</string>
+				<key>type</key>
+				<string>file</string>
+			</dict>
+		</array>
+		<key>items_to_copy</key>
+		<array>
+			<dict>
+				<key>destination_path</key>
+				<string>/Applications</string>
+				<key>source_item</key>
+				<string>Dropbox.app</string>
+			</dict>
+		</array>
+		<key>minimum_os_version</key>
+		<string>10.6.0</string>
+		<key>name</key>
+		<string>Dropbox</string>
+		<key>postinstall_script</key>
+		<string>#!/bin/sh
+# based on Ruby postinstall script by Riley Shott:
+# https://groups.google.com/group/munki-dev/browse_thread/thread/a2813e7f62535f13/63d127534541f863
+# modifications:
+# - always extract the helper tool with each install instead of skipping if it exists
+# - remove xattr com.apple.quarantine removal, as Munki will have already done this upon
+#   installation; normal autopkg runs also won't quarantine the download to begin with
+
+HELPER_SRC_PATH=/Applications/Dropbox.app/Contents/Resources/DropboxHelperInstaller.tgz
+HELPER_DST_DIR=/Library/DropboxHelperTools
+HELPER_DST_PATH="$HELPER_DST_DIR/DropboxHelperInstaller"
+
+if [ -e "$HELPER_SRC_PATH" ]; then
+  [ -d "$HELPER_DST_DIR" ] || mkdir "$HELPER_DST_DIR"
+  /usr/bin/tar -C "$HELPER_DST_DIR" -xz -f "$HELPER_SRC_PATH"
+  /bin/chmod 04511 "$HELPER_DST_PATH"
+  /usr/sbin/chown root:wheel "$HELPER_DST_PATH"
+else
+  echo "Expected $HELPER_SRC_PATH, but it was not present in the Dropbox dmg."
+  exit 1
+fi
+</string>
+		<key>uninstall_method</key>
+		<string>remove_copied_items</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>3.6.7</string>
 	</dict>
 	<dict>
 		<key>autoremove</key>
@@ -29917,6 +30590,55 @@ rm '/Library/PrivilegedHelperTools/Google Drive Icon Helper'
 		<true/>
 		<key>version</key>
 		<string>17.0.0.188</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>production</string>
+		</array>
+		<key>category</key>
+		<string>Internet Plugin</string>
+		<key>description</key>
+		<string>Adobe® Flash® Player is a cross-platform browser-based application runtime that delivers uncompromised viewing of expressive applications, content, and videos across screens and browsers.</string>
+		<key>developer</key>
+		<string>Adobe</string>
+		<key>display_name</key>
+		<string>Adobe Flash Player</string>
+		<key>installed_size</key>
+		<integer>16497</integer>
+		<key>installer_item_hash</key>
+		<string>5351734cf4468714dba103ffb48b92de4b9b0f6ab55f7320dc3fcf02b225c0b1</string>
+		<key>installer_item_location</key>
+		<string>internet_plugins/AdobeFlashPlayer-18.0.0.160.dmg</string>
+		<key>installer_item_size</key>
+		<integer>15717</integer>
+		<key>minimum_os_version</key>
+		<string>10.5.0</string>
+		<key>name</key>
+		<string>AdobeFlashPlayer</string>
+		<key>package_path</key>
+		<string>Install Adobe Flash Player.app/Contents/Resources/Adobe Flash Player.pkg</string>
+		<key>receipts</key>
+		<array>
+			<dict>
+				<key>installed_size</key>
+				<integer>16497</integer>
+				<key>packageid</key>
+				<string>com.adobe.pkg.FlashPlayer</string>
+				<key>version</key>
+				<string>18.0.0.160</string>
+			</dict>
+		</array>
+		<key>unattended_install</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>removepackages</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>18.0.0.160</string>
 	</dict>
 	<dict>
 		<key>autoremove</key>
