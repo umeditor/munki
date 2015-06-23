@@ -4715,6 +4715,124 @@ exit 0
 		<array>
 			<string>production</string>
 		</array>
+		<key>category</key>
+		<string>Text Editors</string>
+		<key>description</key>
+		<string>A hackable text editor for the 21st Century</string>
+		<key>developer</key>
+		<string>GitHub, Inc.</string>
+		<key>display_name</key>
+		<string>Atom</string>
+		<key>installer_item_hash</key>
+		<string>225dca2a88ef521d1449d5dfd22aae8dc5751f64ccb5f7a8dfd9fd197f1ec1e5</string>
+		<key>installer_item_location</key>
+		<string>apps/Atom-0.211.0.dmg</string>
+		<key>installer_item_size</key>
+		<integer>70878</integer>
+		<key>installer_type</key>
+		<string>copy_from_dmg</string>
+		<key>installs</key>
+		<array>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>com.github.atom</string>
+				<key>CFBundleName</key>
+				<string>Atom</string>
+				<key>CFBundleShortVersionString</key>
+				<string>0.211.0</string>
+				<key>CFBundleVersion</key>
+				<string>0.211.0</string>
+				<key>minosversion</key>
+				<string>10.8</string>
+				<key>path</key>
+				<string>/Applications/Atom.app</string>
+				<key>type</key>
+				<string>application</string>
+				<key>version_comparison_key</key>
+				<string>CFBundleShortVersionString</string>
+			</dict>
+		</array>
+		<key>items_to_copy</key>
+		<array>
+			<dict>
+				<key>destination_path</key>
+				<string>/Applications</string>
+				<key>source_item</key>
+				<string>Atom.app</string>
+			</dict>
+		</array>
+		<key>minimum_os_version</key>
+		<string>10.8</string>
+		<key>name</key>
+		<string>Atom</string>
+		<key>postinstall_script</key>
+		<string>#!/bin/sh
+
+# Simulate the "Atom -&gt; Install Shell Commands"
+
+# /usr/local/bin/atom
+ATOM_SOURCE="/Applications/Atom.app/Contents/Resources/app/atom.sh"
+ATOM_TARGET="/usr/local/bin/atom"
+if [[ -f "${ATOM_SOURCE}" ]]; then
+    echo "Creating symbolic link ${ATOM_SOURCE} -&gt; ${ATOM_TARGET}"
+    /bin/ln -s "${ATOM_SOURCE}" "${ATOM_TARGET}"
+else
+    echo "${ATOM_SOURCE} doesn't exist..."
+fi
+
+# /usr/local/bin/apm
+APM_SOURCE="/Applications/Atom.app/Contents/Resources/app/apm/node_modules/.bin/apm"
+APM_TARGET="/usr/local/bin/apm"
+if [[ -f "${APM_SOURCE}" ]]; then
+    echo "Creating symbolic link ${APM_SOURCE} -&gt; ${APM_TARGET}"
+    /bin/ln -s "${APM_SOURCE}" "${APM_TARGET}"
+else
+    echo "${APM_SOURCE} doesn't exist..."
+fi
+
+exit 0
+</string>
+		<key>postuninstall_script</key>
+		<string>#!/bin/sh
+
+# /usr/local/bin/atom
+ATOM="/usr/local/bin/atom"
+if [[ -L "${ATOM}" ]]; then
+    echo "Removing ${ATOM}"
+    /bin/rm -f "${ATOM}"
+else
+    echo "${ATOM} doesn't exist..."
+fi
+
+# /usr/local/bin/apm
+APM="/usr/local/bin/apm"
+if [[ -L "${APM}" ]]; then
+    echo "Removing ${APM}"
+    /bin/rm -f "${APM}"
+else
+    echo "${APM} doesn't exist..."
+fi
+
+exit 0
+</string>
+		<key>unattended_install</key>
+		<true/>
+		<key>unattended_uninstall</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>remove_copied_items</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>0.211.0</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>production</string>
+		</array>
 		<key>description</key>
 		<string>With an easy to use interface, connect to FTP, SFTP, WebDAV, Amazon S3, Google Storage, Windows Azure, Rackspace Cloud Files and even Google Docs.</string>
 		<key>display_name</key>
@@ -9190,6 +9308,134 @@ exit 0
 		<array>
 			<string>production</string>
 		</array>
+		<key>category</key>
+		<string>Internet</string>
+		<key>description</key>
+		<string>Calling, seeing, messaging and sharing with others – wherever they are.</string>
+		<key>developer</key>
+		<string>Microsoft</string>
+		<key>display_name</key>
+		<string>Skype</string>
+		<key>installer_item_hash</key>
+		<string>b5b8c4b240174a75b0c6ba49101613442d408c0ecb98bf9dbdce397d923a6a8d</string>
+		<key>installer_item_location</key>
+		<string>apps/Skype-7.9.0.746.dmg</string>
+		<key>installer_item_size</key>
+		<integer>40856</integer>
+		<key>installer_type</key>
+		<string>copy_from_dmg</string>
+		<key>installs</key>
+		<array>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>com.skype.skype</string>
+				<key>CFBundleShortVersionString</key>
+				<string>7.9</string>
+				<key>CFBundleVersion</key>
+				<string>7.9.0.746</string>
+				<key>minosversion</key>
+				<string>10.9</string>
+				<key>path</key>
+				<string>/Applications/Skype.app</string>
+				<key>type</key>
+				<string>application</string>
+				<key>version_comparison_key</key>
+				<string>CFBundleVersion</string>
+			</dict>
+		</array>
+		<key>items_to_copy</key>
+		<array>
+			<dict>
+				<key>destination_path</key>
+				<string>/Applications</string>
+				<key>source_item</key>
+				<string>Skype.app</string>
+			</dict>
+		</array>
+		<key>minimum_os_version</key>
+		<string>10.9</string>
+		<key>name</key>
+		<string>Skype</string>
+		<key>unattended_install</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>remove_copied_items</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>7.9.0.746</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>production</string>
+		</array>
+		<key>category</key>
+		<string>Internet</string>
+		<key>description</key>
+		<string>Calling, seeing, messaging and sharing with others – wherever they are.</string>
+		<key>developer</key>
+		<string>Microsoft</string>
+		<key>display_name</key>
+		<string>Skype</string>
+		<key>installer_item_hash</key>
+		<string>b5b8c4b240174a75b0c6ba49101613442d408c0ecb98bf9dbdce397d923a6a8d</string>
+		<key>installer_item_location</key>
+		<string>apps/Skype-7.9.0.746__1.dmg</string>
+		<key>installer_item_size</key>
+		<integer>40856</integer>
+		<key>installer_type</key>
+		<string>copy_from_dmg</string>
+		<key>installs</key>
+		<array>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>com.skype.skype</string>
+				<key>CFBundleShortVersionString</key>
+				<string>7.9</string>
+				<key>CFBundleVersion</key>
+				<string>7.9.0.746</string>
+				<key>minosversion</key>
+				<string>10.9</string>
+				<key>path</key>
+				<string>/Applications/Skype.app</string>
+				<key>type</key>
+				<string>application</string>
+				<key>version_comparison_key</key>
+				<string>CFBundleVersion</string>
+			</dict>
+		</array>
+		<key>items_to_copy</key>
+		<array>
+			<dict>
+				<key>destination_path</key>
+				<string>/Applications</string>
+				<key>source_item</key>
+				<string>Skype.app</string>
+			</dict>
+		</array>
+		<key>minimum_os_version</key>
+		<string>10.9</string>
+		<key>name</key>
+		<string>Skype</string>
+		<key>unattended_install</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>remove_copied_items</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>7.9.0.746</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>production</string>
+		</array>
 		<key>description</key>
 		<string>Spotify is a music streaming service offering unlimited streaming of selected music from a range of major and independent record labels.</string>
 		<key>display_name</key>
@@ -10060,6 +10306,72 @@ exit 0
 		<true/>
 		<key>version</key>
 		<string>1.0.6.80.g2a801a53</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>production</string>
+		</array>
+		<key>category</key>
+		<string>Music</string>
+		<key>description</key>
+		<string>Spotify is a music streaming service offering unlimited streaming of selected music from a range of major and independent record labels.</string>
+		<key>developer</key>
+		<string>Spotify</string>
+		<key>display_name</key>
+		<string>Spotify</string>
+		<key>installer_item_hash</key>
+		<string>b20269597a773d81022b1b4c811611ef44bc741e346feb481278e76426048119</string>
+		<key>installer_item_location</key>
+		<string>apps/Spotify-1.0.7.157.g2a6526f9.dmg</string>
+		<key>installer_item_size</key>
+		<integer>57192</integer>
+		<key>installer_type</key>
+		<string>copy_from_dmg</string>
+		<key>installs</key>
+		<array>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>com.spotify.client</string>
+				<key>CFBundleName</key>
+				<string>Spotify</string>
+				<key>CFBundleShortVersionString</key>
+				<string>1.0.7.157.g2a6526f9</string>
+				<key>CFBundleVersion</key>
+				<string>1.0.7.157.g2a6526f9-93</string>
+				<key>minosversion</key>
+				<string>10.6.0</string>
+				<key>path</key>
+				<string>/Applications/Spotify.app</string>
+				<key>type</key>
+				<string>application</string>
+				<key>version_comparison_key</key>
+				<string>CFBundleShortVersionString</string>
+			</dict>
+		</array>
+		<key>items_to_copy</key>
+		<array>
+			<dict>
+				<key>destination_path</key>
+				<string>/Applications</string>
+				<key>source_item</key>
+				<string>Spotify.app</string>
+			</dict>
+		</array>
+		<key>minimum_os_version</key>
+		<string>10.6.0</string>
+		<key>name</key>
+		<string>Spotify</string>
+		<key>unattended_install</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>remove_copied_items</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>1.0.7.157.g2a6526f9</string>
 	</dict>
 	<dict>
 		<key>autoremove</key>
@@ -17182,6 +17494,138 @@ rm '/Library/PrivilegedHelperTools/Google Drive Icon Helper'
 		<true/>
 		<key>version</key>
 		<string>0.10.1 x86_64</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>production</string>
+		</array>
+		<key>category</key>
+		<string>Utility</string>
+		<key>description</key>
+		<string>HandBrake is a tool for converting video from nearly any format to a selection of modern, widely supported codecs.</string>
+		<key>developer</key>
+		<string>The HandBrake Team</string>
+		<key>display_name</key>
+		<string>Handbrake</string>
+		<key>installer_item_hash</key>
+		<string>9591cefbfcbe97ad4e039b456f82ea0e76035b5db9c9aa2ebca044fb171d4dd5</string>
+		<key>installer_item_location</key>
+		<string>apps/Handbrake/Handbrake-0.10.2 x86_64.dmg</string>
+		<key>installer_item_size</key>
+		<integer>10339</integer>
+		<key>installer_type</key>
+		<string>copy_from_dmg</string>
+		<key>installs</key>
+		<array>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>fr.handbrake.HandBrake</string>
+				<key>CFBundleName</key>
+				<string>HandBrake</string>
+				<key>CFBundleShortVersionString</key>
+				<string>0.10.2 x86_64</string>
+				<key>CFBundleVersion</key>
+				<string>2015061100</string>
+				<key>minosversion</key>
+				<string>10.6</string>
+				<key>path</key>
+				<string>/Applications/HandBrake.app</string>
+				<key>type</key>
+				<string>application</string>
+				<key>version_comparison_key</key>
+				<string>CFBundleVersion</string>
+			</dict>
+		</array>
+		<key>items_to_copy</key>
+		<array>
+			<dict>
+				<key>destination_path</key>
+				<string>/Applications</string>
+				<key>source_item</key>
+				<string>HandBrake.app</string>
+			</dict>
+		</array>
+		<key>minimum_os_version</key>
+		<string>10.6</string>
+		<key>name</key>
+		<string>Handbrake</string>
+		<key>unattended_install</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>remove_copied_items</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>0.10.2 x86_64</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>production</string>
+		</array>
+		<key>category</key>
+		<string>Utility</string>
+		<key>description</key>
+		<string>HandBrake is a tool for converting video from nearly any format to a selection of modern, widely supported codecs.</string>
+		<key>developer</key>
+		<string>The HandBrake Team</string>
+		<key>display_name</key>
+		<string>Handbrake</string>
+		<key>installer_item_hash</key>
+		<string>9591cefbfcbe97ad4e039b456f82ea0e76035b5db9c9aa2ebca044fb171d4dd5</string>
+		<key>installer_item_location</key>
+		<string>apps/Handbrake/Handbrake-0.10.2 x86_64__1.dmg</string>
+		<key>installer_item_size</key>
+		<integer>10339</integer>
+		<key>installer_type</key>
+		<string>copy_from_dmg</string>
+		<key>installs</key>
+		<array>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>fr.handbrake.HandBrake</string>
+				<key>CFBundleName</key>
+				<string>HandBrake</string>
+				<key>CFBundleShortVersionString</key>
+				<string>0.10.2 x86_64</string>
+				<key>CFBundleVersion</key>
+				<string>2015061100</string>
+				<key>minosversion</key>
+				<string>10.6</string>
+				<key>path</key>
+				<string>/Applications/HandBrake.app</string>
+				<key>type</key>
+				<string>application</string>
+				<key>version_comparison_key</key>
+				<string>CFBundleVersion</string>
+			</dict>
+		</array>
+		<key>items_to_copy</key>
+		<array>
+			<dict>
+				<key>destination_path</key>
+				<string>/Applications</string>
+				<key>source_item</key>
+				<string>HandBrake.app</string>
+			</dict>
+		</array>
+		<key>minimum_os_version</key>
+		<string>10.6</string>
+		<key>name</key>
+		<string>Handbrake</string>
+		<key>unattended_install</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>remove_copied_items</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>0.10.2 x86_64</string>
 	</dict>
 	<dict>
 		<key>autoremove</key>
@@ -28326,6 +28770,1026 @@ rm '/Library/PrivilegedHelperTools/Google Drive Icon Helper'
 	<dict>
 		<key>autoremove</key>
 		<false/>
+		<key>blocking_applications</key>
+		<array>
+			<string>MSN Messenger</string>
+			<string>Microsoft Lync</string>
+			<string>Microsoft Cert Manager</string>
+			<string>Microsoft Chart Converter</string>
+			<string>Microsoft Clip Gallery</string>
+			<string>Microsoft Entourage</string>
+			<string>Microsoft Outlook</string>
+			<string>Microsoft Error Reporting</string>
+			<string>Microsoft Excel</string>
+			<string>Microsoft Graph</string>
+			<string>Microsoft Help Viewer</string>
+			<string>Microsoft Language Register</string>
+			<string>Microsoft Communicator</string>
+			<string>Microsoft Messenger</string>
+			<string>Microsoft PowerPoint</string>
+			<string>Microsoft Query</string>
+			<string>Microsoft Word</string>
+			<string>My Day</string>
+			<string>Organization Chart</string>
+			<string>Expression Media</string>
+			<string>Remote Desktop Connection</string>
+			<string>Opera</string>
+			<string>Google Chrome</string>
+			<string>Firefox</string>
+			<string>Safari</string>
+		</array>
+		<key>catalogs</key>
+		<array>
+			<string>production</string>
+		</array>
+		<key>category</key>
+		<string>Productivity</string>
+		<key>description</key>
+		<string>&lt;html&gt;&lt;p&gt;This update fixes critical issues. &lt;/p&gt;
+
+&lt;p&gt;For detailed information about this update, please visit the following Web site: &lt;/p&gt;
+
+&lt;p&gt;&lt;a href="http://go.microsoft.com/fwlink/?LinkID=614982" target="_blank"&gt;http://go.microsoft.com/fwlink/?LinkID=614982&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;For additional assistance, or to obtain a downloadable version of this update, visit the &lt;a href="http://go.microsoft.com/fwlink/?LinkId=216459" target="_blank"&gt;Microsoft Web site&lt;/a&gt;.&lt;/p&gt;&lt;/html&gt;</string>
+		<key>developer</key>
+		<string>Microsoft</string>
+		<key>display_name</key>
+		<string>Office 2011 14.5.2 Update</string>
+		<key>installed_size</key>
+		<integer>339324</integer>
+		<key>installer_item_hash</key>
+		<string>1b91de416b6751bf1f56b91adfff9d135be390ae7f160ba44f59cf7f6392f081</string>
+		<key>installer_item_location</key>
+		<string>apps/Office2011/Office2011-1452Update_EN-US-14.5.2.dmg</string>
+		<key>installer_item_size</key>
+		<integer>116323</integer>
+		<key>installs</key>
+		<array>
+			<dict>
+				<key>CFBundleShortVersionString</key>
+				<string>14.5.2</string>
+				<key>CFBundleVersion</key>
+				<string>14.5.2</string>
+				<key>path</key>
+				<string>/Applications/Microsoft Office 2011/Office/MicrosoftComponentPlugin.framework</string>
+				<key>type</key>
+				<string>bundle</string>
+				<key>version_comparison_key</key>
+				<string>CFBundleShortVersionString</string>
+			</dict>
+		</array>
+		<key>minimum_os_version</key>
+		<string>10.5.8</string>
+		<key>name</key>
+		<string>Office2011_update</string>
+		<key>receipts</key>
+		<array>
+			<dict>
+				<key>installed_size</key>
+				<integer>0</integer>
+				<key>packageid</key>
+				<string>com.microsoft.office.all.quit.pkg.14.5.2.update</string>
+				<key>version</key>
+				<string>14.5.2</string>
+			</dict>
+			<dict>
+				<key>installed_size</key>
+				<integer>4</integer>
+				<key>packageid</key>
+				<string>com.microsoft.office.en.readme.pkg.14.5.2.update</string>
+				<key>version</key>
+				<string>14.5.2</string>
+			</dict>
+			<dict>
+				<key>installed_size</key>
+				<integer>12673</integer>
+				<key>packageid</key>
+				<string>com.microsoft.office.en.core_resources.pkg.14.5.2.update</string>
+				<key>version</key>
+				<string>14.5.2</string>
+			</dict>
+			<dict>
+				<key>installed_size</key>
+				<integer>22455</integer>
+				<key>packageid</key>
+				<string>com.microsoft.office.all.ooxml.pkg.14.5.2.update</string>
+				<key>version</key>
+				<string>14.5.2</string>
+			</dict>
+			<dict>
+				<key>installed_size</key>
+				<integer>7</integer>
+				<key>packageid</key>
+				<string>com.microsoft.office.en.clipart.pkg.14.5.2.update</string>
+				<key>version</key>
+				<string>14.5.2</string>
+			</dict>
+			<dict>
+				<key>installed_size</key>
+				<integer>35</integer>
+				<key>packageid</key>
+				<string>com.microsoft.office.en.equationeditor_resources.pkg.14.5.2.update</string>
+				<key>version</key>
+				<string>14.5.2</string>
+			</dict>
+			<dict>
+				<key>installed_size</key>
+				<integer>25</integer>
+				<key>packageid</key>
+				<string>com.microsoft.office.en.graph_resources.pkg.14.5.2.update</string>
+				<key>version</key>
+				<string>14.5.2</string>
+			</dict>
+			<dict>
+				<key>installed_size</key>
+				<integer>33</integer>
+				<key>packageid</key>
+				<string>com.microsoft.office.en.langregister.pkg.14.5.2.update</string>
+				<key>version</key>
+				<string>14.5.2</string>
+			</dict>
+			<dict>
+				<key>installed_size</key>
+				<integer>5</integer>
+				<key>packageid</key>
+				<string>com.microsoft.office.en.sharepointbrowserplugin_resources.pkg.14.5.2.update</string>
+				<key>version</key>
+				<string>14.5.2</string>
+			</dict>
+			<dict>
+				<key>installed_size</key>
+				<integer>1804</integer>
+				<key>packageid</key>
+				<string>com.microsoft.office.en.word_resources.pkg.14.5.2.update</string>
+				<key>version</key>
+				<string>14.5.2</string>
+			</dict>
+			<dict>
+				<key>installed_size</key>
+				<integer>33</integer>
+				<key>packageid</key>
+				<string>com.microsoft.office.en.word_wizards.pkg.14.5.2.update</string>
+				<key>version</key>
+				<string>14.5.2</string>
+			</dict>
+			<dict>
+				<key>installed_size</key>
+				<integer>1904</integer>
+				<key>packageid</key>
+				<string>com.microsoft.office.en.excel_resources.pkg.14.5.2.update</string>
+				<key>version</key>
+				<string>14.5.2</string>
+			</dict>
+			<dict>
+				<key>installed_size</key>
+				<integer>180</integer>
+				<key>packageid</key>
+				<string>com.microsoft.office.en.excel_templates.pkg.14.5.2.update</string>
+				<key>version</key>
+				<string>14.5.2</string>
+			</dict>
+			<dict>
+				<key>installed_size</key>
+				<integer>6649</integer>
+				<key>packageid</key>
+				<string>com.microsoft.office.en.query.pkg.14.5.2.update</string>
+				<key>version</key>
+				<string>14.5.2</string>
+			</dict>
+			<dict>
+				<key>installed_size</key>
+				<integer>858</integer>
+				<key>packageid</key>
+				<string>com.microsoft.office.en.solver.pkg.14.5.2.update</string>
+				<key>version</key>
+				<string>14.5.2</string>
+			</dict>
+			<dict>
+				<key>installed_size</key>
+				<integer>892</integer>
+				<key>packageid</key>
+				<string>com.microsoft.office.en.powerpoint_resources.pkg.14.5.2.update</string>
+				<key>version</key>
+				<string>14.5.2</string>
+			</dict>
+			<dict>
+				<key>installed_size</key>
+				<integer>5359</integer>
+				<key>packageid</key>
+				<string>com.microsoft.office.en.outlook_resources.pkg.14.5.2.update</string>
+				<key>version</key>
+				<string>14.5.2</string>
+			</dict>
+			<dict>
+				<key>installed_size</key>
+				<integer>11</integer>
+				<key>packageid</key>
+				<string>com.microsoft.office.en.outlook_scriptmenuitems.pkg.14.5.2.update</string>
+				<key>version</key>
+				<string>14.5.2</string>
+			</dict>
+			<dict>
+				<key>installed_size</key>
+				<integer>405</integer>
+				<key>packageid</key>
+				<string>com.microsoft.office.all.proofing_catalan.pkg.14.5.2.update</string>
+				<key>version</key>
+				<string>14.5.2</string>
+			</dict>
+			<dict>
+				<key>installed_size</key>
+				<integer>405</integer>
+				<key>packageid</key>
+				<string>com.microsoft.office.all.proofing_danish.pkg.14.5.2.update</string>
+				<key>version</key>
+				<string>14.5.2</string>
+			</dict>
+			<dict>
+				<key>installed_size</key>
+				<integer>405</integer>
+				<key>packageid</key>
+				<string>com.microsoft.office.all.proofing_dutch.pkg.14.5.2.update</string>
+				<key>version</key>
+				<string>14.5.2</string>
+			</dict>
+			<dict>
+				<key>installed_size</key>
+				<integer>1858</integer>
+				<key>packageid</key>
+				<string>com.microsoft.office.all.proofing_english.pkg.14.5.2.update</string>
+				<key>version</key>
+				<string>14.5.2</string>
+			</dict>
+			<dict>
+				<key>installed_size</key>
+				<integer>7</integer>
+				<key>packageid</key>
+				<string>com.microsoft.office.all.proofing_finnish.pkg.14.5.2.update</string>
+				<key>version</key>
+				<string>14.5.2</string>
+			</dict>
+			<dict>
+				<key>installed_size</key>
+				<integer>1399</integer>
+				<key>packageid</key>
+				<string>com.microsoft.office.all.proofing_french.pkg.14.5.2.update</string>
+				<key>version</key>
+				<string>14.5.2</string>
+			</dict>
+			<dict>
+				<key>installed_size</key>
+				<integer>1903</integer>
+				<key>packageid</key>
+				<string>com.microsoft.office.all.proofing_german.pkg.14.5.2.update</string>
+				<key>version</key>
+				<string>14.5.2</string>
+			</dict>
+			<dict>
+				<key>installed_size</key>
+				<integer>405</integer>
+				<key>packageid</key>
+				<string>com.microsoft.office.all.proofing_italian.pkg.14.5.2.update</string>
+				<key>version</key>
+				<string>14.5.2</string>
+			</dict>
+			<dict>
+				<key>installed_size</key>
+				<integer>1783</integer>
+				<key>packageid</key>
+				<string>com.microsoft.office.all.proofing_italian_grammar.pkg.14.5.2.update</string>
+				<key>version</key>
+				<string>14.5.2</string>
+			</dict>
+			<dict>
+				<key>installed_size</key>
+				<integer>292</integer>
+				<key>packageid</key>
+				<string>com.microsoft.office.all.proofing_japanese.pkg.14.5.2.update</string>
+				<key>version</key>
+				<string>14.5.2</string>
+			</dict>
+			<dict>
+				<key>installed_size</key>
+				<integer>808</integer>
+				<key>packageid</key>
+				<string>com.microsoft.office.all.proofing_norwegian.pkg.14.5.2.update</string>
+				<key>version</key>
+				<string>14.5.2</string>
+			</dict>
+			<dict>
+				<key>installed_size</key>
+				<integer>406</integer>
+				<key>packageid</key>
+				<string>com.microsoft.office.all.proofing_portuguese.pkg.14.5.2.update</string>
+				<key>version</key>
+				<string>14.5.2</string>
+			</dict>
+			<dict>
+				<key>installed_size</key>
+				<integer>405</integer>
+				<key>packageid</key>
+				<string>com.microsoft.office.all.proofing_brazilian.pkg.14.5.2.update</string>
+				<key>version</key>
+				<string>14.5.2</string>
+			</dict>
+			<dict>
+				<key>installed_size</key>
+				<integer>407</integer>
+				<key>packageid</key>
+				<string>com.microsoft.office.all.proofing_spanish.pkg.14.5.2.update</string>
+				<key>version</key>
+				<string>14.5.2</string>
+			</dict>
+			<dict>
+				<key>installed_size</key>
+				<integer>407</integer>
+				<key>packageid</key>
+				<string>com.microsoft.office.all.proofing_swedish.pkg.14.5.2.update</string>
+				<key>version</key>
+				<string>14.5.2</string>
+			</dict>
+			<dict>
+				<key>installed_size</key>
+				<integer>405</integer>
+				<key>packageid</key>
+				<string>com.microsoft.office.all.proofing_czech.pkg.14.5.2.update</string>
+				<key>version</key>
+				<string>14.5.2</string>
+			</dict>
+			<dict>
+				<key>installed_size</key>
+				<integer>405</integer>
+				<key>packageid</key>
+				<string>com.microsoft.office.all.proofing_polish.pkg.14.5.2.update</string>
+				<key>version</key>
+				<string>14.5.2</string>
+			</dict>
+			<dict>
+				<key>installed_size</key>
+				<integer>405</integer>
+				<key>packageid</key>
+				<string>com.microsoft.office.all.proofing_russian.pkg.14.5.2.update</string>
+				<key>version</key>
+				<string>14.5.2</string>
+			</dict>
+			<dict>
+				<key>installed_size</key>
+				<integer>405</integer>
+				<key>packageid</key>
+				<string>com.microsoft.office.all.proofing_turkish.pkg.14.5.2.update</string>
+				<key>version</key>
+				<string>14.5.2</string>
+			</dict>
+			<dict>
+				<key>installed_size</key>
+				<integer>401</integer>
+				<key>packageid</key>
+				<string>com.microsoft.office.en.dcc_resources.pkg.14.5.2.update</string>
+				<key>version</key>
+				<string>14.5.2</string>
+			</dict>
+			<dict>
+				<key>installed_size</key>
+				<integer>241</integer>
+				<key>packageid</key>
+				<string>com.microsoft.office.all.fonts.pkg.14.5.2.update</string>
+				<key>version</key>
+				<string>14.5.2</string>
+			</dict>
+			<dict>
+				<key>installed_size</key>
+				<integer>11241</integer>
+				<key>packageid</key>
+				<string>com.microsoft.office.all.automator.pkg.14.5.2.update</string>
+				<key>version</key>
+				<string>14.5.2</string>
+			</dict>
+			<dict>
+				<key>installed_size</key>
+				<integer>55</integer>
+				<key>packageid</key>
+				<string>com.microsoft.office.en.automator_workflow.pkg.14.5.2.update</string>
+				<key>version</key>
+				<string>14.5.2</string>
+			</dict>
+			<dict>
+				<key>installed_size</key>
+				<integer>6</integer>
+				<key>packageid</key>
+				<string>com.microsoft.office.all.equationeditor.pkg.14.5.2.update</string>
+				<key>version</key>
+				<string>14.5.2</string>
+			</dict>
+			<dict>
+				<key>installed_size</key>
+				<integer>3622</integer>
+				<key>packageid</key>
+				<string>com.microsoft.office.all.graph.pkg.14.5.2.update</string>
+				<key>version</key>
+				<string>14.5.2</string>
+			</dict>
+			<dict>
+				<key>installed_size</key>
+				<integer>242</integer>
+				<key>packageid</key>
+				<string>com.microsoft.office.all.sharepointbrowserplugin.pkg.14.5.2.update</string>
+				<key>version</key>
+				<string>14.5.2</string>
+			</dict>
+			<dict>
+				<key>installed_size</key>
+				<integer>36956</integer>
+				<key>packageid</key>
+				<string>com.microsoft.office.all.word.pkg.14.5.2.update</string>
+				<key>version</key>
+				<string>14.5.2</string>
+			</dict>
+			<dict>
+				<key>installed_size</key>
+				<integer>27716</integer>
+				<key>packageid</key>
+				<string>com.microsoft.office.all.excel.pkg.14.5.2.update</string>
+				<key>version</key>
+				<string>14.5.2</string>
+			</dict>
+			<dict>
+				<key>installed_size</key>
+				<integer>19512</integer>
+				<key>packageid</key>
+				<string>com.microsoft.office.all.powerpoint.pkg.14.5.2.update</string>
+				<key>version</key>
+				<string>14.5.2</string>
+			</dict>
+			<dict>
+				<key>installed_size</key>
+				<integer>24701</integer>
+				<key>packageid</key>
+				<string>com.microsoft.office.all.outlook.pkg.14.5.2.update</string>
+				<key>version</key>
+				<string>14.5.2</string>
+			</dict>
+			<dict>
+				<key>installed_size</key>
+				<integer>5524</integer>
+				<key>packageid</key>
+				<string>com.microsoft.office.all.vb.pkg.14.5.2.update</string>
+				<key>version</key>
+				<string>14.5.2</string>
+			</dict>
+			<dict>
+				<key>installed_size</key>
+				<integer>632</integer>
+				<key>packageid</key>
+				<string>com.microsoft.office.all.dcc.pkg.14.5.2.update</string>
+				<key>version</key>
+				<string>14.5.2</string>
+			</dict>
+			<dict>
+				<key>installed_size</key>
+				<integer>0</integer>
+				<key>packageid</key>
+				<string>com.microsoft.office.all.fix_permissions.pkg.14.5.2</string>
+				<key>version</key>
+				<string>14.5.2</string>
+			</dict>
+			<dict>
+				<key>installed_size</key>
+				<integer>142633</integer>
+				<key>packageid</key>
+				<string>com.microsoft.office.all.core.pkg.14.5.2.update</string>
+				<key>version</key>
+				<string>14.5.2</string>
+			</dict>
+		</array>
+		<key>requires</key>
+		<array>
+			<string>Office2011_update-14.1.0</string>
+		</array>
+		<key>uninstall_method</key>
+		<string>removepackages</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>update_for</key>
+		<array>
+			<string>Office2011</string>
+		</array>
+		<key>version</key>
+		<string>14.5.2</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>blocking_applications</key>
+		<array>
+			<string>MSN Messenger</string>
+			<string>Microsoft Lync</string>
+			<string>Microsoft Cert Manager</string>
+			<string>Microsoft Chart Converter</string>
+			<string>Microsoft Clip Gallery</string>
+			<string>Microsoft Entourage</string>
+			<string>Microsoft Outlook</string>
+			<string>Microsoft Error Reporting</string>
+			<string>Microsoft Excel</string>
+			<string>Microsoft Graph</string>
+			<string>Microsoft Help Viewer</string>
+			<string>Microsoft Language Register</string>
+			<string>Microsoft Communicator</string>
+			<string>Microsoft Messenger</string>
+			<string>Microsoft PowerPoint</string>
+			<string>Microsoft Query</string>
+			<string>Microsoft Word</string>
+			<string>My Day</string>
+			<string>Organization Chart</string>
+			<string>Expression Media</string>
+			<string>Remote Desktop Connection</string>
+			<string>Opera</string>
+			<string>Google Chrome</string>
+			<string>Firefox</string>
+			<string>Safari</string>
+		</array>
+		<key>catalogs</key>
+		<array>
+			<string>production</string>
+		</array>
+		<key>category</key>
+		<string>Productivity</string>
+		<key>description</key>
+		<string>&lt;html&gt;&lt;p&gt;This update fixes critical issues. &lt;/p&gt;
+
+&lt;p&gt;For detailed information about this update, please visit the following Web site: &lt;/p&gt;
+
+&lt;p&gt;&lt;a href="http://go.microsoft.com/fwlink/?LinkID=614982" target="_blank"&gt;http://go.microsoft.com/fwlink/?LinkID=614982&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;For additional assistance, or to obtain a downloadable version of this update, visit the &lt;a href="http://go.microsoft.com/fwlink/?LinkId=216459" target="_blank"&gt;Microsoft Web site&lt;/a&gt;.&lt;/p&gt;&lt;/html&gt;</string>
+		<key>developer</key>
+		<string>Microsoft</string>
+		<key>display_name</key>
+		<string>Office 2011 14.5.2 Update</string>
+		<key>installed_size</key>
+		<integer>339324</integer>
+		<key>installer_item_hash</key>
+		<string>1b91de416b6751bf1f56b91adfff9d135be390ae7f160ba44f59cf7f6392f081</string>
+		<key>installer_item_location</key>
+		<string>apps/Office2011/Office2011-1452Update_EN-US-14.5.2__1.dmg</string>
+		<key>installer_item_size</key>
+		<integer>116323</integer>
+		<key>installs</key>
+		<array>
+			<dict>
+				<key>CFBundleShortVersionString</key>
+				<string>14.5.2</string>
+				<key>CFBundleVersion</key>
+				<string>14.5.2</string>
+				<key>path</key>
+				<string>/Applications/Microsoft Office 2011/Office/MicrosoftComponentPlugin.framework</string>
+				<key>type</key>
+				<string>bundle</string>
+				<key>version_comparison_key</key>
+				<string>CFBundleShortVersionString</string>
+			</dict>
+		</array>
+		<key>minimum_os_version</key>
+		<string>10.5.8</string>
+		<key>name</key>
+		<string>Office2011_update</string>
+		<key>receipts</key>
+		<array>
+			<dict>
+				<key>installed_size</key>
+				<integer>0</integer>
+				<key>packageid</key>
+				<string>com.microsoft.office.all.quit.pkg.14.5.2.update</string>
+				<key>version</key>
+				<string>14.5.2</string>
+			</dict>
+			<dict>
+				<key>installed_size</key>
+				<integer>4</integer>
+				<key>packageid</key>
+				<string>com.microsoft.office.en.readme.pkg.14.5.2.update</string>
+				<key>version</key>
+				<string>14.5.2</string>
+			</dict>
+			<dict>
+				<key>installed_size</key>
+				<integer>12673</integer>
+				<key>packageid</key>
+				<string>com.microsoft.office.en.core_resources.pkg.14.5.2.update</string>
+				<key>version</key>
+				<string>14.5.2</string>
+			</dict>
+			<dict>
+				<key>installed_size</key>
+				<integer>22455</integer>
+				<key>packageid</key>
+				<string>com.microsoft.office.all.ooxml.pkg.14.5.2.update</string>
+				<key>version</key>
+				<string>14.5.2</string>
+			</dict>
+			<dict>
+				<key>installed_size</key>
+				<integer>7</integer>
+				<key>packageid</key>
+				<string>com.microsoft.office.en.clipart.pkg.14.5.2.update</string>
+				<key>version</key>
+				<string>14.5.2</string>
+			</dict>
+			<dict>
+				<key>installed_size</key>
+				<integer>35</integer>
+				<key>packageid</key>
+				<string>com.microsoft.office.en.equationeditor_resources.pkg.14.5.2.update</string>
+				<key>version</key>
+				<string>14.5.2</string>
+			</dict>
+			<dict>
+				<key>installed_size</key>
+				<integer>25</integer>
+				<key>packageid</key>
+				<string>com.microsoft.office.en.graph_resources.pkg.14.5.2.update</string>
+				<key>version</key>
+				<string>14.5.2</string>
+			</dict>
+			<dict>
+				<key>installed_size</key>
+				<integer>33</integer>
+				<key>packageid</key>
+				<string>com.microsoft.office.en.langregister.pkg.14.5.2.update</string>
+				<key>version</key>
+				<string>14.5.2</string>
+			</dict>
+			<dict>
+				<key>installed_size</key>
+				<integer>5</integer>
+				<key>packageid</key>
+				<string>com.microsoft.office.en.sharepointbrowserplugin_resources.pkg.14.5.2.update</string>
+				<key>version</key>
+				<string>14.5.2</string>
+			</dict>
+			<dict>
+				<key>installed_size</key>
+				<integer>1804</integer>
+				<key>packageid</key>
+				<string>com.microsoft.office.en.word_resources.pkg.14.5.2.update</string>
+				<key>version</key>
+				<string>14.5.2</string>
+			</dict>
+			<dict>
+				<key>installed_size</key>
+				<integer>33</integer>
+				<key>packageid</key>
+				<string>com.microsoft.office.en.word_wizards.pkg.14.5.2.update</string>
+				<key>version</key>
+				<string>14.5.2</string>
+			</dict>
+			<dict>
+				<key>installed_size</key>
+				<integer>1904</integer>
+				<key>packageid</key>
+				<string>com.microsoft.office.en.excel_resources.pkg.14.5.2.update</string>
+				<key>version</key>
+				<string>14.5.2</string>
+			</dict>
+			<dict>
+				<key>installed_size</key>
+				<integer>180</integer>
+				<key>packageid</key>
+				<string>com.microsoft.office.en.excel_templates.pkg.14.5.2.update</string>
+				<key>version</key>
+				<string>14.5.2</string>
+			</dict>
+			<dict>
+				<key>installed_size</key>
+				<integer>6649</integer>
+				<key>packageid</key>
+				<string>com.microsoft.office.en.query.pkg.14.5.2.update</string>
+				<key>version</key>
+				<string>14.5.2</string>
+			</dict>
+			<dict>
+				<key>installed_size</key>
+				<integer>858</integer>
+				<key>packageid</key>
+				<string>com.microsoft.office.en.solver.pkg.14.5.2.update</string>
+				<key>version</key>
+				<string>14.5.2</string>
+			</dict>
+			<dict>
+				<key>installed_size</key>
+				<integer>892</integer>
+				<key>packageid</key>
+				<string>com.microsoft.office.en.powerpoint_resources.pkg.14.5.2.update</string>
+				<key>version</key>
+				<string>14.5.2</string>
+			</dict>
+			<dict>
+				<key>installed_size</key>
+				<integer>5359</integer>
+				<key>packageid</key>
+				<string>com.microsoft.office.en.outlook_resources.pkg.14.5.2.update</string>
+				<key>version</key>
+				<string>14.5.2</string>
+			</dict>
+			<dict>
+				<key>installed_size</key>
+				<integer>11</integer>
+				<key>packageid</key>
+				<string>com.microsoft.office.en.outlook_scriptmenuitems.pkg.14.5.2.update</string>
+				<key>version</key>
+				<string>14.5.2</string>
+			</dict>
+			<dict>
+				<key>installed_size</key>
+				<integer>405</integer>
+				<key>packageid</key>
+				<string>com.microsoft.office.all.proofing_catalan.pkg.14.5.2.update</string>
+				<key>version</key>
+				<string>14.5.2</string>
+			</dict>
+			<dict>
+				<key>installed_size</key>
+				<integer>405</integer>
+				<key>packageid</key>
+				<string>com.microsoft.office.all.proofing_danish.pkg.14.5.2.update</string>
+				<key>version</key>
+				<string>14.5.2</string>
+			</dict>
+			<dict>
+				<key>installed_size</key>
+				<integer>405</integer>
+				<key>packageid</key>
+				<string>com.microsoft.office.all.proofing_dutch.pkg.14.5.2.update</string>
+				<key>version</key>
+				<string>14.5.2</string>
+			</dict>
+			<dict>
+				<key>installed_size</key>
+				<integer>1858</integer>
+				<key>packageid</key>
+				<string>com.microsoft.office.all.proofing_english.pkg.14.5.2.update</string>
+				<key>version</key>
+				<string>14.5.2</string>
+			</dict>
+			<dict>
+				<key>installed_size</key>
+				<integer>7</integer>
+				<key>packageid</key>
+				<string>com.microsoft.office.all.proofing_finnish.pkg.14.5.2.update</string>
+				<key>version</key>
+				<string>14.5.2</string>
+			</dict>
+			<dict>
+				<key>installed_size</key>
+				<integer>1399</integer>
+				<key>packageid</key>
+				<string>com.microsoft.office.all.proofing_french.pkg.14.5.2.update</string>
+				<key>version</key>
+				<string>14.5.2</string>
+			</dict>
+			<dict>
+				<key>installed_size</key>
+				<integer>1903</integer>
+				<key>packageid</key>
+				<string>com.microsoft.office.all.proofing_german.pkg.14.5.2.update</string>
+				<key>version</key>
+				<string>14.5.2</string>
+			</dict>
+			<dict>
+				<key>installed_size</key>
+				<integer>405</integer>
+				<key>packageid</key>
+				<string>com.microsoft.office.all.proofing_italian.pkg.14.5.2.update</string>
+				<key>version</key>
+				<string>14.5.2</string>
+			</dict>
+			<dict>
+				<key>installed_size</key>
+				<integer>1783</integer>
+				<key>packageid</key>
+				<string>com.microsoft.office.all.proofing_italian_grammar.pkg.14.5.2.update</string>
+				<key>version</key>
+				<string>14.5.2</string>
+			</dict>
+			<dict>
+				<key>installed_size</key>
+				<integer>292</integer>
+				<key>packageid</key>
+				<string>com.microsoft.office.all.proofing_japanese.pkg.14.5.2.update</string>
+				<key>version</key>
+				<string>14.5.2</string>
+			</dict>
+			<dict>
+				<key>installed_size</key>
+				<integer>808</integer>
+				<key>packageid</key>
+				<string>com.microsoft.office.all.proofing_norwegian.pkg.14.5.2.update</string>
+				<key>version</key>
+				<string>14.5.2</string>
+			</dict>
+			<dict>
+				<key>installed_size</key>
+				<integer>406</integer>
+				<key>packageid</key>
+				<string>com.microsoft.office.all.proofing_portuguese.pkg.14.5.2.update</string>
+				<key>version</key>
+				<string>14.5.2</string>
+			</dict>
+			<dict>
+				<key>installed_size</key>
+				<integer>405</integer>
+				<key>packageid</key>
+				<string>com.microsoft.office.all.proofing_brazilian.pkg.14.5.2.update</string>
+				<key>version</key>
+				<string>14.5.2</string>
+			</dict>
+			<dict>
+				<key>installed_size</key>
+				<integer>407</integer>
+				<key>packageid</key>
+				<string>com.microsoft.office.all.proofing_spanish.pkg.14.5.2.update</string>
+				<key>version</key>
+				<string>14.5.2</string>
+			</dict>
+			<dict>
+				<key>installed_size</key>
+				<integer>407</integer>
+				<key>packageid</key>
+				<string>com.microsoft.office.all.proofing_swedish.pkg.14.5.2.update</string>
+				<key>version</key>
+				<string>14.5.2</string>
+			</dict>
+			<dict>
+				<key>installed_size</key>
+				<integer>405</integer>
+				<key>packageid</key>
+				<string>com.microsoft.office.all.proofing_czech.pkg.14.5.2.update</string>
+				<key>version</key>
+				<string>14.5.2</string>
+			</dict>
+			<dict>
+				<key>installed_size</key>
+				<integer>405</integer>
+				<key>packageid</key>
+				<string>com.microsoft.office.all.proofing_polish.pkg.14.5.2.update</string>
+				<key>version</key>
+				<string>14.5.2</string>
+			</dict>
+			<dict>
+				<key>installed_size</key>
+				<integer>405</integer>
+				<key>packageid</key>
+				<string>com.microsoft.office.all.proofing_russian.pkg.14.5.2.update</string>
+				<key>version</key>
+				<string>14.5.2</string>
+			</dict>
+			<dict>
+				<key>installed_size</key>
+				<integer>405</integer>
+				<key>packageid</key>
+				<string>com.microsoft.office.all.proofing_turkish.pkg.14.5.2.update</string>
+				<key>version</key>
+				<string>14.5.2</string>
+			</dict>
+			<dict>
+				<key>installed_size</key>
+				<integer>401</integer>
+				<key>packageid</key>
+				<string>com.microsoft.office.en.dcc_resources.pkg.14.5.2.update</string>
+				<key>version</key>
+				<string>14.5.2</string>
+			</dict>
+			<dict>
+				<key>installed_size</key>
+				<integer>241</integer>
+				<key>packageid</key>
+				<string>com.microsoft.office.all.fonts.pkg.14.5.2.update</string>
+				<key>version</key>
+				<string>14.5.2</string>
+			</dict>
+			<dict>
+				<key>installed_size</key>
+				<integer>11241</integer>
+				<key>packageid</key>
+				<string>com.microsoft.office.all.automator.pkg.14.5.2.update</string>
+				<key>version</key>
+				<string>14.5.2</string>
+			</dict>
+			<dict>
+				<key>installed_size</key>
+				<integer>55</integer>
+				<key>packageid</key>
+				<string>com.microsoft.office.en.automator_workflow.pkg.14.5.2.update</string>
+				<key>version</key>
+				<string>14.5.2</string>
+			</dict>
+			<dict>
+				<key>installed_size</key>
+				<integer>6</integer>
+				<key>packageid</key>
+				<string>com.microsoft.office.all.equationeditor.pkg.14.5.2.update</string>
+				<key>version</key>
+				<string>14.5.2</string>
+			</dict>
+			<dict>
+				<key>installed_size</key>
+				<integer>3622</integer>
+				<key>packageid</key>
+				<string>com.microsoft.office.all.graph.pkg.14.5.2.update</string>
+				<key>version</key>
+				<string>14.5.2</string>
+			</dict>
+			<dict>
+				<key>installed_size</key>
+				<integer>242</integer>
+				<key>packageid</key>
+				<string>com.microsoft.office.all.sharepointbrowserplugin.pkg.14.5.2.update</string>
+				<key>version</key>
+				<string>14.5.2</string>
+			</dict>
+			<dict>
+				<key>installed_size</key>
+				<integer>36956</integer>
+				<key>packageid</key>
+				<string>com.microsoft.office.all.word.pkg.14.5.2.update</string>
+				<key>version</key>
+				<string>14.5.2</string>
+			</dict>
+			<dict>
+				<key>installed_size</key>
+				<integer>27716</integer>
+				<key>packageid</key>
+				<string>com.microsoft.office.all.excel.pkg.14.5.2.update</string>
+				<key>version</key>
+				<string>14.5.2</string>
+			</dict>
+			<dict>
+				<key>installed_size</key>
+				<integer>19512</integer>
+				<key>packageid</key>
+				<string>com.microsoft.office.all.powerpoint.pkg.14.5.2.update</string>
+				<key>version</key>
+				<string>14.5.2</string>
+			</dict>
+			<dict>
+				<key>installed_size</key>
+				<integer>24701</integer>
+				<key>packageid</key>
+				<string>com.microsoft.office.all.outlook.pkg.14.5.2.update</string>
+				<key>version</key>
+				<string>14.5.2</string>
+			</dict>
+			<dict>
+				<key>installed_size</key>
+				<integer>5524</integer>
+				<key>packageid</key>
+				<string>com.microsoft.office.all.vb.pkg.14.5.2.update</string>
+				<key>version</key>
+				<string>14.5.2</string>
+			</dict>
+			<dict>
+				<key>installed_size</key>
+				<integer>632</integer>
+				<key>packageid</key>
+				<string>com.microsoft.office.all.dcc.pkg.14.5.2.update</string>
+				<key>version</key>
+				<string>14.5.2</string>
+			</dict>
+			<dict>
+				<key>installed_size</key>
+				<integer>0</integer>
+				<key>packageid</key>
+				<string>com.microsoft.office.all.fix_permissions.pkg.14.5.2</string>
+				<key>version</key>
+				<string>14.5.2</string>
+			</dict>
+			<dict>
+				<key>installed_size</key>
+				<integer>142633</integer>
+				<key>packageid</key>
+				<string>com.microsoft.office.all.core.pkg.14.5.2.update</string>
+				<key>version</key>
+				<string>14.5.2</string>
+			</dict>
+		</array>
+		<key>requires</key>
+		<array>
+			<string>Office2011_update-14.1.0</string>
+		</array>
+		<key>uninstall_method</key>
+		<string>removepackages</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>update_for</key>
+		<array>
+			<string>Office2011</string>
+		</array>
+		<key>version</key>
+		<string>14.5.2</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
 		<key>catalogs</key>
 		<array>
 			<string>production</string>
@@ -28860,6 +30324,81 @@ rm '/Library/PrivilegedHelperTools/Google Drive Icon Helper'
 		<true/>
 		<key>version</key>
 		<string>2.0-beta.7.1</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>production</string>
+		</array>
+		<key>category</key>
+		<string>Text Editors</string>
+		<key>description</key>
+		<string>TextMate brings Apple's approach to operating systems into the world of text editors. By bridging UNIX underpinnings and GUI, TextMate cherry-picks the best of both worlds to the benefit of expert scripters and novice users alike.</string>
+		<key>developer</key>
+		<string>MacroMates Ltd.</string>
+		<key>display_name</key>
+		<string>TextMate 2</string>
+		<key>installer_item_hash</key>
+		<string>0c0ee57bf919464d59c2375c524196072a8938ba96d17493a7249eb2a9dd8656</string>
+		<key>installer_item_location</key>
+		<string>apps/TextMate2/TextMate2-2.0-beta.7.4.dmg</string>
+		<key>installer_item_size</key>
+		<integer>18045</integer>
+		<key>installer_type</key>
+		<string>copy_from_dmg</string>
+		<key>installs</key>
+		<array>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>com.macromates.TextMate.preview</string>
+				<key>CFBundleName</key>
+				<string>TextMate</string>
+				<key>CFBundleShortVersionString</key>
+				<string>2.0-beta.7.4</string>
+				<key>CFBundleVersion</key>
+				<string>9800</string>
+				<key>minosversion</key>
+				<string>10.7</string>
+				<key>path</key>
+				<string>/Applications/TextMate.app</string>
+				<key>type</key>
+				<string>application</string>
+				<key>version_comparison_key</key>
+				<string>CFBundleShortVersionString</string>
+			</dict>
+		</array>
+		<key>items_to_copy</key>
+		<array>
+			<dict>
+				<key>destination_path</key>
+				<string>/Applications</string>
+				<key>source_item</key>
+				<string>TextMate.app</string>
+			</dict>
+		</array>
+		<key>minimum_os_version</key>
+		<string>10.7</string>
+		<key>name</key>
+		<string>TextMate2</string>
+		<key>postinstall_script</key>
+		<string>#!/bin/sh
+[ -d /usr/local/bin ] || mkdir -p /usr/local/bin
+/bin/cp -f -p /Applications/TextMate.app/Contents/Resources/mate /usr/local/bin/mate
+</string>
+		<key>postuninstall_script</key>
+		<string>#!/bin/sh
+[ -e /usr/local/bin/mate ] &amp;&amp; rm -f /usr/local/bin/mate
+</string>
+		<key>unattended_install</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>remove_copied_items</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>2.0-beta.7.4</string>
 	</dict>
 	<dict>
 		<key>autoremove</key>
@@ -30639,6 +32178,55 @@ rm '/Library/PrivilegedHelperTools/Google Drive Icon Helper'
 		<true/>
 		<key>version</key>
 		<string>18.0.0.160</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>production</string>
+		</array>
+		<key>category</key>
+		<string>Internet Plugin</string>
+		<key>description</key>
+		<string>Adobe® Flash® Player is a cross-platform browser-based application runtime that delivers uncompromised viewing of expressive applications, content, and videos across screens and browsers.</string>
+		<key>developer</key>
+		<string>Adobe</string>
+		<key>display_name</key>
+		<string>Adobe Flash Player</string>
+		<key>installed_size</key>
+		<integer>16729</integer>
+		<key>installer_item_hash</key>
+		<string>7718689b2d2c026c9d79ce3225ab89c4a987aca45032d9106915b518136e2ed3</string>
+		<key>installer_item_location</key>
+		<string>internet_plugins/AdobeFlashPlayer-18.0.0.194.dmg</string>
+		<key>installer_item_size</key>
+		<integer>15951</integer>
+		<key>minimum_os_version</key>
+		<string>10.5.0</string>
+		<key>name</key>
+		<string>AdobeFlashPlayer</string>
+		<key>package_path</key>
+		<string>Install Adobe Flash Player.app/Contents/Resources/Adobe Flash Player.pkg</string>
+		<key>receipts</key>
+		<array>
+			<dict>
+				<key>installed_size</key>
+				<integer>16729</integer>
+				<key>packageid</key>
+				<string>com.adobe.pkg.FlashPlayer</string>
+				<key>version</key>
+				<string>18.0.0.194</string>
+			</dict>
+		</array>
+		<key>unattended_install</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>removepackages</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>18.0.0.194</string>
 	</dict>
 	<dict>
 		<key>autoremove</key>

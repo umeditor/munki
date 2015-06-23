@@ -248,6 +248,84 @@ rm '/Library/PrivilegedHelperTools/Google Drive Icon Helper'
 		<array>
 			<string>testing</string>
 		</array>
+		<key>description</key>
+		<string>Google Drive sync for Mac. Access files on your computer from anywhere.</string>
+		<key>display_name</key>
+		<string>Google Drive</string>
+		<key>installer_item_hash</key>
+		<string>05024a1149bda8390f2d111d08bca590b9a63c01ea86fbb61d2868965d9587a8</string>
+		<key>installer_item_location</key>
+		<string>apps/google/GoogleDrive-1.22.9403.0223.dmg</string>
+		<key>installer_item_size</key>
+		<integer>41352</integer>
+		<key>installer_type</key>
+		<string>copy_from_dmg</string>
+		<key>installs</key>
+		<array>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>com.google.GoogleDrive</string>
+				<key>CFBundleName</key>
+				<string>Google Drive</string>
+				<key>CFBundleShortVersionString</key>
+				<string>1.22</string>
+				<key>CFBundleVersion</key>
+				<string>1.22.9403.0223</string>
+				<key>path</key>
+				<string>/Applications/Google Drive.app</string>
+				<key>type</key>
+				<string>application</string>
+				<key>version_comparison_key</key>
+				<string>CFBundleVersion</string>
+			</dict>
+		</array>
+		<key>items_to_copy</key>
+		<array>
+			<dict>
+				<key>destination_path</key>
+				<string>/Applications</string>
+				<key>source_item</key>
+				<string>Google Drive.app</string>
+			</dict>
+		</array>
+		<key>minimum_os_version</key>
+		<string>10.6</string>
+		<key>name</key>
+		<string>GoogleDrive</string>
+		<key>postinstall_script</key>
+		<string>#!/bin/sh
+
+# Appreciatively copied from
+# https://github.com/Ginja/Admin_Scripts/blob/master/google_drive_helper.rb
+
+cp \
+        '/Applications/Google Drive.app/Contents/Helpers/Google Drive Icon Helper' \
+        '/Library/PrivilegedHelperTools/Google Drive Icon Helper'
+
+chmod 6755 '/Library/PrivilegedHelperTools/Google Drive Icon Helper'
+chown root:procmod '/Library/PrivilegedHelperTools/Google Drive Icon Helper'
+</string>
+		<key>postuninstall_script</key>
+		<string>#/bin/sh
+
+rm '/Library/PrivilegedHelperTools/Google Drive Icon Helper'
+</string>
+		<key>unattended_install</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>remove_copied_items</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>1.22.9403.0223</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>testing</string>
+		</array>
 		<key>category</key>
 		<string>Developer</string>
 		<key>description</key>
@@ -336,6 +414,102 @@ rm '/Library/PrivilegedHelperTools/Google Drive Icon Helper'
 		<true/>
 		<key>version</key>
 		<string>3.1.3</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>testing</string>
+		</array>
+		<key>category</key>
+		<string>Developer</string>
+		<key>description</key>
+		<string>R is a language and environment for statistical computing and graphics which provides a wide variety of statistical and graphical techniques: linear and nonlinear modelling, statistical tests, time series analysis, classification, clustering, etc.</string>
+		<key>developer</key>
+		<string>R Foundation</string>
+		<key>display_name</key>
+		<string>R for Mac OS X</string>
+		<key>installed_size</key>
+		<integer>150016</integer>
+		<key>installer_item_hash</key>
+		<string>88b9a20af00a916f3902ccac83098643b95a2801eb4775d38130b26871323a3f</string>
+		<key>installer_item_location</key>
+		<string>apps/R/R-3.2.1.pkg</string>
+		<key>installer_item_size</key>
+		<integer>70122</integer>
+		<key>installs</key>
+		<array>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>org.R-project.R</string>
+				<key>CFBundleName</key>
+				<string>R</string>
+				<key>CFBundleShortVersionString</key>
+				<string>R 3.2.1 GUI 1.66 Snow Leopard build</string>
+				<key>CFBundleVersion</key>
+				<string>6956</string>
+				<key>minosversion</key>
+				<string>MIN_VERSION</string>
+				<key>path</key>
+				<string>/Applications/R.app</string>
+				<key>type</key>
+				<string>application</string>
+				<key>version_comparison_key</key>
+				<string>CFBundleVersion</string>
+			</dict>
+			<dict>
+				<key>CFBundleVersion</key>
+				<string>3.2.1</string>
+				<key>path</key>
+				<string>/Library/Frameworks/R.framework</string>
+				<key>type</key>
+				<string>bundle</string>
+				<key>version_comparison_key</key>
+				<string>CFBundleVersion</string>
+			</dict>
+		</array>
+		<key>minimum_os_version</key>
+		<string>10.5.0</string>
+		<key>name</key>
+		<string>R</string>
+		<key>receipts</key>
+		<array>
+			<dict>
+				<key>installed_size</key>
+				<integer>36448</integer>
+				<key>packageid</key>
+				<string>org.r-project.x86_64.tcltk.x11</string>
+				<key>version</key>
+				<string>8.6.0</string>
+			</dict>
+			<dict>
+				<key>installed_size</key>
+				<integer>4084</integer>
+				<key>packageid</key>
+				<string>org.r-project.R.x86_64.GUI.pkg</string>
+				<key>version</key>
+				<string>1.66</string>
+			</dict>
+			<dict>
+				<key>installed_size</key>
+				<integer>109484</integer>
+				<key>packageid</key>
+				<string>org.r-project.R.x86_64.fw.pkg</string>
+				<key>version</key>
+				<string>30268531</string>
+			</dict>
+		</array>
+		<key>unattended_install</key>
+		<true/>
+		<key>unattended_uninstall</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>removepackages</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>3.2.1</string>
 	</dict>
 	<dict>
 		<key>autoremove</key>
