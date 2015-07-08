@@ -41,6 +41,7 @@
 		<string>iPhoto</string>
 		<string>CasperClient</string>
 		<string>SketchUpMake</string>
+		<string>MacTeX</string>
 	</array>
 	<key>managed_uninstalls</key>
 	<array>

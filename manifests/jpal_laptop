@@ -10,6 +10,7 @@
 	<array>
 		<string>printers</string>
 		<string>munki_client</string>
+		<string>jpal_optional_installs</string>
 	</array>
 	<key>managed_installs</key>
 	<array>
