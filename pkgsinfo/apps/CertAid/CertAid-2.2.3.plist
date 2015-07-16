@@ -2,8 +2,6 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>Category</key>
-	<string>Security</string>
 	<key>_metadata</key>
 	<dict>
 		<key>created_by</key>
@@ -25,6 +23,8 @@
 	<string>CertAid 2.x manages the entire certificate setup procedure for Safari and Google Chrome browsers on Mac OS X 10.7 and up, giving users a more reliable installation experience.
 
 The setup procedure includes installing the MIT CA as well as the user's personal certificate, optionally deleting old certificates, and setting the correct identity preferences via a single, graphical application. If you need to retain access to old user certificates, e.g., for access to encrypted mail, you should not delete them.</string>
+	<key>category</key>
+	<string>Security</string>
 	<key>developer</key>
 	<string>MIT IS&amp;T</string>
 	<key>display_name</key>

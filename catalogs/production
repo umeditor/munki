@@ -13043,8 +13043,6 @@ exit 0
 		<string>1.2.3</string>
 	</dict>
 	<dict>
-		<key>Category</key>
-		<string>Security</string>
 		<key>autoremove</key>
 		<false/>
 		<key>catalogs</key>
@@ -13113,14 +13111,14 @@ The setup procedure includes installing the MIT CA as well as the user's persona
 		<string>2.2.2</string>
 	</dict>
 	<dict>
-		<key>Category</key>
-		<string>Security</string>
 		<key>autoremove</key>
 		<false/>
 		<key>catalogs</key>
 		<array>
 			<string>production</string>
 		</array>
+		<key>category</key>
+		<string>Security</string>
 		<key>description</key>
 		<string>CertAid 2.x manages the entire certificate setup procedure for Safari and Google Chrome browsers on Mac OS X 10.7 and up, giving users a more reliable installation experience.
 
