@@ -9,7 +9,7 @@
 		<key>created_by</key>
 		<string>mcneal</string>
 		<key>creation_date</key>
-		<date>2015-07-17T16:08:53Z</date>
+		<date>2015-07-17T17:33:21Z</date>
 		<key>munki_version</key>
 		<string>2.2.0.2399</string>
 		<key>os_version</key>
@@ -28,11 +28,11 @@
 	<key>display_name</key>
 	<string>VMware Fusion</string>
 	<key>installer_item_hash</key>
-	<string>82f8e731a37e663a70f1365dc8978a735a95d3c430d0a1affe49ab8c8bca9047</string>
+	<string>4c45735479a1064e3a666b06f20657d041e3eb1f89755af97a5ba988c7fc82c6</string>
 	<key>installer_item_location</key>
 	<string>apps/vmware/fusion/VMwareFusion-7.1.2.dmg</string>
 	<key>installer_item_size</key>
-	<integer>343848</integer>
+	<integer>343838</integer>
 	<key>minimum_os_version</key>
 	<string>10.4.0</string>
 	<key>name</key>
