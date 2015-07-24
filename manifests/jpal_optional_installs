@@ -42,6 +42,7 @@
 		<string>CasperClient</string>
 		<string>SketchUpMake</string>
 		<string>MacTeX</string>
+		<string>SublimeText3</string>
 	</array>
 	<key>managed_uninstalls</key>
 	<array>
