@@ -25,6 +25,8 @@
 	<string>VMware Fusion is a desktop application that lets you create and run virtual machines on your Intel-based Macintosh.</string>
 	<key>developer</key>
 	<string>VMware, Inc.</string>
+	<key>category</key>
+	<string>Utilities</string>
 	<key>display_name</key>
 	<string>VMware Fusion</string>
 	<key>installer_item_hash</key>

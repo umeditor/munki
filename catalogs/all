@@ -12811,7 +12811,7 @@ exit 0
 			<string>production</string>
 		</array>
 		<key>category</key>
-		<string>Internat PLugin</string>
+		<string>Intenet Plugin</string>
 		<key>description</key>
 		<string>The Adobe AIR runtime enables developers to package the same code into native applications and games for Windows and Mac OS desktops as well as iOS and Android devices, reaching over a billion desktop systems and mobile app stores for over 500 million devices.</string>
 		<key>developer</key>
@@ -32791,7 +32791,7 @@ rm '/Library/PrivilegedHelperTools/Google Drive Icon Helper'
 			<string>production</string>
 		</array>
 		<key>category</key>
-		<string>Developer Tools</string>
+		<string>Text Editors</string>
 		<key>description</key>
 		<string>Sublime Text is an advanced text editor for OS X.</string>
 		<key>display_name</key>
@@ -33914,6 +33914,8 @@ rm '/Library/PrivilegedHelperTools/Google Drive Icon Helper'
 		<array>
 			<string>production</string>
 		</array>
+		<key>category</key>
+		<string>Utilities</string>
 		<key>description</key>
 		<string>VMware Fusion is a desktop application that lets you create and run virtual machines on your Intel-based Macintosh.</string>
 		<key>developer</key>
