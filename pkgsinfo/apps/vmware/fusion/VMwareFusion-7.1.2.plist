@@ -37,15 +37,25 @@
 	<string>10.4.0</string>
 	<key>name</key>
 	<string>VMwareFusion</string>
-	<key>receipts</key>
+	<key>installs</key>
 	<array>
 		<dict>
-			<key>installed_size</key>
-			<integer>0</integer>
-			<key>packageid</key>
-			<string>com.vmware.fusion.pkg.massdeploy</string>
-			<key>version</key>
-			<string>1.0</string>
+			<key>CFBundleIdentifier</key>
+			<string>com.vmware.fusion</string>
+			<key>CFBundleName</key>
+			<string>VMware Fusion</string>
+			<key>CFBundleShortVersionString</key>
+			<string>7.1.2</string>
+			<key>CFBundleVersion</key>
+			<string>2779224</string>
+			<key>minosversion</key>
+			<string>10.8.0</string>
+			<key>path</key>
+			<string>/Applications/VMware Fusion.app</string>
+			<key>type</key>
+			<string>application</string>
+			<key>version_comparison_key</key>
+			<string>CFBundleShortVersionString</string>
 		</dict>
 	</array>
 	<key>unattended_install</key>
