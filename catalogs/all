@@ -12811,7 +12811,7 @@ exit 0
 			<string>production</string>
 		</array>
 		<key>category</key>
-		<string>Intenet Plugin</string>
+		<string>Internet Plugin</string>
 		<key>description</key>
 		<string>The Adobe AIR runtime enables developers to package the same code into native applications and games for Windows and Mac OS desktops as well as iOS and Android devices, reaching over a billion desktop systems and mobile app stores for over 500 million devices.</string>
 		<key>developer</key>
