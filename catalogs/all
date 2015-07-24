@@ -32791,6 +32791,70 @@ rm '/Library/PrivilegedHelperTools/Google Drive Icon Helper'
 			<string>production</string>
 		</array>
 		<key>category</key>
+		<string>Developer Tools</string>
+		<key>description</key>
+		<string>Sublime Text is an advanced text editor for OS X.</string>
+		<key>display_name</key>
+		<string>Sublime Text 3</string>
+		<key>installer_item_hash</key>
+		<string>fe6dd8d8192fdb01988f99289e5bc1d9a4e66cf67548e144002051c23369a5ff</string>
+		<key>installer_item_location</key>
+		<string>apps/SublimeText/SublimeText3/SublimeText3-3083.dmg</string>
+		<key>installer_item_size</key>
+		<integer>10487</integer>
+		<key>installer_type</key>
+		<string>copy_from_dmg</string>
+		<key>installs</key>
+		<array>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>com.sublimetext.3</string>
+				<key>CFBundleName</key>
+				<string>Sublime Text</string>
+				<key>CFBundleShortVersionString</key>
+				<string>Build 3083</string>
+				<key>CFBundleVersion</key>
+				<string>3083</string>
+				<key>minosversion</key>
+				<string>10.7</string>
+				<key>path</key>
+				<string>/Applications/Sublime Text.app</string>
+				<key>type</key>
+				<string>application</string>
+				<key>version_comparison_key</key>
+				<string>CFBundleVersion</string>
+			</dict>
+		</array>
+		<key>items_to_copy</key>
+		<array>
+			<dict>
+				<key>destination_path</key>
+				<string>/Applications</string>
+				<key>source_item</key>
+				<string>Sublime Text.app</string>
+			</dict>
+		</array>
+		<key>minimum_os_version</key>
+		<string>10.7</string>
+		<key>name</key>
+		<string>SublimeText3</string>
+		<key>unattended_install</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>remove_copied_items</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>3083</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>production</string>
+		</array>
+		<key>category</key>
 		<string>Text Editors</string>
 		<key>description</key>
 		<string>TextMate brings Apple's approach to operating systems into the world of text editors. By bridging UNIX underpinnings and GUI, TextMate cherry-picks the best of both worlds to the benefit of expert scripters and novice users alike.</string>
