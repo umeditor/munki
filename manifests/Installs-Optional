@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>catalogs</key>
+  <array>
+    <string>production</string>
+  </array>
+  <key>included_manifests</key>
+  <array>
+  </array>
+  <key>managed_installs</key>
+  <array>
+  </array>
+  <key>managed_uninstalls</key>
+  <array>
+  </array>
+  <key>optional_installs</key>
+  <array>
+      <string>AdobeAIR</string>
+      <string>AdobeAcrobatProXI</string>
+      <string>AdobeFlashPlayer</string>
+      <string>Atom</string>
+      <string>AutoPkgr</string>
+      <string>CertAid</string>
+      <string>CiscoAnyConnectVPN</string>
+      <string>CitrixReceiver</string>
+      <string>Cyberduck</string>
+      <string>Dropbox</string>
+      <string>Evernote</string>
+      <string>GoogleChrome</string>
+      <string>GoogleDrive</string>
+      <string>GoogleEarth</string>
+      <string>Keynote</string>
+      <string>MPEGStreamclip</string>
+      <string>MacTeX</string>
+      <string>Office2011</string>
+      <string>Silverlight</string>
+      <string>SketchUpMake</string>
+      <string>Skype</string>
+      <string>Spotify</string>
+      <string>SublimeText3</string>
+      <string>TextMate2</string>
+      <string>Thunderbird</string>
+      <string>TrueCrypt</string>
+      <string>VMwareFusion</string>
+      <string>XDDecode</string>
+      <string>Xcode</string>
+      <string>iPhoto</string>
+  </array>
+</dict>
+</plist>
