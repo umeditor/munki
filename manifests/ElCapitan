@@ -8,7 +8,7 @@
   </array>
   <key>included_manifests</key>
   <array>
-      <string>Installs-Requried</string>
+      <string>Installs-Required</string>
       <string>Installs-Optional</string>
       <string>munki_client</string>
   </array>
