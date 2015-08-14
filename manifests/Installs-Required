@@ -11,6 +11,8 @@
   </array>
   <key>managed_installs</key>
   <array>
+      <string>CertAid</string>
+      <string>CiscoAnyConnectVPN</string>
       <string>SophosAntiVirus</string>
   </array>
   <key>managed_uninstalls</key>
