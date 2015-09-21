@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>_metadata</key>
+	<dict>
+		<key>created_by</key>
+		<string>mcneal</string>
+		<key>creation_date</key>
+		<date>2015-09-21T15:10:48Z</date>
+		<key>munki_version</key>
+		<string>2.3.0.2519</string>
+		<key>os_version</key>
+		<string>10.10.5</string>
+	</dict>
+	<key>autoremove</key>
+	<false/>
+	<key>catalogs</key>
+	<array>
+		<string>production</string>
+	</array>
+	<key>category</key>
+	<string>Utilities</string>
+	<key>description</key>
+	<string>AutoPkgr makes it simple to get started using autopkg to automate Mac software packaging.</string>
+	<key>developer</key>
+	<string>The Linde Group, Inc.</string>
+	<key>display_name</key>
+	<string>AutoPkgr</string>
+	<key>installer_item_hash</key>
+	<string>59a5dd6806bff16c58cc932893bb8f90d8102e3f9ff4adc135d0a38ba39637f9</string>
+	<key>installer_item_location</key>
+	<string>apps/AutoPkgr/AutoPkgr-1.3.2.dmg</string>
+	<key>installer_item_size</key>
+	<integer>2781</integer>
+	<key>installer_type</key>
+	<string>copy_from_dmg</string>
+	<key>installs</key>
+	<array>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.lindegroup.AutoPkgr</string>
+			<key>CFBundleName</key>
+			<string>AutoPkgr</string>
+			<key>CFBundleShortVersionString</key>
+			<string>1.3.2</string>
+			<key>CFBundleVersion</key>
+			<string>1104</string>
+			<key>minosversion</key>
+			<string>10.8</string>
+			<key>path</key>
+			<string>/Applications/AutoPkgr.app</string>
+			<key>type</key>
+			<string>application</string>
+			<key>version_comparison_key</key>
+			<string>CFBundleShortVersionString</string>
+		</dict>
+	</array>
+	<key>items_to_copy</key>
+	<array>
+		<dict>
+			<key>destination_path</key>
+			<string>/Applications</string>
+			<key>source_item</key>
+			<string>AutoPkgr.app</string>
+		</dict>
+	</array>
+	<key>minimum_os_version</key>
+	<string>10.8</string>
+	<key>name</key>
+	<string>AutoPkgr</string>
+	<key>unattended_install</key>
+	<true/>
+	<key>uninstall_method</key>
+	<string>remove_copied_items</string>
+	<key>uninstallable</key>
+	<true/>
+	<key>version</key>
+	<string>1.3.2</string>
+</dict>
+</plist>
