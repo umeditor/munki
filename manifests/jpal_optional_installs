@@ -43,6 +43,7 @@
 		<string>SketchUpMake</string>
 		<string>MacTeX</string>
 		<string>SublimeText3</string>
+		<string>VLC</string>
 	</array>
 	<key>managed_uninstalls</key>
 	<array>
