@@ -8534,6 +8534,138 @@ exit 0
 		<key>display_name</key>
 		<string>Google Chrome</string>
 		<key>installer_item_hash</key>
+		<string>2e28d127427f3ad68fca14e71eb24af2373d1548dfcaee2f10b0814183bf051f</string>
+		<key>installer_item_location</key>
+		<string>apps/GoogleChrome-45.0.2454.101.dmg</string>
+		<key>installer_item_size</key>
+		<integer>63472</integer>
+		<key>installer_type</key>
+		<string>copy_from_dmg</string>
+		<key>installs</key>
+		<array>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>com.google.Chrome</string>
+				<key>CFBundleName</key>
+				<string>Chrome</string>
+				<key>CFBundleShortVersionString</key>
+				<string>45.0.2454.101</string>
+				<key>CFBundleVersion</key>
+				<string>2454.101</string>
+				<key>minosversion</key>
+				<string>10.6.0</string>
+				<key>path</key>
+				<string>/Applications/Google Chrome.app</string>
+				<key>type</key>
+				<string>application</string>
+				<key>version_comparison_key</key>
+				<string>CFBundleShortVersionString</string>
+			</dict>
+		</array>
+		<key>items_to_copy</key>
+		<array>
+			<dict>
+				<key>destination_path</key>
+				<string>/Applications</string>
+				<key>source_item</key>
+				<string>Google Chrome.app</string>
+			</dict>
+		</array>
+		<key>minimum_os_version</key>
+		<string>10.6.0</string>
+		<key>name</key>
+		<string>GoogleChrome</string>
+		<key>unattended_install</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>remove_copied_items</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>45.0.2454.101</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>production</string>
+		</array>
+		<key>category</key>
+		<string>Internet</string>
+		<key>description</key>
+		<string>Chrome is a fast, simple, and secure web browser, built for the modern web.</string>
+		<key>developer</key>
+		<string>Google</string>
+		<key>display_name</key>
+		<string>Google Chrome</string>
+		<key>installer_item_hash</key>
+		<string>2e28d127427f3ad68fca14e71eb24af2373d1548dfcaee2f10b0814183bf051f</string>
+		<key>installer_item_location</key>
+		<string>apps/GoogleChrome-45.0.2454.101__1.dmg</string>
+		<key>installer_item_size</key>
+		<integer>63472</integer>
+		<key>installer_type</key>
+		<string>copy_from_dmg</string>
+		<key>installs</key>
+		<array>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>com.google.Chrome</string>
+				<key>CFBundleName</key>
+				<string>Chrome</string>
+				<key>CFBundleShortVersionString</key>
+				<string>45.0.2454.101</string>
+				<key>CFBundleVersion</key>
+				<string>2454.101</string>
+				<key>minosversion</key>
+				<string>10.6.0</string>
+				<key>path</key>
+				<string>/Applications/Google Chrome.app</string>
+				<key>type</key>
+				<string>application</string>
+				<key>version_comparison_key</key>
+				<string>CFBundleShortVersionString</string>
+			</dict>
+		</array>
+		<key>items_to_copy</key>
+		<array>
+			<dict>
+				<key>destination_path</key>
+				<string>/Applications</string>
+				<key>source_item</key>
+				<string>Google Chrome.app</string>
+			</dict>
+		</array>
+		<key>minimum_os_version</key>
+		<string>10.6.0</string>
+		<key>name</key>
+		<string>GoogleChrome</string>
+		<key>unattended_install</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>remove_copied_items</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>45.0.2454.101</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>production</string>
+		</array>
+		<key>category</key>
+		<string>Internet</string>
+		<key>description</key>
+		<string>Chrome is a fast, simple, and secure web browser, built for the modern web.</string>
+		<key>developer</key>
+		<string>Google</string>
+		<key>display_name</key>
+		<string>Google Chrome</string>
+		<key>installer_item_hash</key>
 		<string>ab169c8ec3dcfb55bdbb92df783629b2ecb85b378fb8d33436f318a45ae89e85</string>
 		<key>installer_item_location</key>
 		<string>apps/GoogleChrome-45.0.2454.85.dmg</string>
@@ -10267,6 +10399,70 @@ exit 0
 		<true/>
 		<key>version</key>
 		<string>7.12.0.657</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>production</string>
+		</array>
+		<key>category</key>
+		<string>Internet</string>
+		<key>description</key>
+		<string>Calling, seeing, messaging and sharing with others – wherever they are.</string>
+		<key>developer</key>
+		<string>Microsoft</string>
+		<key>display_name</key>
+		<string>Skype</string>
+		<key>installer_item_hash</key>
+		<string>91b0a66a710a2a4fd32c1a8bacce3481d11d4e220265189fa61d644cd983b6a9</string>
+		<key>installer_item_location</key>
+		<string>apps/Skype-7.13.0.428.dmg</string>
+		<key>installer_item_size</key>
+		<integer>39692</integer>
+		<key>installer_type</key>
+		<string>copy_from_dmg</string>
+		<key>installs</key>
+		<array>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>com.skype.skype</string>
+				<key>CFBundleShortVersionString</key>
+				<string>7.13</string>
+				<key>CFBundleVersion</key>
+				<string>7.13.0.428</string>
+				<key>minosversion</key>
+				<string>10.9</string>
+				<key>path</key>
+				<string>/Applications/Skype.app</string>
+				<key>type</key>
+				<string>application</string>
+				<key>version_comparison_key</key>
+				<string>CFBundleVersion</string>
+			</dict>
+		</array>
+		<key>items_to_copy</key>
+		<array>
+			<dict>
+				<key>destination_path</key>
+				<string>/Applications</string>
+				<key>source_item</key>
+				<string>Skype.app</string>
+			</dict>
+		</array>
+		<key>minimum_os_version</key>
+		<string>10.9</string>
+		<key>name</key>
+		<string>Skype</string>
+		<key>unattended_install</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>remove_copied_items</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>7.13.0.428</string>
 	</dict>
 	<dict>
 		<key>autoremove</key>
@@ -16347,6 +16543,164 @@ fi
 		<key>display_name</key>
 		<string>Dropbox</string>
 		<key>installer_item_hash</key>
+		<string>a2b740d227f10f355e2b02a30402ebbaffb18d3353833359c72dab4a4f7da25c</string>
+		<key>installer_item_location</key>
+		<string>apps/Dropbox/Dropbox-3.10.6.dmg</string>
+		<key>installer_item_size</key>
+		<integer>43981</integer>
+		<key>installer_type</key>
+		<string>copy_from_dmg</string>
+		<key>installs</key>
+		<array>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>com.getdropbox.dropbox</string>
+				<key>CFBundleName</key>
+				<string>Dropbox</string>
+				<key>path</key>
+				<string>/Applications/Dropbox.app</string>
+				<key>type</key>
+				<string>file</string>
+			</dict>
+		</array>
+		<key>items_to_copy</key>
+		<array>
+			<dict>
+				<key>destination_path</key>
+				<string>/Applications</string>
+				<key>source_item</key>
+				<string>Dropbox.app</string>
+			</dict>
+		</array>
+		<key>minimum_os_version</key>
+		<string>10.6.0</string>
+		<key>name</key>
+		<string>Dropbox</string>
+		<key>postinstall_script</key>
+		<string>#!/bin/sh
+# based on Ruby postinstall script by Riley Shott:
+# https://groups.google.com/group/munki-dev/browse_thread/thread/a2813e7f62535f13/63d127534541f863
+# modifications:
+# - always extract the helper tool with each install instead of skipping if it exists
+# - remove xattr com.apple.quarantine removal, as Munki will have already done this upon
+#   installation; normal autopkg runs also won't quarantine the download to begin with
+
+HELPER_SRC_PATH=/Applications/Dropbox.app/Contents/Resources/DropboxHelperInstaller.tgz
+HELPER_DST_DIR=/Library/DropboxHelperTools
+HELPER_DST_PATH="$HELPER_DST_DIR/DropboxHelperInstaller"
+
+if [ -e "$HELPER_SRC_PATH" ]; then
+  [ -d "$HELPER_DST_DIR" ] || mkdir "$HELPER_DST_DIR"
+  /usr/bin/tar -C "$HELPER_DST_DIR" -xz -f "$HELPER_SRC_PATH"
+  /bin/chmod 04511 "$HELPER_DST_PATH"
+  /usr/sbin/chown root:wheel "$HELPER_DST_PATH"
+else
+  echo "Expected $HELPER_SRC_PATH, but it was not present in the Dropbox dmg."
+  exit 1
+fi
+</string>
+		<key>uninstall_method</key>
+		<string>remove_copied_items</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>3.10.6</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>production</string>
+		</array>
+		<key>category</key>
+		<string>File Sharing</string>
+		<key>description</key>
+		<string>Dropbox is a free service that lets you bring all your photos, docs, and videos anywhere. This means that any file you save to your Dropbox will automatically save to all your computers, phones and even the Dropbox website.</string>
+		<key>developer</key>
+		<string>Dropbox</string>
+		<key>display_name</key>
+		<string>Dropbox</string>
+		<key>installer_item_hash</key>
+		<string>df0accaad740834ec7ea9386310e73ae9b7187d5daf49efb776b17e1b84474ae</string>
+		<key>installer_item_location</key>
+		<string>apps/Dropbox/Dropbox-3.10.7.dmg</string>
+		<key>installer_item_size</key>
+		<integer>43981</integer>
+		<key>installer_type</key>
+		<string>copy_from_dmg</string>
+		<key>installs</key>
+		<array>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>com.getdropbox.dropbox</string>
+				<key>CFBundleName</key>
+				<string>Dropbox</string>
+				<key>path</key>
+				<string>/Applications/Dropbox.app</string>
+				<key>type</key>
+				<string>file</string>
+			</dict>
+		</array>
+		<key>items_to_copy</key>
+		<array>
+			<dict>
+				<key>destination_path</key>
+				<string>/Applications</string>
+				<key>source_item</key>
+				<string>Dropbox.app</string>
+			</dict>
+		</array>
+		<key>minimum_os_version</key>
+		<string>10.6.0</string>
+		<key>name</key>
+		<string>Dropbox</string>
+		<key>postinstall_script</key>
+		<string>#!/bin/sh
+# based on Ruby postinstall script by Riley Shott:
+# https://groups.google.com/group/munki-dev/browse_thread/thread/a2813e7f62535f13/63d127534541f863
+# modifications:
+# - always extract the helper tool with each install instead of skipping if it exists
+# - remove xattr com.apple.quarantine removal, as Munki will have already done this upon
+#   installation; normal autopkg runs also won't quarantine the download to begin with
+
+HELPER_SRC_PATH=/Applications/Dropbox.app/Contents/Resources/DropboxHelperInstaller.tgz
+HELPER_DST_DIR=/Library/DropboxHelperTools
+HELPER_DST_PATH="$HELPER_DST_DIR/DropboxHelperInstaller"
+
+if [ -e "$HELPER_SRC_PATH" ]; then
+  [ -d "$HELPER_DST_DIR" ] || mkdir "$HELPER_DST_DIR"
+  /usr/bin/tar -C "$HELPER_DST_DIR" -xz -f "$HELPER_SRC_PATH"
+  /bin/chmod 04511 "$HELPER_DST_PATH"
+  /usr/sbin/chown root:wheel "$HELPER_DST_PATH"
+else
+  echo "Expected $HELPER_SRC_PATH, but it was not present in the Dropbox dmg."
+  exit 1
+fi
+</string>
+		<key>uninstall_method</key>
+		<string>remove_copied_items</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>3.10.7</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>production</string>
+		</array>
+		<key>category</key>
+		<string>File Sharing</string>
+		<key>description</key>
+		<string>Dropbox is a free service that lets you bring all your photos, docs, and videos anywhere. This means that any file you save to your Dropbox will automatically save to all your computers, phones and even the Dropbox website.</string>
+		<key>developer</key>
+		<string>Dropbox</string>
+		<key>display_name</key>
+		<string>Dropbox</string>
+		<key>installer_item_hash</key>
 		<string>c590850ab6bf8a0c22be49e81e2d6fb6ec012aa4d93f3b7deda53ba44bcb55a7</string>
 		<key>installer_item_location</key>
 		<string>apps/Dropbox/Dropbox-3.2.3.dmg</string>
@@ -20296,6 +20650,72 @@ fi
 		<true/>
 		<key>version</key>
 		<string>40.0</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>production</string>
+		</array>
+		<key>category</key>
+		<string>Internet</string>
+		<key>description</key>
+		<string>Mozilla Firefox is a free and open source web browser.</string>
+		<key>developer</key>
+		<string>Mozilla</string>
+		<key>display_name</key>
+		<string>Mozilla Firefox</string>
+		<key>installer_item_hash</key>
+		<string>296062d1614666fca8d1534807ad2508cd39d9a996bf7be2b1e667481ad8c5aa</string>
+		<key>installer_item_location</key>
+		<string>apps/firefox/Firefox-41.0.1.dmg</string>
+		<key>installer_item_size</key>
+		<integer>77015</integer>
+		<key>installer_type</key>
+		<string>copy_from_dmg</string>
+		<key>installs</key>
+		<array>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>org.mozilla.firefox</string>
+				<key>CFBundleName</key>
+				<string>Firefox</string>
+				<key>CFBundleShortVersionString</key>
+				<string>41.0.1</string>
+				<key>CFBundleVersion</key>
+				<string>4115.9.29</string>
+				<key>minosversion</key>
+				<string>10.6</string>
+				<key>path</key>
+				<string>/Applications/Firefox.app</string>
+				<key>type</key>
+				<string>application</string>
+				<key>version_comparison_key</key>
+				<string>CFBundleShortVersionString</string>
+			</dict>
+		</array>
+		<key>items_to_copy</key>
+		<array>
+			<dict>
+				<key>destination_path</key>
+				<string>/Applications</string>
+				<key>source_item</key>
+				<string>Firefox.app</string>
+			</dict>
+		</array>
+		<key>minimum_os_version</key>
+		<string>10.6</string>
+		<key>name</key>
+		<string>Firefox</string>
+		<key>unattended_install</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>remove_copied_items</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>41.0.1</string>
 	</dict>
 	<dict>
 		<key>autoremove</key>
@@ -34097,6 +34517,72 @@ rm '/Library/PrivilegedHelperTools/Google Drive Icon Helper'
 		<true/>
 		<key>version</key>
 		<string>38.2.0</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>production</string>
+		</array>
+		<key>category</key>
+		<string>Email</string>
+		<key>description</key>
+		<string>Mozilla Thunderbird is a free and open source mail client.</string>
+		<key>developer</key>
+		<string>Mozilla Foundation</string>
+		<key>display_name</key>
+		<string>Mozilla Thunderbird</string>
+		<key>installer_item_hash</key>
+		<string>67120a0b4e97a973302720121d936589d113adf82996be0a99128cd7d9f3cca3</string>
+		<key>installer_item_location</key>
+		<string>apps/thunderbird/Thunderbird-38.3.0.dmg</string>
+		<key>installer_item_size</key>
+		<integer>68342</integer>
+		<key>installer_type</key>
+		<string>copy_from_dmg</string>
+		<key>installs</key>
+		<array>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>org.mozilla.thunderbird</string>
+				<key>CFBundleName</key>
+				<string>Thunderbird</string>
+				<key>CFBundleShortVersionString</key>
+				<string>38.3.0</string>
+				<key>CFBundleVersion</key>
+				<string>38.3.0</string>
+				<key>minosversion</key>
+				<string>10.6.0</string>
+				<key>path</key>
+				<string>/Applications/Thunderbird.app</string>
+				<key>type</key>
+				<string>application</string>
+				<key>version_comparison_key</key>
+				<string>CFBundleShortVersionString</string>
+			</dict>
+		</array>
+		<key>items_to_copy</key>
+		<array>
+			<dict>
+				<key>destination_path</key>
+				<string>/Applications</string>
+				<key>source_item</key>
+				<string>Thunderbird.app</string>
+			</dict>
+		</array>
+		<key>minimum_os_version</key>
+		<string>10.6.0</string>
+		<key>name</key>
+		<string>Thunderbird</string>
+		<key>unattended_install</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>remove_copied_items</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>38.3.0</string>
 	</dict>
 	<dict>
 		<key>autoremove</key>
