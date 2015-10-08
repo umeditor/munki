@@ -15,7 +15,6 @@
   </array>
   <key>managed_installs</key>
   <array>
-      <string>CasperClient</string>
   </array>
   <key>managed_uninstalls</key>
   <array>

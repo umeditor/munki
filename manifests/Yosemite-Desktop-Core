@@ -21,6 +21,7 @@
     <string>munkitools_admin</string>
     <string>munkitools_launchd</string>
     <string>SetMunkiServer</string>
+    <string>CasperClient</string>
   </array>
   <key>managed_uninstalls</key>
   <array>
