@@ -21021,6 +21021,552 @@ rm '/Library/PrivilegedHelperTools/Google Drive Icon Helper'
 			<string>production</string>
 		</array>
 		<key>description</key>
+		<string>Google Drive sync for Mac. Access files on your computer from anywhere.</string>
+		<key>display_name</key>
+		<string>Google Drive</string>
+		<key>installer_item_hash</key>
+		<string>23a1e762f6e711ad128172d38f6798ac39325df30fa4f5814099e94aa4a0e9b2</string>
+		<key>installer_item_location</key>
+		<string>apps/google/GoogleDrive-1.21.9135.5822.dmg</string>
+		<key>installer_item_size</key>
+		<integer>41281</integer>
+		<key>installer_type</key>
+		<string>copy_from_dmg</string>
+		<key>installs</key>
+		<array>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>com.google.GoogleDrive</string>
+				<key>CFBundleName</key>
+				<string>Google Drive</string>
+				<key>CFBundleShortVersionString</key>
+				<string>1.21</string>
+				<key>CFBundleVersion</key>
+				<string>1.21.9135.5822</string>
+				<key>path</key>
+				<string>/Applications/Google Drive.app</string>
+				<key>type</key>
+				<string>application</string>
+				<key>version_comparison_key</key>
+				<string>CFBundleVersion</string>
+			</dict>
+		</array>
+		<key>items_to_copy</key>
+		<array>
+			<dict>
+				<key>destination_path</key>
+				<string>/Applications</string>
+				<key>source_item</key>
+				<string>Google Drive.app</string>
+			</dict>
+		</array>
+		<key>minimum_os_version</key>
+		<string>10.6</string>
+		<key>name</key>
+		<string>GoogleDrive</string>
+		<key>postinstall_script</key>
+		<string>#!/bin/sh
+
+# Appreciatively copied from
+# https://github.com/Ginja/Admin_Scripts/blob/master/google_drive_helper.rb
+
+cp \
+        '/Applications/Google Drive.app/Contents/Helpers/Google Drive Icon Helper' \
+        '/Library/PrivilegedHelperTools/Google Drive Icon Helper'
+
+chmod 6755 '/Library/PrivilegedHelperTools/Google Drive Icon Helper'
+chown root:procmod '/Library/PrivilegedHelperTools/Google Drive Icon Helper'
+</string>
+		<key>postuninstall_script</key>
+		<string>#/bin/sh
+
+rm '/Library/PrivilegedHelperTools/Google Drive Icon Helper'
+</string>
+		<key>unattended_install</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>remove_copied_items</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>1.21.9135.5822</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>production</string>
+		</array>
+		<key>description</key>
+		<string>Google Drive sync for Mac. Access files on your computer from anywhere.</string>
+		<key>display_name</key>
+		<string>Google Drive</string>
+		<key>installer_item_hash</key>
+		<string>6401e26ef42bfb15bedddf11044ea79b04886dd263654d45e21850af48a39e29</string>
+		<key>installer_item_location</key>
+		<string>apps/google/GoogleDrive-1.21.9226.6034.dmg</string>
+		<key>installer_item_size</key>
+		<integer>41284</integer>
+		<key>installer_type</key>
+		<string>copy_from_dmg</string>
+		<key>installs</key>
+		<array>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>com.google.GoogleDrive</string>
+				<key>CFBundleName</key>
+				<string>Google Drive</string>
+				<key>CFBundleShortVersionString</key>
+				<string>1.21</string>
+				<key>CFBundleVersion</key>
+				<string>1.21.9226.6034</string>
+				<key>path</key>
+				<string>/Applications/Google Drive.app</string>
+				<key>type</key>
+				<string>application</string>
+				<key>version_comparison_key</key>
+				<string>CFBundleVersion</string>
+			</dict>
+		</array>
+		<key>items_to_copy</key>
+		<array>
+			<dict>
+				<key>destination_path</key>
+				<string>/Applications</string>
+				<key>source_item</key>
+				<string>Google Drive.app</string>
+			</dict>
+		</array>
+		<key>minimum_os_version</key>
+		<string>10.6</string>
+		<key>name</key>
+		<string>GoogleDrive</string>
+		<key>postinstall_script</key>
+		<string>#!/bin/sh
+
+# Appreciatively copied from
+# https://github.com/Ginja/Admin_Scripts/blob/master/google_drive_helper.rb
+
+cp \
+        '/Applications/Google Drive.app/Contents/Helpers/Google Drive Icon Helper' \
+        '/Library/PrivilegedHelperTools/Google Drive Icon Helper'
+
+chmod 6755 '/Library/PrivilegedHelperTools/Google Drive Icon Helper'
+chown root:procmod '/Library/PrivilegedHelperTools/Google Drive Icon Helper'
+</string>
+		<key>postuninstall_script</key>
+		<string>#/bin/sh
+
+rm '/Library/PrivilegedHelperTools/Google Drive Icon Helper'
+</string>
+		<key>unattended_install</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>remove_copied_items</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>1.21.9226.6034</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>production</string>
+		</array>
+		<key>description</key>
+		<string>Google Drive sync for Mac. Access files on your computer from anywhere.</string>
+		<key>display_name</key>
+		<string>Google Drive</string>
+		<key>installer_item_hash</key>
+		<string>05024a1149bda8390f2d111d08bca590b9a63c01ea86fbb61d2868965d9587a8</string>
+		<key>installer_item_location</key>
+		<string>apps/google/GoogleDrive-1.22.9403.0223.dmg</string>
+		<key>installer_item_size</key>
+		<integer>41352</integer>
+		<key>installer_type</key>
+		<string>copy_from_dmg</string>
+		<key>installs</key>
+		<array>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>com.google.GoogleDrive</string>
+				<key>CFBundleName</key>
+				<string>Google Drive</string>
+				<key>CFBundleShortVersionString</key>
+				<string>1.22</string>
+				<key>CFBundleVersion</key>
+				<string>1.22.9403.0223</string>
+				<key>path</key>
+				<string>/Applications/Google Drive.app</string>
+				<key>type</key>
+				<string>application</string>
+				<key>version_comparison_key</key>
+				<string>CFBundleVersion</string>
+			</dict>
+		</array>
+		<key>items_to_copy</key>
+		<array>
+			<dict>
+				<key>destination_path</key>
+				<string>/Applications</string>
+				<key>source_item</key>
+				<string>Google Drive.app</string>
+			</dict>
+		</array>
+		<key>minimum_os_version</key>
+		<string>10.6</string>
+		<key>name</key>
+		<string>GoogleDrive</string>
+		<key>postinstall_script</key>
+		<string>#!/bin/sh
+
+# Appreciatively copied from
+# https://github.com/Ginja/Admin_Scripts/blob/master/google_drive_helper.rb
+
+cp \
+        '/Applications/Google Drive.app/Contents/Helpers/Google Drive Icon Helper' \
+        '/Library/PrivilegedHelperTools/Google Drive Icon Helper'
+
+chmod 6755 '/Library/PrivilegedHelperTools/Google Drive Icon Helper'
+chown root:procmod '/Library/PrivilegedHelperTools/Google Drive Icon Helper'
+</string>
+		<key>postuninstall_script</key>
+		<string>#/bin/sh
+
+rm '/Library/PrivilegedHelperTools/Google Drive Icon Helper'
+</string>
+		<key>unattended_install</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>remove_copied_items</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>1.22.9403.0223</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>production</string>
+		</array>
+		<key>description</key>
+		<string>Google Drive sync for Mac. Access files on your computer from anywhere.</string>
+		<key>display_name</key>
+		<string>Google Drive</string>
+		<key>installer_item_hash</key>
+		<string>49e333260fa4fd74c80da56780e9e4cb179381fbbb352764cd91071d034c8cf8</string>
+		<key>installer_item_location</key>
+		<string>apps/google/GoogleDrive-1.23.9648.8824.dmg</string>
+		<key>installer_item_size</key>
+		<integer>41415</integer>
+		<key>installer_type</key>
+		<string>copy_from_dmg</string>
+		<key>installs</key>
+		<array>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>com.google.GoogleDrive</string>
+				<key>CFBundleName</key>
+				<string>Google Drive</string>
+				<key>CFBundleShortVersionString</key>
+				<string>1.23</string>
+				<key>CFBundleVersion</key>
+				<string>1.23.9648.8824</string>
+				<key>path</key>
+				<string>/Applications/Google Drive.app</string>
+				<key>type</key>
+				<string>application</string>
+				<key>version_comparison_key</key>
+				<string>CFBundleVersion</string>
+			</dict>
+		</array>
+		<key>items_to_copy</key>
+		<array>
+			<dict>
+				<key>destination_path</key>
+				<string>/Applications</string>
+				<key>source_item</key>
+				<string>Google Drive.app</string>
+			</dict>
+		</array>
+		<key>minimum_os_version</key>
+		<string>10.6</string>
+		<key>name</key>
+		<string>GoogleDrive</string>
+		<key>postinstall_script</key>
+		<string>#!/bin/sh
+
+# Appreciatively copied from
+# https://github.com/Ginja/Admin_Scripts/blob/master/google_drive_helper.rb
+
+cp \
+        '/Applications/Google Drive.app/Contents/Helpers/Google Drive Icon Helper' \
+        '/Library/PrivilegedHelperTools/Google Drive Icon Helper'
+
+chmod 6755 '/Library/PrivilegedHelperTools/Google Drive Icon Helper'
+chown root:procmod '/Library/PrivilegedHelperTools/Google Drive Icon Helper'
+</string>
+		<key>postuninstall_script</key>
+		<string>#/bin/sh
+
+rm '/Library/PrivilegedHelperTools/Google Drive Icon Helper'
+</string>
+		<key>unattended_install</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>remove_copied_items</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>1.23.9648.8824</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>production</string>
+		</array>
+		<key>description</key>
+		<string>Google Drive sync for Mac. Access files on your computer from anywhere.</string>
+		<key>display_name</key>
+		<string>Google Drive</string>
+		<key>installer_item_hash</key>
+		<string>6ae1d6360aec5e42bbb6db9b161cf0081de5c8ad73e22cecc8ab04d510a4874f</string>
+		<key>installer_item_location</key>
+		<string>apps/google/GoogleDrive-1.24.9931.5480.dmg</string>
+		<key>installer_item_size</key>
+		<integer>39199</integer>
+		<key>installer_type</key>
+		<string>copy_from_dmg</string>
+		<key>installs</key>
+		<array>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>com.google.GoogleDrive</string>
+				<key>CFBundleName</key>
+				<string>Google Drive</string>
+				<key>CFBundleShortVersionString</key>
+				<string>1.24</string>
+				<key>CFBundleVersion</key>
+				<string>1.24.9931.5480</string>
+				<key>path</key>
+				<string>/Applications/Google Drive.app</string>
+				<key>type</key>
+				<string>application</string>
+				<key>version_comparison_key</key>
+				<string>CFBundleVersion</string>
+			</dict>
+		</array>
+		<key>items_to_copy</key>
+		<array>
+			<dict>
+				<key>destination_path</key>
+				<string>/Applications</string>
+				<key>source_item</key>
+				<string>Google Drive.app</string>
+			</dict>
+		</array>
+		<key>minimum_os_version</key>
+		<string>10.6</string>
+		<key>name</key>
+		<string>GoogleDrive</string>
+		<key>postinstall_script</key>
+		<string>#!/bin/sh
+
+# Appreciatively copied from
+# https://github.com/Ginja/Admin_Scripts/blob/master/google_drive_helper.rb
+
+cp \
+        '/Applications/Google Drive.app/Contents/Helpers/Google Drive Icon Helper' \
+        '/Library/PrivilegedHelperTools/Google Drive Icon Helper'
+
+chmod 6755 '/Library/PrivilegedHelperTools/Google Drive Icon Helper'
+chown root:procmod '/Library/PrivilegedHelperTools/Google Drive Icon Helper'
+</string>
+		<key>postuninstall_script</key>
+		<string>#/bin/sh
+
+rm '/Library/PrivilegedHelperTools/Google Drive Icon Helper'
+</string>
+		<key>unattended_install</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>remove_copied_items</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>1.24.9931.5480</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>production</string>
+		</array>
+		<key>description</key>
+		<string>Google Drive sync for Mac. Access files on your computer from anywhere.</string>
+		<key>display_name</key>
+		<string>Google Drive</string>
+		<key>installer_item_hash</key>
+		<string>80e137b3fb9cc8af083482d792054b405fe7fc1ef9f3f575d61342538d3bb50e</string>
+		<key>installer_item_location</key>
+		<string>apps/google/GoogleDrive-1.25.0286.7715.dmg</string>
+		<key>installer_item_size</key>
+		<integer>39456</integer>
+		<key>installer_type</key>
+		<string>copy_from_dmg</string>
+		<key>installs</key>
+		<array>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>com.google.GoogleDrive</string>
+				<key>CFBundleName</key>
+				<string>Google Drive</string>
+				<key>CFBundleShortVersionString</key>
+				<string>1.25</string>
+				<key>CFBundleVersion</key>
+				<string>1.25.0286.7715</string>
+				<key>path</key>
+				<string>/Applications/Google Drive.app</string>
+				<key>type</key>
+				<string>application</string>
+				<key>version_comparison_key</key>
+				<string>CFBundleVersion</string>
+			</dict>
+		</array>
+		<key>items_to_copy</key>
+		<array>
+			<dict>
+				<key>destination_path</key>
+				<string>/Applications</string>
+				<key>source_item</key>
+				<string>Google Drive.app</string>
+			</dict>
+		</array>
+		<key>minimum_os_version</key>
+		<string>10.6</string>
+		<key>name</key>
+		<string>GoogleDrive</string>
+		<key>postinstall_script</key>
+		<string>#!/bin/sh
+
+# Appreciatively copied from
+# https://github.com/Ginja/Admin_Scripts/blob/master/google_drive_helper.rb
+
+cp \
+        '/Applications/Google Drive.app/Contents/Helpers/Google Drive Icon Helper' \
+        '/Library/PrivilegedHelperTools/Google Drive Icon Helper'
+
+chmod 6755 '/Library/PrivilegedHelperTools/Google Drive Icon Helper'
+chown root:procmod '/Library/PrivilegedHelperTools/Google Drive Icon Helper'
+</string>
+		<key>postuninstall_script</key>
+		<string>#/bin/sh
+
+rm '/Library/PrivilegedHelperTools/Google Drive Icon Helper'
+</string>
+		<key>unattended_install</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>remove_copied_items</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>1.25.0286.7715</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>production</string>
+		</array>
+		<key>description</key>
+		<string>Google Drive sync for Mac. Access files on your computer from anywhere.</string>
+		<key>display_name</key>
+		<string>Google Drive</string>
+		<key>installer_item_hash</key>
+		<string>0352a5498bf12bad82dab742b4072d1e05d180b75b0cecde85ffb4184fa537a4</string>
+		<key>installer_item_location</key>
+		<string>apps/google/GoogleDrive-1.25.0468.5720.dmg</string>
+		<key>installer_item_size</key>
+		<integer>39456</integer>
+		<key>installer_type</key>
+		<string>copy_from_dmg</string>
+		<key>installs</key>
+		<array>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>com.google.GoogleDrive</string>
+				<key>CFBundleName</key>
+				<string>Google Drive</string>
+				<key>CFBundleShortVersionString</key>
+				<string>1.25</string>
+				<key>CFBundleVersion</key>
+				<string>1.25.0468.5720</string>
+				<key>path</key>
+				<string>/Applications/Google Drive.app</string>
+				<key>type</key>
+				<string>application</string>
+				<key>version_comparison_key</key>
+				<string>CFBundleVersion</string>
+			</dict>
+		</array>
+		<key>items_to_copy</key>
+		<array>
+			<dict>
+				<key>destination_path</key>
+				<string>/Applications</string>
+				<key>source_item</key>
+				<string>Google Drive.app</string>
+			</dict>
+		</array>
+		<key>minimum_os_version</key>
+		<string>10.6</string>
+		<key>name</key>
+		<string>GoogleDrive</string>
+		<key>postinstall_script</key>
+		<string>#!/bin/sh
+
+# Appreciatively copied from
+# https://github.com/Ginja/Admin_Scripts/blob/master/google_drive_helper.rb
+
+cp \
+        '/Applications/Google Drive.app/Contents/Helpers/Google Drive Icon Helper' \
+        '/Library/PrivilegedHelperTools/Google Drive Icon Helper'
+
+chmod 6755 '/Library/PrivilegedHelperTools/Google Drive Icon Helper'
+chown root:procmod '/Library/PrivilegedHelperTools/Google Drive Icon Helper'
+</string>
+		<key>postuninstall_script</key>
+		<string>#/bin/sh
+
+rm '/Library/PrivilegedHelperTools/Google Drive Icon Helper'
+</string>
+		<key>unattended_install</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>remove_copied_items</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>1.25.0468.5720</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>production</string>
+		</array>
+		<key>description</key>
 		<string>HandBrake is a tool for converting video from nearly any format to a selection of modern, widely supported codecs.</string>
 		<key>display_name</key>
 		<string>Handbrake</string>

@@ -21190,7 +21190,7 @@ rm '/Library/PrivilegedHelperTools/Google Drive Icon Helper'
 		<false/>
 		<key>catalogs</key>
 		<array>
-			<string>testing</string>
+			<string>production</string>
 		</array>
 		<key>description</key>
 		<string>Google Drive sync for Mac. Access files on your computer from anywhere.</string>
@@ -21268,7 +21268,7 @@ rm '/Library/PrivilegedHelperTools/Google Drive Icon Helper'
 		<false/>
 		<key>catalogs</key>
 		<array>
-			<string>testing</string>
+			<string>production</string>
 		</array>
 		<key>description</key>
 		<string>Google Drive sync for Mac. Access files on your computer from anywhere.</string>
@@ -21346,7 +21346,7 @@ rm '/Library/PrivilegedHelperTools/Google Drive Icon Helper'
 		<false/>
 		<key>catalogs</key>
 		<array>
-			<string>testing</string>
+			<string>production</string>
 		</array>
 		<key>description</key>
 		<string>Google Drive sync for Mac. Access files on your computer from anywhere.</string>
@@ -21424,7 +21424,7 @@ rm '/Library/PrivilegedHelperTools/Google Drive Icon Helper'
 		<false/>
 		<key>catalogs</key>
 		<array>
-			<string>testing</string>
+			<string>production</string>
 		</array>
 		<key>description</key>
 		<string>Google Drive sync for Mac. Access files on your computer from anywhere.</string>
@@ -21502,7 +21502,7 @@ rm '/Library/PrivilegedHelperTools/Google Drive Icon Helper'
 		<false/>
 		<key>catalogs</key>
 		<array>
-			<string>testing</string>
+			<string>production</string>
 		</array>
 		<key>description</key>
 		<string>Google Drive sync for Mac. Access files on your computer from anywhere.</string>
@@ -21580,7 +21580,7 @@ rm '/Library/PrivilegedHelperTools/Google Drive Icon Helper'
 		<false/>
 		<key>catalogs</key>
 		<array>
-			<string>testing</string>
+			<string>production</string>
 		</array>
 		<key>description</key>
 		<string>Google Drive sync for Mac. Access files on your computer from anywhere.</string>
@@ -21658,7 +21658,7 @@ rm '/Library/PrivilegedHelperTools/Google Drive Icon Helper'
 		<false/>
 		<key>catalogs</key>
 		<array>
-			<string>testing</string>
+			<string>production</string>
 		</array>
 		<key>description</key>
 		<string>Google Drive sync for Mac. Access files on your computer from anywhere.</string>
