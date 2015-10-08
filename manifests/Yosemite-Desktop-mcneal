@@ -14,8 +14,8 @@
     <string>Yosemite-Desktop-CrashPlan</string>
   </array>
   <key>managed_installs</key>
-      <string>CasperClient</string>
   <array>
+      <string>CasperClient</string>
   </array>
   <key>managed_uninstalls</key>
   <array>
