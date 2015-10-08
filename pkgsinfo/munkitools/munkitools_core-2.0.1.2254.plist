@@ -17,7 +17,7 @@
 	<false/>
 	<key>catalogs</key>
 	<array>
-		<string>testing</string>
+		<string>production</string>
 	</array>
 	<key>description</key>
 	<string>Core command-line tools used by Managed Software Center.</string>

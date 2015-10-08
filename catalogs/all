@@ -14805,7 +14805,7 @@ The setup procedure includes installing the MIT CA as well as the user's persona
 		</array>
 		<key>catalogs</key>
 		<array>
-			<string>testing</string>
+			<string>production</string>
 		</array>
 		<key>description</key>
 		<string>Citrix Receiver is an easy-to-install client software that lets you access enterprise data, applications and desktops from any computing device including smartphones, tablets and PCs. Workers today typically use multiple computing devices and crave a consistent computing experience across all of them. Organizations everywhere are struggling to cope with the rapid proliferation of these devices and give users the mobile, high-definition experience they demand. Working in tandem with a Citrix-enabled IT infrastructure, Citrix Receiver gives workers consistent, secure, high-performance access from any device without introducing layers of management complexity for IT.</string>
@@ -14888,7 +14888,7 @@ The setup procedure includes installing the MIT CA as well as the user's persona
 		</array>
 		<key>catalogs</key>
 		<array>
-			<string>testing</string>
+			<string>production</string>
 		</array>
 		<key>category</key>
 		<string>Internet</string>
@@ -34699,7 +34699,7 @@ rm '/Library/PrivilegedHelperTools/Google Drive Icon Helper'
 		<false/>
 		<key>catalogs</key>
 		<array>
-			<string>testing</string>
+			<string>production</string>
 		</array>
 		<key>category</key>
 		<string>Developer</string>
@@ -34795,7 +34795,7 @@ rm '/Library/PrivilegedHelperTools/Google Drive Icon Helper'
 		<false/>
 		<key>catalogs</key>
 		<array>
-			<string>testing</string>
+			<string>production</string>
 		</array>
 		<key>category</key>
 		<string>Developer</string>
@@ -41132,7 +41132,7 @@ rm '/Library/PrivilegedHelperTools/Google Drive Icon Helper'
 		<false/>
 		<key>catalogs</key>
 		<array>
-			<string>testing</string>
+			<string>production</string>
 		</array>
 		<key>description</key>
 		<string>Command-line Managed Software Center admin tools.</string>
@@ -42123,7 +42123,7 @@ rm '/Library/PrivilegedHelperTools/Google Drive Icon Helper'
 		<false/>
 		<key>catalogs</key>
 		<array>
-			<string>testing</string>
+			<string>production</string>
 		</array>
 		<key>description</key>
 		<string>Core command-line tools used by Managed Software Center.</string>
@@ -43855,7 +43855,6 @@ defaults write /Library/Preferences/ManagedInstalls.plist IconURL "https://munki
 		<false/>
 		<key>catalogs</key>
 		<array>
-			<string>testing</string>
 			<string>production</string>
 		</array>
 		<key>description</key>
