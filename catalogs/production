@@ -41620,6 +41620,54 @@ rm '/Library/PrivilegedHelperTools/Google Drive Icon Helper'
 		<key>display_name</key>
 		<string>Managed Software Center</string>
 		<key>installed_size</key>
+		<integer>4090</integer>
+		<key>installer_item_hash</key>
+		<string>f91aebb3b82965a8c4360f2bf016acdea535db8721c1b915a51338454cd44292</string>
+		<key>installer_item_location</key>
+		<string>munkitools/munkitools_app-4.0.2413.pkg</string>
+		<key>installer_item_size</key>
+		<integer>2924</integer>
+		<key>minimum_os_version</key>
+		<string>10.6.0</string>
+		<key>name</key>
+		<string>munkitools</string>
+		<key>receipts</key>
+		<array>
+			<dict>
+				<key>installed_size</key>
+				<integer>4090</integer>
+				<key>packageid</key>
+				<string>com.googlecode.munki.app</string>
+				<key>version</key>
+				<string>4.0.2413</string>
+			</dict>
+		</array>
+		<key>requires</key>
+		<array>
+			<string>munkitools_core</string>
+			<string>munkitools_launchd</string>
+		</array>
+		<key>unattended_install</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>removepackages</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>4.0.2413</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>production</string>
+		</array>
+		<key>description</key>
+		<string>Managed Software Center application.</string>
+		<key>display_name</key>
+		<string>Managed Software Center</string>
+		<key>installed_size</key>
 		<integer>4280</integer>
 		<key>installer_item_hash</key>
 		<string>4d49a20ee57b60d2d09cb9e34fd9b6ea4790e21a7019f5ac0444a5ba305c1ad6</string>
@@ -41655,6 +41703,54 @@ rm '/Library/PrivilegedHelperTools/Google Drive Icon Helper'
 		<true/>
 		<key>version</key>
 		<string>4.1.2518</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>production</string>
+		</array>
+		<key>description</key>
+		<string>Managed Software Center application.</string>
+		<key>display_name</key>
+		<string>Managed Software Center</string>
+		<key>installed_size</key>
+		<integer>4282</integer>
+		<key>installer_item_hash</key>
+		<string>d2f3359d1e7c938544065d3c5aee90549ee364e69404e1b9187679695e344048</string>
+		<key>installer_item_location</key>
+		<string>munkitools/munkitools_app-4.1.2531.pkg</string>
+		<key>installer_item_size</key>
+		<integer>2992</integer>
+		<key>minimum_os_version</key>
+		<string>10.6.0</string>
+		<key>name</key>
+		<string>munkitools</string>
+		<key>receipts</key>
+		<array>
+			<dict>
+				<key>installed_size</key>
+				<integer>4282</integer>
+				<key>packageid</key>
+				<string>com.googlecode.munki.app</string>
+				<key>version</key>
+				<string>4.1.2531</string>
+			</dict>
+		</array>
+		<key>requires</key>
+		<array>
+			<string>munkitools_core</string>
+			<string>munkitools_launchd</string>
+		</array>
+		<key>unattended_install</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>removepackages</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>4.1.2531</string>
 	</dict>
 	<dict>
 		<key>autoremove</key>
@@ -42424,6 +42520,147 @@ rm '/Library/PrivilegedHelperTools/Google Drive Icon Helper'
 		<key>display_name</key>
 		<string>Managed Software Center admin tools</string>
 		<key>installed_size</key>
+		<integer>139</integer>
+		<key>installer_item_hash</key>
+		<string>a1e437228e4031d0bbc7030dc8c1dcc515ec6ce5ba248113eb074523e300ce02</string>
+		<key>installer_item_location</key>
+		<string>munkitools/munkitools_admin-2.2.2.2414.pkg</string>
+		<key>installer_item_size</key>
+		<integer>32</integer>
+		<key>minimum_os_version</key>
+		<string>10.6.0</string>
+		<key>name</key>
+		<string>munkitools_admin</string>
+		<key>receipts</key>
+		<array>
+			<dict>
+				<key>installed_size</key>
+				<integer>139</integer>
+				<key>packageid</key>
+				<string>com.googlecode.munki.admin</string>
+				<key>version</key>
+				<string>2.2.2.2414</string>
+			</dict>
+		</array>
+		<key>unattended_install</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>removepackages</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>update_for</key>
+		<array>
+			<string>munkitools_core</string>
+		</array>
+		<key>version</key>
+		<string>2.2.2.2414</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>production</string>
+		</array>
+		<key>description</key>
+		<string>Command-line Managed Software Center admin tools.</string>
+		<key>display_name</key>
+		<string>Managed Software Center admin tools</string>
+		<key>installed_size</key>
+		<integer>139</integer>
+		<key>installer_item_hash</key>
+		<string>b3bf4525f41a7f0119136d10ba326425258e8d21902d5165c657db8e523176a3</string>
+		<key>installer_item_location</key>
+		<string>munkitools/munkitools_admin-2.2.3.2418.pkg</string>
+		<key>installer_item_size</key>
+		<integer>32</integer>
+		<key>minimum_os_version</key>
+		<string>10.6.0</string>
+		<key>name</key>
+		<string>munkitools_admin</string>
+		<key>receipts</key>
+		<array>
+			<dict>
+				<key>installed_size</key>
+				<integer>139</integer>
+				<key>packageid</key>
+				<string>com.googlecode.munki.admin</string>
+				<key>version</key>
+				<string>2.2.3.2418</string>
+			</dict>
+		</array>
+		<key>unattended_install</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>removepackages</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>update_for</key>
+		<array>
+			<string>munkitools_core</string>
+		</array>
+		<key>version</key>
+		<string>2.2.3.2418</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>production</string>
+		</array>
+		<key>description</key>
+		<string>Command-line Managed Software Center admin tools.</string>
+		<key>display_name</key>
+		<string>Managed Software Center admin tools</string>
+		<key>installed_size</key>
+		<integer>140</integer>
+		<key>installer_item_hash</key>
+		<string>0e343818b83070189ff3d156fdb77288c426e23aa62d5aa4622a01ba626c10af</string>
+		<key>installer_item_location</key>
+		<string>munkitools/munkitools_admin-2.2.4.2431.pkg</string>
+		<key>installer_item_size</key>
+		<integer>32</integer>
+		<key>minimum_os_version</key>
+		<string>10.6.0</string>
+		<key>name</key>
+		<string>munkitools_admin</string>
+		<key>receipts</key>
+		<array>
+			<dict>
+				<key>installed_size</key>
+				<integer>140</integer>
+				<key>packageid</key>
+				<string>com.googlecode.munki.admin</string>
+				<key>version</key>
+				<string>2.2.4.2431</string>
+			</dict>
+		</array>
+		<key>unattended_install</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>removepackages</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>update_for</key>
+		<array>
+			<string>munkitools_core</string>
+		</array>
+		<key>version</key>
+		<string>2.2.4.2431</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>production</string>
+		</array>
+		<key>description</key>
+		<string>Command-line Managed Software Center admin tools.</string>
+		<key>display_name</key>
+		<string>Managed Software Center admin tools</string>
+		<key>installed_size</key>
 		<integer>142</integer>
 		<key>installer_item_hash</key>
 		<string>01e6893ac34868d2a37c05597c55dce8dee8821d7cc2397e3bbeca4d834bd619</string>
@@ -42458,6 +42695,53 @@ rm '/Library/PrivilegedHelperTools/Google Drive Icon Helper'
 		</array>
 		<key>version</key>
 		<string>2.3.0.2519</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>production</string>
+		</array>
+		<key>description</key>
+		<string>Command-line Managed Software Center admin tools.</string>
+		<key>display_name</key>
+		<string>Managed Software Center admin tools</string>
+		<key>installed_size</key>
+		<integer>142</integer>
+		<key>installer_item_hash</key>
+		<string>1e0bf11d44f6bda97d8e09ce43123b749fcd561d83a3a0c33e0c036aa9fd5131</string>
+		<key>installer_item_location</key>
+		<string>munkitools/munkitools_admin-2.3.1.2535.pkg</string>
+		<key>installer_item_size</key>
+		<integer>32</integer>
+		<key>minimum_os_version</key>
+		<string>10.6.0</string>
+		<key>name</key>
+		<string>munkitools_admin</string>
+		<key>receipts</key>
+		<array>
+			<dict>
+				<key>installed_size</key>
+				<integer>142</integer>
+				<key>packageid</key>
+				<string>com.googlecode.munki.admin</string>
+				<key>version</key>
+				<string>2.3.1.2535</string>
+			</dict>
+		</array>
+		<key>unattended_install</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>removepackages</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>update_for</key>
+		<array>
+			<string>munkitools_core</string>
+		</array>
+		<key>version</key>
+		<string>2.3.1.2535</string>
 	</dict>
 	<dict>
 		<key>autoremove</key>
@@ -43227,6 +43511,147 @@ rm '/Library/PrivilegedHelperTools/Google Drive Icon Helper'
 		<key>display_name</key>
 		<string>Managed Software Center core tools</string>
 		<key>installed_size</key>
+		<integer>631</integer>
+		<key>installer_item_hash</key>
+		<string>3d6545b697e2cdd19f363f3b218ff92f07c08425f1133a0903a65264fe9e823f</string>
+		<key>installer_item_location</key>
+		<string>munkitools/munkitools_core-2.2.2.2414.pkg</string>
+		<key>installer_item_size</key>
+		<integer>140</integer>
+		<key>minimum_os_version</key>
+		<string>10.6.0</string>
+		<key>name</key>
+		<string>munkitools_core</string>
+		<key>receipts</key>
+		<array>
+			<dict>
+				<key>installed_size</key>
+				<integer>631</integer>
+				<key>packageid</key>
+				<string>com.googlecode.munki.core</string>
+				<key>version</key>
+				<string>2.2.2.2414</string>
+			</dict>
+		</array>
+		<key>requires</key>
+		<array>
+			<string>munkitools_launchd</string>
+		</array>
+		<key>unattended_install</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>removepackages</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>2.2.2.2414</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>production</string>
+		</array>
+		<key>description</key>
+		<string>Core command-line tools used by Managed Software Center.</string>
+		<key>display_name</key>
+		<string>Managed Software Center core tools</string>
+		<key>installed_size</key>
+		<integer>631</integer>
+		<key>installer_item_hash</key>
+		<string>3f6baceec114a95c424e55bdb09cea420e2a3c21876b01c1d28a3543828ab916</string>
+		<key>installer_item_location</key>
+		<string>munkitools/munkitools_core-2.2.3.2418.pkg</string>
+		<key>installer_item_size</key>
+		<integer>140</integer>
+		<key>minimum_os_version</key>
+		<string>10.6.0</string>
+		<key>name</key>
+		<string>munkitools_core</string>
+		<key>receipts</key>
+		<array>
+			<dict>
+				<key>installed_size</key>
+				<integer>631</integer>
+				<key>packageid</key>
+				<string>com.googlecode.munki.core</string>
+				<key>version</key>
+				<string>2.2.3.2418</string>
+			</dict>
+		</array>
+		<key>requires</key>
+		<array>
+			<string>munkitools_launchd</string>
+		</array>
+		<key>unattended_install</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>removepackages</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>2.2.3.2418</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>production</string>
+		</array>
+		<key>description</key>
+		<string>Core command-line tools used by Managed Software Center.</string>
+		<key>display_name</key>
+		<string>Managed Software Center core tools</string>
+		<key>installed_size</key>
+		<integer>631</integer>
+		<key>installer_item_hash</key>
+		<string>aceb988cd9f5887b06f809f95656382dd189381a70caf15428ffd1705aef7a95</string>
+		<key>installer_item_location</key>
+		<string>munkitools/munkitools_core-2.2.4.2431.pkg</string>
+		<key>installer_item_size</key>
+		<integer>140</integer>
+		<key>minimum_os_version</key>
+		<string>10.6.0</string>
+		<key>name</key>
+		<string>munkitools_core</string>
+		<key>receipts</key>
+		<array>
+			<dict>
+				<key>installed_size</key>
+				<integer>631</integer>
+				<key>packageid</key>
+				<string>com.googlecode.munki.core</string>
+				<key>version</key>
+				<string>2.2.4.2431</string>
+			</dict>
+		</array>
+		<key>requires</key>
+		<array>
+			<string>munkitools_launchd</string>
+		</array>
+		<key>unattended_install</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>removepackages</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>2.2.4.2431</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>production</string>
+		</array>
+		<key>description</key>
+		<string>Core command-line tools used by Managed Software Center.</string>
+		<key>display_name</key>
+		<string>Managed Software Center core tools</string>
+		<key>installed_size</key>
 		<integer>643</integer>
 		<key>installer_item_hash</key>
 		<string>2eaa0f497b08a4e7dc7bcc788ac02b8238f0a1fabab655b821079cd75cc45b31</string>
@@ -43261,6 +43686,53 @@ rm '/Library/PrivilegedHelperTools/Google Drive Icon Helper'
 		<true/>
 		<key>version</key>
 		<string>2.3.0.2519</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>production</string>
+		</array>
+		<key>description</key>
+		<string>Core command-line tools used by Managed Software Center.</string>
+		<key>display_name</key>
+		<string>Managed Software Center core tools</string>
+		<key>installed_size</key>
+		<integer>643</integer>
+		<key>installer_item_hash</key>
+		<string>dbd44ab1b9701a57aaf8e498f397898e5d495ace4313773607d10cbdcc4d4e9d</string>
+		<key>installer_item_location</key>
+		<string>munkitools/munkitools_core-2.3.1.2535.pkg</string>
+		<key>installer_item_size</key>
+		<integer>144</integer>
+		<key>minimum_os_version</key>
+		<string>10.6.0</string>
+		<key>name</key>
+		<string>munkitools_core</string>
+		<key>receipts</key>
+		<array>
+			<dict>
+				<key>installed_size</key>
+				<integer>643</integer>
+				<key>packageid</key>
+				<string>com.googlecode.munki.core</string>
+				<key>version</key>
+				<string>2.3.1.2535</string>
+			</dict>
+		</array>
+		<key>requires</key>
+		<array>
+			<string>munkitools_launchd</string>
+		</array>
+		<key>unattended_install</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>removepackages</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>2.3.1.2535</string>
 	</dict>
 	<dict>
 		<key>RestartAction</key>

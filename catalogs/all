@@ -41546,7 +41546,7 @@ rm '/Library/PrivilegedHelperTools/Google Drive Icon Helper'
 		<false/>
 		<key>catalogs</key>
 		<array>
-			<string>development</string>
+			<string>production</string>
 		</array>
 		<key>description</key>
 		<string>Managed Software Center application.</string>
@@ -41642,7 +41642,7 @@ rm '/Library/PrivilegedHelperTools/Google Drive Icon Helper'
 		<false/>
 		<key>catalogs</key>
 		<array>
-			<string>development</string>
+			<string>production</string>
 		</array>
 		<key>description</key>
 		<string>Managed Software Center application.</string>
@@ -42446,7 +42446,7 @@ rm '/Library/PrivilegedHelperTools/Google Drive Icon Helper'
 		<false/>
 		<key>catalogs</key>
 		<array>
-			<string>development</string>
+			<string>production</string>
 		</array>
 		<key>description</key>
 		<string>Command-line Managed Software Center admin tools.</string>
@@ -42493,7 +42493,7 @@ rm '/Library/PrivilegedHelperTools/Google Drive Icon Helper'
 		<false/>
 		<key>catalogs</key>
 		<array>
-			<string>development</string>
+			<string>production</string>
 		</array>
 		<key>description</key>
 		<string>Command-line Managed Software Center admin tools.</string>
@@ -42540,7 +42540,7 @@ rm '/Library/PrivilegedHelperTools/Google Drive Icon Helper'
 		<false/>
 		<key>catalogs</key>
 		<array>
-			<string>development</string>
+			<string>production</string>
 		</array>
 		<key>description</key>
 		<string>Command-line Managed Software Center admin tools.</string>
@@ -42634,7 +42634,7 @@ rm '/Library/PrivilegedHelperTools/Google Drive Icon Helper'
 		<false/>
 		<key>catalogs</key>
 		<array>
-			<string>development</string>
+			<string>production</string>
 		</array>
 		<key>description</key>
 		<string>Command-line Managed Software Center admin tools.</string>
@@ -43437,7 +43437,7 @@ rm '/Library/PrivilegedHelperTools/Google Drive Icon Helper'
 		<false/>
 		<key>catalogs</key>
 		<array>
-			<string>development</string>
+			<string>production</string>
 		</array>
 		<key>description</key>
 		<string>Core command-line tools used by Managed Software Center.</string>
@@ -43484,7 +43484,7 @@ rm '/Library/PrivilegedHelperTools/Google Drive Icon Helper'
 		<false/>
 		<key>catalogs</key>
 		<array>
-			<string>development</string>
+			<string>production</string>
 		</array>
 		<key>description</key>
 		<string>Core command-line tools used by Managed Software Center.</string>
@@ -43531,7 +43531,7 @@ rm '/Library/PrivilegedHelperTools/Google Drive Icon Helper'
 		<false/>
 		<key>catalogs</key>
 		<array>
-			<string>development</string>
+			<string>production</string>
 		</array>
 		<key>description</key>
 		<string>Core command-line tools used by Managed Software Center.</string>
@@ -43625,7 +43625,7 @@ rm '/Library/PrivilegedHelperTools/Google Drive Icon Helper'
 		<false/>
 		<key>catalogs</key>
 		<array>
-			<string>development</string>
+			<string>production</string>
 		</array>
 		<key>description</key>
 		<string>Core command-line tools used by Managed Software Center.</string>
