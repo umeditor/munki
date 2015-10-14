@@ -22040,8 +22040,12 @@ rm '/Library/PrivilegedHelperTools/Google Drive Icon Helper'
 		<array>
 			<string>production</string>
 		</array>
+		<key>category</key>
+		<string>File Sharing</string>
 		<key>description</key>
 		<string>Google Drive sync for Mac. Access files on your computer from anywhere.</string>
+		<key>developer</key>
+		<string>Google</string>
 		<key>display_name</key>
 		<string>Google Drive</string>
 		<key>installer_item_hash</key>
