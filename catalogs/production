@@ -10601,6 +10601,70 @@ exit 0
 			<string>production</string>
 		</array>
 		<key>category</key>
+		<string>Internet</string>
+		<key>description</key>
+		<string>Calling, seeing, messaging and sharing with others – wherever they are.</string>
+		<key>developer</key>
+		<string>Microsoft</string>
+		<key>display_name</key>
+		<string>Skype</string>
+		<key>installer_item_hash</key>
+		<string>4a082ad20a81466a17cc42c33ea5eb5ac363ed2681a4d01788cf8bc1bb1d9abb</string>
+		<key>installer_item_location</key>
+		<string>apps/Skype-7.14.0.301.dmg</string>
+		<key>installer_item_size</key>
+		<integer>39705</integer>
+		<key>installer_type</key>
+		<string>copy_from_dmg</string>
+		<key>installs</key>
+		<array>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>com.skype.skype</string>
+				<key>CFBundleShortVersionString</key>
+				<string>7.14</string>
+				<key>CFBundleVersion</key>
+				<string>7.14.0.301</string>
+				<key>minosversion</key>
+				<string>10.9</string>
+				<key>path</key>
+				<string>/Applications/Skype.app</string>
+				<key>type</key>
+				<string>application</string>
+				<key>version_comparison_key</key>
+				<string>CFBundleVersion</string>
+			</dict>
+		</array>
+		<key>items_to_copy</key>
+		<array>
+			<dict>
+				<key>destination_path</key>
+				<string>/Applications</string>
+				<key>source_item</key>
+				<string>Skype.app</string>
+			</dict>
+		</array>
+		<key>minimum_os_version</key>
+		<string>10.9</string>
+		<key>name</key>
+		<string>Skype</string>
+		<key>unattended_install</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>remove_copied_items</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>7.14.0.301</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>production</string>
+		</array>
+		<key>category</key>
 		<string>Communication</string>
 		<key>description</key>
 		<string>Calling, seeing, messaging and sharing with others – wherever they are.</string>
@@ -44021,6 +44085,88 @@ fi
 		<true/>
 		<key>version</key>
 		<string>1.0</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>production</string>
+		</array>
+		<key>category</key>
+		<string>Reference</string>
+		<key>description</key>
+		<string>Zotero - zoh-TAIR-oh - is a free, easy-to-use tool to help you collect, organize, cite, and share your research sources. It lives right where you do your work-in the web browser itself.</string>
+		<key>developer</key>
+		<string>Roy Rosenzweig CHNM</string>
+		<key>display_name</key>
+		<string>Zotero</string>
+		<key>installer_item_hash</key>
+		<string>c7e9aa8e8dbd4b447ec291ce0d0814740a3b1e42f9241fe0bdc0298ee8d7645e</string>
+		<key>installer_item_location</key>
+		<string>Reference/Zotero-4.0.28.8.dmg</string>
+		<key>installer_item_size</key>
+		<integer>69639</integer>
+		<key>installer_type</key>
+		<string>copy_from_dmg</string>
+		<key>installs</key>
+		<array>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>org.zotero.zotero</string>
+				<key>CFBundleName</key>
+				<string>Zotero</string>
+				<key>CFBundleShortVersionString</key>
+				<string>4.0.28.8</string>
+				<key>CFBundleVersion</key>
+				<string>4.0.999</string>
+				<key>minosversion</key>
+				<string>10.6.3</string>
+				<key>path</key>
+				<string>/Applications/Zotero.app</string>
+				<key>type</key>
+				<string>application</string>
+				<key>version_comparison_key</key>
+				<string>CFBundleShortVersionString</string>
+			</dict>
+		</array>
+		<key>items_to_copy</key>
+		<array>
+			<dict>
+				<key>destination_path</key>
+				<string>/Applications</string>
+				<key>source_item</key>
+				<string>Zotero.app</string>
+			</dict>
+		</array>
+		<key>minimum_os_version</key>
+		<string>10.6.3</string>
+		<key>name</key>
+		<string>Zotero</string>
+		<key>postinstall_script</key>
+		<string>#!/bin/bash
+            # Mircosoft Word 2011 Plugin for Zotero
+            # Last Updated April 10, 2014 - Joshua D. Miller
+            # Set Permissions to allow the Zotero Word Plugin to Install
+            [ -e /Applications/Microsoft\ Office\ 2011/ ] &amp;&amp; chmod o+w /Applications/Microsoft\ Office\ 2011/Office/Startup/Word
+            </string>
+		<key>postuninstall_script</key>
+		<string>#!/bin/bash
+            # Uninstall Script for Word Plugin for Zotero
+            # Last Updated April 10, 2014 - Joshua D. Miller
+            # Remove the Zotero Template file
+            [ -e /Applications/Microsoft\ Office\ 2011/Office/Word/Startup/Zotero.dot ] &amp;&amp; rm /Applications/Microsoft\ Office\ 2011/Office/Startup/Word/Zotero.dot
+            # Restore Permissions on the folder /Applications/Microsoft Office 2011/Office/Startup/Word/
+            [ -e /Applications/Microsoft\ Office\ 2011/ ] &amp;&amp; chmod o-w /Applications/Microsoft\ Office\ 2011/Office/Startup/Word
+            </string>
+		<key>unattended_install</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>remove_copied_items</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>4.0.28.8</string>
 	</dict>
 	<dict>
 		<key>autoremove</key>
