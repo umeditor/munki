@@ -9577,6 +9577,8 @@ exit 0
 		<array>
 			<string>production</string>
 		</array>
+		<key>category</key>
+		<string>Internet Plugin</string>
 		<key>description</key>
 		<string>Microsoft Silverlight is a free web-browser plug-in that enables interactive media experiences, rich business applications and immersive mobile apps.</string>
 		<key>display_name</key>
