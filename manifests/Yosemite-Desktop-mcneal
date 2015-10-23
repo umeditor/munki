@@ -21,7 +21,11 @@
   </array>
   <key>optional_installs</key>
   <array>
-
+      <string>MSExcel2016</string>
+      <string>MSOneNote2016</string>
+      <string>MSOutlook2016</string>
+      <string>MSPowerPoint2016</string>
+      <string>MSWord2016</string>
   </array>
 </dict>
 </plist>
