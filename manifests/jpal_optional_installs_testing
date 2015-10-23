@@ -9,67 +9,24 @@
 	<key>included_manifests</key>
 	<array>
 			<string>munki_client</string>
+			<string>jpal_optional_installs</string>
 	</array>
 	<key>managed_installs</key>
 	<array>
 	</array>
 	<key>optional_installs</key>
 	<array>
-		<string>Skype</string>
-		<string>CertAid</string>
-		<string>GoogleChrome</string>
-		<string>Dropbox</string>
-		<string>AdobeAcrobatProXI</string>
-		<string>Office2011</string>
-		<string>CiscoAnyConnectVPN</string>
-		<string>SophosAntiVirus</string>
-		<string>Java6</string>
-		<string>AdobeFlashPlayer</string>
-		<string>setting-login-window</string>
-		<string>jpal-disable8021x</string>
-		<string>setting-munki-InstallAppleSoftwareUpdates</string>
-		<string>Silverlight</string>
-		<string>MPEGStreamclip</string>
-		<string>Google Voice and Video</string>
-		<string>Spotify</string>
-		<string>iPhoto</string>
-		<string>TrueCrypt</string>
-		<string>XDDecode</string>
-		<string>AdobeAcrobatProXI</string>
-		<string>VMwareFusion</string>
-		<string>AdobeAIR</string>
-		<string>CasperClient</string>
-		<string>SketchUpMake</string>
+		<string>MSExcel2016</string>
+		<string>MSOneNote2016</string>
+		<string>MSOutlook2016</string>
+		<string>MSPowerPoint2016</string>
+		<string>MSWord2016</string>
 	</array>
 	<key>managed_uninstalls</key>
 	<array>
 	</array>
 	<key>conditional_items</key>
 	<array>
-		<dict>
-			<key>condition</key>
-			<string>os_vers BEGINSWITH "10.9"</string>
-			<key>managed_installs</key>
-			<array>
-				<string>BashUpdateMavericks</string>
-			</array>
-		</dict>
-		<dict>
-			<key>condition</key>
-			<string>os_vers BEGINSWITH "10.8"</string>
-			<key>managed_installs</key>
-			<array>
-				<string>BashUpdateMountainLion</string>
-			</array>
-		</dict>
-		<dict>
-			<key>condition</key>
-			<string>os_vers BEGINSWITH "10.7"</string>
-			<key>managed_installs</key>
-			<array>
-				<string>BashUpdateLion</string>
-			</array>
-		</dict>
 	</array>
 </dict>
 </plist>
