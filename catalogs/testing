@@ -26,7 +26,7 @@
 		<key>installer_item_hash</key>
 		<string>78ec51b7caefb5720fddb4f3b81ab1b41c8be61d3401d65d2dc31a48d81ce32f</string>
 		<key>installer_item_location</key>
-		<string>apps/MSExcel2016-15.15.0-15.15.pkg</string>
+		<string>apps/Office2016/MSExcel2016-15.15.0-15.15.pkg</string>
 		<key>installer_item_size</key>
 		<integer>786210</integer>
 		<key>installs</key>
@@ -90,7 +90,7 @@
 		<key>installer_item_hash</key>
 		<string>9b83d3fc125d433c9541924d7ca758a0136dd96d7ac8bf8c8ee049398811b64e</string>
 		<key>installer_item_location</key>
-		<string>apps/MSOneNote2016-15.15.1.pkg</string>
+		<string>apps/Office2016/MSOneNote2016-15.15.1.pkg</string>
 		<key>installer_item_size</key>
 		<integer>353249</integer>
 		<key>installs</key>
@@ -154,7 +154,7 @@
 		<key>installer_item_hash</key>
 		<string>1db80001d99f50794e5189dcf71e85c544cd1576625195c5a13bf1e87878c436</string>
 		<key>installer_item_location</key>
-		<string>apps/MSOutlook2016-15.15.0-15.15.pkg</string>
+		<string>apps/Office2016/MSOutlook2016-15.15.0-15.15.pkg</string>
 		<key>installer_item_size</key>
 		<integer>545466</integer>
 		<key>installs</key>
@@ -218,7 +218,7 @@
 		<key>installer_item_hash</key>
 		<string>7c9bdd62a6ddc189b2f583240fe18bf618aed880510d7bbb74a78437ec2f9fcf</string>
 		<key>installer_item_location</key>
-		<string>apps/MSPowerPoint2016-15.15.0-15.15.pkg</string>
+		<string>apps/Office2016/MSPowerPoint2016-15.15.0-15.15.pkg</string>
 		<key>installer_item_size</key>
 		<integer>737758</integer>
 		<key>installs</key>
@@ -282,7 +282,7 @@
 		<key>installer_item_hash</key>
 		<string>22802291a410dd7d38d244fb62395226ae6419cebbc7ec4766528902c3bbbf69</string>
 		<key>installer_item_location</key>
-		<string>apps/MSWord2016-15.15.0-15.15.pkg</string>
+		<string>apps/Office2016/MSWord2016-15.15.0-15.15.pkg</string>
 		<key>installer_item_size</key>
 		<integer>892334</integer>
 		<key>installs</key>
@@ -321,6 +321,58 @@
 		<true/>
 		<key>version</key>
 		<string>15.15</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>testing</string>
+		</array>
+		<key>installer_item_hash</key>
+		<string>3c8bb152c42d747af2945b34a5a27e968e95ed1b5465229a3ad030b43ed63955</string>
+		<key>installer_item_location</key>
+		<string>apps/Office2016/Office2016License.dmg</string>
+		<key>installer_item_size</key>
+		<integer>31</integer>
+		<key>installer_type</key>
+		<string>copy_from_dmg</string>
+		<key>installs</key>
+		<array>
+			<dict>
+				<key>md5checksum</key>
+				<string>064bd657e142fd40d539c61ef522ba13</string>
+				<key>path</key>
+				<string>/Library/Preferences/com.microsoft.office.licensingV2.plist</string>
+				<key>type</key>
+				<string>file</string>
+			</dict>
+		</array>
+		<key>items_to_copy</key>
+		<array>
+			<dict>
+				<key>destination_path</key>
+				<string>/Library/Preferences</string>
+				<key>group</key>
+				<string>admin</string>
+				<key>mode</key>
+				<string>go-w</string>
+				<key>source_item</key>
+				<string>com.microsoft.office.licensingV2.plist</string>
+				<key>user</key>
+				<string>root</string>
+			</dict>
+		</array>
+		<key>minimum_os_version</key>
+		<string>10.4.0</string>
+		<key>name</key>
+		<string>com.microsoft.office.licensingV2</string>
+		<key>uninstall_method</key>
+		<string>remove_copied_items</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>0</string>
 	</dict>
 </array>
 </plist>
