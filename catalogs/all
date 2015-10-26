@@ -35891,6 +35891,10 @@ rm '/Library/PrivilegedHelperTools/Google Drive Icon Helper'
 				<string>15.15</string>
 			</dict>
 		</array>
+		<key>requires</key>
+		<array>
+			<string>Office2016License</string>
+		</array>
 		<key>unattended_install</key>
 		<true/>
 		<key>uninstall_method</key>
@@ -36200,7 +36204,7 @@ rm '/Library/PrivilegedHelperTools/Google Drive Icon Helper'
 		<key>minimum_os_version</key>
 		<string>10.4.0</string>
 		<key>name</key>
-		<string>com.microsoft.office.licensingV2</string>
+		<string>Office2016License</string>
 		<key>uninstall_method</key>
 		<string>remove_copied_items</string>
 		<key>uninstallable</key>
