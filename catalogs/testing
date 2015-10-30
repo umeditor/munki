@@ -23,21 +23,45 @@
 		<string>mit-sophos-9_2_8-osx_signed-9.2.8.pkg</string>
 		<key>installer_item_size</key>
 		<integer>160257</integer>
+		<key>installs</key>
+		<array>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>com.sophos.macendpoint.Sophos-Anti-Virus</string>
+				<key>CFBundleName</key>
+				<string>Sophos Anti-Virus</string>
+				<key>CFBundleShortVersionString</key>
+				<string>9.2.4</string>
+				<key>CFBundleVersion</key>
+				<string></string>
+				<key>path</key>
+				<string>/Applications/Sophos Anti-Virus.app</string>
+				<key>type</key>
+				<string>application</string>
+				<key>version_comparison_key</key>
+				<string>CFBundleShortVersionString</string>
+			</dict>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>com.sophos.autoupdate</string>
+				<key>CFBundleName</key>
+				<string>Sophos AutoUpdate</string>
+				<key>CFBundleShortVersionString</key>
+				<string>9.2.8</string>
+				<key>CFBundleVersion</key>
+				<string></string>
+				<key>path</key>
+				<string>SophosAutoUpdate.app</string>
+				<key>type</key>
+				<string>application</string>
+				<key>version_comparison_key</key>
+				<string>CFBundleShortVersionString</string>
+			</dict>
+		</array>
 		<key>minimum_os_version</key>
 		<string>10.5.0</string>
 		<key>name</key>
 		<string>SophosAntiVirus</string>
-		<key>receipts</key>
-		<array>
-			<dict>
-				<key>installed_size</key>
-				<integer>0</integer>
-				<key>packageid</key>
-				<string>com.mit.pkg.SophosAnti-Virus928</string>
-				<key>version</key>
-				<string>1.0</string>
-			</dict>
-		</array>
 		<key>uninstall_method</key>
 		<string>removepackages</string>
 		<key>uninstallable</key>
