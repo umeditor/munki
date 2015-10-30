@@ -1665,6 +1665,8 @@ exit 0
 		<string>10.5.0</string>
 		<key>name</key>
 		<string>SophosAntiVirus</string>
+		<key>unattended_install</key>
+		<true/>
 		<key>uninstall_method</key>
 		<string>removepackages</string>
 		<key>uninstallable</key>
