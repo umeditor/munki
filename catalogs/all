@@ -1610,7 +1610,7 @@ exit 0
 		<false/>
 		<key>catalogs</key>
 		<array>
-			<string>testing</string>
+			<string>production</string>
 		</array>
 		<key>category</key>
 		<string>Security</string>

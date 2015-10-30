@@ -1612,6 +1612,73 @@ exit 0
 		<array>
 			<string>production</string>
 		</array>
+		<key>category</key>
+		<string>Security</string>
+		<key>description</key>
+		<string>Sophos Anti-Virus is the virus protection software recommended by MIT. This software detects and cleans up viruses, Trojans, worms and spyware, as well as adware and other potentially unwanted applications. Sophos Anti-Virus provides virus definitions and software updates regularly when you are connected to the Internet. You do not need to be on campus to receive these updates.</string>
+		<key>developer</key>
+		<string>Sophos</string>
+		<key>display_name</key>
+		<string>Sophos Anti-Virus</string>
+		<key>installer_item_hash</key>
+		<string>15dc34185d2401b0abc9aa070ef12c2c75bfe4c4d9990abc3bdfb5eaf8646afb</string>
+		<key>installer_item_location</key>
+		<string>mit-sophos-9_2_8-osx_signed-9.2.8.pkg</string>
+		<key>installer_item_size</key>
+		<integer>160257</integer>
+		<key>installs</key>
+		<array>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>com.sophos.macendpoint.Sophos-Anti-Virus</string>
+				<key>CFBundleName</key>
+				<string>Sophos Anti-Virus</string>
+				<key>CFBundleShortVersionString</key>
+				<string>9.2.4</string>
+				<key>CFBundleVersion</key>
+				<string></string>
+				<key>path</key>
+				<string>/Applications/Sophos Anti-Virus.app</string>
+				<key>type</key>
+				<string>application</string>
+				<key>version_comparison_key</key>
+				<string>CFBundleShortVersionString</string>
+			</dict>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>com.sophos.autoupdate</string>
+				<key>CFBundleName</key>
+				<string>Sophos AutoUpdate</string>
+				<key>CFBundleShortVersionString</key>
+				<string>9.2.8</string>
+				<key>CFBundleVersion</key>
+				<string></string>
+				<key>path</key>
+				<string>SophosAutoUpdate.app</string>
+				<key>type</key>
+				<string>application</string>
+				<key>version_comparison_key</key>
+				<string>CFBundleShortVersionString</string>
+			</dict>
+		</array>
+		<key>minimum_os_version</key>
+		<string>10.5.0</string>
+		<key>name</key>
+		<string>SophosAntiVirus</string>
+		<key>uninstall_method</key>
+		<string>removepackages</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>9.2.8</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>production</string>
+		</array>
 		<key>description</key>
 		<string>VMware Fusion is a desktop application that lets you create and run virtual machines on your Intel-based Macintosh.</string>
 		<key>display_name</key>
