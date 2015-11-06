@@ -560,6 +560,51 @@
 		<array>
 			<string>production</string>
 		</array>
+		<key>category</key>
+		<string>Security</string>
+		<key>description</key>
+		<string>Cisco AnyConnect Secure Mobility Client (formerly known as Cisco AnyConnect VPN) is a Virtual Private Network (VPN) client.</string>
+		<key>developer</key>
+		<string>Cisco</string>
+		<key>display_name</key>
+		<string>AnyConnect Secure Mobility Client</string>
+		<key>installed_size</key>
+		<integer>13314</integer>
+		<key>installer_item_hash</key>
+		<string>6f99a1e0731aca992bc21d7d1514b6f48e46ba673762ae2696e69847f301f491</string>
+		<key>installer_item_location</key>
+		<string>anyconnect-macosx-3.1.08009-web-deploy-k9-3.1.08009.dmg</string>
+		<key>installer_item_size</key>
+		<integer>5356</integer>
+		<key>minimum_os_version</key>
+		<string>10.5.0</string>
+		<key>name</key>
+		<string>CiscoAnyConnectVPN</string>
+		<key>receipts</key>
+		<array>
+			<dict>
+				<key>installed_size</key>
+				<integer>13314</integer>
+				<key>packageid</key>
+				<string>com.cisco.pkg.anyconnect.vpn</string>
+				<key>version</key>
+				<string>3.1.08009</string>
+			</dict>
+		</array>
+		<key>uninstall_method</key>
+		<string>removepackages</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>3.1.08009</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>production</string>
+		</array>
 		<key>description</key>
 		<string>Citrix is a universal client for accessing desktop applications via a server solution. MIT's Citrix implementation allows Mac OS X users to access Windows-only enterprise applications, such as BrioQuery, CCure, Adonis and SAPgui.</string>
 		<key>display_name</key>
@@ -10868,6 +10913,70 @@ exit 0
 			<string>production</string>
 		</array>
 		<key>category</key>
+		<string>Internet</string>
+		<key>description</key>
+		<string>Calling, seeing, messaging and sharing with others – wherever they are.</string>
+		<key>developer</key>
+		<string>Microsoft</string>
+		<key>display_name</key>
+		<string>Skype</string>
+		<key>installer_item_hash</key>
+		<string>cf7913f434878ef84683a8b1f7b8afa74d09e19e6acba3e527429e5e236031f1</string>
+		<key>installer_item_location</key>
+		<string>apps/Skype-7.15.0.333.dmg</string>
+		<key>installer_item_size</key>
+		<integer>40061</integer>
+		<key>installer_type</key>
+		<string>copy_from_dmg</string>
+		<key>installs</key>
+		<array>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>com.skype.skype</string>
+				<key>CFBundleShortVersionString</key>
+				<string>7.15</string>
+				<key>CFBundleVersion</key>
+				<string>7.15.0.333</string>
+				<key>minosversion</key>
+				<string>10.9</string>
+				<key>path</key>
+				<string>/Applications/Skype.app</string>
+				<key>type</key>
+				<string>application</string>
+				<key>version_comparison_key</key>
+				<string>CFBundleVersion</string>
+			</dict>
+		</array>
+		<key>items_to_copy</key>
+		<array>
+			<dict>
+				<key>destination_path</key>
+				<string>/Applications</string>
+				<key>source_item</key>
+				<string>Skype.app</string>
+			</dict>
+		</array>
+		<key>minimum_os_version</key>
+		<string>10.9</string>
+		<key>name</key>
+		<string>Skype</string>
+		<key>unattended_install</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>remove_copied_items</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>7.15.0.333</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>production</string>
+		</array>
+		<key>category</key>
 		<string>Communication</string>
 		<key>description</key>
 		<string>Calling, seeing, messaging and sharing with others – wherever they are.</string>
@@ -15534,6 +15643,95 @@ The setup procedure includes installing the MIT CA as well as the user's persona
 		<true/>
 		<key>version</key>
 		<string>12.0.0</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>blocking_applications</key>
+		<array>
+			<string>Citrix Receiver</string>
+			<string>Citrix Viewer</string>
+		</array>
+		<key>catalogs</key>
+		<array>
+			<string>testing</string>
+		</array>
+		<key>category</key>
+		<string>Internet</string>
+		<key>description</key>
+		<string>Citrix Receiver is an easy-to-install client software that lets you access enterprise data, applications and desktops from any computing device including smartphones, tablets and PCs. Workers today typically use multiple computing devices and crave a consistent computing experience across all of them. Organizations everywhere are struggling to cope with the rapid proliferation of these devices and give users the mobile, high-definition experience they demand. Working in tandem with a Citrix-enabled IT infrastructure, Citrix Receiver gives workers consistent, secure, high-performance access from any device without introducing layers of management complexity for IT.</string>
+		<key>developer</key>
+		<string>Citrix Systems, Inc.</string>
+		<key>display_name</key>
+		<string>Citrix Receiver</string>
+		<key>installed_size</key>
+		<integer>113296</integer>
+		<key>installer_item_hash</key>
+		<string>86d376b1b3fdf3a5b53c1c9129b2cbf11087e0c190514a3da24c4f69aa8fa150</string>
+		<key>installer_item_location</key>
+		<string>apps/Citrix/CitrixReceiver-12.1.0.dmg</string>
+		<key>installer_item_size</key>
+		<integer>43448</integer>
+		<key>installs</key>
+		<array>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>com.citrix.receiver.nomas</string>
+				<key>CFBundleName</key>
+				<string>Citrix Receiver</string>
+				<key>CFBundleShortVersionString</key>
+				<string>12.1.0</string>
+				<key>CFBundleVersion</key>
+				<string>339228</string>
+				<key>minosversion</key>
+				<string>10.8</string>
+				<key>path</key>
+				<string>/Applications/Citrix Receiver.app</string>
+				<key>type</key>
+				<string>application</string>
+				<key>version_comparison_key</key>
+				<string>CFBundleShortVersionString</string>
+			</dict>
+			<dict>
+				<key>CFBundleShortVersionString</key>
+				<string>12.1.0</string>
+				<key>CFBundleVersion</key>
+				<string>339228</string>
+				<key>path</key>
+				<string>/Library/Internet Plug-Ins/CitrixICAClientPlugIn.plugin</string>
+				<key>type</key>
+				<string>bundle</string>
+				<key>version_comparison_key</key>
+				<string>CFBundleShortVersionString</string>
+			</dict>
+		</array>
+		<key>minimum_os_version</key>
+		<string>10.6</string>
+		<key>name</key>
+		<string>CitrixReceiver</string>
+		<key>package_path</key>
+		<string>Install Citrix Receiver.pkg</string>
+		<key>receipts</key>
+		<array>
+			<dict>
+				<key>installed_size</key>
+				<integer>113296</integer>
+				<key>packageid</key>
+				<string>com.citrix.ICAClient</string>
+				<key>version</key>
+				<string>12.1.0</string>
+			</dict>
+		</array>
+		<key>unattended_install</key>
+		<true/>
+		<key>unattended_uninstall</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>removepackages</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>12.1.0</string>
 	</dict>
 	<dict>
 		<key>autoremove</key>
@@ -21883,6 +22081,72 @@ fi
 			<string>production</string>
 		</array>
 		<key>category</key>
+		<string>Internet</string>
+		<key>description</key>
+		<string>Mozilla Firefox is a free and open source web browser.</string>
+		<key>developer</key>
+		<string>Mozilla</string>
+		<key>display_name</key>
+		<string>Mozilla Firefox</string>
+		<key>installer_item_hash</key>
+		<string>83a41b8a427038e668759fd80ab3d6019cd1fe67dbe866fd31ef9be68c4ea084</string>
+		<key>installer_item_location</key>
+		<string>apps/firefox/Firefox-42.0.dmg</string>
+		<key>installer_item_size</key>
+		<integer>78243</integer>
+		<key>installer_type</key>
+		<string>copy_from_dmg</string>
+		<key>installs</key>
+		<array>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>org.mozilla.firefox</string>
+				<key>CFBundleName</key>
+				<string>Firefox</string>
+				<key>CFBundleShortVersionString</key>
+				<string>42.0</string>
+				<key>CFBundleVersion</key>
+				<string>4215.10.29</string>
+				<key>minosversion</key>
+				<string>10.6</string>
+				<key>path</key>
+				<string>/Applications/Firefox.app</string>
+				<key>type</key>
+				<string>application</string>
+				<key>version_comparison_key</key>
+				<string>CFBundleShortVersionString</string>
+			</dict>
+		</array>
+		<key>items_to_copy</key>
+		<array>
+			<dict>
+				<key>destination_path</key>
+				<string>/Applications</string>
+				<key>source_item</key>
+				<string>Firefox.app</string>
+			</dict>
+		</array>
+		<key>minimum_os_version</key>
+		<string>10.6</string>
+		<key>name</key>
+		<string>Firefox</string>
+		<key>unattended_install</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>remove_copied_items</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>42.0</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>production</string>
+		</array>
+		<key>category</key>
 		<string>File Sharing</string>
 		<key>description</key>
 		<string>Google Drive sync for Mac. Access files on your computer from anywhere.</string>
@@ -22588,6 +22852,88 @@ rm '/Library/PrivilegedHelperTools/Google Drive Icon Helper'
 		<true/>
 		<key>version</key>
 		<string>1.25.0468.5720</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>testing</string>
+		</array>
+		<key>category</key>
+		<string>File Sharing</string>
+		<key>description</key>
+		<string>Google Drive sync for Mac. Access files on your computer from anywhere.</string>
+		<key>developer</key>
+		<string>Google</string>
+		<key>display_name</key>
+		<string>Google Drive</string>
+		<key>installer_item_hash</key>
+		<string>72525cbc04acfe11f64938981e107f54200ec06f460e202072e6e4aa06d568da</string>
+		<key>installer_item_location</key>
+		<string>apps/google/GoogleDrive-1.25.0523.2491.dmg</string>
+		<key>installer_item_size</key>
+		<integer>39459</integer>
+		<key>installer_type</key>
+		<string>copy_from_dmg</string>
+		<key>installs</key>
+		<array>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>com.google.GoogleDrive</string>
+				<key>CFBundleName</key>
+				<string>Google Drive</string>
+				<key>CFBundleShortVersionString</key>
+				<string>1.25</string>
+				<key>CFBundleVersion</key>
+				<string>1.25.0523.2491</string>
+				<key>path</key>
+				<string>/Applications/Google Drive.app</string>
+				<key>type</key>
+				<string>application</string>
+				<key>version_comparison_key</key>
+				<string>CFBundleVersion</string>
+			</dict>
+		</array>
+		<key>items_to_copy</key>
+		<array>
+			<dict>
+				<key>destination_path</key>
+				<string>/Applications</string>
+				<key>source_item</key>
+				<string>Google Drive.app</string>
+			</dict>
+		</array>
+		<key>minimum_os_version</key>
+		<string>10.6</string>
+		<key>name</key>
+		<string>GoogleDrive</string>
+		<key>postinstall_script</key>
+		<string>#!/bin/sh
+
+# Appreciatively copied from
+# https://github.com/Ginja/Admin_Scripts/blob/master/google_drive_helper.rb
+
+cp \
+        '/Applications/Google Drive.app/Contents/Helpers/Google Drive Icon Helper' \
+        '/Library/PrivilegedHelperTools/Google Drive Icon Helper'
+
+chmod 6755 '/Library/PrivilegedHelperTools/Google Drive Icon Helper'
+chown root:procmod '/Library/PrivilegedHelperTools/Google Drive Icon Helper'
+</string>
+		<key>postuninstall_script</key>
+		<string>#/bin/sh
+
+rm '/Library/PrivilegedHelperTools/Google Drive Icon Helper'
+</string>
+		<key>unattended_install</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>remove_copied_items</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>1.25.0523.2491</string>
 	</dict>
 	<dict>
 		<key>autoremove</key>

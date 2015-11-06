@@ -560,6 +560,51 @@
 		<array>
 			<string>production</string>
 		</array>
+		<key>category</key>
+		<string>Security</string>
+		<key>description</key>
+		<string>Cisco AnyConnect Secure Mobility Client (formerly known as Cisco AnyConnect VPN) is a Virtual Private Network (VPN) client.</string>
+		<key>developer</key>
+		<string>Cisco</string>
+		<key>display_name</key>
+		<string>AnyConnect Secure Mobility Client</string>
+		<key>installed_size</key>
+		<integer>13314</integer>
+		<key>installer_item_hash</key>
+		<string>6f99a1e0731aca992bc21d7d1514b6f48e46ba673762ae2696e69847f301f491</string>
+		<key>installer_item_location</key>
+		<string>anyconnect-macosx-3.1.08009-web-deploy-k9-3.1.08009.dmg</string>
+		<key>installer_item_size</key>
+		<integer>5356</integer>
+		<key>minimum_os_version</key>
+		<string>10.5.0</string>
+		<key>name</key>
+		<string>CiscoAnyConnectVPN</string>
+		<key>receipts</key>
+		<array>
+			<dict>
+				<key>installed_size</key>
+				<integer>13314</integer>
+				<key>packageid</key>
+				<string>com.cisco.pkg.anyconnect.vpn</string>
+				<key>version</key>
+				<string>3.1.08009</string>
+			</dict>
+		</array>
+		<key>uninstall_method</key>
+		<string>removepackages</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>3.1.08009</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>production</string>
+		</array>
 		<key>description</key>
 		<string>Citrix is a universal client for accessing desktop applications via a server solution. MIT's Citrix implementation allows Mac OS X users to access Windows-only enterprise applications, such as BrioQuery, CCure, Adonis and SAPgui.</string>
 		<key>display_name</key>
@@ -10859,6 +10904,70 @@ exit 0
 		<true/>
 		<key>version</key>
 		<string>7.14.0.301</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>production</string>
+		</array>
+		<key>category</key>
+		<string>Internet</string>
+		<key>description</key>
+		<string>Calling, seeing, messaging and sharing with others – wherever they are.</string>
+		<key>developer</key>
+		<string>Microsoft</string>
+		<key>display_name</key>
+		<string>Skype</string>
+		<key>installer_item_hash</key>
+		<string>cf7913f434878ef84683a8b1f7b8afa74d09e19e6acba3e527429e5e236031f1</string>
+		<key>installer_item_location</key>
+		<string>apps/Skype-7.15.0.333.dmg</string>
+		<key>installer_item_size</key>
+		<integer>40061</integer>
+		<key>installer_type</key>
+		<string>copy_from_dmg</string>
+		<key>installs</key>
+		<array>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>com.skype.skype</string>
+				<key>CFBundleShortVersionString</key>
+				<string>7.15</string>
+				<key>CFBundleVersion</key>
+				<string>7.15.0.333</string>
+				<key>minosversion</key>
+				<string>10.9</string>
+				<key>path</key>
+				<string>/Applications/Skype.app</string>
+				<key>type</key>
+				<string>application</string>
+				<key>version_comparison_key</key>
+				<string>CFBundleVersion</string>
+			</dict>
+		</array>
+		<key>items_to_copy</key>
+		<array>
+			<dict>
+				<key>destination_path</key>
+				<string>/Applications</string>
+				<key>source_item</key>
+				<string>Skype.app</string>
+			</dict>
+		</array>
+		<key>minimum_os_version</key>
+		<string>10.9</string>
+		<key>name</key>
+		<string>Skype</string>
+		<key>unattended_install</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>remove_copied_items</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>7.15.0.333</string>
 	</dict>
 	<dict>
 		<key>autoremove</key>
@@ -21874,6 +21983,72 @@ fi
 		<true/>
 		<key>version</key>
 		<string>41.0</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>production</string>
+		</array>
+		<key>category</key>
+		<string>Internet</string>
+		<key>description</key>
+		<string>Mozilla Firefox is a free and open source web browser.</string>
+		<key>developer</key>
+		<string>Mozilla</string>
+		<key>display_name</key>
+		<string>Mozilla Firefox</string>
+		<key>installer_item_hash</key>
+		<string>83a41b8a427038e668759fd80ab3d6019cd1fe67dbe866fd31ef9be68c4ea084</string>
+		<key>installer_item_location</key>
+		<string>apps/firefox/Firefox-42.0.dmg</string>
+		<key>installer_item_size</key>
+		<integer>78243</integer>
+		<key>installer_type</key>
+		<string>copy_from_dmg</string>
+		<key>installs</key>
+		<array>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>org.mozilla.firefox</string>
+				<key>CFBundleName</key>
+				<string>Firefox</string>
+				<key>CFBundleShortVersionString</key>
+				<string>42.0</string>
+				<key>CFBundleVersion</key>
+				<string>4215.10.29</string>
+				<key>minosversion</key>
+				<string>10.6</string>
+				<key>path</key>
+				<string>/Applications/Firefox.app</string>
+				<key>type</key>
+				<string>application</string>
+				<key>version_comparison_key</key>
+				<string>CFBundleShortVersionString</string>
+			</dict>
+		</array>
+		<key>items_to_copy</key>
+		<array>
+			<dict>
+				<key>destination_path</key>
+				<string>/Applications</string>
+				<key>source_item</key>
+				<string>Firefox.app</string>
+			</dict>
+		</array>
+		<key>minimum_os_version</key>
+		<string>10.6</string>
+		<key>name</key>
+		<string>Firefox</string>
+		<key>unattended_install</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>remove_copied_items</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>42.0</string>
 	</dict>
 	<dict>
 		<key>autoremove</key>
