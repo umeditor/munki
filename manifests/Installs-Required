@@ -14,6 +14,7 @@
       <string>CertAid</string>
       <string>CiscoAnyConnectVPN</string>
       <string>SophosAntiVirus</string>
+      <string>CrashPlanPROe</string>
   </array>
   <key>managed_uninstalls</key>
   <array>
