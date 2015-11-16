@@ -18,7 +18,6 @@
   <key>optional_installs</key>
   <array>
       <string>AdobeAIR</string>
-      <string>AdobeAcrobatProXI</string>
       <string>AdobeFlashPlayer</string>
       <string>Cyberduck</string>
       <string>Dropbox</string>
