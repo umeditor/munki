@@ -37203,6 +37203,10 @@ rm '/Library/PrivilegedHelperTools/Google Drive Icon Helper'
 				<string>15.16</string>
 			</dict>
 		</array>
+		<key>requires</key>
+		<array>
+			<string>Office2016License</string>
+		</array>
 		<key>unattended_install</key>
 		<true/>
 		<key>uninstall_method</key>
@@ -37266,6 +37270,10 @@ rm '/Library/PrivilegedHelperTools/Google Drive Icon Helper'
 				<key>version</key>
 				<string>15.16</string>
 			</dict>
+		</array>
+		<key>requires</key>
+		<array>
+			<string>Office2016License</string>
 		</array>
 		<key>unattended_install</key>
 		<true/>
@@ -37331,6 +37339,10 @@ rm '/Library/PrivilegedHelperTools/Google Drive Icon Helper'
 				<string>15.16</string>
 			</dict>
 		</array>
+		<key>requires</key>
+		<array>
+			<string>Office2016License</string>
+		</array>
 		<key>unattended_install</key>
 		<true/>
 		<key>uninstall_method</key>
@@ -37395,6 +37407,10 @@ rm '/Library/PrivilegedHelperTools/Google Drive Icon Helper'
 				<string>15.16</string>
 			</dict>
 		</array>
+		<key>requires</key>
+		<array>
+			<string>Office2016License</string>
+		</array>
 		<key>unattended_install</key>
 		<true/>
 		<key>uninstall_method</key>
@@ -37458,6 +37474,10 @@ rm '/Library/PrivilegedHelperTools/Google Drive Icon Helper'
 				<key>version</key>
 				<string>15.16</string>
 			</dict>
+		</array>
+		<key>requires</key>
+		<array>
+			<string>Office2016License</string>
 		</array>
 		<key>unattended_install</key>
 		<true/>
