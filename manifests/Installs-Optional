@@ -20,27 +20,20 @@
       <string>AdobeAIR</string>
       <string>AdobeAcrobatProXI</string>
       <string>AdobeFlashPlayer</string>
-      <string>Atom</string>
-      <string>AutoPkgr</string>
-      <string>CitrixReceiver</string>
       <string>Cyberduck</string>
       <string>Dropbox</string>
       <string>Evernote</string>
+      <string>Firefox</string>
       <string>GoogleChrome</string>
       <string>GoogleDrive</string>
       <string>GoogleEarth</string>
-      <string>Keynote</string>
       <string>MacTeX</string>
       <string>Office2011</string>
       <string>Silverlight</string>
       <string>Skype</string>
       <string>Spotify</string>
-      <string>SublimeText3</string>
       <string>TextMate2</string>
       <string>Thunderbird</string>
-      <string>TrueCrypt</string>
-      <string>VMwareFusion</string>
-      <string>Xcode</string>
       <string>VLC</string>
   </array>
 </dict>
