@@ -30,11 +30,9 @@
       <string>GoogleDrive</string>
       <string>GoogleEarth</string>
       <string>Keynote</string>
-      <string>MPEGStreamclip</string>
       <string>MacTeX</string>
       <string>Office2011</string>
       <string>Silverlight</string>
-      <string>SketchUpMake</string>
       <string>Skype</string>
       <string>Spotify</string>
       <string>SublimeText3</string>
@@ -42,9 +40,7 @@
       <string>Thunderbird</string>
       <string>TrueCrypt</string>
       <string>VMwareFusion</string>
-      <string>XDDecode</string>
       <string>Xcode</string>
-      <string>iPhoto</string>
       <string>VLC</string>
   </array>
 </dict>
