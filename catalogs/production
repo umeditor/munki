@@ -47029,5 +47029,52 @@ defaults write /Library/Preferences/ManagedInstalls.plist IconURL "https://munki
 		<key>version</key>
 		<string>5.2.4.18058</string>
 	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>production</string>
+		</array>
+		<key>category</key>
+		<string>Utilities</string>
+		<key>description</key>
+		<string>This script automatically processes packages and scripts at first boot and/or each (subsequent) user login.</string>
+		<key>developer</key>
+		<string>Joseph Chilcote</string>
+		<key>display_name</key>
+		<string>Outset</string>
+		<key>installed_size</key>
+		<integer>27</integer>
+		<key>installer_item_hash</key>
+		<string>71f87fe6bb4b7446b8c5ebb14994a4dfd67037a7ab2c45c384d6b0c0631ae9ac</string>
+		<key>installer_item_location</key>
+		<string>utilities/outset-1.0.2.pkg</string>
+		<key>installer_item_size</key>
+		<integer>8</integer>
+		<key>minimum_os_version</key>
+		<string>10.5.0</string>
+		<key>name</key>
+		<string>outset</string>
+		<key>receipts</key>
+		<array>
+			<dict>
+				<key>installed_size</key>
+				<integer>27</integer>
+				<key>packageid</key>
+				<string>com.github.outset.outset</string>
+				<key>version</key>
+				<string>1.0.2</string>
+			</dict>
+		</array>
+		<key>unattended_install</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>removepackages</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>1.0.2</string>
+	</dict>
 </array>
 </plist>
