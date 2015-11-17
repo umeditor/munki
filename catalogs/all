@@ -37159,7 +37159,7 @@ rm '/Library/PrivilegedHelperTools/Google Drive Icon Helper'
 		</array>
 		<key>catalogs</key>
 		<array>
-			<string>testing</string>
+			<string>production</string>
 		</array>
 		<key>description</key>
 		<string>&lt;html&gt;&lt;p style="font-family:Helvetica;font-size:12px"&gt;For detailed information about this update, please visit the following Web site: &lt;/p&gt;
@@ -37227,7 +37227,7 @@ rm '/Library/PrivilegedHelperTools/Google Drive Icon Helper'
 		</array>
 		<key>catalogs</key>
 		<array>
-			<string>testing</string>
+			<string>production</string>
 		</array>
 		<key>description</key>
 		<string>&lt;html&gt;&lt;p style="font-family:Helvetica;font-size:12px"&gt;For detailed information about this update, please visit the following Web site: &lt;/p&gt;
@@ -37295,7 +37295,7 @@ rm '/Library/PrivilegedHelperTools/Google Drive Icon Helper'
 		</array>
 		<key>catalogs</key>
 		<array>
-			<string>testing</string>
+			<string>production</string>
 		</array>
 		<key>description</key>
 		<string>&lt;html&gt;&lt;p style="font-family:Helvetica;font-size:12px"&gt;For detailed information about this update, please visit the following Web site: &lt;/p&gt;
@@ -37363,7 +37363,7 @@ rm '/Library/PrivilegedHelperTools/Google Drive Icon Helper'
 		</array>
 		<key>catalogs</key>
 		<array>
-			<string>testing</string>
+			<string>production</string>
 		</array>
 		<key>description</key>
 		<string>&lt;html&gt;&lt;p style="font-family:Helvetica;font-size:12px"&gt;For detailed information about this update, please visit the following Web site: &lt;/p&gt;
@@ -37431,7 +37431,7 @@ rm '/Library/PrivilegedHelperTools/Google Drive Icon Helper'
 		</array>
 		<key>catalogs</key>
 		<array>
-			<string>testing</string>
+			<string>production</string>
 		</array>
 		<key>description</key>
 		<string>&lt;html&gt;&lt;p style="font-family:Helvetica;font-size:12px"&gt;For detailed information about this update, please visit the following Web site: &lt;/p&gt;
@@ -37493,7 +37493,7 @@ rm '/Library/PrivilegedHelperTools/Google Drive Icon Helper'
 		<false/>
 		<key>catalogs</key>
 		<array>
-			<string>testing</string>
+			<string>production</string>
 		</array>
 		<key>installer_item_hash</key>
 		<string>3c8bb152c42d747af2945b34a5a27e968e95ed1b5465229a3ad030b43ed63955</string>

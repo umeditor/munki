@@ -23,7 +23,7 @@
 	</array>
 	<key>catalogs</key>
 	<array>
-		<string>testing</string>
+		<string>production</string>
 	</array>
 	<key>description</key>
 	<string>&lt;html&gt;&lt;p style="font-family:Helvetica;font-size:12px"&gt;For detailed information about this update, please visit the following Web site: &lt;/p&gt;
