@@ -79,5 +79,9 @@
 	<array>
 			<string>Office2016License</string>
 	</array>
+	<key>developer</key>
+	<string>Microsoft</string>
+	<key>category</key>
+	<string>Productivity</string>
 </dict>
 </plist>
