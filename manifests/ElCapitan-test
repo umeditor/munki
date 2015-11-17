@@ -13,6 +13,7 @@
   </array>
   <key>managed_installs</key>
   <array>
+    <string>outset</string>
   </array>
   <key>managed_uninstalls</key>
   <array>
