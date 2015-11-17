@@ -8,6 +8,7 @@
   </array>
   <key>included_manifests</key>
   <array>
+    <string>MSOffice2016</string>
   </array>
   <key>managed_installs</key>
   <array>
@@ -27,7 +28,6 @@
       <string>GoogleDrive</string>
       <string>GoogleEarth</string>
       <string>MacTeX</string>
-      <string>Office2011</string>
       <string>Silverlight</string>
       <string>Skype</string>
       <string>Spotify</string>
