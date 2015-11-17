@@ -15,6 +15,7 @@
       <string>CiscoAnyConnectVPN</string>
       <string>SophosAntiVirus</string>
       <string>CrashPlanPROe</string>
+      <string>outset</string>
   </array>
   <key>managed_uninstalls</key>
   <array>
