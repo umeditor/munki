@@ -48,6 +48,8 @@
 			<string>com.github.outset.outset</string>
 			<key>version</key>
 			<string>1.0.2</string>
+			<key>optional</key>
+			<true/>
 		</dict>
 	</array>
 	<key>uninstall_method</key>
@@ -58,5 +60,32 @@
 	<string>1.0.2</string>
 	<key>unattended_install</key>
 	<true/>
+	<key>installs</key>
+	<array>
+		<dict>
+			<key>md5checksum</key>
+			<string>e58c40b08c9347c6e84b79abdb2b38a5</string>
+			<key>path</key>
+			<string>/usr/local/outset/outset</string>
+			<key>type</key>
+			<string>file</string>
+		</dict>
+		<dict>
+			<key>md5checksum</key>
+			<string>0289bea8165040b1f4588fc054ef1a01</string>
+			<key>path</key>
+			<string>/Library/LaunchDaemons/com.github.outset.boot.plist</string>
+			<key>type</key>
+			<string>file</string>
+		</dict>
+		<dict>
+			<key>md5checksum</key>
+			<string>105f613cf2f0e7cdfc2ff39462bf4711</string>
+			<key>path</key>
+			<string>/Library/LaunchAgents/com.github.outset.login.plist</string>
+			<key>type</key>
+			<string>file</string>
+		</dict>
+	</array>
 </dict>
 </plist>

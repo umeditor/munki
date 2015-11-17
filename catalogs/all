@@ -47176,6 +47176,33 @@ defaults write /Library/Preferences/ManagedInstalls.plist IconURL "https://munki
 		<string>utilities/outset-1.0.2.pkg</string>
 		<key>installer_item_size</key>
 		<integer>8</integer>
+		<key>installs</key>
+		<array>
+			<dict>
+				<key>md5checksum</key>
+				<string>e58c40b08c9347c6e84b79abdb2b38a5</string>
+				<key>path</key>
+				<string>/usr/local/outset/outset</string>
+				<key>type</key>
+				<string>file</string>
+			</dict>
+			<dict>
+				<key>md5checksum</key>
+				<string>0289bea8165040b1f4588fc054ef1a01</string>
+				<key>path</key>
+				<string>/Library/LaunchDaemons/com.github.outset.boot.plist</string>
+				<key>type</key>
+				<string>file</string>
+			</dict>
+			<dict>
+				<key>md5checksum</key>
+				<string>105f613cf2f0e7cdfc2ff39462bf4711</string>
+				<key>path</key>
+				<string>/Library/LaunchAgents/com.github.outset.login.plist</string>
+				<key>type</key>
+				<string>file</string>
+			</dict>
+		</array>
 		<key>minimum_os_version</key>
 		<string>10.5.0</string>
 		<key>name</key>
@@ -47185,6 +47212,8 @@ defaults write /Library/Preferences/ManagedInstalls.plist IconURL "https://munki
 			<dict>
 				<key>installed_size</key>
 				<integer>27</integer>
+				<key>optional</key>
+				<true/>
 				<key>packageid</key>
 				<string>com.github.outset.outset</string>
 				<key>version</key>
