@@ -15,7 +15,7 @@
       <string>CiscoAnyConnectVPN</string>
       <string>SophosAntiVirus</string>
       <string>CrashPlanPROe</string>
-      <string>outset</string>
+      <string>Disable802.1xAutomaticConnection</string>
   </array>
   <key>managed_uninstalls</key>
   <array>
