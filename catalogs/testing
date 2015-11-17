@@ -180,6 +180,879 @@ rm '/Library/PrivilegedHelperTools/Google Drive Icon Helper'
 		<array>
 			<string>testing</string>
 		</array>
+		<key>description</key>
+		<string>Printer: Ascender</string>
+		<key>display_name</key>
+		<string>Ascender</string>
+		<key>installcheck_script</key>
+		<string>#!/usr/bin/python
+import subprocess
+import sys
+import shlex
+
+printerOptions = { "HPOption_Duplexer":"True",  }
+
+cmd = ['/usr/bin/lpoptions', '-p', 'Ascender', '-l']
+proc = subprocess.Popen(cmd, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+(lpoptLongOut, lpoptErr) = proc.communicate()
+
+# lpoptions -p printername -l will still exit 0 even if printername does not exist
+# but it will print to stderr
+if lpoptErr:
+    print lpoptErr
+    sys.exit(0)
+
+cmd = ['/usr/bin/lpoptions', '-p', 'Ascender']
+proc = subprocess.Popen(cmd, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+(lpoptOut, lpoptErr) = proc.communicate()
+
+#Note: lpoptions -p printername will never fail. If Ascender does not exist, it
+#will still exit 0, but just produce no output.
+#Thanks, cups, I was having a good day until now.
+
+for option in lpoptLongOut.splitlines():
+    for myOption in printerOptions.keys():
+        optionName = option.split("/", 1)[0]
+        optionValues = option.split("/",1)[1].split(":")[1].strip().split(" ")
+        for opt in optionValues:
+            if "*" in opt:
+                actualOptionValue = opt.replace('*', '')
+                break
+        if optionName == myOption:
+            if not printerOptions[myOption] == actualOptionValue:
+                print "Found mismatch: %s is '%s', should be '%s'" % (myOption, printerOptions[myOption], actualOptionValue)
+                sys.exit(0)
+
+optionDict = dict()
+for builtOption in shlex.split(lpoptOut):
+    optionDict[builtOption.split("=")[0]] = builtOption.split("=")[1]
+
+comparisonDict = { "device-uri":"lpd://ASCENDER.MIT.EDU", "printer-info":"Ascender", "printer-location":"E53-330", "printer-make-and-model":"HP LaserJet 600 M601 M602 M603" }
+for keyName in comparisonDict.keys():
+    if not comparisonDict[keyName] == optionDict[keyName]:
+        print "Settings mismatch: %s is '%s', should be '%s'" % (keyName, optionDict[keyName], comparisonDict[keyName])
+        sys.exit(0)
+
+sys.exit(1)</string>
+		<key>installer_type</key>
+		<string>nopkg</string>
+		<key>minimum_os_version</key>
+		<string>10.7.0</string>
+		<key>name</key>
+		<string>AddPrinter_Ascender</string>
+		<key>postinstall_script</key>
+		<string>#!/usr/bin/python
+import subprocess
+import sys
+
+# Populate these options if you want to set specific options for the printer. E.g. duplexing installed, etc.
+printerOptions = { "HPOption_Duplexer":"True",  }
+
+cmd = [ '/usr/sbin/lpadmin', '-x', 'Ascender' ]
+proc = subprocess.Popen(cmd, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+(lpadminxOut, lpadminxErr) = proc.communicate()
+
+# Install the printer
+cmd = [ '/usr/sbin/lpadmin',
+        '-p', 'Ascender',
+        '-L', 'E53-330',
+        '-D', 'Ascender',
+        '-v', 'lpd://ASCENDER.MIT.EDU',
+        '-P', "/Library/Printers/PPDs/Contents/Resources/HP LaserJet 600 M601 M602 M603.gz",
+        '-E',
+        '-o', 'printer-is-shared=false',
+        '-o', 'printer-error-policy=abort-job' ]
+
+for option in printerOptions.keys():
+    cmd.append("-o")
+    cmd.append(str(option) + "=" +  str(printerOptions[option]))
+
+proc = subprocess.Popen(cmd, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+(lpadminOut, lpadminErr) = proc.communicate()
+
+if lpadminErr:
+    print "Error: %s" % lpadminErr
+    sys.exit(1)
+print "Results: %s" % lpadminOut
+sys.exit(0)</string>
+		<key>requires</key>
+		<array>
+			<string>PrinterDrivers</string>
+		</array>
+		<key>unattended_install</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>uninstall_script</string>
+		<key>uninstall_script</key>
+		<string>#!/bin/bash
+/usr/sbin/lpadmin -x Ascender</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>1.0</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>testing</string>
+		</array>
+		<key>description</key>
+		<string>Printer: BlackSabbath</string>
+		<key>display_name</key>
+		<string>BlackSabbath</string>
+		<key>installcheck_script</key>
+		<string>#!/usr/bin/python
+import subprocess
+import sys
+import shlex
+
+printerOptions = { "HPOption_Duplexer":"True",  }
+
+cmd = ['/usr/bin/lpoptions', '-p', 'BlackSabbath', '-l']
+proc = subprocess.Popen(cmd, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+(lpoptLongOut, lpoptErr) = proc.communicate()
+
+# lpoptions -p printername -l will still exit 0 even if printername does not exist
+# but it will print to stderr
+if lpoptErr:
+    print lpoptErr
+    sys.exit(0)
+
+cmd = ['/usr/bin/lpoptions', '-p', 'BlackSabbath']
+proc = subprocess.Popen(cmd, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+(lpoptOut, lpoptErr) = proc.communicate()
+
+#Note: lpoptions -p printername will never fail. If BlackSabbath does not exist, it
+#will still exit 0, but just produce no output.
+#Thanks, cups, I was having a good day until now.
+
+for option in lpoptLongOut.splitlines():
+    for myOption in printerOptions.keys():
+        optionName = option.split("/", 1)[0]
+        optionValues = option.split("/",1)[1].split(":")[1].strip().split(" ")
+        for opt in optionValues:
+            if "*" in opt:
+                actualOptionValue = opt.replace('*', '')
+                break
+        if optionName == myOption:
+            if not printerOptions[myOption] == actualOptionValue:
+                print "Found mismatch: %s is '%s', should be '%s'" % (myOption, printerOptions[myOption], actualOptionValue)
+                sys.exit(0)
+
+optionDict = dict()
+for builtOption in shlex.split(lpoptOut):
+    optionDict[builtOption.split("=")[0]] = builtOption.split("=")[1]
+
+comparisonDict = { "device-uri":"lpd://PAL-PRINT.MIT.EDU", "printer-info":"BlackSabbath", "printer-location":"E53-380", "printer-make-and-model":"HP LaserJet 600 M601 M602 M603" }
+for keyName in comparisonDict.keys():
+    if not comparisonDict[keyName] == optionDict[keyName]:
+        print "Settings mismatch: %s is '%s', should be '%s'" % (keyName, optionDict[keyName], comparisonDict[keyName])
+        sys.exit(0)
+
+sys.exit(1)</string>
+		<key>installer_type</key>
+		<string>nopkg</string>
+		<key>minimum_os_version</key>
+		<string>10.7.0</string>
+		<key>name</key>
+		<string>AddPrinter_BlackSabbath</string>
+		<key>postinstall_script</key>
+		<string>#!/usr/bin/python
+import subprocess
+import sys
+
+# Populate these options if you want to set specific options for the printer. E.g. duplexing installed, etc.
+printerOptions = { "HPOption_Duplexer":"True",  }
+
+cmd = [ '/usr/sbin/lpadmin', '-x', 'BlackSabbath' ]
+proc = subprocess.Popen(cmd, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+(lpadminxOut, lpadminxErr) = proc.communicate()
+
+# Install the printer
+cmd = [ '/usr/sbin/lpadmin',
+        '-p', 'BlackSabbath',
+        '-L', 'E53-380',
+        '-D', 'BlackSabbath',
+        '-v', 'lpd://PAL-PRINT.MIT.EDU',
+        '-P', "/Library/Printers/PPDs/Contents/Resources/HP LaserJet 600 M601 M602 M603.gz",
+        '-E',
+        '-o', 'printer-is-shared=false',
+        '-o', 'printer-error-policy=abort-job' ]
+
+for option in printerOptions.keys():
+    cmd.append("-o")
+    cmd.append(str(option) + "=" +  str(printerOptions[option]))
+
+proc = subprocess.Popen(cmd, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+(lpadminOut, lpadminErr) = proc.communicate()
+
+if lpadminErr:
+    print "Error: %s" % lpadminErr
+    sys.exit(1)
+print "Results: %s" % lpadminOut
+sys.exit(0)</string>
+		<key>requires</key>
+		<array>
+			<string>PrinterDrivers</string>
+		</array>
+		<key>unattended_install</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>uninstall_script</string>
+		<key>uninstall_script</key>
+		<string>#!/bin/bash
+/usr/sbin/lpadmin -x BlackSabbath</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>1.0</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>testing</string>
+		</array>
+		<key>description</key>
+		<string>Printer: Morphine</string>
+		<key>display_name</key>
+		<string>Morphine</string>
+		<key>installcheck_script</key>
+		<string>#!/usr/bin/python
+import subprocess
+import sys
+import shlex
+
+printerOptions = { "Trays":"Tray1", "OptDuplex":"InstalledM", "Flash":"InstalledF", "EnvFeeder":"NotInstalledM", "OutputFinisher":"NotInstalledM", "OptOutputBins":"StandardBin",  }
+
+cmd = ['/usr/bin/lpoptions', '-p', 'Morphine', '-l']
+proc = subprocess.Popen(cmd, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+(lpoptLongOut, lpoptErr) = proc.communicate()
+
+# lpoptions -p printername -l will still exit 0 even if printername does not exist
+# but it will print to stderr
+if lpoptErr:
+    print lpoptErr
+    sys.exit(0)
+
+cmd = ['/usr/bin/lpoptions', '-p', 'Morphine']
+proc = subprocess.Popen(cmd, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+(lpoptOut, lpoptErr) = proc.communicate()
+
+#Note: lpoptions -p printername will never fail. If Morphine does not exist, it
+#will still exit 0, but just produce no output.
+#Thanks, cups, I was having a good day until now.
+
+for option in lpoptLongOut.splitlines():
+    for myOption in printerOptions.keys():
+        optionName = option.split("/", 1)[0]
+        optionValues = option.split("/",1)[1].split(":")[1].strip().split(" ")
+        for opt in optionValues:
+            if "*" in opt:
+                actualOptionValue = opt.replace('*', '')
+                break
+        if optionName == myOption:
+            if not printerOptions[myOption] == actualOptionValue:
+                print "Found mismatch: %s is '%s', should be '%s'" % (myOption, printerOptions[myOption], actualOptionValue)
+                sys.exit(0)
+
+optionDict = dict()
+for builtOption in shlex.split(lpoptOut):
+    optionDict[builtOption.split("=")[0]] = builtOption.split("=")[1]
+
+comparisonDict = { "device-uri":"lpd://MORPHINE.MIT.EDU", "printer-info":"Morphine", "printer-location":"E53-310", "printer-make-and-model":"Dell 5350dn Laser Printer" }
+for keyName in comparisonDict.keys():
+    if not comparisonDict[keyName] == optionDict[keyName]:
+        print "Settings mismatch: %s is '%s', should be '%s'" % (keyName, optionDict[keyName], comparisonDict[keyName])
+        sys.exit(0)
+
+sys.exit(1)</string>
+		<key>installer_type</key>
+		<string>nopkg</string>
+		<key>minimum_os_version</key>
+		<string>10.7.0</string>
+		<key>name</key>
+		<string>AddPrinter_Morphine</string>
+		<key>postinstall_script</key>
+		<string>#!/usr/bin/python
+import subprocess
+import sys
+
+# Populate these options if you want to set specific options for the printer. E.g. duplexing installed, etc.
+printerOptions = { "Trays":"Tray1", "OptDuplex":"InstalledM", "Flash":"InstalledF", "EnvFeeder":"NotInstalledM", "OutputFinisher":"NotInstalledM", "OptOutputBins":"StandardBin",  }
+
+cmd = [ '/usr/sbin/lpadmin', '-x', 'Morphine' ]
+proc = subprocess.Popen(cmd, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+(lpadminxOut, lpadminxErr) = proc.communicate()
+
+# Install the printer
+cmd = [ '/usr/sbin/lpadmin',
+        '-p', 'Morphine',
+        '-L', 'E53-310',
+        '-D', 'Morphine',
+        '-v', 'lpd://MORPHINE.MIT.EDU',
+        '-P', "/Library/Printers/PPDs/Contents/Resources/Dell 5350dn Laser Printer.gz",
+        '-E',
+        '-o', 'printer-is-shared=false',
+        '-o', 'printer-error-policy=abort-job' ]
+
+for option in printerOptions.keys():
+    cmd.append("-o")
+    cmd.append(str(option) + "=" +  str(printerOptions[option]))
+
+proc = subprocess.Popen(cmd, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+(lpadminOut, lpadminErr) = proc.communicate()
+
+if lpadminErr:
+    print "Error: %s" % lpadminErr
+    sys.exit(1)
+print "Results: %s" % lpadminOut
+sys.exit(0)</string>
+		<key>requires</key>
+		<array>
+			<string>PrinterDrivers</string>
+		</array>
+		<key>unattended_install</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>uninstall_script</string>
+		<key>uninstall_script</key>
+		<string>#!/bin/bash
+/usr/sbin/lpadmin -x Morphine</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>1.0</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>testing</string>
+		</array>
+		<key>description</key>
+		<string>Printer: MultiPitch</string>
+		<key>display_name</key>
+		<string>MultiPitch</string>
+		<key>installcheck_script</key>
+		<string>#!/usr/bin/python
+import subprocess
+import sys
+import shlex
+
+printerOptions = { "HPOption_Disk":"True", "HPOption_Duplexer":"True", "HPOption_Tray3":"True",  }
+
+cmd = ['/usr/bin/lpoptions', '-p', 'MultiPitch', '-l']
+proc = subprocess.Popen(cmd, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+(lpoptLongOut, lpoptErr) = proc.communicate()
+
+# lpoptions -p printername -l will still exit 0 even if printername does not exist
+# but it will print to stderr
+if lpoptErr:
+    print lpoptErr
+    sys.exit(0)
+
+cmd = ['/usr/bin/lpoptions', '-p', 'MultiPitch']
+proc = subprocess.Popen(cmd, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+(lpoptOut, lpoptErr) = proc.communicate()
+
+#Note: lpoptions -p printername will never fail. If MultiPitch does not exist, it
+#will still exit 0, but just produce no output.
+#Thanks, cups, I was having a good day until now.
+
+for option in lpoptLongOut.splitlines():
+    for myOption in printerOptions.keys():
+        optionName = option.split("/", 1)[0]
+        optionValues = option.split("/",1)[1].split(":")[1].strip().split(" ")
+        for opt in optionValues:
+            if "*" in opt:
+                actualOptionValue = opt.replace('*', '')
+                break
+        if optionName == myOption:
+            if not printerOptions[myOption] == actualOptionValue:
+                print "Found mismatch: %s is '%s', should be '%s'" % (myOption, printerOptions[myOption], actualOptionValue)
+                sys.exit(0)
+
+optionDict = dict()
+for builtOption in shlex.split(lpoptOut):
+    optionDict[builtOption.split("=")[0]] = builtOption.split("=")[1]
+
+comparisonDict = { "device-uri":"lpd://MULTIPITCH.MIT.EDU", "printer-info":"MultiPitch", "printer-location":"E53-316", "printer-make-and-model":"HP Color LaserJet CP5520 Series" }
+for keyName in comparisonDict.keys():
+    if not comparisonDict[keyName] == optionDict[keyName]:
+        print "Settings mismatch: %s is '%s', should be '%s'" % (keyName, optionDict[keyName], comparisonDict[keyName])
+        sys.exit(0)
+
+sys.exit(1)</string>
+		<key>installer_type</key>
+		<string>nopkg</string>
+		<key>minimum_os_version</key>
+		<string>10.7.0</string>
+		<key>name</key>
+		<string>AddPrinter_MultiPitch</string>
+		<key>postinstall_script</key>
+		<string>#!/usr/bin/python
+import subprocess
+import sys
+
+# Populate these options if you want to set specific options for the printer. E.g. duplexing installed, etc.
+printerOptions = { "HPOption_Disk":"True", "HPOption_Duplexer":"True", "HPOption_Tray3":"True",  }
+
+cmd = [ '/usr/sbin/lpadmin', '-x', 'MultiPitch' ]
+proc = subprocess.Popen(cmd, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+(lpadminxOut, lpadminxErr) = proc.communicate()
+
+# Install the printer
+cmd = [ '/usr/sbin/lpadmin',
+        '-p', 'MultiPitch',
+        '-L', 'E53-316',
+        '-D', 'MultiPitch',
+        '-v', 'lpd://MULTIPITCH.MIT.EDU',
+        '-P', "/Library/Printers/PPDs/Contents/Resources/HP Color LaserJet CP5520 Series.gz",
+        '-E',
+        '-o', 'printer-is-shared=false',
+        '-o', 'printer-error-policy=abort-job' ]
+
+for option in printerOptions.keys():
+    cmd.append("-o")
+    cmd.append(str(option) + "=" +  str(printerOptions[option]))
+
+proc = subprocess.Popen(cmd, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+(lpadminOut, lpadminErr) = proc.communicate()
+
+if lpadminErr:
+    print "Error: %s" % lpadminErr
+    sys.exit(1)
+print "Results: %s" % lpadminOut
+sys.exit(0)</string>
+		<key>requires</key>
+		<array>
+			<string>PrinterDrivers</string>
+		</array>
+		<key>unattended_install</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>uninstall_script</string>
+		<key>uninstall_script</key>
+		<string>#!/bin/bash
+/usr/sbin/lpadmin -x MultiPitch</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>1.0</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>testing</string>
+		</array>
+		<key>description</key>
+		<string>Printer: North America</string>
+		<key>display_name</key>
+		<string>North America</string>
+		<key>installcheck_script</key>
+		<string>#!/usr/bin/python
+import subprocess
+import sys
+import shlex
+
+printerOptions = { "XRTrays":"FiveTrays", "XRFinisher":"Afinisher", "XRJobStorage":"True",  }
+
+cmd = ['/usr/bin/lpoptions', '-p', 'NorthAmerica', '-l']
+proc = subprocess.Popen(cmd, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+(lpoptLongOut, lpoptErr) = proc.communicate()
+
+# lpoptions -p printername -l will still exit 0 even if printername does not exist
+# but it will print to stderr
+if lpoptErr:
+    print lpoptErr
+    sys.exit(0)
+
+cmd = ['/usr/bin/lpoptions', '-p', 'NorthAmerica']
+proc = subprocess.Popen(cmd, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+(lpoptOut, lpoptErr) = proc.communicate()
+
+#Note: lpoptions -p printername will never fail. If NorthAmerica does not exist, it
+#will still exit 0, but just produce no output.
+#Thanks, cups, I was having a good day until now.
+
+for option in lpoptLongOut.splitlines():
+    for myOption in printerOptions.keys():
+        optionName = option.split("/", 1)[0]
+        optionValues = option.split("/",1)[1].split(":")[1].strip().split(" ")
+        for opt in optionValues:
+            if "*" in opt:
+                actualOptionValue = opt.replace('*', '')
+                break
+        if optionName == myOption:
+            if not printerOptions[myOption] == actualOptionValue:
+                print "Found mismatch: %s is '%s', should be '%s'" % (myOption, printerOptions[myOption], actualOptionValue)
+                sys.exit(0)
+
+optionDict = dict()
+for builtOption in shlex.split(lpoptOut):
+    optionDict[builtOption.split("=")[0]] = builtOption.split("=")[1]
+
+comparisonDict = { "device-uri":"lpd://BLAZINGSTAR.MIT.EDU", "printer-info":"North America", "printer-location":"NE48-4032", "printer-make-and-model":"Xerox WorkCentre 7220" }
+for keyName in comparisonDict.keys():
+    if not comparisonDict[keyName] == optionDict[keyName]:
+        print "Settings mismatch: %s is '%s', should be '%s'" % (keyName, optionDict[keyName], comparisonDict[keyName])
+        sys.exit(0)
+
+sys.exit(1)</string>
+		<key>installer_type</key>
+		<string>nopkg</string>
+		<key>minimum_os_version</key>
+		<string>10.7.0</string>
+		<key>name</key>
+		<string>AddPrinter_NorthAmerica</string>
+		<key>postinstall_script</key>
+		<string>#!/usr/bin/python
+import subprocess
+import sys
+
+# Populate these options if you want to set specific options for the printer. E.g. duplexing installed, etc.
+printerOptions = { "XRTrays":"FiveTrays", "XRFinisher":"Afinisher", "XRJobStorage":"True",  }
+
+cmd = [ '/usr/sbin/lpadmin', '-x', 'NorthAmerica' ]
+proc = subprocess.Popen(cmd, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+(lpadminxOut, lpadminxErr) = proc.communicate()
+
+# Install the printer
+cmd = [ '/usr/sbin/lpadmin',
+        '-p', 'NorthAmerica',
+        '-L', 'NE48-4032',
+        '-D', 'North America',
+        '-v', 'lpd://BLAZINGSTAR.MIT.EDU',
+        '-P', "/Library/Printers/PPDs/Contents/Resources/Xerox WorkCentre 7220.gz",
+        '-E',
+        '-o', 'printer-is-shared=false',
+        '-o', 'printer-error-policy=abort-job' ]
+
+for option in printerOptions.keys():
+    cmd.append("-o")
+    cmd.append(str(option) + "=" +  str(printerOptions[option]))
+
+proc = subprocess.Popen(cmd, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+(lpadminOut, lpadminErr) = proc.communicate()
+
+if lpadminErr:
+    print "Error: %s" % lpadminErr
+    sys.exit(1)
+print "Results: %s" % lpadminOut
+sys.exit(0)</string>
+		<key>requires</key>
+		<array>
+			<string>PrinterDrivers</string>
+		</array>
+		<key>unattended_install</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>uninstall_script</string>
+		<key>uninstall_script</key>
+		<string>#!/bin/bash
+/usr/sbin/lpadmin -x NorthAmerica</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>1.0</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>testing</string>
+		</array>
+		<key>description</key>
+		<string>Printer: PaperSpitter</string>
+		<key>display_name</key>
+		<string>PaperSpitter</string>
+		<key>installcheck_script</key>
+		<string>#!/usr/bin/python
+import subprocess
+import sys
+import shlex
+
+printerOptions = { "MachinePhase":"Phase3", "PaperSources":"PC408", "Finisher":"FS529", "PrinterHDD":"True",  }
+
+cmd = ['/usr/bin/lpoptions', '-p', 'PaperSpitter', '-l']
+proc = subprocess.Popen(cmd, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+(lpoptLongOut, lpoptErr) = proc.communicate()
+
+# lpoptions -p printername -l will still exit 0 even if printername does not exist
+# but it will print to stderr
+if lpoptErr:
+    print lpoptErr
+    sys.exit(0)
+
+cmd = ['/usr/bin/lpoptions', '-p', 'PaperSpitter']
+proc = subprocess.Popen(cmd, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+(lpoptOut, lpoptErr) = proc.communicate()
+
+#Note: lpoptions -p printername will never fail. If PaperSpitter does not exist, it
+#will still exit 0, but just produce no output.
+#Thanks, cups, I was having a good day until now.
+
+for option in lpoptLongOut.splitlines():
+    for myOption in printerOptions.keys():
+        optionName = option.split("/", 1)[0]
+        optionValues = option.split("/",1)[1].split(":")[1].strip().split(" ")
+        for opt in optionValues:
+            if "*" in opt:
+                actualOptionValue = opt.replace('*', '')
+                break
+        if optionName == myOption:
+            if not printerOptions[myOption] == actualOptionValue:
+                print "Found mismatch: %s is '%s', should be '%s'" % (myOption, printerOptions[myOption], actualOptionValue)
+                sys.exit(0)
+
+optionDict = dict()
+for builtOption in shlex.split(lpoptOut):
+    optionDict[builtOption.split("=")[0]] = builtOption.split("=")[1]
+
+comparisonDict = { "device-uri":"lpd://PAL-COPIER1.MIT.EDU", "printer-info":"PaperSpitter", "printer-location":"E53-390", "printer-make-and-model":"KONICAMINOLTAC280" }
+for keyName in comparisonDict.keys():
+    if not comparisonDict[keyName] == optionDict[keyName]:
+        print "Settings mismatch: %s is '%s', should be '%s'" % (keyName, optionDict[keyName], comparisonDict[keyName])
+        sys.exit(0)
+
+sys.exit(1)</string>
+		<key>installer_type</key>
+		<string>nopkg</string>
+		<key>minimum_os_version</key>
+		<string>10.7.0</string>
+		<key>name</key>
+		<string>AddPrinter_PaperSpitter</string>
+		<key>postinstall_script</key>
+		<string>#!/usr/bin/python
+import subprocess
+import sys
+
+# Populate these options if you want to set specific options for the printer. E.g. duplexing installed, etc.
+printerOptions = { "MachinePhase":"Phase3", "PaperSources":"PC408", "Finisher":"FS529", "PrinterHDD":"True",  }
+
+cmd = [ '/usr/sbin/lpadmin', '-x', 'PaperSpitter' ]
+proc = subprocess.Popen(cmd, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+(lpadminxOut, lpadminxErr) = proc.communicate()
+
+# Install the printer
+cmd = [ '/usr/sbin/lpadmin',
+        '-p', 'PaperSpitter',
+        '-L', 'E53-390',
+        '-D', 'PaperSpitter',
+        '-v', 'lpd://PAL-COPIER1.MIT.EDU',
+        '-P', "/Library/Printers/PPDs/Contents/Resources/KONICAMINOLTAC280.gz",
+        '-E',
+        '-o', 'printer-is-shared=false',
+        '-o', 'printer-error-policy=abort-job' ]
+
+for option in printerOptions.keys():
+    cmd.append("-o")
+    cmd.append(str(option) + "=" +  str(printerOptions[option]))
+
+proc = subprocess.Popen(cmd, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+(lpadminOut, lpadminErr) = proc.communicate()
+
+if lpadminErr:
+    print "Error: %s" % lpadminErr
+    sys.exit(1)
+print "Results: %s" % lpadminOut
+sys.exit(0)</string>
+		<key>requires</key>
+		<array>
+			<string>PrinterDrivers</string>
+		</array>
+		<key>unattended_install</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>uninstall_script</string>
+		<key>uninstall_script</key>
+		<string>#!/bin/bash
+/usr/sbin/lpadmin -x PaperSpitter</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>1.0</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>testing</string>
+		</array>
+		<key>description</key>
+		<string>Printer: Slayer</string>
+		<key>display_name</key>
+		<string>Slayer</string>
+		<key>installcheck_script</key>
+		<string>#!/usr/bin/python
+import subprocess
+import sys
+import shlex
+
+printerOptions = { "HPOption_Duplexer":"True",  }
+
+cmd = ['/usr/bin/lpoptions', '-p', 'Slayer', '-l']
+proc = subprocess.Popen(cmd, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+(lpoptLongOut, lpoptErr) = proc.communicate()
+
+# lpoptions -p printername -l will still exit 0 even if printername does not exist
+# but it will print to stderr
+if lpoptErr:
+    print lpoptErr
+    sys.exit(0)
+
+cmd = ['/usr/bin/lpoptions', '-p', 'Slayer']
+proc = subprocess.Popen(cmd, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+(lpoptOut, lpoptErr) = proc.communicate()
+
+#Note: lpoptions -p printername will never fail. If Slayer does not exist, it
+#will still exit 0, but just produce no output.
+#Thanks, cups, I was having a good day until now.
+
+for option in lpoptLongOut.splitlines():
+    for myOption in printerOptions.keys():
+        optionName = option.split("/", 1)[0]
+        optionValues = option.split("/",1)[1].split(":")[1].strip().split(" ")
+        for opt in optionValues:
+            if "*" in opt:
+                actualOptionValue = opt.replace('*', '')
+                break
+        if optionName == myOption:
+            if not printerOptions[myOption] == actualOptionValue:
+                print "Found mismatch: %s is '%s', should be '%s'" % (myOption, printerOptions[myOption], actualOptionValue)
+                sys.exit(0)
+
+optionDict = dict()
+for builtOption in shlex.split(lpoptOut):
+    optionDict[builtOption.split("=")[0]] = builtOption.split("=")[1]
+
+comparisonDict = { "device-uri":"lpd://SLAYER.MIT.EDU", "printer-info":"Slayer", "printer-location":"E53-320", "printer-make-and-model":"HP LaserJet 4350" }
+for keyName in comparisonDict.keys():
+    if not comparisonDict[keyName] == optionDict[keyName]:
+        print "Settings mismatch: %s is '%s', should be '%s'" % (keyName, optionDict[keyName], comparisonDict[keyName])
+        sys.exit(0)
+
+sys.exit(1)</string>
+		<key>installer_type</key>
+		<string>nopkg</string>
+		<key>minimum_os_version</key>
+		<string>10.7.0</string>
+		<key>name</key>
+		<string>AddPrinter_Slayer</string>
+		<key>postinstall_script</key>
+		<string>#!/usr/bin/python
+import subprocess
+import sys
+
+# Populate these options if you want to set specific options for the printer. E.g. duplexing installed, etc.
+printerOptions = { "HPOption_Duplexer":"True",  }
+
+cmd = [ '/usr/sbin/lpadmin', '-x', 'Slayer' ]
+proc = subprocess.Popen(cmd, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+(lpadminxOut, lpadminxErr) = proc.communicate()
+
+# Install the printer
+cmd = [ '/usr/sbin/lpadmin',
+        '-p', 'Slayer',
+        '-L', 'E53-320',
+        '-D', 'Slayer',
+        '-v', 'lpd://SLAYER.MIT.EDU',
+        '-P', "/Library/Printers/PPDs/Contents/Resources/HP LaserJet 4350.gz",
+        '-E',
+        '-o', 'printer-is-shared=false',
+        '-o', 'printer-error-policy=abort-job' ]
+
+for option in printerOptions.keys():
+    cmd.append("-o")
+    cmd.append(str(option) + "=" +  str(printerOptions[option]))
+
+proc = subprocess.Popen(cmd, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+(lpadminOut, lpadminErr) = proc.communicate()
+
+if lpadminErr:
+    print "Error: %s" % lpadminErr
+    sys.exit(1)
+print "Results: %s" % lpadminOut
+sys.exit(0)</string>
+		<key>requires</key>
+		<array>
+			<string>PrinterDrivers</string>
+		</array>
+		<key>unattended_install</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>uninstall_script</string>
+		<key>uninstall_script</key>
+		<string>#!/bin/bash
+/usr/sbin/lpadmin -x Slayer</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>1.0</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>testing</string>
+		</array>
+		<key>category</key>
+		<string>Printing</string>
+		<key>description</key>
+		<string>Drivers for J-PAL printers.</string>
+		<key>developer</key>
+		<string>J-PAL</string>
+		<key>display_name</key>
+		<string>Printer Drivers</string>
+		<key>installed_size</key>
+		<integer>406</integer>
+		<key>installer_item_hash</key>
+		<string>0c2538210a18cad05697b19b3034bf596a2640fc3b043a1e1b99fc2e3ef99fb7</string>
+		<key>installer_item_location</key>
+		<string>printers/PrinterDrivers-1.0.pkg</string>
+		<key>installer_item_size</key>
+		<integer>404</integer>
+		<key>minimum_os_version</key>
+		<string>10.5.0</string>
+		<key>name</key>
+		<string>PrinterDrivers</string>
+		<key>receipts</key>
+		<array>
+			<dict>
+				<key>installed_size</key>
+				<integer>406</integer>
+				<key>packageid</key>
+				<string>org.povertyactionlab.PrinterDrivers</string>
+				<key>version</key>
+				<string>1.0</string>
+			</dict>
+		</array>
+		<key>unattended_install</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>removepackages</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>1.0</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>testing</string>
+		</array>
 		<key>category</key>
 		<string>Settings</string>
 		<key>description</key>
