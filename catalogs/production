@@ -36990,10 +36990,14 @@ rm '/Library/PrivilegedHelperTools/Google Drive Icon Helper'
 		<array>
 			<string>production</string>
 		</array>
+		<key>category</key>
+		<string>Productivity</string>
 		<key>description</key>
 		<string>&lt;html&gt;&lt;p style="font-family:Helvetica;font-size:12px"&gt;For detailed information about this update, please visit the following Web site: &lt;/p&gt;
 
 &lt;p style="font-family:Helvetica;font-size:12px"&gt;&lt;a href="https://go.microsoft.com/fwlink/?LinkID=683965" target="_blank"&gt;https://go.microsoft.com/fwlink/?LinkID=683965&lt;/a&gt;&lt;/p&gt;&lt;/html&gt;</string>
+		<key>developer</key>
+		<string>Microsoft</string>
 		<key>display_name</key>
 		<string>Microsoft Excel 2016 for Mac</string>
 		<key>installed_size</key>
@@ -37058,10 +37062,14 @@ rm '/Library/PrivilegedHelperTools/Google Drive Icon Helper'
 		<array>
 			<string>production</string>
 		</array>
+		<key>category</key>
+		<string>Productivity</string>
 		<key>description</key>
 		<string>&lt;html&gt;&lt;p style="font-family:Helvetica;font-size:12px"&gt;For detailed information about this update, please visit the following Web site: &lt;/p&gt;
 
 &lt;p style="font-family:Helvetica;font-size:12px"&gt;&lt;a href="https://go.microsoft.com/fwlink/?LinkID=683965" target="_blank"&gt;https://go.microsoft.com/fwlink/?LinkID=683965&lt;/a&gt;&lt;/p&gt;&lt;/html&gt;</string>
+		<key>developer</key>
+		<string>Microsoft</string>
 		<key>display_name</key>
 		<string>Microsoft OneNote 2016 for Mac</string>
 		<key>installed_size</key>
@@ -37126,10 +37134,14 @@ rm '/Library/PrivilegedHelperTools/Google Drive Icon Helper'
 		<array>
 			<string>production</string>
 		</array>
+		<key>category</key>
+		<string>Productivity</string>
 		<key>description</key>
 		<string>&lt;html&gt;&lt;p style="font-family:Helvetica;font-size:12px"&gt;For detailed information about this update, please visit the following Web site: &lt;/p&gt;
 
 &lt;p style="font-family:Helvetica;font-size:12px"&gt;&lt;a href="https://go.microsoft.com/fwlink/?LinkID=683965" target="_blank"&gt;https://go.microsoft.com/fwlink/?LinkID=683965&lt;/a&gt;&lt;/p&gt;&lt;/html&gt;</string>
+		<key>developer</key>
+		<string>Microsoft</string>
 		<key>display_name</key>
 		<string>Microsoft Outlook 2016 for Mac</string>
 		<key>installed_size</key>
@@ -37194,10 +37206,14 @@ rm '/Library/PrivilegedHelperTools/Google Drive Icon Helper'
 		<array>
 			<string>production</string>
 		</array>
+		<key>category</key>
+		<string>Productivity</string>
 		<key>description</key>
 		<string>&lt;html&gt;&lt;p style="font-family:Helvetica;font-size:12px"&gt;For detailed information about this update, please visit the following Web site: &lt;/p&gt;
 
 &lt;p style="font-family:Helvetica;font-size:12px"&gt;&lt;a href="https://go.microsoft.com/fwlink/?LinkID=683965" target="_blank"&gt;https://go.microsoft.com/fwlink/?LinkID=683965&lt;/a&gt;&lt;/p&gt;&lt;/html&gt;</string>
+		<key>developer</key>
+		<string>Microsoft</string>
 		<key>display_name</key>
 		<string>Microsoft PowerPoint 2016 for Mac</string>
 		<key>installed_size</key>
@@ -37262,10 +37278,14 @@ rm '/Library/PrivilegedHelperTools/Google Drive Icon Helper'
 		<array>
 			<string>production</string>
 		</array>
+		<key>category</key>
+		<string>Productivity</string>
 		<key>description</key>
 		<string>&lt;html&gt;&lt;p style="font-family:Helvetica;font-size:12px"&gt;For detailed information about this update, please visit the following Web site: &lt;/p&gt;
 
 &lt;p style="font-family:Helvetica;font-size:12px"&gt;&lt;a href="https://go.microsoft.com/fwlink/?LinkID=683965" target="_blank"&gt;https://go.microsoft.com/fwlink/?LinkID=683965&lt;/a&gt;&lt;/p&gt;&lt;/html&gt;</string>
+		<key>developer</key>
+		<string>Microsoft</string>
 		<key>display_name</key>
 		<string>Microsoft Word 2016 for Mac</string>
 		<key>installed_size</key>
