@@ -116,7 +116,7 @@ sys.exit(0)</string>
 	<string>1.0</string>
 	<key>requires</key>
 	<array>
-			<string>PrinterDrivers</string>
+			<string>BizHubC280Drivers</string>
 	</array>
 </dict>
 </plist>
