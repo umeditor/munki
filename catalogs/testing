@@ -1094,6 +1094,47 @@ sys.exit(0)</string>
 		<array>
 			<string>testing</string>
 		</array>
+		<key>description</key>
+		<string>Provides the latest Xerox printing and scanning software for OS X.</string>
+		<key>display_name</key>
+		<string>Xerox Printer Drivers</string>
+		<key>installed_size</key>
+		<integer>91024</integer>
+		<key>installer_item_hash</key>
+		<string>bbab432ba17340980e748e121217440167f0ec2010960dda0f2fe356ba4b628b</string>
+		<key>installer_item_location</key>
+		<string>printers/drivers/XeroxPrinter3.0.1.dmg</string>
+		<key>installer_item_size</key>
+		<integer>64440</integer>
+		<key>minimum_os_version</key>
+		<string>10.5.0</string>
+		<key>name</key>
+		<string>AppleXeroxPrinterDrivers</string>
+		<key>receipts</key>
+		<array>
+			<dict>
+				<key>installed_size</key>
+				<integer>140038</integer>
+				<key>packageid</key>
+				<string>com.apple.pkg.XeroxPrinterDrivers</string>
+				<key>version</key>
+				<string>10.7.0.1.1.1238328574</string>
+			</dict>
+		</array>
+		<key>uninstall_method</key>
+		<string>removepackages</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>3.0.1</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>testing</string>
+		</array>
 		<key>category</key>
 		<string>Printing</string>
 		<key>description</key>
