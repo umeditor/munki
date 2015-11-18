@@ -749,7 +749,7 @@ print "Results: %s" % lpadminOut
 sys.exit(0)</string>
 		<key>requires</key>
 		<array>
-			<string>PrinterDrivers</string>
+			<string>AppleXeroxPrinterDrivers</string>
 		</array>
 		<key>unattended_install</key>
 		<true/>
