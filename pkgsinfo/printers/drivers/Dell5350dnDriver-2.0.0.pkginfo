@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>autoremove</key>
+	<false/>
+	<key>catalogs</key>
+	<array>
+		<string>production</string>
+	</array>
+	<key>description</key>
+	<string>Printer driver for Dell's 5350dn Laser Printer.</string>
+	<key>display_name</key>
+	<string>Dell 5350dn Laser Printer</string>
+	<key>installed_size</key>
+	<integer>16626</integer>
+	<key>installer_item_hash</key>
+	<string>d02f41e0994f1b8f0290f05c14d84a1614018dc2e021f8dacfe849af4c6c6a71</string>
+	<key>installer_item_location</key>
+	<string>printers/drivers/5350dnLaserPrinter_Print_2.0.0_10.6orLater_forIntel-2.0.0.dmg</string>
+	<key>installer_item_size</key>
+	<integer>5773</integer>
+	<key>minimum_os_version</key>
+	<string>10.5.0</string>
+	<key>name</key>
+	<string>Dell5350dnDriver</string>
+	<key>installs</key>
+	<array>
+		<dict>
+			<key>md5checksum</key>
+			<string>0a6ece0796c22ab34187b95433b14978</string>
+			<key>path</key>
+			<string>/Library/Printers/PPDs/Contents/Resources/Dell 5350dn Laser Printer.gz</string>
+			<key>type</key>
+			<string>file</string>
+		</dict>
+	</array>
+	<key>receipts</key>
+	<array>
+		<dict>
+			<key>installed_size</key>
+			<integer>16626</integer>
+			<key>packageid</key>
+			<string>com.dell.5350dnLaserPrinter_Print.pkg</string>
+			<key>version</key>
+			<string>2.0.0</string>
+		</dict>
+	</array>
+	<key>uninstall_method</key>
+	<string>removepackages</string>
+	<key>uninstallable</key>
+	<true/>
+	<key>version</key>
+	<string>2.0.0</string>
+</dict>
+</plist>
