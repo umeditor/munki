@@ -277,7 +277,7 @@ print "Results: %s" % lpadminOut
 sys.exit(0)</string>
 		<key>requires</key>
 		<array>
-			<string>PrinterDrivers</string>
+			<string>AppleHPPrinterDrivers</string>
 		</array>
 		<key>unattended_install</key>
 		<true/>
@@ -395,7 +395,7 @@ print "Results: %s" % lpadminOut
 sys.exit(0)</string>
 		<key>requires</key>
 		<array>
-			<string>PrinterDrivers</string>
+			<string>AppleHPPrinterDrivers</string>
 		</array>
 		<key>unattended_install</key>
 		<true/>
@@ -631,7 +631,7 @@ print "Results: %s" % lpadminOut
 sys.exit(0)</string>
 		<key>requires</key>
 		<array>
-			<string>PrinterDrivers</string>
+			<string>AppleHPPrinterDrivers</string>
 		</array>
 		<key>unattended_install</key>
 		<true/>
@@ -985,7 +985,7 @@ print "Results: %s" % lpadminOut
 sys.exit(0)</string>
 		<key>requires</key>
 		<array>
-			<string>PrinterDrivers</string>
+			<string>AppleHPPrinterDrivers</string>
 		</array>
 		<key>unattended_install</key>
 		<true/>
