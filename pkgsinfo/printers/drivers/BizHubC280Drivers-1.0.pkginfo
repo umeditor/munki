@@ -17,7 +17,7 @@
 	<key>installer_item_hash</key>
 	<string>99fec230f4562c94407d24238e784d045f888fcc72c511489c05430e3499a170</string>
 	<key>installer_item_location</key>
-	<string>printers/bizhub_C360_108-1.0.dmg</string>
+	<string>printers/drivers/bizhub_C360_108-1.0.dmg</string>
 	<key>installer_item_size</key>
 	<integer>8882</integer>
 	<key>minimum_os_version</key>
