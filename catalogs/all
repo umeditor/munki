@@ -46029,7 +46029,7 @@ rm '/Library/PrivilegedHelperTools/Google Drive Icon Helper'
 		<false/>
 		<key>catalogs</key>
 		<array>
-			<string>testing</string>
+			<string>production</string>
 		</array>
 		<key>description</key>
 		<string>Printer: Ascender</string>
@@ -46147,7 +46147,7 @@ sys.exit(0)</string>
 		<false/>
 		<key>catalogs</key>
 		<array>
-			<string>testing</string>
+			<string>production</string>
 		</array>
 		<key>description</key>
 		<string>Printer: BlackSabbath</string>
@@ -46265,7 +46265,7 @@ sys.exit(0)</string>
 		<false/>
 		<key>catalogs</key>
 		<array>
-			<string>testing</string>
+			<string>production</string>
 		</array>
 		<key>description</key>
 		<string>Printer: Morphine</string>
@@ -46383,7 +46383,7 @@ sys.exit(0)</string>
 		<false/>
 		<key>catalogs</key>
 		<array>
-			<string>testing</string>
+			<string>production</string>
 		</array>
 		<key>description</key>
 		<string>Printer: MultiPitch</string>
@@ -46501,7 +46501,7 @@ sys.exit(0)</string>
 		<false/>
 		<key>catalogs</key>
 		<array>
-			<string>testing</string>
+			<string>production</string>
 		</array>
 		<key>description</key>
 		<string>Printer: North America</string>
@@ -46619,7 +46619,7 @@ sys.exit(0)</string>
 		<false/>
 		<key>catalogs</key>
 		<array>
-			<string>testing</string>
+			<string>production</string>
 		</array>
 		<key>description</key>
 		<string>Printer: PaperSpitter</string>
@@ -46737,7 +46737,7 @@ sys.exit(0)</string>
 		<false/>
 		<key>catalogs</key>
 		<array>
-			<string>testing</string>
+			<string>production</string>
 		</array>
 		<key>description</key>
 		<string>Printer: Slayer</string>
@@ -47201,7 +47201,7 @@ fi
 		<false/>
 		<key>catalogs</key>
 		<array>
-			<string>testing</string>
+			<string>production</string>
 		</array>
 		<key>description</key>
 		<string>Provides the latest HP printing and scanning software for OS X.</string>
@@ -47242,7 +47242,7 @@ fi
 		<false/>
 		<key>catalogs</key>
 		<array>
-			<string>testing</string>
+			<string>production</string>
 		</array>
 		<key>description</key>
 		<string>Provides the latest Xerox printing and scanning software for OS X.</string>
@@ -47475,7 +47475,7 @@ fi
 		<false/>
 		<key>catalogs</key>
 		<array>
-			<string>testing</string>
+			<string>production</string>
 		</array>
 		<key>category</key>
 		<string>Printing</string>
@@ -47572,7 +47572,7 @@ fi
 		<false/>
 		<key>catalogs</key>
 		<array>
-			<string>testing</string>
+			<string>production</string>
 		</array>
 		<key>category</key>
 		<string>Printing</string>
