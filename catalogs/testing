@@ -699,7 +699,7 @@ optionDict = dict()
 for builtOption in shlex.split(lpoptOut):
     optionDict[builtOption.split("=")[0]] = builtOption.split("=")[1]
 
-comparisonDict = { "device-uri":"lpd://BLAZINGSTAR.MIT.EDU", "printer-info":"North America", "printer-location":"NE48-4032", "printer-make-and-model":"Xerox WorkCentre 7220" }
+comparisonDict = { "device-uri":"lpd://BLAZINGSTAR.MIT.EDU", "printer-info":"North America", "printer-location":"NE48-4032" }
 for keyName in comparisonDict.keys():
     if not comparisonDict[keyName] == optionDict[keyName]:
         print "Settings mismatch: %s is '%s', should be '%s'" % (keyName, optionDict[keyName], comparisonDict[keyName])
@@ -817,7 +817,7 @@ optionDict = dict()
 for builtOption in shlex.split(lpoptOut):
     optionDict[builtOption.split("=")[0]] = builtOption.split("=")[1]
 
-comparisonDict = { "device-uri":"lpd://PAL-COPIER1.MIT.EDU", "printer-info":"PaperSpitter", "printer-location":"E53-390", "printer-make-and-model":"KONICAMINOLTAC280" }
+comparisonDict = { "device-uri":"lpd://PAL-COPIER1.MIT.EDU", "printer-info":"PaperSpitter", "printer-location":"E53-390" }
 for keyName in comparisonDict.keys():
     if not comparisonDict[keyName] == optionDict[keyName]:
         print "Settings mismatch: %s is '%s', should be '%s'" % (keyName, optionDict[keyName], comparisonDict[keyName])
