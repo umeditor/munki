@@ -1138,6 +1138,51 @@ sys.exit(0)</string>
 		<key>category</key>
 		<string>Printing</string>
 		<key>description</key>
+		<string>Print drivers for Konica Minolta’s bizhub C280 printer.</string>
+		<key>developer</key>
+		<string>Konica Minolta</string>
+		<key>display_name</key>
+		<string> Konica Minolta C360 series print driver</string>
+		<key>installed_size</key>
+		<integer>19858</integer>
+		<key>installer_item_hash</key>
+		<string>9df6c0ac616dc2d7dc9b73b3e04603720724be502ff0e993ed7b30d0f481c9c7</string>
+		<key>installer_item_location</key>
+		<string>printers/drivers/bizhub_C360_109-3.9.0.pkg</string>
+		<key>installer_item_size</key>
+		<integer>9387</integer>
+		<key>minimum_os_version</key>
+		<string>10.5.0</string>
+		<key>name</key>
+		<string>BizHubC280Drivers</string>
+		<key>receipts</key>
+		<array>
+			<dict>
+				<key>installed_size</key>
+				<integer>19858</integer>
+				<key>packageid</key>
+				<string>jp.konicaminolta.print.package.C360</string>
+				<key>version</key>
+				<string>3.9.0</string>
+			</dict>
+		</array>
+		<key>uninstall_method</key>
+		<string>removepackages</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>3.9.0</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>testing</string>
+		</array>
+		<key>category</key>
+		<string>Printing</string>
+		<key>description</key>
 		<string>Printer driver for Dell's 5350dn Laser Printer.</string>
 		<key>developer</key>
 		<string>Dell</string>
