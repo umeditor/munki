@@ -19,6 +19,7 @@
   </array>
   <key>optional_installs</key>
   <array>
+    <string>SAPgui</string>
   </array>
 </dict>
 </plist>
