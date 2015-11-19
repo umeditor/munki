@@ -44,7 +44,7 @@
 		</array>
 		<key>requires</key>
 		<array>
-			<string>OracleJava8</string>
+			<string>OracleJava8JDK</string>
 		</array>
 		<key>uninstall_method</key>
 		<string>removepackages</string>
