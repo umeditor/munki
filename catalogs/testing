@@ -42,6 +42,10 @@
 				<string>7.40.2</string>
 			</dict>
 		</array>
+		<key>requires</key>
+		<array>
+			<string>OracleJava8</string>
+		</array>
 		<key>uninstall_method</key>
 		<string>removepackages</string>
 		<key>uninstallable</key>
