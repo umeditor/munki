@@ -72,7 +72,5 @@
 	<true/>
 	<key>version</key>
 	<string>9.81</string>
-	<key>icon_name</key>
-	<string>SelfService.png</string>
 </dict>
 </plist>
