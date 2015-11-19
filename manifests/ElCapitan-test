@@ -20,6 +20,7 @@
   <key>optional_installs</key>
   <array>
     <string>SAPgui</string>
+    <string>MITKerberosExtras</string>
   </array>
 </dict>
 </plist>
