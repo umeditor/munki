@@ -37851,6 +37851,57 @@ rm '/Library/PrivilegedHelperTools/Google Drive Icon Helper'
 		<array>
 			<string>production</string>
 		</array>
+		<key>category</key>
+		<string>Finance</string>
+		<key>description</key>
+		<string>SAPgui is the Graphical User Interface (GUI) client in SAP R/3's 3-tier architecture of database, application server, and client.</string>
+		<key>developer</key>
+		<string>SAP</string>
+		<key>display_name</key>
+		<string>SAPgui for Mac</string>
+		<key>icon_hash</key>
+		<string>4b5fc8acdde3fd2dea9681204687f9a57f45f3a32926f3ecba74fd77bf2c67fe</string>
+		<key>installed_size</key>
+		<integer>61965</integer>
+		<key>installer_item_hash</key>
+		<string>fbebe8080413e14adc7c8e468f131768a7089bb2567f885a7127fa43b0a8c215</string>
+		<key>installer_item_location</key>
+		<string>apps/sapgui/SAPgui-7.40.2.dmg</string>
+		<key>installer_item_size</key>
+		<integer>40794</integer>
+		<key>minimum_os_version</key>
+		<string>10.5.0</string>
+		<key>name</key>
+		<string>SAPgui</string>
+		<key>receipts</key>
+		<array>
+			<dict>
+				<key>installed_size</key>
+				<integer>61965</integer>
+				<key>packageid</key>
+				<string>edu.mit.sapgui</string>
+				<key>version</key>
+				<string>7.40.2</string>
+			</dict>
+		</array>
+		<key>requires</key>
+		<array>
+			<string>OracleJava8JDK</string>
+		</array>
+		<key>uninstall_method</key>
+		<string>removepackages</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>7.40.2</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>production</string>
+		</array>
 		<key>description</key>
 		<string>SketchUp is 3D modeling software that's easy to learn and incredibly fun to use.</string>
 		<key>display_name</key>
@@ -44038,6 +44089,70 @@ rm '/Library/PrivilegedHelperTools/Google Drive Icon Helper'
 		<true/>
 		<key>version</key>
 		<string>2.0.0.1969</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>production</string>
+		</array>
+		<key>description</key>
+		<string>Java SE Runtime Environment 8 enables support for running Java-powered applets and applications.</string>
+		<key>display_name</key>
+		<string>Oracle Java 8</string>
+		<key>installed_size</key>
+		<integer>174988</integer>
+		<key>installer_item_hash</key>
+		<string>522bbb1fd20fe1830ee1d05c4b7ab74c76ff506976ed04bafca427a0d41a0745</string>
+		<key>installer_item_location</key>
+		<string>plugins/Java/OracleJava8-1.8.65.17.pkg</string>
+		<key>installer_item_size</key>
+		<integer>61782</integer>
+		<key>installs</key>
+		<array>
+			<dict>
+				<key>CFBundleShortVersionString</key>
+				<string>1.8.0_65</string>
+				<key>CFBundleVersion</key>
+				<string>11.65.2.17</string>
+				<key>path</key>
+				<string>/Library/Internet Plug-Ins/JavaAppletPlugin.plugin/Contents/Home/lib/deploy/JavaControlPanel.prefPane</string>
+				<key>type</key>
+				<string>bundle</string>
+				<key>version_comparison_key</key>
+				<string>CFBundleVersion</string>
+			</dict>
+		</array>
+		<key>minimum_os_version</key>
+		<string>10.7.3</string>
+		<key>name</key>
+		<string>OracleJava8</string>
+		<key>receipts</key>
+		<array>
+			<dict>
+				<key>installed_size</key>
+				<integer>174988</integer>
+				<key>packageid</key>
+				<string>com.oracle.jre</string>
+				<key>version</key>
+				<string>1.0</string>
+			</dict>
+		</array>
+		<key>unattended_install</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>uninstall_script</string>
+		<key>uninstall_script</key>
+		<string>#!/bin/sh
+            # From http://www.java.com/en/download/help/mac_uninstall_java.xml
+            rm -fr /Library/Internet\ Plug-Ins/JavaAppletPlugin.plugin
+            pkgutil --forget com.oracle.jre
+            </string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>1.8.65.17</string>
 	</dict>
 	<dict>
 		<key>autoremove</key>
