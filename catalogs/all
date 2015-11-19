@@ -322,8 +322,6 @@
 		<string>JAMF Software, LLC </string>
 		<key>display_name</key>
 		<string>Casper Client</string>
-		<key>icon_name</key>
-		<string>SelfService.png</string>
 		<key>installed_size</key>
 		<integer>3158</integer>
 		<key>installer_item_hash</key>
@@ -14174,8 +14172,6 @@ exit 0
 		<string></string>
 		<key>display_name</key>
 		<string>Adobe Acrobat XI Pro Update</string>
-		<key>icon_name</key>
-		<string>AdobeAcrobatProXI</string>
 		<key>installed_size</key>
 		<integer>256136</integer>
 		<key>installer_item_hash</key>
@@ -37847,6 +37843,53 @@ rm '/Library/PrivilegedHelperTools/Google Drive Icon Helper'
 		<true/>
 		<key>version</key>
 		<string>3.2.1</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>testing</string>
+		</array>
+		<key>category</key>
+		<string>Finance</string>
+		<key>description</key>
+		<string>SAPgui is the Graphical User Interface (GUI) client in SAP R/3's 3-tier architecture of database, application server, and client.</string>
+		<key>developer</key>
+		<string>SAP</string>
+		<key>display_name</key>
+		<string>SAPgui for Mac</string>
+		<key>icon_hash</key>
+		<string>4b5fc8acdde3fd2dea9681204687f9a57f45f3a32926f3ecba74fd77bf2c67fe</string>
+		<key>installed_size</key>
+		<integer>61965</integer>
+		<key>installer_item_hash</key>
+		<string>fbebe8080413e14adc7c8e468f131768a7089bb2567f885a7127fa43b0a8c215</string>
+		<key>installer_item_location</key>
+		<string>apps/sapgui/SAPgui-7.40.2.dmg</string>
+		<key>installer_item_size</key>
+		<integer>40794</integer>
+		<key>minimum_os_version</key>
+		<string>10.5.0</string>
+		<key>name</key>
+		<string>SAPgui</string>
+		<key>receipts</key>
+		<array>
+			<dict>
+				<key>installed_size</key>
+				<integer>61965</integer>
+				<key>packageid</key>
+				<string>edu.mit.sapgui</string>
+				<key>version</key>
+				<string>7.40.2</string>
+			</dict>
+		</array>
+		<key>uninstall_method</key>
+		<string>removepackages</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>7.40.2</string>
 	</dict>
 	<dict>
 		<key>autoremove</key>
