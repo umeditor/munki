@@ -27,8 +27,6 @@
 	<string></string>
 	<key>display_name</key>
 	<string>Adobe Acrobat XI Pro Update</string>
-	<key>icon_name</key>
-	<string>AdobeAcrobatProXI</string>
 	<key>installed_size</key>
 	<integer>256136</integer>
 	<key>installer_item_hash</key>
