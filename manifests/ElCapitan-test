@@ -13,14 +13,13 @@
   </array>
   <key>managed_installs</key>
   <array>
+    <string>CrowdStrikeFalconHost</string>
   </array>
   <key>managed_uninstalls</key>
   <array>
   </array>
   <key>optional_installs</key>
   <array>
-    <string>SAPgui</string>
-    <string>MITKerberosExtras</string>
   </array>
 </dict>
 </plist>
