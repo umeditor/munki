@@ -37887,6 +37887,7 @@ rm '/Library/PrivilegedHelperTools/Google Drive Icon Helper'
 		<key>requires</key>
 		<array>
 			<string>OracleJava8JDK</string>
+			<string>MITKerberosExtras</string>
 		</array>
 		<key>uninstall_method</key>
 		<string>removepackages</string>
@@ -46376,7 +46377,7 @@ defaults write /Library/Preferences/ManagedInstalls.plist IconURL "https://munki
 		<false/>
 		<key>catalogs</key>
 		<array>
-			<string>testing</string>
+			<string>production</string>
 		</array>
 		<key>category</key>
 		<string>Security</string>

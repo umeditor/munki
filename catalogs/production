@@ -37887,6 +37887,7 @@ rm '/Library/PrivilegedHelperTools/Google Drive Icon Helper'
 		<key>requires</key>
 		<array>
 			<string>OracleJava8JDK</string>
+			<string>MITKerberosExtras</string>
 		</array>
 		<key>uninstall_method</key>
 		<string>removepackages</string>
@@ -46370,6 +46371,73 @@ defaults write /Library/Preferences/ManagedInstalls.plist IconURL "https://munki
 		<true/>
 		<key>version</key>
 		<string>1.0.2</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>production</string>
+		</array>
+		<key>category</key>
+		<string>Security</string>
+		<key>description</key>
+		<string>MIT Kerberos Extras provides customizations for some MIT applications requiring Kerberos authentication.</string>
+		<key>developer</key>
+		<string>MIT</string>
+		<key>display_name</key>
+		<string>MIT Kerberos Extras</string>
+		<key>installed_size</key>
+		<integer>960</integer>
+		<key>installer_item_hash</key>
+		<string>238b4d859689e8d2de7541efdd1078a85908cdb8437aeb0600f615413e55971c</string>
+		<key>installer_item_location</key>
+		<string>utility/MITKerberosExtras/MIT-Kerberos-Extras-18.0.dmg</string>
+		<key>installer_item_size</key>
+		<integer>2462</integer>
+		<key>minimum_os_version</key>
+		<string>10.4.0</string>
+		<key>name</key>
+		<string>MITKerberosExtras</string>
+		<key>receipts</key>
+		<array>
+			<dict>
+				<key>filename</key>
+				<string>kerberosCfmSupport.pkg</string>
+				<key>installed_size</key>
+				<integer>952</integer>
+				<key>packageid</key>
+				<string>edu.mit.kerberosextras.cfm</string>
+				<key>version</key>
+				<string>18.0</string>
+			</dict>
+			<dict>
+				<key>filename</key>
+				<string>kerberosSshConfig.pkg</string>
+				<key>installed_size</key>
+				<integer>4</integer>
+				<key>packageid</key>
+				<string>edu.mit.kerberosextras.sshconfig</string>
+				<key>version</key>
+				<string>18.0</string>
+			</dict>
+			<dict>
+				<key>filename</key>
+				<string>mitKerberosSettings.pkg</string>
+				<key>installed_size</key>
+				<integer>4</integer>
+				<key>packageid</key>
+				<string>edu.mit.kerberosextras.mitsettings</string>
+				<key>version</key>
+				<string>18.0</string>
+			</dict>
+		</array>
+		<key>uninstall_method</key>
+		<string>removepackages</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>18.0</string>
 	</dict>
 	<dict>
 		<key>autoremove</key>
