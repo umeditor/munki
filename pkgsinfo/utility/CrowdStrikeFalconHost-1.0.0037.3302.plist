@@ -126,13 +126,13 @@
 CORRECT_VERSION=1.0.0037.3302
 
 # Grab current version of installed python module
-INSTALLED_VERSION="$(/usr/sbin/sysctl -n cs.version 2&gt/dev/null)"
+INSTALLED_VERSION="$(/usr/sbin/sysctl -n cs.version 2&gt;/dev/null)"
 if [ ${?} -ne 0 ]; then
     exit 0
 fi
 
 
-RESULT=$(python -c "from pkg_resources import parse_version;print parse_version('${INSTALLED_VERSION}') &gt= parse_version('${CORRECT_VERSION}')" 2>/dev/null)
+RESULT=$(python -c "from pkg_resources import parse_version;print parse_version('${INSTALLED_VERSION}') &gt;= parse_version('${CORRECT_VERSION}')" 2>/dev/null)
 if [ ${RESULT} = "True" ]; then
     exit 1
 else
