@@ -23,6 +23,7 @@
       <string>AddPrinter_NorthAmerica</string>
       <string>AddPrinter_PaperSpitter</string>
       <string>AddPrinter_Slayer</string>
+      <string>CrowdStrikeFalconHost</string>
   </array>
   <key>managed_uninstalls</key>
   <array>
