@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>_metadata</key>
+	<dict>
+		<key>created_by</key>
+		<string>mcneal</string>
+		<key>creation_date</key>
+		<date>2015-11-20T15:26:30Z</date>
+		<key>munki_version</key>
+		<string>2.4.0.2561</string>
+		<key>os_version</key>
+		<string>10.11.1</string>
+	</dict>
+	<key>autoremove</key>
+	<false/>
+	<key>catalogs</key>
+	<array>
+		<string>testing</string>
+	</array>
+	<key>category</key>
+	<string>Security</string>
+	<key>description</key>
+	<string>Next-generation endpoint protection software that helps to secure Windows and Mac systems by looking for Indicators of Attack (IoA) as opposed to detecting known malware and Indicators of Compromise (IoC).</string>
+	<key>developer</key>
+	<string>CrowdStrike</string>
+	<key>display_name</key>
+	<string>Falcon Host from CrowdStrike</string>
+	<key>installed_size</key>
+	<integer>1280</integer>
+	<key>installer_item_hash</key>
+	<string>8d9aa32e524dc9899dbb26a5c60c82005b9b3b4c52acc50e8754faa2e19bcc93</string>
+	<key>installer_item_location</key>
+	<string>utility/FalconSensorMacOSX_10_11-1.0.0037.3302.pkg</string>
+	<key>installer_item_size</key>
+	<integer>385</integer>
+	<key>minimum_os_version</key>
+	<string>10.11.0</string>
+	<key>name</key>
+	<string>CrowdStrikeFalconHost</string>
+	<key>receipts</key>
+	<array>
+		<dict>
+			<key>installed_size</key>
+			<integer>96</integer>
+			<key>packageid</key>
+			<string>com.crowdstrike.macFalconSensor.CsLoader.pkg</string>
+			<key>version</key>
+			<string>1.0</string>
+		</dict>
+		<dict>
+			<key>installed_size</key>
+			<integer>4</integer>
+			<key>packageid</key>
+			<string>com.crowdstrike.macFalconSensor.com.crowdstrike.userdaemon.pkg</string>
+			<key>version</key>
+			<string>1.0</string>
+		</dict>
+		<dict>
+			<key>installed_size</key>
+			<integer>108</integer>
+			<key>packageid</key>
+			<string>com.crowdstrike.macFalconSensor.CSDaemon.pkg</string>
+			<key>version</key>
+			<string>1.0</string>
+		</dict>
+		<dict>
+			<key>installed_size</key>
+			<integer>1008</integer>
+			<key>packageid</key>
+			<string>com.crowdstrike.macFalconSensor.ECB.pkg</string>
+			<key>version</key>
+			<string>1.0</string>
+		</dict>
+		<dict>
+			<key>installed_size</key>
+			<integer>4</integer>
+			<key>packageid</key>
+			<string>com.crowdstrike.macFalconSensor.load.pkg</string>
+			<key>version</key>
+			<string>1.0</string>
+		</dict>
+		<dict>
+			<key>installed_size</key>
+			<integer>4</integer>
+			<key>packageid</key>
+			<string>com.crowdstrike.macFalconSensor.uninstall.pkg</string>
+			<key>version</key>
+			<string>1.0</string>
+		</dict>
+		<dict>
+			<key>installed_size</key>
+			<integer>4</integer>
+			<key>packageid</key>
+			<string>com.crowdstrike.macFalconSensor.unload.pkg</string>
+			<key>version</key>
+			<string>1.0</string>
+		</dict>
+		<dict>
+			<key>installed_size</key>
+			<integer>4</integer>
+			<key>packageid</key>
+			<string>com.crowdstrike.macFalconSensor.license.pkg</string>
+			<key>version</key>
+			<string>1.0</string>
+		</dict>
+		<dict>
+			<key>installed_size</key>
+			<integer>48</integer>
+			<key>packageid</key>
+			<string>com.crowdstrike.macFalconSensor.platform.pkg</string>
+			<key>version</key>
+			<string>1.0</string>
+		</dict>
+	</array>
+	<key>uninstall_method</key>
+	<string>removepackages</string>
+	<key>uninstallable</key>
+	<true/>
+	<key>version</key>
+	<string>1.0.0037.3302</string>
+	<key>installcheck_script</key>
+    <string>#!/bin/sh
+
+CORRECT_VERSION=1.0.0037.3302
+
+# Grab current version of installed python module
+INSTALLED_VERSION="$(/usr/sbin/sysctl -n cs.version 2&gt/dev/null)"
+if [ ${?} -ne 0 ]; then
+    exit 0
+fi
+
+
+RESULT=$(python -c "from pkg_resources import parse_version;print parse_version('${INSTALLED_VERSION}') &gt= parse_version('${CORRECT_VERSION}')" 2>/dev/null)
+if [ ${RESULT} = "True" ]; then
+    exit 1
+else
+    exit 0
+fi
+</string>
+</dict>
+</plist>
