@@ -37887,6 +37887,7 @@ rm '/Library/PrivilegedHelperTools/Google Drive Icon Helper'
 		<key>requires</key>
 		<array>
 			<string>OracleJava8JDK</string>
+			<string>KerberosConfig</string>
 		</array>
 		<key>uninstall_method</key>
 		<string>removepackages</string>
@@ -46101,6 +46102,62 @@ fi
 		<true/>
 		<key>uninstall_method</key>
 		<string>remove_profile</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>1.0</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>production</string>
+		</array>
+		<key>category</key>
+		<string>Settings</string>
+		<key>description</key>
+		<string>Configure Kerberos</string>
+		<key>developer</key>
+		<string>J-PAL</string>
+		<key>display_name</key>
+		<string>Kerberos Configuration</string>
+		<key>installed_size</key>
+		<integer>2</integer>
+		<key>installer_item_hash</key>
+		<string>5d4765dbbfebf1c7a31da79068567f1d312c17f9daada94e72021bbb5b57ba08</string>
+		<key>installer_item_location</key>
+		<string>settings/KerberosConfig-1.0.pkg</string>
+		<key>installer_item_size</key>
+		<integer>4</integer>
+		<key>installs</key>
+		<array>
+			<dict>
+				<key>md5checksum</key>
+				<string>5a18761eac0baac39ed220e76f0e1058</string>
+				<key>path</key>
+				<string>/Library/Preferences/edu.mit.Kerberos</string>
+				<key>type</key>
+				<string>file</string>
+			</dict>
+		</array>
+		<key>minimum_os_version</key>
+		<string>10.5.0</string>
+		<key>name</key>
+		<string>KerberosConfig</string>
+		<key>receipts</key>
+		<array>
+			<dict>
+				<key>installed_size</key>
+				<integer>2</integer>
+				<key>packageid</key>
+				<string>org.povertyactionlab.KerberosConfig</string>
+				<key>version</key>
+				<string>1.0</string>
+			</dict>
+		</array>
+		<key>uninstall_method</key>
+		<string>removepackages</string>
 		<key>uninstallable</key>
 		<true/>
 		<key>version</key>
