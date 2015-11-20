@@ -46433,7 +46433,7 @@ defaults write /Library/Preferences/ManagedInstalls.plist IconURL "https://munki
 		<false/>
 		<key>catalogs</key>
 		<array>
-			<string>testing</string>
+			<string>production</string>
 		</array>
 		<key>category</key>
 		<string>Security</string>
