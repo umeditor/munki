@@ -20,6 +20,7 @@
   <array>
       <string>AdobeAIR</string>
       <string>AdobeFlashPlayer</string>
+      <string>CitrixReceiver</string>
       <string>Cyberduck</string>
       <string>Dropbox</string>
       <string>Evernote</string>
