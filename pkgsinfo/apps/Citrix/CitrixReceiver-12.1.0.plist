@@ -7,11 +7,11 @@
 		<key>created_by</key>
 		<string>mcneal</string>
 		<key>creation_date</key>
-		<date>2015-11-03T04:54:29Z</date>
+		<date>2015-11-24T21:35:27Z</date>
 		<key>munki_version</key>
-		<string>2.3.1.2535</string>
+		<string>2.4.0.2561</string>
 		<key>os_version</key>
-		<string>10.10.5</string>
+		<string>10.11.1</string>
 	</dict>
 	<key>autoremove</key>
 	<false/>
