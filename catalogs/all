@@ -1705,7 +1705,7 @@ exit 0
 			</dict>
 		</array>
 		<key>minimum_os_version</key>
-		<string>10.5.0</string>
+		<string>10.9.0</string>
 		<key>name</key>
 		<string>SophosAntiVirus</string>
 		<key>unattended_install</key>
