@@ -9295,6 +9295,72 @@ exit 0
 			<string>production</string>
 		</array>
 		<key>category</key>
+		<string>Internet</string>
+		<key>description</key>
+		<string>Chrome is a fast, simple, and secure web browser, built for the modern web.</string>
+		<key>developer</key>
+		<string>Google</string>
+		<key>display_name</key>
+		<string>Google Chrome</string>
+		<key>installer_item_hash</key>
+		<string>206205556b4340e48d6946254ff857bbd6191b120506515b86d97a9e230cabde</string>
+		<key>installer_item_location</key>
+		<string>apps/GoogleChrome-47.0.2526.80.dmg</string>
+		<key>installer_item_size</key>
+		<integer>64305</integer>
+		<key>installer_type</key>
+		<string>copy_from_dmg</string>
+		<key>installs</key>
+		<array>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>com.google.Chrome</string>
+				<key>CFBundleName</key>
+				<string>Chrome</string>
+				<key>CFBundleShortVersionString</key>
+				<string>47.0.2526.80</string>
+				<key>CFBundleVersion</key>
+				<string>2526.80</string>
+				<key>minosversion</key>
+				<string>10.6.0</string>
+				<key>path</key>
+				<string>/Applications/Google Chrome.app</string>
+				<key>type</key>
+				<string>application</string>
+				<key>version_comparison_key</key>
+				<string>CFBundleShortVersionString</string>
+			</dict>
+		</array>
+		<key>items_to_copy</key>
+		<array>
+			<dict>
+				<key>destination_path</key>
+				<string>/Applications</string>
+				<key>source_item</key>
+				<string>Google Chrome.app</string>
+			</dict>
+		</array>
+		<key>minimum_os_version</key>
+		<string>10.6.0</string>
+		<key>name</key>
+		<string>GoogleChrome</string>
+		<key>unattended_install</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>remove_copied_items</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>47.0.2526.80</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>production</string>
+		</array>
+		<key>category</key>
 		<string>Mapping</string>
 		<key>description</key>
 		<string>Take a virtual journey to any location in the world. Explore 3D buildings, imagery, and terrain. Find cities, places and local businesses.</string>
@@ -9924,6 +9990,51 @@ exit 0
 		<true/>
 		<key>version</key>
 		<string>5.1.40904.0</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>production</string>
+		</array>
+		<key>category</key>
+		<string>Internet Plugin</string>
+		<key>description</key>
+		<string>Microsoft Silverlight is a free web-browser plug-in that enables interactive media experiences, rich business applications and immersive mobile apps.</string>
+		<key>display_name</key>
+		<string>Microsoft Silverlight</string>
+		<key>installed_size</key>
+		<integer>35672</integer>
+		<key>installer_item_hash</key>
+		<string>5f7d2b3f29ae6b08d5a2f68236189f87f86765332107d32f3c531b74da4781c9</string>
+		<key>installer_item_location</key>
+		<string>apps/Silverlight-5.1.41105.0.dmg</string>
+		<key>installer_item_size</key>
+		<integer>15324</integer>
+		<key>minimum_os_version</key>
+		<string>10.5.0</string>
+		<key>name</key>
+		<string>Silverlight</string>
+		<key>receipts</key>
+		<array>
+			<dict>
+				<key>installed_size</key>
+				<integer>35672</integer>
+				<key>packageid</key>
+				<string>com.microsoft.silverlight.plugin</string>
+				<key>version</key>
+				<string>5.1.41105.0</string>
+			</dict>
+		</array>
+		<key>unattended_install</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>removepackages</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>5.1.41105.0</string>
 	</dict>
 	<dict>
 		<key>autoremove</key>
@@ -11164,6 +11275,72 @@ exit 0
 		<true/>
 		<key>version</key>
 		<string>7.17.0.377</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>production</string>
+		</array>
+		<key>category</key>
+		<string>Internet</string>
+		<key>description</key>
+		<string>Calling, seeing, messaging and sharing with others – wherever they are.</string>
+		<key>developer</key>
+		<string>Microsoft</string>
+		<key>display_name</key>
+		<string>Skype</string>
+		<key>installer_item_hash</key>
+		<string>1f546ff47f0140f10fe9c7d27435874c59d8df55c4749b757543e3385f58498c</string>
+		<key>installer_item_location</key>
+		<string>apps/Skype-7.18.0.341.dmg</string>
+		<key>installer_item_size</key>
+		<integer>40875</integer>
+		<key>installer_type</key>
+		<string>copy_from_dmg</string>
+		<key>installs</key>
+		<array>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>com.skype.skype</string>
+				<key>CFBundleName</key>
+				<string>Skype</string>
+				<key>CFBundleShortVersionString</key>
+				<string>7.18</string>
+				<key>CFBundleVersion</key>
+				<string>7.18.0.341</string>
+				<key>minosversion</key>
+				<string>10.9</string>
+				<key>path</key>
+				<string>/Applications/Skype.app</string>
+				<key>type</key>
+				<string>application</string>
+				<key>version_comparison_key</key>
+				<string>CFBundleVersion</string>
+			</dict>
+		</array>
+		<key>items_to_copy</key>
+		<array>
+			<dict>
+				<key>destination_path</key>
+				<string>/Applications</string>
+				<key>source_item</key>
+				<string>Skype.app</string>
+			</dict>
+		</array>
+		<key>minimum_os_version</key>
+		<string>10.9</string>
+		<key>name</key>
+		<string>Skype</string>
+		<key>unattended_install</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>remove_copied_items</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>7.18.0.341</string>
 	</dict>
 	<dict>
 		<key>autoremove</key>
@@ -15196,6 +15373,53 @@ exit 0
 		<array>
 			<string>production</string>
 		</array>
+		<key>category</key>
+		<string>Internet Plugin</string>
+		<key>description</key>
+		<string>The Adobe AIR runtime enables developers to package the same code into native applications and games for Windows and Mac OS desktops as well as iOS and Android devices, reaching over a billion desktop systems and mobile app stores for over 500 million devices.</string>
+		<key>developer</key>
+		<string>Adobe</string>
+		<key>display_name</key>
+		<string>Adobe AIR</string>
+		<key>installed_size</key>
+		<integer>136079</integer>
+		<key>installer_item_hash</key>
+		<string>9535bfdffd7b3078700575f2254c26fd339952ff3d52b60ff86d15f7f945df20</string>
+		<key>installer_item_location</key>
+		<string>apps/adobe/AdobeAIR-20.0.0.204.pkg</string>
+		<key>installer_item_size</key>
+		<integer>58256</integer>
+		<key>minimum_os_version</key>
+		<string>10.5.0</string>
+		<key>name</key>
+		<string>AdobeAIR</string>
+		<key>receipts</key>
+		<array>
+			<dict>
+				<key>installed_size</key>
+				<integer>136079</integer>
+				<key>packageid</key>
+				<string>com.adobe.pkg.AIR</string>
+				<key>version</key>
+				<string>20.0.0.204</string>
+			</dict>
+		</array>
+		<key>unattended_install</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>removepackages</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>20.0.0.204</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>production</string>
+		</array>
 		<key>description</key>
 		<string>iPhoto lets you do more than you ever thought possible with your photos, with easy ways to find, sort, and rediscover your favorite shots. Simple but powerful editing tools let you turn good photos into magnificent ones. Share directly to Facebook, Flickr, Twitter, and Messages. iPhoto also works with iCloud, so the photos you take on your iOS devices automatically appear in iPhoto, and you can share selected photos and videos with family and friends using iCloud Photo Sharing. You can even create professional-quality photo books, calendars and letterpress cards quickly and easily.</string>
 		<key>display_name</key>
@@ -18456,6 +18680,85 @@ fi
 		<key>display_name</key>
 		<string>Dropbox</string>
 		<key>installer_item_hash</key>
+		<string>43b379d12f4d8229a792e96089209e545ba6fadbcae7f81e0663de52eed03862</string>
+		<key>installer_item_location</key>
+		<string>apps/Dropbox/Dropbox-3.12.5.dmg</string>
+		<key>installer_item_size</key>
+		<integer>47012</integer>
+		<key>installer_type</key>
+		<string>copy_from_dmg</string>
+		<key>installs</key>
+		<array>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>com.getdropbox.dropbox</string>
+				<key>CFBundleName</key>
+				<string>Dropbox</string>
+				<key>path</key>
+				<string>/Applications/Dropbox.app</string>
+				<key>type</key>
+				<string>file</string>
+			</dict>
+		</array>
+		<key>items_to_copy</key>
+		<array>
+			<dict>
+				<key>destination_path</key>
+				<string>/Applications</string>
+				<key>source_item</key>
+				<string>Dropbox.app</string>
+			</dict>
+		</array>
+		<key>minimum_os_version</key>
+		<string>10.6.0</string>
+		<key>name</key>
+		<string>Dropbox</string>
+		<key>postinstall_script</key>
+		<string>#!/bin/sh
+# based on Ruby postinstall script by Riley Shott:
+# https://groups.google.com/group/munki-dev/browse_thread/thread/a2813e7f62535f13/63d127534541f863
+# modifications:
+# - always extract the helper tool with each install instead of skipping if it exists
+# - remove xattr com.apple.quarantine removal, as Munki will have already done this upon
+#   installation; normal autopkg runs also won't quarantine the download to begin with
+
+HELPER_SRC_PATH=/Applications/Dropbox.app/Contents/Resources/DropboxHelperInstaller.tgz
+HELPER_DST_DIR=/Library/DropboxHelperTools
+HELPER_DST_PATH="$HELPER_DST_DIR/DropboxHelperInstaller"
+
+if [ -e "$HELPER_SRC_PATH" ]; then
+  [ -d "$HELPER_DST_DIR" ] || mkdir "$HELPER_DST_DIR"
+  /usr/bin/tar -C "$HELPER_DST_DIR" -xz -f "$HELPER_SRC_PATH"
+  /bin/chmod 04511 "$HELPER_DST_PATH"
+  /usr/sbin/chown root:wheel "$HELPER_DST_PATH"
+else
+  echo "Expected $HELPER_SRC_PATH, but it was not present in the Dropbox dmg."
+  exit 1
+fi
+</string>
+		<key>uninstall_method</key>
+		<string>remove_copied_items</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>3.12.5</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>production</string>
+		</array>
+		<key>category</key>
+		<string>File Sharing</string>
+		<key>description</key>
+		<string>Dropbox is a free service that lets you bring all your photos, docs, and videos anywhere. This means that any file you save to your Dropbox will automatically save to all your computers, phones and even the Dropbox website.</string>
+		<key>developer</key>
+		<string>Dropbox</string>
+		<key>display_name</key>
+		<string>Dropbox</string>
+		<key>installer_item_hash</key>
 		<string>c590850ab6bf8a0c22be49e81e2d6fb6ec012aa4d93f3b7deda53ba44bcb55a7</string>
 		<key>installer_item_location</key>
 		<string>apps/Dropbox/Dropbox-3.2.3.dmg</string>
@@ -20679,6 +20982,72 @@ fi
 		<true/>
 		<key>version</key>
 		<string>6.2</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>production</string>
+		</array>
+		<key>category</key>
+		<string>Productivity</string>
+		<key>description</key>
+		<string>Evernote makes it easy to remember things big and small from your everyday life using your computer, phone, tablet and the web.</string>
+		<key>developer</key>
+		<string>Evernote Corporation</string>
+		<key>display_name</key>
+		<string>Evernote</string>
+		<key>installer_item_hash</key>
+		<string>ba54883183a99c143de866435ff3aaecfc02a3db09faa2c26b6581a5d70864bc</string>
+		<key>installer_item_location</key>
+		<string>apps/Evernote/Evernote-6.3.dmg</string>
+		<key>installer_item_size</key>
+		<integer>63838</integer>
+		<key>installer_type</key>
+		<string>copy_from_dmg</string>
+		<key>installs</key>
+		<array>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>com.evernote.Evernote</string>
+				<key>CFBundleName</key>
+				<string>Evernote</string>
+				<key>CFBundleShortVersionString</key>
+				<string>6.3</string>
+				<key>CFBundleVersion</key>
+				<string>452832</string>
+				<key>minosversion</key>
+				<string>10.9.0</string>
+				<key>path</key>
+				<string>/Applications/Evernote.app</string>
+				<key>type</key>
+				<string>application</string>
+				<key>version_comparison_key</key>
+				<string>CFBundleShortVersionString</string>
+			</dict>
+		</array>
+		<key>items_to_copy</key>
+		<array>
+			<dict>
+				<key>destination_path</key>
+				<string>/Applications</string>
+				<key>source_item</key>
+				<string>Evernote.app</string>
+			</dict>
+		</array>
+		<key>minimum_os_version</key>
+		<string>10.9.0</string>
+		<key>name</key>
+		<string>Evernote</string>
+		<key>unattended_install</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>remove_copied_items</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>6.3</string>
 	</dict>
 	<dict>
 		<key>autoremove</key>
@@ -38770,6 +39139,81 @@ rm '/Library/PrivilegedHelperTools/Google Drive Icon Helper'
 		<key>display_name</key>
 		<string>TextMate 2</string>
 		<key>installer_item_hash</key>
+		<string>cf7fd9fda0bb1cb5a1a41a27c5a6283724cbfcd8ee0aa7d4336763668e4ebb6b</string>
+		<key>installer_item_location</key>
+		<string>apps/TextMate2/TextMate2-2.0-beta.8.5.dmg</string>
+		<key>installer_item_size</key>
+		<integer>27799</integer>
+		<key>installer_type</key>
+		<string>copy_from_dmg</string>
+		<key>installs</key>
+		<array>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>com.macromates.TextMate.preview</string>
+				<key>CFBundleName</key>
+				<string>TextMate</string>
+				<key>CFBundleShortVersionString</key>
+				<string>2.0-beta.8.5</string>
+				<key>CFBundleVersion</key>
+				<string>9800</string>
+				<key>minosversion</key>
+				<string>10.7</string>
+				<key>path</key>
+				<string>/Applications/TextMate.app</string>
+				<key>type</key>
+				<string>application</string>
+				<key>version_comparison_key</key>
+				<string>CFBundleShortVersionString</string>
+			</dict>
+		</array>
+		<key>items_to_copy</key>
+		<array>
+			<dict>
+				<key>destination_path</key>
+				<string>/Applications</string>
+				<key>source_item</key>
+				<string>TextMate.app</string>
+			</dict>
+		</array>
+		<key>minimum_os_version</key>
+		<string>10.7</string>
+		<key>name</key>
+		<string>TextMate2</string>
+		<key>postinstall_script</key>
+		<string>#!/bin/sh
+[ -d /usr/local/bin ] || mkdir -p /usr/local/bin
+/bin/cp -f -p /Applications/TextMate.app/Contents/Resources/mate /usr/local/bin/mate
+</string>
+		<key>postuninstall_script</key>
+		<string>#!/bin/sh
+[ -e /usr/local/bin/mate ] &amp;&amp; rm -f /usr/local/bin/mate
+</string>
+		<key>unattended_install</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>remove_copied_items</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>2.0-beta.8.5</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>production</string>
+		</array>
+		<key>category</key>
+		<string>Text Editors</string>
+		<key>description</key>
+		<string>TextMate brings Apple's approach to operating systems into the world of text editors. By bridging UNIX underpinnings and GUI, TextMate cherry-picks the best of both worlds to the benefit of expert scripters and novice users alike.</string>
+		<key>developer</key>
+		<string>MacroMates Ltd.</string>
+		<key>display_name</key>
+		<string>TextMate 2</string>
+		<key>installer_item_hash</key>
 		<string>f1cd2c2a06b06dbe9342ed232e6771f009b8a2f2f6113f3ef32b4f7b2cbaa7d6</string>
 		<key>installer_item_location</key>
 		<string>apps/TextMate2/TextMate2-2.0-beta.8.dmg</string>
@@ -41322,6 +41766,55 @@ rm '/Library/PrivilegedHelperTools/Google Drive Icon Helper'
 		<true/>
 		<key>version</key>
 		<string>19.0.0.245</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>production</string>
+		</array>
+		<key>category</key>
+		<string>Internet Plugin</string>
+		<key>description</key>
+		<string>Adobe® Flash® Player is a cross-platform browser-based application runtime that delivers uncompromised viewing of expressive applications, content, and videos across screens and browsers.</string>
+		<key>developer</key>
+		<string>Adobe</string>
+		<key>display_name</key>
+		<string>Adobe Flash Player</string>
+		<key>installed_size</key>
+		<integer>17847</integer>
+		<key>installer_item_hash</key>
+		<string>1316915645b9217f3b3869fcb0333575d6b7fd0e0ba051db56c2893c1948bf68</string>
+		<key>installer_item_location</key>
+		<string>internet_plugins/AdobeFlashPlayer-20.0.0.235.dmg</string>
+		<key>installer_item_size</key>
+		<integer>16617</integer>
+		<key>minimum_os_version</key>
+		<string>10.5.0</string>
+		<key>name</key>
+		<string>AdobeFlashPlayer</string>
+		<key>package_path</key>
+		<string>Install Adobe Flash Player.app/Contents/Resources/Adobe Flash Player.pkg</string>
+		<key>receipts</key>
+		<array>
+			<dict>
+				<key>installed_size</key>
+				<integer>17847</integer>
+				<key>packageid</key>
+				<string>com.adobe.pkg.FlashPlayer</string>
+				<key>version</key>
+				<string>20.0.0.235</string>
+			</dict>
+		</array>
+		<key>unattended_install</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>removepackages</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>20.0.0.235</string>
 	</dict>
 	<dict>
 		<key>autoremove</key>
