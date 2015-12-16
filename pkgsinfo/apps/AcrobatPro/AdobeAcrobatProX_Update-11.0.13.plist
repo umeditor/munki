@@ -7,11 +7,11 @@
 		<key>created_by</key>
 		<string>mcneal</string>
 		<key>creation_date</key>
-		<date>2015-10-13T19:51:34Z</date>
+		<date>2015-12-16T16:16:03Z</date>
 		<key>munki_version</key>
-		<string>2.3.1.2535</string>
+		<string>2.4.0.2561</string>
 		<key>os_version</key>
-		<string>10.10.5</string>
+		<string>10.11.2</string>
 	</dict>
 	<key>autoremove</key>
 	<false/>
@@ -66,7 +66,7 @@
 	<true/>
 	<key>update_for</key>
 	<array>
-		<string>AdobeAcrobatProX</string>
+		<string>AdobeAcrobatProXI</string>
 	</array>
 	<key>version</key>
 	<string>11.0.13</string>
