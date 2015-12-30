@@ -75,5 +75,9 @@
 	<true/>
 	<key>version</key>
 	<string>15.17.1</string>
+	<key>requires</key>
+	<array>
+			<string>Office2016License</string>
+	</array>
 </dict>
 </plist>
