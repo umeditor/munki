@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AdobeSetupType</key>
+	<string>ProductInstall</string>
+	<key>_metadata</key>
+	<dict>
+		<key>created_by</key>
+		<string>mcneal</string>
+		<key>creation_date</key>
+		<date>2016-01-05T20:20:57Z</date>
+		<key>munki_version</key>
+		<string>2.4.0.2561</string>
+		<key>os_version</key>
+		<string>10.11.2</string>
+	</dict>
+	<key>autoremove</key>
+	<false/>
+	<key>catalogs</key>
+	<array>
+		<string>production</string>
+	</array>
+	<key>category</key>
+	<string>Design</string>
+	<key>description</key>
+	<string>The world’s best imaging and design app is at the core of almost every creative project. Work across desktop and mobile devices to create and enhance your photographs, website and mobile app designs, 3D artwork, videos and more.</string>
+	<key>developer</key>
+	<string>Adobe</string>
+	<key>display_name</key>
+	<string>Adobe Photoshop</string>
+	<key>installed_size</key>
+	<integer>2666100</integer>
+	<key>installer_item_hash</key>
+	<string>962b415a6cb8cf86c53c0d01d053a4ab6950f9c61da6f73075c78e7b496ed57f</string>
+	<key>installer_item_location</key>
+	<string>apps/adobe/photoshop/MIT_Photoshop_Install-16.0.dmg</string>
+	<key>installer_item_size</key>
+	<integer>1643229</integer>
+	<key>installer_type</key>
+	<string>AdobeCCPInstaller</string>
+	<key>installs</key>
+	<array>
+		<dict>
+			<key>path</key>
+			<string>/Library/Application Support/Adobe/Uninstall/{2614BC86-757D-4293-9E25-E4E16F370A9E}.db</string>
+			<key>type</key>
+			<string>file</string>
+		</dict>
+	</array>
+	<key>minimum_os_version</key>
+	<string>10.6.8</string>
+	<key>name</key>
+	<string>AdobePhotoshop</string>
+	<key>payloads</key>
+	<array>
+		<dict>
+			<key>AdobeCode</key>
+			<string>{9CFF053A-C7D3-42A8-8186-5804F48F7227}</string>
+			<key>display_name</key>
+			<string>Adobe Export Assets 2</string>
+			<key>installed_size</key>
+			<integer>14</integer>
+			<key>version</key>
+			<string>2.3</string>
+		</dict>
+		<dict>
+			<key>AdobeCode</key>
+			<string>{3AF55940-C18B-4780-A753-36F95CC1B07B}</string>
+			<key>display_name</key>
+			<string>Adobe Photoshop CC 2015</string>
+			<key>installed_size</key>
+			<integer>1839615</integer>
+			<key>version</key>
+			<string>16.0.1</string>
+		</dict>
+		<dict>
+			<key>AdobeCode</key>
+			<string>{6D79C41E-647A-47B1-9BD1-26A000E302AD}</string>
+			<key>display_name</key>
+			<string>Adobe Photoshop CC 2015 Support</string>
+			<key>installed_size</key>
+			<integer>0</integer>
+			<key>version</key>
+			<string>16.0.1</string>
+		</dict>
+		<dict>
+			<key>AdobeCode</key>
+			<string>{13755480-A0D2-424F-9A97-D7AD8DA0713F}</string>
+			<key>display_name</key>
+			<string>Adobe Photoshop CC 2015 Chinese Language Pack</string>
+			<key>installed_size</key>
+			<integer>5941</integer>
+			<key>version</key>
+			<string>16.0.1</string>
+		</dict>
+		<dict>
+			<key>AdobeCode</key>
+			<string>{9A8B5ECF-85E0-4A1D-BD66-A8110F3060D9}</string>
+			<key>display_name</key>
+			<string>Adobe Photoshop CC 2015 Chinese (traditional) Language Pack</string>
+			<key>installed_size</key>
+			<integer>5974</integer>
+			<key>version</key>
+			<string>16.0.1</string>
+		</dict>
+		<dict>
+			<key>AdobeCode</key>
+			<string>{C474C28E-FB05-4C92-911C-0480BF5D84A2}</string>
+			<key>display_name</key>
+			<string>Adobe Preview CC</string>
+			<key>installed_size</key>
+			<integer>113</integer>
+			<key>version</key>
+			<string>1.1.1</string>
+		</dict>
+		<dict>
+			<key>AdobeCode</key>
+			<string>{F2BA688D-11EF-45B7-B89D-4627661EBA51}</string>
+			<key>display_name</key>
+			<string>Photoshop Camera Raw 8</string>
+			<key>installed_size</key>
+			<integer>106016</integer>
+			<key>version</key>
+			<string>9.2</string>
+		</dict>
+		<dict>
+			<key>AdobeCode</key>
+			<string>{0EB50D67-B0DF-4552-8DDF-A2CD200E5D38}</string>
+			<key>display_name</key>
+			<string>Camera Profiles Installer</string>
+			<key>installed_size</key>
+			<integer>274424</integer>
+			<key>version</key>
+			<string>9.2</string>
+		</dict>
+		<dict>
+			<key>AdobeCode</key>
+			<string>{3E7FC757-D497-4C89-A935-7D38E2164E85}</string>
+			<key>display_name</key>
+			<string>Photoshop Camera Raw 8</string>
+			<key>installed_size</key>
+			<integer>46949</integer>
+			<key>version</key>
+			<string>8.0</string>
+		</dict>
+		<dict>
+			<key>AdobeCode</key>
+			<string>{56DCC6F4-322E-42DA-A5DA-26BAD28C1E10}</string>
+			<key>display_name</key>
+			<string>Camera Profiles Installer</string>
+			<key>installed_size</key>
+			<integer>346649</integer>
+			<key>version</key>
+			<string>8.0</string>
+		</dict>
+		<dict>
+			<key>AdobeCode</key>
+			<string>{C4196275-B11A-40A1-8727-3C145C8F7D95}</string>
+			<key>display_name</key>
+			<string>AdobeColorCommonSetCMYK</string>
+			<key>installed_size</key>
+			<integer>0</integer>
+			<key>version</key>
+			<string>5.0</string>
+		</dict>
+		<dict>
+			<key>AdobeCode</key>
+			<string>{C8DEBB29-3EB0-4B97-B652-4DE482B111BC}</string>
+			<key>display_name</key>
+			<string>AdobeColorCommonSetRGB</string>
+			<key>installed_size</key>
+			<integer>0</integer>
+			<key>version</key>
+			<string>5.0</string>
+		</dict>
+		<dict>
+			<key>AdobeCode</key>
+			<string>{F6DED2DA-1D20-497E-8810-E745B45DCD28}</string>
+			<key>display_name</key>
+			<string>Adobe Color EU Extra Settings CC</string>
+			<key>installed_size</key>
+			<integer>1976</integer>
+			<key>version</key>
+			<string>5.0</string>
+		</dict>
+		<dict>
+			<key>AdobeCode</key>
+			<string>{A032EB9D-B6EB-45BF-9F15-83B0755DC9AB}</string>
+			<key>display_name</key>
+			<string>Adobe Color JA Extra Settings CC</string>
+			<key>installed_size</key>
+			<integer>2799</integer>
+			<key>version</key>
+			<string>5.0</string>
+		</dict>
+		<dict>
+			<key>AdobeCode</key>
+			<string>{AB955DCF-69CD-4840-B7FB-F318CDD0AE44}</string>
+			<key>display_name</key>
+			<string>Adobe Color NA Recommended Settings CC</string>
+			<key>installed_size</key>
+			<integer>2333</integer>
+			<key>version</key>
+			<string>5.0</string>
+		</dict>
+		<dict>
+			<key>AdobeCode</key>
+			<string>{5C5D62C9-91C6-415E-857E-9130C0F52C66}</string>
+			<key>display_name</key>
+			<string>Adobe Color - Photoshop Specific CC</string>
+			<key>installed_size</key>
+			<integer>0</integer>
+			<key>version</key>
+			<string>5.0</string>
+		</dict>
+		<dict>
+			<key>AdobeCode</key>
+			<string>{036D83B4-B185-438C-A160-A35D5C69F851}</string>
+			<key>display_name</key>
+			<string>Adobe Export Assets 2</string>
+			<key>installed_size</key>
+			<integer>19619</integer>
+			<key>version</key>
+			<string>2.0</string>
+		</dict>
+		<dict>
+			<key>AdobeCode</key>
+			<string>{2614BC86-757D-4293-9E25-E4E16F370A9E}</string>
+			<key>display_name</key>
+			<string>Adobe Photoshop CC 2015</string>
+			<key>installed_size</key>
+			<integer>66</integer>
+			<key>version</key>
+			<string>16.0</string>
+		</dict>
+		<dict>
+			<key>AdobeCode</key>
+			<string>{67759AA1-0FD6-47FE-B449-492DC8B26D89}</string>
+			<key>display_name</key>
+			<string>Adobe Photoshop CC 2015 English Language Pack</string>
+			<key>installed_size</key>
+			<integer>48</integer>
+			<key>version</key>
+			<string>16.0</string>
+		</dict>
+		<dict>
+			<key>AdobeCode</key>
+			<string>{3FB7A108-368A-4849-A3F3-69571BAAC457}</string>
+			<key>display_name</key>
+			<string>Adobe Photoshop CC 2015 Support</string>
+			<key>installed_size</key>
+			<integer>1310</integer>
+			<key>version</key>
+			<string>16.0</string>
+		</dict>
+		<dict>
+			<key>AdobeCode</key>
+			<string>{ABD0FB37-08A2-4B4F-8AD7-88A6C03330CB}</string>
+			<key>display_name</key>
+			<string>Adobe Preview CC</string>
+			<key>installed_size</key>
+			<integer>12254</integer>
+			<key>version</key>
+			<string>1.0.0</string>
+		</dict>
+		<dict>
+			<key>AdobeCode</key>
+			<string>{CE9B1B00-0421-4701-9698-1C14646D6D94}</string>
+			<key>display_name</key>
+			<string>Adobe Color Video Profiles CS CC</string>
+			<key>installed_size</key>
+			<integer>0</integer>
+			<key>version</key>
+			<string>5.0</string>
+		</dict>
+	</array>
+	<key>uninstallable</key>
+	<false/>
+	<key>version</key>
+	<string>16.0</string>
+</dict>
+</plist>
