@@ -10,10 +10,10 @@
   <key>included_manifests</key>
   <array>
       <string>munki_client</string>
+      <string>Installs-Optional</string>
   </array>
   <key>managed_installs</key>
   <array>
-    <string>CrowdStrikeFalconHost</string>
   </array>
   <key>managed_uninstalls</key>
   <array>
