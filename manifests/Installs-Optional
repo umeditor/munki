@@ -19,6 +19,11 @@
   <key>optional_installs</key>
   <array>
       <string>AdobeAcrobatProXI</string>
+      <string>AdobeDreamweaver</string>
+      <string>AdobeIllustrator</string>
+      <string>AdobeInDesign</string>
+      <string>AdobePhotoshop</string>
+      <string>AdobePremiere</string>
       <string>AdobeAIR</string>
       <string>AdobeFlashPlayer</string>
       <string>CitrixReceiver</string>
