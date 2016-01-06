@@ -15393,10 +15393,20 @@ exit 0
 		<key>installs</key>
 		<array>
 			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>com.adobe.dreamweaver-16.0</string>
+				<key>CFBundleName</key>
+				<string>Dreamweaver CC</string>
+				<key>CFBundleShortVersionString</key>
+				<string>16.0.1.7714</string>
+				<key>CFBundleVersion</key>
+				<string>16.0.1.7714</string>
 				<key>path</key>
-				<string>/Library/Application Support/Adobe/Uninstall/{EE2A0AA8-0386-11E5-8603-BC82F5DB1A71}.db</string>
+				<string>/Applications/Adobe Dreamweaver CC 2015/Adobe Dreamweaver CC 2015.app</string>
 				<key>type</key>
-				<string>file</string>
+				<string>application</string>
+				<key>version_comparison_key</key>
+				<string>CFBundleShortVersionString</string>
 			</dict>
 		</array>
 		<key>minimum_os_version</key>
@@ -15601,10 +15611,22 @@ exit 0
 		<key>installs</key>
 		<array>
 			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>com.adobe.illustrator</string>
+				<key>CFBundleName</key>
+				<string>Illustrator CC</string>
+				<key>CFBundleShortVersionString</key>
+				<string>19.1.0</string>
+				<key>CFBundleVersion</key>
+				<string>19.1.0</string>
+				<key>minosversion</key>
+				<string>10.4.6</string>
 				<key>path</key>
-				<string>/Library/Application Support/Adobe/Uninstall/{D467C6EE-6F62-478D-935C-A31AB179F36E}.db</string>
+				<string>/Applications/Adobe Illustrator CC 2015/Adobe Illustrator.app</string>
 				<key>type</key>
-				<string>file</string>
+				<string>application</string>
+				<key>version_comparison_key</key>
+				<string>CFBundleShortVersionString</string>
 			</dict>
 		</array>
 		<key>minimum_os_version</key>

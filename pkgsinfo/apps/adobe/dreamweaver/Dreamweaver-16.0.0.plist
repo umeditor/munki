@@ -215,6 +215,25 @@
 			<string>16.0.0</string>
 		</dict>
 	</array>
+	<key>installs</key>
+	<array>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.adobe.dreamweaver-16.0</string>
+			<key>CFBundleName</key>
+			<string>Dreamweaver CC</string>
+			<key>CFBundleShortVersionString</key>
+			<string>16.0.1.7714</string>
+			<key>CFBundleVersion</key>
+			<string>16.0.1.7714</string>
+			<key>path</key>
+			<string>/Applications/Adobe Dreamweaver CC 2015/Adobe Dreamweaver CC 2015.app</string>
+			<key>type</key>
+			<string>application</string>
+			<key>version_comparison_key</key>
+			<string>CFBundleShortVersionString</string>
+		</dict>
+	</array>
 	<key>uninstallable</key>
 	<false/>
 	<key>version</key>
