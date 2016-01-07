@@ -16001,10 +16001,22 @@ exit 0
 		<key>installs</key>
 		<array>
 			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>com.adobe.InDesign</string>
+				<key>CFBundleName</key>
+				<string>InDesign CC</string>
+				<key>CFBundleShortVersionString</key>
+				<string>11.1.0.122</string>
+				<key>CFBundleVersion</key>
+				<string>11100</string>
+				<key>minosversion</key>
+				<string>10.9.0</string>
 				<key>path</key>
-				<string>/Library/Application Support/Adobe/Uninstall/{76AE579A-05AC-11E5-933C-9CF835776563}.db</string>
+				<string>/Applications/Adobe InDesign CC 2015/Adobe InDesign CC 2015.app</string>
 				<key>type</key>
-				<string>file</string>
+				<string>application</string>
+				<key>version_comparison_key</key>
+				<string>CFBundleShortVersionString</string>
 			</dict>
 		</array>
 		<key>minimum_os_version</key>
@@ -16439,10 +16451,22 @@ exit 0
 		<key>installs</key>
 		<array>
 			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>com.adobe.Photoshop</string>
+				<key>CFBundleName</key>
+				<string>Photoshop CC</string>
+				<key>CFBundleShortVersionString</key>
+				<string>16.0.1</string>
+				<key>CFBundleVersion</key>
+				<string>16.0.1.168</string>
+				<key>minosversion</key>
+				<string>10.9.0</string>
 				<key>path</key>
-				<string>/Library/Application Support/Adobe/Uninstall/{2614BC86-757D-4293-9E25-E4E16F370A9E}.db</string>
+				<string>/Applications/Adobe Photoshop CC 2015/Adobe Photoshop CC 2015.app</string>
 				<key>type</key>
-				<string>file</string>
+				<string>application</string>
+				<key>version_comparison_key</key>
+				<string>CFBundleShortVersionString</string>
 			</dict>
 		</array>
 		<key>minimum_os_version</key>
@@ -16707,10 +16731,20 @@ exit 0
 		<key>installs</key>
 		<array>
 			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>com.adobe.AdobePremierePro</string>
+				<key>CFBundleName</key>
+				<string>Premiere Pro CC</string>
+				<key>CFBundleShortVersionString</key>
+				<string>9.0.2</string>
+				<key>CFBundleVersion</key>
+				<string>9.0.2</string>
 				<key>path</key>
-				<string>/Library/Application Support/Adobe/Uninstall/{38C72D42-0672-43B1-9E05-E7631684F9A1}.db</string>
+				<string>/Applications/Adobe Premiere Pro CC 2015/Adobe Premiere Pro CC 2015.app</string>
 				<key>type</key>
-				<string>file</string>
+				<string>application</string>
+				<key>version_comparison_key</key>
+				<string>CFBundleShortVersionString</string>
 			</dict>
 		</array>
 		<key>minimum_os_version</key>

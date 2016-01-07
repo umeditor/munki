@@ -275,6 +275,27 @@
 			<string>5.0</string>
 		</dict>
 	</array>
+	<key>installs</key>
+	<array>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.adobe.Photoshop</string>
+			<key>CFBundleName</key>
+			<string>Photoshop CC</string>
+			<key>CFBundleShortVersionString</key>
+			<string>16.0.1</string>
+			<key>CFBundleVersion</key>
+			<string>16.0.1.168</string>
+			<key>minosversion</key>
+			<string>10.9.0</string>
+			<key>path</key>
+			<string>/Applications/Adobe Photoshop CC 2015/Adobe Photoshop CC 2015.app</string>
+			<key>type</key>
+			<string>application</string>
+			<key>version_comparison_key</key>
+			<string>CFBundleShortVersionString</string>
+		</dict>
+	</array>
 	<key>uninstallable</key>
 	<false/>
 	<key>version</key>

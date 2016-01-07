@@ -445,6 +445,27 @@
 			<string>11.0</string>
 		</dict>
 	</array>
+	<key>installs</key>
+	<array>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.adobe.InDesign</string>
+			<key>CFBundleName</key>
+			<string>InDesign CC</string>
+			<key>CFBundleShortVersionString</key>
+			<string>11.1.0.122</string>
+			<key>CFBundleVersion</key>
+			<string>11100</string>
+			<key>minosversion</key>
+			<string>10.9.0</string>
+			<key>path</key>
+			<string>/Applications/Adobe InDesign CC 2015/Adobe InDesign CC 2015.app</string>
+			<key>type</key>
+			<string>application</string>
+			<key>version_comparison_key</key>
+			<string>CFBundleShortVersionString</string>
+		</dict>
+	</array>
 	<key>uninstallable</key>
 	<false/>
 	<key>version</key>

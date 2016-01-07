@@ -105,6 +105,25 @@
 			<string>9.0.0</string>
 		</dict>
 	</array>
+	<key>installs</key>
+	<array>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.adobe.AdobePremierePro</string>
+			<key>CFBundleName</key>
+			<string>Premiere Pro CC</string>
+			<key>CFBundleShortVersionString</key>
+			<string>9.0.2</string>
+			<key>CFBundleVersion</key>
+			<string>9.0.2</string>
+			<key>path</key>
+			<string>/Applications/Adobe Premiere Pro CC 2015/Adobe Premiere Pro CC 2015.app</string>
+			<key>type</key>
+			<string>application</string>
+			<key>version_comparison_key</key>
+			<string>CFBundleShortVersionString</string>
+		</dict>
+	</array>
 	<key>uninstallable</key>
 	<false/>
 	<key>version</key>
