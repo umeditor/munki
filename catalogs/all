@@ -51401,6 +51401,49 @@ defaults write /Library/Preferences/ManagedInstalls.plist IconURL "https://munki
 			<string>production</string>
 		</array>
 		<key>description</key>
+		<string>Hiera is a simple pluggable Hierarchical Database.</string>
+		<key>display_name</key>
+		<string>Hiera</string>
+		<key>installed_size</key>
+		<integer>72</integer>
+		<key>installer_item_hash</key>
+		<string>f0c5342b09b6f48c727ded033e03d207313d3ebf12d41b50b0f2f71fd1c411e9</string>
+		<key>installer_item_location</key>
+		<string>support/Hiera/Hiera-1.3.4.dmg</string>
+		<key>installer_item_size</key>
+		<integer>33</integer>
+		<key>minimum_os_version</key>
+		<string>10.5.0</string>
+		<key>name</key>
+		<string>Hiera</string>
+		<key>receipts</key>
+		<array>
+			<dict>
+				<key>installed_size</key>
+				<integer>72</integer>
+				<key>packageid</key>
+				<string>com.puppetlabs.hiera</string>
+				<key>version</key>
+				<string>1.3.4</string>
+			</dict>
+		</array>
+		<key>unattended_install</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>removepackages</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>1.3.4</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>production</string>
+		</array>
+		<key>description</key>
 		<string>Puppet is a tool designed to manage the configuration of Unix-like and Microsoft Windows systems declaratively.</string>
 		<key>display_name</key>
 		<string>Puppet</string>
