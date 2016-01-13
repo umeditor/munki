@@ -44281,7 +44281,7 @@ fi
 # Check Server
 # Grab current value
 value="$(defaults read /Library/Preferences/com.github.salopensource.sal.plist ServerURL 2&gt;/dev/null)" || values="MISSING"
-if [ ${value:-0} = http://jpal-munki.mit.edu:8080 ]; then
+if [ ${value:-0} != http://jpal-munki.mit.edu:8080 ]; then
 	# Setting is not correct
 	exit 0
 fi
