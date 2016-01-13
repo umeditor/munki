@@ -11,21 +11,21 @@
   </array>
   <key>managed_installs</key>
   <array>
-      <string>CertAid</string>
-      <string>CiscoAnyConnectVPN</string>
-      <string>SophosAntiVirus</string>
-      <string>CrashPlanPROe</string>
-      <string>Facter</string>
-      <string>Disable802.1xAutomaticConnection</string>
-      <string>AddPrinter_Ascender</string>
-      <string>AddPrinter_BlackSabbath</string>
-      <string>AddPrinter_Morphine</string>
-      <string>AddPrinter_MultiPitch</string>
-      <string>AddPrinter_NorthAmerica</string>
-      <string>AddPrinter_PaperSpitter</string>
-      <string>AddPrinter_Slayer</string>
-      <string>CrowdStrikeFalconHost</string>
-      <string>Puppet</string>
+    <string>AddPrinter_Ascender</string>
+    <string>AddPrinter_BlackSabbath</string>
+    <string>AddPrinter_Morphine</string>
+    <string>AddPrinter_MultiPitch</string>
+    <string>AddPrinter_NorthAmerica</string>
+    <string>AddPrinter_PaperSpitter</string>
+    <string>AddPrinter_Slayer</string>
+    <string>CertAid</string>
+    <string>CiscoAnyConnectVPN</string>
+    <string>CrashPlanPROe</string>
+    <string>CrowdStrikeFalconHost</string>
+    <string>Disable802.1xAutomaticConnection</string>
+    <string>Facter</string>
+    <string>Puppet</string>
+    <string>SophosAntiVirus</string>
   </array>
   <key>managed_uninstalls</key>
   <array>
