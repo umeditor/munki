@@ -15,6 +15,7 @@
   <key>managed_installs</key>
   <array>
     <string>sal_scripts</string>
+    <string>SalConfigure</string>
   </array>
   <key>managed_uninstalls</key>
   <array>
