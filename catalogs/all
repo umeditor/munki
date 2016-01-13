@@ -44280,7 +44280,7 @@ fi
 
 # Check Server
 # Grab current value
-value="$(defaults read /Library/Preferences/com.github.salopensource.sal.plist server 2&gt;/dev/null)" || values="MISSING"
+value="$(defaults read /Library/Preferences/com.github.salopensource.sal.plist ServerURL 2&gt;/dev/null)" || values="MISSING"
 if [ ${value:-0} = http://jpal-munki.mit.edu:8080 ]; then
 	# Setting is not correct
 	exit 0
@@ -44299,7 +44299,7 @@ exit 1
 		<string>#!/bin/sh
 
 defaults write /Library/Preferences/com.github.salopensource.sal.plist key nmwgmkovxdbzyv7r1p4u137scfq5eck49syajk9evnatqyi5ilrwkl751v4pw7ot4a3on0dbafxb9ah3s69k3hqtr9smdjyoq8k1e86r87ybc72bn9nuw2800njf83qj
-defaults write /Library/Preferences/com.github.salopensource.sal.plist server http://jpal-munki.mit.edu:8080
+defaults write /Library/Preferences/com.github.salopensource.sal.plist ServerURL http://jpal-munki.mit.edu:8080
 	</string>
 		<key>unattended_uninstall</key>
 		<true/>
