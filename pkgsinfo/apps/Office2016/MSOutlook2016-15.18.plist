@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>_metadata</key>
+	<dict>
+		<key>created_by</key>
+		<string>mcneal</string>
+		<key>creation_date</key>
+		<date>2016-01-13T18:44:51Z</date>
+		<key>munki_version</key>
+		<string>2.4.0.2561</string>
+		<key>os_version</key>
+		<string>10.11.2</string>
+	</dict>
+	<key>autoremove</key>
+	<false/>
+	<key>blocking_applications</key>
+	<array>
+		<string>Microsoft Outlook</string>
+		<string>Microsoft Error Reporting</string>
+		<string>Microsoft Auto Update</string>
+	</array>
+	<key>catalogs</key>
+	<array>
+		<string>production</string>
+	</array>
+	<key>description</key>
+	<string>&lt;html&gt;&lt;p style="font-family:Helvetica;font-size:12px"&gt;For detailed information about this update, please visit the following Web site: &lt;/p&gt;
+
+&lt;p style="font-family:Helvetica;font-size:12px"&gt;&lt;a href="https://go.microsoft.com/fwlink/?LinkID=718198" target="_blank"&gt;https://go.microsoft.com/fwlink/?LinkID=718198&lt;/a&gt;&lt;/p&gt;&lt;/html&gt;</string>
+	<key>display_name</key>
+	<string>Microsoft Outlook for Mac</string>
+	<key>installed_size</key>
+	<integer>1296382</integer>
+	<key>installer_item_hash</key>
+	<string>9538cbd55395a0df98919f962ebf2fbb663a71a462b09957b802210a6b34b585</string>
+	<key>installer_item_location</key>
+	<string>apps/Office2016/MSOutlook2016-15.18.0-15.18.pkg</string>
+	<key>installer_item_size</key>
+	<integer>609067</integer>
+	<key>installs</key>
+	<array>
+		<dict>
+			<key>CFBundleShortVersionString</key>
+			<string>15.18.0</string>
+			<key>CFBundleVersion</key>
+			<string>15.18.0</string>
+			<key>path</key>
+			<string>/Applications/Microsoft Outlook.app</string>
+			<key>type</key>
+			<string>application</string>
+		</dict>
+	</array>
+	<key>minimum_os_version</key>
+	<string>10.10.0</string>
+	<key>name</key>
+	<string>MSOutlook2016</string>
+	<key>receipts</key>
+	<array>
+		<dict>
+			<key>installed_size</key>
+			<integer>1296382</integer>
+			<key>packageid</key>
+			<string>com.microsoft.package.Microsoft_Outlook.app</string>
+			<key>version</key>
+			<string>15.18</string>
+		</dict>
+	</array>
+	<key>requires</key>
+	<array>
+		<string>Office2016License</string>
+	</array>
+	<key>unattended_install</key>
+	<true/>
+	<key>uninstall_method</key>
+	<string>removepackages</string>
+	<key>uninstallable</key>
+	<true/>
+	<key>version</key>
+	<string>15.18</string>
+</dict>
+</plist>
