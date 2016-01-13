@@ -44266,6 +44266,56 @@ rm '/Library/PrivilegedHelperTools/Google Drive Icon Helper'
 		<array>
 			<string>production</string>
 		</array>
+		<key>installcheck_script</key>
+		<string>#!/bin/sh
+
+# Check Key
+# Grab current value
+value="$(defaults read /Library/Preferences/com.github.salopensource.sal.plist key 2&gt;/dev/null)" || values="MISSING"
+
+if [ ${value:-0} = nmwgmkovxdbzyv7r1p4u137scfq5eck49syajk9evnatqyi5ilrwkl751v4pw7ot4a3on0dbafxb9ah3s69k3hqtr9smdjyoq8k1e86r87ybc72bn9nuw2800njf83qj ]; then
+	# Setting is correct
+	exit 1
+else
+	# Setting is not correct
+	exit 0
+fi
+
+# Check Server
+# Grab current value
+value="$(defaults read /Library/Preferences/com.github.salopensource.sal.plist server 2&gt;/dev/null)" || values="MISSING"
+if [ ${value:-0} = http://jpal-munki.mit.edu:8080 ]; then
+	# Setting is correct
+	exit 1
+else
+	# Setting is not correct
+	exit 0
+fi
+	</string>
+		<key>installer_type</key>
+		<string>nopkg</string>
+		<key>minimum_os_version</key>
+		<string>10.10.0</string>
+		<key>name</key>
+		<string>SalConfigure</string>
+		<key>preinstall_script</key>
+		<string>#!/bin/sh
+
+defaults write /Library/Preferences/com.github.salopensource.sal.plist key nmwgmkovxdbzyv7r1p4u137scfq5eck49syajk9evnatqyi5ilrwkl751v4pw7ot4a3on0dbafxb9ah3s69k3hqtr9smdjyoq8k1e86r87ybc72bn9nuw2800njf83qj
+defaults write /Library/Preferences/http://jpal-munki.mit.edu:8080 server
+	</string>
+		<key>unattended_uninstall</key>
+		<true/>
+		<key>version</key>
+		<string>1.0.0</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>production</string>
+		</array>
 		<key>description</key>
 		<string>Client side scripts for Sal.</string>
 		<key>display_name</key>
