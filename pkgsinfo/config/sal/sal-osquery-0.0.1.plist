@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>_metadata</key>
+	<dict>
+		<key>created_by</key>
+		<string>mcneal</string>
+		<key>creation_date</key>
+		<date>2016-01-13T20:01:04Z</date>
+		<key>munki_version</key>
+		<string>2.4.0.2561</string>
+		<key>os_version</key>
+		<string>10.11.2</string>
+	</dict>
+	<key>autoremove</key>
+	<false/>
+	<key>catalogs</key>
+	<array>
+		<string>Production</string>
+	</array>
+	<key>description</key>
+	<string>osquery configuration for Sal.</string>
+	<key>display_name</key>
+	<string>sal-osquery</string>
+	<key>installed_size</key>
+	<integer>8</integer>
+	<key>installer_item_hash</key>
+	<string>0458a7be5dfb84b0892b0e71bd8e2431c267eb449d0a1aa5ca05852578de9b83</string>
+	<key>installer_item_location</key>
+	<string>config/sal/sal-osquery-0.0.1.pkg</string>
+	<key>installer_item_size</key>
+	<integer>4</integer>
+	<key>minimum_os_version</key>
+	<string>10.5.0</string>
+	<key>name</key>
+	<string>sal-osquery</string>
+	<key>receipts</key>
+	<array>
+		<dict>
+			<key>installed_size</key>
+			<integer>8</integer>
+			<key>packageid</key>
+			<string>com.github.salopensource.sal-osquery-conf</string>
+			<key>version</key>
+			<string>0.0.1</string>
+		</dict>
+	</array>
+	<key>requires</key>
+	<array>
+		<string>osquery</string>
+	</array>
+	<key>unattended_install</key>
+	<true/>
+	<key>uninstall_method</key>
+	<string>removepackages</string>
+	<key>uninstallable</key>
+	<true/>
+	<key>update_for</key>
+	<array>
+		<string>sal_scripts</string>
+	</array>
+	<key>version</key>
+	<string>0.0.1</string>
+</dict>
+</plist>
