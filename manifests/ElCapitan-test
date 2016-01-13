@@ -14,6 +14,8 @@
   </array>
   <key>managed_installs</key>
   <array>
+    <string>sal_scripts</string>
+    <string>sal-osquery</string>
   </array>
   <key>managed_uninstalls</key>
   <array>
