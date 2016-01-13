@@ -34,10 +34,7 @@
 # Grab current value
 value="$(defaults read /Library/Preferences/com.github.salopensource.sal.plist key 2&gt;/dev/null)" || values="MISSING"
 
-if [ ${value:-0} = nmwgmkovxdbzyv7r1p4u137scfq5eck49syajk9evnatqyi5ilrwkl751v4pw7ot4a3on0dbafxb9ah3s69k3hqtr9smdjyoq8k1e86r87ybc72bn9nuw2800njf83qj ]; then
-	# Setting is correct
-	exit 1
-else
+if [ ${value:-0} != nmwgmkovxdbzyv7r1p4u137scfq5eck49syajk9evnatqyi5ilrwkl751v4pw7ot4a3on0dbafxb9ah3s69k3hqtr9smdjyoq8k1e86r87ybc72bn9nuw2800njf83qj ]; then
 	# Setting is not correct
 	exit 0
 fi
@@ -46,12 +43,12 @@ fi
 # Grab current value
 value="$(defaults read /Library/Preferences/com.github.salopensource.sal.plist server 2&gt;/dev/null)" || values="MISSING"
 if [ ${value:-0} = http://jpal-munki.mit.edu:8080 ]; then
-	# Setting is correct
-	exit 1
-else
 	# Setting is not correct
 	exit 0
 fi
+
+#Settings are correct
+exit 1
 	</string>
 	<key>preinstall_script</key>
 	<string>#!/bin/sh
