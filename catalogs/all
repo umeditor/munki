@@ -9303,6 +9303,72 @@ exit 0
 		<key>display_name</key>
 		<string>Google Chrome</string>
 		<key>installer_item_hash</key>
+		<string>0ddb3faaa7188aefb90137f114ed216af2862d10b78fe4425dc4d428445c0888</string>
+		<key>installer_item_location</key>
+		<string>apps/GoogleChrome-47.0.2526.111.dmg</string>
+		<key>installer_item_size</key>
+		<integer>64447</integer>
+		<key>installer_type</key>
+		<string>copy_from_dmg</string>
+		<key>installs</key>
+		<array>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>com.google.Chrome</string>
+				<key>CFBundleName</key>
+				<string>Chrome</string>
+				<key>CFBundleShortVersionString</key>
+				<string>47.0.2526.111</string>
+				<key>CFBundleVersion</key>
+				<string>2526.111</string>
+				<key>minosversion</key>
+				<string>10.6.0</string>
+				<key>path</key>
+				<string>/Applications/Google Chrome.app</string>
+				<key>type</key>
+				<string>application</string>
+				<key>version_comparison_key</key>
+				<string>CFBundleShortVersionString</string>
+			</dict>
+		</array>
+		<key>items_to_copy</key>
+		<array>
+			<dict>
+				<key>destination_path</key>
+				<string>/Applications</string>
+				<key>source_item</key>
+				<string>Google Chrome.app</string>
+			</dict>
+		</array>
+		<key>minimum_os_version</key>
+		<string>10.6.0</string>
+		<key>name</key>
+		<string>GoogleChrome</string>
+		<key>unattended_install</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>remove_copied_items</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>47.0.2526.111</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>production</string>
+		</array>
+		<key>category</key>
+		<string>Internet</string>
+		<key>description</key>
+		<string>Chrome is a fast, simple, and secure web browser, built for the modern web.</string>
+		<key>developer</key>
+		<string>Google</string>
+		<key>display_name</key>
+		<string>Google Chrome</string>
+		<key>installer_item_hash</key>
 		<string>391817cbe5171b8ac605b1311e819ef2e15091f3cad60bf66835f3a48473ee17</string>
 		<key>installer_item_location</key>
 		<string>apps/GoogleChrome-47.0.2526.73.dmg</string>
@@ -12104,6 +12170,72 @@ exit 0
 		<array>
 			<string>production</string>
 		</array>
+		<key>category</key>
+		<string>Communication</string>
+		<key>description</key>
+		<string>Slack is a platform for team communication: everything in one place, instantly searchable, available wherever you go.</string>
+		<key>developer</key>
+		<string>Slack</string>
+		<key>display_name</key>
+		<string>Slack</string>
+		<key>installer_item_hash</key>
+		<string>7de517968fbc1cb65431103bb8f890e911beb9c2aa08f736c20353b222f056ff</string>
+		<key>installer_item_location</key>
+		<string>apps/Slack-1.1.10.dmg</string>
+		<key>installer_item_size</key>
+		<integer>23514</integer>
+		<key>installer_type</key>
+		<string>copy_from_dmg</string>
+		<key>installs</key>
+		<array>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>com.tinyspeck.slackmacgap</string>
+				<key>CFBundleName</key>
+				<string>Slack</string>
+				<key>CFBundleShortVersionString</key>
+				<string>1.1.10</string>
+				<key>CFBundleVersion</key>
+				<string>3117</string>
+				<key>minosversion</key>
+				<string>10.9</string>
+				<key>path</key>
+				<string>/Applications/Slack.app</string>
+				<key>type</key>
+				<string>application</string>
+				<key>version_comparison_key</key>
+				<string>CFBundleShortVersionString</string>
+			</dict>
+		</array>
+		<key>items_to_copy</key>
+		<array>
+			<dict>
+				<key>destination_path</key>
+				<string>/Applications</string>
+				<key>source_item</key>
+				<string>Slack.app</string>
+			</dict>
+		</array>
+		<key>minimum_os_version</key>
+		<string>10.9</string>
+		<key>name</key>
+		<string>Slack</string>
+		<key>unattended_install</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>remove_copied_items</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>1.1.10</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>production</string>
+		</array>
 		<key>description</key>
 		<string>Spotify is a music streaming service offering unlimited streaming of selected music from a range of major and independent record labels.</string>
 		<key>display_name</key>
@@ -14570,6 +14702,65 @@ exit 0
 		</array>
 		<key>version</key>
 		<string>11.0.13</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>blocking_applications</key>
+		<array>
+			<string>Adobe Acrobat Pro.app</string>
+		</array>
+		<key>catalogs</key>
+		<array>
+			<string>production</string>
+		</array>
+		<key>description</key>
+		<string></string>
+		<key>display_name</key>
+		<string>Adobe Acrobat Pro Update</string>
+		<key>installed_size</key>
+		<integer>256932</integer>
+		<key>installer_item_hash</key>
+		<string>9a96bbf384161bc785cbcbfe87f0bb9b0f9000fb0a41fa609b7cfbc626a6ab9b</string>
+		<key>installer_item_location</key>
+		<string>apps/AcrobatPro/AcrobatUpd11014-11.0.14.pkg</string>
+		<key>installer_item_size</key>
+		<integer>321826</integer>
+		<key>minimum_os_version</key>
+		<string>10.9.0</string>
+		<key>name</key>
+		<string>AdobeAcrobatProX_Update</string>
+		<key>receipts</key>
+		<array>
+			<dict>
+				<key>installed_size</key>
+				<integer>0</integer>
+				<key>packageid</key>
+				<string>com.adobe.PDApp.AdobeApplicationManager.installer.pkg</string>
+				<key>version</key>
+				<string>1</string>
+			</dict>
+			<dict>
+				<key>installed_size</key>
+				<integer>256932</integer>
+				<key>packageid</key>
+				<string>com.adobe.acrobat.viewer.11.0.14.patch.pkg</string>
+				<key>version</key>
+				<string>11.0.14</string>
+			</dict>
+		</array>
+		<key>unattended_install</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>removepackages</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>update_for</key>
+		<array>
+			<string>AdobeAcrobatProXI</string>
+		</array>
+		<key>version</key>
+		<string>11.0.14</string>
 	</dict>
 	<dict>
 		<key>autoremove</key>
@@ -51715,6 +51906,53 @@ defaults write /Library/Preferences/ManagedInstalls.plist IconURL "https://munki
 		<true/>
 		<key>version</key>
 		<string>1.6.3</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>production</string>
+		</array>
+		<key>category</key>
+		<string>Utilities</string>
+		<key>description</key>
+		<string>osquery allows you to easily ask questions about your Linux and OSX infrastructure. Whether your goal is intrusion detection, infrastructure reliability, or compliance, osquery gives you the ability to empower and inform a broad set of organizations within your company.</string>
+		<key>developer</key>
+		<string>Facebook</string>
+		<key>display_name</key>
+		<string>osquery</string>
+		<key>installed_size</key>
+		<integer>14080</integer>
+		<key>installer_item_hash</key>
+		<string>c8626f966f0bf0b9bd9e53c0dd0861f634aaf786d7838cdb99a2444d23adeb07</string>
+		<key>installer_item_location</key>
+		<string>utilities/osquery/osquery-1.6.4.pkg</string>
+		<key>installer_item_size</key>
+		<integer>4989</integer>
+		<key>minimum_os_version</key>
+		<string>10.5.0</string>
+		<key>name</key>
+		<string>osquery</string>
+		<key>receipts</key>
+		<array>
+			<dict>
+				<key>installed_size</key>
+				<integer>14080</integer>
+				<key>packageid</key>
+				<string>com.facebook.osquery</string>
+				<key>version</key>
+				<string>1.6.4</string>
+			</dict>
+		</array>
+		<key>unattended_install</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>removepackages</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>1.6.4</string>
 	</dict>
 	<dict>
 		<key>autoremove</key>
