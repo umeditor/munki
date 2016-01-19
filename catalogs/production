@@ -46282,6 +46282,55 @@ defaults write /Library/Preferences/com.github.salopensource.sal.plist ServerURL
 	<dict>
 		<key>autoremove</key>
 		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>production</string>
+		</array>
+		<key>category</key>
+		<string>Internet Plugin</string>
+		<key>description</key>
+		<string>Adobe® Flash® Player is a cross-platform browser-based application runtime that delivers uncompromised viewing of expressive applications, content, and videos across screens and browsers.</string>
+		<key>developer</key>
+		<string>Adobe</string>
+		<key>display_name</key>
+		<string>Adobe Flash Player</string>
+		<key>installed_size</key>
+		<integer>17383</integer>
+		<key>installer_item_hash</key>
+		<string>eb373ccb04b3ad77fe2eceeedca15a8d25cd632eabd3c18408216544c5887a6a</string>
+		<key>installer_item_location</key>
+		<string>internet_plugins/AdobeFlashPlayer-20.0.0.286.dmg</string>
+		<key>installer_item_size</key>
+		<integer>16574</integer>
+		<key>minimum_os_version</key>
+		<string>10.5.0</string>
+		<key>name</key>
+		<string>AdobeFlashPlayer</string>
+		<key>package_path</key>
+		<string>Install Adobe Flash Player.app/Contents/Resources/Adobe Flash Player.pkg</string>
+		<key>receipts</key>
+		<array>
+			<dict>
+				<key>installed_size</key>
+				<integer>17383</integer>
+				<key>packageid</key>
+				<string>com.adobe.pkg.FlashPlayer</string>
+				<key>version</key>
+				<string>20.0.0.286</string>
+			</dict>
+		</array>
+		<key>unattended_install</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>removepackages</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>20.0.0.286</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
 		<key>blocking_applications</key>
 		<array>
 			<string>Citrix Receiver</string>
@@ -52225,6 +52274,83 @@ fi
 		<true/>
 		<key>version</key>
 		<string>1.8.0_65</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>production</string>
+		</array>
+		<key>category</key>
+		<string>Utility</string>
+		<key>description</key>
+		<string>The JDK is a development environment for building applications, applets, and components using the Java programming language. The JDK includes tools useful for developing and testing programs written in the Java programming language and running on the Java platform.</string>
+		<key>developer</key>
+		<string>Oracle</string>
+		<key>display_name</key>
+		<string>Oracle Java 8 development kit</string>
+		<key>installed_size</key>
+		<integer>521212</integer>
+		<key>installer_item_hash</key>
+		<string>72ccd63efb1775b3e4351f7b8c27d4f473d3c7bb098cb76c8d901517b3a7a506</string>
+		<key>installer_item_location</key>
+		<string>utility/Oracle/OracleJava8JDK-1.8.0_71.dmg</string>
+		<key>installer_item_size</key>
+		<integer>232691</integer>
+		<key>installs</key>
+		<array>
+			<dict>
+				<key>CFBundleShortVersionString</key>
+				<string>1.0</string>
+				<key>CFBundleVersion</key>
+				<string>1.8.0_71</string>
+				<key>path</key>
+				<string>/Library/Java/JavaVirtualMachines/jdk1.8.0_71.jdk</string>
+				<key>type</key>
+				<string>bundle</string>
+				<key>version_comparison_key</key>
+				<string>CFBundleVersion</string>
+			</dict>
+		</array>
+		<key>minimum_os_version</key>
+		<string>10.7.4</string>
+		<key>name</key>
+		<string>OracleJava8JDK</string>
+		<key>receipts</key>
+		<array>
+			<dict>
+				<key>installed_size</key>
+				<integer>346140</integer>
+				<key>packageid</key>
+				<string>com.oracle.jdk8u71</string>
+				<key>version</key>
+				<string>1.1</string>
+			</dict>
+			<dict>
+				<key>installed_size</key>
+				<integer>175072</integer>
+				<key>packageid</key>
+				<string>com.oracle.jre</string>
+				<key>version</key>
+				<string>1.1</string>
+			</dict>
+		</array>
+		<key>supported_architectures</key>
+		<array>
+			<string>i386</string>
+			<string>x86_64</string>
+		</array>
+		<key>unattended_install</key>
+		<true/>
+		<key>unattended_uninstall</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>removepackages</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>1.8.0_71</string>
 	</dict>
 </array>
 </plist>
