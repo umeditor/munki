@@ -13387,6 +13387,72 @@ exit 0
 		<key>display_name</key>
 		<string>Spotify</string>
 		<key>installer_item_hash</key>
+		<string>8e6ef4dadb1e6c53747fde371c0bb70655bf9571d478d62773682fbf6da11eb7</string>
+		<key>installer_item_location</key>
+		<string>apps/Spotify-1.0.20.101.ge6957e14.dmg</string>
+		<key>installer_item_size</key>
+		<integer>66291</integer>
+		<key>installer_type</key>
+		<string>copy_from_dmg</string>
+		<key>installs</key>
+		<array>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>com.spotify.client</string>
+				<key>CFBundleName</key>
+				<string>Spotify</string>
+				<key>CFBundleShortVersionString</key>
+				<string>1.0.20.101.ge6957e14</string>
+				<key>CFBundleVersion</key>
+				<string>1.0.20.101.ge6957e14-45</string>
+				<key>minosversion</key>
+				<string>10.7.0</string>
+				<key>path</key>
+				<string>/Applications/Spotify.app</string>
+				<key>type</key>
+				<string>application</string>
+				<key>version_comparison_key</key>
+				<string>CFBundleShortVersionString</string>
+			</dict>
+		</array>
+		<key>items_to_copy</key>
+		<array>
+			<dict>
+				<key>destination_path</key>
+				<string>/Applications</string>
+				<key>source_item</key>
+				<string>Spotify.app</string>
+			</dict>
+		</array>
+		<key>minimum_os_version</key>
+		<string>10.7.0</string>
+		<key>name</key>
+		<string>Spotify</string>
+		<key>unattended_install</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>remove_copied_items</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>1.0.20.101.ge6957e14</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>production</string>
+		</array>
+		<key>category</key>
+		<string>Music</string>
+		<key>description</key>
+		<string>Spotify is a music streaming service offering unlimited streaming of selected music from a range of major and independent record labels.</string>
+		<key>developer</key>
+		<string>Spotify</string>
+		<key>display_name</key>
+		<string>Spotify</string>
+		<key>installer_item_hash</key>
 		<string>ee3e0608917b4e7f8971b4af41f60b553fdc832108c4fc054e53160cd6632af4</string>
 		<key>installer_item_location</key>
 		<string>apps/Spotify-1.0.20.94.g8f8543b3.dmg</string>
@@ -26210,6 +26276,72 @@ rm '/Library/PrivilegedHelperTools/Google Drive Icon Helper'
 			<string>production</string>
 		</array>
 		<key>category</key>
+		<string>Utility</string>
+		<key>description</key>
+		<string>HandBrake is a tool for converting video from nearly any format to a selection of modern, widely supported codecs.</string>
+		<key>developer</key>
+		<string>The HandBrake Team</string>
+		<key>display_name</key>
+		<string>Handbrake</string>
+		<key>installer_item_hash</key>
+		<string>5bf327f6d42901668490338c32eab8cc2d4db3e09ea1cb9b8c44573ed8fb5dda</string>
+		<key>installer_item_location</key>
+		<string>apps/Handbrake/Handbrake-0.10.3 x86_64.dmg</string>
+		<key>installer_item_size</key>
+		<integer>10459</integer>
+		<key>installer_type</key>
+		<string>copy_from_dmg</string>
+		<key>installs</key>
+		<array>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>fr.handbrake.HandBrake</string>
+				<key>CFBundleName</key>
+				<string>HandBrake</string>
+				<key>CFBundleShortVersionString</key>
+				<string>0.10.3 x86_64</string>
+				<key>CFBundleVersion</key>
+				<string>2016012200</string>
+				<key>minosversion</key>
+				<string>10.6</string>
+				<key>path</key>
+				<string>/Applications/HandBrake.app</string>
+				<key>type</key>
+				<string>application</string>
+				<key>version_comparison_key</key>
+				<string>CFBundleVersion</string>
+			</dict>
+		</array>
+		<key>items_to_copy</key>
+		<array>
+			<dict>
+				<key>destination_path</key>
+				<string>/Applications</string>
+				<key>source_item</key>
+				<string>HandBrake.app</string>
+			</dict>
+		</array>
+		<key>minimum_os_version</key>
+		<string>10.6</string>
+		<key>name</key>
+		<string>Handbrake</string>
+		<key>unattended_install</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>remove_copied_items</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>0.10.3 x86_64</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>production</string>
+		</array>
+		<key>category</key>
 		<string>Productivity</string>
 		<key>description</key>
 		<string>Microsoft Office is a suite of products that includes Microsoft Word, Excel, PowerPoint, and Outlook.</string>
@@ -32770,7 +32902,8 @@ rm '/Library/PrivilegedHelperTools/Google Drive Icon Helper'
 			</dict>
 		</array>
 		<key>requires</key>
-		<array/>
+		<array>
+		</array>
 		<key>uninstall_method</key>
 		<string>removepackages</string>
 		<key>uninstallable</key>
@@ -33774,7 +33907,8 @@ rm '/Library/PrivilegedHelperTools/Google Drive Icon Helper'
 			</dict>
 		</array>
 		<key>requires</key>
-		<array/>
+		<array>
+		</array>
 		<key>uninstall_method</key>
 		<string>removepackages</string>
 		<key>uninstallable</key>
@@ -34276,7 +34410,8 @@ rm '/Library/PrivilegedHelperTools/Google Drive Icon Helper'
 			</dict>
 		</array>
 		<key>requires</key>
-		<array/>
+		<array>
+		</array>
 		<key>uninstall_method</key>
 		<string>removepackages</string>
 		<key>uninstallable</key>
@@ -34784,7 +34919,8 @@ rm '/Library/PrivilegedHelperTools/Google Drive Icon Helper'
 			</dict>
 		</array>
 		<key>requires</key>
-		<array/>
+		<array>
+		</array>
 		<key>uninstall_method</key>
 		<string>removepackages</string>
 		<key>uninstallable</key>
@@ -51641,6 +51777,49 @@ defaults write /Library/Preferences/ManagedInstalls.plist IconURL "https://munki
 			<string>production</string>
 		</array>
 		<key>description</key>
+		<string>Facter is an independent, cross-platform Ruby library designed to gather information on all the nodes you will managing with Puppet.</string>
+		<key>display_name</key>
+		<string>Facter</string>
+		<key>installed_size</key>
+		<integer>398</integer>
+		<key>installer_item_hash</key>
+		<string>25b09fb1ae81feaf81955df1a542208495542b69b5a819f18db162d290979ebf</string>
+		<key>installer_item_location</key>
+		<string>support/Facter/Facter-2.4.5.dmg</string>
+		<key>installer_item_size</key>
+		<integer>124</integer>
+		<key>minimum_os_version</key>
+		<string>10.5.0</string>
+		<key>name</key>
+		<string>Facter</string>
+		<key>receipts</key>
+		<array>
+			<dict>
+				<key>installed_size</key>
+				<integer>398</integer>
+				<key>packageid</key>
+				<string>com.puppetlabs.facter</string>
+				<key>version</key>
+				<string>2.4.5</string>
+			</dict>
+		</array>
+		<key>unattended_install</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>removepackages</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>2.4.5</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>production</string>
+		</array>
+		<key>description</key>
 		<string>Hiera is a simple pluggable Hierarchical Database.</string>
 		<key>display_name</key>
 		<string>Hiera</string>
@@ -51722,6 +51901,54 @@ defaults write /Library/Preferences/ManagedInstalls.plist IconURL "https://munki
 		<true/>
 		<key>version</key>
 		<string>3.8.4</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>production</string>
+		</array>
+		<key>description</key>
+		<string>Puppet is a tool designed to manage the configuration of Unix-like and Microsoft Windows systems declaratively.</string>
+		<key>display_name</key>
+		<string>Puppet</string>
+		<key>installed_size</key>
+		<integer>6947</integer>
+		<key>installer_item_hash</key>
+		<string>ad3ac18fb8fe6a66d37920803bdb86a9a1027d4024f7d5e00586b54029d63e75</string>
+		<key>installer_item_location</key>
+		<string>support/Puppet/Puppet-3.8.5.dmg</string>
+		<key>installer_item_size</key>
+		<integer>1570</integer>
+		<key>minimum_os_version</key>
+		<string>10.5.0</string>
+		<key>name</key>
+		<string>Puppet</string>
+		<key>receipts</key>
+		<array>
+			<dict>
+				<key>installed_size</key>
+				<integer>6947</integer>
+				<key>packageid</key>
+				<string>com.puppetlabs.puppet</string>
+				<key>version</key>
+				<string>3.8.5</string>
+			</dict>
+		</array>
+		<key>requires</key>
+		<array>
+			<string>Facter</string>
+			<string>Hiera</string>
+		</array>
+		<key>unattended_install</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>removepackages</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>3.8.5</string>
 	</dict>
 	<dict>
 		<key>autoremove</key>
