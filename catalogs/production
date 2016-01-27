@@ -25286,6 +25286,72 @@ fi
 			<string>production</string>
 		</array>
 		<key>category</key>
+		<string>Internet</string>
+		<key>description</key>
+		<string>Mozilla Firefox is a free and open source web browser.</string>
+		<key>developer</key>
+		<string>Mozilla</string>
+		<key>display_name</key>
+		<string>Mozilla Firefox</string>
+		<key>installer_item_hash</key>
+		<string>74f7d4041f2582553a460fd8249575dfc501b57bdee37f43083e8d7277d2d722</string>
+		<key>installer_item_location</key>
+		<string>apps/firefox/Firefox-44.0.dmg</string>
+		<key>installer_item_size</key>
+		<integer>80548</integer>
+		<key>installer_type</key>
+		<string>copy_from_dmg</string>
+		<key>installs</key>
+		<array>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>org.mozilla.firefox</string>
+				<key>CFBundleName</key>
+				<string>Firefox</string>
+				<key>CFBundleShortVersionString</key>
+				<string>44.0</string>
+				<key>CFBundleVersion</key>
+				<string>4416.1.23</string>
+				<key>minosversion</key>
+				<string>10.6</string>
+				<key>path</key>
+				<string>/Applications/Firefox.app</string>
+				<key>type</key>
+				<string>application</string>
+				<key>version_comparison_key</key>
+				<string>CFBundleShortVersionString</string>
+			</dict>
+		</array>
+		<key>items_to_copy</key>
+		<array>
+			<dict>
+				<key>destination_path</key>
+				<string>/Applications</string>
+				<key>source_item</key>
+				<string>Firefox.app</string>
+			</dict>
+		</array>
+		<key>minimum_os_version</key>
+		<string>10.6</string>
+		<key>name</key>
+		<string>Firefox</string>
+		<key>unattended_install</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>remove_copied_items</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>44.0</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>production</string>
+		</array>
+		<key>category</key>
 		<string>File Sharing</string>
 		<key>description</key>
 		<string>Google Drive sync for Mac. Access files on your computer from anywhere.</string>
@@ -32902,8 +32968,7 @@ rm '/Library/PrivilegedHelperTools/Google Drive Icon Helper'
 			</dict>
 		</array>
 		<key>requires</key>
-		<array>
-		</array>
+		<array/>
 		<key>uninstall_method</key>
 		<string>removepackages</string>
 		<key>uninstallable</key>
@@ -33907,8 +33972,7 @@ rm '/Library/PrivilegedHelperTools/Google Drive Icon Helper'
 			</dict>
 		</array>
 		<key>requires</key>
-		<array>
-		</array>
+		<array/>
 		<key>uninstall_method</key>
 		<string>removepackages</string>
 		<key>uninstallable</key>
@@ -34410,8 +34474,7 @@ rm '/Library/PrivilegedHelperTools/Google Drive Icon Helper'
 			</dict>
 		</array>
 		<key>requires</key>
-		<array>
-		</array>
+		<array/>
 		<key>uninstall_method</key>
 		<string>removepackages</string>
 		<key>uninstallable</key>
@@ -34919,8 +34982,7 @@ rm '/Library/PrivilegedHelperTools/Google Drive Icon Helper'
 			</dict>
 		</array>
 		<key>requires</key>
-		<array>
-		</array>
+		<array/>
 		<key>uninstall_method</key>
 		<string>removepackages</string>
 		<key>uninstallable</key>
@@ -44855,6 +44917,220 @@ defaults write /Library/Preferences/com.github.salopensource.sal.plist ServerURL
 			<string>production</string>
 		</array>
 		<key>description</key>
+		<string>Client side scripts for Sal.</string>
+		<key>display_name</key>
+		<string>sal_scripts</string>
+		<key>installed_size</key>
+		<integer>241</integer>
+		<key>installer_item_hash</key>
+		<string>6bdf3666db2de391faecc0ae7a294d01c041b59b526502ee2e3f96788f120356</string>
+		<key>installer_item_location</key>
+		<string>config/sal/sal_scripts-0.8.0.pkg</string>
+		<key>installer_item_size</key>
+		<integer>48</integer>
+		<key>installs</key>
+		<array>
+			<dict>
+				<key>md5checksum</key>
+				<string>03e81236b4452d58814cd960c1f4eceb</string>
+				<key>path</key>
+				<string>/usr/local/munki/postflight</string>
+				<key>type</key>
+				<string>file</string>
+			</dict>
+			<dict>
+				<key>md5checksum</key>
+				<string>07da3b093b335a021b1b5f4069de0810</string>
+				<key>path</key>
+				<string>/usr/local/munki/preflight</string>
+				<key>type</key>
+				<string>file</string>
+			</dict>
+			<dict>
+				<key>md5checksum</key>
+				<string>509316706c87d03418280009111fe1ec</string>
+				<key>path</key>
+				<string>/usr/local/munki/postflight.d/sal-postflight</string>
+				<key>type</key>
+				<string>file</string>
+			</dict>
+			<dict>
+				<key>md5checksum</key>
+				<string>d40de0a437e1ca7e99d5da61248e154b</string>
+				<key>path</key>
+				<string>/usr/local/sal/yaml/__init__.py</string>
+				<key>type</key>
+				<string>file</string>
+			</dict>
+			<dict>
+				<key>md5checksum</key>
+				<string>ac6a34230c56252150bdf88875a341e2</string>
+				<key>path</key>
+				<string>/usr/local/sal/yaml/composer.py</string>
+				<key>type</key>
+				<string>file</string>
+			</dict>
+			<dict>
+				<key>md5checksum</key>
+				<string>4a1642e50dcb7ccf4d8d690a8572dd03</string>
+				<key>path</key>
+				<string>/usr/local/sal/yaml/constructor.py</string>
+				<key>type</key>
+				<string>file</string>
+			</dict>
+			<dict>
+				<key>md5checksum</key>
+				<string>6c92c2479a2814e5c5dd584d95bba486</string>
+				<key>path</key>
+				<string>/usr/local/sal/yaml/cyaml.py</string>
+				<key>type</key>
+				<string>file</string>
+			</dict>
+			<dict>
+				<key>md5checksum</key>
+				<string>65dcc3c1e962d8c630f6212590193ef1</string>
+				<key>path</key>
+				<string>/usr/local/sal/yaml/dumper.py</string>
+				<key>type</key>
+				<string>file</string>
+			</dict>
+			<dict>
+				<key>md5checksum</key>
+				<string>e219dbc4516baa7c8a5af2b3b713ed57</string>
+				<key>path</key>
+				<string>/usr/local/sal/yaml/emitter.py</string>
+				<key>type</key>
+				<string>file</string>
+			</dict>
+			<dict>
+				<key>md5checksum</key>
+				<string>19596631709cec1b90a9f1bf68289548</string>
+				<key>path</key>
+				<string>/usr/local/sal/yaml/error.py</string>
+				<key>type</key>
+				<string>file</string>
+			</dict>
+			<dict>
+				<key>md5checksum</key>
+				<string>040482aa0aa48c6f93a860a3bdba15f6</string>
+				<key>path</key>
+				<string>/usr/local/sal/yaml/events.py</string>
+				<key>type</key>
+				<string>file</string>
+			</dict>
+			<dict>
+				<key>md5checksum</key>
+				<string>81675bcf8730e7dc200e5a22afa8a6b4</string>
+				<key>path</key>
+				<string>/usr/local/sal/yaml/loader.py</string>
+				<key>type</key>
+				<string>file</string>
+			</dict>
+			<dict>
+				<key>md5checksum</key>
+				<string>f6e521b283d7539fb2bd48cb5ade5365</string>
+				<key>path</key>
+				<string>/usr/local/sal/yaml/nodes.py</string>
+				<key>type</key>
+				<string>file</string>
+			</dict>
+			<dict>
+				<key>md5checksum</key>
+				<string>2f2293380b2ee2e1ba6c7216ff711fb3</string>
+				<key>path</key>
+				<string>/usr/local/sal/yaml/parser.py</string>
+				<key>type</key>
+				<string>file</string>
+			</dict>
+			<dict>
+				<key>md5checksum</key>
+				<string>de42c15071b7cdab1702abc435f6c6e7</string>
+				<key>path</key>
+				<string>/usr/local/sal/yaml/reader.py</string>
+				<key>type</key>
+				<string>file</string>
+			</dict>
+			<dict>
+				<key>md5checksum</key>
+				<string>c0634c7f9bea94d19674657a60bfbd1f</string>
+				<key>path</key>
+				<string>/usr/local/sal/yaml/representer.py</string>
+				<key>type</key>
+				<string>file</string>
+			</dict>
+			<dict>
+				<key>md5checksum</key>
+				<string>9051450257e216588ea41fd8073f497d</string>
+				<key>path</key>
+				<string>/usr/local/sal/yaml/resolver.py</string>
+				<key>type</key>
+				<string>file</string>
+			</dict>
+			<dict>
+				<key>md5checksum</key>
+				<string>b5c7fbb502536bd06bd52f838c430370</string>
+				<key>path</key>
+				<string>/usr/local/sal/yaml/scanner.py</string>
+				<key>type</key>
+				<string>file</string>
+			</dict>
+			<dict>
+				<key>md5checksum</key>
+				<string>c75e5461f4d4a763a17ac5bdc12a6301</string>
+				<key>path</key>
+				<string>/usr/local/sal/yaml/serializer.py</string>
+				<key>type</key>
+				<string>file</string>
+			</dict>
+			<dict>
+				<key>md5checksum</key>
+				<string>33423c7f46708cc3884a32b8ed937ac6</string>
+				<key>path</key>
+				<string>/usr/local/sal/yaml/tokens.py</string>
+				<key>type</key>
+				<string>file</string>
+			</dict>
+			<dict>
+				<key>md5checksum</key>
+				<string>a711cade253d1b680b98ab50360698fb</string>
+				<key>path</key>
+				<string>/usr/local/sal/utils.py</string>
+				<key>type</key>
+				<string>file</string>
+			</dict>
+		</array>
+		<key>minimum_os_version</key>
+		<string>10.5.0</string>
+		<key>name</key>
+		<string>sal_scripts</string>
+		<key>receipts</key>
+		<array>
+			<dict>
+				<key>installed_size</key>
+				<integer>241</integer>
+				<key>packageid</key>
+				<string>com.github.salopensource.sal_scripts</string>
+				<key>version</key>
+				<string>0.8.0</string>
+			</dict>
+		</array>
+		<key>unattended_install</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>removepackages</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>0.8.0</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>production</string>
+		</array>
+		<key>description</key>
 		<string></string>
 		<key>display_name</key>
 		<string>Adobe Flash Plug-In</string>
@@ -51811,6 +52087,49 @@ defaults write /Library/Preferences/ManagedInstalls.plist IconURL "https://munki
 		<true/>
 		<key>version</key>
 		<string>2.4.5</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>production</string>
+		</array>
+		<key>description</key>
+		<string>Facter is an independent, cross-platform Ruby library designed to gather information on all the nodes you will managing with Puppet.</string>
+		<key>display_name</key>
+		<string>Facter</string>
+		<key>installed_size</key>
+		<integer>397</integer>
+		<key>installer_item_hash</key>
+		<string>b90ee538e36c0a9838de60bb78dd132fd60971a71228d222d5106f8f84332817</string>
+		<key>installer_item_location</key>
+		<string>support/Facter/Facter-2.4.6.dmg</string>
+		<key>installer_item_size</key>
+		<integer>124</integer>
+		<key>minimum_os_version</key>
+		<string>10.5.0</string>
+		<key>name</key>
+		<string>Facter</string>
+		<key>receipts</key>
+		<array>
+			<dict>
+				<key>installed_size</key>
+				<integer>397</integer>
+				<key>packageid</key>
+				<string>com.puppetlabs.facter</string>
+				<key>version</key>
+				<string>2.4.6</string>
+			</dict>
+		</array>
+		<key>unattended_install</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>removepackages</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>2.4.6</string>
 	</dict>
 	<dict>
 		<key>autoremove</key>
