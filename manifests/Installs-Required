@@ -23,8 +23,6 @@
     <string>CrashPlanPROe</string>
     <string>CrowdStrikeFalconHost</string>
     <string>Disable802.1xAutomaticConnection</string>
-    <string>Facter</string>
-    <string>Puppet</string>
     <string>SophosAntiVirus</string>
   </array>
   <key>managed_uninstalls</key>
