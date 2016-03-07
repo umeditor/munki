@@ -6202,6 +6202,72 @@ exit 0
 		<array>
 			<string>production</string>
 		</array>
+		<key>category</key>
+		<string>Utilities</string>
+		<key>description</key>
+		<string>With an easy to use interface, connect to FTP, SFTP, WebDAV, Amazon S3, Google Storage, Windows Azure, Rackspace Cloud Files and even Google Docs.</string>
+		<key>developer</key>
+		<string>David V. Kocher and Yves Langisch</string>
+		<key>display_name</key>
+		<string>Cyberduck</string>
+		<key>installer_item_hash</key>
+		<string>65102eefd39c15fb0fa3f5aadfab538a1f4fbff879aacadbe1a65786993eaab7</string>
+		<key>installer_item_location</key>
+		<string>apps/Cyberduck-4.8.3.dmg</string>
+		<key>installer_item_size</key>
+		<integer>85187</integer>
+		<key>installer_type</key>
+		<string>copy_from_dmg</string>
+		<key>installs</key>
+		<array>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>ch.sudo.cyberduck</string>
+				<key>CFBundleName</key>
+				<string>Cyberduck</string>
+				<key>CFBundleShortVersionString</key>
+				<string>4.8.3</string>
+				<key>CFBundleVersion</key>
+				<string>19083</string>
+				<key>minosversion</key>
+				<string>10.7.3</string>
+				<key>path</key>
+				<string>/Applications/Cyberduck.app</string>
+				<key>type</key>
+				<string>application</string>
+				<key>version_comparison_key</key>
+				<string>CFBundleShortVersionString</string>
+			</dict>
+		</array>
+		<key>items_to_copy</key>
+		<array>
+			<dict>
+				<key>destination_path</key>
+				<string>/Applications</string>
+				<key>source_item</key>
+				<string>Cyberduck.app</string>
+			</dict>
+		</array>
+		<key>minimum_os_version</key>
+		<string>10.7.3</string>
+		<key>name</key>
+		<string>Cyberduck</string>
+		<key>unattended_install</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>remove_copied_items</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>4.8.3</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>production</string>
+		</array>
 		<key>description</key>
 		<string>Google's web browser.</string>
 		<key>display_name</key>
@@ -9814,6 +9880,72 @@ exit 0
 		<true/>
 		<key>version</key>
 		<string>48.0.2564.97</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>production</string>
+		</array>
+		<key>category</key>
+		<string>Internet</string>
+		<key>description</key>
+		<string>Chrome is a fast, simple, and secure web browser, built for the modern web.</string>
+		<key>developer</key>
+		<string>Google</string>
+		<key>display_name</key>
+		<string>Google Chrome</string>
+		<key>installer_item_hash</key>
+		<string>0df5214c8ad8e662dad5bb0ff5f6805e57d0f880a599c2e9ea809ca390a661b2</string>
+		<key>installer_item_location</key>
+		<string>apps/GoogleChrome-49.0.2623.75.dmg</string>
+		<key>installer_item_size</key>
+		<integer>65451</integer>
+		<key>installer_type</key>
+		<string>copy_from_dmg</string>
+		<key>installs</key>
+		<array>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>com.google.Chrome</string>
+				<key>CFBundleName</key>
+				<string>Chrome</string>
+				<key>CFBundleShortVersionString</key>
+				<string>49.0.2623.75</string>
+				<key>CFBundleVersion</key>
+				<string>2623.75</string>
+				<key>minosversion</key>
+				<string>10.6.0</string>
+				<key>path</key>
+				<string>/Applications/Google Chrome.app</string>
+				<key>type</key>
+				<string>application</string>
+				<key>version_comparison_key</key>
+				<string>CFBundleShortVersionString</string>
+			</dict>
+		</array>
+		<key>items_to_copy</key>
+		<array>
+			<dict>
+				<key>destination_path</key>
+				<string>/Applications</string>
+				<key>source_item</key>
+				<string>Google Chrome.app</string>
+			</dict>
+		</array>
+		<key>minimum_os_version</key>
+		<string>10.6.0</string>
+		<key>name</key>
+		<string>GoogleChrome</string>
+		<key>unattended_install</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>remove_copied_items</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>49.0.2623.75</string>
 	</dict>
 	<dict>
 		<key>autoremove</key>
@@ -14162,6 +14294,72 @@ exit 0
 		<true/>
 		<key>version</key>
 		<string>1.0.23.90.g42187855</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>production</string>
+		</array>
+		<key>category</key>
+		<string>Music</string>
+		<key>description</key>
+		<string>Spotify is a music streaming service offering unlimited streaming of selected music from a range of major and independent record labels.</string>
+		<key>developer</key>
+		<string>Spotify</string>
+		<key>display_name</key>
+		<string>Spotify</string>
+		<key>installer_item_hash</key>
+		<string>d3490fc370dd533c4e2cb9bd241c90ec790ccf5ca7818333f76ba3bf51f04a7c</string>
+		<key>installer_item_location</key>
+		<string>apps/Spotify-1.0.24.104.g92a22684.dmg</string>
+		<key>installer_item_size</key>
+		<integer>74169</integer>
+		<key>installer_type</key>
+		<string>copy_from_dmg</string>
+		<key>installs</key>
+		<array>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>com.spotify.client</string>
+				<key>CFBundleName</key>
+				<string>Spotify</string>
+				<key>CFBundleShortVersionString</key>
+				<string>1.0.24.104.g92a22684</string>
+				<key>CFBundleVersion</key>
+				<string>1.0.24.104.g92a22684-32</string>
+				<key>minosversion</key>
+				<string>10.7.0</string>
+				<key>path</key>
+				<string>/Applications/Spotify.app</string>
+				<key>type</key>
+				<string>application</string>
+				<key>version_comparison_key</key>
+				<string>CFBundleShortVersionString</string>
+			</dict>
+		</array>
+		<key>items_to_copy</key>
+		<array>
+			<dict>
+				<key>destination_path</key>
+				<string>/Applications</string>
+				<key>source_item</key>
+				<string>Spotify.app</string>
+			</dict>
+		</array>
+		<key>minimum_os_version</key>
+		<string>10.7.0</string>
+		<key>name</key>
+		<string>Spotify</string>
+		<key>unattended_install</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>remove_copied_items</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>1.0.24.104.g92a22684</string>
 	</dict>
 	<dict>
 		<key>autoremove</key>
@@ -18800,6 +18998,184 @@ The setup procedure includes installing the MIT CA as well as the user's persona
 		<true/>
 		<key>version</key>
 		<string>12.1.0</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>blocking_applications</key>
+		<array>
+			<string>Citrix Receiver</string>
+			<string>Citrix Viewer</string>
+		</array>
+		<key>catalogs</key>
+		<array>
+			<string>production</string>
+		</array>
+		<key>category</key>
+		<string>Internet</string>
+		<key>description</key>
+		<string>Citrix Receiver is an easy-to-install client software that lets you access enterprise data, applications and desktops from any computing device including smartphones, tablets and PCs. Workers today typically use multiple computing devices and crave a consistent computing experience across all of them. Organizations everywhere are struggling to cope with the rapid proliferation of these devices and give users the mobile, high-definition experience they demand. Working in tandem with a Citrix-enabled IT infrastructure, Citrix Receiver gives workers consistent, secure, high-performance access from any device without introducing layers of management complexity for IT.</string>
+		<key>developer</key>
+		<string>Citrix Systems, Inc.</string>
+		<key>display_name</key>
+		<string>Citrix Receiver</string>
+		<key>installed_size</key>
+		<integer>113324</integer>
+		<key>installer_item_hash</key>
+		<string>5138096b25c97cb37d037d27e6151fc96e1af9da5184347f2812b522fe35e8a7</string>
+		<key>installer_item_location</key>
+		<string>apps/Citrix/CitrixReceiver-12.1.100.dmg</string>
+		<key>installer_item_size</key>
+		<integer>43449</integer>
+		<key>installs</key>
+		<array>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>com.citrix.receiver.nomas</string>
+				<key>CFBundleName</key>
+				<string>Citrix Receiver</string>
+				<key>CFBundleShortVersionString</key>
+				<string>12.1.100</string>
+				<key>CFBundleVersion</key>
+				<string>350455</string>
+				<key>minosversion</key>
+				<string>10.8</string>
+				<key>path</key>
+				<string>/Applications/Citrix Receiver.app</string>
+				<key>type</key>
+				<string>application</string>
+				<key>version_comparison_key</key>
+				<string>CFBundleShortVersionString</string>
+			</dict>
+			<dict>
+				<key>CFBundleShortVersionString</key>
+				<string>12.1.100</string>
+				<key>CFBundleVersion</key>
+				<string>350455</string>
+				<key>path</key>
+				<string>/Library/Internet Plug-Ins/CitrixICAClientPlugIn.plugin</string>
+				<key>type</key>
+				<string>bundle</string>
+				<key>version_comparison_key</key>
+				<string>CFBundleShortVersionString</string>
+			</dict>
+		</array>
+		<key>minimum_os_version</key>
+		<string>10.6</string>
+		<key>name</key>
+		<string>CitrixReceiver</string>
+		<key>package_path</key>
+		<string>Install Citrix Receiver.pkg</string>
+		<key>receipts</key>
+		<array>
+			<dict>
+				<key>installed_size</key>
+				<integer>113324</integer>
+				<key>packageid</key>
+				<string>com.citrix.ICAClient</string>
+				<key>version</key>
+				<string>12.1.100</string>
+			</dict>
+		</array>
+		<key>unattended_install</key>
+		<true/>
+		<key>unattended_uninstall</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>removepackages</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>12.1.100</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>blocking_applications</key>
+		<array>
+			<string>Citrix Receiver</string>
+			<string>Citrix Viewer</string>
+		</array>
+		<key>catalogs</key>
+		<array>
+			<string>production</string>
+		</array>
+		<key>category</key>
+		<string>Internet</string>
+		<key>description</key>
+		<string>Citrix Receiver is an easy-to-install client software that lets you access enterprise data, applications and desktops from any computing device including smartphones, tablets and PCs. Workers today typically use multiple computing devices and crave a consistent computing experience across all of them. Organizations everywhere are struggling to cope with the rapid proliferation of these devices and give users the mobile, high-definition experience they demand. Working in tandem with a Citrix-enabled IT infrastructure, Citrix Receiver gives workers consistent, secure, high-performance access from any device without introducing layers of management complexity for IT.</string>
+		<key>developer</key>
+		<string>Citrix Systems, Inc.</string>
+		<key>display_name</key>
+		<string>Citrix Receiver</string>
+		<key>installed_size</key>
+		<integer>113324</integer>
+		<key>installer_item_hash</key>
+		<string>5138096b25c97cb37d037d27e6151fc96e1af9da5184347f2812b522fe35e8a7</string>
+		<key>installer_item_location</key>
+		<string>apps/Citrix/CitrixReceiver-12.1.100__1.dmg</string>
+		<key>installer_item_size</key>
+		<integer>43449</integer>
+		<key>installs</key>
+		<array>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>com.citrix.receiver.nomas</string>
+				<key>CFBundleName</key>
+				<string>Citrix Receiver</string>
+				<key>CFBundleShortVersionString</key>
+				<string>12.1.100</string>
+				<key>CFBundleVersion</key>
+				<string>350455</string>
+				<key>minosversion</key>
+				<string>10.8</string>
+				<key>path</key>
+				<string>/Applications/Citrix Receiver.app</string>
+				<key>type</key>
+				<string>application</string>
+				<key>version_comparison_key</key>
+				<string>CFBundleShortVersionString</string>
+			</dict>
+			<dict>
+				<key>CFBundleShortVersionString</key>
+				<string>12.1.100</string>
+				<key>CFBundleVersion</key>
+				<string>350455</string>
+				<key>path</key>
+				<string>/Library/Internet Plug-Ins/CitrixICAClientPlugIn.plugin</string>
+				<key>type</key>
+				<string>bundle</string>
+				<key>version_comparison_key</key>
+				<string>CFBundleShortVersionString</string>
+			</dict>
+		</array>
+		<key>minimum_os_version</key>
+		<string>10.6</string>
+		<key>name</key>
+		<string>CitrixReceiver</string>
+		<key>package_path</key>
+		<string>Install Citrix Receiver.pkg</string>
+		<key>receipts</key>
+		<array>
+			<dict>
+				<key>installed_size</key>
+				<integer>113324</integer>
+				<key>packageid</key>
+				<string>com.citrix.ICAClient</string>
+				<key>version</key>
+				<string>12.1.100</string>
+			</dict>
+		</array>
+		<key>unattended_install</key>
+		<true/>
+		<key>unattended_uninstall</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>removepackages</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>12.1.100</string>
 	</dict>
 	<dict>
 		<key>autoremove</key>
@@ -45440,6 +45816,81 @@ rm '/Library/PrivilegedHelperTools/Google Drive Icon Helper'
 		<true/>
 		<key>version</key>
 		<string>2.0-beta.8</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>production</string>
+		</array>
+		<key>category</key>
+		<string>Text Editors</string>
+		<key>description</key>
+		<string>TextMate brings Apple's approach to operating systems into the world of text editors. By bridging UNIX underpinnings and GUI, TextMate cherry-picks the best of both worlds to the benefit of expert scripters and novice users alike.</string>
+		<key>developer</key>
+		<string>MacroMates Ltd.</string>
+		<key>display_name</key>
+		<string>TextMate 2</string>
+		<key>installer_item_hash</key>
+		<string>c609ddf2257b70a8d095779df424d05dc506bc179cf64f18816039e89bc41971</string>
+		<key>installer_item_location</key>
+		<string>apps/TextMate2/TextMate2-2.0-beta.9.dmg</string>
+		<key>installer_item_size</key>
+		<integer>27274</integer>
+		<key>installer_type</key>
+		<string>copy_from_dmg</string>
+		<key>installs</key>
+		<array>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>com.macromates.TextMate.preview</string>
+				<key>CFBundleName</key>
+				<string>TextMate</string>
+				<key>CFBundleShortVersionString</key>
+				<string>2.0-beta.9</string>
+				<key>CFBundleVersion</key>
+				<string>9800</string>
+				<key>minosversion</key>
+				<string>10.7</string>
+				<key>path</key>
+				<string>/Applications/TextMate.app</string>
+				<key>type</key>
+				<string>application</string>
+				<key>version_comparison_key</key>
+				<string>CFBundleShortVersionString</string>
+			</dict>
+		</array>
+		<key>items_to_copy</key>
+		<array>
+			<dict>
+				<key>destination_path</key>
+				<string>/Applications</string>
+				<key>source_item</key>
+				<string>TextMate.app</string>
+			</dict>
+		</array>
+		<key>minimum_os_version</key>
+		<string>10.7</string>
+		<key>name</key>
+		<string>TextMate2</string>
+		<key>postinstall_script</key>
+		<string>#!/bin/sh
+[ -d /usr/local/bin ] || mkdir -p /usr/local/bin
+/bin/cp -f -p /Applications/TextMate.app/Contents/Resources/mate /usr/local/bin/mate
+</string>
+		<key>postuninstall_script</key>
+		<string>#!/bin/sh
+[ -e /usr/local/bin/mate ] &amp;&amp; rm -f /usr/local/bin/mate
+</string>
+		<key>unattended_install</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>remove_copied_items</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>2.0-beta.9</string>
 	</dict>
 	<dict>
 		<key>autoremove</key>
