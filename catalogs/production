@@ -33590,6 +33590,72 @@ rm '/Library/PrivilegedHelperTools/Google Drive Icon Helper'
 			<string>production</string>
 		</array>
 		<key>category</key>
+		<string>Utilities</string>
+		<key>description</key>
+		<string>OmniDiskSweeper is really great at what it does- showing you the files on your drive, in descending order by size, and letting you decide what to do with them. Delete away, but exercise caution. (Requires OS X v10.8+)</string>
+		<key>developer</key>
+		<string>The Omni Group</string>
+		<key>display_name</key>
+		<string>OmniDiskSweeper</string>
+		<key>installer_item_hash</key>
+		<string>4dfcdb29bbae8b7eba22d010cb2fd2aab0547c1a1df632bc9c1ee77be206f09b</string>
+		<key>installer_item_location</key>
+		<string>apps/OmniGroup/OmniDiskSweeper-1.9.dmg</string>
+		<key>installer_item_size</key>
+		<integer>2148</integer>
+		<key>installer_type</key>
+		<string>copy_from_dmg</string>
+		<key>installs</key>
+		<array>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>com.omnigroup.OmniDiskSweeper</string>
+				<key>CFBundleName</key>
+				<string>OmniDiskSweeper</string>
+				<key>CFBundleShortVersionString</key>
+				<string>1.9</string>
+				<key>CFBundleVersion</key>
+				<string>28.0.201186</string>
+				<key>minosversion</key>
+				<string>10.8</string>
+				<key>path</key>
+				<string>/Applications/OmniDiskSweeper.app</string>
+				<key>type</key>
+				<string>application</string>
+				<key>version_comparison_key</key>
+				<string>CFBundleShortVersionString</string>
+			</dict>
+		</array>
+		<key>items_to_copy</key>
+		<array>
+			<dict>
+				<key>destination_path</key>
+				<string>/Applications</string>
+				<key>source_item</key>
+				<string>OmniDiskSweeper.app</string>
+			</dict>
+		</array>
+		<key>minimum_os_version</key>
+		<string>10.8</string>
+		<key>name</key>
+		<string>OmniDiskSweeper</string>
+		<key>unattended_install</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>remove_copied_items</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>1.9</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>production</string>
+		</array>
+		<key>category</key>
 		<string>Developer</string>
 		<key>description</key>
 		<string>R is a language and environment for statistical computing and graphics which provides a wide variety of statistical and graphical techniques: linear and nonlinear modelling, statistical tests, time series analysis, classification, clustering, etc.</string>
