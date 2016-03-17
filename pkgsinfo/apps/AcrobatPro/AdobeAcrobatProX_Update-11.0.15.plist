@@ -52,7 +52,7 @@
 	</array>
 	<key>requires</key>
 	<array>
-		<string>AdobeAcrobatPro11_Update-11.0.14</string>
+		<string>AdobeAcrobatProX_Update-11.0.14</string>
 	</array>
 	<key>unattended_install</key>
 	<true/>
