@@ -42156,7 +42156,7 @@ fi
 		<false/>
 		<key>catalogs</key>
 		<array>
-			<string>testing</string>
+			<string>production</string>
 		</array>
 		<key>category</key>
 		<string>Utility</string>
