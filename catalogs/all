@@ -3393,6 +3393,138 @@ exit 0
 		<key>display_name</key>
 		<string>Google Chrome</string>
 		<key>installer_item_hash</key>
+		<string>95c6b2fa064b4be1998dadda54d1fa171d2b2886cecba308e334c33187bf78c3</string>
+		<key>installer_item_location</key>
+		<string>apps/GoogleChrome-49.0.2623.108.dmg</string>
+		<key>installer_item_size</key>
+		<integer>66025</integer>
+		<key>installer_type</key>
+		<string>copy_from_dmg</string>
+		<key>installs</key>
+		<array>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>com.google.Chrome</string>
+				<key>CFBundleName</key>
+				<string>Chrome</string>
+				<key>CFBundleShortVersionString</key>
+				<string>49.0.2623.108</string>
+				<key>CFBundleVersion</key>
+				<string>2623.108</string>
+				<key>minosversion</key>
+				<string>10.6.0</string>
+				<key>path</key>
+				<string>/Applications/Google Chrome.app</string>
+				<key>type</key>
+				<string>application</string>
+				<key>version_comparison_key</key>
+				<string>CFBundleShortVersionString</string>
+			</dict>
+		</array>
+		<key>items_to_copy</key>
+		<array>
+			<dict>
+				<key>destination_path</key>
+				<string>/Applications</string>
+				<key>source_item</key>
+				<string>Google Chrome.app</string>
+			</dict>
+		</array>
+		<key>minimum_os_version</key>
+		<string>10.6.0</string>
+		<key>name</key>
+		<string>GoogleChrome</string>
+		<key>unattended_install</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>remove_copied_items</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>49.0.2623.108</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>production</string>
+		</array>
+		<key>category</key>
+		<string>Internet</string>
+		<key>description</key>
+		<string>Chrome is a fast, simple, and secure web browser, built for the modern web.</string>
+		<key>developer</key>
+		<string>Google</string>
+		<key>display_name</key>
+		<string>Google Chrome</string>
+		<key>installer_item_hash</key>
+		<string>10b5d4d241c59759ee7f448887088d11e946b35917af8f2ebacfdff0d7d0fb9f</string>
+		<key>installer_item_location</key>
+		<string>apps/GoogleChrome-49.0.2623.110.dmg</string>
+		<key>installer_item_size</key>
+		<integer>66023</integer>
+		<key>installer_type</key>
+		<string>copy_from_dmg</string>
+		<key>installs</key>
+		<array>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>com.google.Chrome</string>
+				<key>CFBundleName</key>
+				<string>Chrome</string>
+				<key>CFBundleShortVersionString</key>
+				<string>49.0.2623.110</string>
+				<key>CFBundleVersion</key>
+				<string>2623.110</string>
+				<key>minosversion</key>
+				<string>10.6.0</string>
+				<key>path</key>
+				<string>/Applications/Google Chrome.app</string>
+				<key>type</key>
+				<string>application</string>
+				<key>version_comparison_key</key>
+				<string>CFBundleShortVersionString</string>
+			</dict>
+		</array>
+		<key>items_to_copy</key>
+		<array>
+			<dict>
+				<key>destination_path</key>
+				<string>/Applications</string>
+				<key>source_item</key>
+				<string>Google Chrome.app</string>
+			</dict>
+		</array>
+		<key>minimum_os_version</key>
+		<string>10.6.0</string>
+		<key>name</key>
+		<string>GoogleChrome</string>
+		<key>unattended_install</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>remove_copied_items</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>49.0.2623.110</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>production</string>
+		</array>
+		<key>category</key>
+		<string>Internet</string>
+		<key>description</key>
+		<string>Chrome is a fast, simple, and secure web browser, built for the modern web.</string>
+		<key>developer</key>
+		<string>Google</string>
+		<key>display_name</key>
+		<string>Google Chrome</string>
+		<key>installer_item_hash</key>
 		<string>3d29c758a9f32028e5fe7f6a79454a3549a95624334442a979dad7bb1cd271d3</string>
 		<key>installer_item_location</key>
 		<string>apps/GoogleChrome-49.0.2623.87.dmg</string>
@@ -5281,6 +5413,72 @@ exit 0
 		<key>display_name</key>
 		<string>Skype</string>
 		<key>installer_item_hash</key>
+		<string>38f23c5fcf1ce0e411262193b9dfdf5938d13bc56aa742b4e87515392a46cf68</string>
+		<key>installer_item_location</key>
+		<string>apps/Skype-7.24.0.335.dmg</string>
+		<key>installer_item_size</key>
+		<integer>43406</integer>
+		<key>installer_type</key>
+		<string>copy_from_dmg</string>
+		<key>installs</key>
+		<array>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>com.skype.skype</string>
+				<key>CFBundleName</key>
+				<string>Skype</string>
+				<key>CFBundleShortVersionString</key>
+				<string>7.24</string>
+				<key>CFBundleVersion</key>
+				<string>7.24.0.335</string>
+				<key>minosversion</key>
+				<string>10.9</string>
+				<key>path</key>
+				<string>/Applications/Skype.app</string>
+				<key>type</key>
+				<string>application</string>
+				<key>version_comparison_key</key>
+				<string>CFBundleVersion</string>
+			</dict>
+		</array>
+		<key>items_to_copy</key>
+		<array>
+			<dict>
+				<key>destination_path</key>
+				<string>/Applications</string>
+				<key>source_item</key>
+				<string>Skype.app</string>
+			</dict>
+		</array>
+		<key>minimum_os_version</key>
+		<string>10.9</string>
+		<key>name</key>
+		<string>Skype</string>
+		<key>unattended_install</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>remove_copied_items</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>7.24.0.335</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>production</string>
+		</array>
+		<key>category</key>
+		<string>Internet</string>
+		<key>description</key>
+		<string>Calling, seeing, messaging and sharing with others – wherever they are.</string>
+		<key>developer</key>
+		<string>Microsoft</string>
+		<key>display_name</key>
+		<string>Skype</string>
+		<key>installer_item_hash</key>
 		<string>162dfbe1f67ffc93f4ba9258e646881b89fa088321a3f007ca7640caa4990199</string>
 		<key>installer_item_location</key>
 		<string>apps/Skype-7.5.0.738.dmg</string>
@@ -5844,6 +6042,72 @@ exit 0
 		<true/>
 		<key>version</key>
 		<string>2.0.0</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>production</string>
+		</array>
+		<key>category</key>
+		<string>Communication</string>
+		<key>description</key>
+		<string>Slack is a platform for team communication: everything in one place, instantly searchable, available wherever you go.</string>
+		<key>developer</key>
+		<string>Slack</string>
+		<key>display_name</key>
+		<string>Slack</string>
+		<key>installer_item_hash</key>
+		<string>73a02f5a60250fb2689e2d54eef95746a41dfd2d29cf4968cd59c124ea4cdf0a</string>
+		<key>installer_item_location</key>
+		<string>apps/Slack-2.0.1.dmg</string>
+		<key>installer_item_size</key>
+		<integer>25780</integer>
+		<key>installer_type</key>
+		<string>copy_from_dmg</string>
+		<key>installs</key>
+		<array>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>com.tinyspeck.slackmacgap</string>
+				<key>CFBundleName</key>
+				<string>Slack</string>
+				<key>CFBundleShortVersionString</key>
+				<string>2.0.1</string>
+				<key>CFBundleVersion</key>
+				<string>3305</string>
+				<key>minosversion</key>
+				<string>10.9</string>
+				<key>path</key>
+				<string>/Applications/Slack.app</string>
+				<key>type</key>
+				<string>application</string>
+				<key>version_comparison_key</key>
+				<string>CFBundleShortVersionString</string>
+			</dict>
+		</array>
+		<key>items_to_copy</key>
+		<array>
+			<dict>
+				<key>destination_path</key>
+				<string>/Applications</string>
+				<key>source_item</key>
+				<string>Slack.app</string>
+			</dict>
+		</array>
+		<key>minimum_os_version</key>
+		<string>10.9</string>
+		<key>name</key>
+		<string>Slack</string>
+		<key>unattended_install</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>remove_copied_items</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>2.0.1</string>
 	</dict>
 	<dict>
 		<key>autoremove</key>
@@ -13049,6 +13313,72 @@ fi
 		<true/>
 		<key>version</key>
 		<string>6.5</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>production</string>
+		</array>
+		<key>category</key>
+		<string>Productivity</string>
+		<key>description</key>
+		<string>Evernote makes it easy to remember things big and small from your everyday life using your computer, phone, tablet and the web.</string>
+		<key>developer</key>
+		<string>Evernote Corporation</string>
+		<key>display_name</key>
+		<string>Evernote</string>
+		<key>installer_item_hash</key>
+		<string>7473d968cbd63bce9040ccfa74559f18581f9ffec1743dbf167dbbb9468ce685</string>
+		<key>installer_item_location</key>
+		<string>apps/Evernote/Evernote-6.6.dmg</string>
+		<key>installer_item_size</key>
+		<integer>65479</integer>
+		<key>installer_type</key>
+		<string>copy_from_dmg</string>
+		<key>installs</key>
+		<array>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>com.evernote.Evernote</string>
+				<key>CFBundleName</key>
+				<string>Evernote</string>
+				<key>CFBundleShortVersionString</key>
+				<string>6.6</string>
+				<key>CFBundleVersion</key>
+				<string>453293</string>
+				<key>minosversion</key>
+				<string>10.9.0</string>
+				<key>path</key>
+				<string>/Applications/Evernote.app</string>
+				<key>type</key>
+				<string>application</string>
+				<key>version_comparison_key</key>
+				<string>CFBundleShortVersionString</string>
+			</dict>
+		</array>
+		<key>items_to_copy</key>
+		<array>
+			<dict>
+				<key>destination_path</key>
+				<string>/Applications</string>
+				<key>source_item</key>
+				<string>Evernote.app</string>
+			</dict>
+		</array>
+		<key>minimum_os_version</key>
+		<string>10.9.0</string>
+		<key>name</key>
+		<string>Evernote</string>
+		<key>unattended_install</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>remove_copied_items</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>6.6</string>
 	</dict>
 	<dict>
 		<key>autoremove</key>
@@ -34203,6 +34533,72 @@ rm '/Library/PrivilegedHelperTools/Google Drive Icon Helper'
 		<array>
 			<string>production</string>
 		</array>
+		<key>category</key>
+		<string>Email</string>
+		<key>description</key>
+		<string>Mozilla Thunderbird is a free and open source mail client.</string>
+		<key>developer</key>
+		<string>Mozilla Foundation</string>
+		<key>display_name</key>
+		<string>Mozilla Thunderbird</string>
+		<key>installer_item_hash</key>
+		<string>65125c78ababce3f2d9c9a07a86bfd47f203240114faeec9b2664a5893b228a1</string>
+		<key>installer_item_location</key>
+		<string>apps/thunderbird/Thunderbird-38.7.1.dmg</string>
+		<key>installer_item_size</key>
+		<integer>68431</integer>
+		<key>installer_type</key>
+		<string>copy_from_dmg</string>
+		<key>installs</key>
+		<array>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>org.mozilla.thunderbird</string>
+				<key>CFBundleName</key>
+				<string>Thunderbird</string>
+				<key>CFBundleShortVersionString</key>
+				<string>38.7.1</string>
+				<key>CFBundleVersion</key>
+				<string>38.7.1</string>
+				<key>minosversion</key>
+				<string>10.6.0</string>
+				<key>path</key>
+				<string>/Applications/Thunderbird.app</string>
+				<key>type</key>
+				<string>application</string>
+				<key>version_comparison_key</key>
+				<string>CFBundleShortVersionString</string>
+			</dict>
+		</array>
+		<key>items_to_copy</key>
+		<array>
+			<dict>
+				<key>destination_path</key>
+				<string>/Applications</string>
+				<key>source_item</key>
+				<string>Thunderbird.app</string>
+			</dict>
+		</array>
+		<key>minimum_os_version</key>
+		<string>10.6.0</string>
+		<key>name</key>
+		<string>Thunderbird</string>
+		<key>unattended_install</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>remove_copied_items</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>38.7.1</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>production</string>
+		</array>
 		<key>description</key>
 		<string>VLC is a free and open source cross-platform multimedia player and framework that plays most multimedia files as well as DVD, Audio CD, VCD, and various streaming protocols.</string>
 		<key>display_name</key>
@@ -35287,6 +35683,55 @@ defaults write /Library/Preferences/com.github.salopensource.sal.plist ServerURL
 		<true/>
 		<key>version</key>
 		<string>21.0.0.182</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>production</string>
+		</array>
+		<key>category</key>
+		<string>Internet Plugin</string>
+		<key>description</key>
+		<string>Adobe® Flash® Player is a cross-platform browser-based application runtime that delivers uncompromised viewing of expressive applications, content, and videos across screens and browsers.</string>
+		<key>developer</key>
+		<string>Adobe</string>
+		<key>display_name</key>
+		<string>Adobe Flash Player</string>
+		<key>installed_size</key>
+		<integer>18074</integer>
+		<key>installer_item_hash</key>
+		<string>50d7277ba473e413d70d6d5dc5ec50fe486f1ac40d3641d88cd4c1d32ff9d4cf</string>
+		<key>installer_item_location</key>
+		<string>internet_plugins/AdobeFlashPlayer-21.0.0.197.dmg</string>
+		<key>installer_item_size</key>
+		<integer>17262</integer>
+		<key>minimum_os_version</key>
+		<string>10.5.0</string>
+		<key>name</key>
+		<string>AdobeFlashPlayer</string>
+		<key>package_path</key>
+		<string>Install Adobe Flash Player.app/Contents/Resources/Adobe Flash Player.pkg</string>
+		<key>receipts</key>
+		<array>
+			<dict>
+				<key>installed_size</key>
+				<integer>18074</integer>
+				<key>packageid</key>
+				<string>com.adobe.pkg.FlashPlayer</string>
+				<key>version</key>
+				<string>21.0.0.197</string>
+			</dict>
+		</array>
+		<key>unattended_install</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>removepackages</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>21.0.0.197</string>
 	</dict>
 	<dict>
 		<key>autoremove</key>
@@ -41705,6 +42150,83 @@ fi
 		<true/>
 		<key>version</key>
 		<string>1.8.0_73</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>testing</string>
+		</array>
+		<key>category</key>
+		<string>Utility</string>
+		<key>description</key>
+		<string>The JDK is a development environment for building applications, applets, and components using the Java programming language. The JDK includes tools useful for developing and testing programs written in the Java programming language and running on the Java platform.</string>
+		<key>developer</key>
+		<string>Oracle</string>
+		<key>display_name</key>
+		<string>Oracle Java 8 development kit</string>
+		<key>installed_size</key>
+		<integer>521120</integer>
+		<key>installer_item_hash</key>
+		<string>b7464e3876b0b58b97288ce801a8317d71fca802fc1d3b2177e4b514ddc0088c</string>
+		<key>installer_item_location</key>
+		<string>utility/Oracle/OracleJava8JDK-1.8.0_77.dmg</string>
+		<key>installer_item_size</key>
+		<integer>232723</integer>
+		<key>installs</key>
+		<array>
+			<dict>
+				<key>CFBundleShortVersionString</key>
+				<string>1.0</string>
+				<key>CFBundleVersion</key>
+				<string>1.8.0_77</string>
+				<key>path</key>
+				<string>/Library/Java/JavaVirtualMachines/jdk1.8.0_77.jdk</string>
+				<key>type</key>
+				<string>bundle</string>
+				<key>version_comparison_key</key>
+				<string>CFBundleVersion</string>
+			</dict>
+		</array>
+		<key>minimum_os_version</key>
+		<string>10.7.4</string>
+		<key>name</key>
+		<string>OracleJava8JDK</string>
+		<key>receipts</key>
+		<array>
+			<dict>
+				<key>installed_size</key>
+				<integer>346104</integer>
+				<key>packageid</key>
+				<string>com.oracle.jdk8u77</string>
+				<key>version</key>
+				<string>1.1</string>
+			</dict>
+			<dict>
+				<key>installed_size</key>
+				<integer>175016</integer>
+				<key>packageid</key>
+				<string>com.oracle.jre</string>
+				<key>version</key>
+				<string>1.1</string>
+			</dict>
+		</array>
+		<key>supported_architectures</key>
+		<array>
+			<string>i386</string>
+			<string>x86_64</string>
+		</array>
+		<key>unattended_install</key>
+		<true/>
+		<key>unattended_uninstall</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>removepackages</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>1.8.0_77</string>
 	</dict>
 </array>
 </plist>
