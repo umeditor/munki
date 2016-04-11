@@ -37110,7 +37110,7 @@ defaults write /Library/Preferences/com.github.salopensource.sal.plist ServerURL
 		<false/>
 		<key>catalogs</key>
 		<array>
-			<string>development</string>
+			<string>production</string>
 		</array>
 		<key>description</key>
 		<string>Managed Software Center application.</string>
@@ -38243,7 +38243,7 @@ defaults write /Library/Preferences/com.github.salopensource.sal.plist ServerURL
 		<false/>
 		<key>catalogs</key>
 		<array>
-			<string>development</string>
+			<string>production</string>
 		</array>
 		<key>description</key>
 		<string>Command-line Managed Software Center admin tools.</string>
@@ -38290,7 +38290,7 @@ defaults write /Library/Preferences/com.github.salopensource.sal.plist ServerURL
 		<false/>
 		<key>catalogs</key>
 		<array>
-			<string>development</string>
+			<string>production</string>
 		</array>
 		<key>description</key>
 		<string>Command-line Managed Software Center admin tools.</string>
@@ -39422,7 +39422,7 @@ defaults write /Library/Preferences/com.github.salopensource.sal.plist ServerURL
 		<false/>
 		<key>catalogs</key>
 		<array>
-			<string>development</string>
+			<string>production</string>
 		</array>
 		<key>description</key>
 		<string>Core command-line tools used by Managed Software Center.</string>
@@ -39469,7 +39469,7 @@ defaults write /Library/Preferences/com.github.salopensource.sal.plist ServerURL
 		<false/>
 		<key>catalogs</key>
 		<array>
-			<string>development</string>
+			<string>production</string>
 		</array>
 		<key>description</key>
 		<string>Core command-line tools used by Managed Software Center.</string>
