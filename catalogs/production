@@ -3591,6 +3591,72 @@ exit 0
 		<key>display_name</key>
 		<string>Google Chrome</string>
 		<key>installer_item_hash</key>
+		<string>69c416f9ee5cb60ffd91baad3db567cbc98da9f58cb5348f0ef927820a6020c9</string>
+		<key>installer_item_location</key>
+		<string>apps/GoogleChrome-49.0.2623.112.dmg</string>
+		<key>installer_item_size</key>
+		<integer>66023</integer>
+		<key>installer_type</key>
+		<string>copy_from_dmg</string>
+		<key>installs</key>
+		<array>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>com.google.Chrome</string>
+				<key>CFBundleName</key>
+				<string>Chrome</string>
+				<key>CFBundleShortVersionString</key>
+				<string>49.0.2623.112</string>
+				<key>CFBundleVersion</key>
+				<string>2623.112</string>
+				<key>minosversion</key>
+				<string>10.6.0</string>
+				<key>path</key>
+				<string>/Applications/Google Chrome.app</string>
+				<key>type</key>
+				<string>application</string>
+				<key>version_comparison_key</key>
+				<string>CFBundleShortVersionString</string>
+			</dict>
+		</array>
+		<key>items_to_copy</key>
+		<array>
+			<dict>
+				<key>destination_path</key>
+				<string>/Applications</string>
+				<key>source_item</key>
+				<string>Google Chrome.app</string>
+			</dict>
+		</array>
+		<key>minimum_os_version</key>
+		<string>10.6.0</string>
+		<key>name</key>
+		<string>GoogleChrome</string>
+		<key>unattended_install</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>remove_copied_items</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>49.0.2623.112</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>production</string>
+		</array>
+		<key>category</key>
+		<string>Internet</string>
+		<key>description</key>
+		<string>Chrome is a fast, simple, and secure web browser, built for the modern web.</string>
+		<key>developer</key>
+		<string>Google</string>
+		<key>display_name</key>
+		<string>Google Chrome</string>
+		<key>installer_item_hash</key>
 		<string>3d29c758a9f32028e5fe7f6a79454a3549a95624334442a979dad7bb1cd271d3</string>
 		<key>installer_item_location</key>
 		<string>apps/GoogleChrome-49.0.2623.87.dmg</string>
@@ -5528,6 +5594,72 @@ exit 0
 		<true/>
 		<key>version</key>
 		<string>7.24.0.335</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>production</string>
+		</array>
+		<key>category</key>
+		<string>Internet</string>
+		<key>description</key>
+		<string>Calling, seeing, messaging and sharing with others – wherever they are.</string>
+		<key>developer</key>
+		<string>Microsoft</string>
+		<key>display_name</key>
+		<string>Skype</string>
+		<key>installer_item_hash</key>
+		<string>f645d10ca64f0f543553f03e9b654acf4813bba254525f4e39ca49e9bf5fe4f3</string>
+		<key>installer_item_location</key>
+		<string>apps/Skype-7.25.0.356.dmg</string>
+		<key>installer_item_size</key>
+		<integer>43556</integer>
+		<key>installer_type</key>
+		<string>copy_from_dmg</string>
+		<key>installs</key>
+		<array>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>com.skype.skype</string>
+				<key>CFBundleName</key>
+				<string>Skype</string>
+				<key>CFBundleShortVersionString</key>
+				<string>7.25</string>
+				<key>CFBundleVersion</key>
+				<string>7.25.0.356</string>
+				<key>minosversion</key>
+				<string>10.9</string>
+				<key>path</key>
+				<string>/Applications/Skype.app</string>
+				<key>type</key>
+				<string>application</string>
+				<key>version_comparison_key</key>
+				<string>CFBundleVersion</string>
+			</dict>
+		</array>
+		<key>items_to_copy</key>
+		<array>
+			<dict>
+				<key>destination_path</key>
+				<string>/Applications</string>
+				<key>source_item</key>
+				<string>Skype.app</string>
+			</dict>
+		</array>
+		<key>minimum_os_version</key>
+		<string>10.9</string>
+		<key>name</key>
+		<string>Skype</string>
+		<key>unattended_install</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>remove_copied_items</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>7.25.0.356</string>
 	</dict>
 	<dict>
 		<key>autoremove</key>
@@ -35930,6 +36062,55 @@ defaults write /Library/Preferences/com.github.salopensource.sal.plist ServerURL
 		<true/>
 		<key>version</key>
 		<string>21.0.0.197</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>production</string>
+		</array>
+		<key>category</key>
+		<string>Internet Plugin</string>
+		<key>description</key>
+		<string>Adobe® Flash® Player is a cross-platform browser-based application runtime that delivers uncompromised viewing of expressive applications, content, and videos across screens and browsers.</string>
+		<key>developer</key>
+		<string>Adobe</string>
+		<key>display_name</key>
+		<string>Adobe Flash Player</string>
+		<key>installed_size</key>
+		<integer>18072</integer>
+		<key>installer_item_hash</key>
+		<string>12c96c3133e1a214ae8a1c7a3a88982ae670517ba1f1c5bed94c5dedfa2b3c09</string>
+		<key>installer_item_location</key>
+		<string>internet_plugins/AdobeFlashPlayer-21.0.0.213.dmg</string>
+		<key>installer_item_size</key>
+		<integer>17261</integer>
+		<key>minimum_os_version</key>
+		<string>10.5.0</string>
+		<key>name</key>
+		<string>AdobeFlashPlayer</string>
+		<key>package_path</key>
+		<string>Install Adobe Flash Player.app/Contents/Resources/Adobe Flash Player.pkg</string>
+		<key>receipts</key>
+		<array>
+			<dict>
+				<key>installed_size</key>
+				<integer>18072</integer>
+				<key>packageid</key>
+				<string>com.adobe.pkg.FlashPlayer</string>
+				<key>version</key>
+				<string>21.0.0.213</string>
+			</dict>
+		</array>
+		<key>unattended_install</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>removepackages</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>21.0.0.213</string>
 	</dict>
 	<dict>
 		<key>autoremove</key>
