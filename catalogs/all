@@ -13008,95 +13008,6 @@ The setup procedure includes installing the MIT CA as well as the user's persona
 	<dict>
 		<key>autoremove</key>
 		<false/>
-		<key>blocking_applications</key>
-		<array>
-			<string>Citrix Receiver</string>
-			<string>Citrix Viewer</string>
-		</array>
-		<key>catalogs</key>
-		<array>
-			<string>production</string>
-		</array>
-		<key>category</key>
-		<string>Internet</string>
-		<key>description</key>
-		<string>Citrix Receiver is an easy-to-install client software that lets you access enterprise data, applications and desktops from any computing device including smartphones, tablets and PCs. Workers today typically use multiple computing devices and crave a consistent computing experience across all of them. Organizations everywhere are struggling to cope with the rapid proliferation of these devices and give users the mobile, high-definition experience they demand. Working in tandem with a Citrix-enabled IT infrastructure, Citrix Receiver gives workers consistent, secure, high-performance access from any device without introducing layers of management complexity for IT.</string>
-		<key>developer</key>
-		<string>Citrix Systems, Inc.</string>
-		<key>display_name</key>
-		<string>Citrix Receiver</string>
-		<key>installed_size</key>
-		<integer>113324</integer>
-		<key>installer_item_hash</key>
-		<string>5138096b25c97cb37d037d27e6151fc96e1af9da5184347f2812b522fe35e8a7</string>
-		<key>installer_item_location</key>
-		<string>apps/Citrix/CitrixReceiver-12.1.100__1.dmg</string>
-		<key>installer_item_size</key>
-		<integer>43449</integer>
-		<key>installs</key>
-		<array>
-			<dict>
-				<key>CFBundleIdentifier</key>
-				<string>com.citrix.receiver.nomas</string>
-				<key>CFBundleName</key>
-				<string>Citrix Receiver</string>
-				<key>CFBundleShortVersionString</key>
-				<string>12.1.100</string>
-				<key>CFBundleVersion</key>
-				<string>350455</string>
-				<key>minosversion</key>
-				<string>10.8</string>
-				<key>path</key>
-				<string>/Applications/Citrix Receiver.app</string>
-				<key>type</key>
-				<string>application</string>
-				<key>version_comparison_key</key>
-				<string>CFBundleShortVersionString</string>
-			</dict>
-			<dict>
-				<key>CFBundleShortVersionString</key>
-				<string>12.1.100</string>
-				<key>CFBundleVersion</key>
-				<string>350455</string>
-				<key>path</key>
-				<string>/Library/Internet Plug-Ins/CitrixICAClientPlugIn.plugin</string>
-				<key>type</key>
-				<string>bundle</string>
-				<key>version_comparison_key</key>
-				<string>CFBundleShortVersionString</string>
-			</dict>
-		</array>
-		<key>minimum_os_version</key>
-		<string>10.6</string>
-		<key>name</key>
-		<string>CitrixReceiver</string>
-		<key>package_path</key>
-		<string>Install Citrix Receiver.pkg</string>
-		<key>receipts</key>
-		<array>
-			<dict>
-				<key>installed_size</key>
-				<integer>113324</integer>
-				<key>packageid</key>
-				<string>com.citrix.ICAClient</string>
-				<key>version</key>
-				<string>12.1.100</string>
-			</dict>
-		</array>
-		<key>unattended_install</key>
-		<true/>
-		<key>unattended_uninstall</key>
-		<true/>
-		<key>uninstall_method</key>
-		<string>removepackages</string>
-		<key>uninstallable</key>
-		<true/>
-		<key>version</key>
-		<string>12.1.100</string>
-	</dict>
-	<dict>
-		<key>autoremove</key>
-		<false/>
 		<key>catalogs</key>
 		<array>
 			<string>production</string>
@@ -39297,6 +39208,55 @@ defaults write /Library/Preferences/com.github.salopensource.sal.plist ServerURL
 		<true/>
 		<key>version</key>
 		<string>21.0.0.226</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>production</string>
+		</array>
+		<key>category</key>
+		<string>Internet Plugin</string>
+		<key>description</key>
+		<string>Adobe® Flash® Player is a cross-platform browser-based application runtime that delivers uncompromised viewing of expressive applications, content, and videos across screens and browsers.</string>
+		<key>developer</key>
+		<string>Adobe</string>
+		<key>display_name</key>
+		<string>Adobe Flash Player</string>
+		<key>installed_size</key>
+		<integer>18096</integer>
+		<key>installer_item_hash</key>
+		<string>b6344d355e36168acde5a07f57216452861c5633626a724a887518f253e20a9e</string>
+		<key>installer_item_location</key>
+		<string>internet_plugins/AdobeFlashPlayer-21.0.0.242.dmg</string>
+		<key>installer_item_size</key>
+		<integer>17288</integer>
+		<key>minimum_os_version</key>
+		<string>10.5.0</string>
+		<key>name</key>
+		<string>AdobeFlashPlayer</string>
+		<key>package_path</key>
+		<string>Install Adobe Flash Player.app/Contents/Resources/Adobe Flash Player.pkg</string>
+		<key>receipts</key>
+		<array>
+			<dict>
+				<key>installed_size</key>
+				<integer>18096</integer>
+				<key>packageid</key>
+				<string>com.adobe.pkg.FlashPlayer</string>
+				<key>version</key>
+				<string>21.0.0.242</string>
+			</dict>
+		</array>
+		<key>unattended_install</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>removepackages</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>21.0.0.242</string>
 	</dict>
 	<dict>
 		<key>autoremove</key>
