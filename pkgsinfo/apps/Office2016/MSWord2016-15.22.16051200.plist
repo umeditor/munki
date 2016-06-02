@@ -79,5 +79,9 @@
 	<true/>
 	<key>version</key>
 	<string>15.22.16051200</string>
+	<key>developer</key>
+	<string>Microsoft</string>
+	<key>category</key>
+	<string>Productivity</string>
 </dict>
 </plist>
