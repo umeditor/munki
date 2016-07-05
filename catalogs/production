@@ -4251,6 +4251,72 @@ exit 0
 		<key>display_name</key>
 		<string>Google Chrome</string>
 		<key>installer_item_hash</key>
+		<string>eebad28c825ad46400ad9e58298bdf7cee4b4842508ba6285ad6c20b3cba25cd</string>
+		<key>installer_item_location</key>
+		<string>apps/GoogleChrome-51.0.2704.106.dmg</string>
+		<key>installer_item_size</key>
+		<integer>67112</integer>
+		<key>installer_type</key>
+		<string>copy_from_dmg</string>
+		<key>installs</key>
+		<array>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>com.google.Chrome</string>
+				<key>CFBundleName</key>
+				<string>Chrome</string>
+				<key>CFBundleShortVersionString</key>
+				<string>51.0.2704.106</string>
+				<key>CFBundleVersion</key>
+				<string>2704.106</string>
+				<key>minosversion</key>
+				<string>10.9.0</string>
+				<key>path</key>
+				<string>/Applications/Google Chrome.app</string>
+				<key>type</key>
+				<string>application</string>
+				<key>version_comparison_key</key>
+				<string>CFBundleShortVersionString</string>
+			</dict>
+		</array>
+		<key>items_to_copy</key>
+		<array>
+			<dict>
+				<key>destination_path</key>
+				<string>/Applications</string>
+				<key>source_item</key>
+				<string>Google Chrome.app</string>
+			</dict>
+		</array>
+		<key>minimum_os_version</key>
+		<string>10.9.0</string>
+		<key>name</key>
+		<string>GoogleChrome</string>
+		<key>unattended_install</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>remove_copied_items</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>51.0.2704.106</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>production</string>
+		</array>
+		<key>category</key>
+		<string>Internet</string>
+		<key>description</key>
+		<string>Chrome is a fast, simple, and secure web browser, built for the modern web.</string>
+		<key>developer</key>
+		<string>Google</string>
+		<key>display_name</key>
+		<string>Google Chrome</string>
+		<key>installer_item_hash</key>
 		<string>f47bc221d78c4066e31f86981c9b709b570d37905372fced4226d9b5ee60be5d</string>
 		<key>installer_item_location</key>
 		<string>apps/GoogleChrome-51.0.2704.63.dmg</string>
@@ -6778,6 +6844,72 @@ exit 0
 		<key>display_name</key>
 		<string>Skype</string>
 		<key>installer_item_hash</key>
+		<string>3541e5b5668bbe20fdf6b3b11b5dfe80258005d2e594665d6406825086a7d6fb</string>
+		<key>installer_item_location</key>
+		<string>apps/Skype-7.31.0.304.dmg</string>
+		<key>installer_item_size</key>
+		<integer>45308</integer>
+		<key>installer_type</key>
+		<string>copy_from_dmg</string>
+		<key>installs</key>
+		<array>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>com.skype.skype</string>
+				<key>CFBundleName</key>
+				<string>Skype</string>
+				<key>CFBundleShortVersionString</key>
+				<string>7.31</string>
+				<key>CFBundleVersion</key>
+				<string>7.31.0.304</string>
+				<key>minosversion</key>
+				<string>10.9</string>
+				<key>path</key>
+				<string>/Applications/Skype.app</string>
+				<key>type</key>
+				<string>application</string>
+				<key>version_comparison_key</key>
+				<string>CFBundleVersion</string>
+			</dict>
+		</array>
+		<key>items_to_copy</key>
+		<array>
+			<dict>
+				<key>destination_path</key>
+				<string>/Applications</string>
+				<key>source_item</key>
+				<string>Skype.app</string>
+			</dict>
+		</array>
+		<key>minimum_os_version</key>
+		<string>10.9</string>
+		<key>name</key>
+		<string>Skype</string>
+		<key>unattended_install</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>remove_copied_items</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>7.31.0.304</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>production</string>
+		</array>
+		<key>category</key>
+		<string>Internet</string>
+		<key>description</key>
+		<string>Calling, seeing, messaging and sharing with others – wherever they are.</string>
+		<key>developer</key>
+		<string>Microsoft</string>
+		<key>display_name</key>
+		<string>Skype</string>
+		<key>installer_item_hash</key>
 		<string>162dfbe1f67ffc93f4ba9258e646881b89fa088321a3f007ca7640caa4990199</string>
 		<key>installer_item_location</key>
 		<string>apps/Skype-7.5.0.738.dmg</string>
@@ -8991,6 +9123,72 @@ exit 0
 		<true/>
 		<key>version</key>
 		<string>1.0.31.56.g526cfefe</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>production</string>
+		</array>
+		<key>category</key>
+		<string>Music</string>
+		<key>description</key>
+		<string>Spotify is a music streaming service offering unlimited streaming of selected music from a range of major and independent record labels.</string>
+		<key>developer</key>
+		<string>Spotify</string>
+		<key>display_name</key>
+		<string>Spotify</string>
+		<key>installer_item_hash</key>
+		<string>ba693b40681adccffc8eec028bbb74d26e9fcbb23dc7111592ca867722c08a58</string>
+		<key>installer_item_location</key>
+		<string>apps/Spotify-1.0.32.96.g3c8a06e6.dmg</string>
+		<key>installer_item_size</key>
+		<integer>78772</integer>
+		<key>installer_type</key>
+		<string>copy_from_dmg</string>
+		<key>installs</key>
+		<array>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>com.spotify.client</string>
+				<key>CFBundleName</key>
+				<string>Spotify</string>
+				<key>CFBundleShortVersionString</key>
+				<string>1.0.32.96.g3c8a06e6</string>
+				<key>CFBundleVersion</key>
+				<string>1.0.32.96.g3c8a06e6-38</string>
+				<key>minosversion</key>
+				<string>10.7.0</string>
+				<key>path</key>
+				<string>/Applications/Spotify.app</string>
+				<key>type</key>
+				<string>application</string>
+				<key>version_comparison_key</key>
+				<string>CFBundleShortVersionString</string>
+			</dict>
+		</array>
+		<key>items_to_copy</key>
+		<array>
+			<dict>
+				<key>destination_path</key>
+				<string>/Applications</string>
+				<key>source_item</key>
+				<string>Spotify.app</string>
+			</dict>
+		</array>
+		<key>minimum_os_version</key>
+		<string>10.7.0</string>
+		<key>name</key>
+		<string>Spotify</string>
+		<key>unattended_install</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>remove_copied_items</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>1.0.32.96.g3c8a06e6</string>
 	</dict>
 	<dict>
 		<key>autoremove</key>
@@ -16359,6 +16557,72 @@ fi
 		<true/>
 		<key>version</key>
 		<string>46.0</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>production</string>
+		</array>
+		<key>category</key>
+		<string>Internet</string>
+		<key>description</key>
+		<string>Mozilla Firefox is a free and open source web browser.</string>
+		<key>developer</key>
+		<string>Mozilla</string>
+		<key>display_name</key>
+		<string>Mozilla Firefox</string>
+		<key>installer_item_hash</key>
+		<string>37f4b7b6a1fec3eb5225a0d1aed3c3d6979b5cf01748479313f6e384929cdc75</string>
+		<key>installer_item_location</key>
+		<string>apps/firefox/Firefox-47.0.1.dmg</string>
+		<key>installer_item_size</key>
+		<integer>86387</integer>
+		<key>installer_type</key>
+		<string>copy_from_dmg</string>
+		<key>installs</key>
+		<array>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>org.mozilla.firefox</string>
+				<key>CFBundleName</key>
+				<string>Firefox</string>
+				<key>CFBundleShortVersionString</key>
+				<string>47.0.1</string>
+				<key>CFBundleVersion</key>
+				<string>4716.6.23</string>
+				<key>minosversion</key>
+				<string>10.6</string>
+				<key>path</key>
+				<string>/Applications/Firefox.app</string>
+				<key>type</key>
+				<string>application</string>
+				<key>version_comparison_key</key>
+				<string>CFBundleShortVersionString</string>
+			</dict>
+		</array>
+		<key>items_to_copy</key>
+		<array>
+			<dict>
+				<key>destination_path</key>
+				<string>/Applications</string>
+				<key>source_item</key>
+				<string>Firefox.app</string>
+			</dict>
+		</array>
+		<key>minimum_os_version</key>
+		<string>10.6</string>
+		<key>name</key>
+		<string>Firefox</string>
+		<key>unattended_install</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>remove_copied_items</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>47.0.1</string>
 	</dict>
 	<dict>
 		<key>autoremove</key>
@@ -35458,6 +35722,78 @@ rm '/Library/PrivilegedHelperTools/Google Drive Icon Helper'
 		<false/>
 		<key>blocking_applications</key>
 		<array>
+			<string>Microsoft Excel</string>
+			<string>Microsoft Error Reporting</string>
+			<string>Microsoft Auto Update</string>
+		</array>
+		<key>catalogs</key>
+		<array>
+			<string>production</string>
+		</array>
+		<key>category</key>
+		<string>Productivity</string>
+		<key>description</key>
+		<string>&lt;html&gt;&lt;p style="font-family:Helvetica;font-size:12px"&gt;For detailed information about this update, please visit the following Web site: &lt;/p&gt;
+
+&lt;p style="font-family:Helvetica;font-size:12px"&gt;&lt;a href="https://go.microsoft.com/fwlink/?LinkID=799195" target="_blank"&gt;https://go.microsoft.com/fwlink/?LinkID=799195&lt;/a&gt;&lt;/p&gt;&lt;/html&gt;</string>
+		<key>developer</key>
+		<string>Microsoft</string>
+		<key>display_name</key>
+		<string>Microsoft Excel for Mac</string>
+		<key>installed_size</key>
+		<integer>1617193</integer>
+		<key>installer_item_hash</key>
+		<string>4a96d7cc687a33632984a6425e602dd38bb4c948269bf0e8bb1d7054a63181fd</string>
+		<key>installer_item_location</key>
+		<string>apps/Office2016/MSExcel2016-15.23.2-15.23.16062400.pkg</string>
+		<key>installer_item_size</key>
+		<integer>871451</integer>
+		<key>installs</key>
+		<array>
+			<dict>
+				<key>CFBundleShortVersionString</key>
+				<string>15.23.2</string>
+				<key>CFBundleVersion</key>
+				<string>15.23.2</string>
+				<key>path</key>
+				<string>/Applications/Microsoft Excel.app</string>
+				<key>type</key>
+				<string>application</string>
+			</dict>
+		</array>
+		<key>minimum_os_version</key>
+		<string>10.10.0</string>
+		<key>name</key>
+		<string>MSExcel2016</string>
+		<key>receipts</key>
+		<array>
+			<dict>
+				<key>installed_size</key>
+				<integer>1617193</integer>
+				<key>packageid</key>
+				<string>com.microsoft.package.Microsoft_Excel.app</string>
+				<key>version</key>
+				<string>15.23.16062400</string>
+			</dict>
+		</array>
+		<key>requires</key>
+		<array>
+			<string>Office2016License</string>
+		</array>
+		<key>unattended_install</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>removepackages</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>15.23.16062400</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>blocking_applications</key>
+		<array>
 			<string>Microsoft OneNote</string>
 			<string>Microsoft Error Reporting</string>
 			<string>Microsoft Auto Update</string>
@@ -37154,6 +37490,78 @@ rm '/Library/PrivilegedHelperTools/Google Drive Icon Helper'
 		<false/>
 		<key>blocking_applications</key>
 		<array>
+			<string>Microsoft PowerPoint</string>
+			<string>Microsoft Error Reporting</string>
+			<string>Microsoft Auto Update</string>
+		</array>
+		<key>catalogs</key>
+		<array>
+			<string>production</string>
+		</array>
+		<key>category</key>
+		<string>Productivity</string>
+		<key>description</key>
+		<string>&lt;html&gt;&lt;p style="font-family:Helvetica;font-size:12px"&gt;For detailed information about this update, please visit the following Web site: &lt;/p&gt;
+
+&lt;p style="font-family:Helvetica;font-size:12px"&gt;&lt;a href="https://go.microsoft.com/fwlink/?LinkID=799195" target="_blank"&gt;https://go.microsoft.com/fwlink/?LinkID=799195&lt;/a&gt;&lt;/p&gt;&lt;/html&gt;</string>
+		<key>developer</key>
+		<string>Microsoft</string>
+		<key>display_name</key>
+		<string>Microsoft PowerPoint for Mac</string>
+		<key>installed_size</key>
+		<integer>1503569</integer>
+		<key>installer_item_hash</key>
+		<string>8bacf68d334f3cb3cda863baee9dbb897de2c4069193b64533980ab46d2681ad</string>
+		<key>installer_item_location</key>
+		<string>apps/Office2016/MSPowerPoint2016-15.23.2-15.23.16062400.pkg</string>
+		<key>installer_item_size</key>
+		<integer>811223</integer>
+		<key>installs</key>
+		<array>
+			<dict>
+				<key>CFBundleShortVersionString</key>
+				<string>15.23.2</string>
+				<key>CFBundleVersion</key>
+				<string>15.23.2</string>
+				<key>path</key>
+				<string>/Applications/Microsoft PowerPoint.app</string>
+				<key>type</key>
+				<string>application</string>
+			</dict>
+		</array>
+		<key>minimum_os_version</key>
+		<string>10.10.0</string>
+		<key>name</key>
+		<string>MSPowerPoint2016</string>
+		<key>receipts</key>
+		<array>
+			<dict>
+				<key>installed_size</key>
+				<integer>1503569</integer>
+				<key>packageid</key>
+				<string>com.microsoft.package.Microsoft_PowerPoint.app</string>
+				<key>version</key>
+				<string>15.23.16062400</string>
+			</dict>
+		</array>
+		<key>requires</key>
+		<array>
+			<string>Office2016License</string>
+		</array>
+		<key>unattended_install</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>removepackages</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>15.23.16062400</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>blocking_applications</key>
+		<array>
 			<string>Microsoft Word</string>
 			<string>Microsoft Error Reporting</string>
 			<string>Microsoft Auto Update</string>
@@ -37928,6 +38336,78 @@ rm '/Library/PrivilegedHelperTools/Google Drive Icon Helper'
 		<true/>
 		<key>version</key>
 		<string>15.23.16061700</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>blocking_applications</key>
+		<array>
+			<string>Microsoft Word</string>
+			<string>Microsoft Error Reporting</string>
+			<string>Microsoft Auto Update</string>
+		</array>
+		<key>catalogs</key>
+		<array>
+			<string>production</string>
+		</array>
+		<key>category</key>
+		<string>Productivity</string>
+		<key>description</key>
+		<string>&lt;html&gt;&lt;p style="font-family:Helvetica;font-size:12px"&gt;For detailed information about this update, please visit the following Web site: &lt;/p&gt;
+
+&lt;p style="font-family:Helvetica;font-size:12px"&gt;&lt;a href="https://go.microsoft.com/fwlink/?LinkID=799195" target="_blank"&gt;https://go.microsoft.com/fwlink/?LinkID=799195&lt;/a&gt;&lt;/p&gt;&lt;/html&gt;</string>
+		<key>developer</key>
+		<string>Microsoft</string>
+		<key>display_name</key>
+		<string>Microsoft Word for Mac</string>
+		<key>installed_size</key>
+		<integer>1779909</integer>
+		<key>installer_item_hash</key>
+		<string>5bbd65de7644aecfc5d76f89b29eb12e4734611d0152dec0e256e6e9d63de5d6</string>
+		<key>installer_item_location</key>
+		<string>apps/Office2016/MSWord2016-15.23.2-15.23.16062400.pkg</string>
+		<key>installer_item_size</key>
+		<integer>1000311</integer>
+		<key>installs</key>
+		<array>
+			<dict>
+				<key>CFBundleShortVersionString</key>
+				<string>15.23.2</string>
+				<key>CFBundleVersion</key>
+				<string>15.23.2</string>
+				<key>path</key>
+				<string>/Applications/Microsoft Word.app</string>
+				<key>type</key>
+				<string>application</string>
+			</dict>
+		</array>
+		<key>minimum_os_version</key>
+		<string>10.10.0</string>
+		<key>name</key>
+		<string>MSWord2016</string>
+		<key>receipts</key>
+		<array>
+			<dict>
+				<key>installed_size</key>
+				<integer>1779909</integer>
+				<key>packageid</key>
+				<string>com.microsoft.package.Microsoft_Word.app</string>
+				<key>version</key>
+				<string>15.23.16062400</string>
+			</dict>
+		</array>
+		<key>requires</key>
+		<array>
+			<string>Office2016License</string>
+		</array>
+		<key>unattended_install</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>removepackages</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>15.23.16062400</string>
 	</dict>
 	<dict>
 		<key>autoremove</key>
@@ -40455,6 +40935,72 @@ rm '/Library/PrivilegedHelperTools/Google Drive Icon Helper'
 		<true/>
 		<key>version</key>
 		<string>45.1.1</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>production</string>
+		</array>
+		<key>category</key>
+		<string>Email</string>
+		<key>description</key>
+		<string>Mozilla Thunderbird is a free and open source mail client.</string>
+		<key>developer</key>
+		<string>Mozilla Foundation</string>
+		<key>display_name</key>
+		<string>Mozilla Thunderbird</string>
+		<key>installer_item_hash</key>
+		<string>0bb59e1756ef067c1792222d913cf17f2bf2042af6789c4a5d79915bf67577cb</string>
+		<key>installer_item_location</key>
+		<string>apps/thunderbird/Thunderbird-45.2.0.dmg</string>
+		<key>installer_item_size</key>
+		<integer>75669</integer>
+		<key>installer_type</key>
+		<string>copy_from_dmg</string>
+		<key>installs</key>
+		<array>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>org.mozilla.thunderbird</string>
+				<key>CFBundleName</key>
+				<string>Thunderbird</string>
+				<key>CFBundleShortVersionString</key>
+				<string>45.2.0</string>
+				<key>CFBundleVersion</key>
+				<string>45.2.0</string>
+				<key>minosversion</key>
+				<string>10.6.0</string>
+				<key>path</key>
+				<string>/Applications/Thunderbird.app</string>
+				<key>type</key>
+				<string>application</string>
+				<key>version_comparison_key</key>
+				<string>CFBundleShortVersionString</string>
+			</dict>
+		</array>
+		<key>items_to_copy</key>
+		<array>
+			<dict>
+				<key>destination_path</key>
+				<string>/Applications</string>
+				<key>source_item</key>
+				<string>Thunderbird.app</string>
+			</dict>
+		</array>
+		<key>minimum_os_version</key>
+		<string>10.6.0</string>
+		<key>name</key>
+		<string>Thunderbird</string>
+		<key>unattended_install</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>remove_copied_items</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>45.2.0</string>
 	</dict>
 	<dict>
 		<key>autoremove</key>
