@@ -97,5 +97,9 @@
 	<true/>
 	<key>version</key>
 	<string>3.6.3</string>
+	<key>requires</key>
+	<array>
+    <string>CrashPlanProEMITSettings</string>
+	</array>
 </dict>
 </plist>
