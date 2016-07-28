@@ -81,6 +81,7 @@
 	<true/>
 	<key>version</key>
 	<string>3.7.0</string>
+	<key>requires</key>
 	<array>
 		<string>CrashPlanProEMITSettings</string>
 	</array>
