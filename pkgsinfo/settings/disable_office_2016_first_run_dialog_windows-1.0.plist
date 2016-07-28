@@ -30,7 +30,7 @@
 	<key>installer_item_hash</key>
 	<string>2f267988f0b36ac8842208a3f51cb0e47e687a6d74ea60b64091211a9582cba9</string>
 	<key>installer_item_location</key>
-	<string>Settings/Disable Office 2016 First Run Dialog Windows-1.0.pkg</string>
+	<string>settings/disable_office_2016_first_run_dialog_windows.sh</string>
 	<key>installer_item_size</key>
 	<integer>4</integer>
 	<key>minimum_os_version</key>
