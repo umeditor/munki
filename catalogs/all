@@ -49490,6 +49490,55 @@ fi
 			<string>production</string>
 		</array>
 		<key>category</key>
+		<string>settings</string>
+		<key>description</key>
+		<string>CrashPLanProE Settings</string>
+		<key>developer</key>
+		<string>J-PAL</string>
+		<key>display_name</key>
+		<string>CrashPlanProEMITSettings-1.1</string>
+		<key>installed_size</key>
+		<integer>178</integer>
+		<key>installer_item_hash</key>
+		<string>69abd0cf35dbc02e11d40f5487c4adac4c882b53f906a898ca76f451a2a57c58</string>
+		<key>installer_item_location</key>
+		<string>settings/CrashPlanProEMITSettings-1.1.pkg</string>
+		<key>installer_item_size</key>
+		<integer>160</integer>
+		<key>minimum_os_version</key>
+		<string>10.5.0</string>
+		<key>name</key>
+		<string>CrashPlanProEMITSettings</string>
+		<key>receipts</key>
+		<array>
+			<dict>
+				<key>installed_size</key>
+				<integer>178</integer>
+				<key>packageid</key>
+				<string>org.povertyactionlab.pkg.CrashPlanProEMITSettings</string>
+				<key>version</key>
+				<string>1.1</string>
+			</dict>
+		</array>
+		<key>unattended_install</key>
+		<true/>
+		<key>unattended_uninstall</key>
+		<false/>
+		<key>uninstall_method</key>
+		<string>removepackages</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>1.1</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>production</string>
+		</array>
+		<key>category</key>
 		<string>Settings</string>
 		<key>description</key>
 		<string>Disable 802.1x automatic connections for ethernet connections.</string>
