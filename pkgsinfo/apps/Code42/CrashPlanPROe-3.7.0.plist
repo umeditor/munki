@@ -81,5 +81,8 @@
 	<true/>
 	<key>version</key>
 	<string>3.7.0</string>
+	<array>
+		<string>CrashPlanProEMITSettings</string>
+	</array>
 </dict>
 </plist>
