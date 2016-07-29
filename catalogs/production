@@ -14691,6 +14691,8 @@ The setup procedure includes installing the MIT CA as well as the user's persona
 		<string>3.7.0</string>
 	</dict>
 	<dict>
+		<key>RestartAction</key>
+		<string>RequireRestart</string>
 		<key>autoremove</key>
 		<false/>
 		<key>catalogs</key>

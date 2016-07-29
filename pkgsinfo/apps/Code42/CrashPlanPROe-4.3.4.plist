@@ -77,5 +77,7 @@
 	<array>
 		<string>CrashPlanProEMITSettings</string>
 	</array>
+	<key>RestartAction</key>
+  <string>RequireRestart</string>
 </dict>
 </plist>
