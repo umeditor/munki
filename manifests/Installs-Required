@@ -24,6 +24,13 @@
     <string>CrowdStrikeFalconHost</string>
     <string>Disable802.1xAutomaticConnection</string>
     <string>SophosAntiVirus</string>
+    <string>MSExcel2016</string>
+    <string>MSPowerPoint2016</string>
+    <string>MSWord2016</string>
+    <string>AdobeAcrobatProXI</string>
+    <string>GoogleChrome</string>
+    <string>GoogleDrive</string>
+    <string>Firefox</string>
   </array>
   <key>managed_uninstalls</key>
   <array>
