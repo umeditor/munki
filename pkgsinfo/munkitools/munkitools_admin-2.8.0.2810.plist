@@ -17,7 +17,7 @@
 	<false/>
 	<key>catalogs</key>
 	<array>
-		<string>development</string>
+		<string>production</string>
 	</array>
 	<key>category</key>
 	<string>munkitools</string>
