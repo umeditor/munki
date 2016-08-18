@@ -31,6 +31,8 @@
     <string>GoogleChrome</string>
     <string>GoogleDrive</string>
     <string>Firefox</string>
+    <string>Skype</string>
+    <string>Dropbox</string>
   </array>
   <key>managed_uninstalls</key>
   <array>
