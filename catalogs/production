@@ -369,20 +369,6 @@
 				<key>version_comparison_key</key>
 				<string>CFBundleShortVersionString</string>
 			</dict>
-			<dict>
-				<key>CFBundleIdentifier</key>
-				<string>com.cisco.uninstaller</string>
-				<key>CFBundleName</key>
-				<string>Uninstall AnyConnect</string>
-				<key>CFBundleVersion</key>
-				<string>3.1.02026</string>
-				<key>path</key>
-				<string>/Applications/Cisco/Uninstall AnyConnect.app</string>
-				<key>type</key>
-				<string>application</string>
-				<key>version_comparison_key</key>
-				<string>CFBundleVersion</string>
-			</dict>
 		</array>
 		<key>minimum_os_version</key>
 		<string>10.7.0</string>
