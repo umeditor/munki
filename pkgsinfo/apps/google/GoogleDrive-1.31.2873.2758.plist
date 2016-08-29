@@ -89,5 +89,9 @@ rm '/Library/PrivilegedHelperTools/Google Drive Icon Helper'
 	<true/>
 	<key>version</key>
 	<string>1.31.2873.2758</string>
+	<key>category</key>
+	<string>File Sharing</string>
+	<key>developer</key>
+	<string>Google</string>
 </dict>
 </plist>
