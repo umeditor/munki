@@ -8697,7 +8697,7 @@ defaults write /Library/Preferences/com.github.salopensource.sal.plist ServerURL
 		<false/>
 		<key>catalogs</key>
 		<array>
-			<string>testing</string>
+			<string>production</string>
 		</array>
 		<key>description</key>
 		<string>FUSE for OS X allows you to extend OS X's native file handling capabilities via third-party file systems. OSXFUSE is a successor to MacFUSE, which has been used as a software building block by dozens of products, but is no longer being maintained.</string>
@@ -12284,7 +12284,7 @@ defaults write /Library/Preferences/ManagedInstalls.plist IconURL "https://munki
 		<false/>
 		<key>catalogs</key>
 		<array>
-			<string>testing</string>
+			<string>production</string>
 		</array>
 		<key>category</key>
 		<string>Utilities</string>
