@@ -50,7 +50,7 @@
 	</array>
 	<key>requires</key>
 	<array>
-		<string>OSXFUSE</string>
+		<string>osxfuse</string>
 	</array>
 	<key>uninstall_method</key>
 	<string>removepackages</string>
