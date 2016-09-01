@@ -9240,6 +9240,81 @@ defaults write /Library/Preferences/com.github.salopensource.sal.plist ServerURL
 	<dict>
 		<key>autoremove</key>
 		<false/>
+		<key>blocking_applications</key>
+		<array/>
+		<key>catalogs</key>
+		<array>
+			<string>production</string>
+		</array>
+		<key>category</key>
+		<string>Music</string>
+		<key>description</key>
+		<string>Amazon Music (previously Amazon MP3) is an online music store and music locker operated by Amazon.com.</string>
+		<key>developer</key>
+		<string>Amazon</string>
+		<key>display_name</key>
+		<string>Amazon Music</string>
+		<key>installer_item_hash</key>
+		<string>d13a1ac00bdaf03a982231f27a9067610fb4675990db058ab15ddec055ba9569</string>
+		<key>installer_item_location</key>
+		<string>Media/AmazonMusic-4.3.2.1110.dmg</string>
+		<key>installer_item_size</key>
+		<integer>58883</integer>
+		<key>installer_type</key>
+		<string>copy_from_dmg</string>
+		<key>installs</key>
+		<array>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>com.amazon.music</string>
+				<key>CFBundleName</key>
+				<string>Amazon Music</string>
+				<key>CFBundleVersion</key>
+				<string>4.3.2.1110</string>
+				<key>minosversion</key>
+				<string>10.6.0</string>
+				<key>path</key>
+				<string>/Applications/Amazon Music.app</string>
+				<key>type</key>
+				<string>application</string>
+				<key>version_comparison_key</key>
+				<string>CFBundleVersion</string>
+			</dict>
+		</array>
+		<key>items_to_copy</key>
+		<array>
+			<dict>
+				<key>destination_path</key>
+				<string>/tmp/</string>
+				<key>source_item</key>
+				<string>Amazon Music Installer.app</string>
+			</dict>
+		</array>
+		<key>minimum_os_version</key>
+		<string>10.4.0</string>
+		<key>name</key>
+		<string>AmazonMusic</string>
+		<key>postinstall_script</key>
+		<string>#!/bin/bash
+/bin/sh "/private/tmp/Amazon Music Installer.app/Contents/MacOS/installbuilder.sh" --unattendedmodeui none
+        </string>
+		<key>unattended_install</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>uninstall_script</string>
+		<key>uninstall_script</key>
+		<string>#!/bin/bash
+/usr/bin/killall "Amazon Music Helper"
+/bin/rm -rf "/Applications/Amazon Music.app"
+            </string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>4.3.2.1110</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
 		<key>catalogs</key>
 		<array>
 			<string>production</string>
