@@ -2215,6 +2215,72 @@ exit 0
 		<key>display_name</key>
 		<string>Google Chrome</string>
 		<key>installer_item_hash</key>
+		<string>5d8dceb083ec44a4d6a10325780405bcdeb902e297bdffe947275d72e0992776</string>
+		<key>installer_item_location</key>
+		<string>apps/GoogleChrome-53.0.2785.101.dmg</string>
+		<key>installer_item_size</key>
+		<integer>71364</integer>
+		<key>installer_type</key>
+		<string>copy_from_dmg</string>
+		<key>installs</key>
+		<array>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>com.google.Chrome</string>
+				<key>CFBundleName</key>
+				<string>Chrome</string>
+				<key>CFBundleShortVersionString</key>
+				<string>53.0.2785.101</string>
+				<key>CFBundleVersion</key>
+				<string>2785.101</string>
+				<key>minosversion</key>
+				<string>10.9.0</string>
+				<key>path</key>
+				<string>/Applications/Google Chrome.app</string>
+				<key>type</key>
+				<string>application</string>
+				<key>version_comparison_key</key>
+				<string>CFBundleShortVersionString</string>
+			</dict>
+		</array>
+		<key>items_to_copy</key>
+		<array>
+			<dict>
+				<key>destination_path</key>
+				<string>/Applications</string>
+				<key>source_item</key>
+				<string>Google Chrome.app</string>
+			</dict>
+		</array>
+		<key>minimum_os_version</key>
+		<string>10.9.0</string>
+		<key>name</key>
+		<string>GoogleChrome</string>
+		<key>unattended_install</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>remove_copied_items</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>53.0.2785.101</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>production</string>
+		</array>
+		<key>category</key>
+		<string>Internet</string>
+		<key>description</key>
+		<string>Chrome is a fast, simple, and secure web browser, built for the modern web.</string>
+		<key>developer</key>
+		<string>Google</string>
+		<key>display_name</key>
+		<string>Google Chrome</string>
+		<key>installer_item_hash</key>
 		<string>c569d66910b43044c35cc5b7d473505d933becb49080dab264eb6d4f310433b0</string>
 		<key>installer_item_location</key>
 		<string>apps/GoogleChrome-53.0.2785.89.dmg</string>
@@ -2495,6 +2561,94 @@ exit 0
 		<true/>
 		<key>version</key>
 		<string>7.1.7.2600</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>production</string>
+		</array>
+		<key>category</key>
+		<string>Mapping</string>
+		<key>description</key>
+		<string>Take a virtual journey to any location in the world. Explore 3D buildings, imagery, and terrain. Find cities, places and local businesses.</string>
+		<key>developer</key>
+		<string>Google</string>
+		<key>display_name</key>
+		<string>Google Earth</string>
+		<key>installed_size</key>
+		<integer>209562</integer>
+		<key>installer_item_hash</key>
+		<string>82bc3b49f9db82faf4d3ea95c5563b9d475278aaa2476cdc977960d42f0cbfd0</string>
+		<key>installer_item_location</key>
+		<string>apps/GoogleEarth-7.1.7.2602.dmg</string>
+		<key>installer_item_size</key>
+		<integer>87003</integer>
+		<key>installs</key>
+		<array>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>com.Google.GoogleEarthPlus</string>
+				<key>CFBundleName</key>
+				<string>Google Earth</string>
+				<key>CFBundleShortVersionString</key>
+				<string>7.1</string>
+				<key>CFBundleVersion</key>
+				<string>7.1.7.2602</string>
+				<key>minosversion</key>
+				<string>10.6.0</string>
+				<key>path</key>
+				<string>/Applications/Google Earth.app</string>
+				<key>type</key>
+				<string>application</string>
+				<key>version_comparison_key</key>
+				<string>CFBundleVersion</string>
+			</dict>
+			<dict>
+				<key>CFBundleShortVersionString</key>
+				<string>7.1</string>
+				<key>CFBundleVersion</key>
+				<string>7.1.7.2602</string>
+				<key>path</key>
+				<string>/Library/Internet Plug-Ins/Google Earth Web Plug-in.plugin</string>
+				<key>type</key>
+				<string>bundle</string>
+				<key>version_comparison_key</key>
+				<string>CFBundleVersion</string>
+			</dict>
+		</array>
+		<key>minimum_os_version</key>
+		<string>10.5.0</string>
+		<key>name</key>
+		<string>GoogleEarth</string>
+		<key>receipts</key>
+		<array>
+			<dict>
+				<key>installed_size</key>
+				<integer>103147</integer>
+				<key>packageid</key>
+				<string>com.Google.GoogleEarthPlus</string>
+				<key>version</key>
+				<string>7.1.0</string>
+			</dict>
+			<dict>
+				<key>installed_size</key>
+				<integer>106415</integer>
+				<key>packageid</key>
+				<string>com.Google.GoogleEarthPlugin.plugin</string>
+				<key>version</key>
+				<string>7.1.0</string>
+			</dict>
+		</array>
+		<key>unattended_install</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>removepackages</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>7.1.7.2602</string>
 	</dict>
 	<dict>
 		<key>autoremove</key>
@@ -9002,6 +9156,84 @@ defaults write /Library/Preferences/com.github.salopensource.sal.plist ServerURL
 		<true/>
 		<key>version</key>
 		<string>3.4.2</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>production</string>
+		</array>
+		<key>description</key>
+		<string>FUSE for OS X allows you to extend OS X's native file handling capabilities via third-party file systems. OSXFUSE is a successor to MacFUSE, which has been used as a software building block by dozens of products, but is no longer being maintained.</string>
+		<key>display_name</key>
+		<string>OSXFUSE</string>
+		<key>installed_size</key>
+		<integer>8771</integer>
+		<key>installer_choices_xml</key>
+		<array>
+			<dict>
+				<key>attributeSetting</key>
+				<integer>1</integer>
+				<key>choiceAttribute</key>
+				<string>selected</string>
+				<key>choiceIdentifier</key>
+				<string>10.8$OSXFUSEMacFUSE</string>
+			</dict>
+			<dict>
+				<key>attributeSetting</key>
+				<integer>1</integer>
+				<key>choiceAttribute</key>
+				<string>selected</string>
+				<key>choiceIdentifier</key>
+				<string>com.github.osxfuse.pkg.MacFUSE</string>
+			</dict>
+		</array>
+		<key>installer_item_hash</key>
+		<string>2c90e9ef7f54889fbf498efa42cf791f26cae9c5f8abdb17f1d030f484575ed1</string>
+		<key>installer_item_location</key>
+		<string>drivers/osxfuse-3.5.0.pkg</string>
+		<key>installer_item_size</key>
+		<integer>5110</integer>
+		<key>minimum_os_version</key>
+		<string>10.5.0</string>
+		<key>name</key>
+		<string>osxfuse</string>
+		<key>receipts</key>
+		<array>
+			<dict>
+				<key>installed_size</key>
+				<integer>4368</integer>
+				<key>packageid</key>
+				<string>com.github.osxfuse.pkg.Core</string>
+				<key>version</key>
+				<string>3.5.0</string>
+			</dict>
+			<dict>
+				<key>installed_size</key>
+				<integer>2656</integer>
+				<key>packageid</key>
+				<string>com.github.osxfuse.pkg.PrefPane</string>
+				<key>version</key>
+				<string>3.5.0</string>
+			</dict>
+			<dict>
+				<key>installed_size</key>
+				<integer>1747</integer>
+				<key>packageid</key>
+				<string>com.github.osxfuse.pkg.MacFUSE</string>
+				<key>version</key>
+				<string>3.5.0</string>
+			</dict>
+		</array>
+		<key>unattended_install</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>removepackages</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>3.5.0</string>
 	</dict>
 	<dict>
 		<key>autoremove</key>
