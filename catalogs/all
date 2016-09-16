@@ -2281,6 +2281,138 @@ exit 0
 		<key>display_name</key>
 		<string>Google Chrome</string>
 		<key>installer_item_hash</key>
+		<string>39a24075308292602a3a30f54e8a014b3e2568d241918c8635432c705b34ccee</string>
+		<key>installer_item_location</key>
+		<string>apps/GoogleChrome-53.0.2785.113.dmg</string>
+		<key>installer_item_size</key>
+		<integer>71705</integer>
+		<key>installer_type</key>
+		<string>copy_from_dmg</string>
+		<key>installs</key>
+		<array>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>com.google.Chrome</string>
+				<key>CFBundleName</key>
+				<string>Chrome</string>
+				<key>CFBundleShortVersionString</key>
+				<string>53.0.2785.113</string>
+				<key>CFBundleVersion</key>
+				<string>2785.113</string>
+				<key>minosversion</key>
+				<string>10.9.0</string>
+				<key>path</key>
+				<string>/Applications/Google Chrome.app</string>
+				<key>type</key>
+				<string>application</string>
+				<key>version_comparison_key</key>
+				<string>CFBundleShortVersionString</string>
+			</dict>
+		</array>
+		<key>items_to_copy</key>
+		<array>
+			<dict>
+				<key>destination_path</key>
+				<string>/Applications</string>
+				<key>source_item</key>
+				<string>Google Chrome.app</string>
+			</dict>
+		</array>
+		<key>minimum_os_version</key>
+		<string>10.9.0</string>
+		<key>name</key>
+		<string>GoogleChrome</string>
+		<key>unattended_install</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>remove_copied_items</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>53.0.2785.113</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>production</string>
+		</array>
+		<key>category</key>
+		<string>Internet</string>
+		<key>description</key>
+		<string>Chrome is a fast, simple, and secure web browser, built for the modern web.</string>
+		<key>developer</key>
+		<string>Google</string>
+		<key>display_name</key>
+		<string>Google Chrome</string>
+		<key>installer_item_hash</key>
+		<string>d9cbfbf961bbe5a64ddb6f80a5f0e602e877554791e3bf8e6b9f10470412cdd8</string>
+		<key>installer_item_location</key>
+		<string>apps/GoogleChrome-53.0.2785.116.dmg</string>
+		<key>installer_item_size</key>
+		<integer>71705</integer>
+		<key>installer_type</key>
+		<string>copy_from_dmg</string>
+		<key>installs</key>
+		<array>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>com.google.Chrome</string>
+				<key>CFBundleName</key>
+				<string>Chrome</string>
+				<key>CFBundleShortVersionString</key>
+				<string>53.0.2785.116</string>
+				<key>CFBundleVersion</key>
+				<string>2785.116</string>
+				<key>minosversion</key>
+				<string>10.9.0</string>
+				<key>path</key>
+				<string>/Applications/Google Chrome.app</string>
+				<key>type</key>
+				<string>application</string>
+				<key>version_comparison_key</key>
+				<string>CFBundleShortVersionString</string>
+			</dict>
+		</array>
+		<key>items_to_copy</key>
+		<array>
+			<dict>
+				<key>destination_path</key>
+				<string>/Applications</string>
+				<key>source_item</key>
+				<string>Google Chrome.app</string>
+			</dict>
+		</array>
+		<key>minimum_os_version</key>
+		<string>10.9.0</string>
+		<key>name</key>
+		<string>GoogleChrome</string>
+		<key>unattended_install</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>remove_copied_items</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>53.0.2785.116</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>production</string>
+		</array>
+		<key>category</key>
+		<string>Internet</string>
+		<key>description</key>
+		<string>Chrome is a fast, simple, and secure web browser, built for the modern web.</string>
+		<key>developer</key>
+		<string>Google</string>
+		<key>display_name</key>
+		<string>Google Chrome</string>
+		<key>installer_item_hash</key>
 		<string>c569d66910b43044c35cc5b7d473505d933becb49080dab264eb6d4f310433b0</string>
 		<key>installer_item_location</key>
 		<string>apps/GoogleChrome-53.0.2785.89.dmg</string>
@@ -2968,6 +3100,51 @@ exit 0
 			<string>production</string>
 		</array>
 		<key>category</key>
+		<string>Internet Plugin</string>
+		<key>description</key>
+		<string>Microsoft Silverlight is a free web-browser plug-in that enables interactive media experiences, rich business applications and immersive mobile apps.</string>
+		<key>display_name</key>
+		<string>Microsoft Silverlight</string>
+		<key>installed_size</key>
+		<integer>35674</integer>
+		<key>installer_item_hash</key>
+		<string>9bb96bc1a6b788e035377055f4953b793d5c6e32928e7a493a3385b9e37f9eda</string>
+		<key>installer_item_location</key>
+		<string>apps/Silverlight-5.1.50709.0.dmg</string>
+		<key>installer_item_size</key>
+		<integer>15321</integer>
+		<key>minimum_os_version</key>
+		<string>10.5.0</string>
+		<key>name</key>
+		<string>Silverlight</string>
+		<key>receipts</key>
+		<array>
+			<dict>
+				<key>installed_size</key>
+				<integer>35674</integer>
+				<key>packageid</key>
+				<string>com.microsoft.silverlight.plugin</string>
+				<key>version</key>
+				<string>5.1.50709.0</string>
+			</dict>
+		</array>
+		<key>unattended_install</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>removepackages</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>5.1.50709.0</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>production</string>
+		</array>
+		<key>category</key>
 		<string>Internet</string>
 		<key>description</key>
 		<string>Calling, seeing, messaging and sharing with others – wherever they are.</string>
@@ -3091,6 +3268,72 @@ exit 0
 		<true/>
 		<key>version</key>
 		<string>7.35.0.231</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>production</string>
+		</array>
+		<key>category</key>
+		<string>Internet</string>
+		<key>description</key>
+		<string>Calling, seeing, messaging and sharing with others – wherever they are.</string>
+		<key>developer</key>
+		<string>Microsoft</string>
+		<key>display_name</key>
+		<string>Skype</string>
+		<key>installer_item_hash</key>
+		<string>d168a802ed88882530c424f5704408a17ab37b1a022c5058994b713a8a82b604</string>
+		<key>installer_item_location</key>
+		<string>apps/Skype-7.36.0.217.dmg</string>
+		<key>installer_item_size</key>
+		<integer>44591</integer>
+		<key>installer_type</key>
+		<string>copy_from_dmg</string>
+		<key>installs</key>
+		<array>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>com.skype.skype</string>
+				<key>CFBundleName</key>
+				<string>Skype</string>
+				<key>CFBundleShortVersionString</key>
+				<string>7.36</string>
+				<key>CFBundleVersion</key>
+				<string>7.36.0.217</string>
+				<key>minosversion</key>
+				<string>10.9</string>
+				<key>path</key>
+				<string>/Applications/Skype.app</string>
+				<key>type</key>
+				<string>application</string>
+				<key>version_comparison_key</key>
+				<string>CFBundleVersion</string>
+			</dict>
+		</array>
+		<key>items_to_copy</key>
+		<array>
+			<dict>
+				<key>destination_path</key>
+				<string>/Applications</string>
+				<key>source_item</key>
+				<string>Skype.app</string>
+			</dict>
+		</array>
+		<key>minimum_os_version</key>
+		<string>10.9</string>
+		<key>name</key>
+		<string>Skype</string>
+		<key>unattended_install</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>remove_copied_items</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>7.36.0.217</string>
 	</dict>
 	<dict>
 		<key>autoremove</key>
@@ -4233,6 +4476,53 @@ exit 0
 		<array>
 			<string>production</string>
 		</array>
+		<key>category</key>
+		<string>Internet Plugin</string>
+		<key>description</key>
+		<string>The Adobe AIR runtime enables developers to package the same code into native applications and games for Windows and Mac OS desktops as well as iOS and Android devices, reaching over a billion desktop systems and mobile app stores for over 500 million devices.</string>
+		<key>developer</key>
+		<string>Adobe</string>
+		<key>display_name</key>
+		<string>Adobe AIR</string>
+		<key>installed_size</key>
+		<integer>81524</integer>
+		<key>installer_item_hash</key>
+		<string>23f3236b3d659e1ff340831b2eec9aa1121a4ce9fb1d9add83a8e6677799b783</string>
+		<key>installer_item_location</key>
+		<string>apps/adobe/AdobeAIR-23.0.0.257.pkg</string>
+		<key>installer_item_size</key>
+		<integer>35024</integer>
+		<key>minimum_os_version</key>
+		<string>10.5.0</string>
+		<key>name</key>
+		<string>AdobeAIR</string>
+		<key>receipts</key>
+		<array>
+			<dict>
+				<key>installed_size</key>
+				<integer>81524</integer>
+				<key>packageid</key>
+				<string>com.adobe.pkg.AIR</string>
+				<key>version</key>
+				<string>23.0.0.257</string>
+			</dict>
+		</array>
+		<key>unattended_install</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>removepackages</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>23.0.0.257</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>production</string>
+		</array>
 		<key>description</key>
 		<string>iPhoto lets you do more than you ever thought possible with your photos, with easy ways to find, sort, and rediscover your favorite shots. Simple but powerful editing tools let you turn good photos into magnificent ones. Share directly to Facebook, Flickr, Twitter, and Messages. iPhoto also works with iCloud, so the photos you take on your iOS devices automatically appear in iPhoto, and you can share selected photos and videos with family and friends using iCloud Photo Sharing. You can even create professional-quality photo books, calendars and letterpress cards quickly and easily.</string>
 		<key>display_name</key>
@@ -4795,6 +5085,85 @@ The setup procedure includes installing the MIT CA as well as the user's persona
 		<true/>
 		<key>version</key>
 		<string>12.2.0</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>production</string>
+		</array>
+		<key>category</key>
+		<string>File Sharing</string>
+		<key>description</key>
+		<string>Dropbox is a free service that lets you bring all your photos, docs, and videos anywhere. This means that any file you save to your Dropbox will automatically save to all your computers, phones and even the Dropbox website.</string>
+		<key>developer</key>
+		<string>Dropbox</string>
+		<key>display_name</key>
+		<string>Dropbox</string>
+		<key>installer_item_hash</key>
+		<string>ef7a78fc1973013cf27650eb7b13086aa1081d7aeadf5b2ded88c33f72f96ea9</string>
+		<key>installer_item_location</key>
+		<string>apps/Dropbox/Dropbox-10.4.25.dmg</string>
+		<key>installer_item_size</key>
+		<integer>92375</integer>
+		<key>installer_type</key>
+		<string>copy_from_dmg</string>
+		<key>installs</key>
+		<array>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>com.getdropbox.dropbox</string>
+				<key>CFBundleName</key>
+				<string>Dropbox</string>
+				<key>path</key>
+				<string>/Applications/Dropbox.app</string>
+				<key>type</key>
+				<string>file</string>
+			</dict>
+		</array>
+		<key>items_to_copy</key>
+		<array>
+			<dict>
+				<key>destination_path</key>
+				<string>/Applications</string>
+				<key>source_item</key>
+				<string>Dropbox.app</string>
+			</dict>
+		</array>
+		<key>minimum_os_version</key>
+		<string>10.6</string>
+		<key>name</key>
+		<string>Dropbox</string>
+		<key>postinstall_script</key>
+		<string>#!/bin/sh
+# based on Ruby postinstall script by Riley Shott:
+# https://groups.google.com/group/munki-dev/browse_thread/thread/a2813e7f62535f13/63d127534541f863
+# modifications:
+# - always extract the helper tool with each install instead of skipping if it exists
+# - remove xattr com.apple.quarantine removal, as Munki will have already done this upon
+#   installation; normal autopkg runs also won't quarantine the download to begin with
+
+HELPER_SRC_PATH=/Applications/Dropbox.app/Contents/Resources/DropboxHelperInstaller.tgz
+HELPER_DST_DIR=/Library/DropboxHelperTools
+HELPER_DST_PATH="$HELPER_DST_DIR/DropboxHelperInstaller"
+
+if [ -e "$HELPER_SRC_PATH" ]; then
+  [ -d "$HELPER_DST_DIR" ] || mkdir "$HELPER_DST_DIR"
+  /usr/bin/tar -C "$HELPER_DST_DIR" -xz -f "$HELPER_SRC_PATH"
+  /bin/chmod 04511 "$HELPER_DST_PATH"
+  /usr/sbin/chown root:wheel "$HELPER_DST_PATH"
+else
+  echo "Expected $HELPER_SRC_PATH, but it was not present in the Dropbox dmg."
+  exit 1
+fi
+</string>
+		<key>uninstall_method</key>
+		<string>remove_copied_items</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>10.4.25</string>
 	</dict>
 	<dict>
 		<key>autoremove</key>
@@ -5454,6 +5823,68 @@ fi
 		<true/>
 		<key>version</key>
 		<string>6.8</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>production</string>
+		</array>
+		<key>description</key>
+		<string>Evernote makes it easy to remember things big and small from your everyday life using your computer, phone, tablet and the web.</string>
+		<key>display_name</key>
+		<string>Evernote</string>
+		<key>installer_item_hash</key>
+		<string>13b061dac62282e1e84164e1de798986339145e7a46b0665e8f62da7f8bcddc4</string>
+		<key>installer_item_location</key>
+		<string>apps/Evernote/Evernote-6.9.dmg</string>
+		<key>installer_item_size</key>
+		<integer>70458</integer>
+		<key>installer_type</key>
+		<string>copy_from_dmg</string>
+		<key>installs</key>
+		<array>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>com.evernote.Evernote</string>
+				<key>CFBundleName</key>
+				<string>Evernote</string>
+				<key>CFBundleShortVersionString</key>
+				<string>6.9</string>
+				<key>CFBundleVersion</key>
+				<string>453991</string>
+				<key>minosversion</key>
+				<string>10.10</string>
+				<key>path</key>
+				<string>/Applications/Evernote.app</string>
+				<key>type</key>
+				<string>application</string>
+				<key>version_comparison_key</key>
+				<string>CFBundleShortVersionString</string>
+			</dict>
+		</array>
+		<key>items_to_copy</key>
+		<array>
+			<dict>
+				<key>destination_path</key>
+				<string>/Applications</string>
+				<key>source_item</key>
+				<string>Evernote.app</string>
+			</dict>
+		</array>
+		<key>minimum_os_version</key>
+		<string>10.10</string>
+		<key>name</key>
+		<string>Evernote</string>
+		<key>unattended_install</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>remove_copied_items</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>6.9</string>
 	</dict>
 	<dict>
 		<key>autoremove</key>
@@ -6481,6 +6912,517 @@ rm '/Library/PrivilegedHelperTools/Google Drive Icon Helper'
 		<false/>
 		<key>blocking_applications</key>
 		<array>
+			<string>MSN Messenger</string>
+			<string>Microsoft Lync</string>
+			<string>Microsoft Cert Manager</string>
+			<string>Microsoft Chart Converter</string>
+			<string>Microsoft Clip Gallery</string>
+			<string>Microsoft Entourage</string>
+			<string>Microsoft Outlook</string>
+			<string>Microsoft Error Reporting</string>
+			<string>Microsoft Excel</string>
+			<string>Microsoft Graph</string>
+			<string>Microsoft Help Viewer</string>
+			<string>Microsoft Language Register</string>
+			<string>Microsoft Communicator</string>
+			<string>Microsoft Messenger</string>
+			<string>Microsoft PowerPoint</string>
+			<string>Microsoft Query</string>
+			<string>Microsoft Word</string>
+			<string>My Day</string>
+			<string>Organization Chart</string>
+			<string>Expression Media</string>
+			<string>Remote Desktop Connection</string>
+			<string>Opera</string>
+			<string>Google Chrome</string>
+			<string>Firefox</string>
+			<string>Safari</string>
+		</array>
+		<key>catalogs</key>
+		<array>
+			<string>production</string>
+		</array>
+		<key>category</key>
+		<string>Productivity</string>
+		<key>description</key>
+		<string>&lt;html&gt;&lt;p&gt;This update improves security. It includes fixes for vulnerabilities that an attacker can use to overwrite the contents of your computer's memory with malicious code.&lt;/p&gt;
+
+&lt;p&gt;For detailed information about this update, please visit the following Web site: &lt;/p&gt;
+
+&lt;p&gt;&lt;a href="https://go.microsoft.com/fwlink/?LinkId=825109" target="_blank"&gt;https://go.microsoft.com/fwlink/?LinkId=825109&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;For additional assistance, or to obtain a downloadable version of this update, visit the &lt;a href="https://go.microsoft.com/fwlink/?LinkId=216459" target="_blank"&gt;Microsoft Web site&lt;/a&gt;.&lt;/p&gt;
+&lt;/html&gt;</string>
+		<key>developer</key>
+		<string>Microsoft</string>
+		<key>display_name</key>
+		<string>Office 2011 14.6.8 Update</string>
+		<key>installed_size</key>
+		<integer>338715</integer>
+		<key>installer_item_hash</key>
+		<string>569fb2359eba5a7638612ebabf5d4752a911af2d2b45bbd530a9f4f2210896f1</string>
+		<key>installer_item_location</key>
+		<string>apps/Office2011/Office2011-1468Update_EN-US-14.6.8.dmg</string>
+		<key>installer_item_size</key>
+		<integer>116117</integer>
+		<key>installs</key>
+		<array>
+			<dict>
+				<key>CFBundleShortVersionString</key>
+				<string>14.6.8</string>
+				<key>CFBundleVersion</key>
+				<string>14.6.8</string>
+				<key>path</key>
+				<string>/Applications/Microsoft Office 2011/Office/MicrosoftComponentPlugin.framework</string>
+				<key>type</key>
+				<string>bundle</string>
+				<key>version_comparison_key</key>
+				<string>CFBundleShortVersionString</string>
+			</dict>
+		</array>
+		<key>minimum_os_version</key>
+		<string>10.5.8</string>
+		<key>name</key>
+		<string>Office2011_update</string>
+		<key>receipts</key>
+		<array>
+			<dict>
+				<key>installed_size</key>
+				<integer>0</integer>
+				<key>packageid</key>
+				<string>com.microsoft.office.all.quit.pkg.14.6.8.update</string>
+				<key>version</key>
+				<string>14.6.8</string>
+			</dict>
+			<dict>
+				<key>installed_size</key>
+				<integer>4</integer>
+				<key>packageid</key>
+				<string>com.microsoft.office.en.readme.pkg.14.6.8.update</string>
+				<key>version</key>
+				<string>14.6.8</string>
+			</dict>
+			<dict>
+				<key>installed_size</key>
+				<integer>12673</integer>
+				<key>packageid</key>
+				<string>com.microsoft.office.en.core_resources.pkg.14.6.8.update</string>
+				<key>version</key>
+				<string>14.6.8</string>
+			</dict>
+			<dict>
+				<key>installed_size</key>
+				<integer>22459</integer>
+				<key>packageid</key>
+				<string>com.microsoft.office.all.ooxml.pkg.14.6.8.update</string>
+				<key>version</key>
+				<string>14.6.8</string>
+			</dict>
+			<dict>
+				<key>installed_size</key>
+				<integer>7</integer>
+				<key>packageid</key>
+				<string>com.microsoft.office.en.clipart.pkg.14.6.8.update</string>
+				<key>version</key>
+				<string>14.6.8</string>
+			</dict>
+			<dict>
+				<key>installed_size</key>
+				<integer>35</integer>
+				<key>packageid</key>
+				<string>com.microsoft.office.en.equationeditor_resources.pkg.14.6.8.update</string>
+				<key>version</key>
+				<string>14.6.8</string>
+			</dict>
+			<dict>
+				<key>installed_size</key>
+				<integer>25</integer>
+				<key>packageid</key>
+				<string>com.microsoft.office.en.graph_resources.pkg.14.6.8.update</string>
+				<key>version</key>
+				<string>14.6.8</string>
+			</dict>
+			<dict>
+				<key>installed_size</key>
+				<integer>33</integer>
+				<key>packageid</key>
+				<string>com.microsoft.office.en.langregister.pkg.14.6.8.update</string>
+				<key>version</key>
+				<string>14.6.8</string>
+			</dict>
+			<dict>
+				<key>installed_size</key>
+				<integer>5</integer>
+				<key>packageid</key>
+				<string>com.microsoft.office.en.sharepointbrowserplugin_resources.pkg.14.6.8.update</string>
+				<key>version</key>
+				<string>14.6.8</string>
+			</dict>
+			<dict>
+				<key>installed_size</key>
+				<integer>1804</integer>
+				<key>packageid</key>
+				<string>com.microsoft.office.en.word_resources.pkg.14.6.8.update</string>
+				<key>version</key>
+				<string>14.6.8</string>
+			</dict>
+			<dict>
+				<key>installed_size</key>
+				<integer>33</integer>
+				<key>packageid</key>
+				<string>com.microsoft.office.en.word_wizards.pkg.14.6.8.update</string>
+				<key>version</key>
+				<string>14.6.8</string>
+			</dict>
+			<dict>
+				<key>installed_size</key>
+				<integer>1904</integer>
+				<key>packageid</key>
+				<string>com.microsoft.office.en.excel_resources.pkg.14.6.8.update</string>
+				<key>version</key>
+				<string>14.6.8</string>
+			</dict>
+			<dict>
+				<key>installed_size</key>
+				<integer>180</integer>
+				<key>packageid</key>
+				<string>com.microsoft.office.en.excel_templates.pkg.14.6.8.update</string>
+				<key>version</key>
+				<string>14.6.8</string>
+			</dict>
+			<dict>
+				<key>installed_size</key>
+				<integer>6649</integer>
+				<key>packageid</key>
+				<string>com.microsoft.office.en.query.pkg.14.6.8.update</string>
+				<key>version</key>
+				<string>14.6.8</string>
+			</dict>
+			<dict>
+				<key>installed_size</key>
+				<integer>858</integer>
+				<key>packageid</key>
+				<string>com.microsoft.office.en.solver.pkg.14.6.8.update</string>
+				<key>version</key>
+				<string>14.6.8</string>
+			</dict>
+			<dict>
+				<key>installed_size</key>
+				<integer>906</integer>
+				<key>packageid</key>
+				<string>com.microsoft.office.en.powerpoint_resources.pkg.14.6.8.update</string>
+				<key>version</key>
+				<string>14.6.8</string>
+			</dict>
+			<dict>
+				<key>installed_size</key>
+				<integer>5359</integer>
+				<key>packageid</key>
+				<string>com.microsoft.office.en.outlook_resources.pkg.14.6.8.update</string>
+				<key>version</key>
+				<string>14.6.8</string>
+			</dict>
+			<dict>
+				<key>installed_size</key>
+				<integer>11</integer>
+				<key>packageid</key>
+				<string>com.microsoft.office.en.outlook_scriptmenuitems.pkg.14.6.8.update</string>
+				<key>version</key>
+				<string>14.6.8</string>
+			</dict>
+			<dict>
+				<key>installed_size</key>
+				<integer>372</integer>
+				<key>packageid</key>
+				<string>com.microsoft.office.all.proofing_catalan.pkg.14.6.8.update</string>
+				<key>version</key>
+				<string>14.6.8</string>
+			</dict>
+			<dict>
+				<key>installed_size</key>
+				<integer>372</integer>
+				<key>packageid</key>
+				<string>com.microsoft.office.all.proofing_danish.pkg.14.6.8.update</string>
+				<key>version</key>
+				<string>14.6.8</string>
+			</dict>
+			<dict>
+				<key>installed_size</key>
+				<integer>372</integer>
+				<key>packageid</key>
+				<string>com.microsoft.office.all.proofing_dutch.pkg.14.6.8.update</string>
+				<key>version</key>
+				<string>14.6.8</string>
+			</dict>
+			<dict>
+				<key>installed_size</key>
+				<integer>1807</integer>
+				<key>packageid</key>
+				<string>com.microsoft.office.all.proofing_english.pkg.14.6.8.update</string>
+				<key>version</key>
+				<string>14.6.8</string>
+			</dict>
+			<dict>
+				<key>installed_size</key>
+				<integer>7</integer>
+				<key>packageid</key>
+				<string>com.microsoft.office.all.proofing_finnish.pkg.14.6.8.update</string>
+				<key>version</key>
+				<string>14.6.8</string>
+			</dict>
+			<dict>
+				<key>installed_size</key>
+				<integer>1349</integer>
+				<key>packageid</key>
+				<string>com.microsoft.office.all.proofing_french.pkg.14.6.8.update</string>
+				<key>version</key>
+				<string>14.6.8</string>
+			</dict>
+			<dict>
+				<key>installed_size</key>
+				<integer>1852</integer>
+				<key>packageid</key>
+				<string>com.microsoft.office.all.proofing_german.pkg.14.6.8.update</string>
+				<key>version</key>
+				<string>14.6.8</string>
+			</dict>
+			<dict>
+				<key>installed_size</key>
+				<integer>372</integer>
+				<key>packageid</key>
+				<string>com.microsoft.office.all.proofing_italian.pkg.14.6.8.update</string>
+				<key>version</key>
+				<string>14.6.8</string>
+			</dict>
+			<dict>
+				<key>installed_size</key>
+				<integer>1783</integer>
+				<key>packageid</key>
+				<string>com.microsoft.office.all.proofing_italian_grammar.pkg.14.6.8.update</string>
+				<key>version</key>
+				<string>14.6.8</string>
+			</dict>
+			<dict>
+				<key>installed_size</key>
+				<integer>280</integer>
+				<key>packageid</key>
+				<string>com.microsoft.office.all.proofing_japanese.pkg.14.6.8.update</string>
+				<key>version</key>
+				<string>14.6.8</string>
+			</dict>
+			<dict>
+				<key>installed_size</key>
+				<integer>741</integer>
+				<key>packageid</key>
+				<string>com.microsoft.office.all.proofing_norwegian.pkg.14.6.8.update</string>
+				<key>version</key>
+				<string>14.6.8</string>
+			</dict>
+			<dict>
+				<key>installed_size</key>
+				<integer>372</integer>
+				<key>packageid</key>
+				<string>com.microsoft.office.all.proofing_portuguese.pkg.14.6.8.update</string>
+				<key>version</key>
+				<string>14.6.8</string>
+			</dict>
+			<dict>
+				<key>installed_size</key>
+				<integer>372</integer>
+				<key>packageid</key>
+				<string>com.microsoft.office.all.proofing_brazilian.pkg.14.6.8.update</string>
+				<key>version</key>
+				<string>14.6.8</string>
+			</dict>
+			<dict>
+				<key>installed_size</key>
+				<integer>373</integer>
+				<key>packageid</key>
+				<string>com.microsoft.office.all.proofing_spanish.pkg.14.6.8.update</string>
+				<key>version</key>
+				<string>14.6.8</string>
+			</dict>
+			<dict>
+				<key>installed_size</key>
+				<integer>373</integer>
+				<key>packageid</key>
+				<string>com.microsoft.office.all.proofing_swedish.pkg.14.6.8.update</string>
+				<key>version</key>
+				<string>14.6.8</string>
+			</dict>
+			<dict>
+				<key>installed_size</key>
+				<integer>372</integer>
+				<key>packageid</key>
+				<string>com.microsoft.office.all.proofing_czech.pkg.14.6.8.update</string>
+				<key>version</key>
+				<string>14.6.8</string>
+			</dict>
+			<dict>
+				<key>installed_size</key>
+				<integer>372</integer>
+				<key>packageid</key>
+				<string>com.microsoft.office.all.proofing_polish.pkg.14.6.8.update</string>
+				<key>version</key>
+				<string>14.6.8</string>
+			</dict>
+			<dict>
+				<key>installed_size</key>
+				<integer>372</integer>
+				<key>packageid</key>
+				<string>com.microsoft.office.all.proofing_russian.pkg.14.6.8.update</string>
+				<key>version</key>
+				<string>14.6.8</string>
+			</dict>
+			<dict>
+				<key>installed_size</key>
+				<integer>372</integer>
+				<key>packageid</key>
+				<string>com.microsoft.office.all.proofing_turkish.pkg.14.6.8.update</string>
+				<key>version</key>
+				<string>14.6.8</string>
+			</dict>
+			<dict>
+				<key>installed_size</key>
+				<integer>401</integer>
+				<key>packageid</key>
+				<string>com.microsoft.office.en.dcc_resources.pkg.14.6.8.update</string>
+				<key>version</key>
+				<string>14.6.8</string>
+			</dict>
+			<dict>
+				<key>installed_size</key>
+				<integer>241</integer>
+				<key>packageid</key>
+				<string>com.microsoft.office.all.fonts.pkg.14.6.8.update</string>
+				<key>version</key>
+				<string>14.6.8</string>
+			</dict>
+			<dict>
+				<key>installed_size</key>
+				<integer>11241</integer>
+				<key>packageid</key>
+				<string>com.microsoft.office.all.automator.pkg.14.6.8.update</string>
+				<key>version</key>
+				<string>14.6.8</string>
+			</dict>
+			<dict>
+				<key>installed_size</key>
+				<integer>55</integer>
+				<key>packageid</key>
+				<string>com.microsoft.office.en.automator_workflow.pkg.14.6.8.update</string>
+				<key>version</key>
+				<string>14.6.8</string>
+			</dict>
+			<dict>
+				<key>installed_size</key>
+				<integer>6</integer>
+				<key>packageid</key>
+				<string>com.microsoft.office.all.equationeditor.pkg.14.6.8.update</string>
+				<key>version</key>
+				<string>14.6.8</string>
+			</dict>
+			<dict>
+				<key>installed_size</key>
+				<integer>3622</integer>
+				<key>packageid</key>
+				<string>com.microsoft.office.all.graph.pkg.14.6.8.update</string>
+				<key>version</key>
+				<string>14.6.8</string>
+			</dict>
+			<dict>
+				<key>installed_size</key>
+				<integer>242</integer>
+				<key>packageid</key>
+				<string>com.microsoft.office.all.sharepointbrowserplugin.pkg.14.6.8.update</string>
+				<key>version</key>
+				<string>14.6.8</string>
+			</dict>
+			<dict>
+				<key>installed_size</key>
+				<integer>36961</integer>
+				<key>packageid</key>
+				<string>com.microsoft.office.all.word.pkg.14.6.8.update</string>
+				<key>version</key>
+				<string>14.6.8</string>
+			</dict>
+			<dict>
+				<key>installed_size</key>
+				<integer>27717</integer>
+				<key>packageid</key>
+				<string>com.microsoft.office.all.excel.pkg.14.6.8.update</string>
+				<key>version</key>
+				<string>14.6.8</string>
+			</dict>
+			<dict>
+				<key>installed_size</key>
+				<integer>19517</integer>
+				<key>packageid</key>
+				<string>com.microsoft.office.all.powerpoint.pkg.14.6.8.update</string>
+				<key>version</key>
+				<string>14.6.8</string>
+			</dict>
+			<dict>
+				<key>installed_size</key>
+				<integer>24693</integer>
+				<key>packageid</key>
+				<string>com.microsoft.office.all.outlook.pkg.14.6.8.update</string>
+				<key>version</key>
+				<string>14.6.8</string>
+			</dict>
+			<dict>
+				<key>installed_size</key>
+				<integer>5524</integer>
+				<key>packageid</key>
+				<string>com.microsoft.office.all.vb.pkg.14.6.8.update</string>
+				<key>version</key>
+				<string>14.6.8</string>
+			</dict>
+			<dict>
+				<key>installed_size</key>
+				<integer>632</integer>
+				<key>packageid</key>
+				<string>com.microsoft.office.all.dcc.pkg.14.6.8.update</string>
+				<key>version</key>
+				<string>14.6.8</string>
+			</dict>
+			<dict>
+				<key>installed_size</key>
+				<integer>0</integer>
+				<key>packageid</key>
+				<string>com.microsoft.office.all.fix_permissions.pkg.14.6.8</string>
+				<key>version</key>
+				<string>14.6.8</string>
+			</dict>
+			<dict>
+				<key>installed_size</key>
+				<integer>142633</integer>
+				<key>packageid</key>
+				<string>com.microsoft.office.all.core.pkg.14.6.8.update</string>
+				<key>version</key>
+				<string>14.6.8</string>
+			</dict>
+		</array>
+		<key>requires</key>
+		<array>
+			<string>Office2011_update-14.1.0</string>
+		</array>
+		<key>uninstall_method</key>
+		<string>removepackages</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>update_for</key>
+		<array>
+			<string>Office2011</string>
+		</array>
+		<key>version</key>
+		<string>14.6.8</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>blocking_applications</key>
+		<array>
 			<string>Microsoft Excel</string>
 			<string>Microsoft Error Reporting</string>
 			<string>Microsoft Auto Update</string>
@@ -6833,6 +7775,76 @@ rm '/Library/PrivilegedHelperTools/Google Drive Icon Helper'
 		<false/>
 		<key>blocking_applications</key>
 		<array>
+			<string>Microsoft Excel</string>
+			<string>Microsoft Error Reporting</string>
+			<string>Microsoft Auto Update</string>
+		</array>
+		<key>catalogs</key>
+		<array>
+			<string>production</string>
+		</array>
+		<key>category</key>
+		<string>Productivity</string>
+		<key>description</key>
+		<string>&lt;html&gt;&lt;p style="font-family:Helvetica;font-size:12px"&gt;This update introduces 64-bit Office for Mac!&lt;/br&gt;&lt;/br&gt;For detailed information about this update, &lt;b&gt;and important notes for users of add-ins&lt;/b&gt;, please visit the following website: &lt;/p&gt;
+
+&lt;p style="font-family:Helvetica;font-size:12px"&gt;&lt;a href="https://go.microsoft.com/fwlink/?LinkID=825107" target="_blank"&gt;https://go.microsoft.com/fwlink/?LinkID=825107&lt;/a&gt;&lt;/p&gt;&lt;/html&gt;</string>
+		<key>developer</key>
+		<string>Microsoft</string>
+		<key>installed_size</key>
+		<integer>1603066</integer>
+		<key>installer_item_hash</key>
+		<string>68778cd2fb2818e42d2126232576900f4ee45a77f4fd8a0af2f1251aa388622d</string>
+		<key>installer_item_location</key>
+		<string>apps/Office2016/MSExcel2016-15.26.16091000.pkg</string>
+		<key>installer_item_size</key>
+		<integer>866535</integer>
+		<key>installs</key>
+		<array>
+			<dict>
+				<key>CFBundleVersion</key>
+				<string>15.26.16091000</string>
+				<key>path</key>
+				<string>/Applications/Microsoft Excel.app</string>
+				<key>type</key>
+				<string>application</string>
+				<key>version_comparison_key</key>
+				<string>CFBundleVersion</string>
+			</dict>
+		</array>
+		<key>minimum_os_version</key>
+		<string>10.10.0</string>
+		<key>name</key>
+		<string>MSExcel2016</string>
+		<key>receipts</key>
+		<array>
+			<dict>
+				<key>installed_size</key>
+				<integer>1603066</integer>
+				<key>packageid</key>
+				<string>com.microsoft.package.Microsoft_Excel.app</string>
+				<key>version</key>
+				<string>15.26.16091000</string>
+			</dict>
+		</array>
+		<key>requires</key>
+		<array>
+			<string>Office2016License</string>
+		</array>
+		<key>unattended_install</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>removepackages</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>15.26.16091000</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>blocking_applications</key>
+		<array>
 			<string>Microsoft OneNote</string>
 			<string>Microsoft Error Reporting</string>
 			<string>Microsoft Auto Update</string>
@@ -6969,6 +7981,76 @@ rm '/Library/PrivilegedHelperTools/Google Drive Icon Helper'
 		<true/>
 		<key>version</key>
 		<string>15.25.16081700</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>blocking_applications</key>
+		<array>
+			<string>Microsoft OneNote</string>
+			<string>Microsoft Error Reporting</string>
+			<string>Microsoft Auto Update</string>
+		</array>
+		<key>catalogs</key>
+		<array>
+			<string>production</string>
+		</array>
+		<key>category</key>
+		<string>Productivity</string>
+		<key>description</key>
+		<string>&lt;html&gt;&lt;p style="font-family:Helvetica;font-size:12px"&gt;This update introduces 64-bit Office for Mac!&lt;/br&gt;&lt;/br&gt;For detailed information about this update, &lt;b&gt;and important notes for users of add-ins&lt;/b&gt;, please visit the following website: &lt;/p&gt;
+
+&lt;p style="font-family:Helvetica;font-size:12px"&gt;&lt;a href="https://go.microsoft.com/fwlink/?LinkID=825107" target="_blank"&gt;https://go.microsoft.com/fwlink/?LinkID=825107&lt;/a&gt;&lt;/p&gt;&lt;/html&gt;</string>
+		<key>developer</key>
+		<string>Microsoft</string>
+		<key>installed_size</key>
+		<integer>829383</integer>
+		<key>installer_item_hash</key>
+		<string>b156a77816d6e57ae0f73135f0e8e4440f03f92dd40c1aeb3c74bb377b64b5e9</string>
+		<key>installer_item_location</key>
+		<string>apps/Office2016/MSOneNote2016-15.26.16091000.pkg</string>
+		<key>installer_item_size</key>
+		<integer>432479</integer>
+		<key>installs</key>
+		<array>
+			<dict>
+				<key>CFBundleVersion</key>
+				<string>15.26.16091000</string>
+				<key>path</key>
+				<string>/Applications/Microsoft OneNote.app</string>
+				<key>type</key>
+				<string>application</string>
+				<key>version_comparison_key</key>
+				<string>CFBundleVersion</string>
+			</dict>
+		</array>
+		<key>minimum_os_version</key>
+		<string>10.10.0</string>
+		<key>name</key>
+		<string>MSOneNote2016</string>
+		<key>receipts</key>
+		<array>
+			<dict>
+				<key>installed_size</key>
+				<integer>829383</integer>
+				<key>packageid</key>
+				<string>com.microsoft.package.Microsoft_OneNote.app</string>
+				<key>version</key>
+				<string>15.26.16091000</string>
+			</dict>
+		</array>
+		<key>requires</key>
+		<array>
+			<string>Office2016License</string>
+		</array>
+		<key>unattended_install</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>removepackages</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>15.26.16091000</string>
 	</dict>
 	<dict>
 		<key>autoremove</key>
@@ -7117,6 +8199,76 @@ rm '/Library/PrivilegedHelperTools/Google Drive Icon Helper'
 		<false/>
 		<key>blocking_applications</key>
 		<array>
+			<string>Microsoft Outlook</string>
+			<string>Microsoft Error Reporting</string>
+			<string>Microsoft Auto Update</string>
+		</array>
+		<key>catalogs</key>
+		<array>
+			<string>production</string>
+		</array>
+		<key>category</key>
+		<string>Productivity</string>
+		<key>description</key>
+		<string>&lt;html&gt;&lt;p style="font-family:Helvetica;font-size:12px"&gt;This update introduces 64-bit Office for Mac!&lt;/br&gt;&lt;/br&gt;For detailed information about this update, &lt;b&gt;and important notes for users of add-ins&lt;/b&gt;, please visit the following website: &lt;/p&gt;
+
+&lt;p style="font-family:Helvetica;font-size:12px"&gt;&lt;a href="https://go.microsoft.com/fwlink/?LinkID=825107" target="_blank"&gt;https://go.microsoft.com/fwlink/?LinkID=825107&lt;/a&gt;&lt;/p&gt;&lt;/html&gt;</string>
+		<key>developer</key>
+		<string>Microsoft</string>
+		<key>installed_size</key>
+		<integer>1393178</integer>
+		<key>installer_item_hash</key>
+		<string>bda62bea131f448b9bd573a86ba2184ae4880fbee596206a2a259de25a0969b7</string>
+		<key>installer_item_location</key>
+		<string>apps/Office2016/MSOutlook2016-15.26.16091000.pkg</string>
+		<key>installer_item_size</key>
+		<integer>702767</integer>
+		<key>installs</key>
+		<array>
+			<dict>
+				<key>CFBundleVersion</key>
+				<string>15.26.16091000</string>
+				<key>path</key>
+				<string>/Applications/Microsoft Outlook.app</string>
+				<key>type</key>
+				<string>application</string>
+				<key>version_comparison_key</key>
+				<string>CFBundleVersion</string>
+			</dict>
+		</array>
+		<key>minimum_os_version</key>
+		<string>10.10.0</string>
+		<key>name</key>
+		<string>MSOutlook2016</string>
+		<key>receipts</key>
+		<array>
+			<dict>
+				<key>installed_size</key>
+				<integer>1393178</integer>
+				<key>packageid</key>
+				<string>com.microsoft.package.Microsoft_Outlook.app</string>
+				<key>version</key>
+				<string>15.26.16091000</string>
+			</dict>
+		</array>
+		<key>requires</key>
+		<array>
+			<string>Office2016License</string>
+		</array>
+		<key>unattended_install</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>removepackages</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>15.26.16091000</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>blocking_applications</key>
+		<array>
 			<string>Microsoft PowerPoint</string>
 			<string>Microsoft Error Reporting</string>
 			<string>Microsoft Auto Update</string>
@@ -7259,6 +8411,76 @@ rm '/Library/PrivilegedHelperTools/Google Drive Icon Helper'
 		<false/>
 		<key>blocking_applications</key>
 		<array>
+			<string>Microsoft PowerPoint</string>
+			<string>Microsoft Error Reporting</string>
+			<string>Microsoft Auto Update</string>
+		</array>
+		<key>catalogs</key>
+		<array>
+			<string>production</string>
+		</array>
+		<key>category</key>
+		<string>Productivity</string>
+		<key>description</key>
+		<string>&lt;html&gt;&lt;p style="font-family:Helvetica;font-size:12px"&gt;This update introduces 64-bit Office for Mac!&lt;/br&gt;&lt;/br&gt;For detailed information about this update, &lt;b&gt;and important notes for users of add-ins&lt;/b&gt;, please visit the following website: &lt;/p&gt;
+
+&lt;p style="font-family:Helvetica;font-size:12px"&gt;&lt;a href="https://go.microsoft.com/fwlink/?LinkID=825107" target="_blank"&gt;https://go.microsoft.com/fwlink/?LinkID=825107&lt;/a&gt;&lt;/p&gt;&lt;/html&gt;</string>
+		<key>developer</key>
+		<string>Microsoft</string>
+		<key>installed_size</key>
+		<integer>1490234</integer>
+		<key>installer_item_hash</key>
+		<string>746b204af72057fe64d251ffd3b28b19a2dc81ddd378f986bcf5713384a6b83e</string>
+		<key>installer_item_location</key>
+		<string>apps/Office2016/MSPowerPoint2016-15.26.16091000.pkg</string>
+		<key>installer_item_size</key>
+		<integer>806927</integer>
+		<key>installs</key>
+		<array>
+			<dict>
+				<key>CFBundleVersion</key>
+				<string>15.26.16091000</string>
+				<key>path</key>
+				<string>/Applications/Microsoft PowerPoint.app</string>
+				<key>type</key>
+				<string>application</string>
+				<key>version_comparison_key</key>
+				<string>CFBundleVersion</string>
+			</dict>
+		</array>
+		<key>minimum_os_version</key>
+		<string>10.10.0</string>
+		<key>name</key>
+		<string>MSPowerPoint2016</string>
+		<key>receipts</key>
+		<array>
+			<dict>
+				<key>installed_size</key>
+				<integer>1490234</integer>
+				<key>packageid</key>
+				<string>com.microsoft.package.Microsoft_PowerPoint.app</string>
+				<key>version</key>
+				<string>15.26.16091000</string>
+			</dict>
+		</array>
+		<key>requires</key>
+		<array>
+			<string>Office2016License</string>
+		</array>
+		<key>unattended_install</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>removepackages</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>15.26.16091000</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>blocking_applications</key>
+		<array>
 			<string>Microsoft Word</string>
 			<string>Microsoft Error Reporting</string>
 			<string>Microsoft Auto Update</string>
@@ -7395,6 +8617,76 @@ rm '/Library/PrivilegedHelperTools/Google Drive Icon Helper'
 		<true/>
 		<key>version</key>
 		<string>15.25.16081700</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>blocking_applications</key>
+		<array>
+			<string>Microsoft Word</string>
+			<string>Microsoft Error Reporting</string>
+			<string>Microsoft Auto Update</string>
+		</array>
+		<key>catalogs</key>
+		<array>
+			<string>production</string>
+		</array>
+		<key>category</key>
+		<string>Productivity</string>
+		<key>description</key>
+		<string>&lt;html&gt;&lt;p style="font-family:Helvetica;font-size:12px"&gt;This update introduces 64-bit Office for Mac!&lt;/br&gt;&lt;/br&gt;For detailed information about this update, &lt;b&gt;and important notes for users of add-ins&lt;/b&gt;, please visit the following website: &lt;/p&gt;
+
+&lt;p style="font-family:Helvetica;font-size:12px"&gt;&lt;a href="https://go.microsoft.com/fwlink/?LinkID=825107" target="_blank"&gt;https://go.microsoft.com/fwlink/?LinkID=825107&lt;/a&gt;&lt;/p&gt;&lt;/html&gt;</string>
+		<key>developer</key>
+		<string>Microsoft</string>
+		<key>installed_size</key>
+		<integer>1764058</integer>
+		<key>installer_item_hash</key>
+		<string>2204fc04cac3cc81ebf6beaaa5ae6c218aacb84fac8b098ba6d17ef88b9cdca3</string>
+		<key>installer_item_location</key>
+		<string>apps/Office2016/MSWord2016-15.26.16091000.pkg</string>
+		<key>installer_item_size</key>
+		<integer>993431</integer>
+		<key>installs</key>
+		<array>
+			<dict>
+				<key>CFBundleVersion</key>
+				<string>15.26.16091000</string>
+				<key>path</key>
+				<string>/Applications/Microsoft Word.app</string>
+				<key>type</key>
+				<string>application</string>
+				<key>version_comparison_key</key>
+				<string>CFBundleVersion</string>
+			</dict>
+		</array>
+		<key>minimum_os_version</key>
+		<string>10.10.0</string>
+		<key>name</key>
+		<string>MSWord2016</string>
+		<key>receipts</key>
+		<array>
+			<dict>
+				<key>installed_size</key>
+				<integer>1764058</integer>
+				<key>packageid</key>
+				<string>com.microsoft.package.Microsoft_Word.app</string>
+				<key>version</key>
+				<string>15.26.16091000</string>
+			</dict>
+		</array>
+		<key>requires</key>
+		<array>
+			<string>Office2016License</string>
+		</array>
+		<key>unattended_install</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>removepackages</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>15.26.16091000</string>
 	</dict>
 	<dict>
 		<key>autoremove</key>
@@ -9332,6 +10624,55 @@ defaults write /Library/Preferences/com.github.salopensource.sal.plist ServerURL
 		<true/>
 		<key>version</key>
 		<string>22.0.0.209</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>production</string>
+		</array>
+		<key>category</key>
+		<string>Internet Plugin</string>
+		<key>description</key>
+		<string>Adobe® Flash® Player is a cross-platform browser-based application runtime that delivers uncompromised viewing of expressive applications, content, and videos across screens and browsers.</string>
+		<key>developer</key>
+		<string>Adobe</string>
+		<key>display_name</key>
+		<string>Adobe Flash Player</string>
+		<key>installed_size</key>
+		<integer>19816</integer>
+		<key>installer_item_hash</key>
+		<string>f4c10d33c13fcee3f9c9cd2c742743c92269474f90f98bf47dff367932517e67</string>
+		<key>installer_item_location</key>
+		<string>internet_plugins/AdobeFlashPlayer-23.0.0.162.dmg</string>
+		<key>installer_item_size</key>
+		<integer>18419</integer>
+		<key>minimum_os_version</key>
+		<string>10.5.0</string>
+		<key>name</key>
+		<string>AdobeFlashPlayer</string>
+		<key>package_path</key>
+		<string>Install Adobe Flash Player.app/Contents/Resources/Adobe Flash Player.pkg</string>
+		<key>receipts</key>
+		<array>
+			<dict>
+				<key>installed_size</key>
+				<integer>19816</integer>
+				<key>packageid</key>
+				<string>com.adobe.pkg.FlashPlayer</string>
+				<key>version</key>
+				<string>23.0.0.162</string>
+			</dict>
+		</array>
+		<key>unattended_install</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>removepackages</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>23.0.0.162</string>
 	</dict>
 	<dict>
 		<key>autoremove</key>
