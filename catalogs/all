@@ -8269,6 +8269,76 @@ rm '/Library/PrivilegedHelperTools/Google Drive Icon Helper'
 		<false/>
 		<key>blocking_applications</key>
 		<array>
+			<string>Microsoft Outlook</string>
+			<string>Microsoft Error Reporting</string>
+			<string>Microsoft Auto Update</string>
+		</array>
+		<key>catalogs</key>
+		<array>
+			<string>production</string>
+		</array>
+		<key>category</key>
+		<string>Productivity</string>
+		<key>description</key>
+		<string>&lt;html&gt;&lt;p style="font-family:Helvetica;font-size:12px"&gt;This update introduces 64-bit Office for Mac!&lt;/br&gt;&lt;/br&gt;For detailed information about this update, &lt;b&gt;and important notes for users of add-ins&lt;/b&gt;, please visit the following website: &lt;/p&gt;
+
+&lt;p style="font-family:Helvetica;font-size:12px"&gt;&lt;a href="https://go.microsoft.com/fwlink/?LinkID=825107" target="_blank"&gt;https://go.microsoft.com/fwlink/?LinkID=825107&lt;/a&gt;&lt;/p&gt;&lt;/html&gt;</string>
+		<key>developer</key>
+		<string>Microsoft</string>
+		<key>installed_size</key>
+		<integer>1393179</integer>
+		<key>installer_item_hash</key>
+		<string>592ddb3ec2a35a0ede5c5bc7c9f6a1a3d194f13917037094104aa8fbb10f58b5</string>
+		<key>installer_item_location</key>
+		<string>apps/Office2016/MSOutlook2016-15.26.16091600.pkg</string>
+		<key>installer_item_size</key>
+		<integer>702771</integer>
+		<key>installs</key>
+		<array>
+			<dict>
+				<key>CFBundleVersion</key>
+				<string>15.26.16091600</string>
+				<key>path</key>
+				<string>/Applications/Microsoft Outlook.app</string>
+				<key>type</key>
+				<string>application</string>
+				<key>version_comparison_key</key>
+				<string>CFBundleVersion</string>
+			</dict>
+		</array>
+		<key>minimum_os_version</key>
+		<string>10.10.0</string>
+		<key>name</key>
+		<string>MSOutlook2016</string>
+		<key>receipts</key>
+		<array>
+			<dict>
+				<key>installed_size</key>
+				<integer>1393179</integer>
+				<key>packageid</key>
+				<string>com.microsoft.package.Microsoft_Outlook.app</string>
+				<key>version</key>
+				<string>15.26.16091600</string>
+			</dict>
+		</array>
+		<key>requires</key>
+		<array>
+			<string>Office2016License</string>
+		</array>
+		<key>unattended_install</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>removepackages</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>15.26.16091600</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>blocking_applications</key>
+		<array>
 			<string>Microsoft PowerPoint</string>
 			<string>Microsoft Error Reporting</string>
 			<string>Microsoft Auto Update</string>
@@ -10526,6 +10596,84 @@ defaults write /Library/Preferences/com.github.salopensource.sal.plist ServerURL
 		<true/>
 		<key>version</key>
 		<string>3.5.0</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>production</string>
+		</array>
+		<key>description</key>
+		<string>FUSE for OS X allows you to extend OS X's native file handling capabilities via third-party file systems. OSXFUSE is a successor to MacFUSE, which has been used as a software building block by dozens of products, but is no longer being maintained.</string>
+		<key>display_name</key>
+		<string>OSXFUSE</string>
+		<key>installed_size</key>
+		<integer>8763</integer>
+		<key>installer_choices_xml</key>
+		<array>
+			<dict>
+				<key>attributeSetting</key>
+				<integer>1</integer>
+				<key>choiceAttribute</key>
+				<string>selected</string>
+				<key>choiceIdentifier</key>
+				<string>10.8$OSXFUSEMacFUSE</string>
+			</dict>
+			<dict>
+				<key>attributeSetting</key>
+				<integer>1</integer>
+				<key>choiceAttribute</key>
+				<string>selected</string>
+				<key>choiceIdentifier</key>
+				<string>com.github.osxfuse.pkg.MacFUSE</string>
+			</dict>
+		</array>
+		<key>installer_item_hash</key>
+		<string>6a8507cf0ba5eb3113110a745650fdcfa6d1aa65c0a5c54f6c7da2ca8471d9cc</string>
+		<key>installer_item_location</key>
+		<string>drivers/osxfuse-3.5.1.pkg</string>
+		<key>installer_item_size</key>
+		<integer>5110</integer>
+		<key>minimum_os_version</key>
+		<string>10.5.0</string>
+		<key>name</key>
+		<string>osxfuse</string>
+		<key>receipts</key>
+		<array>
+			<dict>
+				<key>installed_size</key>
+				<integer>4360</integer>
+				<key>packageid</key>
+				<string>com.github.osxfuse.pkg.Core</string>
+				<key>version</key>
+				<string>3.5.1</string>
+			</dict>
+			<dict>
+				<key>installed_size</key>
+				<integer>2656</integer>
+				<key>packageid</key>
+				<string>com.github.osxfuse.pkg.PrefPane</string>
+				<key>version</key>
+				<string>3.5.1</string>
+			</dict>
+			<dict>
+				<key>installed_size</key>
+				<integer>1747</integer>
+				<key>packageid</key>
+				<string>com.github.osxfuse.pkg.MacFUSE</string>
+				<key>version</key>
+				<string>3.5.1</string>
+			</dict>
+		</array>
+		<key>unattended_install</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>removepackages</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>3.5.1</string>
 	</dict>
 	<dict>
 		<key>autoremove</key>
