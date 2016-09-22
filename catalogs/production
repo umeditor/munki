@@ -3738,6 +3738,72 @@ exit 0
 		<array>
 			<string>production</string>
 		</array>
+		<key>category</key>
+		<string>Music</string>
+		<key>description</key>
+		<string>Spotify is a music streaming service offering unlimited streaming of selected music from a range of major and independent record labels.</string>
+		<key>developer</key>
+		<string>Spotify</string>
+		<key>display_name</key>
+		<string>Spotify</string>
+		<key>installer_item_hash</key>
+		<string>c8f0955bac51fb9f321e1a38715c9637125dcad0645cfa7139872140f6f52028</string>
+		<key>installer_item_location</key>
+		<string>apps/Spotify-1.0.38.171.g5e1cd7b2.dmg</string>
+		<key>installer_item_size</key>
+		<integer>73242</integer>
+		<key>installer_type</key>
+		<string>copy_from_dmg</string>
+		<key>installs</key>
+		<array>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>com.spotify.client</string>
+				<key>CFBundleName</key>
+				<string>Spotify</string>
+				<key>CFBundleShortVersionString</key>
+				<string>1.0.38.171.g5e1cd7b2</string>
+				<key>CFBundleVersion</key>
+				<string>1.0.38.171.g5e1cd7b2-30</string>
+				<key>minosversion</key>
+				<string>10.7.0</string>
+				<key>path</key>
+				<string>/Applications/Spotify.app</string>
+				<key>type</key>
+				<string>application</string>
+				<key>version_comparison_key</key>
+				<string>CFBundleShortVersionString</string>
+			</dict>
+		</array>
+		<key>items_to_copy</key>
+		<array>
+			<dict>
+				<key>destination_path</key>
+				<string>/Applications</string>
+				<key>source_item</key>
+				<string>Spotify.app</string>
+			</dict>
+		</array>
+		<key>minimum_os_version</key>
+		<string>10.7.0</string>
+		<key>name</key>
+		<string>Spotify</string>
+		<key>unattended_install</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>remove_copied_items</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>1.0.38.171.g5e1cd7b2</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>production</string>
+		</array>
 		<key>description</key>
 		<string>The Unarchiver is a much more capable replacement for "Archive Utility.app", the built-in archive unpacker program on Mac OS X. The Unarchiver is designed to handle many more formats than Archive Utility, and to better fit in with the design of the Finder.</string>
 		<key>display_name</key>
@@ -5089,6 +5155,95 @@ The setup procedure includes installing the MIT CA as well as the user's persona
 	<dict>
 		<key>autoremove</key>
 		<false/>
+		<key>blocking_applications</key>
+		<array>
+			<string>Citrix Receiver</string>
+			<string>Citrix Viewer</string>
+		</array>
+		<key>catalogs</key>
+		<array>
+			<string>production</string>
+		</array>
+		<key>category</key>
+		<string>Internet</string>
+		<key>description</key>
+		<string>Citrix Receiver is an easy-to-install client software that lets you access enterprise data, applications and desktops from any computing device including smartphones, tablets and PCs. Workers today typically use multiple computing devices and crave a consistent computing experience across all of them. Organizations everywhere are struggling to cope with the rapid proliferation of these devices and give users the mobile, high-definition experience they demand. Working in tandem with a Citrix-enabled IT infrastructure, Citrix Receiver gives workers consistent, secure, high-performance access from any device without introducing layers of management complexity for IT.</string>
+		<key>developer</key>
+		<string>Citrix Systems, Inc.</string>
+		<key>display_name</key>
+		<string>Citrix Receiver</string>
+		<key>installed_size</key>
+		<integer>127307</integer>
+		<key>installer_item_hash</key>
+		<string>cd06f5fcb6c20f807318cf9b3eada887ac9e5e59e766f1310ad25b28caea3573</string>
+		<key>installer_item_location</key>
+		<string>apps/Citrix/CitrixReceiver-12.3.0.dmg</string>
+		<key>installer_item_size</key>
+		<integer>51529</integer>
+		<key>installs</key>
+		<array>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>com.citrix.receiver.nomas</string>
+				<key>CFBundleName</key>
+				<string>Citrix Receiver</string>
+				<key>CFBundleShortVersionString</key>
+				<string>12.3.0</string>
+				<key>CFBundleVersion</key>
+				<string>418199</string>
+				<key>minosversion</key>
+				<string>10.9</string>
+				<key>path</key>
+				<string>/Applications/Citrix Receiver.app</string>
+				<key>type</key>
+				<string>application</string>
+				<key>version_comparison_key</key>
+				<string>CFBundleShortVersionString</string>
+			</dict>
+			<dict>
+				<key>CFBundleShortVersionString</key>
+				<string>12.3.0</string>
+				<key>CFBundleVersion</key>
+				<string>418199</string>
+				<key>path</key>
+				<string>/Library/Internet Plug-Ins/CitrixICAClientPlugIn.plugin</string>
+				<key>type</key>
+				<string>bundle</string>
+				<key>version_comparison_key</key>
+				<string>CFBundleShortVersionString</string>
+			</dict>
+		</array>
+		<key>minimum_os_version</key>
+		<string>10.6</string>
+		<key>name</key>
+		<string>CitrixReceiver</string>
+		<key>package_path</key>
+		<string>Install Citrix Receiver.pkg</string>
+		<key>receipts</key>
+		<array>
+			<dict>
+				<key>installed_size</key>
+				<integer>127307</integer>
+				<key>packageid</key>
+				<string>com.citrix.ICAClient</string>
+				<key>version</key>
+				<string>12.3.0</string>
+			</dict>
+		</array>
+		<key>unattended_install</key>
+		<true/>
+		<key>unattended_uninstall</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>removepackages</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>12.3.0</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
 		<key>catalogs</key>
 		<array>
 			<string>production</string>
@@ -5164,6 +5319,85 @@ fi
 		<true/>
 		<key>version</key>
 		<string>10.4.25</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>production</string>
+		</array>
+		<key>category</key>
+		<string>File Sharing</string>
+		<key>description</key>
+		<string>Dropbox is a free service that lets you bring all your photos, docs, and videos anywhere. This means that any file you save to your Dropbox will automatically save to all your computers, phones and even the Dropbox website.</string>
+		<key>developer</key>
+		<string>Dropbox</string>
+		<key>display_name</key>
+		<string>Dropbox</string>
+		<key>installer_item_hash</key>
+		<string>24c49c435e2304707a253743184b4023f0e3c30a3df79c614cdcb35aaa5485ba</string>
+		<key>installer_item_location</key>
+		<string>apps/Dropbox/Dropbox-10.4.26.dmg</string>
+		<key>installer_item_size</key>
+		<integer>92406</integer>
+		<key>installer_type</key>
+		<string>copy_from_dmg</string>
+		<key>installs</key>
+		<array>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>com.getdropbox.dropbox</string>
+				<key>CFBundleName</key>
+				<string>Dropbox</string>
+				<key>path</key>
+				<string>/Applications/Dropbox.app</string>
+				<key>type</key>
+				<string>file</string>
+			</dict>
+		</array>
+		<key>items_to_copy</key>
+		<array>
+			<dict>
+				<key>destination_path</key>
+				<string>/Applications</string>
+				<key>source_item</key>
+				<string>Dropbox.app</string>
+			</dict>
+		</array>
+		<key>minimum_os_version</key>
+		<string>10.6</string>
+		<key>name</key>
+		<string>Dropbox</string>
+		<key>postinstall_script</key>
+		<string>#!/bin/sh
+# based on Ruby postinstall script by Riley Shott:
+# https://groups.google.com/group/munki-dev/browse_thread/thread/a2813e7f62535f13/63d127534541f863
+# modifications:
+# - always extract the helper tool with each install instead of skipping if it exists
+# - remove xattr com.apple.quarantine removal, as Munki will have already done this upon
+#   installation; normal autopkg runs also won't quarantine the download to begin with
+
+HELPER_SRC_PATH=/Applications/Dropbox.app/Contents/Resources/DropboxHelperInstaller.tgz
+HELPER_DST_DIR=/Library/DropboxHelperTools
+HELPER_DST_PATH="$HELPER_DST_DIR/DropboxHelperInstaller"
+
+if [ -e "$HELPER_SRC_PATH" ]; then
+  [ -d "$HELPER_DST_DIR" ] || mkdir "$HELPER_DST_DIR"
+  /usr/bin/tar -C "$HELPER_DST_DIR" -xz -f "$HELPER_SRC_PATH"
+  /bin/chmod 04511 "$HELPER_DST_PATH"
+  /usr/sbin/chown root:wheel "$HELPER_DST_PATH"
+else
+  echo "Expected $HELPER_SRC_PATH, but it was not present in the Dropbox dmg."
+  exit 1
+fi
+</string>
+		<key>uninstall_method</key>
+		<string>remove_copied_items</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>10.4.26</string>
 	</dict>
 	<dict>
 		<key>autoremove</key>
@@ -6017,6 +6251,72 @@ fi
 		<true/>
 		<key>version</key>
 		<string>48.0.2</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>production</string>
+		</array>
+		<key>category</key>
+		<string>Internet</string>
+		<key>description</key>
+		<string>Mozilla Firefox is a free and open source web browser.</string>
+		<key>developer</key>
+		<string>Mozilla</string>
+		<key>display_name</key>
+		<string>Mozilla Firefox</string>
+		<key>installer_item_hash</key>
+		<string>62f2c0bf94522aa3788c6e139b37f707993ec71cabae788407f8f7acad8a716a</string>
+		<key>installer_item_location</key>
+		<string>apps/firefox/Firefox-49.0.dmg</string>
+		<key>installer_item_size</key>
+		<integer>83202</integer>
+		<key>installer_type</key>
+		<string>copy_from_dmg</string>
+		<key>installs</key>
+		<array>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>org.mozilla.firefox</string>
+				<key>CFBundleName</key>
+				<string>Firefox</string>
+				<key>CFBundleShortVersionString</key>
+				<string>49.0</string>
+				<key>CFBundleVersion</key>
+				<string>4916.9.16</string>
+				<key>minosversion</key>
+				<string>10.9.0</string>
+				<key>path</key>
+				<string>/Applications/Firefox.app</string>
+				<key>type</key>
+				<string>application</string>
+				<key>version_comparison_key</key>
+				<string>CFBundleShortVersionString</string>
+			</dict>
+		</array>
+		<key>items_to_copy</key>
+		<array>
+			<dict>
+				<key>destination_path</key>
+				<string>/Applications</string>
+				<key>source_item</key>
+				<string>Firefox.app</string>
+			</dict>
+		</array>
+		<key>minimum_os_version</key>
+		<string>10.9.0</string>
+		<key>name</key>
+		<string>Firefox</string>
+		<key>unattended_install</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>remove_copied_items</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>49.0</string>
 	</dict>
 	<dict>
 		<key>autoremove</key>
