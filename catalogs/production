@@ -1455,7 +1455,7 @@ exit 0
 		<key>uninstallable</key>
 		<true/>
 		<key>version</key>
-		<string>9.52</string>
+		<string>9.5.2</string>
 	</dict>
 	<dict>
 		<key>autoremove</key>
