@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>_metadata</key>
+		<dict>
+			<key>created_by</key>
+			<string>mcneal</string>
+			<key>creation_date</key>
+			<date>2016-09-29T18:08:28Z</date>
+			<key>munki_version</key>
+			<string>2.8.0.2810</string>
+			<key>os_version</key>
+			<string>10.11.6</string>
+		</dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>production</string>
+		</array>
+		<key>category</key>
+		<string>Security</string>
+		<key>description</key>
+		<string>Sophos Anti-Virus is the virus protection software recommended by MIT. This software detects and cleans up viruses, Trojans, worms and spyware, as well as adware and other potentially unwanted applications. Sophos Anti-Virus provides virus definitions and software updates regularly when you are connected to the Internet. You do not need to be on campus to receive these updates.</string>
+		<key>developer</key>
+		<string>Sophos</string>
+		<key>display_name</key>
+		<string>Sophos Anti-Virus</string>
+		<key>installer_item_hash</key>
+		<string>9af205dd02f047316b2e726910b8e6e6df852ce167e803bc84f61c9101ac5e21</string>
+		<key>installer_item_location</key>
+		<string>mit-sophos-9_5_2-signed-9.5.2.dmg</string>
+		<key>installer_item_size</key>
+		<integer>179278</integer>
+		<key>minimum_os_version</key>
+		<string>10.5.0</string>
+		<key>name</key>
+		<string>SophosAntiVirus</string>
+		<key>installs</key>
+		<array>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>com.sophos.macendpoint.Sophos-Anti-Virus</string>
+				<key>CFBundleName</key>
+				<string>Sophos Anti-Virus</string>
+				<key>CFBundleShortVersionString</key>
+				<string>9.5.2</string>
+				<key>CFBundleVersion</key>
+				<string></string>
+				<key>path</key>
+				<string>/Applications/Sophos Anti-Virus.app</string>
+				<key>type</key>
+				<string>application</string>
+				<key>version_comparison_key</key>
+				<string>CFBundleShortVersionString</string>
+			</dict>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>com.sophos.autoupdate</string>
+				<key>CFBundleName</key>
+				<string>Sophos AutoUpdate</string>
+				<key>CFBundleShortVersionString</key>
+				<string>9.5.2</string>
+				<key>CFBundleVersion</key>
+				<string></string>
+				<key>path</key>
+				<string>/Library/Sophos Anti-Virus/SophosAutoUpdate.app</string>
+				<key>type</key>
+				<string>application</string>
+				<key>version_comparison_key</key>
+				<string>CFBundleShortVersionString</string>
+			</dict>
+		</array>
+		<key>unattended_install</key>
+		<true/>
+		<key>unattended_uninstall</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>removepackages</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>9.5.2</string>
+	</dict>
+</plist>
