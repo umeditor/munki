@@ -4660,6 +4660,57 @@ exit 0
 		<key>display_name</key>
 		<string>Adobe Acrobat Pro Update</string>
 		<key>installed_size</key>
+		<integer>139188</integer>
+		<key>installer_item_hash</key>
+		<string>2cd5148ba3a71e7e02d3d06de807fc9054d1eebe1b1cd744f2eda6e29f4d8123</string>
+		<key>installer_item_location</key>
+		<string>apps/AcrobatPro/AcrobatUpd10116-10.1.16.pkg</string>
+		<key>installer_item_size</key>
+		<integer>141345</integer>
+		<key>minimum_os_version</key>
+		<string>10.9.0</string>
+		<key>name</key>
+		<string>AdobeAcrobatProX_Update</string>
+		<key>receipts</key>
+		<array>
+			<dict>
+				<key>installed_size</key>
+				<integer>139188</integer>
+				<key>packageid</key>
+				<string>com.adobe.acrobat.a10.AcrobatUpd10116</string>
+				<key>version</key>
+				<string>10.1.16</string>
+			</dict>
+		</array>
+		<key>unattended_install</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>removepackages</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>update_for</key>
+		<array>
+			<string>AdobeAcrobatProX</string>
+		</array>
+		<key>version</key>
+		<string>10.1.16</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>blocking_applications</key>
+		<array>
+			<string>Adobe Acrobat Pro.app</string>
+		</array>
+		<key>catalogs</key>
+		<array>
+			<string>production</string>
+		</array>
+		<key>description</key>
+		<string></string>
+		<key>display_name</key>
+		<string>Adobe Acrobat Pro Update</string>
+		<key>installed_size</key>
 		<integer>256708</integer>
 		<key>installer_item_hash</key>
 		<string>45f76870060400c0afd65c0eb3c7e754df0dad5ccba8d185f420956e6d321461</string>
