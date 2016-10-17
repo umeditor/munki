@@ -5012,7 +5012,7 @@ exit 0
 		<true/>
 		<key>update_for</key>
 		<array>
-			<string>Adobe Acrobat DC</string>
+			<string>AdobeAcrobatDC</string>
 		</array>
 		<key>version</key>
 		<string>15.020.20039</string>
