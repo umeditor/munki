@@ -18,7 +18,6 @@
   </array>
   <key>optional_installs</key>
   <array>
-      <string>AdobeAcrobatProXI</string>
       <string>AdobeDreamweaver</string>
       <string>AdobeIllustrator</string>
       <string>AdobeInDesign</string>

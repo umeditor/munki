@@ -39,23 +39,25 @@
 	<string>10.9.0</string>
 	<key>name</key>
 	<string>AdobeAcrobatProX_Update</string>
-	<key>receipts</key>
+	<key>installs</key>
 	<array>
 		<dict>
-			<key>installed_size</key>
-			<integer>0</integer>
-			<key>packageid</key>
-			<string>com.adobe.PDApp.AdobeApplicationManager.installer.pkg</string>
-			<key>version</key>
-			<string>1</string>
-		</dict>
-		<dict>
-			<key>installed_size</key>
-			<integer>258176</integer>
-			<key>packageid</key>
-			<string>com.adobe.acrobat.viewer.11.0.18.patch.pkg</string>
-			<key>version</key>
+			<key>CFBundleIdentifier</key>
+			<string>com.adobe.Acrobat.Pro</string>
+			<key>CFBundleName</key>
+			<string>Acrobat</string>
+			<key>CFBundleShortVersionString</key>
 			<string>11.0.18</string>
+			<key>CFBundleVersion</key>
+			<string>11.0.18</string>
+			<key>minosversion</key>
+			<string>10.4.3</string>
+			<key>path</key>
+			<string>/Applications/Adobe Acrobat XI Pro/Adobe Acrobat Pro.app</string>
+			<key>type</key>
+			<string>application</string>
+			<key>version_comparison_key</key>
+			<string>CFBundleShortVersionString</string>
 		</dict>
 	</array>
 	<key>unattended_install</key>
