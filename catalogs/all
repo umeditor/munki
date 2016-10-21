@@ -5139,6 +5139,65 @@ exit 0
 		<key>category</key>
 		<string>Productivity</string>
 		<key>description</key>
+		<string>Adobe Acrobat Pro XI PDF Utility.</string>
+		<key>developer</key>
+		<string>Adobe</string>
+		<key>display_name</key>
+		<string>Adobe Acrobat Pro XI</string>
+		<key>installed_size</key>
+		<integer>1325003</integer>
+		<key>installer_item_hash</key>
+		<string>d23301642a50f75c35dcbddd9df0670d5c5abda264d0c52e61c0010dddd9fabc</string>
+		<key>installer_item_location</key>
+		<string>apps/AcrobatPro/mit-acrobat-XI-11.0.0.dmg</string>
+		<key>installer_item_size</key>
+		<integer>593886</integer>
+		<key>installs</key>
+		<array>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>com.adobe.Acrobat.Pro</string>
+				<key>CFBundleName</key>
+				<string>Acrobat</string>
+				<key>CFBundleShortVersionString</key>
+				<string>11.0.0</string>
+				<key>CFBundleVersion</key>
+				<string>11.0.0</string>
+				<key>minosversion</key>
+				<string>10.4.3</string>
+				<key>path</key>
+				<string>/Applications/Adobe Acrobat XI Pro/Adobe Acrobat Pro.app</string>
+				<key>type</key>
+				<string>application</string>
+				<key>version_comparison_key</key>
+				<string>CFBundleShortVersionString</string>
+			</dict>
+		</array>
+		<key>minimum_os_version</key>
+		<string>10.5.0</string>
+		<key>name</key>
+		<string>AdobeAcrobatProXI</string>
+		<key>unattended_install</key>
+		<false/>
+		<key>unattended_uninstall</key>
+		<false/>
+		<key>uninstall_method</key>
+		<string>removepackages</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>11.0.0</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>production</string>
+		</array>
+		<key>category</key>
+		<string>Productivity</string>
+		<key>description</key>
 		<string>This update provides system requirement enhancements, mitigation for security issues, improved overall stability, bug fixes, and feature enhancements. For a list of specific bug fixes, new features, and other changes in this release, see the Release Notes.</string>
 		<key>developer</key>
 		<string>Adobe Systems Inc.</string>
