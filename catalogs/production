@@ -1535,6 +1535,13 @@ exit 0
 		<string>10.4.0</string>
 		<key>name</key>
 		<string>InstallMacOSSierra</string>
+		<key>postinstall_script</key>
+		<string>#!/bin/sh
+
+/usr/bin/fdesetup authrestart
+
+exit 0
+</string>
 		<key>receipts</key>
 		<array>
 			<dict>
