@@ -20,7 +20,7 @@
 		<string>production</string>
 	</array>
 	<key>category</key>
-	<string>Utilities</string>
+	<string>Utility</string>
 	<key>description</key>
 	<string>VeraCrypt is an open-source utility used for on-the-fly encryption. It can create a virtual encrypted disk within a file or encrypt an entire partition.</string>
 	<key>developer</key>

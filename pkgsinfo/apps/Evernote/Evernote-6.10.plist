@@ -73,5 +73,9 @@
 	<true/>
 	<key>version</key>
 	<string>6.10</string>
+	<key>category</key>
+	<string>Productivity</string>
+	<key>developer</key>
+	<string>Evernote Corporation</string>
 </dict>
 </plist>
