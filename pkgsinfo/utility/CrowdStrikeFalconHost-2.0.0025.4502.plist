@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>_metadata</key>
+	<dict>
+		<key>created_by</key>
+		<string>mcneal</string>
+		<key>creation_date</key>
+		<date>2016-11-03T14:09:27Z</date>
+		<key>munki_version</key>
+		<string>2.8.2.2855</string>
+		<key>os_version</key>
+		<string>10.11.6</string>
+	</dict>
+	<key>autoremove</key>
+	<false/>
+	<key>catalogs</key>
+	<array>
+		<string>production</string>
+	</array>
+	<key>category</key>
+	<string>Security</string>
+	<key>description</key>
+	<string>Next-generation endpoint protection software that helps to secure Windows and Mac systems by looking for Indicators of Attack (IoA) as opposed to detecting known malware and Indicators of Compromise (IoC).</string>
+	<key>developer</key>
+	<string>CrowdStrike</string>
+	<key>display_name</key>
+	<string>Falcon Host from CrowdStrike</string>
+	<key>installed_size</key>
+	<integer>1384</integer>
+	<key>installer_item_hash</key>
+	<string>a55338c69a0f35c180149874d05f3fc4be5b63723713a4a845ed9a0cbee71edc</string>
+	<key>installer_item_location</key>
+	<string>utility/FalconSensorMacOSX-2.0.0025.4502.pkg</string>
+	<key>installer_item_size</key>
+	<integer>416</integer>
+	<key>minimum_os_version</key>
+	<string>10.11.6</string>
+	<key>name</key>
+	<string>CrowdStrikeFalconHost</string>
+	<key>receipts</key>
+	<array>
+		<dict>
+			<key>installed_size</key>
+			<integer>1244</integer>
+			<key>packageid</key>
+			<string>com.crowdstrike.macFalconSensor.ECB.pkg</string>
+			<key>version</key>
+			<string>1.0</string>
+		</dict>
+		<dict>
+			<key>installed_size</key>
+			<integer>4</integer>
+			<key>packageid</key>
+			<string>com.crowdstrike.macFalconSensor.com.crowdstrike.userdaemon.pkg</string>
+			<key>version</key>
+			<string>1.0</string>
+		</dict>
+		<dict>
+			<key>installed_size</key>
+			<integer>120</integer>
+			<key>packageid</key>
+			<string>com.crowdstrike.macFalconSensor.CSDaemon.pkg</string>
+			<key>version</key>
+			<string>1.0</string>
+		</dict>
+		<dict>
+			<key>installed_size</key>
+			<integer>4</integer>
+			<key>packageid</key>
+			<string>com.crowdstrike.macFalconSensor.load.pkg</string>
+			<key>version</key>
+			<string>1.0</string>
+		</dict>
+		<dict>
+			<key>installed_size</key>
+			<integer>4</integer>
+			<key>packageid</key>
+			<string>com.crowdstrike.macFalconSensor.uninstall.pkg</string>
+			<key>version</key>
+			<string>1.0</string>
+		</dict>
+		<dict>
+			<key>installed_size</key>
+			<integer>4</integer>
+			<key>packageid</key>
+			<string>com.crowdstrike.macFalconSensor.unload.pkg</string>
+			<key>version</key>
+			<string>1.0</string>
+		</dict>
+		<dict>
+			<key>installed_size</key>
+			<integer>4</integer>
+			<key>packageid</key>
+			<string>com.crowdstrike.macFalconSensor.license.pkg</string>
+			<key>version</key>
+			<string>1.0</string>
+		</dict>
+	</array>
+	<key>unattended_install</key>
+	<true/>
+	<key>unattended_uninstall</key>
+	<true/>
+	<key>uninstall_method</key>
+	<string>removepackages</string>
+	<key>uninstallable</key>
+	<true/>
+	<key>installcheck_script</key>
+	<string>#!/bin/sh
+
+CORRECT_VERSION=2.0.0025.4502
+
+# Grab current version of installed python module
+INSTALLED_VERSION="$(/usr/sbin/sysctl -n cs.version 2&gt;/dev/null)"
+if [ ${?} -ne 0 ]; then
+		exit 0
+fi
+
+
+RESULT=$(python -c "from pkg_resources import parse_version;print parse_version('${INSTALLED_VERSION}') &gt;= parse_version('${CORRECT_VERSION}')" 2>/dev/null)
+if [ ${RESULT} = "True" ]; then
+		exit 1
+else
+		exit 0
+fi
+</string>
+	<key>version</key>
+	<string>2.0.0025.4502</string>
+</dict>
+</plist>
