@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>_metadata</key>
+	<dict>
+		<key>created_by</key>
+		<string>mcneal</string>
+		<key>creation_date</key>
+		<date>2016-11-03T11:04:50Z</date>
+		<key>munki_version</key>
+		<string>2.8.2.2855</string>
+		<key>os_version</key>
+		<string>10.11.6</string>
+	</dict>
+	<key>autoremove</key>
+	<false/>
+	<key>catalogs</key>
+	<array>
+		<string>production</string>
+	</array>
+	<key>category</key>
+	<string>Productivity</string>
+	<key>description</key>
+	<string>This update provides system requirement enhancements, mitigation for security issues, improved overall stability, bug fixes, and feature enhancements. For a list of specific bug fixes, new features, and other changes in this release, see the Release Notes.</string>
+	<key>developer</key>
+	<string>Adobe Systems Inc.</string>
+	<key>display_name</key>
+	<string>Adobe Acrobat DC Update</string>
+	<key>installed_size</key>
+	<integer>418605</integer>
+	<key>installer_item_hash</key>
+	<string>48573a1224745fc942b1f153dd8f531e70c1b50aa313f1298ff39cb5245323f5</string>
+	<key>installer_item_location</key>
+	<string>apps/adobe/Adobe Acrobat DC Update-15.020.20042.dmg</string>
+	<key>installer_item_size</key>
+	<integer>321006</integer>
+	<key>installs</key>
+	<array>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.adobe.Acrobat.Pro</string>
+			<key>CFBundleName</key>
+			<string>Acrobat Pro</string>
+			<key>CFBundleShortVersionString</key>
+			<string>15.020.20042</string>
+			<key>CFBundleVersion</key>
+			<string>15.020.20042</string>
+			<key>path</key>
+			<string>/Applications/Adobe Acrobat DC/Adobe Acrobat.app</string>
+			<key>type</key>
+			<string>application</string>
+			<key>version_comparison_key</key>
+			<string>CFBundleShortVersionString</string>
+		</dict>
+	</array>
+	<key>minimum_os_version</key>
+	<string>10.5.0</string>
+	<key>name</key>
+	<string>Adobe Acrobat DC Update</string>
+	<key>receipts</key>
+	<array>
+		<dict>
+			<key>installed_size</key>
+			<integer>171397</integer>
+			<key>packageid</key>
+			<string>com.adobe.PDApp.AdobeApplicationManager.installer.pkg</string>
+			<key>version</key>
+			<string>1</string>
+		</dict>
+		<dict>
+			<key>installed_size</key>
+			<integer>18055</integer>
+			<key>packageid</key>
+			<string>com.adobe.AcroServicesUpdater</string>
+			<key>version</key>
+			<string>0</string>
+		</dict>
+		<dict>
+			<key>installed_size</key>
+			<integer>229153</integer>
+			<key>packageid</key>
+			<string>com.adobe.acrobat.AcrobatDCUpd1502020042</string>
+			<key>version</key>
+			<string>15.020.20042</string>
+		</dict>
+	</array>
+	<key>unattended_install</key>
+	<true/>
+	<key>uninstall_method</key>
+	<string>removepackages</string>
+	<key>uninstallable</key>
+	<true/>
+	<key>update_for</key>
+	<array>
+		<string>AdobeAcrobatDC</string>
+	</array>
+	<key>version</key>
+	<string>15.020.20042</string>
+</dict>
+</plist>
