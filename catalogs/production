@@ -1507,6 +1507,59 @@ exit 0
 		<string>5.0.3</string>
 	</dict>
 	<dict>
+		<key>RestartAction</key>
+		<string>RequireRestart</string>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>production</string>
+		</array>
+		<key>category</key>
+		<string>Apple</string>
+		<key>description</key>
+		<string>macOS Sierra (version 10.12)[2] is the thirteenth major release of macOS (previously OS X), Apple Inc.'s desktop and server operating system for Macintosh computers.</string>
+		<key>developer</key>
+		<string>Apple</string>
+		<key>display_name</key>
+		<string>macOS Sierra (10.12) Installer</string>
+		<key>installed_size</key>
+		<integer>8388608</integer>
+		<key>installer_item_hash</key>
+		<string>4b9c0c0e7e517b504981d612cfe1b96a26fb1a44000976b06b1153853c248ec0</string>
+		<key>installer_item_location</key>
+		<string>apple/os-installers/InstallOSX_10.12.1_16B2657-10.12.1.dmg</string>
+		<key>installer_item_size</key>
+		<integer>4770011</integer>
+		<key>minimum_os_version</key>
+		<string>10.4.0</string>
+		<key>name</key>
+		<string>InstallMacOSSierra</string>
+		<key>receipts</key>
+		<array>
+			<dict>
+				<key>filename</key>
+				<string>InstallOSX_10.12.1_16B2657.pkg</string>
+				<key>installed_size</key>
+				<integer>8388608</integer>
+				<key>packageid</key>
+				<string>com.googlecode.munki.installosx.pkg</string>
+				<key>version</key>
+				<string>10.12.1</string>
+			</dict>
+		</array>
+		<key>unattended_install</key>
+		<false/>
+		<key>unattended_uninstall</key>
+		<false/>
+		<key>uninstall_method</key>
+		<string>removepackages</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>10.12.1</string>
+	</dict>
+	<dict>
 		<key>autoremove</key>
 		<false/>
 		<key>catalogs</key>
