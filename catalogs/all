@@ -1531,6 +1531,8 @@ exit 0
 		<string>apple/os-installers/InstallOSX_10.12.1_16B2657-10.12.1.dmg</string>
 		<key>installer_item_size</key>
 		<integer>4770011</integer>
+		<key>maximum_os_version</key>
+		<string>10.11.10</string>
 		<key>minimum_os_version</key>
 		<string>10.4.0</string>
 		<key>name</key>
