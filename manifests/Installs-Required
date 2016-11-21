@@ -23,6 +23,7 @@
     <string>CrashPlanPROe</string>
     <string>CrowdStrikeFalconHost</string>
     <string>Disable802.1xAutomaticConnection</string>
+    <string>disable_autoupdates_microsoftautoupdater</string>
     <string>SophosAntiVirus</string>
     <string>MSExcel2016</string>
     <string>MSPowerPoint2016</string>
