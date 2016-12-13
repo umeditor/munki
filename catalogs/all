@@ -14254,6 +14254,180 @@ rm '/Library/PrivilegedHelperTools/Google Drive Icon Helper'
 			<string>production</string>
 		</array>
 		<key>category</key>
+		<string>Developer</string>
+		<key>description</key>
+		<string>R is a language and environment for statistical computing and graphics which provides a wide variety of statistical and graphical techniques: linear and nonlinear modelling, statistical tests, time series analysis, classification, clustering, etc.</string>
+		<key>developer</key>
+		<string>R Foundation</string>
+		<key>display_name</key>
+		<string>R for Mac OS X</string>
+		<key>installed_size</key>
+		<integer>156676</integer>
+		<key>installer_item_hash</key>
+		<string>10ee51682c963eea0d2c1a6e9185a3a03ada9c1a377e8406d02c490708b7b122</string>
+		<key>installer_item_location</key>
+		<string>apps/R/R-3.3.2.pkg</string>
+		<key>installer_item_size</key>
+		<integer>72581</integer>
+		<key>installs</key>
+		<array>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>org.R-project.R</string>
+				<key>CFBundleName</key>
+				<string>R</string>
+				<key>CFBundleShortVersionString</key>
+				<string>R 3.3.2 GUI 1.68 Mavericks build</string>
+				<key>CFBundleVersion</key>
+				<string>7288</string>
+				<key>minosversion</key>
+				<string>MIN_VERSION</string>
+				<key>path</key>
+				<string>/Applications/R.app</string>
+				<key>type</key>
+				<string>application</string>
+				<key>version_comparison_key</key>
+				<string>CFBundleVersion</string>
+			</dict>
+			<dict>
+				<key>CFBundleVersion</key>
+				<string>3.3.2</string>
+				<key>path</key>
+				<string>/Library/Frameworks/R.framework</string>
+				<key>type</key>
+				<string>bundle</string>
+				<key>version_comparison_key</key>
+				<string>CFBundleVersion</string>
+			</dict>
+		</array>
+		<key>minimum_os_version</key>
+		<string>10.5.0</string>
+		<key>name</key>
+		<string>R</string>
+		<key>receipts</key>
+		<array>
+			<dict>
+				<key>installed_size</key>
+				<integer>108112</integer>
+				<key>packageid</key>
+				<string>org.r-project.R.mavericks.fw.pkg</string>
+				<key>version</key>
+				<string>30371607</string>
+			</dict>
+			<dict>
+				<key>installed_size</key>
+				<integer>4160</integer>
+				<key>packageid</key>
+				<string>org.r-project.R.mavericks.GUI.pkg</string>
+				<key>version</key>
+				<string>1.68</string>
+			</dict>
+			<dict>
+				<key>installed_size</key>
+				<integer>36448</integer>
+				<key>packageid</key>
+				<string>org.r-project.x86_64.tcltk.x11</string>
+				<key>version</key>
+				<string>8.6.0</string>
+			</dict>
+			<dict>
+				<key>installed_size</key>
+				<integer>7956</integer>
+				<key>packageid</key>
+				<string>org.r-project.x86_64.texinfo</string>
+				<key>version</key>
+				<string>5.2</string>
+			</dict>
+		</array>
+		<key>unattended_install</key>
+		<true/>
+		<key>unattended_uninstall</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>removepackages</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>3.3.2</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>production</string>
+		</array>
+		<key>category</key>
+		<string>Mathematics</string>
+		<key>description</key>
+		<string>RStudio is the premier integrated development environment for R. It is available in open source and commercial editions and runs on the desktop (Windows, Mac, and Linux) or over the web with RStudio Server.</string>
+		<key>developer</key>
+		<string>RStudio</string>
+		<key>display_name</key>
+		<string>RStudio</string>
+		<key>installer_item_hash</key>
+		<string>ec571ee4d1415cc031f8f55873ca15e75949038fe680520799934e115138066a</string>
+		<key>installer_item_location</key>
+		<string>apps/rstudio/RStudio-1.0.44.dmg</string>
+		<key>installer_item_size</key>
+		<integer>72840</integer>
+		<key>installer_type</key>
+		<string>copy_from_dmg</string>
+		<key>installs</key>
+		<array>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>org.rstudio.RStudio</string>
+				<key>CFBundleName</key>
+				<string>RStudio</string>
+				<key>CFBundleShortVersionString</key>
+				<string>1.0.44</string>
+				<key>CFBundleVersion</key>
+				<string>1.0.44</string>
+				<key>minosversion</key>
+				<string>10.6.0</string>
+				<key>path</key>
+				<string>/Applications/RStudio.app</string>
+				<key>type</key>
+				<string>application</string>
+				<key>version_comparison_key</key>
+				<string>CFBundleShortVersionString</string>
+			</dict>
+		</array>
+		<key>items_to_copy</key>
+		<array>
+			<dict>
+				<key>destination_path</key>
+				<string>/Applications</string>
+				<key>source_item</key>
+				<string>RStudio.app</string>
+			</dict>
+		</array>
+		<key>minimum_os_version</key>
+		<string>10.6.0</string>
+		<key>name</key>
+		<string>RStudio</string>
+		<key>requires</key>
+		<array>
+			<string>R</string>
+		</array>
+		<key>unattended_install</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>remove_copied_items</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>1.0.44</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>production</string>
+		</array>
+		<key>category</key>
 		<string>Finance</string>
 		<key>description</key>
 		<string>SAPgui is the Graphical User Interface (GUI) client in SAP R/3's 3-tier architecture of database, application server, and client.</string>
@@ -16918,7 +17092,8 @@ defaults write /Library/Preferences/com.github.salopensource.sal.plist ServerURL
 		<key>autoremove</key>
 		<false/>
 		<key>blocking_applications</key>
-		<array/>
+		<array>
+		</array>
 		<key>catalogs</key>
 		<array>
 			<string>production</string>
@@ -19885,7 +20060,8 @@ fi
 		<key>uninstallable</key>
 		<true/>
 		<key>update_for</key>
-		<array/>
+		<array>
+		</array>
 		<key>version</key>
 		<string>1.0</string>
 	</dict>
