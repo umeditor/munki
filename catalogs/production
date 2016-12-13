@@ -14358,6 +14358,76 @@ rm '/Library/PrivilegedHelperTools/Google Drive Icon Helper'
 			<string>production</string>
 		</array>
 		<key>category</key>
+		<string>Utilities</string>
+		<key>description</key>
+		<string>With the Microsoft Remote Desktop app, you can connect to a remote PC and your work resources from almost anywhere. Experience the power of Windows with RemoteFX in a Remote Desktop client designed to help you get your work done wherever you are.</string>
+		<key>developer</key>
+		<string>Microsoft</string>
+		<key>display_name</key>
+		<string>Microsoft Remote Desktop</string>
+		<key>icon_hash</key>
+		<string>5a9461c2d1822061e13c10d374e9ea0a8018d362a0be536034bf19b97f04f1a4</string>
+		<key>installer_item_hash</key>
+		<string>1c85091e90a72793945ae92e4a5efdf22fff42e2b619ffddae61accc0715c7b9</string>
+		<key>installer_item_location</key>
+		<string>apps/RemoteDesktop/Microsoft Remote Desktop-8.0.27228.dmg</string>
+		<key>installer_item_size</key>
+		<integer>14986</integer>
+		<key>installer_type</key>
+		<string>copy_from_dmg</string>
+		<key>installs</key>
+		<array>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>com.microsoft.rdc.mac</string>
+				<key>CFBundleName</key>
+				<string>Microsoft Remote Desktop</string>
+				<key>CFBundleShortVersionString</key>
+				<string>8.0.27228</string>
+				<key>CFBundleVersion</key>
+				<string>8.0.27228</string>
+				<key>minosversion</key>
+				<string>10.9</string>
+				<key>path</key>
+				<string>/Applications/Microsoft Remote Desktop.app</string>
+				<key>type</key>
+				<string>application</string>
+				<key>version_comparison_key</key>
+				<string>CFBundleShortVersionString</string>
+			</dict>
+		</array>
+		<key>items_to_copy</key>
+		<array>
+			<dict>
+				<key>destination_path</key>
+				<string>/Applications</string>
+				<key>source_item</key>
+				<string>Microsoft Remote Desktop.app</string>
+			</dict>
+		</array>
+		<key>minimum_os_version</key>
+		<string>10.9</string>
+		<key>name</key>
+		<string>MicrosoftRemoteDesktop</string>
+		<key>unattended_install</key>
+		<true/>
+		<key>unattended_uninstall</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>remove_copied_items</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>8.0.27228</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>production</string>
+		</array>
+		<key>category</key>
 		<string>Mathematics</string>
 		<key>description</key>
 		<string>RStudio is the premier integrated development environment for R. It is available in open source and commercial editions and runs on the desktop (Windows, Mac, and Linux) or over the web with RStudio Server.</string>
