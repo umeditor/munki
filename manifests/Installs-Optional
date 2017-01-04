@@ -18,6 +18,7 @@
   </array>
   <key>optional_installs</key>
   <array>
+      <string>1Password</string>
       <string>AdobeDreamweaver</string>
       <string>AdobeIllustrator</string>
       <string>AdobeInDesign</string>
