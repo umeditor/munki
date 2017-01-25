@@ -2406,6 +2406,72 @@ exit 0
 			<string>production</string>
 		</array>
 		<key>category</key>
+		<string>Utilities</string>
+		<key>description</key>
+		<string>With an easy to use interface, connect to FTP, SFTP, WebDAV, Amazon S3, Google Storage, Windows Azure, Rackspace Cloud Files and even Google Docs.</string>
+		<key>developer</key>
+		<string>David V. Kocher and Yves Langisch</string>
+		<key>display_name</key>
+		<string>Cyberduck</string>
+		<key>installer_item_hash</key>
+		<string>efb38c9625936be51ff7a18a41702ce442f879c4f126d9b64bad9fe1a16410d3</string>
+		<key>installer_item_location</key>
+		<string>apps/Cyberduck-5.3.3.dmg</string>
+		<key>installer_item_size</key>
+		<integer>98762</integer>
+		<key>installer_type</key>
+		<string>copy_from_dmg</string>
+		<key>installs</key>
+		<array>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>ch.sudo.cyberduck</string>
+				<key>CFBundleName</key>
+				<string>Cyberduck</string>
+				<key>CFBundleShortVersionString</key>
+				<string>5.3.3</string>
+				<key>CFBundleVersion</key>
+				<string>23221</string>
+				<key>minosversion</key>
+				<string>10.7.3</string>
+				<key>path</key>
+				<string>/Applications/Cyberduck.app</string>
+				<key>type</key>
+				<string>application</string>
+				<key>version_comparison_key</key>
+				<string>CFBundleShortVersionString</string>
+			</dict>
+		</array>
+		<key>items_to_copy</key>
+		<array>
+			<dict>
+				<key>destination_path</key>
+				<string>/Applications</string>
+				<key>source_item</key>
+				<string>Cyberduck.app</string>
+			</dict>
+		</array>
+		<key>minimum_os_version</key>
+		<string>10.7.3</string>
+		<key>name</key>
+		<string>Cyberduck</string>
+		<key>unattended_install</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>remove_copied_items</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>5.3.3</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>production</string>
+		</array>
+		<key>category</key>
 		<string>Internet</string>
 		<key>description</key>
 		<string>Chrome is a fast, simple, and secure web browser, built for the modern web.</string>
@@ -6590,6 +6656,72 @@ exit 0
 		<array>
 			<string>production</string>
 		</array>
+		<key>category</key>
+		<string>Music</string>
+		<key>description</key>
+		<string>Spotify is a music streaming service offering unlimited streaming of selected music from a range of major and independent record labels.</string>
+		<key>developer</key>
+		<string>Spotify</string>
+		<key>display_name</key>
+		<string>Spotify</string>
+		<key>installer_item_hash</key>
+		<string>4216906993910b93aa581757643cc2cd0aff5183b02729637c9c1025f04046e3</string>
+		<key>installer_item_location</key>
+		<string>apps/Spotify-1.0.47.13.gd8e05b1f.dmg</string>
+		<key>installer_item_size</key>
+		<integer>88934</integer>
+		<key>installer_type</key>
+		<string>copy_from_dmg</string>
+		<key>installs</key>
+		<array>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>com.spotify.client</string>
+				<key>CFBundleName</key>
+				<string>Spotify</string>
+				<key>CFBundleShortVersionString</key>
+				<string>1.0.47.13.gd8e05b1f</string>
+				<key>CFBundleVersion</key>
+				<string>1.0.47.13.gd8e05b1f-75</string>
+				<key>minosversion</key>
+				<string>10.7.0</string>
+				<key>path</key>
+				<string>/Applications/Spotify.app</string>
+				<key>type</key>
+				<string>application</string>
+				<key>version_comparison_key</key>
+				<string>CFBundleShortVersionString</string>
+			</dict>
+		</array>
+		<key>items_to_copy</key>
+		<array>
+			<dict>
+				<key>destination_path</key>
+				<string>/Applications</string>
+				<key>source_item</key>
+				<string>Spotify.app</string>
+			</dict>
+		</array>
+		<key>minimum_os_version</key>
+		<string>10.7.0</string>
+		<key>name</key>
+		<string>Spotify</string>
+		<key>unattended_install</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>remove_copied_items</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>1.0.47.13.gd8e05b1f</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>production</string>
+		</array>
 		<key>description</key>
 		<string>The Unarchiver is a much more capable replacement for "Archive Utility.app", the built-in archive unpacker program on Mac OS X. The Unarchiver is designed to handle many more formats than Archive Utility, and to better fit in with the design of the Finder.</string>
 		<key>display_name</key>
@@ -7237,6 +7369,92 @@ exit 0
 		</array>
 		<key>version</key>
 		<string>15.023.20053</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>production</string>
+		</array>
+		<key>category</key>
+		<string>Productivity</string>
+		<key>description</key>
+		<string>This update provides system requirement enhancements, mitigation for security issues, improved overall stability, bug fixes, and feature enhancements. For a list of specific bug fixes, new features, and other changes in this release, see the Release Notes.</string>
+		<key>developer</key>
+		<string>Adobe Systems Inc.</string>
+		<key>display_name</key>
+		<string>Adobe Acrobat DC Update</string>
+		<key>installed_size</key>
+		<integer>396792</integer>
+		<key>installer_item_hash</key>
+		<string>43257ece138822b4dd69287ed9f928da3db2c601651aad5e4633d1d545da49e4</string>
+		<key>installer_item_location</key>
+		<string>apps/adobe/Adobe Acrobat DC Update-15.023.20056.dmg</string>
+		<key>installer_item_size</key>
+		<integer>308910</integer>
+		<key>installs</key>
+		<array>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>com.adobe.Acrobat.Pro</string>
+				<key>CFBundleName</key>
+				<string>Acrobat Pro</string>
+				<key>CFBundleShortVersionString</key>
+				<string>15.023.20056</string>
+				<key>CFBundleVersion</key>
+				<string>15.023.20056</string>
+				<key>path</key>
+				<string>/Applications/Adobe Acrobat DC/Adobe Acrobat.app</string>
+				<key>type</key>
+				<string>application</string>
+				<key>version_comparison_key</key>
+				<string>CFBundleShortVersionString</string>
+			</dict>
+		</array>
+		<key>minimum_os_version</key>
+		<string>10.5.0</string>
+		<key>name</key>
+		<string>Adobe Acrobat DC Update</string>
+		<key>receipts</key>
+		<array>
+			<dict>
+				<key>installed_size</key>
+				<integer>155973</integer>
+				<key>packageid</key>
+				<string>com.adobe.PDApp.AdobeApplicationManager.installer.pkg</string>
+				<key>version</key>
+				<string>1</string>
+			</dict>
+			<dict>
+				<key>installed_size</key>
+				<integer>11831</integer>
+				<key>packageid</key>
+				<string>com.adobe.AcroServicesUpdater</string>
+				<key>version</key>
+				<string>0</string>
+			</dict>
+			<dict>
+				<key>installed_size</key>
+				<integer>228988</integer>
+				<key>packageid</key>
+				<string>com.adobe.acrobat.AcrobatDCUpd1502320056</string>
+				<key>version</key>
+				<string>15.023.20056</string>
+			</dict>
+		</array>
+		<key>unattended_install</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>removepackages</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>update_for</key>
+		<array>
+			<string>AdobeAcrobatDC</string>
+		</array>
+		<key>version</key>
+		<string>15.023.20056</string>
 	</dict>
 	<dict>
 		<key>autoremove</key>
@@ -9626,6 +9844,97 @@ fi
 	<dict>
 		<key>autoremove</key>
 		<false/>
+		<key>blocking_applications</key>
+		<array>
+			<string>/Applications/Dropbox.app/Contents/MacOS/Dropbox</string>
+		</array>
+		<key>catalogs</key>
+		<array>
+			<string>production</string>
+		</array>
+		<key>category</key>
+		<string>File Sharing</string>
+		<key>description</key>
+		<string>Dropbox is a free service that lets you bring all your photos, docs, and videos anywhere. This means that any file you save to your Dropbox will automatically save to all your computers, phones and even the Dropbox website.</string>
+		<key>developer</key>
+		<string>Dropbox</string>
+		<key>display_name</key>
+		<string>Dropbox</string>
+		<key>installer_item_hash</key>
+		<string>730711b04f21972bcdf265aa8650327efcc1c2a15ce32905addb62afaaec90b9</string>
+		<key>installer_item_location</key>
+		<string>apps/Dropbox/Dropbox-18.4.32.dmg</string>
+		<key>installer_item_size</key>
+		<integer>93559</integer>
+		<key>installer_type</key>
+		<string>copy_from_dmg</string>
+		<key>installs</key>
+		<array>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>com.getdropbox.dropbox</string>
+				<key>CFBundleName</key>
+				<string>Dropbox</string>
+				<key>CFBundleShortVersionString</key>
+				<string>18.4.32</string>
+				<key>CFBundleVersion</key>
+				<string>18.4.32</string>
+				<key>minosversion</key>
+				<string>10.6</string>
+				<key>path</key>
+				<string>/Applications/Dropbox.app</string>
+				<key>type</key>
+				<string>application</string>
+				<key>version_comparison_key</key>
+				<string>CFBundleShortVersionString</string>
+			</dict>
+		</array>
+		<key>items_to_copy</key>
+		<array>
+			<dict>
+				<key>destination_path</key>
+				<string>/Applications</string>
+				<key>source_item</key>
+				<string>Dropbox.app</string>
+			</dict>
+		</array>
+		<key>minimum_os_version</key>
+		<string>10.6</string>
+		<key>name</key>
+		<string>Dropbox</string>
+		<key>postinstall_script</key>
+		<string>#!/bin/sh
+# based on Ruby postinstall script by Riley Shott:
+# https://groups.google.com/group/munki-dev/browse_thread/thread/a2813e7f62535f13/63d127534541f863
+# modifications:
+# - always extract the helper tool with each install instead of skipping if it exists
+# - remove xattr com.apple.quarantine removal, as Munki will have already done this upon
+#   installation; normal autopkg runs also won't quarantine the download to begin with
+
+HELPER_SRC_PATH=/Applications/Dropbox.app/Contents/Resources/DropboxHelperInstaller.tgz
+HELPER_DST_DIR=/Library/DropboxHelperTools
+HELPER_DST_PATH="$HELPER_DST_DIR/DropboxHelperInstaller"
+
+if [ -e "$HELPER_SRC_PATH" ]; then
+  [ -d "$HELPER_DST_DIR" ] || mkdir "$HELPER_DST_DIR"
+  /usr/bin/tar -C "$HELPER_DST_DIR" -xz -f "$HELPER_SRC_PATH"
+  /bin/chmod 04511 "$HELPER_DST_PATH"
+  /usr/sbin/chown root:wheel "$HELPER_DST_PATH"
+else
+  echo "Expected $HELPER_SRC_PATH, but it was not present in the Dropbox dmg."
+  exit 1
+fi
+</string>
+		<key>uninstall_method</key>
+		<string>remove_copied_items</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>18.4.32</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
 		<key>catalogs</key>
 		<array>
 			<string>production</string>
@@ -11127,6 +11436,72 @@ fi
 		<true/>
 		<key>version</key>
 		<string>50.1.0</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>production</string>
+		</array>
+		<key>category</key>
+		<string>Internet</string>
+		<key>description</key>
+		<string>Mozilla Firefox is a free and open source web browser.</string>
+		<key>developer</key>
+		<string>Mozilla</string>
+		<key>display_name</key>
+		<string>Mozilla Firefox</string>
+		<key>installer_item_hash</key>
+		<string>cbd62ae943b69e89a67930940e4fe7a63052059537c3bb55297fe3b4488beab6</string>
+		<key>installer_item_location</key>
+		<string>apps/firefox/Firefox-51.0.dmg</string>
+		<key>installer_item_size</key>
+		<integer>84152</integer>
+		<key>installer_type</key>
+		<string>copy_from_dmg</string>
+		<key>installs</key>
+		<array>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>org.mozilla.firefox</string>
+				<key>CFBundleName</key>
+				<string>Firefox</string>
+				<key>CFBundleShortVersionString</key>
+				<string>51.0</string>
+				<key>CFBundleVersion</key>
+				<string>5117.1.18</string>
+				<key>minosversion</key>
+				<string>10.9.0</string>
+				<key>path</key>
+				<string>/Applications/Firefox.app</string>
+				<key>type</key>
+				<string>application</string>
+				<key>version_comparison_key</key>
+				<string>CFBundleShortVersionString</string>
+			</dict>
+		</array>
+		<key>items_to_copy</key>
+		<array>
+			<dict>
+				<key>destination_path</key>
+				<string>/Applications</string>
+				<key>source_item</key>
+				<string>Firefox.app</string>
+			</dict>
+		</array>
+		<key>minimum_os_version</key>
+		<string>10.9.0</string>
+		<key>name</key>
+		<string>Firefox</string>
+		<key>unattended_install</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>remove_copied_items</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>51.0</string>
 	</dict>
 	<dict>
 		<key>autoremove</key>
@@ -19766,8 +20141,7 @@ defaults write /Library/Preferences/com.github.salopensource.sal.plist ServerURL
 		<key>autoremove</key>
 		<false/>
 		<key>blocking_applications</key>
-		<array>
-		</array>
+		<array/>
 		<key>catalogs</key>
 		<array>
 			<string>production</string>
@@ -22798,8 +23172,7 @@ fi
 		<key>uninstallable</key>
 		<true/>
 		<key>update_for</key>
-		<array>
-		</array>
+		<array/>
 		<key>version</key>
 		<string>1.0</string>
 	</dict>
