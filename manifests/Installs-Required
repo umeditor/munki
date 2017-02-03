@@ -13,7 +13,6 @@
   <array>
     <string>AddPrinter_Ascender</string>
     <string>AddPrinter_BlackSabbath</string>
-    <string>AddPrinter_Morphine</string>
     <string>AddPrinter_MultiPitch</string>
     <string>AddPrinter_NorthAmerica</string>
     <string>AddPrinter_PaperSpitter</string>
@@ -36,6 +35,7 @@
   </array>
   <key>managed_uninstalls</key>
   <array>
+    <string>AddPrinter_Morphine</string>
   </array>
   <key>optional_installs</key>
   <array>
