@@ -21997,7 +21997,7 @@ sys.exit(0)</string>
 		<key>description</key>
 		<string>Black and white printer in reception</string>
 		<key>display_name</key>
-		<string>Reception (B/W)</string>
+		<string>Printer: Reception (B/W)</string>
 		<key>installcheck_script</key>
 		<string>#!/usr/bin/python
 import subprocess
@@ -22587,7 +22587,7 @@ sys.exit(0)</string>
 		<key>description</key>
 		<string>Black and white printer on collaborative wall next to Pod 6</string>
 		<key>display_name</key>
-		<string>Collaborative Wall (Color)</string>
+		<string>Printer: Collaborative Wall (Color)</string>
 		<key>installcheck_script</key>
 		<string>#!/usr/bin/python
 import subprocess
@@ -22705,7 +22705,7 @@ sys.exit(0)</string>
 		<key>description</key>
 		<string>Black and white printer in Main Street print area</string>
 		<key>display_name</key>
-		<string>Main Street (B/W)</string>
+		<string>Printer: Main Street (B/W)</string>
 		<key>installcheck_script</key>
 		<string>#!/usr/bin/python
 import subprocess
@@ -22941,7 +22941,7 @@ sys.exit(0)</string>
 		<key>description</key>
 		<string>Black and white printer on collaborative wall next to Pod 6</string>
 		<key>display_name</key>
-		<string>Collaborative Wall (B/W)</string>
+		<string>Printer: Collaborative Wall (B/W)</string>
 		<key>installcheck_script</key>
 		<string>#!/usr/bin/python
 import subprocess
@@ -23059,7 +23059,7 @@ sys.exit(0)</string>
 		<key>description</key>
 		<string>Color printer/scanner/fax in Main Street print area</string>
 		<key>display_name</key>
-		<string>Main Street (Color)</string>
+		<string>Printer: Main Street (Color)</string>
 		<key>installcheck_script</key>
 		<string>#!/usr/bin/python
 import subprocess

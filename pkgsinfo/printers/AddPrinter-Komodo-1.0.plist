@@ -11,7 +11,7 @@
 	<key>description</key>
 	<string>Black and white printer in reception</string>
 	<key>display_name</key>
-	<string>Reception (B/W)</string>
+	<string>Printer: Reception (B/W)</string>
 	<key>installcheck_script</key>
 	<string>#!/usr/bin/python
 import subprocess
