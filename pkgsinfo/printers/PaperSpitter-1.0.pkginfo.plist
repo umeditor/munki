@@ -43,5 +43,9 @@
 	<true/>
 	<key>version</key>
 	<string>1.0</string>
+	<key>unattended_uninstall</key>
+	<true/>
+	<key>unattended_install</key>
+	<true/>
 </dict>
 </plist>

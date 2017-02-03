@@ -118,5 +118,9 @@ sys.exit(0)</string>
 	<array>
 			<string>Dell5350dnDriver</string>
 	</array>
+	<key>unattended_uninstall</key>
+	<true/>
+	<key>unattended_install</key>
+	<true/>
 </dict>
 </plist>

@@ -21859,6 +21859,8 @@ sys.exit(0)</string>
 		</array>
 		<key>unattended_install</key>
 		<true/>
+		<key>unattended_uninstall</key>
+		<true/>
 		<key>uninstall_method</key>
 		<string>uninstall_script</string>
 		<key>uninstall_script</key>
@@ -21976,6 +21978,8 @@ sys.exit(0)</string>
 			<string>AppleHPPrinterDrivers</string>
 		</array>
 		<key>unattended_install</key>
+		<true/>
+		<key>unattended_uninstall</key>
 		<true/>
 		<key>uninstall_method</key>
 		<string>uninstall_script</string>
@@ -22095,6 +22099,8 @@ sys.exit(0)</string>
 		</array>
 		<key>unattended_install</key>
 		<true/>
+		<key>unattended_uninstall</key>
+		<true/>
 		<key>uninstall_method</key>
 		<string>uninstall_script</string>
 		<key>uninstall_script</key>
@@ -22212,6 +22218,8 @@ sys.exit(0)</string>
 			<string>Dell5350dnDriver</string>
 		</array>
 		<key>unattended_install</key>
+		<true/>
+		<key>unattended_uninstall</key>
 		<true/>
 		<key>uninstall_method</key>
 		<string>uninstall_script</string>
@@ -22331,6 +22339,8 @@ sys.exit(0)</string>
 		</array>
 		<key>unattended_install</key>
 		<true/>
+		<key>unattended_uninstall</key>
+		<true/>
 		<key>uninstall_method</key>
 		<string>uninstall_script</string>
 		<key>uninstall_script</key>
@@ -22448,6 +22458,8 @@ sys.exit(0)</string>
 			<string>AppleXeroxPrinterDrivers</string>
 		</array>
 		<key>unattended_install</key>
+		<true/>
+		<key>unattended_uninstall</key>
 		<true/>
 		<key>uninstall_method</key>
 		<string>uninstall_script</string>
@@ -22567,6 +22579,8 @@ sys.exit(0)</string>
 		</array>
 		<key>unattended_install</key>
 		<true/>
+		<key>unattended_uninstall</key>
+		<true/>
 		<key>uninstall_method</key>
 		<string>uninstall_script</string>
 		<key>uninstall_script</key>
@@ -22684,6 +22698,8 @@ sys.exit(0)</string>
 			<string>AppleHPPrinterDrivers</string>
 		</array>
 		<key>unattended_install</key>
+		<true/>
+		<key>unattended_uninstall</key>
 		<true/>
 		<key>uninstall_method</key>
 		<string>uninstall_script</string>
@@ -22803,6 +22819,8 @@ sys.exit(0)</string>
 		</array>
 		<key>unattended_install</key>
 		<true/>
+		<key>unattended_uninstall</key>
+		<true/>
 		<key>uninstall_method</key>
 		<string>uninstall_script</string>
 		<key>uninstall_script</key>
@@ -22920,6 +22938,8 @@ sys.exit(0)</string>
 			<string>AppleHPPrinterDrivers</string>
 		</array>
 		<key>unattended_install</key>
+		<true/>
+		<key>unattended_uninstall</key>
 		<true/>
 		<key>uninstall_method</key>
 		<string>uninstall_script</string>
@@ -23039,6 +23059,8 @@ sys.exit(0)</string>
 		</array>
 		<key>unattended_install</key>
 		<true/>
+		<key>unattended_uninstall</key>
+		<true/>
 		<key>uninstall_method</key>
 		<string>uninstall_script</string>
 		<key>uninstall_script</key>
@@ -23157,6 +23179,8 @@ sys.exit(0)</string>
 		</array>
 		<key>unattended_install</key>
 		<true/>
+		<key>unattended_uninstall</key>
+		<true/>
 		<key>uninstall_method</key>
 		<string>uninstall_script</string>
 		<key>uninstall_script</key>
@@ -23228,7 +23252,7 @@ sys.exit(0)</string>
 queue=BlackSabbath
 
 # Test queue
-lpstat -p ${queue} &gt; /dev/null 
+lpstat -p ${queue} &gt; /dev/null
 rc=$?
 
 # Compare with the version we want to install
@@ -23261,6 +23285,10 @@ fi
 				<string>1.1</string>
 			</dict>
 		</array>
+		<key>unattended_install</key>
+		<true/>
+		<key>unattended_uninstall</key>
+		<true/>
 		<key>uninstall_method</key>
 		<string>removepackages</string>
 		<key>uninstallable</key>
@@ -23304,6 +23332,10 @@ fi
 		</array>
 		<key>requires</key>
 		<string>Dell5350dnDriver</string>
+		<key>unattended_install</key>
+		<true/>
+		<key>unattended_uninstall</key>
+		<true/>
 		<key>uninstall_method</key>
 		<string>removepackages</string>
 		<key>uninstallable</key>
@@ -23347,6 +23379,10 @@ fi
 		</array>
 		<key>requires</key>
 		<string>Dell5350dnDriver</string>
+		<key>unattended_install</key>
+		<true/>
+		<key>unattended_uninstall</key>
+		<true/>
 		<key>uninstall_method</key>
 		<string>removepackages</string>
 		<key>uninstallable</key>
@@ -23372,7 +23408,7 @@ fi
 queue=Multipitch
 
 # Test queue
-lpstat -p ${queue} &gt; /dev/null 
+lpstat -p ${queue} &gt; /dev/null
 rc=$?
 
 # Compare with the version we want to install
@@ -23405,6 +23441,10 @@ fi
 				<string>1.0</string>
 			</dict>
 		</array>
+		<key>unattended_install</key>
+		<true/>
+		<key>unattended_uninstall</key>
+		<true/>
 		<key>uninstall_method</key>
 		<string>removepackages</string>
 		<key>uninstallable</key>
@@ -23448,6 +23488,10 @@ fi
 		</array>
 		<key>requires</key>
 		<string>BizHubC280Drivers</string>
+		<key>unattended_install</key>
+		<true/>
+		<key>unattended_uninstall</key>
+		<true/>
 		<key>uninstall_method</key>
 		<string>removepackages</string>
 		<key>uninstallable</key>
@@ -23473,7 +23517,7 @@ fi
 queue=Slayer
 
 # Test queue
-lpstat -p ${queue} &gt; /dev/null 
+lpstat -p ${queue} &gt; /dev/null
 rc=$?
 
 # Compare with the version we want to install
@@ -23506,6 +23550,10 @@ fi
 				<string>1.0</string>
 			</dict>
 		</array>
+		<key>unattended_install</key>
+		<true/>
+		<key>unattended_uninstall</key>
+		<true/>
 		<key>uninstall_method</key>
 		<string>removepackages</string>
 		<key>uninstallable</key>
