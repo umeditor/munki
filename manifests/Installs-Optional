@@ -18,6 +18,11 @@
   </array>
   <key>optional_installs</key>
   <array>
+      <string>AddPrinter_Komodo</string>
+      <string>AddPrinter_RedFort</string>
+      <string>AddPrinter_RobbenIsland</string>
+      <string>AddPrinter_Valparaiso</string>
+      <string>AddPrinter_Versailles</string>
       <string>1Password</string>
       <string>AdobeDreamweaver</string>
       <string>AdobeIllustrator</string>
