@@ -12,6 +12,7 @@
   <key>managed_installs</key>
   <array>
     <string>AddPrinter_Komodo</string>
+    <string>AddPrinter_LincolnMemorial</string>
     <string>AddPrinter_RedFort</string>
     <string>AddPrinter_RobbenIsland</string>
     <string>AddPrinter_Valparaiso</string>
