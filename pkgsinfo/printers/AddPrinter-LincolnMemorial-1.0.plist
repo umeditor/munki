@@ -114,5 +114,9 @@ sys.exit(0)</string>
 	<true/>
 	<key>version</key>
 	<string>1.0</string>
+	<key>requires</key>
+	<array>
+			<string>AppleXeroxPrinterDrivers</string>
+	</array>
 </dict>
 </plist>

@@ -21799,7 +21799,8 @@ defaults write /Library/Preferences/com.github.salopensource.sal.plist ServerURL
 		<key>autoremove</key>
 		<false/>
 		<key>blocking_applications</key>
-		<array/>
+		<array>
+		</array>
 		<key>catalogs</key>
 		<array>
 			<string>production</string>
@@ -23305,6 +23306,10 @@ if lpadminErr:
     sys.exit(1)
 print "Results: %s" % lpadminOut
 sys.exit(0)</string>
+		<key>requires</key>
+		<array>
+			<string>AppleXeroxPrinterDrivers</string>
+		</array>
 		<key>unattended_install</key>
 		<true/>
 		<key>uninstall_method</key>
@@ -25582,7 +25587,8 @@ fi
 		<key>uninstallable</key>
 		<true/>
 		<key>update_for</key>
-		<array/>
+		<array>
+		</array>
 		<key>version</key>
 		<string>1.0</string>
 	</dict>
