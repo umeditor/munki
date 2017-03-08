@@ -1783,6 +1783,79 @@ exit 0
 	<dict>
 		<key>autoremove</key>
 		<false/>
+		<key>blocking_applications</key>
+		<array>
+			<string>1Password</string>
+			<string>1Password mini</string>
+		</array>
+		<key>catalogs</key>
+		<array>
+			<string>production</string>
+		</array>
+		<key>category</key>
+		<string>Utilities</string>
+		<key>description</key>
+		<string>1Password is a password manager that goes beyond simple password storage by integrating directly with your web browser to automatically log you into websites, enter credit card information, fill registration forms, and easily generate strong passwords.</string>
+		<key>developer</key>
+		<string>AgileBits Inc.</string>
+		<key>display_name</key>
+		<string>1Password</string>
+		<key>installer_item_hash</key>
+		<string>e795160b17afd33b04ee961781f140b1c30fb0526e48272383322d77887eff3c</string>
+		<key>installer_item_location</key>
+		<string>apps/1Password-6.6.2.dmg</string>
+		<key>installer_item_size</key>
+		<integer>57117</integer>
+		<key>installer_type</key>
+		<string>copy_from_dmg</string>
+		<key>installs</key>
+		<array>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>com.agilebits.onepassword4</string>
+				<key>CFBundleName</key>
+				<string>1Password 6</string>
+				<key>CFBundleShortVersionString</key>
+				<string>6.6.2</string>
+				<key>CFBundleVersion</key>
+				<string>662005</string>
+				<key>minosversion</key>
+				<string>10.10</string>
+				<key>path</key>
+				<string>/Applications/1Password 6.app</string>
+				<key>type</key>
+				<string>application</string>
+				<key>version_comparison_key</key>
+				<string>CFBundleShortVersionString</string>
+			</dict>
+		</array>
+		<key>items_to_copy</key>
+		<array>
+			<dict>
+				<key>destination_path</key>
+				<string>/Applications</string>
+				<key>source_item</key>
+				<string>1Password 6.app</string>
+			</dict>
+		</array>
+		<key>minimum_os_version</key>
+		<string>10.10</string>
+		<key>name</key>
+		<string>1Password</string>
+		<key>unattended_install</key>
+		<true/>
+		<key>unattended_uninstall</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>remove_copied_items</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>6.6.2</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
 		<key>catalogs</key>
 		<array>
 			<string>production</string>
@@ -11334,6 +11407,97 @@ fi
 	<dict>
 		<key>autoremove</key>
 		<false/>
+		<key>blocking_applications</key>
+		<array>
+			<string>/Applications/Dropbox.app/Contents/MacOS/Dropbox</string>
+		</array>
+		<key>catalogs</key>
+		<array>
+			<string>production</string>
+		</array>
+		<key>category</key>
+		<string>File Sharing</string>
+		<key>description</key>
+		<string>Dropbox is a free service that lets you bring all your photos, docs, and videos anywhere. This means that any file you save to your Dropbox will automatically save to all your computers, phones and even the Dropbox website.</string>
+		<key>developer</key>
+		<string>Dropbox</string>
+		<key>display_name</key>
+		<string>Dropbox</string>
+		<key>installer_item_hash</key>
+		<string>b6cc226f6264593ef3096beab68a2c08f54a845e5d35975d41e83d3dc7b060a5</string>
+		<key>installer_item_location</key>
+		<string>apps/Dropbox/Dropbox-21.4.25.dmg</string>
+		<key>installer_item_size</key>
+		<integer>97344</integer>
+		<key>installer_type</key>
+		<string>copy_from_dmg</string>
+		<key>installs</key>
+		<array>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>com.getdropbox.dropbox</string>
+				<key>CFBundleName</key>
+				<string>Dropbox</string>
+				<key>CFBundleShortVersionString</key>
+				<string>21.4.25</string>
+				<key>CFBundleVersion</key>
+				<string>21.4.25</string>
+				<key>minosversion</key>
+				<string>10.6</string>
+				<key>path</key>
+				<string>/Applications/Dropbox.app</string>
+				<key>type</key>
+				<string>application</string>
+				<key>version_comparison_key</key>
+				<string>CFBundleShortVersionString</string>
+			</dict>
+		</array>
+		<key>items_to_copy</key>
+		<array>
+			<dict>
+				<key>destination_path</key>
+				<string>/Applications</string>
+				<key>source_item</key>
+				<string>Dropbox.app</string>
+			</dict>
+		</array>
+		<key>minimum_os_version</key>
+		<string>10.6</string>
+		<key>name</key>
+		<string>Dropbox</string>
+		<key>postinstall_script</key>
+		<string>#!/bin/sh
+# based on Ruby postinstall script by Riley Shott:
+# https://groups.google.com/group/munki-dev/browse_thread/thread/a2813e7f62535f13/63d127534541f863
+# modifications:
+# - always extract the helper tool with each install instead of skipping if it exists
+# - remove xattr com.apple.quarantine removal, as Munki will have already done this upon
+#   installation; normal autopkg runs also won't quarantine the download to begin with
+
+HELPER_SRC_PATH=/Applications/Dropbox.app/Contents/Resources/DropboxHelperInstaller.tgz
+HELPER_DST_DIR=/Library/DropboxHelperTools
+HELPER_DST_PATH="$HELPER_DST_DIR/DropboxHelperInstaller"
+
+if [ -e "$HELPER_SRC_PATH" ]; then
+  [ -d "$HELPER_DST_DIR" ] || mkdir "$HELPER_DST_DIR"
+  /usr/bin/tar -C "$HELPER_DST_DIR" -xz -f "$HELPER_SRC_PATH"
+  /bin/chmod 04511 "$HELPER_DST_PATH"
+  /usr/sbin/chown root:wheel "$HELPER_DST_PATH"
+else
+  echo "Expected $HELPER_SRC_PATH, but it was not present in the Dropbox dmg."
+  exit 1
+fi
+</string>
+		<key>uninstall_method</key>
+		<string>remove_copied_items</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>21.4.25</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
 		<key>catalogs</key>
 		<array>
 			<string>production</string>
@@ -12967,6 +13131,72 @@ fi
 		<true/>
 		<key>version</key>
 		<string>51.0</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>production</string>
+		</array>
+		<key>category</key>
+		<string>Internet</string>
+		<key>description</key>
+		<string>Mozilla Firefox is a free and open source web browser.</string>
+		<key>developer</key>
+		<string>Mozilla</string>
+		<key>display_name</key>
+		<string>Mozilla Firefox</string>
+		<key>installer_item_hash</key>
+		<string>d753336be2e277a4671fe348d291fcf5a53957793e66e2e21134cfa779e9fe22</string>
+		<key>installer_item_location</key>
+		<string>apps/firefox/Firefox-52.0.dmg</string>
+		<key>installer_item_size</key>
+		<integer>80167</integer>
+		<key>installer_type</key>
+		<string>copy_from_dmg</string>
+		<key>installs</key>
+		<array>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>org.mozilla.firefox</string>
+				<key>CFBundleName</key>
+				<string>Firefox</string>
+				<key>CFBundleShortVersionString</key>
+				<string>52.0</string>
+				<key>CFBundleVersion</key>
+				<string>5217.3.2</string>
+				<key>minosversion</key>
+				<string>10.9.0</string>
+				<key>path</key>
+				<string>/Applications/Firefox.app</string>
+				<key>type</key>
+				<string>application</string>
+				<key>version_comparison_key</key>
+				<string>CFBundleShortVersionString</string>
+			</dict>
+		</array>
+		<key>items_to_copy</key>
+		<array>
+			<dict>
+				<key>destination_path</key>
+				<string>/Applications</string>
+				<key>source_item</key>
+				<string>Firefox.app</string>
+			</dict>
+		</array>
+		<key>minimum_os_version</key>
+		<string>10.9.0</string>
+		<key>name</key>
+		<string>Firefox</string>
+		<key>unattended_install</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>remove_copied_items</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>52.0</string>
 	</dict>
 	<dict>
 		<key>autoremove</key>
@@ -18617,6 +18847,110 @@ rm '/Library/PrivilegedHelperTools/Google Drive Icon Helper'
 			<string>production</string>
 		</array>
 		<key>category</key>
+		<string>Developer</string>
+		<key>description</key>
+		<string>R is a language and environment for statistical computing and graphics which provides a wide variety of statistical and graphical techniques: linear and nonlinear modelling, statistical tests, time series analysis, classification, clustering, etc.</string>
+		<key>developer</key>
+		<string>R Foundation</string>
+		<key>display_name</key>
+		<string>R for Mac OS X</string>
+		<key>installed_size</key>
+		<integer>157492</integer>
+		<key>installer_item_hash</key>
+		<string>77d7a145d1f7d5c3f5bd7310ae2beb7349118528d938e519845ce7d205b4c864</string>
+		<key>installer_item_location</key>
+		<string>apps/R/R-3.3.3.pkg</string>
+		<key>installer_item_size</key>
+		<integer>73133</integer>
+		<key>installs</key>
+		<array>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>org.R-project.R</string>
+				<key>CFBundleName</key>
+				<string>R</string>
+				<key>CFBundleShortVersionString</key>
+				<string>R 3.3.3 GUI 1.69 Mavericks build</string>
+				<key>CFBundleVersion</key>
+				<string>7328</string>
+				<key>minosversion</key>
+				<string>MIN_VERSION</string>
+				<key>path</key>
+				<string>/Applications/R.app</string>
+				<key>type</key>
+				<string>application</string>
+				<key>version_comparison_key</key>
+				<string>CFBundleVersion</string>
+			</dict>
+			<dict>
+				<key>CFBundleVersion</key>
+				<string>3.3.3</string>
+				<key>path</key>
+				<string>/Library/Frameworks/R.framework</string>
+				<key>type</key>
+				<string>bundle</string>
+				<key>version_comparison_key</key>
+				<string>CFBundleVersion</string>
+			</dict>
+		</array>
+		<key>minimum_os_version</key>
+		<string>10.5.0</string>
+		<key>name</key>
+		<string>R</string>
+		<key>receipts</key>
+		<array>
+			<dict>
+				<key>installed_size</key>
+				<integer>108928</integer>
+				<key>packageid</key>
+				<string>org.r-project.R.mavericks.fw.pkg</string>
+				<key>version</key>
+				<string>30372310</string>
+			</dict>
+			<dict>
+				<key>installed_size</key>
+				<integer>4160</integer>
+				<key>packageid</key>
+				<string>org.r-project.R.mavericks.GUI.pkg</string>
+				<key>version</key>
+				<string>1.69</string>
+			</dict>
+			<dict>
+				<key>installed_size</key>
+				<integer>36448</integer>
+				<key>packageid</key>
+				<string>org.r-project.x86_64.tcltk.x11</string>
+				<key>version</key>
+				<string>8.6.0</string>
+			</dict>
+			<dict>
+				<key>installed_size</key>
+				<integer>7956</integer>
+				<key>packageid</key>
+				<string>org.r-project.x86_64.texinfo</string>
+				<key>version</key>
+				<string>5.2</string>
+			</dict>
+		</array>
+		<key>unattended_install</key>
+		<true/>
+		<key>unattended_uninstall</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>removepackages</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>3.3.3</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>production</string>
+		</array>
+		<key>category</key>
 		<string>Utilities</string>
 		<key>description</key>
 		<string>With the Microsoft Remote Desktop app, you can connect to a remote PC and your work resources from almost anywhere. Experience the power of Windows with RemoteFX in a Remote Desktop client designed to help you get your work done wherever you are.</string>
@@ -21865,7 +22199,8 @@ defaults write /Library/Preferences/com.github.salopensource.sal.plist ServerURL
 		<key>autoremove</key>
 		<false/>
 		<key>blocking_applications</key>
-		<array/>
+		<array>
+		</array>
 		<key>catalogs</key>
 		<array>
 			<string>production</string>
@@ -25652,7 +25987,8 @@ fi
 		<key>uninstallable</key>
 		<true/>
 		<key>update_for</key>
-		<array/>
+		<array>
+		</array>
 		<key>version</key>
 		<string>1.0</string>
 	</dict>
