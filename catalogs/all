@@ -14437,6 +14437,72 @@ fi
 		<key>display_name</key>
 		<string>Mozilla Firefox</string>
 		<key>installer_item_hash</key>
+		<string>f9a91e0d57652566ba7f0d2e191cdc3db3219b3cf29a83ed145a9110a0bda108</string>
+		<key>installer_item_location</key>
+		<string>apps/firefox/Firefox-52.0.2.dmg</string>
+		<key>installer_item_size</key>
+		<integer>80162</integer>
+		<key>installer_type</key>
+		<string>copy_from_dmg</string>
+		<key>installs</key>
+		<array>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>org.mozilla.firefox</string>
+				<key>CFBundleName</key>
+				<string>Firefox</string>
+				<key>CFBundleShortVersionString</key>
+				<string>52.0.2</string>
+				<key>CFBundleVersion</key>
+				<string>5217.3.23</string>
+				<key>minosversion</key>
+				<string>10.9.0</string>
+				<key>path</key>
+				<string>/Applications/Firefox.app</string>
+				<key>type</key>
+				<string>application</string>
+				<key>version_comparison_key</key>
+				<string>CFBundleShortVersionString</string>
+			</dict>
+		</array>
+		<key>items_to_copy</key>
+		<array>
+			<dict>
+				<key>destination_path</key>
+				<string>/Applications</string>
+				<key>source_item</key>
+				<string>Firefox.app</string>
+			</dict>
+		</array>
+		<key>minimum_os_version</key>
+		<string>10.9.0</string>
+		<key>name</key>
+		<string>Firefox</string>
+		<key>unattended_install</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>remove_copied_items</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>52.0.2</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>production</string>
+		</array>
+		<key>category</key>
+		<string>Internet</string>
+		<key>description</key>
+		<string>Mozilla Firefox is a free and open source web browser.</string>
+		<key>developer</key>
+		<string>Mozilla</string>
+		<key>display_name</key>
+		<string>Mozilla Firefox</string>
+		<key>installer_item_hash</key>
 		<string>d753336be2e277a4671fe348d291fcf5a53957793e66e2e21134cfa779e9fe22</string>
 		<key>installer_item_location</key>
 		<string>apps/firefox/Firefox-52.0.dmg</string>
@@ -15142,6 +15208,88 @@ rm '/Library/PrivilegedHelperTools/Google Drive Icon Helper'
 		<true/>
 		<key>version</key>
 		<string>1.32.4889.9221</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>production</string>
+		</array>
+		<key>category</key>
+		<string>File Sharing</string>
+		<key>description</key>
+		<string>Google Drive sync for Mac. Access files on your computer from anywhere.</string>
+		<key>developer</key>
+		<string>Google</string>
+		<key>display_name</key>
+		<string>Google Drive</string>
+		<key>installer_item_hash</key>
+		<string>cae2fcc08d6b10483c1920d77aec6dfc9ee8be49e9c156fff1a566fa3170e5cf</string>
+		<key>installer_item_location</key>
+		<string>apps/google/GoogleDrive-2.34.5075.1619.dmg</string>
+		<key>installer_item_size</key>
+		<integer>38544</integer>
+		<key>installer_type</key>
+		<string>copy_from_dmg</string>
+		<key>installs</key>
+		<array>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>com.google.GoogleDrive</string>
+				<key>CFBundleName</key>
+				<string>Google Drive</string>
+				<key>CFBundleShortVersionString</key>
+				<string>2.34</string>
+				<key>CFBundleVersion</key>
+				<string>2.34.5075.1619</string>
+				<key>path</key>
+				<string>/Applications/Google Drive.app</string>
+				<key>type</key>
+				<string>application</string>
+				<key>version_comparison_key</key>
+				<string>CFBundleVersion</string>
+			</dict>
+		</array>
+		<key>items_to_copy</key>
+		<array>
+			<dict>
+				<key>destination_path</key>
+				<string>/Applications</string>
+				<key>source_item</key>
+				<string>Google Drive.app</string>
+			</dict>
+		</array>
+		<key>minimum_os_version</key>
+		<string>10.6</string>
+		<key>name</key>
+		<string>GoogleDrive</string>
+		<key>postinstall_script</key>
+		<string>#!/bin/sh
+
+# Appreciatively copied from
+# https://github.com/Ginja/Admin_Scripts/blob/master/google_drive_helper.rb
+
+cp \
+        '/Applications/Google Drive.app/Contents/Helpers/Google Drive Icon Helper' \
+        '/Library/PrivilegedHelperTools/Google Drive Icon Helper'
+
+chmod 6755 '/Library/PrivilegedHelperTools/Google Drive Icon Helper'
+chown root:procmod '/Library/PrivilegedHelperTools/Google Drive Icon Helper'
+</string>
+		<key>postuninstall_script</key>
+		<string>#/bin/sh
+
+rm '/Library/PrivilegedHelperTools/Google Drive Icon Helper'
+</string>
+		<key>unattended_install</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>remove_copied_items</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>2.34.5075.1619</string>
 	</dict>
 	<dict>
 		<key>autoremove</key>
