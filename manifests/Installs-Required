@@ -11,9 +11,7 @@
   </array>
   <key>managed_installs</key>
   <array>
-    <string>AddPrinter_Komodo</string>
     <string>AddPrinter_LincolnMemorial</string>
-    <string>AddPrinter_RedFort</string>
     <string>AddPrinter_RobbenIsland</string>
     <string>AddPrinter_Valparaiso</string>
     <string>AddPrinter_Versailles</string>
@@ -35,6 +33,8 @@
   </array>
   <key>managed_uninstalls</key>
   <array>
+    <string>AddPrinter_RedFort</string>
+    <string>AddPrinter_Komodo</string>
     <string>AddPrinter_Morphine</string>
     <string>AddPrinter_PaperSpitter</string>
     <string>AddPrinter_NorthAmerica</string>
