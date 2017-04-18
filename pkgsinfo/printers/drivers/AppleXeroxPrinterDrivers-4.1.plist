@@ -30,7 +30,7 @@
 	<key>installer_item_hash</key>
 	<string>6271a44d29837e6d895589ff2f82ff8739c1ed91d6fadfe5892e016dc8f87404</string>
 	<key>installer_item_location</key>
-	<string>Printers/Drivers/xeroxprinterdrivers4.1.dmg</string>
+	<string>printers/drivers/xeroxprinterdrivers4.1.dmg</string>
 	<key>installer_item_size</key>
 	<integer>73646</integer>
 	<key>installs</key>

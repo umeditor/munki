@@ -1477,8 +1477,6 @@ exit 0
 		<string>Apple</string>
 		<key>display_name</key>
 		<string>macOS Sierra (10.12) Installer</string>
-		<key>icon_hash</key>
-		<string>197516946a87f0479899366158200be15154b7035f6e82016ab45bd2e062953f</string>
 		<key>installed_size</key>
 		<integer>8388608</integer>
 		<key>installer_item_hash</key>
@@ -5372,8 +5370,6 @@ exit 0
 		<string>Adobe</string>
 		<key>display_name</key>
 		<string>Adobe Acrobat Pro DC</string>
-		<key>icon_hash</key>
-		<string>f3fb78a73c5d477062dd639a22e1b408bce2998d93e207090638b8389d1c6fc9</string>
 		<key>installed_size</key>
 		<integer>1373747</integer>
 		<key>installer_item_hash</key>
@@ -17278,7 +17274,7 @@ fi
 		<key>installer_item_hash</key>
 		<string>6271a44d29837e6d895589ff2f82ff8739c1ed91d6fadfe5892e016dc8f87404</string>
 		<key>installer_item_location</key>
-		<string>Printers/Drivers/xeroxprinterdrivers4.1.dmg</string>
+		<string>printers/drivers/xeroxprinterdrivers4.1.dmg</string>
 		<key>installer_item_size</key>
 		<integer>73646</integer>
 		<key>installs</key>
