@@ -275,6 +275,8 @@
 		<string>Security</string>
 		<key>developer</key>
 		<string>MIT IS&amp;T</string>
+		<key>icon_hash</key>
+		<string>047f7157fd22944beff3ec7ade33ba5070e97627b6783c39f2dcbc685a70b0bb</string>
 		<key>installer_item_hash</key>
 		<string>66f82e1bb3ebdda6d93e9d0a8daa484d457b47789ddddd1e91f1da8c3f984edc</string>
 		<key>installer_item_location</key>
@@ -341,6 +343,8 @@
 		<string></string>
 		<key>display_name</key>
 		<string>Cisco AnyConnect Secure Mobility Client</string>
+		<key>icon_hash</key>
+		<string>9ff5b4b5d77b6e6f0e97ffe98ee7ef6cb383494a61893a72d1ed7bb0ec5656ac</string>
 		<key>installed_size</key>
 		<integer>12108</integer>
 		<key>installer_item_hash</key>
@@ -885,6 +889,8 @@ exit 0
 		<string>This software detects and cleans up viruses, Trojans, worms and spyware, as well as adware and other potentially unwanted applications.</string>
 		<key>display_name</key>
 		<string>Sophos Anti-Virus</string>
+		<key>icon_hash</key>
+		<string>11ca032724a32445d38a145ad55353002fe9b5daadc27d6e66a80af6f3da7406</string>
 		<key>installed_size</key>
 		<integer>234504</integer>
 		<key>installer_item_hash</key>
@@ -1223,6 +1229,8 @@ exit 0
 		<string>Sophos</string>
 		<key>display_name</key>
 		<string>Sophos Anti-Virus</string>
+		<key>icon_hash</key>
+		<string>11ca032724a32445d38a145ad55353002fe9b5daadc27d6e66a80af6f3da7406</string>
 		<key>installed_size</key>
 		<integer>1351680</integer>
 		<key>installer_item_hash</key>
@@ -1272,6 +1280,8 @@ exit 0
 		<string>Sophos</string>
 		<key>display_name</key>
 		<string>Sophos Anti-Virus</string>
+		<key>icon_hash</key>
+		<string>11ca032724a32445d38a145ad55353002fe9b5daadc27d6e66a80af6f3da7406</string>
 		<key>installer_item_hash</key>
 		<string>15dc34185d2401b0abc9aa070ef12c2c75bfe4c4d9990abc3bdfb5eaf8646afb</string>
 		<key>installer_item_location</key>
@@ -1341,6 +1351,8 @@ exit 0
 		<string>Sophos</string>
 		<key>display_name</key>
 		<string>Sophos Anti-Virus</string>
+		<key>icon_hash</key>
+		<string>11ca032724a32445d38a145ad55353002fe9b5daadc27d6e66a80af6f3da7406</string>
 		<key>installer_item_hash</key>
 		<string>9af205dd02f047316b2e726910b8e6e6df852ce167e803bc84f61c9101ac5e21</string>
 		<key>installer_item_location</key>
@@ -1408,6 +1420,8 @@ exit 0
 		<string>VMware Fusion is a desktop application that lets you create and run virtual machines on your Intel-based Macintosh.</string>
 		<key>display_name</key>
 		<string>VMware Fusion</string>
+		<key>icon_hash</key>
+		<string>7a57813418fd3158bec50bdead1fe6cdfb0cfa5295ddee504c0368b7801ec7f9</string>
 		<key>installer_item_hash</key>
 		<string>cfff06414ebcdb0ca8857da867f59b9f84740ec2416d906c46ddcef1c3fb13a5</string>
 		<key>installer_item_location</key>
@@ -1463,6 +1477,8 @@ exit 0
 		<string>Apple</string>
 		<key>display_name</key>
 		<string>macOS Sierra (10.12) Installer</string>
+		<key>icon_hash</key>
+		<string>197516946a87f0479899366158200be15154b7035f6e82016ab45bd2e062953f</string>
 		<key>installed_size</key>
 		<integer>8388608</integer>
 		<key>installer_item_hash</key>
@@ -1521,6 +1537,8 @@ exit 0
 		<string>AgileBits Inc.</string>
 		<key>display_name</key>
 		<string>1Password</string>
+		<key>icon_hash</key>
+		<string>d392a36c3903d6a6bd498fa16434417833a7dd5d573399e78412beb2eef81b5b</string>
 		<key>installer_item_hash</key>
 		<string>e795160b17afd33b04ee961781f140b1c30fb0526e48272383322d77887eff3c</string>
 		<key>installer_item_location</key>
@@ -1594,6 +1612,8 @@ exit 0
 		<string>AgileBits Inc.</string>
 		<key>display_name</key>
 		<string>1Password</string>
+		<key>icon_hash</key>
+		<string>d392a36c3903d6a6bd498fa16434417833a7dd5d573399e78412beb2eef81b5b</string>
 		<key>installer_item_hash</key>
 		<string>a3ba3cb54a29d2a32307fafc04756567d256028b18b6630889699fca24c44ada</string>
 		<key>installer_item_location</key>
@@ -1667,6 +1687,8 @@ exit 0
 		<string>AgileBits Inc.</string>
 		<key>display_name</key>
 		<string>1Password</string>
+		<key>icon_hash</key>
+		<string>d392a36c3903d6a6bd498fa16434417833a7dd5d573399e78412beb2eef81b5b</string>
 		<key>installer_item_hash</key>
 		<string>07e20404839d4b667d166abb17dcddb9e2755e54a2c5f7f96320be45d6a06f4e</string>
 		<key>installer_item_location</key>
@@ -1735,6 +1757,8 @@ exit 0
 		<string>GitHub, Inc.</string>
 		<key>display_name</key>
 		<string>Atom</string>
+		<key>icon_hash</key>
+		<string>24bf68bf9e7cb83a6d301d50a66c18f3307f67fe4ebd71d87e02f98380639316</string>
 		<key>installer_item_hash</key>
 		<string>39b2c0593449b6a5efbebecbe6188f619d4cfb30aa0c7626f2b62c76d7ba16f8</string>
 		<key>installer_item_location</key>
@@ -1853,6 +1877,8 @@ exit 0
 		<string>GitHub, Inc.</string>
 		<key>display_name</key>
 		<string>Atom</string>
+		<key>icon_hash</key>
+		<string>24bf68bf9e7cb83a6d301d50a66c18f3307f67fe4ebd71d87e02f98380639316</string>
 		<key>installer_item_hash</key>
 		<string>72996c4b4c1d32a1ad8bc01d4baebe99fe7db4edefb1f0d76da60193800f1e3d</string>
 		<key>installer_item_location</key>
@@ -1971,6 +1997,8 @@ exit 0
 		<string>David V. Kocher and Yves Langisch</string>
 		<key>display_name</key>
 		<string>Cyberduck</string>
+		<key>icon_hash</key>
+		<string>db905490a75a670d961089cafd3cfd165ad0b220d861e680648377dbcf32666c</string>
 		<key>installer_item_hash</key>
 		<string>ba49425c7d42659f09c1cb7b8f0105813665afea15d69b233638d09c0b447e9b</string>
 		<key>installer_item_location</key>
@@ -2037,6 +2065,8 @@ exit 0
 		<string>David V. Kocher and Yves Langisch</string>
 		<key>display_name</key>
 		<string>Cyberduck</string>
+		<key>icon_hash</key>
+		<string>db905490a75a670d961089cafd3cfd165ad0b220d861e680648377dbcf32666c</string>
 		<key>installer_item_hash</key>
 		<string>0350d7bc784139d01416977e1f9d27137c3aef9ab25c66ee7bfb9dda48082983</string>
 		<key>installer_item_location</key>
@@ -2103,6 +2133,8 @@ exit 0
 		<string>David V. Kocher and Yves Langisch</string>
 		<key>display_name</key>
 		<string>Cyberduck</string>
+		<key>icon_hash</key>
+		<string>db905490a75a670d961089cafd3cfd165ad0b220d861e680648377dbcf32666c</string>
 		<key>installer_item_hash</key>
 		<string>ccceb127cb7d27576771e7c285123fd59f0ddb651eb795c6d700c70bfc75dde6</string>
 		<key>installer_item_location</key>
@@ -2169,6 +2201,8 @@ exit 0
 		<string>Google</string>
 		<key>display_name</key>
 		<string>Google Chrome</string>
+		<key>icon_hash</key>
+		<string>5f520eb8787e2174bbd3e358ae055eea44e2194b52b2b7c7fd0beb6c1d089c89</string>
 		<key>installer_item_hash</key>
 		<string>10b5d4d241c59759ee7f448887088d11e946b35917af8f2ebacfdff0d7d0fb9f</string>
 		<key>installer_item_location</key>
@@ -2235,6 +2269,8 @@ exit 0
 		<string>Google</string>
 		<key>display_name</key>
 		<string>Google Chrome</string>
+		<key>icon_hash</key>
+		<string>5f520eb8787e2174bbd3e358ae055eea44e2194b52b2b7c7fd0beb6c1d089c89</string>
 		<key>installer_item_hash</key>
 		<string>69c416f9ee5cb60ffd91baad3db567cbc98da9f58cb5348f0ef927820a6020c9</string>
 		<key>installer_item_location</key>
@@ -2301,6 +2337,8 @@ exit 0
 		<string>Google</string>
 		<key>display_name</key>
 		<string>Google Chrome</string>
+		<key>icon_hash</key>
+		<string>5f520eb8787e2174bbd3e358ae055eea44e2194b52b2b7c7fd0beb6c1d089c89</string>
 		<key>installer_item_hash</key>
 		<string>4a8249d46198d437e7ea0a3ee843d642373ce2edef204f5df719bd7ac3c5b5e6</string>
 		<key>installer_item_location</key>
@@ -2367,6 +2405,8 @@ exit 0
 		<string>Google</string>
 		<key>display_name</key>
 		<string>Google Chrome</string>
+		<key>icon_hash</key>
+		<string>5f520eb8787e2174bbd3e358ae055eea44e2194b52b2b7c7fd0beb6c1d089c89</string>
 		<key>installer_item_hash</key>
 		<string>fde17d40f5438f30a384960e0d6f56aa7959406eb0751b89ec3b42a04d8a91a3</string>
 		<key>installer_item_location</key>
@@ -2433,6 +2473,8 @@ exit 0
 		<string>Google</string>
 		<key>display_name</key>
 		<string>Google Chrome</string>
+		<key>icon_hash</key>
+		<string>5f520eb8787e2174bbd3e358ae055eea44e2194b52b2b7c7fd0beb6c1d089c89</string>
 		<key>installer_item_hash</key>
 		<string>0c221050a857dbb0fe87e8cc911f5a1ae7bc02c8d098ef03db151a671778b5e7</string>
 		<key>installer_item_location</key>
@@ -2493,6 +2535,8 @@ exit 0
 		</array>
 		<key>description</key>
 		<string>GrandPerspective is a small utility application for Mac OS X that graphically shows the disk usage within a file system. It can help you to manage your disk, as you can easily spot which files and folders take up the most space. It uses a so called tree map for visualisation. Each file is shown as a rectangle with an area proportional to the file's size. Files in the same folder appear together, but their placement is otherwise arbitrary.</string>
+		<key>icon_hash</key>
+		<string>e894e7df38344f8119d8403261fdab816eb4b429dc6e99767981d87c54ff40f8</string>
 		<key>installer_item_hash</key>
 		<string>92204458042a337c1091879e167ea95e45cae33a7be16fa6c11e80572c54d135</string>
 		<key>installer_item_location</key>
@@ -2559,6 +2603,8 @@ exit 0
 &lt;p style="font-family:Helvetica;font-size:12px"&gt;&lt;a href="https://go.microsoft.com/fwlink/?LinkID=831049" target="_blank"&gt;https://go.microsoft.com/fwlink/?LinkID=831049&lt;/a&gt;&lt;/p&gt;&lt;/html&gt;</string>
 		<key>display_name</key>
 		<string>Microsoft Excel for Mac</string>
+		<key>icon_hash</key>
+		<string>71cfb7216f655859dc3bbf4f914d58f91f7fc2012dc8f69b7402dcb5d6a4bb80</string>
 		<key>installed_size</key>
 		<integer>1754206</integer>
 		<key>installer_item_hash</key>
@@ -2623,6 +2669,8 @@ exit 0
 &lt;p style="font-family:Helvetica;font-size:12px"&gt;&lt;a href="https://go.microsoft.com/fwlink/?LinkID=831049" target="_blank"&gt;https://go.microsoft.com/fwlink/?LinkID=831049&lt;/a&gt;&lt;/p&gt;&lt;/html&gt;</string>
 		<key>display_name</key>
 		<string>Microsoft Excel for Mac</string>
+		<key>icon_hash</key>
+		<string>71cfb7216f655859dc3bbf4f914d58f91f7fc2012dc8f69b7402dcb5d6a4bb80</string>
 		<key>installed_size</key>
 		<integer>1754772</integer>
 		<key>installer_item_hash</key>
@@ -2687,6 +2735,8 @@ exit 0
 &lt;p style="font-family:Helvetica;font-size:12px"&gt;&lt;a href="https://go.microsoft.com/fwlink/?LinkID=831049" target="_blank"&gt;https://go.microsoft.com/fwlink/?LinkID=831049&lt;/a&gt;&lt;/p&gt;&lt;/html&gt;</string>
 		<key>display_name</key>
 		<string>Microsoft Excel for Mac</string>
+		<key>icon_hash</key>
+		<string>71cfb7216f655859dc3bbf4f914d58f91f7fc2012dc8f69b7402dcb5d6a4bb80</string>
 		<key>installed_size</key>
 		<integer>1760893</integer>
 		<key>installer_item_hash</key>
@@ -2751,6 +2801,8 @@ exit 0
 &lt;p style="font-family:Helvetica;font-size:12px"&gt;&lt;a href="https://go.microsoft.com/fwlink/?LinkID=831049" target="_blank"&gt;https://go.microsoft.com/fwlink/?LinkID=831049&lt;/a&gt;&lt;/p&gt;&lt;/html&gt;</string>
 		<key>display_name</key>
 		<string>Microsoft OneNote for Mac</string>
+		<key>icon_hash</key>
+		<string>787458d8ab01dd59d61006ed2421bdea661fac7d641bde2819da5fa90a033df7</string>
 		<key>installed_size</key>
 		<integer>852523</integer>
 		<key>installer_item_hash</key>
@@ -2815,6 +2867,8 @@ exit 0
 &lt;p style="font-family:Helvetica;font-size:12px"&gt;&lt;a href="https://go.microsoft.com/fwlink/?LinkID=831049" target="_blank"&gt;https://go.microsoft.com/fwlink/?LinkID=831049&lt;/a&gt;&lt;/p&gt;&lt;/html&gt;</string>
 		<key>display_name</key>
 		<string>Microsoft OneNote for Mac</string>
+		<key>icon_hash</key>
+		<string>787458d8ab01dd59d61006ed2421bdea661fac7d641bde2819da5fa90a033df7</string>
 		<key>installed_size</key>
 		<integer>855245</integer>
 		<key>installer_item_hash</key>
@@ -2879,6 +2933,8 @@ exit 0
 &lt;p style="font-family:Helvetica;font-size:12px"&gt;&lt;a href="https://go.microsoft.com/fwlink/?LinkID=831049" target="_blank"&gt;https://go.microsoft.com/fwlink/?LinkID=831049&lt;/a&gt;&lt;/p&gt;&lt;/html&gt;</string>
 		<key>display_name</key>
 		<string>Microsoft OneNote for Mac</string>
+		<key>icon_hash</key>
+		<string>787458d8ab01dd59d61006ed2421bdea661fac7d641bde2819da5fa90a033df7</string>
 		<key>installed_size</key>
 		<integer>860369</integer>
 		<key>installer_item_hash</key>
@@ -2943,6 +2999,8 @@ exit 0
 &lt;p style="font-family:Helvetica;font-size:12px"&gt;&lt;a href="https://go.microsoft.com/fwlink/?LinkID=831049" target="_blank"&gt;https://go.microsoft.com/fwlink/?LinkID=831049&lt;/a&gt;&lt;/p&gt;&lt;/html&gt;</string>
 		<key>display_name</key>
 		<string>Microsoft Outlook for Mac</string>
+		<key>icon_hash</key>
+		<string>7d0893e3783d74c85f8a9ead4cdaed4e1c11645b55bd5513f679e3bdfda84af4</string>
 		<key>installed_size</key>
 		<integer>1598870</integer>
 		<key>installer_item_hash</key>
@@ -3007,6 +3065,8 @@ exit 0
 &lt;p style="font-family:Helvetica;font-size:12px"&gt;&lt;a href="https://go.microsoft.com/fwlink/?LinkID=831049" target="_blank"&gt;https://go.microsoft.com/fwlink/?LinkID=831049&lt;/a&gt;&lt;/p&gt;&lt;/html&gt;</string>
 		<key>display_name</key>
 		<string>Microsoft Outlook for Mac</string>
+		<key>icon_hash</key>
+		<string>7d0893e3783d74c85f8a9ead4cdaed4e1c11645b55bd5513f679e3bdfda84af4</string>
 		<key>installed_size</key>
 		<integer>1603025</integer>
 		<key>installer_item_hash</key>
@@ -3071,6 +3131,8 @@ exit 0
 &lt;p style="font-family:Helvetica;font-size:12px"&gt;&lt;a href="https://go.microsoft.com/fwlink/?LinkID=831049" target="_blank"&gt;https://go.microsoft.com/fwlink/?LinkID=831049&lt;/a&gt;&lt;/p&gt;&lt;/html&gt;</string>
 		<key>display_name</key>
 		<string>Microsoft Outlook for Mac</string>
+		<key>icon_hash</key>
+		<string>7d0893e3783d74c85f8a9ead4cdaed4e1c11645b55bd5513f679e3bdfda84af4</string>
 		<key>installed_size</key>
 		<integer>1612239</integer>
 		<key>installer_item_hash</key>
@@ -3135,6 +3197,8 @@ exit 0
 &lt;p style="font-family:Helvetica;font-size:12px"&gt;&lt;a href="https://go.microsoft.com/fwlink/?LinkID=831049" target="_blank"&gt;https://go.microsoft.com/fwlink/?LinkID=831049&lt;/a&gt;&lt;/p&gt;&lt;/html&gt;</string>
 		<key>display_name</key>
 		<string>Microsoft PowerPoint for Mac</string>
+		<key>icon_hash</key>
+		<string>53ef3dab9ad735884c885ff9593e564cbeedb9e5f0aaf61b814feff053e05a98</string>
 		<key>installed_size</key>
 		<integer>1630557</integer>
 		<key>installer_item_hash</key>
@@ -3199,6 +3263,8 @@ exit 0
 &lt;p style="font-family:Helvetica;font-size:12px"&gt;&lt;a href="https://go.microsoft.com/fwlink/?LinkID=831049" target="_blank"&gt;https://go.microsoft.com/fwlink/?LinkID=831049&lt;/a&gt;&lt;/p&gt;&lt;/html&gt;</string>
 		<key>display_name</key>
 		<string>Microsoft PowerPoint for Mac</string>
+		<key>icon_hash</key>
+		<string>53ef3dab9ad735884c885ff9593e564cbeedb9e5f0aaf61b814feff053e05a98</string>
 		<key>installed_size</key>
 		<integer>1631557</integer>
 		<key>installer_item_hash</key>
@@ -3263,6 +3329,8 @@ exit 0
 &lt;p style="font-family:Helvetica;font-size:12px"&gt;&lt;a href="https://go.microsoft.com/fwlink/?LinkID=831049" target="_blank"&gt;https://go.microsoft.com/fwlink/?LinkID=831049&lt;/a&gt;&lt;/p&gt;&lt;/html&gt;</string>
 		<key>display_name</key>
 		<string>Microsoft PowerPoint for Mac</string>
+		<key>icon_hash</key>
+		<string>53ef3dab9ad735884c885ff9593e564cbeedb9e5f0aaf61b814feff053e05a98</string>
 		<key>installed_size</key>
 		<integer>1636985</integer>
 		<key>installer_item_hash</key>
@@ -3327,6 +3395,8 @@ exit 0
 &lt;p style="font-family:Helvetica;font-size:12px"&gt;&lt;a href="https://go.microsoft.com/fwlink/?LinkID=831049" target="_blank"&gt;https://go.microsoft.com/fwlink/?LinkID=831049&lt;/a&gt;&lt;/p&gt;&lt;/html&gt;</string>
 		<key>display_name</key>
 		<string>Microsoft Word for Mac</string>
+		<key>icon_hash</key>
+		<string>f40affe61cb501db81248085e4316211481bf0b0b90b81a59ff6d794198fbb7a</string>
 		<key>installed_size</key>
 		<integer>1925790</integer>
 		<key>installer_item_hash</key>
@@ -3391,6 +3461,8 @@ exit 0
 &lt;p style="font-family:Helvetica;font-size:12px"&gt;&lt;a href="https://go.microsoft.com/fwlink/?LinkID=831049" target="_blank"&gt;https://go.microsoft.com/fwlink/?LinkID=831049&lt;/a&gt;&lt;/p&gt;&lt;/html&gt;</string>
 		<key>display_name</key>
 		<string>Microsoft Word for Mac</string>
+		<key>icon_hash</key>
+		<string>f40affe61cb501db81248085e4316211481bf0b0b90b81a59ff6d794198fbb7a</string>
 		<key>installed_size</key>
 		<integer>1926779</integer>
 		<key>installer_item_hash</key>
@@ -3455,6 +3527,8 @@ exit 0
 &lt;p style="font-family:Helvetica;font-size:12px"&gt;&lt;a href="https://go.microsoft.com/fwlink/?LinkID=831049" target="_blank"&gt;https://go.microsoft.com/fwlink/?LinkID=831049&lt;/a&gt;&lt;/p&gt;&lt;/html&gt;</string>
 		<key>display_name</key>
 		<string>Microsoft Word for Mac</string>
+		<key>icon_hash</key>
+		<string>f40affe61cb501db81248085e4316211481bf0b0b90b81a59ff6d794198fbb7a</string>
 		<key>installed_size</key>
 		<integer>1933758</integer>
 		<key>installer_item_hash</key>
@@ -3513,6 +3587,8 @@ exit 0
 		<string>Microsoft Silverlight is a free web-browser plug-in that enables interactive media experiences, rich business applications and immersive mobile apps.</string>
 		<key>display_name</key>
 		<string>Microsoft Silverlight</string>
+		<key>icon_hash</key>
+		<string>647ae20a9344a00c2ce40159953690a5b874cb81053a0d54d4f8249176ba8970</string>
 		<key>installed_size</key>
 		<integer>35674</integer>
 		<key>installer_item_hash</key>
@@ -3558,6 +3634,8 @@ exit 0
 		<string>Microsoft Silverlight is a free web-browser plug-in that enables interactive media experiences, rich business applications and immersive mobile apps.</string>
 		<key>display_name</key>
 		<string>Microsoft Silverlight</string>
+		<key>icon_hash</key>
+		<string>647ae20a9344a00c2ce40159953690a5b874cb81053a0d54d4f8249176ba8970</string>
 		<key>installed_size</key>
 		<integer>35674</integer>
 		<key>installer_item_hash</key>
@@ -3603,6 +3681,8 @@ exit 0
 		<string>Microsoft Silverlight is a free web-browser plug-in that enables interactive media experiences, rich business applications and immersive mobile apps.</string>
 		<key>display_name</key>
 		<string>Microsoft Silverlight</string>
+		<key>icon_hash</key>
+		<string>647ae20a9344a00c2ce40159953690a5b874cb81053a0d54d4f8249176ba8970</string>
 		<key>installed_size</key>
 		<integer>35676</integer>
 		<key>installer_item_hash</key>
@@ -3650,6 +3730,8 @@ exit 0
 		<string>Microsoft</string>
 		<key>display_name</key>
 		<string>Skype</string>
+		<key>icon_hash</key>
+		<string>dc3ed8ea203d371a4dc1050a8436a4cae2ed23a9b7b3988dda4cfbc196e57f05</string>
 		<key>installer_item_hash</key>
 		<string>68392cf1987e789df6ee363b30a3166f492bcad259c193ee580262fb9833a6b3</string>
 		<key>installer_item_location</key>
@@ -3716,6 +3798,8 @@ exit 0
 		<string>Microsoft</string>
 		<key>display_name</key>
 		<string>Skype</string>
+		<key>icon_hash</key>
+		<string>dc3ed8ea203d371a4dc1050a8436a4cae2ed23a9b7b3988dda4cfbc196e57f05</string>
 		<key>installer_item_hash</key>
 		<string>dbf2d18e5fb5d28f42f89273538b8eba0901a0652e752c9029b9f82e597c1d66</string>
 		<key>installer_item_location</key>
@@ -3782,6 +3866,8 @@ exit 0
 		<string>Microsoft</string>
 		<key>display_name</key>
 		<string>Skype</string>
+		<key>icon_hash</key>
+		<string>dc3ed8ea203d371a4dc1050a8436a4cae2ed23a9b7b3988dda4cfbc196e57f05</string>
 		<key>installer_item_hash</key>
 		<string>d168a802ed88882530c424f5704408a17ab37b1a022c5058994b713a8a82b604</string>
 		<key>installer_item_location</key>
@@ -3848,6 +3934,8 @@ exit 0
 		<string>Microsoft</string>
 		<key>display_name</key>
 		<string>Skype</string>
+		<key>icon_hash</key>
+		<string>dc3ed8ea203d371a4dc1050a8436a4cae2ed23a9b7b3988dda4cfbc196e57f05</string>
 		<key>installer_item_hash</key>
 		<string>86bb6d6153bbaa03ad6f5839410f66bb0b4bac242bf15955fb781ec9e208e60f</string>
 		<key>installer_item_location</key>
@@ -3914,6 +4002,8 @@ exit 0
 		<string>Microsoft</string>
 		<key>display_name</key>
 		<string>Skype</string>
+		<key>icon_hash</key>
+		<string>dc3ed8ea203d371a4dc1050a8436a4cae2ed23a9b7b3988dda4cfbc196e57f05</string>
 		<key>installer_item_hash</key>
 		<string>39588bfc7f60fc59f38dc54ef06d40e9fdce6ab431429f05347837df366830bc</string>
 		<key>installer_item_location</key>
@@ -3980,6 +4070,8 @@ exit 0
 		<string>Microsoft</string>
 		<key>display_name</key>
 		<string>Skype</string>
+		<key>icon_hash</key>
+		<string>dc3ed8ea203d371a4dc1050a8436a4cae2ed23a9b7b3988dda4cfbc196e57f05</string>
 		<key>installer_item_hash</key>
 		<string>b3956b64fc8e5b44610f413ae63cbf93f21d91c94e21b9484a8ca84605c8a616</string>
 		<key>installer_item_location</key>
@@ -4178,6 +4270,8 @@ exit 0
 		<string>Spotify</string>
 		<key>display_name</key>
 		<string>Spotify</string>
+		<key>icon_hash</key>
+		<string>296a19e886926a9f063abe4f853f97e9d0fe721259975dfd308317d83ab06b72</string>
 		<key>installer_item_hash</key>
 		<string>310afd90a9cbe3f35bdb3bd7e0093251b092b8989e40ba7bc5e1fb5102f59297</string>
 		<key>installer_item_location</key>
@@ -4244,6 +4338,8 @@ exit 0
 		<string>Spotify</string>
 		<key>display_name</key>
 		<string>Spotify</string>
+		<key>icon_hash</key>
+		<string>296a19e886926a9f063abe4f853f97e9d0fe721259975dfd308317d83ab06b72</string>
 		<key>installer_item_hash</key>
 		<string>7448e6f78223b3b41c33fc1e5aa05eb7fa17d5231f4930f4826cc644841bca59</string>
 		<key>installer_item_location</key>
@@ -4310,6 +4406,8 @@ exit 0
 		<string>Spotify</string>
 		<key>display_name</key>
 		<string>Spotify</string>
+		<key>icon_hash</key>
+		<string>296a19e886926a9f063abe4f853f97e9d0fe721259975dfd308317d83ab06b72</string>
 		<key>installer_item_hash</key>
 		<string>069f485e422e9ffe754749f8123611cf01160fb0cb494ee93a33be2814c62ddc</string>
 		<key>installer_item_location</key>
@@ -4372,6 +4470,8 @@ exit 0
 		<string>The Unarchiver is a much more capable replacement for "Archive Utility.app", the built-in archive unpacker program on Mac OS X. The Unarchiver is designed to handle many more formats than Archive Utility, and to better fit in with the design of the Finder.</string>
 		<key>display_name</key>
 		<string>The Unarchiver</string>
+		<key>icon_hash</key>
+		<string>7a283f1495aef6bf64956b07476a317246546c602752fdb49556126e756b9d10</string>
 		<key>installer_item_hash</key>
 		<string>a258cf3ad37a67afe6559ed8edbc84c71840841adca16b9e5526999e350992d6</string>
 		<key>installer_item_location</key>
@@ -4434,6 +4534,8 @@ exit 0
 		<string>The Unarchiver is a much more capable replacement for "Archive Utility.app", the built-in archive unpacker program on Mac OS X. The Unarchiver is designed to handle many more formats than Archive Utility, and to better fit in with the design of the Finder.</string>
 		<key>display_name</key>
 		<string>The Unarchiver</string>
+		<key>icon_hash</key>
+		<string>7a283f1495aef6bf64956b07476a317246546c602752fdb49556126e756b9d10</string>
 		<key>installer_item_hash</key>
 		<string>c83c94b8b637e63fc9ff92dba871ddc8ed3ad89ef370ed9be0b3e986b82b939c</string>
 		<key>installer_item_location</key>
@@ -4504,6 +4606,8 @@ exit 0
 		<string>TrueCrypt</string>
 		<key>display_name</key>
 		<string>TrueCrypt</string>
+		<key>icon_hash</key>
+		<string>509b9893132e8a54a47f683740d320f3e291c2140e5a2623fff366220c52725e</string>
 		<key>installed_size</key>
 		<integer>15508</integer>
 		<key>installer_item_hash</key>
@@ -4600,6 +4704,8 @@ exit 0
 		<string>Calibrated{Q} XD Decode is a multi-threaded QuickTime Codec(Decode Only) that enables you to view QuickTime XDCAM HD/EX and HDV .MOV Movies in QuickTime Player and other 3rd party applications that support QuickTime.</string>
 		<key>display_name</key>
 		<string>Calibrated{Q} XD Decode</string>
+		<key>icon_hash</key>
+		<string>025e42a85993b31a13e4928b18fe9d778b11dc8f452a63cf763f50a9f8e9080e</string>
 		<key>installed_size</key>
 		<integer>9128</integer>
 		<key>installer_item_hash</key>
@@ -4714,6 +4820,8 @@ exit 0
 		<string>Adobe</string>
 		<key>display_name</key>
 		<string>Adobe Acrobat Pro XI</string>
+		<key>icon_hash</key>
+		<string>dd9dd07bfe80201267bff64d979aa28a7a9f0c1dbb149de523e474572cdfbe14</string>
 		<key>installed_size</key>
 		<integer>1325003</integer>
 		<key>installer_item_hash</key>
@@ -5117,6 +5225,8 @@ exit 0
 		<string>Adobe</string>
 		<key>display_name</key>
 		<string>Adobe AIR</string>
+		<key>icon_hash</key>
+		<string>5c5d90664a3ece3a4150cd9bba13328d4e9a08a210698ef1a3e4de0d7a1c4511</string>
 		<key>installed_size</key>
 		<integer>81524</integer>
 		<key>installer_item_hash</key>
@@ -5164,6 +5274,8 @@ exit 0
 		<string>Adobe</string>
 		<key>display_name</key>
 		<string>Adobe AIR</string>
+		<key>icon_hash</key>
+		<string>5c5d90664a3ece3a4150cd9bba13328d4e9a08a210698ef1a3e4de0d7a1c4511</string>
 		<key>installed_size</key>
 		<integer>81614</integer>
 		<key>installer_item_hash</key>
@@ -5211,6 +5323,8 @@ exit 0
 		<string>Adobe</string>
 		<key>display_name</key>
 		<string>Adobe AIR</string>
+		<key>icon_hash</key>
+		<string>5c5d90664a3ece3a4150cd9bba13328d4e9a08a210698ef1a3e4de0d7a1c4511</string>
 		<key>installed_size</key>
 		<integer>81483</integer>
 		<key>installer_item_hash</key>
@@ -5258,6 +5372,8 @@ exit 0
 		<string>Adobe</string>
 		<key>display_name</key>
 		<string>Adobe Acrobat Pro DC</string>
+		<key>icon_hash</key>
+		<string>f3fb78a73c5d477062dd639a22e1b408bce2998d93e207090638b8389d1c6fc9</string>
 		<key>installed_size</key>
 		<integer>1373747</integer>
 		<key>installer_item_hash</key>
@@ -5367,6 +5483,8 @@ exit 0
 		<string>iPhoto lets you do more than you ever thought possible with your photos, with easy ways to find, sort, and rediscover your favorite shots. Simple but powerful editing tools let you turn good photos into magnificent ones. Share directly to Facebook, Flickr, Twitter, and Messages. iPhoto also works with iCloud, so the photos you take on your iOS devices automatically appear in iPhoto, and you can share selected photos and videos with family and friends using iCloud Photo Sharing. You can even create professional-quality photo books, calendars and letterpress cards quickly and easily.</string>
 		<key>display_name</key>
 		<string>iPhoto</string>
+		<key>icon_hash</key>
+		<string>0164d1fb30081db0c61cff6eb63487faddee0fef7b656a72227feef842b4b29f</string>
 		<key>installer_item_hash</key>
 		<string>21d499bf877d76129c21988cc35bdefe368f71fd8c73bfcd959bb535d1a4d84f</string>
 		<key>installer_item_location</key>
@@ -5429,6 +5547,8 @@ exit 0
 		<string>Apple</string>
 		<key>display_name</key>
 		<string>Keynote</string>
+		<key>icon_hash</key>
+		<string>480bf2f6d31fba5d3be0d5ee9cdf70c0f757189c13f5574ce733b7676b2406e8</string>
 		<key>installer_item_hash</key>
 		<string>abec7bdda29d975151d8560da633853f354f30f3bb797f4a32d370b859555529</string>
 		<key>installer_item_location</key>
@@ -5495,6 +5615,8 @@ exit 0
 		<string>The Linde Group, Inc.</string>
 		<key>display_name</key>
 		<string>AutoPkgr</string>
+		<key>icon_hash</key>
+		<string>5e96033dbdd423eb574c3a745700f56c0ffa9f36e84a1b459731415b2c895092</string>
 		<key>installer_item_hash</key>
 		<string>08fd0260098c7b1cff8d5f8242c2d573653a676ab2cdcf3744337a14476d2142</string>
 		<key>installer_item_location</key>
@@ -5561,6 +5683,8 @@ exit 0
 		<string>The Linde Group, Inc.</string>
 		<key>display_name</key>
 		<string>AutoPkgr</string>
+		<key>icon_hash</key>
+		<string>5e96033dbdd423eb574c3a745700f56c0ffa9f36e84a1b459731415b2c895092</string>
 		<key>installer_item_hash</key>
 		<string>59a5dd6806bff16c58cc932893bb8f90d8102e3f9ff4adc135d0a38ba39637f9</string>
 		<key>installer_item_location</key>
@@ -5629,6 +5753,8 @@ The setup procedure includes installing the MIT CA as well as the user's persona
 		<string>MIT IS&amp;T</string>
 		<key>display_name</key>
 		<string>CertAid</string>
+		<key>icon_hash</key>
+		<string>047f7157fd22944beff3ec7ade33ba5070e97627b6783c39f2dcbc685a70b0bb</string>
 		<key>installer_item_hash</key>
 		<string>5fcaf96085a3e636677c5cf0f48e85ecbb0d1cb31a8042289e1d7a81a689cfce</string>
 		<key>installer_item_location</key>
@@ -5697,6 +5823,8 @@ The setup procedure includes installing the MIT CA as well as the user's persona
 		<string>MIT IS&amp;T</string>
 		<key>display_name</key>
 		<string>CertAid</string>
+		<key>icon_hash</key>
+		<string>047f7157fd22944beff3ec7ade33ba5070e97627b6783c39f2dcbc685a70b0bb</string>
 		<key>installer_item_hash</key>
 		<string>6fada02a3abffb8f466735b6a43061eec16e8567c16a0904f09a251bf3cd3148</string>
 		<key>installer_item_location</key>
@@ -5768,6 +5896,8 @@ The setup procedure includes installing the MIT CA as well as the user's persona
 		<string>Citrix Systems, Inc.</string>
 		<key>display_name</key>
 		<string>Citrix Receiver</string>
+		<key>icon_hash</key>
+		<string>6b20864112f822d3d2d667d87b343ef0a4c7e653c15be8a558dc3ca048100eb0</string>
 		<key>installed_size</key>
 		<integer>127307</integer>
 		<key>installer_item_hash</key>
@@ -5857,6 +5987,8 @@ The setup procedure includes installing the MIT CA as well as the user's persona
 		<string>Citrix Systems, Inc.</string>
 		<key>display_name</key>
 		<string>Citrix Receiver</string>
+		<key>icon_hash</key>
+		<string>6b20864112f822d3d2d667d87b343ef0a4c7e653c15be8a558dc3ca048100eb0</string>
 		<key>installed_size</key>
 		<integer>128118</integer>
 		<key>installer_item_hash</key>
@@ -5946,6 +6078,8 @@ The setup procedure includes installing the MIT CA as well as the user's persona
 		<string>Citrix Systems, Inc.</string>
 		<key>display_name</key>
 		<string>Citrix Receiver</string>
+		<key>icon_hash</key>
+		<string>6b20864112f822d3d2d667d87b343ef0a4c7e653c15be8a558dc3ca048100eb0</string>
 		<key>installed_size</key>
 		<integer>127948</integer>
 		<key>installer_item_hash</key>
@@ -6034,6 +6168,8 @@ The setup procedure includes installing the MIT CA as well as the user's persona
 		<string>Dropbox</string>
 		<key>display_name</key>
 		<string>Dropbox</string>
+		<key>icon_hash</key>
+		<string>0da9f428674fe068e7189aa3fffd77837a82422fa3ea3995528ac2982a52afe1</string>
 		<key>installer_item_hash</key>
 		<string>3982784a9a0db8cd1a14b7c8f13aa210d2d856698ec2e1213eb92b030da754cb</string>
 		<key>installer_item_location</key>
@@ -6121,6 +6257,8 @@ fi
 		<string>Dropbox is a free service that lets you bring all your photos, docs, and videos anywhere. This means that any file you save to your Dropbox will automatically save to all your computers, phones and even the Dropbox website.</string>
 		<key>display_name</key>
 		<string>Dropbox</string>
+		<key>icon_hash</key>
+		<string>0da9f428674fe068e7189aa3fffd77837a82422fa3ea3995528ac2982a52afe1</string>
 		<key>installer_item_hash</key>
 		<string>81c273f24766719187a01531ea8f9caeb65c345fdd67436b41e9a6001e5e5a30</string>
 		<key>installer_item_location</key>
@@ -6210,6 +6348,8 @@ fi
 		<string>Dropbox is a free service that lets you bring all your photos, docs, and videos anywhere. This means that any file you save to your Dropbox will automatically save to all your computers, phones and even the Dropbox website.</string>
 		<key>display_name</key>
 		<string>Dropbox</string>
+		<key>icon_hash</key>
+		<string>0da9f428674fe068e7189aa3fffd77837a82422fa3ea3995528ac2982a52afe1</string>
 		<key>installer_item_hash</key>
 		<string>a4f375569a64951c39f72c4553bf1322eb41f7325f486b087e1caf8369219842</string>
 		<key>installer_item_location</key>
@@ -6299,6 +6439,8 @@ fi
 		<string>Evernote Corporation</string>
 		<key>display_name</key>
 		<string>Evernote</string>
+		<key>icon_hash</key>
+		<string>ea4aa511f27c9b26d6464a8f069e2615adfa31165691b9811d2975f2a66e6c7c</string>
 		<key>installer_item_hash</key>
 		<string>5b2133c1d8bbf5854dfdd1b84ebde484e4ad7ffc33d1d67922b434a038221858</string>
 		<key>installer_item_location</key>
@@ -6365,6 +6507,8 @@ fi
 		<string>Evernote Corporation</string>
 		<key>display_name</key>
 		<string>Evernote</string>
+		<key>icon_hash</key>
+		<string>ea4aa511f27c9b26d6464a8f069e2615adfa31165691b9811d2975f2a66e6c7c</string>
 		<key>installer_item_hash</key>
 		<string>e3afaf362f857b1df0faf3b908d63f6165694324ec554c67071b8259ba943a0b</string>
 		<key>installer_item_location</key>
@@ -6431,6 +6575,8 @@ fi
 		<string>Evernote Corporation</string>
 		<key>display_name</key>
 		<string>Evernote</string>
+		<key>icon_hash</key>
+		<string>ea4aa511f27c9b26d6464a8f069e2615adfa31165691b9811d2975f2a66e6c7c</string>
 		<key>installer_item_hash</key>
 		<string>87a0356d875d2e96c721260d5b8f0881449d88cc32bb4d3be47f0eeb54cabbe8</string>
 		<key>installer_item_location</key>
@@ -6493,6 +6639,8 @@ fi
 		<string>Evernote makes it easy to remember things big and small from your everyday life using your computer, phone, tablet and the web.</string>
 		<key>display_name</key>
 		<string>Evernote</string>
+		<key>icon_hash</key>
+		<string>ea4aa511f27c9b26d6464a8f069e2615adfa31165691b9811d2975f2a66e6c7c</string>
 		<key>installer_item_hash</key>
 		<string>c91d37330dae357d69280ea78dd4605a4ede3ffd2ebe741738a4dc70c80645ee</string>
 		<key>installer_item_location</key>
@@ -6559,6 +6707,8 @@ fi
 		<string>Evernote Corporation</string>
 		<key>display_name</key>
 		<string>Evernote</string>
+		<key>icon_hash</key>
+		<string>ea4aa511f27c9b26d6464a8f069e2615adfa31165691b9811d2975f2a66e6c7c</string>
 		<key>installer_item_hash</key>
 		<string>0c3f51d6260198f67a202a23b98017b389f89c7c9290a32abe211f83a4813d55</string>
 		<key>installer_item_location</key>
@@ -6625,6 +6775,8 @@ fi
 		<string>Evernote Corporation</string>
 		<key>display_name</key>
 		<string>Evernote</string>
+		<key>icon_hash</key>
+		<string>ea4aa511f27c9b26d6464a8f069e2615adfa31165691b9811d2975f2a66e6c7c</string>
 		<key>installer_item_hash</key>
 		<string>ebd8373826a041bbf49a57ca0f535de8ea9995178e41e0a153871aad82a0d956</string>
 		<key>installer_item_location</key>
@@ -6691,6 +6843,8 @@ fi
 		<string>Mozilla</string>
 		<key>display_name</key>
 		<string>Mozilla Firefox</string>
+		<key>icon_hash</key>
+		<string>5b03e872f794577b1f557fb24a953af884e9314dfc0dc4697264e465675fc7eb</string>
 		<key>installer_item_hash</key>
 		<string>535b8eff6ad4fd94e383ec61b961735c84b9c351f97c62c7518300a9a433c3a3</string>
 		<key>installer_item_location</key>
@@ -6757,6 +6911,8 @@ fi
 		<string>Mozilla</string>
 		<key>display_name</key>
 		<string>Mozilla Firefox</string>
+		<key>icon_hash</key>
+		<string>5b03e872f794577b1f557fb24a953af884e9314dfc0dc4697264e465675fc7eb</string>
 		<key>installer_item_hash</key>
 		<string>9328b33d62a2e95ffd2cc04ca0271c5cf137bc9a09860c527e8608c6ec715445</string>
 		<key>installer_item_location</key>
@@ -6823,6 +6979,8 @@ fi
 		<string>Mozilla</string>
 		<key>display_name</key>
 		<string>Mozilla Firefox</string>
+		<key>icon_hash</key>
+		<string>5b03e872f794577b1f557fb24a953af884e9314dfc0dc4697264e465675fc7eb</string>
 		<key>installer_item_hash</key>
 		<string>c889d5883367ebf82cac6a872f8b24b69a303bd820a89bd455e1b915be62e907</string>
 		<key>installer_item_location</key>
@@ -6889,6 +7047,8 @@ fi
 		<string>Mozilla</string>
 		<key>display_name</key>
 		<string>Mozilla Firefox</string>
+		<key>icon_hash</key>
+		<string>5b03e872f794577b1f557fb24a953af884e9314dfc0dc4697264e465675fc7eb</string>
 		<key>installer_item_hash</key>
 		<string>f9a91e0d57652566ba7f0d2e191cdc3db3219b3cf29a83ed145a9110a0bda108</string>
 		<key>installer_item_location</key>
@@ -6955,6 +7115,8 @@ fi
 		<string>Mozilla</string>
 		<key>display_name</key>
 		<string>Mozilla Firefox</string>
+		<key>icon_hash</key>
+		<string>5b03e872f794577b1f557fb24a953af884e9314dfc0dc4697264e465675fc7eb</string>
 		<key>installer_item_hash</key>
 		<string>d753336be2e277a4671fe348d291fcf5a53957793e66e2e21134cfa779e9fe22</string>
 		<key>installer_item_location</key>
@@ -7021,6 +7183,8 @@ fi
 		<string>Google</string>
 		<key>display_name</key>
 		<string>Google Drive</string>
+		<key>icon_hash</key>
+		<string>0b9d7e4311e3a54ef6b714239d6285b9169505e8c6f7d77fe8d25d6daa0c65c9</string>
 		<key>installer_item_hash</key>
 		<string>e13099fcfac6f8bd7a0ac236067dc3d76e0ba9e961ffc4c5ed303488b5e3785e</string>
 		<key>installer_item_location</key>
@@ -7103,6 +7267,8 @@ rm '/Library/PrivilegedHelperTools/Google Drive Icon Helper'
 		<string>Google</string>
 		<key>display_name</key>
 		<string>Google Drive</string>
+		<key>icon_hash</key>
+		<string>0b9d7e4311e3a54ef6b714239d6285b9169505e8c6f7d77fe8d25d6daa0c65c9</string>
 		<key>installer_item_hash</key>
 		<string>09ccef55d3a4285d95e588227c3d2f92fd621a17fe0e087e43e0df730d3c5c5e</string>
 		<key>installer_item_location</key>
@@ -7185,6 +7351,8 @@ rm '/Library/PrivilegedHelperTools/Google Drive Icon Helper'
 		<string>Google</string>
 		<key>display_name</key>
 		<string>Google Drive</string>
+		<key>icon_hash</key>
+		<string>0b9d7e4311e3a54ef6b714239d6285b9169505e8c6f7d77fe8d25d6daa0c65c9</string>
 		<key>installer_item_hash</key>
 		<string>cae2fcc08d6b10483c1920d77aec6dfc9ee8be49e9c156fff1a566fa3170e5cf</string>
 		<key>installer_item_location</key>
@@ -11182,6 +11350,8 @@ rm '/Library/PrivilegedHelperTools/Google Drive Icon Helper'
 		<string>Microsoft</string>
 		<key>display_name</key>
 		<string>Microsoft Excel for Mac</string>
+		<key>icon_hash</key>
+		<string>71cfb7216f655859dc3bbf4f914d58f91f7fc2012dc8f69b7402dcb5d6a4bb80</string>
 		<key>installed_size</key>
 		<integer>1631239</integer>
 		<key>installer_item_hash</key>
@@ -11250,6 +11420,8 @@ rm '/Library/PrivilegedHelperTools/Google Drive Icon Helper'
 &lt;p style="font-family:Helvetica;font-size:12px"&gt;&lt;a href="https://go.microsoft.com/fwlink/?LinkID=718198" target="_blank"&gt;https://go.microsoft.com/fwlink/?LinkID=718198&lt;/a&gt;&lt;/p&gt;&lt;/html&gt;</string>
 		<key>display_name</key>
 		<string>Microsoft Excel for Mac</string>
+		<key>icon_hash</key>
+		<string>71cfb7216f655859dc3bbf4f914d58f91f7fc2012dc8f69b7402dcb5d6a4bb80</string>
 		<key>installed_size</key>
 		<integer>1640585</integer>
 		<key>installer_item_hash</key>
@@ -11322,6 +11494,8 @@ rm '/Library/PrivilegedHelperTools/Google Drive Icon Helper'
 		<string>Microsoft</string>
 		<key>display_name</key>
 		<string>Microsoft Excel for Mac</string>
+		<key>icon_hash</key>
+		<string>71cfb7216f655859dc3bbf4f914d58f91f7fc2012dc8f69b7402dcb5d6a4bb80</string>
 		<key>installed_size</key>
 		<integer>1619841</integer>
 		<key>installer_item_hash</key>
@@ -11394,6 +11568,8 @@ rm '/Library/PrivilegedHelperTools/Google Drive Icon Helper'
 		<string>Microsoft</string>
 		<key>display_name</key>
 		<string>Microsoft OneNote for Mac</string>
+		<key>icon_hash</key>
+		<string>787458d8ab01dd59d61006ed2421bdea661fac7d641bde2819da5fa90a033df7</string>
 		<key>installed_size</key>
 		<integer>843716</integer>
 		<key>installer_item_hash</key>
@@ -11466,6 +11642,8 @@ rm '/Library/PrivilegedHelperTools/Google Drive Icon Helper'
 		<string>Microsoft</string>
 		<key>display_name</key>
 		<string>Microsoft Outlook for Mac</string>
+		<key>icon_hash</key>
+		<string>7d0893e3783d74c85f8a9ead4cdaed4e1c11645b55bd5513f679e3bdfda84af4</string>
 		<key>installed_size</key>
 		<integer>1405820</integer>
 		<key>installer_item_hash</key>
@@ -11538,6 +11716,8 @@ rm '/Library/PrivilegedHelperTools/Google Drive Icon Helper'
 		<string>Microsoft</string>
 		<key>display_name</key>
 		<string>Microsoft PowerPoint for Mac</string>
+		<key>icon_hash</key>
+		<string>53ef3dab9ad735884c885ff9593e564cbeedb9e5f0aaf61b814feff053e05a98</string>
 		<key>installed_size</key>
 		<integer>1505052</integer>
 		<key>installer_item_hash</key>
@@ -11610,6 +11790,8 @@ rm '/Library/PrivilegedHelperTools/Google Drive Icon Helper'
 		<string>Microsoft</string>
 		<key>display_name</key>
 		<string>Microsoft Word for Mac</string>
+		<key>icon_hash</key>
+		<string>f40affe61cb501db81248085e4316211481bf0b0b90b81a59ff6d794198fbb7a</string>
 		<key>installed_size</key>
 		<integer>1779351</integer>
 		<key>installer_item_hash</key>
@@ -11674,6 +11856,8 @@ rm '/Library/PrivilegedHelperTools/Google Drive Icon Helper'
 		<string>The Omni Group</string>
 		<key>display_name</key>
 		<string>OmniDiskSweeper</string>
+		<key>icon_hash</key>
+		<string>b32833032eba5d50a359265e5ad37e97a4ce368ab049f2fbae22118af11ea781</string>
 		<key>installer_item_hash</key>
 		<string>4dfcdb29bbae8b7eba22d010cb2fd2aab0547c1a1df632bc9c1ee77be206f09b</string>
 		<key>installer_item_location</key>
@@ -12114,6 +12298,8 @@ rm '/Library/PrivilegedHelperTools/Google Drive Icon Helper'
 		<string>RStudio</string>
 		<key>display_name</key>
 		<string>RStudio</string>
+		<key>icon_hash</key>
+		<string>8af048193cf65c473dfe8bd761c4c3ef930f1d98702b1c9d3f467926df3d581f</string>
 		<key>installer_item_hash</key>
 		<string>0345818c518bc668e2939e36dcada7572730bdc86cd1b40e1b7d6eee3cb481e2</string>
 		<key>installer_item_location</key>
@@ -12184,6 +12370,8 @@ rm '/Library/PrivilegedHelperTools/Google Drive Icon Helper'
 		<string>RStudio</string>
 		<key>display_name</key>
 		<string>RStudio</string>
+		<key>icon_hash</key>
+		<string>8af048193cf65c473dfe8bd761c4c3ef930f1d98702b1c9d3f467926df3d581f</string>
 		<key>installer_item_hash</key>
 		<string>ec571ee4d1415cc031f8f55873ca15e75949038fe680520799934e115138066a</string>
 		<key>installer_item_location</key>
@@ -12410,6 +12598,8 @@ rm '/Library/PrivilegedHelperTools/Google Drive Icon Helper'
 		<string>Sublime Text is an advanced text editor for OS X.</string>
 		<key>display_name</key>
 		<string>Sublime Text 3</string>
+		<key>icon_hash</key>
+		<string>d1575d8de23079a6157651b9c3db023bde64e954455a31d2b17c26c6fd28e152</string>
 		<key>installer_item_hash</key>
 		<string>fe6dd8d8192fdb01988f99289e5bc1d9a4e66cf67548e144002051c23369a5ff</string>
 		<key>installer_item_location</key>
@@ -12476,6 +12666,8 @@ rm '/Library/PrivilegedHelperTools/Google Drive Icon Helper'
 		<string>MacroMates Ltd.</string>
 		<key>display_name</key>
 		<string>TextMate 2</string>
+		<key>icon_hash</key>
+		<string>f7c8ede79c4e447b14c13cb0b01111e0d37d9ddedba46e32f16a32a72e6153e8</string>
 		<key>installer_item_hash</key>
 		<string>f877a99ec8dcec012c7ec9e01620140e0e53a73f741ef0b434f7a2eca8160286</string>
 		<key>installer_item_location</key>
@@ -12551,6 +12743,8 @@ rm '/Library/PrivilegedHelperTools/Google Drive Icon Helper'
 		<string>MacroMates Ltd.</string>
 		<key>display_name</key>
 		<string>TextMate 2</string>
+		<key>icon_hash</key>
+		<string>f7c8ede79c4e447b14c13cb0b01111e0d37d9ddedba46e32f16a32a72e6153e8</string>
 		<key>installer_item_hash</key>
 		<string>e51db3e9c4aa912eeaceb3e1fa999cdd452f72cd283dcd98b43a67dbac98faf7</string>
 		<key>installer_item_location</key>
@@ -12626,6 +12820,8 @@ rm '/Library/PrivilegedHelperTools/Google Drive Icon Helper'
 		<string>Mozilla Foundation</string>
 		<key>display_name</key>
 		<string>Mozilla Thunderbird</string>
+		<key>icon_hash</key>
+		<string>8c873883c723d52329090ffc8944231f2e6959350096e4fe318f970c72bf043a</string>
 		<key>installer_item_hash</key>
 		<string>0a479d94e36bec5b240e461010faef2133b08c3071c2be7822f161358614e620</string>
 		<key>installer_item_location</key>
@@ -12692,6 +12888,8 @@ rm '/Library/PrivilegedHelperTools/Google Drive Icon Helper'
 		<string>Mozilla Foundation</string>
 		<key>display_name</key>
 		<string>Mozilla Thunderbird</string>
+		<key>icon_hash</key>
+		<string>8c873883c723d52329090ffc8944231f2e6959350096e4fe318f970c72bf043a</string>
 		<key>installer_item_hash</key>
 		<string>297aa21c91cf4b83d1bf88103a8c53a034452039f13c3a4da146a2668f7479cd</string>
 		<key>installer_item_location</key>
@@ -12758,6 +12956,8 @@ rm '/Library/PrivilegedHelperTools/Google Drive Icon Helper'
 		<string>Mozilla Foundation</string>
 		<key>display_name</key>
 		<string>Mozilla Thunderbird</string>
+		<key>icon_hash</key>
+		<string>8c873883c723d52329090ffc8944231f2e6959350096e4fe318f970c72bf043a</string>
 		<key>installer_item_hash</key>
 		<string>cda77d6bf33ce5dc32c1e704f726f7840016080dcdd04939de781854f87aebbd</string>
 		<key>installer_item_location</key>
@@ -12824,6 +13024,8 @@ rm '/Library/PrivilegedHelperTools/Google Drive Icon Helper'
 		<string>Mozilla Foundation</string>
 		<key>display_name</key>
 		<string>Mozilla Thunderbird</string>
+		<key>icon_hash</key>
+		<string>8c873883c723d52329090ffc8944231f2e6959350096e4fe318f970c72bf043a</string>
 		<key>installer_item_hash</key>
 		<string>ef51a792e9a02cd1979d8480b0229edf9d4145ef17a0607d4c17d2a616cbae83</string>
 		<key>installer_item_location</key>
@@ -12890,6 +13092,8 @@ rm '/Library/PrivilegedHelperTools/Google Drive Icon Helper'
 		<string>Mozilla Foundation</string>
 		<key>display_name</key>
 		<string>Mozilla Thunderbird</string>
+		<key>icon_hash</key>
+		<string>8c873883c723d52329090ffc8944231f2e6959350096e4fe318f970c72bf043a</string>
 		<key>installer_item_hash</key>
 		<string>04a8eac426c6ff6139d662f957104ab75d8c2aef5f99d086e17b729da19dbab5</string>
 		<key>installer_item_location</key>
@@ -12954,6 +13158,8 @@ rm '/Library/PrivilegedHelperTools/Google Drive Icon Helper'
 		<string>VLC is a free and open source cross-platform multimedia player and framework that plays most multimedia files as well as DVD, Audio CD, VCD, and various streaming protocols.</string>
 		<key>display_name</key>
 		<string>VLC Media Player</string>
+		<key>icon_hash</key>
+		<string>988ee7118c8b9b25c7f7b3f22e87818dc8e630f593613489c3dfdf69897c78ff</string>
 		<key>installer_item_hash</key>
 		<string>ef881ca19fc7cc6b7c54699c99c064b9a5d553aa4181d1d1e185758d32405740</string>
 		<key>installer_item_location</key>
@@ -13022,6 +13228,8 @@ rm '/Library/PrivilegedHelperTools/Google Drive Icon Helper'
 		<string>VLC is a free and open source cross-platform multimedia player and framework that plays most multimedia files as well as DVD, Audio CD, VCD, and various streaming protocols.</string>
 		<key>display_name</key>
 		<string>VLC Media Player</string>
+		<key>icon_hash</key>
+		<string>988ee7118c8b9b25c7f7b3f22e87818dc8e630f593613489c3dfdf69897c78ff</string>
 		<key>installer_item_hash</key>
 		<string>fd071b9817c9efccac5a144d69893a4a5323cbde4a74d5691c3cf3ab979d4160</string>
 		<key>installer_item_location</key>
@@ -13094,6 +13302,8 @@ rm '/Library/PrivilegedHelperTools/Google Drive Icon Helper'
 		<string>VMware, Inc.</string>
 		<key>display_name</key>
 		<string>VMware Fusion</string>
+		<key>icon_hash</key>
+		<string>7a57813418fd3158bec50bdead1fe6cdfb0cfa5295ddee504c0368b7801ec7f9</string>
 		<key>installer_item_hash</key>
 		<string>4c45735479a1064e3a666b06f20657d041e3eb1f89755af97a5ba988c7fc82c6</string>
 		<key>installer_item_location</key>
@@ -13909,6 +14119,8 @@ defaults write /Library/Preferences/com.github.salopensource.sal.plist ServerURL
 		<string>Adobe</string>
 		<key>display_name</key>
 		<string>Adobe Flash Player</string>
+		<key>icon_hash</key>
+		<string>7dc266fa7a88b5e3ca106ec62a263ddf7eb30857ceb66b5739edd2e2e8c002cd</string>
 		<key>installed_size</key>
 		<integer>19913</integer>
 		<key>installer_item_hash</key>
@@ -13958,6 +14170,8 @@ defaults write /Library/Preferences/com.github.salopensource.sal.plist ServerURL
 		<string>Adobe</string>
 		<key>display_name</key>
 		<string>Adobe Flash Player</string>
+		<key>icon_hash</key>
+		<string>7dc266fa7a88b5e3ca106ec62a263ddf7eb30857ceb66b5739edd2e2e8c002cd</string>
 		<key>installed_size</key>
 		<integer>20116</integer>
 		<key>installer_item_hash</key>
@@ -14007,6 +14221,8 @@ defaults write /Library/Preferences/com.github.salopensource.sal.plist ServerURL
 		<string>Adobe</string>
 		<key>display_name</key>
 		<string>Adobe Flash Player</string>
+		<key>icon_hash</key>
+		<string>7dc266fa7a88b5e3ca106ec62a263ddf7eb30857ceb66b5739edd2e2e8c002cd</string>
 		<key>installed_size</key>
 		<integer>20104</integer>
 		<key>installer_item_hash</key>
@@ -14057,6 +14273,8 @@ defaults write /Library/Preferences/com.github.salopensource.sal.plist ServerURL
 		<string>TeX Users Group</string>
 		<key>display_name</key>
 		<string>MacTeX</string>
+		<key>icon_hash</key>
+		<string>6bc1f80e5c92566c211625a8c2f28a1bd759d60b75283fbe8730e6f22f62ec24</string>
 		<key>installed_size</key>
 		<integer>4893560</integer>
 		<key>installer_item_hash</key>
@@ -14125,6 +14343,8 @@ defaults write /Library/Preferences/com.github.salopensource.sal.plist ServerURL
 		<string>TeX Users Group</string>
 		<key>display_name</key>
 		<string>MacTeX</string>
+		<key>icon_hash</key>
+		<string>6bc1f80e5c92566c211625a8c2f28a1bd759d60b75283fbe8730e6f22f62ec24</string>
 		<key>installed_size</key>
 		<integer>5281796</integer>
 		<key>installer_item_hash</key>
@@ -14195,6 +14415,8 @@ defaults write /Library/Preferences/com.github.salopensource.sal.plist ServerURL
 		<string>Amazon</string>
 		<key>display_name</key>
 		<string>Amazon Music</string>
+		<key>icon_hash</key>
+		<string>df9fa30e3c08ede287479f898ecf5119790553280a0326573d4ab7ccfa8cd80b</string>
 		<key>installer_item_hash</key>
 		<string>d13a1ac00bdaf03a982231f27a9067610fb4675990db058ab15ddec055ba9569</string>
 		<key>installer_item_location</key>
@@ -14264,6 +14486,8 @@ defaults write /Library/Preferences/com.github.salopensource.sal.plist ServerURL
 		<string>Managed Software Center application.</string>
 		<key>display_name</key>
 		<string>Managed Software Center</string>
+		<key>icon_hash</key>
+		<string>57d85005254760a7368da8b86be8e534f2e4318e651f259b90afa0e00af3387d</string>
 		<key>installed_size</key>
 		<integer>4397</integer>
 		<key>installer_item_hash</key>
@@ -14312,6 +14536,8 @@ defaults write /Library/Preferences/com.github.salopensource.sal.plist ServerURL
 		<string>Managed Software Center application.</string>
 		<key>display_name</key>
 		<string>Managed Software Center</string>
+		<key>icon_hash</key>
+		<string>57d85005254760a7368da8b86be8e534f2e4318e651f259b90afa0e00af3387d</string>
 		<key>installed_size</key>
 		<integer>4449</integer>
 		<key>installer_item_hash</key>
@@ -14360,6 +14586,8 @@ defaults write /Library/Preferences/com.github.salopensource.sal.plist ServerURL
 		<string>Managed Software Center application.</string>
 		<key>display_name</key>
 		<string>Managed Software Center</string>
+		<key>icon_hash</key>
+		<string>57d85005254760a7368da8b86be8e534f2e4318e651f259b90afa0e00af3387d</string>
 		<key>installed_size</key>
 		<integer>4449</integer>
 		<key>installer_item_hash</key>
@@ -17290,6 +17518,8 @@ fi
 		<string>Elsevier</string>
 		<key>display_name</key>
 		<string>Mendeley Desktop</string>
+		<key>icon_hash</key>
+		<string>abb045c7b1ef0d9b11d90186c8f50c9886a78469c7f597d24b6448ccd3b75799</string>
 		<key>installer_item_hash</key>
 		<string>5997893bef7721c5ee8a5d55ae1ae8e470eee86a19cb2bb924a2d4492c6bfca5</string>
 		<key>installer_item_location</key>
@@ -17370,6 +17600,8 @@ fi
 		<string>Roy Rosenzweig CHNM</string>
 		<key>display_name</key>
 		<string>Zotero</string>
+		<key>icon_hash</key>
+		<string>2f6c8a324bf1d96d9ccbcbb491693bcc61412ace05f462275a032dba89ccd659</string>
 		<key>installer_item_hash</key>
 		<string>c7e9aa8e8dbd4b447ec291ce0d0814740a3b1e42f9241fe0bdc0298ee8d7645e</string>
 		<key>installer_item_location</key>
@@ -18404,6 +18636,8 @@ defaults write /Library/Preferences/ManagedInstalls.plist IconURL "https://munki
 		<string>VeraCrypt is an open-source utility used for on-the-fly encryption. It can create a virtual encrypted disk within a file or encrypt an entire partition.</string>
 		<key>developer</key>
 		<string>IDRIX</string>
+		<key>icon_hash</key>
+		<string>bdcd496d38dc3b28b1ae0f111d5b0554b907b48feafc559c8e79f622422cb64f</string>
 		<key>installed_size</key>
 		<integer>17675</integer>
 		<key>installer_item_hash</key>
@@ -18451,6 +18685,8 @@ defaults write /Library/Preferences/ManagedInstalls.plist IconURL "https://munki
 		<string>VeraCrypt is an open-source utility used for on-the-fly encryption. It can create a virtual encrypted disk within a file or encrypt an entire partition.</string>
 		<key>developer</key>
 		<string>IDRIX</string>
+		<key>icon_hash</key>
+		<string>bdcd496d38dc3b28b1ae0f111d5b0554b907b48feafc559c8e79f622422cb64f</string>
 		<key>installed_size</key>
 		<integer>17755</integer>
 		<key>installer_item_hash</key>
@@ -18744,6 +18980,8 @@ fi
 		<string>Oracle</string>
 		<key>display_name</key>
 		<string>Oracle Java 8 development kit</string>
+		<key>icon_hash</key>
+		<string>d54e1ca541ba7a220d54b2b0b39f450df49e42aeb848cd1552d02bfa89e17847</string>
 		<key>installed_size</key>
 		<integer>521372</integer>
 		<key>installer_item_hash</key>
@@ -18821,6 +19059,8 @@ fi
 		<string>Oracle</string>
 		<key>display_name</key>
 		<string>Oracle Java 8 development kit</string>
+		<key>icon_hash</key>
+		<string>d54e1ca541ba7a220d54b2b0b39f450df49e42aeb848cd1552d02bfa89e17847</string>
 		<key>installed_size</key>
 		<integer>521496</integer>
 		<key>installer_item_hash</key>
@@ -18898,6 +19138,8 @@ fi
 		<string>Oracle</string>
 		<key>display_name</key>
 		<string>Oracle Java 8 development kit</string>
+		<key>icon_hash</key>
+		<string>d54e1ca541ba7a220d54b2b0b39f450df49e42aeb848cd1552d02bfa89e17847</string>
 		<key>installed_size</key>
 		<integer>502800</integer>
 		<key>installer_item_hash</key>
