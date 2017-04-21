@@ -2600,6 +2600,74 @@ exit 0
 			<string>production</string>
 		</array>
 		<key>category</key>
+		<string>Internet</string>
+		<key>description</key>
+		<string>Chrome is a fast, simple, and secure web browser, built for the modern web.</string>
+		<key>developer</key>
+		<string>Google</string>
+		<key>display_name</key>
+		<string>Google Chrome</string>
+		<key>icon_hash</key>
+		<string>5f520eb8787e2174bbd3e358ae055eea44e2194b52b2b7c7fd0beb6c1d089c89</string>
+		<key>installer_item_hash</key>
+		<string>70c48f93cd40d0f5da2343ca34a5730451226a1ef691f1b0a9025b34e62dc5fe</string>
+		<key>installer_item_location</key>
+		<string>apps/GoogleChrome-58.0.3029.81.dmg</string>
+		<key>installer_item_size</key>
+		<integer>62268</integer>
+		<key>installer_type</key>
+		<string>copy_from_dmg</string>
+		<key>installs</key>
+		<array>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>com.google.Chrome</string>
+				<key>CFBundleName</key>
+				<string>Chrome</string>
+				<key>CFBundleShortVersionString</key>
+				<string>58.0.3029.81</string>
+				<key>CFBundleVersion</key>
+				<string>3029.81</string>
+				<key>minosversion</key>
+				<string>10.9.0</string>
+				<key>path</key>
+				<string>/Applications/Google Chrome.app</string>
+				<key>type</key>
+				<string>application</string>
+				<key>version_comparison_key</key>
+				<string>CFBundleShortVersionString</string>
+			</dict>
+		</array>
+		<key>items_to_copy</key>
+		<array>
+			<dict>
+				<key>destination_path</key>
+				<string>/Applications</string>
+				<key>source_item</key>
+				<string>Google Chrome.app</string>
+			</dict>
+		</array>
+		<key>minimum_os_version</key>
+		<string>10.9.0</string>
+		<key>name</key>
+		<string>GoogleChrome</string>
+		<key>unattended_install</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>remove_copied_items</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>58.0.3029.81</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>production</string>
+		</array>
+		<key>category</key>
 		<string>Mapping</string>
 		<key>description</key>
 		<string>Take a virtual journey to any location in the world. Explore 3D buildings, imagery, and terrain. Find cities, places and local businesses.</string>
@@ -7367,6 +7435,74 @@ fi
 		<true/>
 		<key>version</key>
 		<string>52.0</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>production</string>
+		</array>
+		<key>category</key>
+		<string>Internet</string>
+		<key>description</key>
+		<string>Mozilla Firefox is a free and open source web browser.</string>
+		<key>developer</key>
+		<string>Mozilla</string>
+		<key>display_name</key>
+		<string>Mozilla Firefox</string>
+		<key>icon_hash</key>
+		<string>5b03e872f794577b1f557fb24a953af884e9314dfc0dc4697264e465675fc7eb</string>
+		<key>installer_item_hash</key>
+		<string>6010f574b54e79060ebce8cce50cb19bfe82066b36ea84dff6f323299dcf47bc</string>
+		<key>installer_item_location</key>
+		<string>apps/firefox/Firefox-53.0.dmg</string>
+		<key>installer_item_size</key>
+		<integer>57086</integer>
+		<key>installer_type</key>
+		<string>copy_from_dmg</string>
+		<key>installs</key>
+		<array>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>org.mozilla.firefox</string>
+				<key>CFBundleName</key>
+				<string>Firefox</string>
+				<key>CFBundleShortVersionString</key>
+				<string>53.0</string>
+				<key>CFBundleVersion</key>
+				<string>5317.4.13</string>
+				<key>minosversion</key>
+				<string>10.9.0</string>
+				<key>path</key>
+				<string>/Applications/Firefox.app</string>
+				<key>type</key>
+				<string>application</string>
+				<key>version_comparison_key</key>
+				<string>CFBundleShortVersionString</string>
+			</dict>
+		</array>
+		<key>items_to_copy</key>
+		<array>
+			<dict>
+				<key>destination_path</key>
+				<string>/Applications</string>
+				<key>source_item</key>
+				<string>Firefox.app</string>
+			</dict>
+		</array>
+		<key>minimum_os_version</key>
+		<string>10.9.0</string>
+		<key>name</key>
+		<string>Firefox</string>
+		<key>unattended_install</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>remove_copied_items</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>53.0</string>
 	</dict>
 	<dict>
 		<key>autoremove</key>
@@ -12573,6 +12709,78 @@ rm '/Library/PrivilegedHelperTools/Google Drive Icon Helper'
 		<key>icon_hash</key>
 		<string>8af048193cf65c473dfe8bd761c4c3ef930f1d98702b1c9d3f467926df3d581f</string>
 		<key>installer_item_hash</key>
+		<string>8db4f32f9e2758117c2d294f4f76c760d1851dfe04ad783fae2cf459864ea001</string>
+		<key>installer_item_location</key>
+		<string>apps/rstudio/RStudio-1.0.143.dmg</string>
+		<key>installer_item_size</key>
+		<integer>72927</integer>
+		<key>installer_type</key>
+		<string>copy_from_dmg</string>
+		<key>installs</key>
+		<array>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>org.rstudio.RStudio</string>
+				<key>CFBundleName</key>
+				<string>RStudio</string>
+				<key>CFBundleShortVersionString</key>
+				<string>1.0.143</string>
+				<key>CFBundleVersion</key>
+				<string>1.0.143</string>
+				<key>minosversion</key>
+				<string>10.6.0</string>
+				<key>path</key>
+				<string>/Applications/RStudio.app</string>
+				<key>type</key>
+				<string>application</string>
+				<key>version_comparison_key</key>
+				<string>CFBundleShortVersionString</string>
+			</dict>
+		</array>
+		<key>items_to_copy</key>
+		<array>
+			<dict>
+				<key>destination_path</key>
+				<string>/Applications</string>
+				<key>source_item</key>
+				<string>RStudio.app</string>
+			</dict>
+		</array>
+		<key>minimum_os_version</key>
+		<string>10.6.0</string>
+		<key>name</key>
+		<string>RStudio</string>
+		<key>requires</key>
+		<array>
+			<string>R</string>
+		</array>
+		<key>unattended_install</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>remove_copied_items</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>1.0.143</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>production</string>
+		</array>
+		<key>category</key>
+		<string>Mathematics</string>
+		<key>description</key>
+		<string>RStudio is the premier integrated development environment for R. It is available in open source and commercial editions and runs on the desktop (Windows, Mac, and Linux) or over the web with RStudio Server.</string>
+		<key>developer</key>
+		<string>RStudio</string>
+		<key>display_name</key>
+		<string>RStudio</string>
+		<key>icon_hash</key>
+		<string>8af048193cf65c473dfe8bd761c4c3ef930f1d98702b1c9d3f467926df3d581f</string>
+		<key>installer_item_hash</key>
 		<string>ec571ee4d1415cc031f8f55873ca15e75949038fe680520799934e115138066a</string>
 		<key>installer_item_location</key>
 		<string>apps/rstudio/RStudio-1.0.44.dmg</string>
@@ -14311,6 +14519,84 @@ defaults write /Library/Preferences/com.github.salopensource.sal.plist ServerURL
 		<array>
 			<string>production</string>
 		</array>
+		<key>description</key>
+		<string>FUSE for OS X allows you to extend OS X's native file handling capabilities via third-party file systems. OSXFUSE is a successor to MacFUSE, which has been used as a software building block by dozens of products, but is no longer being maintained.</string>
+		<key>display_name</key>
+		<string>OSXFUSE</string>
+		<key>installed_size</key>
+		<integer>8779</integer>
+		<key>installer_choices_xml</key>
+		<array>
+			<dict>
+				<key>attributeSetting</key>
+				<integer>1</integer>
+				<key>choiceAttribute</key>
+				<string>selected</string>
+				<key>choiceIdentifier</key>
+				<string>10.8$OSXFUSEMacFUSE</string>
+			</dict>
+			<dict>
+				<key>attributeSetting</key>
+				<integer>1</integer>
+				<key>choiceAttribute</key>
+				<string>selected</string>
+				<key>choiceIdentifier</key>
+				<string>com.github.osxfuse.pkg.MacFUSE</string>
+			</dict>
+		</array>
+		<key>installer_item_hash</key>
+		<string>5fbd3599ee6e2f5dbe301a8422956d1639e8bf6d7f23c5cf7e3bf76652c412d8</string>
+		<key>installer_item_location</key>
+		<string>drivers/osxfuse-3.5.8.pkg</string>
+		<key>installer_item_size</key>
+		<integer>5114</integer>
+		<key>minimum_os_version</key>
+		<string>10.5.0</string>
+		<key>name</key>
+		<string>osxfuse</string>
+		<key>receipts</key>
+		<array>
+			<dict>
+				<key>installed_size</key>
+				<integer>4371</integer>
+				<key>packageid</key>
+				<string>com.github.osxfuse.pkg.Core</string>
+				<key>version</key>
+				<string>3.5.8</string>
+			</dict>
+			<dict>
+				<key>installed_size</key>
+				<integer>2657</integer>
+				<key>packageid</key>
+				<string>com.github.osxfuse.pkg.PrefPane</string>
+				<key>version</key>
+				<string>3.5.8</string>
+			</dict>
+			<dict>
+				<key>installed_size</key>
+				<integer>1751</integer>
+				<key>packageid</key>
+				<string>com.github.osxfuse.pkg.MacFUSE</string>
+				<key>version</key>
+				<string>3.5.8</string>
+			</dict>
+		</array>
+		<key>unattended_install</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>removepackages</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>3.5.8</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>production</string>
+		</array>
 		<key>category</key>
 		<string>Internet Plugin</string>
 		<key>description</key>
@@ -14456,6 +14742,57 @@ defaults write /Library/Preferences/com.github.salopensource.sal.plist ServerURL
 		<true/>
 		<key>version</key>
 		<string>25.0.0.148</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>production</string>
+		</array>
+		<key>category</key>
+		<string>Internet Plugin</string>
+		<key>description</key>
+		<string>Adobe® Flash® Player is a cross-platform browser-based application runtime that delivers uncompromised viewing of expressive applications, content, and videos across screens and browsers.</string>
+		<key>developer</key>
+		<string>Adobe</string>
+		<key>display_name</key>
+		<string>Adobe Flash Player</string>
+		<key>icon_hash</key>
+		<string>7dc266fa7a88b5e3ca106ec62a263ddf7eb30857ceb66b5739edd2e2e8c002cd</string>
+		<key>installed_size</key>
+		<integer>20105</integer>
+		<key>installer_item_hash</key>
+		<string>10693d8d2fdd88ee2b1298dd68feff968f56a8d5cc256096d9293a8d451f485d</string>
+		<key>installer_item_location</key>
+		<string>internet_plugins/AdobeFlashPlayer-25.0.0.163.dmg</string>
+		<key>installer_item_size</key>
+		<integer>18716</integer>
+		<key>minimum_os_version</key>
+		<string>10.5.0</string>
+		<key>name</key>
+		<string>AdobeFlashPlayer</string>
+		<key>package_path</key>
+		<string>Install Adobe Flash Player.app/Contents/Resources/Adobe Flash Player.pkg</string>
+		<key>receipts</key>
+		<array>
+			<dict>
+				<key>installed_size</key>
+				<integer>20105</integer>
+				<key>packageid</key>
+				<string>com.adobe.pkg.FlashPlayer</string>
+				<key>version</key>
+				<string>25.0.0.163</string>
+			</dict>
+		</array>
+		<key>unattended_install</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>removepackages</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>25.0.0.163</string>
 	</dict>
 	<dict>
 		<key>autoremove</key>
