@@ -12557,6 +12557,110 @@ rm '/Library/PrivilegedHelperTools/Google Drive Icon Helper'
 			<string>production</string>
 		</array>
 		<key>category</key>
+		<string>Developer</string>
+		<key>description</key>
+		<string>R is a language and environment for statistical computing and graphics which provides a wide variety of statistical and graphical techniques: linear and nonlinear modelling, statistical tests, time series analysis, classification, clustering, etc.</string>
+		<key>developer</key>
+		<string>R Foundation</string>
+		<key>display_name</key>
+		<string>R for Mac OS X</string>
+		<key>installed_size</key>
+		<integer>142696</integer>
+		<key>installer_item_hash</key>
+		<string>6ec412a0d9b8eaef19f69f3e25a993dcfd53a8294ee17d04052c243037554646</string>
+		<key>installer_item_location</key>
+		<string>apps/R/R-3.4.0.pkg</string>
+		<key>installer_item_size</key>
+		<integer>62650</integer>
+		<key>installs</key>
+		<array>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>org.R-project.R</string>
+				<key>CFBundleName</key>
+				<string>R</string>
+				<key>CFBundleShortVersionString</key>
+				<string>R 3.4.0 GUI 1.70 El Capitan build</string>
+				<key>CFBundleVersion</key>
+				<string>7338</string>
+				<key>minosversion</key>
+				<string>MIN_VERSION</string>
+				<key>path</key>
+				<string>/Applications/R.app</string>
+				<key>type</key>
+				<string>application</string>
+				<key>version_comparison_key</key>
+				<string>CFBundleVersion</string>
+			</dict>
+			<dict>
+				<key>CFBundleVersion</key>
+				<string>3.4.0</string>
+				<key>path</key>
+				<string>/Library/Frameworks/R.framework</string>
+				<key>type</key>
+				<string>bundle</string>
+				<key>version_comparison_key</key>
+				<string>CFBundleVersion</string>
+			</dict>
+		</array>
+		<key>minimum_os_version</key>
+		<string>10.5.0</string>
+		<key>name</key>
+		<string>R</string>
+		<key>receipts</key>
+		<array>
+			<dict>
+				<key>installed_size</key>
+				<integer>95460</integer>
+				<key>packageid</key>
+				<string>org.r-project.R.el-capitan.fw.pkg</string>
+				<key>version</key>
+				<string>30472570</string>
+			</dict>
+			<dict>
+				<key>installed_size</key>
+				<integer>4168</integer>
+				<key>packageid</key>
+				<string>org.r-project.R.el-capitan.GUI.pkg</string>
+				<key>version</key>
+				<string>1.70</string>
+			</dict>
+			<dict>
+				<key>installed_size</key>
+				<integer>35112</integer>
+				<key>packageid</key>
+				<string>org.r-project.x86_64.tcltk.x11</string>
+				<key>version</key>
+				<string>8.6.6</string>
+			</dict>
+			<dict>
+				<key>installed_size</key>
+				<integer>7956</integer>
+				<key>packageid</key>
+				<string>org.r-project.x86_64.texinfo</string>
+				<key>version</key>
+				<string>5.2</string>
+			</dict>
+		</array>
+		<key>unattended_install</key>
+		<true/>
+		<key>unattended_uninstall</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>removepackages</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>3.4.0</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>production</string>
+		</array>
+		<key>category</key>
 		<string>Utilities</string>
 		<key>description</key>
 		<string>With the Microsoft Remote Desktop app, you can connect to a remote PC and your work resources from almost anywhere. Experience the power of Windows with RemoteFX in a Remote Desktop client designed to help you get your work done wherever you are.</string>
@@ -13070,6 +13174,8 @@ rm '/Library/PrivilegedHelperTools/Google Drive Icon Helper'
 		<string>Tableau Desktop is data visualization software that lets you see and understand data in minutes.</string>
 		<key>display_name</key>
 		<string>Tableau Desktop</string>
+		<key>icon_hash</key>
+		<string>f406d61d64b0c05b9dd2e90e2a3fa962f4c0a83756b500cd231b84759a081606</string>
 		<key>installed_size</key>
 		<integer>1539526</integer>
 		<key>installer_item_hash</key>
