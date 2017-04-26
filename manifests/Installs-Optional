@@ -19,11 +19,6 @@
   <key>optional_installs</key>
   <array>
       <string>1Password</string>
-      <string>AdobeDreamweaver</string>
-      <string>AdobeIllustrator</string>
-      <string>AdobeInDesign</string>
-      <string>AdobePhotoshop</string>
-      <string>AdobePremiere</string>
       <string>AdobeAIR</string>
       <string>AdobeFlashPlayer</string>
       <string>AmazonMusic</string>
