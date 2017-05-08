@@ -38,7 +38,7 @@ if [ -f '/Library/Preferences/com.microsoft.office.licensingV2.plist' ]; then
 	/bin/rm -f '/Library/Preferences/com.microsoft.office.licensingV2.plist'
 fi
 exit 0
-</string>
+	</string>
 		<key>receipts</key>
 		<array>
 			<dict>
@@ -58,6 +58,14 @@ exit 0
 		<string>removepackages</string>
 		<key>uninstallable</key>
 		<true/>
+		<key>update_for</key>
+		<array>
+			<string>MSExcel2016</string>
+			<string>MSOneNote2016</string>
+			<string>MSOutlook2016</string>
+			<string>MSPowerPoint2016</string>
+			<string>MSWord2016</string>
+		</array>
 		<key>version</key>
 		<string>15.17</string>
 	</dict>
