@@ -4,19 +4,17 @@
 <dict>
   <key>catalogs</key>
   <array>
+    <string>test</string>
     <string>production</string>
   </array>
   <key>included_manifests</key>
   <array>
-      <string>munki_client</string>
+      <string>Installs-Required</string>
       <string>Installs-Optional</string>
+      <string>munki_client</string>
   </array>
   <key>managed_installs</key>
   <array>
-    <string>Facter</string>
-    <string>Puppet</string>
-    <string>sal_scripts</string>
-    <string>SalConfigure</string>
   </array>
   <key>managed_uninstalls</key>
   <array>
