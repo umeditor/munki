@@ -79,5 +79,15 @@ exit 0
     <string>MSPowerPoint2016</string>
     <string>MSWord2016</string>
 </array>
+<key>blocking_applications</key>
+<array>
+	<string>Microsoft Excel</string>
+	<string>Microsoft OneNote</string>
+	<string>Microsoft Outlook</string>
+	<string>Microsoft PowerPoint</string>
+	<string>Microsoft Word</string>
+	<string>Microsoft Error Reporting</string>
+	<string>Microsoft Auto Update</string>
+</array>
 </dict>
 </plist>
