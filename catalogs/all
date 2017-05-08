@@ -2857,996 +2857,6 @@ exit 0
 	<dict>
 		<key>autoremove</key>
 		<false/>
-		<key>blocking_applications</key>
-		<array>
-			<string>Microsoft Excel</string>
-			<string>Microsoft Error Reporting</string>
-			<string>Microsoft Auto Update</string>
-		</array>
-		<key>catalogs</key>
-		<array>
-			<string>production</string>
-		</array>
-		<key>description</key>
-		<string>&lt;html&gt;&lt;p style="font-family:Helvetica;font-size:12px"&gt;For detailed information about this update, please visit the following Web site: &lt;/p&gt;
-
-&lt;p style="font-family:Helvetica;font-size:12px"&gt;&lt;a href="https://go.microsoft.com/fwlink/?LinkID=831049" target="_blank"&gt;https://go.microsoft.com/fwlink/?LinkID=831049&lt;/a&gt;&lt;/p&gt;&lt;/html&gt;</string>
-		<key>display_name</key>
-		<string>Microsoft Excel for Mac</string>
-		<key>icon_hash</key>
-		<string>71cfb7216f655859dc3bbf4f914d58f91f7fc2012dc8f69b7402dcb5d6a4bb80</string>
-		<key>installed_size</key>
-		<integer>1754206</integer>
-		<key>installer_item_hash</key>
-		<string>9556d1b4a6400fb6b5db4ae83e4040f85b6b7fd6cee39c01154cb4b97e16e880</string>
-		<key>installer_item_location</key>
-		<string>apps/MSExcel2016-15.31.17021600.pkg</string>
-		<key>installer_item_size</key>
-		<integer>928431</integer>
-		<key>installs</key>
-		<array>
-			<dict>
-				<key>CFBundleVersion</key>
-				<string>15.31.17021600</string>
-				<key>path</key>
-				<string>/Applications/Microsoft Excel.app</string>
-				<key>type</key>
-				<string>application</string>
-				<key>version_comparison_key</key>
-				<string>CFBundleVersion</string>
-			</dict>
-		</array>
-		<key>minimum_os_version</key>
-		<string>10.10.0</string>
-		<key>name</key>
-		<string>MSExcel2016</string>
-		<key>receipts</key>
-		<array>
-			<dict>
-				<key>installed_size</key>
-				<integer>1754206</integer>
-				<key>packageid</key>
-				<string>com.microsoft.package.Microsoft_Excel.app</string>
-				<key>version</key>
-				<string>15.31.17021600</string>
-			</dict>
-		</array>
-		<key>unattended_install</key>
-		<true/>
-		<key>uninstall_method</key>
-		<string>removepackages</string>
-		<key>uninstallable</key>
-		<true/>
-		<key>version</key>
-		<string>15.31.17021600</string>
-	</dict>
-	<dict>
-		<key>autoremove</key>
-		<false/>
-		<key>blocking_applications</key>
-		<array>
-			<string>Microsoft Excel</string>
-			<string>Microsoft Error Reporting</string>
-			<string>Microsoft Auto Update</string>
-		</array>
-		<key>catalogs</key>
-		<array>
-			<string>production</string>
-		</array>
-		<key>description</key>
-		<string>&lt;html&gt;&lt;p style="font-family:Helvetica;font-size:12px"&gt;For detailed information about this update, please visit the following Web site: &lt;/p&gt;
-
-&lt;p style="font-family:Helvetica;font-size:12px"&gt;&lt;a href="https://go.microsoft.com/fwlink/?LinkID=831049" target="_blank"&gt;https://go.microsoft.com/fwlink/?LinkID=831049&lt;/a&gt;&lt;/p&gt;&lt;/html&gt;</string>
-		<key>display_name</key>
-		<string>Microsoft Excel for Mac</string>
-		<key>icon_hash</key>
-		<string>71cfb7216f655859dc3bbf4f914d58f91f7fc2012dc8f69b7402dcb5d6a4bb80</string>
-		<key>installed_size</key>
-		<integer>1754772</integer>
-		<key>installer_item_hash</key>
-		<string>48bb76c98ca367cf02e696a186c31340a2f000110473a49e8882352fdfdf0557</string>
-		<key>installer_item_location</key>
-		<string>apps/MSExcel2016-15.32.17030901.pkg</string>
-		<key>installer_item_size</key>
-		<integer>928527</integer>
-		<key>installs</key>
-		<array>
-			<dict>
-				<key>CFBundleVersion</key>
-				<string>15.32.17030901</string>
-				<key>path</key>
-				<string>/Applications/Microsoft Excel.app</string>
-				<key>type</key>
-				<string>application</string>
-				<key>version_comparison_key</key>
-				<string>CFBundleVersion</string>
-			</dict>
-		</array>
-		<key>minimum_os_version</key>
-		<string>10.10.0</string>
-		<key>name</key>
-		<string>MSExcel2016</string>
-		<key>receipts</key>
-		<array>
-			<dict>
-				<key>installed_size</key>
-				<integer>1754772</integer>
-				<key>packageid</key>
-				<string>com.microsoft.package.Microsoft_Excel.app</string>
-				<key>version</key>
-				<string>15.32.17030901</string>
-			</dict>
-		</array>
-		<key>unattended_install</key>
-		<true/>
-		<key>uninstall_method</key>
-		<string>removepackages</string>
-		<key>uninstallable</key>
-		<true/>
-		<key>version</key>
-		<string>15.32.17030901</string>
-	</dict>
-	<dict>
-		<key>autoremove</key>
-		<false/>
-		<key>blocking_applications</key>
-		<array>
-			<string>Microsoft Excel</string>
-			<string>Microsoft Error Reporting</string>
-			<string>Microsoft Auto Update</string>
-		</array>
-		<key>catalogs</key>
-		<array>
-			<string>production</string>
-		</array>
-		<key>description</key>
-		<string>&lt;html&gt;&lt;p style="font-family:Helvetica;font-size:12px"&gt;For detailed information about this update, please visit the following Web site: &lt;/p&gt;
-
-&lt;p style="font-family:Helvetica;font-size:12px"&gt;&lt;a href="https://go.microsoft.com/fwlink/?LinkID=831049" target="_blank"&gt;https://go.microsoft.com/fwlink/?LinkID=831049&lt;/a&gt;&lt;/p&gt;&lt;/html&gt;</string>
-		<key>display_name</key>
-		<string>Microsoft Excel for Mac</string>
-		<key>icon_hash</key>
-		<string>71cfb7216f655859dc3bbf4f914d58f91f7fc2012dc8f69b7402dcb5d6a4bb80</string>
-		<key>installed_size</key>
-		<integer>1760893</integer>
-		<key>installer_item_hash</key>
-		<string>eb5323d5d54239d316fb84d6061d13182a3201f2477973d70a4b159d8bc8a9eb</string>
-		<key>installer_item_location</key>
-		<string>apps/MSExcel2016-15.33.17040900.pkg</string>
-		<key>installer_item_size</key>
-		<integer>931115</integer>
-		<key>installs</key>
-		<array>
-			<dict>
-				<key>CFBundleVersion</key>
-				<string>15.33.17040900</string>
-				<key>path</key>
-				<string>/Applications/Microsoft Excel.app</string>
-				<key>type</key>
-				<string>application</string>
-				<key>version_comparison_key</key>
-				<string>CFBundleVersion</string>
-			</dict>
-		</array>
-		<key>minimum_os_version</key>
-		<string>10.10.0</string>
-		<key>name</key>
-		<string>MSExcel2016</string>
-		<key>receipts</key>
-		<array>
-			<dict>
-				<key>installed_size</key>
-				<integer>1760893</integer>
-				<key>packageid</key>
-				<string>com.microsoft.package.Microsoft_Excel.app</string>
-				<key>version</key>
-				<string>15.33.17040900</string>
-			</dict>
-		</array>
-		<key>unattended_install</key>
-		<true/>
-		<key>uninstall_method</key>
-		<string>removepackages</string>
-		<key>uninstallable</key>
-		<true/>
-		<key>version</key>
-		<string>15.33.17040900</string>
-	</dict>
-	<dict>
-		<key>autoremove</key>
-		<false/>
-		<key>blocking_applications</key>
-		<array>
-			<string>Microsoft OneNote</string>
-			<string>Microsoft Error Reporting</string>
-			<string>Microsoft Auto Update</string>
-		</array>
-		<key>catalogs</key>
-		<array>
-			<string>production</string>
-		</array>
-		<key>description</key>
-		<string>&lt;html&gt;&lt;p style="font-family:Helvetica;font-size:12px"&gt;For detailed information about this update, please visit the following Web site: &lt;/p&gt;
-
-&lt;p style="font-family:Helvetica;font-size:12px"&gt;&lt;a href="https://go.microsoft.com/fwlink/?LinkID=831049" target="_blank"&gt;https://go.microsoft.com/fwlink/?LinkID=831049&lt;/a&gt;&lt;/p&gt;&lt;/html&gt;</string>
-		<key>display_name</key>
-		<string>Microsoft OneNote for Mac</string>
-		<key>icon_hash</key>
-		<string>787458d8ab01dd59d61006ed2421bdea661fac7d641bde2819da5fa90a033df7</string>
-		<key>installed_size</key>
-		<integer>852523</integer>
-		<key>installer_item_hash</key>
-		<string>554ac54d99b4f0d4818141b196a0aa8c10a547f1c765640092cfeb3cae55c2c2</string>
-		<key>installer_item_location</key>
-		<string>apps/MSOneNote2016-15.31.17021600.pkg</string>
-		<key>installer_item_size</key>
-		<integer>401807</integer>
-		<key>installs</key>
-		<array>
-			<dict>
-				<key>CFBundleVersion</key>
-				<string>15.31.17021600</string>
-				<key>path</key>
-				<string>/Applications/Microsoft OneNote.app</string>
-				<key>type</key>
-				<string>application</string>
-				<key>version_comparison_key</key>
-				<string>CFBundleVersion</string>
-			</dict>
-		</array>
-		<key>minimum_os_version</key>
-		<string>10.10.0</string>
-		<key>name</key>
-		<string>MSOneNote2016</string>
-		<key>receipts</key>
-		<array>
-			<dict>
-				<key>installed_size</key>
-				<integer>852523</integer>
-				<key>packageid</key>
-				<string>com.microsoft.package.Microsoft_OneNote.app</string>
-				<key>version</key>
-				<string>15.31.17021600</string>
-			</dict>
-		</array>
-		<key>unattended_install</key>
-		<true/>
-		<key>uninstall_method</key>
-		<string>removepackages</string>
-		<key>uninstallable</key>
-		<true/>
-		<key>version</key>
-		<string>15.31.17021600</string>
-	</dict>
-	<dict>
-		<key>autoremove</key>
-		<false/>
-		<key>blocking_applications</key>
-		<array>
-			<string>Microsoft OneNote</string>
-			<string>Microsoft Error Reporting</string>
-			<string>Microsoft Auto Update</string>
-		</array>
-		<key>catalogs</key>
-		<array>
-			<string>production</string>
-		</array>
-		<key>description</key>
-		<string>&lt;html&gt;&lt;p style="font-family:Helvetica;font-size:12px"&gt;For detailed information about this update, please visit the following Web site: &lt;/p&gt;
-
-&lt;p style="font-family:Helvetica;font-size:12px"&gt;&lt;a href="https://go.microsoft.com/fwlink/?LinkID=831049" target="_blank"&gt;https://go.microsoft.com/fwlink/?LinkID=831049&lt;/a&gt;&lt;/p&gt;&lt;/html&gt;</string>
-		<key>display_name</key>
-		<string>Microsoft OneNote for Mac</string>
-		<key>icon_hash</key>
-		<string>787458d8ab01dd59d61006ed2421bdea661fac7d641bde2819da5fa90a033df7</string>
-		<key>installed_size</key>
-		<integer>855245</integer>
-		<key>installer_item_hash</key>
-		<string>6e61a384d2ee979ec01797f8ec37f2fdcc1b596be55226841054f0fdd2d2df22</string>
-		<key>installer_item_location</key>
-		<string>apps/MSOneNote2016-15.32.17030901.pkg</string>
-		<key>installer_item_size</key>
-		<integer>402915</integer>
-		<key>installs</key>
-		<array>
-			<dict>
-				<key>CFBundleVersion</key>
-				<string>15.32.17030901</string>
-				<key>path</key>
-				<string>/Applications/Microsoft OneNote.app</string>
-				<key>type</key>
-				<string>application</string>
-				<key>version_comparison_key</key>
-				<string>CFBundleVersion</string>
-			</dict>
-		</array>
-		<key>minimum_os_version</key>
-		<string>10.10.0</string>
-		<key>name</key>
-		<string>MSOneNote2016</string>
-		<key>receipts</key>
-		<array>
-			<dict>
-				<key>installed_size</key>
-				<integer>855245</integer>
-				<key>packageid</key>
-				<string>com.microsoft.package.Microsoft_OneNote.app</string>
-				<key>version</key>
-				<string>15.32.17030901</string>
-			</dict>
-		</array>
-		<key>unattended_install</key>
-		<true/>
-		<key>uninstall_method</key>
-		<string>removepackages</string>
-		<key>uninstallable</key>
-		<true/>
-		<key>version</key>
-		<string>15.32.17030901</string>
-	</dict>
-	<dict>
-		<key>autoremove</key>
-		<false/>
-		<key>blocking_applications</key>
-		<array>
-			<string>Microsoft OneNote</string>
-			<string>Microsoft Error Reporting</string>
-			<string>Microsoft Auto Update</string>
-		</array>
-		<key>catalogs</key>
-		<array>
-			<string>production</string>
-		</array>
-		<key>description</key>
-		<string>&lt;html&gt;&lt;p style="font-family:Helvetica;font-size:12px"&gt;For detailed information about this update, please visit the following Web site: &lt;/p&gt;
-
-&lt;p style="font-family:Helvetica;font-size:12px"&gt;&lt;a href="https://go.microsoft.com/fwlink/?LinkID=831049" target="_blank"&gt;https://go.microsoft.com/fwlink/?LinkID=831049&lt;/a&gt;&lt;/p&gt;&lt;/html&gt;</string>
-		<key>display_name</key>
-		<string>Microsoft OneNote for Mac</string>
-		<key>icon_hash</key>
-		<string>787458d8ab01dd59d61006ed2421bdea661fac7d641bde2819da5fa90a033df7</string>
-		<key>installed_size</key>
-		<integer>860369</integer>
-		<key>installer_item_hash</key>
-		<string>bdfca040860a62f2ac6635b46597a4771e00ab575056160a416881f37d7ceaa2</string>
-		<key>installer_item_location</key>
-		<string>apps/MSOneNote2016-15.33.17040900.pkg</string>
-		<key>installer_item_size</key>
-		<integer>404763</integer>
-		<key>installs</key>
-		<array>
-			<dict>
-				<key>CFBundleVersion</key>
-				<string>15.33.17040900</string>
-				<key>path</key>
-				<string>/Applications/Microsoft OneNote.app</string>
-				<key>type</key>
-				<string>application</string>
-				<key>version_comparison_key</key>
-				<string>CFBundleVersion</string>
-			</dict>
-		</array>
-		<key>minimum_os_version</key>
-		<string>10.10.0</string>
-		<key>name</key>
-		<string>MSOneNote2016</string>
-		<key>receipts</key>
-		<array>
-			<dict>
-				<key>installed_size</key>
-				<integer>860369</integer>
-				<key>packageid</key>
-				<string>com.microsoft.package.Microsoft_OneNote.app</string>
-				<key>version</key>
-				<string>15.33.17040900</string>
-			</dict>
-		</array>
-		<key>unattended_install</key>
-		<true/>
-		<key>uninstall_method</key>
-		<string>removepackages</string>
-		<key>uninstallable</key>
-		<true/>
-		<key>version</key>
-		<string>15.33.17040900</string>
-	</dict>
-	<dict>
-		<key>autoremove</key>
-		<false/>
-		<key>blocking_applications</key>
-		<array>
-			<string>Microsoft Outlook</string>
-			<string>Microsoft Error Reporting</string>
-			<string>Microsoft Auto Update</string>
-		</array>
-		<key>catalogs</key>
-		<array>
-			<string>production</string>
-		</array>
-		<key>description</key>
-		<string>&lt;html&gt;&lt;p style="font-family:Helvetica;font-size:12px"&gt;For detailed information about this update, please visit the following Web site: &lt;/p&gt;
-
-&lt;p style="font-family:Helvetica;font-size:12px"&gt;&lt;a href="https://go.microsoft.com/fwlink/?LinkID=831049" target="_blank"&gt;https://go.microsoft.com/fwlink/?LinkID=831049&lt;/a&gt;&lt;/p&gt;&lt;/html&gt;</string>
-		<key>display_name</key>
-		<string>Microsoft Outlook for Mac</string>
-		<key>icon_hash</key>
-		<string>7d0893e3783d74c85f8a9ead4cdaed4e1c11645b55bd5513f679e3bdfda84af4</string>
-		<key>installed_size</key>
-		<integer>1598870</integer>
-		<key>installer_item_hash</key>
-		<string>b3e10ee72246d31f54c8ea41fade1e580762b86b595748ea2cf4ea422d6601ce</string>
-		<key>installer_item_location</key>
-		<string>apps/MSOutlook2016-15.31.17021600.pkg</string>
-		<key>installer_item_size</key>
-		<integer>773859</integer>
-		<key>installs</key>
-		<array>
-			<dict>
-				<key>CFBundleVersion</key>
-				<string>15.31.17021600</string>
-				<key>path</key>
-				<string>/Applications/Microsoft Outlook.app</string>
-				<key>type</key>
-				<string>application</string>
-				<key>version_comparison_key</key>
-				<string>CFBundleVersion</string>
-			</dict>
-		</array>
-		<key>minimum_os_version</key>
-		<string>10.10.0</string>
-		<key>name</key>
-		<string>MSOutlook2016</string>
-		<key>receipts</key>
-		<array>
-			<dict>
-				<key>installed_size</key>
-				<integer>1598870</integer>
-				<key>packageid</key>
-				<string>com.microsoft.package.Microsoft_Outlook.app</string>
-				<key>version</key>
-				<string>15.31.17021600</string>
-			</dict>
-		</array>
-		<key>unattended_install</key>
-		<true/>
-		<key>uninstall_method</key>
-		<string>removepackages</string>
-		<key>uninstallable</key>
-		<true/>
-		<key>version</key>
-		<string>15.31.17021600</string>
-	</dict>
-	<dict>
-		<key>autoremove</key>
-		<false/>
-		<key>blocking_applications</key>
-		<array>
-			<string>Microsoft Outlook</string>
-			<string>Microsoft Error Reporting</string>
-			<string>Microsoft Auto Update</string>
-		</array>
-		<key>catalogs</key>
-		<array>
-			<string>production</string>
-		</array>
-		<key>description</key>
-		<string>&lt;html&gt;&lt;p style="font-family:Helvetica;font-size:12px"&gt;For detailed information about this update, please visit the following Web site: &lt;/p&gt;
-
-&lt;p style="font-family:Helvetica;font-size:12px"&gt;&lt;a href="https://go.microsoft.com/fwlink/?LinkID=831049" target="_blank"&gt;https://go.microsoft.com/fwlink/?LinkID=831049&lt;/a&gt;&lt;/p&gt;&lt;/html&gt;</string>
-		<key>display_name</key>
-		<string>Microsoft Outlook for Mac</string>
-		<key>icon_hash</key>
-		<string>7d0893e3783d74c85f8a9ead4cdaed4e1c11645b55bd5513f679e3bdfda84af4</string>
-		<key>installed_size</key>
-		<integer>1603025</integer>
-		<key>installer_item_hash</key>
-		<string>11504f0319171bbaf12a346d0cbe785b41977641590d1c8abedbb3e437142d42</string>
-		<key>installer_item_location</key>
-		<string>apps/MSOutlook2016-15.32.17030901.pkg</string>
-		<key>installer_item_size</key>
-		<integer>776163</integer>
-		<key>installs</key>
-		<array>
-			<dict>
-				<key>CFBundleVersion</key>
-				<string>15.32.17030901</string>
-				<key>path</key>
-				<string>/Applications/Microsoft Outlook.app</string>
-				<key>type</key>
-				<string>application</string>
-				<key>version_comparison_key</key>
-				<string>CFBundleVersion</string>
-			</dict>
-		</array>
-		<key>minimum_os_version</key>
-		<string>10.10.0</string>
-		<key>name</key>
-		<string>MSOutlook2016</string>
-		<key>receipts</key>
-		<array>
-			<dict>
-				<key>installed_size</key>
-				<integer>1603025</integer>
-				<key>packageid</key>
-				<string>com.microsoft.package.Microsoft_Outlook.app</string>
-				<key>version</key>
-				<string>15.32.17030901</string>
-			</dict>
-		</array>
-		<key>unattended_install</key>
-		<true/>
-		<key>uninstall_method</key>
-		<string>removepackages</string>
-		<key>uninstallable</key>
-		<true/>
-		<key>version</key>
-		<string>15.32.17030901</string>
-	</dict>
-	<dict>
-		<key>autoremove</key>
-		<false/>
-		<key>blocking_applications</key>
-		<array>
-			<string>Microsoft Outlook</string>
-			<string>Microsoft Error Reporting</string>
-			<string>Microsoft Auto Update</string>
-		</array>
-		<key>catalogs</key>
-		<array>
-			<string>production</string>
-		</array>
-		<key>description</key>
-		<string>&lt;html&gt;&lt;p style="font-family:Helvetica;font-size:12px"&gt;For detailed information about this update, please visit the following Web site: &lt;/p&gt;
-
-&lt;p style="font-family:Helvetica;font-size:12px"&gt;&lt;a href="https://go.microsoft.com/fwlink/?LinkID=831049" target="_blank"&gt;https://go.microsoft.com/fwlink/?LinkID=831049&lt;/a&gt;&lt;/p&gt;&lt;/html&gt;</string>
-		<key>display_name</key>
-		<string>Microsoft Outlook for Mac</string>
-		<key>icon_hash</key>
-		<string>7d0893e3783d74c85f8a9ead4cdaed4e1c11645b55bd5513f679e3bdfda84af4</string>
-		<key>installed_size</key>
-		<integer>1612239</integer>
-		<key>installer_item_hash</key>
-		<string>44103c9c47efddb378b8da97d038bde827a84681cbb7f9a6482a78d9f31aa8b8</string>
-		<key>installer_item_location</key>
-		<string>apps/MSOutlook2016-15.33.17040900.pkg</string>
-		<key>installer_item_size</key>
-		<integer>780163</integer>
-		<key>installs</key>
-		<array>
-			<dict>
-				<key>CFBundleVersion</key>
-				<string>15.33.17040900</string>
-				<key>path</key>
-				<string>/Applications/Microsoft Outlook.app</string>
-				<key>type</key>
-				<string>application</string>
-				<key>version_comparison_key</key>
-				<string>CFBundleVersion</string>
-			</dict>
-		</array>
-		<key>minimum_os_version</key>
-		<string>10.10.0</string>
-		<key>name</key>
-		<string>MSOutlook2016</string>
-		<key>receipts</key>
-		<array>
-			<dict>
-				<key>installed_size</key>
-				<integer>1612239</integer>
-				<key>packageid</key>
-				<string>com.microsoft.package.Microsoft_Outlook.app</string>
-				<key>version</key>
-				<string>15.33.17040900</string>
-			</dict>
-		</array>
-		<key>unattended_install</key>
-		<true/>
-		<key>uninstall_method</key>
-		<string>removepackages</string>
-		<key>uninstallable</key>
-		<true/>
-		<key>version</key>
-		<string>15.33.17040900</string>
-	</dict>
-	<dict>
-		<key>autoremove</key>
-		<false/>
-		<key>blocking_applications</key>
-		<array>
-			<string>Microsoft PowerPoint</string>
-			<string>Microsoft Error Reporting</string>
-			<string>Microsoft Auto Update</string>
-		</array>
-		<key>catalogs</key>
-		<array>
-			<string>production</string>
-		</array>
-		<key>description</key>
-		<string>&lt;html&gt;&lt;p style="font-family:Helvetica;font-size:12px"&gt;For detailed information about this update, please visit the following Web site: &lt;/p&gt;
-
-&lt;p style="font-family:Helvetica;font-size:12px"&gt;&lt;a href="https://go.microsoft.com/fwlink/?LinkID=831049" target="_blank"&gt;https://go.microsoft.com/fwlink/?LinkID=831049&lt;/a&gt;&lt;/p&gt;&lt;/html&gt;</string>
-		<key>display_name</key>
-		<string>Microsoft PowerPoint for Mac</string>
-		<key>icon_hash</key>
-		<string>53ef3dab9ad735884c885ff9593e564cbeedb9e5f0aaf61b814feff053e05a98</string>
-		<key>installed_size</key>
-		<integer>1630557</integer>
-		<key>installer_item_hash</key>
-		<string>899d392f8854eb335fc131fbeb0c98493660f8e23110ad336f255e5ce8308b72</string>
-		<key>installer_item_location</key>
-		<string>apps/MSPowerPoint2016-15.31.17021600.pkg</string>
-		<key>installer_item_size</key>
-		<integer>863083</integer>
-		<key>installs</key>
-		<array>
-			<dict>
-				<key>CFBundleVersion</key>
-				<string>15.31.17021600</string>
-				<key>path</key>
-				<string>/Applications/Microsoft PowerPoint.app</string>
-				<key>type</key>
-				<string>application</string>
-				<key>version_comparison_key</key>
-				<string>CFBundleVersion</string>
-			</dict>
-		</array>
-		<key>minimum_os_version</key>
-		<string>10.10.0</string>
-		<key>name</key>
-		<string>MSPowerPoint2016</string>
-		<key>receipts</key>
-		<array>
-			<dict>
-				<key>installed_size</key>
-				<integer>1630557</integer>
-				<key>packageid</key>
-				<string>com.microsoft.package.Microsoft_PowerPoint.app</string>
-				<key>version</key>
-				<string>15.31.17021600</string>
-			</dict>
-		</array>
-		<key>unattended_install</key>
-		<true/>
-		<key>uninstall_method</key>
-		<string>removepackages</string>
-		<key>uninstallable</key>
-		<true/>
-		<key>version</key>
-		<string>15.31.17021600</string>
-	</dict>
-	<dict>
-		<key>autoremove</key>
-		<false/>
-		<key>blocking_applications</key>
-		<array>
-			<string>Microsoft PowerPoint</string>
-			<string>Microsoft Error Reporting</string>
-			<string>Microsoft Auto Update</string>
-		</array>
-		<key>catalogs</key>
-		<array>
-			<string>production</string>
-		</array>
-		<key>description</key>
-		<string>&lt;html&gt;&lt;p style="font-family:Helvetica;font-size:12px"&gt;For detailed information about this update, please visit the following Web site: &lt;/p&gt;
-
-&lt;p style="font-family:Helvetica;font-size:12px"&gt;&lt;a href="https://go.microsoft.com/fwlink/?LinkID=831049" target="_blank"&gt;https://go.microsoft.com/fwlink/?LinkID=831049&lt;/a&gt;&lt;/p&gt;&lt;/html&gt;</string>
-		<key>display_name</key>
-		<string>Microsoft PowerPoint for Mac</string>
-		<key>icon_hash</key>
-		<string>53ef3dab9ad735884c885ff9593e564cbeedb9e5f0aaf61b814feff053e05a98</string>
-		<key>installed_size</key>
-		<integer>1631557</integer>
-		<key>installer_item_hash</key>
-		<string>1719699f22a809db5570d3d94d7c09b1e8058fc369c065ea5929e9115a5c4a6a</string>
-		<key>installer_item_location</key>
-		<string>apps/MSPowerPoint2016-15.32.17030901.pkg</string>
-		<key>installer_item_size</key>
-		<integer>863451</integer>
-		<key>installs</key>
-		<array>
-			<dict>
-				<key>CFBundleVersion</key>
-				<string>15.32.17030901</string>
-				<key>path</key>
-				<string>/Applications/Microsoft PowerPoint.app</string>
-				<key>type</key>
-				<string>application</string>
-				<key>version_comparison_key</key>
-				<string>CFBundleVersion</string>
-			</dict>
-		</array>
-		<key>minimum_os_version</key>
-		<string>10.10.0</string>
-		<key>name</key>
-		<string>MSPowerPoint2016</string>
-		<key>receipts</key>
-		<array>
-			<dict>
-				<key>installed_size</key>
-				<integer>1631557</integer>
-				<key>packageid</key>
-				<string>com.microsoft.package.Microsoft_PowerPoint.app</string>
-				<key>version</key>
-				<string>15.32.17030901</string>
-			</dict>
-		</array>
-		<key>unattended_install</key>
-		<true/>
-		<key>uninstall_method</key>
-		<string>removepackages</string>
-		<key>uninstallable</key>
-		<true/>
-		<key>version</key>
-		<string>15.32.17030901</string>
-	</dict>
-	<dict>
-		<key>autoremove</key>
-		<false/>
-		<key>blocking_applications</key>
-		<array>
-			<string>Microsoft PowerPoint</string>
-			<string>Microsoft Error Reporting</string>
-			<string>Microsoft Auto Update</string>
-		</array>
-		<key>catalogs</key>
-		<array>
-			<string>production</string>
-		</array>
-		<key>description</key>
-		<string>&lt;html&gt;&lt;p style="font-family:Helvetica;font-size:12px"&gt;For detailed information about this update, please visit the following Web site: &lt;/p&gt;
-
-&lt;p style="font-family:Helvetica;font-size:12px"&gt;&lt;a href="https://go.microsoft.com/fwlink/?LinkID=831049" target="_blank"&gt;https://go.microsoft.com/fwlink/?LinkID=831049&lt;/a&gt;&lt;/p&gt;&lt;/html&gt;</string>
-		<key>display_name</key>
-		<string>Microsoft PowerPoint for Mac</string>
-		<key>icon_hash</key>
-		<string>53ef3dab9ad735884c885ff9593e564cbeedb9e5f0aaf61b814feff053e05a98</string>
-		<key>installed_size</key>
-		<integer>1636985</integer>
-		<key>installer_item_hash</key>
-		<string>7d80f4d2b085fa7d0ce4ce70ec489d11602b6e89b47c106e8eaab6e0494323a5</string>
-		<key>installer_item_location</key>
-		<string>apps/MSPowerPoint2016-15.33.17040900.pkg</string>
-		<key>installer_item_size</key>
-		<integer>865691</integer>
-		<key>installs</key>
-		<array>
-			<dict>
-				<key>CFBundleVersion</key>
-				<string>15.33.17040900</string>
-				<key>path</key>
-				<string>/Applications/Microsoft PowerPoint.app</string>
-				<key>type</key>
-				<string>application</string>
-				<key>version_comparison_key</key>
-				<string>CFBundleVersion</string>
-			</dict>
-		</array>
-		<key>minimum_os_version</key>
-		<string>10.10.0</string>
-		<key>name</key>
-		<string>MSPowerPoint2016</string>
-		<key>receipts</key>
-		<array>
-			<dict>
-				<key>installed_size</key>
-				<integer>1636985</integer>
-				<key>packageid</key>
-				<string>com.microsoft.package.Microsoft_PowerPoint.app</string>
-				<key>version</key>
-				<string>15.33.17040900</string>
-			</dict>
-		</array>
-		<key>unattended_install</key>
-		<true/>
-		<key>uninstall_method</key>
-		<string>removepackages</string>
-		<key>uninstallable</key>
-		<true/>
-		<key>version</key>
-		<string>15.33.17040900</string>
-	</dict>
-	<dict>
-		<key>autoremove</key>
-		<false/>
-		<key>blocking_applications</key>
-		<array>
-			<string>Microsoft Word</string>
-			<string>Microsoft Error Reporting</string>
-			<string>Microsoft Auto Update</string>
-		</array>
-		<key>catalogs</key>
-		<array>
-			<string>production</string>
-		</array>
-		<key>description</key>
-		<string>&lt;html&gt;&lt;p style="font-family:Helvetica;font-size:12px"&gt;For detailed information about this update, please visit the following Web site: &lt;/p&gt;
-
-&lt;p style="font-family:Helvetica;font-size:12px"&gt;&lt;a href="https://go.microsoft.com/fwlink/?LinkID=831049" target="_blank"&gt;https://go.microsoft.com/fwlink/?LinkID=831049&lt;/a&gt;&lt;/p&gt;&lt;/html&gt;</string>
-		<key>display_name</key>
-		<string>Microsoft Word for Mac</string>
-		<key>icon_hash</key>
-		<string>f40affe61cb501db81248085e4316211481bf0b0b90b81a59ff6d794198fbb7a</string>
-		<key>installed_size</key>
-		<integer>1925790</integer>
-		<key>installer_item_hash</key>
-		<string>bd4079678633cc9f53056239bb99acbda42d932818eea9f0a5e6158f910f87c4</string>
-		<key>installer_item_location</key>
-		<string>apps/MSWord2016-15.31.17021600.pkg</string>
-		<key>installer_item_size</key>
-		<integer>1063591</integer>
-		<key>installs</key>
-		<array>
-			<dict>
-				<key>CFBundleVersion</key>
-				<string>15.31.17021600</string>
-				<key>path</key>
-				<string>/Applications/Microsoft Word.app</string>
-				<key>type</key>
-				<string>application</string>
-				<key>version_comparison_key</key>
-				<string>CFBundleVersion</string>
-			</dict>
-		</array>
-		<key>minimum_os_version</key>
-		<string>10.10.0</string>
-		<key>name</key>
-		<string>MSWord2016</string>
-		<key>receipts</key>
-		<array>
-			<dict>
-				<key>installed_size</key>
-				<integer>1925790</integer>
-				<key>packageid</key>
-				<string>com.microsoft.package.Microsoft_Word.app</string>
-				<key>version</key>
-				<string>15.31.17021600</string>
-			</dict>
-		</array>
-		<key>unattended_install</key>
-		<true/>
-		<key>uninstall_method</key>
-		<string>removepackages</string>
-		<key>uninstallable</key>
-		<true/>
-		<key>version</key>
-		<string>15.31.17021600</string>
-	</dict>
-	<dict>
-		<key>autoremove</key>
-		<false/>
-		<key>blocking_applications</key>
-		<array>
-			<string>Microsoft Word</string>
-			<string>Microsoft Error Reporting</string>
-			<string>Microsoft Auto Update</string>
-		</array>
-		<key>catalogs</key>
-		<array>
-			<string>production</string>
-		</array>
-		<key>description</key>
-		<string>&lt;html&gt;&lt;p style="font-family:Helvetica;font-size:12px"&gt;For detailed information about this update, please visit the following Web site: &lt;/p&gt;
-
-&lt;p style="font-family:Helvetica;font-size:12px"&gt;&lt;a href="https://go.microsoft.com/fwlink/?LinkID=831049" target="_blank"&gt;https://go.microsoft.com/fwlink/?LinkID=831049&lt;/a&gt;&lt;/p&gt;&lt;/html&gt;</string>
-		<key>display_name</key>
-		<string>Microsoft Word for Mac</string>
-		<key>icon_hash</key>
-		<string>f40affe61cb501db81248085e4316211481bf0b0b90b81a59ff6d794198fbb7a</string>
-		<key>installed_size</key>
-		<integer>1926779</integer>
-		<key>installer_item_hash</key>
-		<string>9eb8f0b0bf10c530017d262a4e9f4a07fbfbeab589fefdebffc1be89a037c360</string>
-		<key>installer_item_location</key>
-		<string>apps/MSWord2016-15.32.17030901.pkg</string>
-		<key>installer_item_size</key>
-		<integer>1063995</integer>
-		<key>installs</key>
-		<array>
-			<dict>
-				<key>CFBundleVersion</key>
-				<string>15.32.17030901</string>
-				<key>path</key>
-				<string>/Applications/Microsoft Word.app</string>
-				<key>type</key>
-				<string>application</string>
-				<key>version_comparison_key</key>
-				<string>CFBundleVersion</string>
-			</dict>
-		</array>
-		<key>minimum_os_version</key>
-		<string>10.10.0</string>
-		<key>name</key>
-		<string>MSWord2016</string>
-		<key>receipts</key>
-		<array>
-			<dict>
-				<key>installed_size</key>
-				<integer>1926779</integer>
-				<key>packageid</key>
-				<string>com.microsoft.package.Microsoft_Word.app</string>
-				<key>version</key>
-				<string>15.32.17030901</string>
-			</dict>
-		</array>
-		<key>unattended_install</key>
-		<true/>
-		<key>uninstall_method</key>
-		<string>removepackages</string>
-		<key>uninstallable</key>
-		<true/>
-		<key>version</key>
-		<string>15.32.17030901</string>
-	</dict>
-	<dict>
-		<key>autoremove</key>
-		<false/>
-		<key>blocking_applications</key>
-		<array>
-			<string>Microsoft Word</string>
-			<string>Microsoft Error Reporting</string>
-			<string>Microsoft Auto Update</string>
-		</array>
-		<key>catalogs</key>
-		<array>
-			<string>production</string>
-		</array>
-		<key>description</key>
-		<string>&lt;html&gt;&lt;p style="font-family:Helvetica;font-size:12px"&gt;For detailed information about this update, please visit the following Web site: &lt;/p&gt;
-
-&lt;p style="font-family:Helvetica;font-size:12px"&gt;&lt;a href="https://go.microsoft.com/fwlink/?LinkID=831049" target="_blank"&gt;https://go.microsoft.com/fwlink/?LinkID=831049&lt;/a&gt;&lt;/p&gt;&lt;/html&gt;</string>
-		<key>display_name</key>
-		<string>Microsoft Word for Mac</string>
-		<key>icon_hash</key>
-		<string>f40affe61cb501db81248085e4316211481bf0b0b90b81a59ff6d794198fbb7a</string>
-		<key>installed_size</key>
-		<integer>1933758</integer>
-		<key>installer_item_hash</key>
-		<string>c7edcc559dacccde28f440360f78df9980ad4f36fec7210faaa923b1a7ae2561</string>
-		<key>installer_item_location</key>
-		<string>apps/MSWord2016-15.33.17040900.pkg</string>
-		<key>installer_item_size</key>
-		<integer>1066815</integer>
-		<key>installs</key>
-		<array>
-			<dict>
-				<key>CFBundleVersion</key>
-				<string>15.33.17040900</string>
-				<key>path</key>
-				<string>/Applications/Microsoft Word.app</string>
-				<key>type</key>
-				<string>application</string>
-				<key>version_comparison_key</key>
-				<string>CFBundleVersion</string>
-			</dict>
-		</array>
-		<key>minimum_os_version</key>
-		<string>10.10.0</string>
-		<key>name</key>
-		<string>MSWord2016</string>
-		<key>receipts</key>
-		<array>
-			<dict>
-				<key>installed_size</key>
-				<integer>1933758</integer>
-				<key>packageid</key>
-				<string>com.microsoft.package.Microsoft_Word.app</string>
-				<key>version</key>
-				<string>15.33.17040900</string>
-			</dict>
-		</array>
-		<key>unattended_install</key>
-		<true/>
-		<key>uninstall_method</key>
-		<string>removepackages</string>
-		<key>uninstallable</key>
-		<true/>
-		<key>version</key>
-		<string>15.33.17040900</string>
-	</dict>
-	<dict>
-		<key>autoremove</key>
-		<false/>
 		<key>catalogs</key>
 		<array>
 			<string>production</string>
@@ -12340,6 +11350,204 @@ rm '/Library/PrivilegedHelperTools/Google Drive Icon Helper'
 		<false/>
 		<key>blocking_applications</key>
 		<array>
+			<string>Microsoft Excel</string>
+			<string>Microsoft Error Reporting</string>
+			<string>Microsoft Auto Update</string>
+		</array>
+		<key>catalogs</key>
+		<array>
+			<string>production</string>
+		</array>
+		<key>description</key>
+		<string>&lt;html&gt;&lt;p style="font-family:Helvetica;font-size:12px"&gt;For detailed information about this update, please visit the following Web site: &lt;/p&gt;
+
+&lt;p style="font-family:Helvetica;font-size:12px"&gt;&lt;a href="https://go.microsoft.com/fwlink/?LinkID=831049" target="_blank"&gt;https://go.microsoft.com/fwlink/?LinkID=831049&lt;/a&gt;&lt;/p&gt;&lt;/html&gt;</string>
+		<key>display_name</key>
+		<string>Microsoft Excel for Mac</string>
+		<key>icon_hash</key>
+		<string>71cfb7216f655859dc3bbf4f914d58f91f7fc2012dc8f69b7402dcb5d6a4bb80</string>
+		<key>installed_size</key>
+		<integer>1754206</integer>
+		<key>installer_item_hash</key>
+		<string>9556d1b4a6400fb6b5db4ae83e4040f85b6b7fd6cee39c01154cb4b97e16e880</string>
+		<key>installer_item_location</key>
+		<string>apps/Office2016/MSExcel2016-15.31.17021600.pkg</string>
+		<key>installer_item_size</key>
+		<integer>928431</integer>
+		<key>installs</key>
+		<array>
+			<dict>
+				<key>CFBundleVersion</key>
+				<string>15.31.17021600</string>
+				<key>path</key>
+				<string>/Applications/Microsoft Excel.app</string>
+				<key>type</key>
+				<string>application</string>
+				<key>version_comparison_key</key>
+				<string>CFBundleVersion</string>
+			</dict>
+		</array>
+		<key>minimum_os_version</key>
+		<string>10.10.0</string>
+		<key>name</key>
+		<string>MSExcel2016</string>
+		<key>receipts</key>
+		<array>
+			<dict>
+				<key>installed_size</key>
+				<integer>1754206</integer>
+				<key>packageid</key>
+				<string>com.microsoft.package.Microsoft_Excel.app</string>
+				<key>version</key>
+				<string>15.31.17021600</string>
+			</dict>
+		</array>
+		<key>unattended_install</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>removepackages</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>15.31.17021600</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>blocking_applications</key>
+		<array>
+			<string>Microsoft Excel</string>
+			<string>Microsoft Error Reporting</string>
+			<string>Microsoft Auto Update</string>
+		</array>
+		<key>catalogs</key>
+		<array>
+			<string>production</string>
+		</array>
+		<key>description</key>
+		<string>&lt;html&gt;&lt;p style="font-family:Helvetica;font-size:12px"&gt;For detailed information about this update, please visit the following Web site: &lt;/p&gt;
+
+&lt;p style="font-family:Helvetica;font-size:12px"&gt;&lt;a href="https://go.microsoft.com/fwlink/?LinkID=831049" target="_blank"&gt;https://go.microsoft.com/fwlink/?LinkID=831049&lt;/a&gt;&lt;/p&gt;&lt;/html&gt;</string>
+		<key>display_name</key>
+		<string>Microsoft Excel for Mac</string>
+		<key>icon_hash</key>
+		<string>71cfb7216f655859dc3bbf4f914d58f91f7fc2012dc8f69b7402dcb5d6a4bb80</string>
+		<key>installed_size</key>
+		<integer>1754772</integer>
+		<key>installer_item_hash</key>
+		<string>48bb76c98ca367cf02e696a186c31340a2f000110473a49e8882352fdfdf0557</string>
+		<key>installer_item_location</key>
+		<string>apps/Office2016/MSExcel2016-15.32.17030901.pkg</string>
+		<key>installer_item_size</key>
+		<integer>928527</integer>
+		<key>installs</key>
+		<array>
+			<dict>
+				<key>CFBundleVersion</key>
+				<string>15.32.17030901</string>
+				<key>path</key>
+				<string>/Applications/Microsoft Excel.app</string>
+				<key>type</key>
+				<string>application</string>
+				<key>version_comparison_key</key>
+				<string>CFBundleVersion</string>
+			</dict>
+		</array>
+		<key>minimum_os_version</key>
+		<string>10.10.0</string>
+		<key>name</key>
+		<string>MSExcel2016</string>
+		<key>receipts</key>
+		<array>
+			<dict>
+				<key>installed_size</key>
+				<integer>1754772</integer>
+				<key>packageid</key>
+				<string>com.microsoft.package.Microsoft_Excel.app</string>
+				<key>version</key>
+				<string>15.32.17030901</string>
+			</dict>
+		</array>
+		<key>unattended_install</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>removepackages</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>15.32.17030901</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>blocking_applications</key>
+		<array>
+			<string>Microsoft Excel</string>
+			<string>Microsoft Error Reporting</string>
+			<string>Microsoft Auto Update</string>
+		</array>
+		<key>catalogs</key>
+		<array>
+			<string>production</string>
+		</array>
+		<key>description</key>
+		<string>&lt;html&gt;&lt;p style="font-family:Helvetica;font-size:12px"&gt;For detailed information about this update, please visit the following Web site: &lt;/p&gt;
+
+&lt;p style="font-family:Helvetica;font-size:12px"&gt;&lt;a href="https://go.microsoft.com/fwlink/?LinkID=831049" target="_blank"&gt;https://go.microsoft.com/fwlink/?LinkID=831049&lt;/a&gt;&lt;/p&gt;&lt;/html&gt;</string>
+		<key>display_name</key>
+		<string>Microsoft Excel for Mac</string>
+		<key>icon_hash</key>
+		<string>71cfb7216f655859dc3bbf4f914d58f91f7fc2012dc8f69b7402dcb5d6a4bb80</string>
+		<key>installed_size</key>
+		<integer>1760893</integer>
+		<key>installer_item_hash</key>
+		<string>eb5323d5d54239d316fb84d6061d13182a3201f2477973d70a4b159d8bc8a9eb</string>
+		<key>installer_item_location</key>
+		<string>apps/Office2016/MSExcel2016-15.33.17040900.pkg</string>
+		<key>installer_item_size</key>
+		<integer>931115</integer>
+		<key>installs</key>
+		<array>
+			<dict>
+				<key>CFBundleVersion</key>
+				<string>15.33.17040900</string>
+				<key>path</key>
+				<string>/Applications/Microsoft Excel.app</string>
+				<key>type</key>
+				<string>application</string>
+				<key>version_comparison_key</key>
+				<string>CFBundleVersion</string>
+			</dict>
+		</array>
+		<key>minimum_os_version</key>
+		<string>10.10.0</string>
+		<key>name</key>
+		<string>MSExcel2016</string>
+		<key>receipts</key>
+		<array>
+			<dict>
+				<key>installed_size</key>
+				<integer>1760893</integer>
+				<key>packageid</key>
+				<string>com.microsoft.package.Microsoft_Excel.app</string>
+				<key>version</key>
+				<string>15.33.17040900</string>
+			</dict>
+		</array>
+		<key>unattended_install</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>removepackages</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>15.33.17040900</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>blocking_applications</key>
+		<array>
 			<string>Microsoft OneNote</string>
 			<string>Microsoft Error Reporting</string>
 			<string>Microsoft Auto Update</string>
@@ -12408,6 +11616,204 @@ rm '/Library/PrivilegedHelperTools/Google Drive Icon Helper'
 		<true/>
 		<key>version</key>
 		<string>15.24.16070900</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>blocking_applications</key>
+		<array>
+			<string>Microsoft OneNote</string>
+			<string>Microsoft Error Reporting</string>
+			<string>Microsoft Auto Update</string>
+		</array>
+		<key>catalogs</key>
+		<array>
+			<string>production</string>
+		</array>
+		<key>description</key>
+		<string>&lt;html&gt;&lt;p style="font-family:Helvetica;font-size:12px"&gt;For detailed information about this update, please visit the following Web site: &lt;/p&gt;
+
+&lt;p style="font-family:Helvetica;font-size:12px"&gt;&lt;a href="https://go.microsoft.com/fwlink/?LinkID=831049" target="_blank"&gt;https://go.microsoft.com/fwlink/?LinkID=831049&lt;/a&gt;&lt;/p&gt;&lt;/html&gt;</string>
+		<key>display_name</key>
+		<string>Microsoft OneNote for Mac</string>
+		<key>icon_hash</key>
+		<string>787458d8ab01dd59d61006ed2421bdea661fac7d641bde2819da5fa90a033df7</string>
+		<key>installed_size</key>
+		<integer>852523</integer>
+		<key>installer_item_hash</key>
+		<string>554ac54d99b4f0d4818141b196a0aa8c10a547f1c765640092cfeb3cae55c2c2</string>
+		<key>installer_item_location</key>
+		<string>apps/Office2016/MSOneNote2016-15.31.17021600.pkg</string>
+		<key>installer_item_size</key>
+		<integer>401807</integer>
+		<key>installs</key>
+		<array>
+			<dict>
+				<key>CFBundleVersion</key>
+				<string>15.31.17021600</string>
+				<key>path</key>
+				<string>/Applications/Microsoft OneNote.app</string>
+				<key>type</key>
+				<string>application</string>
+				<key>version_comparison_key</key>
+				<string>CFBundleVersion</string>
+			</dict>
+		</array>
+		<key>minimum_os_version</key>
+		<string>10.10.0</string>
+		<key>name</key>
+		<string>MSOneNote2016</string>
+		<key>receipts</key>
+		<array>
+			<dict>
+				<key>installed_size</key>
+				<integer>852523</integer>
+				<key>packageid</key>
+				<string>com.microsoft.package.Microsoft_OneNote.app</string>
+				<key>version</key>
+				<string>15.31.17021600</string>
+			</dict>
+		</array>
+		<key>unattended_install</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>removepackages</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>15.31.17021600</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>blocking_applications</key>
+		<array>
+			<string>Microsoft OneNote</string>
+			<string>Microsoft Error Reporting</string>
+			<string>Microsoft Auto Update</string>
+		</array>
+		<key>catalogs</key>
+		<array>
+			<string>production</string>
+		</array>
+		<key>description</key>
+		<string>&lt;html&gt;&lt;p style="font-family:Helvetica;font-size:12px"&gt;For detailed information about this update, please visit the following Web site: &lt;/p&gt;
+
+&lt;p style="font-family:Helvetica;font-size:12px"&gt;&lt;a href="https://go.microsoft.com/fwlink/?LinkID=831049" target="_blank"&gt;https://go.microsoft.com/fwlink/?LinkID=831049&lt;/a&gt;&lt;/p&gt;&lt;/html&gt;</string>
+		<key>display_name</key>
+		<string>Microsoft OneNote for Mac</string>
+		<key>icon_hash</key>
+		<string>787458d8ab01dd59d61006ed2421bdea661fac7d641bde2819da5fa90a033df7</string>
+		<key>installed_size</key>
+		<integer>855245</integer>
+		<key>installer_item_hash</key>
+		<string>6e61a384d2ee979ec01797f8ec37f2fdcc1b596be55226841054f0fdd2d2df22</string>
+		<key>installer_item_location</key>
+		<string>apps/Office2016/MSOneNote2016-15.32.17030901.pkg</string>
+		<key>installer_item_size</key>
+		<integer>402915</integer>
+		<key>installs</key>
+		<array>
+			<dict>
+				<key>CFBundleVersion</key>
+				<string>15.32.17030901</string>
+				<key>path</key>
+				<string>/Applications/Microsoft OneNote.app</string>
+				<key>type</key>
+				<string>application</string>
+				<key>version_comparison_key</key>
+				<string>CFBundleVersion</string>
+			</dict>
+		</array>
+		<key>minimum_os_version</key>
+		<string>10.10.0</string>
+		<key>name</key>
+		<string>MSOneNote2016</string>
+		<key>receipts</key>
+		<array>
+			<dict>
+				<key>installed_size</key>
+				<integer>855245</integer>
+				<key>packageid</key>
+				<string>com.microsoft.package.Microsoft_OneNote.app</string>
+				<key>version</key>
+				<string>15.32.17030901</string>
+			</dict>
+		</array>
+		<key>unattended_install</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>removepackages</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>15.32.17030901</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>blocking_applications</key>
+		<array>
+			<string>Microsoft OneNote</string>
+			<string>Microsoft Error Reporting</string>
+			<string>Microsoft Auto Update</string>
+		</array>
+		<key>catalogs</key>
+		<array>
+			<string>production</string>
+		</array>
+		<key>description</key>
+		<string>&lt;html&gt;&lt;p style="font-family:Helvetica;font-size:12px"&gt;For detailed information about this update, please visit the following Web site: &lt;/p&gt;
+
+&lt;p style="font-family:Helvetica;font-size:12px"&gt;&lt;a href="https://go.microsoft.com/fwlink/?LinkID=831049" target="_blank"&gt;https://go.microsoft.com/fwlink/?LinkID=831049&lt;/a&gt;&lt;/p&gt;&lt;/html&gt;</string>
+		<key>display_name</key>
+		<string>Microsoft OneNote for Mac</string>
+		<key>icon_hash</key>
+		<string>787458d8ab01dd59d61006ed2421bdea661fac7d641bde2819da5fa90a033df7</string>
+		<key>installed_size</key>
+		<integer>860369</integer>
+		<key>installer_item_hash</key>
+		<string>bdfca040860a62f2ac6635b46597a4771e00ab575056160a416881f37d7ceaa2</string>
+		<key>installer_item_location</key>
+		<string>apps/Office2016/MSOneNote2016-15.33.17040900.pkg</string>
+		<key>installer_item_size</key>
+		<integer>404763</integer>
+		<key>installs</key>
+		<array>
+			<dict>
+				<key>CFBundleVersion</key>
+				<string>15.33.17040900</string>
+				<key>path</key>
+				<string>/Applications/Microsoft OneNote.app</string>
+				<key>type</key>
+				<string>application</string>
+				<key>version_comparison_key</key>
+				<string>CFBundleVersion</string>
+			</dict>
+		</array>
+		<key>minimum_os_version</key>
+		<string>10.10.0</string>
+		<key>name</key>
+		<string>MSOneNote2016</string>
+		<key>receipts</key>
+		<array>
+			<dict>
+				<key>installed_size</key>
+				<integer>860369</integer>
+				<key>packageid</key>
+				<string>com.microsoft.package.Microsoft_OneNote.app</string>
+				<key>version</key>
+				<string>15.33.17040900</string>
+			</dict>
+		</array>
+		<key>unattended_install</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>removepackages</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>15.33.17040900</string>
 	</dict>
 	<dict>
 		<key>autoremove</key>
@@ -12488,6 +11894,204 @@ rm '/Library/PrivilegedHelperTools/Google Drive Icon Helper'
 		<false/>
 		<key>blocking_applications</key>
 		<array>
+			<string>Microsoft Outlook</string>
+			<string>Microsoft Error Reporting</string>
+			<string>Microsoft Auto Update</string>
+		</array>
+		<key>catalogs</key>
+		<array>
+			<string>production</string>
+		</array>
+		<key>description</key>
+		<string>&lt;html&gt;&lt;p style="font-family:Helvetica;font-size:12px"&gt;For detailed information about this update, please visit the following Web site: &lt;/p&gt;
+
+&lt;p style="font-family:Helvetica;font-size:12px"&gt;&lt;a href="https://go.microsoft.com/fwlink/?LinkID=831049" target="_blank"&gt;https://go.microsoft.com/fwlink/?LinkID=831049&lt;/a&gt;&lt;/p&gt;&lt;/html&gt;</string>
+		<key>display_name</key>
+		<string>Microsoft Outlook for Mac</string>
+		<key>icon_hash</key>
+		<string>7d0893e3783d74c85f8a9ead4cdaed4e1c11645b55bd5513f679e3bdfda84af4</string>
+		<key>installed_size</key>
+		<integer>1598870</integer>
+		<key>installer_item_hash</key>
+		<string>b3e10ee72246d31f54c8ea41fade1e580762b86b595748ea2cf4ea422d6601ce</string>
+		<key>installer_item_location</key>
+		<string>apps/Office2016/MSOutlook2016-15.31.17021600.pkg</string>
+		<key>installer_item_size</key>
+		<integer>773859</integer>
+		<key>installs</key>
+		<array>
+			<dict>
+				<key>CFBundleVersion</key>
+				<string>15.31.17021600</string>
+				<key>path</key>
+				<string>/Applications/Microsoft Outlook.app</string>
+				<key>type</key>
+				<string>application</string>
+				<key>version_comparison_key</key>
+				<string>CFBundleVersion</string>
+			</dict>
+		</array>
+		<key>minimum_os_version</key>
+		<string>10.10.0</string>
+		<key>name</key>
+		<string>MSOutlook2016</string>
+		<key>receipts</key>
+		<array>
+			<dict>
+				<key>installed_size</key>
+				<integer>1598870</integer>
+				<key>packageid</key>
+				<string>com.microsoft.package.Microsoft_Outlook.app</string>
+				<key>version</key>
+				<string>15.31.17021600</string>
+			</dict>
+		</array>
+		<key>unattended_install</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>removepackages</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>15.31.17021600</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>blocking_applications</key>
+		<array>
+			<string>Microsoft Outlook</string>
+			<string>Microsoft Error Reporting</string>
+			<string>Microsoft Auto Update</string>
+		</array>
+		<key>catalogs</key>
+		<array>
+			<string>production</string>
+		</array>
+		<key>description</key>
+		<string>&lt;html&gt;&lt;p style="font-family:Helvetica;font-size:12px"&gt;For detailed information about this update, please visit the following Web site: &lt;/p&gt;
+
+&lt;p style="font-family:Helvetica;font-size:12px"&gt;&lt;a href="https://go.microsoft.com/fwlink/?LinkID=831049" target="_blank"&gt;https://go.microsoft.com/fwlink/?LinkID=831049&lt;/a&gt;&lt;/p&gt;&lt;/html&gt;</string>
+		<key>display_name</key>
+		<string>Microsoft Outlook for Mac</string>
+		<key>icon_hash</key>
+		<string>7d0893e3783d74c85f8a9ead4cdaed4e1c11645b55bd5513f679e3bdfda84af4</string>
+		<key>installed_size</key>
+		<integer>1603025</integer>
+		<key>installer_item_hash</key>
+		<string>11504f0319171bbaf12a346d0cbe785b41977641590d1c8abedbb3e437142d42</string>
+		<key>installer_item_location</key>
+		<string>apps/Office2016/MSOutlook2016-15.32.17030901.pkg</string>
+		<key>installer_item_size</key>
+		<integer>776163</integer>
+		<key>installs</key>
+		<array>
+			<dict>
+				<key>CFBundleVersion</key>
+				<string>15.32.17030901</string>
+				<key>path</key>
+				<string>/Applications/Microsoft Outlook.app</string>
+				<key>type</key>
+				<string>application</string>
+				<key>version_comparison_key</key>
+				<string>CFBundleVersion</string>
+			</dict>
+		</array>
+		<key>minimum_os_version</key>
+		<string>10.10.0</string>
+		<key>name</key>
+		<string>MSOutlook2016</string>
+		<key>receipts</key>
+		<array>
+			<dict>
+				<key>installed_size</key>
+				<integer>1603025</integer>
+				<key>packageid</key>
+				<string>com.microsoft.package.Microsoft_Outlook.app</string>
+				<key>version</key>
+				<string>15.32.17030901</string>
+			</dict>
+		</array>
+		<key>unattended_install</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>removepackages</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>15.32.17030901</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>blocking_applications</key>
+		<array>
+			<string>Microsoft Outlook</string>
+			<string>Microsoft Error Reporting</string>
+			<string>Microsoft Auto Update</string>
+		</array>
+		<key>catalogs</key>
+		<array>
+			<string>production</string>
+		</array>
+		<key>description</key>
+		<string>&lt;html&gt;&lt;p style="font-family:Helvetica;font-size:12px"&gt;For detailed information about this update, please visit the following Web site: &lt;/p&gt;
+
+&lt;p style="font-family:Helvetica;font-size:12px"&gt;&lt;a href="https://go.microsoft.com/fwlink/?LinkID=831049" target="_blank"&gt;https://go.microsoft.com/fwlink/?LinkID=831049&lt;/a&gt;&lt;/p&gt;&lt;/html&gt;</string>
+		<key>display_name</key>
+		<string>Microsoft Outlook for Mac</string>
+		<key>icon_hash</key>
+		<string>7d0893e3783d74c85f8a9ead4cdaed4e1c11645b55bd5513f679e3bdfda84af4</string>
+		<key>installed_size</key>
+		<integer>1612239</integer>
+		<key>installer_item_hash</key>
+		<string>44103c9c47efddb378b8da97d038bde827a84681cbb7f9a6482a78d9f31aa8b8</string>
+		<key>installer_item_location</key>
+		<string>apps/Office2016/MSOutlook2016-15.33.17040900.pkg</string>
+		<key>installer_item_size</key>
+		<integer>780163</integer>
+		<key>installs</key>
+		<array>
+			<dict>
+				<key>CFBundleVersion</key>
+				<string>15.33.17040900</string>
+				<key>path</key>
+				<string>/Applications/Microsoft Outlook.app</string>
+				<key>type</key>
+				<string>application</string>
+				<key>version_comparison_key</key>
+				<string>CFBundleVersion</string>
+			</dict>
+		</array>
+		<key>minimum_os_version</key>
+		<string>10.10.0</string>
+		<key>name</key>
+		<string>MSOutlook2016</string>
+		<key>receipts</key>
+		<array>
+			<dict>
+				<key>installed_size</key>
+				<integer>1612239</integer>
+				<key>packageid</key>
+				<string>com.microsoft.package.Microsoft_Outlook.app</string>
+				<key>version</key>
+				<string>15.33.17040900</string>
+			</dict>
+		</array>
+		<key>unattended_install</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>removepackages</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>15.33.17040900</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>blocking_applications</key>
+		<array>
 			<string>Microsoft PowerPoint</string>
 			<string>Microsoft Error Reporting</string>
 			<string>Microsoft Auto Update</string>
@@ -12556,6 +12160,204 @@ rm '/Library/PrivilegedHelperTools/Google Drive Icon Helper'
 		<true/>
 		<key>version</key>
 		<string>15.24.16070900</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>blocking_applications</key>
+		<array>
+			<string>Microsoft PowerPoint</string>
+			<string>Microsoft Error Reporting</string>
+			<string>Microsoft Auto Update</string>
+		</array>
+		<key>catalogs</key>
+		<array>
+			<string>production</string>
+		</array>
+		<key>description</key>
+		<string>&lt;html&gt;&lt;p style="font-family:Helvetica;font-size:12px"&gt;For detailed information about this update, please visit the following Web site: &lt;/p&gt;
+
+&lt;p style="font-family:Helvetica;font-size:12px"&gt;&lt;a href="https://go.microsoft.com/fwlink/?LinkID=831049" target="_blank"&gt;https://go.microsoft.com/fwlink/?LinkID=831049&lt;/a&gt;&lt;/p&gt;&lt;/html&gt;</string>
+		<key>display_name</key>
+		<string>Microsoft PowerPoint for Mac</string>
+		<key>icon_hash</key>
+		<string>53ef3dab9ad735884c885ff9593e564cbeedb9e5f0aaf61b814feff053e05a98</string>
+		<key>installed_size</key>
+		<integer>1630557</integer>
+		<key>installer_item_hash</key>
+		<string>899d392f8854eb335fc131fbeb0c98493660f8e23110ad336f255e5ce8308b72</string>
+		<key>installer_item_location</key>
+		<string>apps/Office2016/MSPowerPoint2016-15.31.17021600.pkg</string>
+		<key>installer_item_size</key>
+		<integer>863083</integer>
+		<key>installs</key>
+		<array>
+			<dict>
+				<key>CFBundleVersion</key>
+				<string>15.31.17021600</string>
+				<key>path</key>
+				<string>/Applications/Microsoft PowerPoint.app</string>
+				<key>type</key>
+				<string>application</string>
+				<key>version_comparison_key</key>
+				<string>CFBundleVersion</string>
+			</dict>
+		</array>
+		<key>minimum_os_version</key>
+		<string>10.10.0</string>
+		<key>name</key>
+		<string>MSPowerPoint2016</string>
+		<key>receipts</key>
+		<array>
+			<dict>
+				<key>installed_size</key>
+				<integer>1630557</integer>
+				<key>packageid</key>
+				<string>com.microsoft.package.Microsoft_PowerPoint.app</string>
+				<key>version</key>
+				<string>15.31.17021600</string>
+			</dict>
+		</array>
+		<key>unattended_install</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>removepackages</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>15.31.17021600</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>blocking_applications</key>
+		<array>
+			<string>Microsoft PowerPoint</string>
+			<string>Microsoft Error Reporting</string>
+			<string>Microsoft Auto Update</string>
+		</array>
+		<key>catalogs</key>
+		<array>
+			<string>production</string>
+		</array>
+		<key>description</key>
+		<string>&lt;html&gt;&lt;p style="font-family:Helvetica;font-size:12px"&gt;For detailed information about this update, please visit the following Web site: &lt;/p&gt;
+
+&lt;p style="font-family:Helvetica;font-size:12px"&gt;&lt;a href="https://go.microsoft.com/fwlink/?LinkID=831049" target="_blank"&gt;https://go.microsoft.com/fwlink/?LinkID=831049&lt;/a&gt;&lt;/p&gt;&lt;/html&gt;</string>
+		<key>display_name</key>
+		<string>Microsoft PowerPoint for Mac</string>
+		<key>icon_hash</key>
+		<string>53ef3dab9ad735884c885ff9593e564cbeedb9e5f0aaf61b814feff053e05a98</string>
+		<key>installed_size</key>
+		<integer>1631557</integer>
+		<key>installer_item_hash</key>
+		<string>1719699f22a809db5570d3d94d7c09b1e8058fc369c065ea5929e9115a5c4a6a</string>
+		<key>installer_item_location</key>
+		<string>apps/Office2016/MSPowerPoint2016-15.32.17030901.pkg</string>
+		<key>installer_item_size</key>
+		<integer>863451</integer>
+		<key>installs</key>
+		<array>
+			<dict>
+				<key>CFBundleVersion</key>
+				<string>15.32.17030901</string>
+				<key>path</key>
+				<string>/Applications/Microsoft PowerPoint.app</string>
+				<key>type</key>
+				<string>application</string>
+				<key>version_comparison_key</key>
+				<string>CFBundleVersion</string>
+			</dict>
+		</array>
+		<key>minimum_os_version</key>
+		<string>10.10.0</string>
+		<key>name</key>
+		<string>MSPowerPoint2016</string>
+		<key>receipts</key>
+		<array>
+			<dict>
+				<key>installed_size</key>
+				<integer>1631557</integer>
+				<key>packageid</key>
+				<string>com.microsoft.package.Microsoft_PowerPoint.app</string>
+				<key>version</key>
+				<string>15.32.17030901</string>
+			</dict>
+		</array>
+		<key>unattended_install</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>removepackages</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>15.32.17030901</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>blocking_applications</key>
+		<array>
+			<string>Microsoft PowerPoint</string>
+			<string>Microsoft Error Reporting</string>
+			<string>Microsoft Auto Update</string>
+		</array>
+		<key>catalogs</key>
+		<array>
+			<string>production</string>
+		</array>
+		<key>description</key>
+		<string>&lt;html&gt;&lt;p style="font-family:Helvetica;font-size:12px"&gt;For detailed information about this update, please visit the following Web site: &lt;/p&gt;
+
+&lt;p style="font-family:Helvetica;font-size:12px"&gt;&lt;a href="https://go.microsoft.com/fwlink/?LinkID=831049" target="_blank"&gt;https://go.microsoft.com/fwlink/?LinkID=831049&lt;/a&gt;&lt;/p&gt;&lt;/html&gt;</string>
+		<key>display_name</key>
+		<string>Microsoft PowerPoint for Mac</string>
+		<key>icon_hash</key>
+		<string>53ef3dab9ad735884c885ff9593e564cbeedb9e5f0aaf61b814feff053e05a98</string>
+		<key>installed_size</key>
+		<integer>1636985</integer>
+		<key>installer_item_hash</key>
+		<string>7d80f4d2b085fa7d0ce4ce70ec489d11602b6e89b47c106e8eaab6e0494323a5</string>
+		<key>installer_item_location</key>
+		<string>apps/Office2016/MSPowerPoint2016-15.33.17040900.pkg</string>
+		<key>installer_item_size</key>
+		<integer>865691</integer>
+		<key>installs</key>
+		<array>
+			<dict>
+				<key>CFBundleVersion</key>
+				<string>15.33.17040900</string>
+				<key>path</key>
+				<string>/Applications/Microsoft PowerPoint.app</string>
+				<key>type</key>
+				<string>application</string>
+				<key>version_comparison_key</key>
+				<string>CFBundleVersion</string>
+			</dict>
+		</array>
+		<key>minimum_os_version</key>
+		<string>10.10.0</string>
+		<key>name</key>
+		<string>MSPowerPoint2016</string>
+		<key>receipts</key>
+		<array>
+			<dict>
+				<key>installed_size</key>
+				<integer>1636985</integer>
+				<key>packageid</key>
+				<string>com.microsoft.package.Microsoft_PowerPoint.app</string>
+				<key>version</key>
+				<string>15.33.17040900</string>
+			</dict>
+		</array>
+		<key>unattended_install</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>removepackages</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>15.33.17040900</string>
 	</dict>
 	<dict>
 		<key>autoremove</key>
@@ -12689,6 +12491,204 @@ exit 0
 		<true/>
 		<key>version</key>
 		<string>15.24.16070900</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>blocking_applications</key>
+		<array>
+			<string>Microsoft Word</string>
+			<string>Microsoft Error Reporting</string>
+			<string>Microsoft Auto Update</string>
+		</array>
+		<key>catalogs</key>
+		<array>
+			<string>production</string>
+		</array>
+		<key>description</key>
+		<string>&lt;html&gt;&lt;p style="font-family:Helvetica;font-size:12px"&gt;For detailed information about this update, please visit the following Web site: &lt;/p&gt;
+
+&lt;p style="font-family:Helvetica;font-size:12px"&gt;&lt;a href="https://go.microsoft.com/fwlink/?LinkID=831049" target="_blank"&gt;https://go.microsoft.com/fwlink/?LinkID=831049&lt;/a&gt;&lt;/p&gt;&lt;/html&gt;</string>
+		<key>display_name</key>
+		<string>Microsoft Word for Mac</string>
+		<key>icon_hash</key>
+		<string>f40affe61cb501db81248085e4316211481bf0b0b90b81a59ff6d794198fbb7a</string>
+		<key>installed_size</key>
+		<integer>1925790</integer>
+		<key>installer_item_hash</key>
+		<string>bd4079678633cc9f53056239bb99acbda42d932818eea9f0a5e6158f910f87c4</string>
+		<key>installer_item_location</key>
+		<string>apps/Office2016/MSWord2016-15.31.17021600.pkg</string>
+		<key>installer_item_size</key>
+		<integer>1063591</integer>
+		<key>installs</key>
+		<array>
+			<dict>
+				<key>CFBundleVersion</key>
+				<string>15.31.17021600</string>
+				<key>path</key>
+				<string>/Applications/Microsoft Word.app</string>
+				<key>type</key>
+				<string>application</string>
+				<key>version_comparison_key</key>
+				<string>CFBundleVersion</string>
+			</dict>
+		</array>
+		<key>minimum_os_version</key>
+		<string>10.10.0</string>
+		<key>name</key>
+		<string>MSWord2016</string>
+		<key>receipts</key>
+		<array>
+			<dict>
+				<key>installed_size</key>
+				<integer>1925790</integer>
+				<key>packageid</key>
+				<string>com.microsoft.package.Microsoft_Word.app</string>
+				<key>version</key>
+				<string>15.31.17021600</string>
+			</dict>
+		</array>
+		<key>unattended_install</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>removepackages</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>15.31.17021600</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>blocking_applications</key>
+		<array>
+			<string>Microsoft Word</string>
+			<string>Microsoft Error Reporting</string>
+			<string>Microsoft Auto Update</string>
+		</array>
+		<key>catalogs</key>
+		<array>
+			<string>production</string>
+		</array>
+		<key>description</key>
+		<string>&lt;html&gt;&lt;p style="font-family:Helvetica;font-size:12px"&gt;For detailed information about this update, please visit the following Web site: &lt;/p&gt;
+
+&lt;p style="font-family:Helvetica;font-size:12px"&gt;&lt;a href="https://go.microsoft.com/fwlink/?LinkID=831049" target="_blank"&gt;https://go.microsoft.com/fwlink/?LinkID=831049&lt;/a&gt;&lt;/p&gt;&lt;/html&gt;</string>
+		<key>display_name</key>
+		<string>Microsoft Word for Mac</string>
+		<key>icon_hash</key>
+		<string>f40affe61cb501db81248085e4316211481bf0b0b90b81a59ff6d794198fbb7a</string>
+		<key>installed_size</key>
+		<integer>1926779</integer>
+		<key>installer_item_hash</key>
+		<string>9eb8f0b0bf10c530017d262a4e9f4a07fbfbeab589fefdebffc1be89a037c360</string>
+		<key>installer_item_location</key>
+		<string>apps/Office2016/MSWord2016-15.32.17030901.pkg</string>
+		<key>installer_item_size</key>
+		<integer>1063995</integer>
+		<key>installs</key>
+		<array>
+			<dict>
+				<key>CFBundleVersion</key>
+				<string>15.32.17030901</string>
+				<key>path</key>
+				<string>/Applications/Microsoft Word.app</string>
+				<key>type</key>
+				<string>application</string>
+				<key>version_comparison_key</key>
+				<string>CFBundleVersion</string>
+			</dict>
+		</array>
+		<key>minimum_os_version</key>
+		<string>10.10.0</string>
+		<key>name</key>
+		<string>MSWord2016</string>
+		<key>receipts</key>
+		<array>
+			<dict>
+				<key>installed_size</key>
+				<integer>1926779</integer>
+				<key>packageid</key>
+				<string>com.microsoft.package.Microsoft_Word.app</string>
+				<key>version</key>
+				<string>15.32.17030901</string>
+			</dict>
+		</array>
+		<key>unattended_install</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>removepackages</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>15.32.17030901</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>blocking_applications</key>
+		<array>
+			<string>Microsoft Word</string>
+			<string>Microsoft Error Reporting</string>
+			<string>Microsoft Auto Update</string>
+		</array>
+		<key>catalogs</key>
+		<array>
+			<string>production</string>
+		</array>
+		<key>description</key>
+		<string>&lt;html&gt;&lt;p style="font-family:Helvetica;font-size:12px"&gt;For detailed information about this update, please visit the following Web site: &lt;/p&gt;
+
+&lt;p style="font-family:Helvetica;font-size:12px"&gt;&lt;a href="https://go.microsoft.com/fwlink/?LinkID=831049" target="_blank"&gt;https://go.microsoft.com/fwlink/?LinkID=831049&lt;/a&gt;&lt;/p&gt;&lt;/html&gt;</string>
+		<key>display_name</key>
+		<string>Microsoft Word for Mac</string>
+		<key>icon_hash</key>
+		<string>f40affe61cb501db81248085e4316211481bf0b0b90b81a59ff6d794198fbb7a</string>
+		<key>installed_size</key>
+		<integer>1933758</integer>
+		<key>installer_item_hash</key>
+		<string>c7edcc559dacccde28f440360f78df9980ad4f36fec7210faaa923b1a7ae2561</string>
+		<key>installer_item_location</key>
+		<string>apps/Office2016/MSWord2016-15.33.17040900.pkg</string>
+		<key>installer_item_size</key>
+		<integer>1066815</integer>
+		<key>installs</key>
+		<array>
+			<dict>
+				<key>CFBundleVersion</key>
+				<string>15.33.17040900</string>
+				<key>path</key>
+				<string>/Applications/Microsoft Word.app</string>
+				<key>type</key>
+				<string>application</string>
+				<key>version_comparison_key</key>
+				<string>CFBundleVersion</string>
+			</dict>
+		</array>
+		<key>minimum_os_version</key>
+		<string>10.10.0</string>
+		<key>name</key>
+		<string>MSWord2016</string>
+		<key>receipts</key>
+		<array>
+			<dict>
+				<key>installed_size</key>
+				<integer>1933758</integer>
+				<key>packageid</key>
+				<string>com.microsoft.package.Microsoft_Word.app</string>
+				<key>version</key>
+				<string>15.33.17040900</string>
+			</dict>
+		</array>
+		<key>unattended_install</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>removepackages</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>15.33.17040900</string>
 	</dict>
 	<dict>
 		<key>autoremove</key>

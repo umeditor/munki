@@ -7,7 +7,7 @@
 		<key>created_by</key>
 		<string>mcneal</string>
 		<key>creation_date</key>
-		<date>2017-03-16T11:04:49Z</date>
+		<date>2017-03-16T11:03:53Z</date>
 		<key>munki_version</key>
 		<string>2.8.2.2855</string>
 		<key>os_version</key>
@@ -17,7 +17,7 @@
 	<false/>
 	<key>blocking_applications</key>
 	<array>
-		<string>Microsoft Excel</string>
+		<string>Microsoft Outlook</string>
 		<string>Microsoft Error Reporting</string>
 		<string>Microsoft Auto Update</string>
 	</array>
@@ -30,22 +30,22 @@
 
 &lt;p style="font-family:Helvetica;font-size:12px"&gt;&lt;a href="https://go.microsoft.com/fwlink/?LinkID=831049" target="_blank"&gt;https://go.microsoft.com/fwlink/?LinkID=831049&lt;/a&gt;&lt;/p&gt;&lt;/html&gt;</string>
 	<key>display_name</key>
-	<string>Microsoft Excel for Mac</string>
+	<string>Microsoft Outlook for Mac</string>
 	<key>installed_size</key>
-	<integer>1754772</integer>
+	<integer>1603025</integer>
 	<key>installer_item_hash</key>
-	<string>48bb76c98ca367cf02e696a186c31340a2f000110473a49e8882352fdfdf0557</string>
+	<string>11504f0319171bbaf12a346d0cbe785b41977641590d1c8abedbb3e437142d42</string>
 	<key>installer_item_location</key>
-	<string>apps/MSExcel2016-15.32.17030901.pkg</string>
+	<string>apps/Office2016/MSOutlook2016-15.32.17030901.pkg</string>
 	<key>installer_item_size</key>
-	<integer>928527</integer>
+	<integer>776163</integer>
 	<key>installs</key>
 	<array>
 		<dict>
 			<key>CFBundleVersion</key>
 			<string>15.32.17030901</string>
 			<key>path</key>
-			<string>/Applications/Microsoft Excel.app</string>
+			<string>/Applications/Microsoft Outlook.app</string>
 			<key>type</key>
 			<string>application</string>
 			<key>version_comparison_key</key>
@@ -55,14 +55,14 @@
 	<key>minimum_os_version</key>
 	<string>10.10.0</string>
 	<key>name</key>
-	<string>MSExcel2016</string>
+	<string>MSOutlook2016</string>
 	<key>receipts</key>
 	<array>
 		<dict>
 			<key>installed_size</key>
-			<integer>1754772</integer>
+			<integer>1603025</integer>
 			<key>packageid</key>
-			<string>com.microsoft.package.Microsoft_Excel.app</string>
+			<string>com.microsoft.package.Microsoft_Outlook.app</string>
 			<key>version</key>
 			<string>15.32.17030901</string>
 		</dict>

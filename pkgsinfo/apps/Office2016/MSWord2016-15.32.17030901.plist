@@ -7,7 +7,7 @@
 		<key>created_by</key>
 		<string>mcneal</string>
 		<key>creation_date</key>
-		<date>2017-02-17T12:02:31Z</date>
+		<date>2017-03-16T11:02:44Z</date>
 		<key>munki_version</key>
 		<string>2.8.2.2855</string>
 		<key>os_version</key>
@@ -32,18 +32,18 @@
 	<key>display_name</key>
 	<string>Microsoft Word for Mac</string>
 	<key>installed_size</key>
-	<integer>1925790</integer>
+	<integer>1926779</integer>
 	<key>installer_item_hash</key>
-	<string>bd4079678633cc9f53056239bb99acbda42d932818eea9f0a5e6158f910f87c4</string>
+	<string>9eb8f0b0bf10c530017d262a4e9f4a07fbfbeab589fefdebffc1be89a037c360</string>
 	<key>installer_item_location</key>
-	<string>apps/MSWord2016-15.31.17021600.pkg</string>
+	<string>apps/Office2016/MSWord2016-15.32.17030901.pkg</string>
 	<key>installer_item_size</key>
-	<integer>1063591</integer>
+	<integer>1063995</integer>
 	<key>installs</key>
 	<array>
 		<dict>
 			<key>CFBundleVersion</key>
-			<string>15.31.17021600</string>
+			<string>15.32.17030901</string>
 			<key>path</key>
 			<string>/Applications/Microsoft Word.app</string>
 			<key>type</key>
@@ -60,11 +60,11 @@
 	<array>
 		<dict>
 			<key>installed_size</key>
-			<integer>1925790</integer>
+			<integer>1926779</integer>
 			<key>packageid</key>
 			<string>com.microsoft.package.Microsoft_Word.app</string>
 			<key>version</key>
-			<string>15.31.17021600</string>
+			<string>15.32.17030901</string>
 		</dict>
 	</array>
 	<key>unattended_install</key>
@@ -74,6 +74,6 @@
 	<key>uninstallable</key>
 	<true/>
 	<key>version</key>
-	<string>15.31.17021600</string>
+	<string>15.32.17030901</string>
 </dict>
 </plist>

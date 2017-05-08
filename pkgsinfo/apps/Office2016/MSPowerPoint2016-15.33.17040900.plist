@@ -7,7 +7,7 @@
 		<key>created_by</key>
 		<string>mcneal</string>
 		<key>creation_date</key>
-		<date>2017-04-12T11:02:42Z</date>
+		<date>2017-04-12T11:03:21Z</date>
 		<key>munki_version</key>
 		<string>2.8.2.2855</string>
 		<key>os_version</key>
@@ -17,7 +17,7 @@
 	<false/>
 	<key>blocking_applications</key>
 	<array>
-		<string>Microsoft Word</string>
+		<string>Microsoft PowerPoint</string>
 		<string>Microsoft Error Reporting</string>
 		<string>Microsoft Auto Update</string>
 	</array>
@@ -30,22 +30,22 @@
 
 &lt;p style="font-family:Helvetica;font-size:12px"&gt;&lt;a href="https://go.microsoft.com/fwlink/?LinkID=831049" target="_blank"&gt;https://go.microsoft.com/fwlink/?LinkID=831049&lt;/a&gt;&lt;/p&gt;&lt;/html&gt;</string>
 	<key>display_name</key>
-	<string>Microsoft Word for Mac</string>
+	<string>Microsoft PowerPoint for Mac</string>
 	<key>installed_size</key>
-	<integer>1933758</integer>
+	<integer>1636985</integer>
 	<key>installer_item_hash</key>
-	<string>c7edcc559dacccde28f440360f78df9980ad4f36fec7210faaa923b1a7ae2561</string>
+	<string>7d80f4d2b085fa7d0ce4ce70ec489d11602b6e89b47c106e8eaab6e0494323a5</string>
 	<key>installer_item_location</key>
-	<string>apps/MSWord2016-15.33.17040900.pkg</string>
+	<string>apps/Office2016/MSPowerPoint2016-15.33.17040900.pkg</string>
 	<key>installer_item_size</key>
-	<integer>1066815</integer>
+	<integer>865691</integer>
 	<key>installs</key>
 	<array>
 		<dict>
 			<key>CFBundleVersion</key>
 			<string>15.33.17040900</string>
 			<key>path</key>
-			<string>/Applications/Microsoft Word.app</string>
+			<string>/Applications/Microsoft PowerPoint.app</string>
 			<key>type</key>
 			<string>application</string>
 			<key>version_comparison_key</key>
@@ -55,14 +55,14 @@
 	<key>minimum_os_version</key>
 	<string>10.10.0</string>
 	<key>name</key>
-	<string>MSWord2016</string>
+	<string>MSPowerPoint2016</string>
 	<key>receipts</key>
 	<array>
 		<dict>
 			<key>installed_size</key>
-			<integer>1933758</integer>
+			<integer>1636985</integer>
 			<key>packageid</key>
-			<string>com.microsoft.package.Microsoft_Word.app</string>
+			<string>com.microsoft.package.Microsoft_PowerPoint.app</string>
 			<key>version</key>
 			<string>15.33.17040900</string>
 		</dict>

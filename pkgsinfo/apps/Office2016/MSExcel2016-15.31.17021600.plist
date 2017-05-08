@@ -7,7 +7,7 @@
 		<key>created_by</key>
 		<string>mcneal</string>
 		<key>creation_date</key>
-		<date>2017-02-17T12:04:39Z</date>
+		<date>2017-02-17T12:05:41Z</date>
 		<key>munki_version</key>
 		<string>2.8.2.2855</string>
 		<key>os_version</key>
@@ -17,7 +17,7 @@
 	<false/>
 	<key>blocking_applications</key>
 	<array>
-		<string>Microsoft OneNote</string>
+		<string>Microsoft Excel</string>
 		<string>Microsoft Error Reporting</string>
 		<string>Microsoft Auto Update</string>
 	</array>
@@ -30,22 +30,22 @@
 
 &lt;p style="font-family:Helvetica;font-size:12px"&gt;&lt;a href="https://go.microsoft.com/fwlink/?LinkID=831049" target="_blank"&gt;https://go.microsoft.com/fwlink/?LinkID=831049&lt;/a&gt;&lt;/p&gt;&lt;/html&gt;</string>
 	<key>display_name</key>
-	<string>Microsoft OneNote for Mac</string>
+	<string>Microsoft Excel for Mac</string>
 	<key>installed_size</key>
-	<integer>852523</integer>
+	<integer>1754206</integer>
 	<key>installer_item_hash</key>
-	<string>554ac54d99b4f0d4818141b196a0aa8c10a547f1c765640092cfeb3cae55c2c2</string>
+	<string>9556d1b4a6400fb6b5db4ae83e4040f85b6b7fd6cee39c01154cb4b97e16e880</string>
 	<key>installer_item_location</key>
-	<string>apps/MSOneNote2016-15.31.17021600.pkg</string>
+	<string>apps/Office2016/MSExcel2016-15.31.17021600.pkg</string>
 	<key>installer_item_size</key>
-	<integer>401807</integer>
+	<integer>928431</integer>
 	<key>installs</key>
 	<array>
 		<dict>
 			<key>CFBundleVersion</key>
 			<string>15.31.17021600</string>
 			<key>path</key>
-			<string>/Applications/Microsoft OneNote.app</string>
+			<string>/Applications/Microsoft Excel.app</string>
 			<key>type</key>
 			<string>application</string>
 			<key>version_comparison_key</key>
@@ -55,14 +55,14 @@
 	<key>minimum_os_version</key>
 	<string>10.10.0</string>
 	<key>name</key>
-	<string>MSOneNote2016</string>
+	<string>MSExcel2016</string>
 	<key>receipts</key>
 	<array>
 		<dict>
 			<key>installed_size</key>
-			<integer>852523</integer>
+			<integer>1754206</integer>
 			<key>packageid</key>
-			<string>com.microsoft.package.Microsoft_OneNote.app</string>
+			<string>com.microsoft.package.Microsoft_Excel.app</string>
 			<key>version</key>
 			<string>15.31.17021600</string>
 		</dict>
