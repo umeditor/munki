@@ -60,5 +60,15 @@
 	<true/>
 	<key>version</key>
 	<string>15.17</string>
+	<key>preinstall_script</key>
+<string>#!/bin/bash
+#
+# Check for the existance of Microsoft's licensing file. If it exsits remove
+# it prior to running Microsoft_Office_2016_VL_Serializer.pkg.
+if [ -f '/Library/Preferences/com.microsoft.office.licensingV2.plist' ]; then
+	/bin/rm -f '/Library/Preferences/com.microsoft.office.licensingV2.plist'
+fi
+exit 0
+</string>
 </dict>
 </plist>
