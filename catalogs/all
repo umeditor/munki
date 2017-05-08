@@ -12374,7 +12374,7 @@ rm '/Library/PrivilegedHelperTools/Google Drive Icon Helper'
 		</array>
 		<key>catalogs</key>
 		<array>
-			<string>production</string>
+			<string>testing</string>
 		</array>
 		<key>category</key>
 		<string>Utility</string>
