@@ -34,6 +34,11 @@
       <string>MacTeX</string>
       <string>MendeleyDesktop</string>
       <string>MicrosoftRemoteDesktop</string>
+      <string>MSExcel2016</string>
+      <string>MSOneNote2016</string>
+      <string>MSOutlook2016</string>
+      <string>MSPowerPoint2016</string>
+      <string>MSWord2016</string>
       <string>OracleJava8JDK</string>
       <string>R</string>
       <string>RStudio</string>
