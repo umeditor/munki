@@ -7,7 +7,7 @@
 		<key>created_by</key>
 		<string>mcneal</string>
 		<key>creation_date</key>
-		<date>2017-05-08T19:22:04Z</date>
+		<date>2017-05-10T18:00:59Z</date>
 		<key>munki_version</key>
 		<string>2.8.2.2855</string>
 		<key>os_version</key>
@@ -28,13 +28,13 @@
 	<key>display_name</key>
 	<string>Microsoft Office 2016 Serializer</string>
 	<key>installed_size</key>
-	<integer>12238</integer>
+	<integer>10284</integer>
 	<key>installer_item_hash</key>
-	<string>d0b6dbae6f751264fcfa550223bd6359fc2e25626eee84d37f7e9380a101e256</string>
+	<string>79e3eee91055cf00ff12b0eb740151da0f4cd36cc6cb41e580527b898e179cb5</string>
 	<key>installer_item_location</key>
-	<string>apps/Office2016/Microsoft_Office_2016_VL_Serializer-15.17.pkg</string>
+	<string>apps/Office2016/Microsoft_Office_2016_VL_Serializer-15.29.16120900.pkg</string>
 	<key>installer_item_size</key>
-	<integer>4776</integer>
+	<integer>3953</integer>
 	<key>minimum_os_version</key>
 	<string>10.5.0</string>
 	<key>name</key>
@@ -43,23 +43,31 @@
 	<array>
 		<dict>
 			<key>installed_size</key>
-			<integer>12238</integer>
+			<integer>412</integer>
+			<key>packageid</key>
+			<string>com.microsoft.pkg.licensing</string>
+			<key>version</key>
+			<string>15.29.16120900</string>
+		</dict>
+		<dict>
+			<key>installed_size</key>
+			<integer>9872</integer>
 			<key>packageid</key>
 			<string>com.microsoft.pkg.licensing.volume</string>
 			<key>version</key>
-			<string>15.17</string>
+			<string>15.29.16120900</string>
 		</dict>
 	</array>
 	<key>unattended_install</key>
 	<true/>
 	<key>unattended_uninstall</key>
-	<false/>
+	<true/>
 	<key>uninstall_method</key>
 	<string>removepackages</string>
 	<key>uninstallable</key>
 	<true/>
 	<key>version</key>
-	<string>15.17</string>
+	<string>15.29.16120900</string>
 	<key>preinstall_script</key>
 	<string>#!/bin/bash
 #
