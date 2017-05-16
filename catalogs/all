@@ -4086,6 +4086,74 @@ exit 0
 		<array>
 			<string>production</string>
 		</array>
+		<key>category</key>
+		<string>Music</string>
+		<key>description</key>
+		<string>Spotify is a music streaming service offering unlimited streaming of selected music from a range of major and independent record labels.</string>
+		<key>developer</key>
+		<string>Spotify</string>
+		<key>display_name</key>
+		<string>Spotify</string>
+		<key>icon_hash</key>
+		<string>296a19e886926a9f063abe4f853f97e9d0fe721259975dfd308317d83ab06b72</string>
+		<key>installer_item_hash</key>
+		<string>056e772b67eae16b8867688a61b9bf039a5fcdc55a4b936b6356cdc82794eb0c</string>
+		<key>installer_item_location</key>
+		<string>apps/Spotify-1.0.54.1079.g3809528e.dmg</string>
+		<key>installer_item_size</key>
+		<integer>96960</integer>
+		<key>installer_type</key>
+		<string>copy_from_dmg</string>
+		<key>installs</key>
+		<array>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>com.spotify.client</string>
+				<key>CFBundleName</key>
+				<string>Spotify</string>
+				<key>CFBundleShortVersionString</key>
+				<string>1.0.54.1079.g3809528e</string>
+				<key>CFBundleVersion</key>
+				<string>1.0.54.1079.g3809528e-28</string>
+				<key>minosversion</key>
+				<string>10.7.0</string>
+				<key>path</key>
+				<string>/Applications/Spotify.app</string>
+				<key>type</key>
+				<string>application</string>
+				<key>version_comparison_key</key>
+				<string>CFBundleShortVersionString</string>
+			</dict>
+		</array>
+		<key>items_to_copy</key>
+		<array>
+			<dict>
+				<key>destination_path</key>
+				<string>/Applications</string>
+				<key>source_item</key>
+				<string>Spotify.app</string>
+			</dict>
+		</array>
+		<key>minimum_os_version</key>
+		<string>10.7.0</string>
+		<key>name</key>
+		<string>Spotify</string>
+		<key>unattended_install</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>remove_copied_items</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>1.0.54.1079.g3809528e</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>production</string>
+		</array>
 		<key>description</key>
 		<string>The Unarchiver is a much more capable replacement for "Archive Utility.app", the built-in archive unpacker program on Mac OS X. The Unarchiver is designed to handle many more formats than Archive Utility, and to better fit in with the design of the Finder.</string>
 		<key>display_name</key>
@@ -14023,6 +14091,107 @@ exit 0
 		<array>
 			<string>production</string>
 		</array>
+		<key>description</key>
+		<string>Tableau Desktop is data visualization software that lets you see and understand data in minutes.</string>
+		<key>display_name</key>
+		<string>Tableau Desktop</string>
+		<key>icon_hash</key>
+		<string>f406d61d64b0c05b9dd2e90e2a3fa962f4c0a83756b500cd231b84759a081606</string>
+		<key>installed_size</key>
+		<integer>1545063</integer>
+		<key>installer_item_hash</key>
+		<string>a6cd6450a03d3227c6e1ca89a5c45ef7aa02d11b0aa5dff27fd013aa521ba58d</string>
+		<key>installer_item_location</key>
+		<string>apps/Tableau/TableauDesktop-10.2.2.dmg</string>
+		<key>installer_item_size</key>
+		<integer>452947</integer>
+		<key>minimum_os_version</key>
+		<string>10.5.0</string>
+		<key>name</key>
+		<string>TableauDesktop</string>
+		<key>receipts</key>
+		<array>
+			<dict>
+				<key>installed_size</key>
+				<integer>332</integer>
+				<key>packageid</key>
+				<string>com.tableausoftware.FLEXNet.11.14.0</string>
+				<key>version</key>
+				<string>11.14.0</string>
+			</dict>
+			<dict>
+				<key>installed_size</key>
+				<integer>1049814</integer>
+				<key>packageid</key>
+				<string>com.tableausoftware.Desktop.app</string>
+				<key>version</key>
+				<string>"10200.17.0505.1445" </string>
+			</dict>
+			<dict>
+				<key>installed_size</key>
+				<integer>67839</integer>
+				<key>packageid</key>
+				<string>com.amazon.redshiftodbc</string>
+				<key>version</key>
+				<string>1.2.6</string>
+			</dict>
+			<dict>
+				<key>installed_size</key>
+				<integer>11103</integer>
+				<key>packageid</key>
+				<string>com.tableausoftware.mysql</string>
+				<key>version</key>
+				<string>5.3.4</string>
+			</dict>
+			<dict>
+				<key>installed_size</key>
+				<integer>185370</integer>
+				<key>packageid</key>
+				<string>com.tableausoftware.oracle</string>
+				<key>version</key>
+				<string>11.2.0.5</string>
+			</dict>
+			<dict>
+				<key>installed_size</key>
+				<integer>616</integer>
+				<key>packageid</key>
+				<string>com.tableausoftware.postgresql</string>
+				<key>version</key>
+				<string>9.5.3.0</string>
+			</dict>
+			<dict>
+				<key>installed_size</key>
+				<integer>189280</integer>
+				<key>packageid</key>
+				<string>com.simba.sparkodbc</string>
+				<key>version</key>
+				<string>1.0.9</string>
+			</dict>
+			<dict>
+				<key>installed_size</key>
+				<integer>40709</integer>
+				<key>packageid</key>
+				<string>com.simba.sqlserverodbc</string>
+				<key>version</key>
+				<string>1.2.3</string>
+			</dict>
+		</array>
+		<key>unattended_install</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>removepackages</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>10.2.2</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>production</string>
+		</array>
 		<key>category</key>
 		<string>Text Editors</string>
 		<key>description</key>
@@ -16014,8 +16183,7 @@ defaults write /Library/Preferences/com.github.salopensource.sal.plist ServerURL
 		<key>autoremove</key>
 		<false/>
 		<key>blocking_applications</key>
-		<array>
-		</array>
+		<array/>
 		<key>catalogs</key>
 		<array>
 			<string>production</string>
@@ -19642,8 +19810,7 @@ fi
 		<key>uninstallable</key>
 		<true/>
 		<key>update_for</key>
-		<array>
-		</array>
+		<array/>
 		<key>version</key>
 		<string>1.0</string>
 	</dict>
