@@ -7372,6 +7372,74 @@ fi
 		<key>icon_hash</key>
 		<string>5b03e872f794577b1f557fb24a953af884e9314dfc0dc4697264e465675fc7eb</string>
 		<key>installer_item_hash</key>
+		<string>809887b3bdf826c4f2f7c47f714e6bb609a345d30a318f45d3d3f90bb79466d7</string>
+		<key>installer_item_location</key>
+		<string>apps/firefox/Firefox-53.0.3.dmg</string>
+		<key>installer_item_size</key>
+		<integer>57086</integer>
+		<key>installer_type</key>
+		<string>copy_from_dmg</string>
+		<key>installs</key>
+		<array>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>org.mozilla.firefox</string>
+				<key>CFBundleName</key>
+				<string>Firefox</string>
+				<key>CFBundleShortVersionString</key>
+				<string>53.0.3</string>
+				<key>CFBundleVersion</key>
+				<string>5317.5.18</string>
+				<key>minosversion</key>
+				<string>10.9.0</string>
+				<key>path</key>
+				<string>/Applications/Firefox.app</string>
+				<key>type</key>
+				<string>application</string>
+				<key>version_comparison_key</key>
+				<string>CFBundleShortVersionString</string>
+			</dict>
+		</array>
+		<key>items_to_copy</key>
+		<array>
+			<dict>
+				<key>destination_path</key>
+				<string>/Applications</string>
+				<key>source_item</key>
+				<string>Firefox.app</string>
+			</dict>
+		</array>
+		<key>minimum_os_version</key>
+		<string>10.9.0</string>
+		<key>name</key>
+		<string>Firefox</string>
+		<key>unattended_install</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>remove_copied_items</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>53.0.3</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>production</string>
+		</array>
+		<key>category</key>
+		<string>Internet</string>
+		<key>description</key>
+		<string>Mozilla Firefox is a free and open source web browser.</string>
+		<key>developer</key>
+		<string>Mozilla</string>
+		<key>display_name</key>
+		<string>Mozilla Firefox</string>
+		<key>icon_hash</key>
+		<string>5b03e872f794577b1f557fb24a953af884e9314dfc0dc4697264e465675fc7eb</string>
+		<key>installer_item_hash</key>
 		<string>6010f574b54e79060ebce8cce50cb19bfe82066b36ea84dff6f323299dcf47bc</string>
 		<key>installer_item_location</key>
 		<string>apps/firefox/Firefox-53.0.dmg</string>
@@ -16831,8 +16899,7 @@ defaults write /Library/Preferences/com.github.salopensource.sal.plist ServerURL
 		<key>autoremove</key>
 		<false/>
 		<key>blocking_applications</key>
-		<array>
-		</array>
+		<array/>
 		<key>catalogs</key>
 		<array>
 			<string>production</string>
@@ -20459,8 +20526,7 @@ fi
 		<key>uninstallable</key>
 		<true/>
 		<key>update_for</key>
-		<array>
-		</array>
+		<array/>
 		<key>version</key>
 		<string>1.0</string>
 	</dict>
