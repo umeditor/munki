@@ -2328,6 +2328,142 @@ exit 0
 			<string>production</string>
 		</array>
 		<key>category</key>
+		<string>Utilities</string>
+		<key>description</key>
+		<string>With an easy to use interface, connect to FTP, SFTP, WebDAV, Amazon S3, Google Storage, Windows Azure, Rackspace Cloud Files and even Google Docs.</string>
+		<key>developer</key>
+		<string>David V. Kocher and Yves Langisch</string>
+		<key>display_name</key>
+		<string>Cyberduck</string>
+		<key>icon_hash</key>
+		<string>db905490a75a670d961089cafd3cfd165ad0b220d861e680648377dbcf32666c</string>
+		<key>installer_item_hash</key>
+		<string>f43ca77372e0e556b9d6490759e34b47eb35d1edc69884b260a667b3e33e7b69</string>
+		<key>installer_item_location</key>
+		<string>apps/Cyberduck-6.0.1.24918.dmg</string>
+		<key>installer_item_size</key>
+		<integer>98454</integer>
+		<key>installer_type</key>
+		<string>copy_from_dmg</string>
+		<key>installs</key>
+		<array>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>ch.sudo.cyberduck</string>
+				<key>CFBundleName</key>
+				<string>Cyberduck</string>
+				<key>CFBundleShortVersionString</key>
+				<string>6.0.1.24918</string>
+				<key>CFBundleVersion</key>
+				<string>24918</string>
+				<key>minosversion</key>
+				<string>10.7.3</string>
+				<key>path</key>
+				<string>/Applications/Cyberduck.app</string>
+				<key>type</key>
+				<string>application</string>
+				<key>version_comparison_key</key>
+				<string>CFBundleShortVersionString</string>
+			</dict>
+		</array>
+		<key>items_to_copy</key>
+		<array>
+			<dict>
+				<key>destination_path</key>
+				<string>/Applications</string>
+				<key>source_item</key>
+				<string>Cyberduck.app</string>
+			</dict>
+		</array>
+		<key>minimum_os_version</key>
+		<string>10.7.3</string>
+		<key>name</key>
+		<string>Cyberduck</string>
+		<key>unattended_install</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>remove_copied_items</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>6.0.1.24918</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>production</string>
+		</array>
+		<key>category</key>
+		<string>Utilities</string>
+		<key>description</key>
+		<string>With an easy to use interface, connect to FTP, SFTP, WebDAV, Amazon S3, Google Storage, Windows Azure, Rackspace Cloud Files and even Google Docs.</string>
+		<key>developer</key>
+		<string>David V. Kocher and Yves Langisch</string>
+		<key>display_name</key>
+		<string>Cyberduck</string>
+		<key>icon_hash</key>
+		<string>db905490a75a670d961089cafd3cfd165ad0b220d861e680648377dbcf32666c</string>
+		<key>installer_item_hash</key>
+		<string>2153042a138759ce6ac778210988a3a4f82d39efcf8df1dcf2d4af8fcc35ed2a</string>
+		<key>installer_item_location</key>
+		<string>apps/Cyberduck-6.0.4.dmg</string>
+		<key>installer_item_size</key>
+		<integer>98451</integer>
+		<key>installer_type</key>
+		<string>copy_from_dmg</string>
+		<key>installs</key>
+		<array>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>ch.sudo.cyberduck</string>
+				<key>CFBundleName</key>
+				<string>Cyberduck</string>
+				<key>CFBundleShortVersionString</key>
+				<string>6.0.4</string>
+				<key>CFBundleVersion</key>
+				<string>24953</string>
+				<key>minosversion</key>
+				<string>10.7.3</string>
+				<key>path</key>
+				<string>/Applications/Cyberduck.app</string>
+				<key>type</key>
+				<string>application</string>
+				<key>version_comparison_key</key>
+				<string>CFBundleShortVersionString</string>
+			</dict>
+		</array>
+		<key>items_to_copy</key>
+		<array>
+			<dict>
+				<key>destination_path</key>
+				<string>/Applications</string>
+				<key>source_item</key>
+				<string>Cyberduck.app</string>
+			</dict>
+		</array>
+		<key>minimum_os_version</key>
+		<string>10.7.3</string>
+		<key>name</key>
+		<string>Cyberduck</string>
+		<key>unattended_install</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>remove_copied_items</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>6.0.4</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>production</string>
+		</array>
+		<key>category</key>
 		<string>Internet</string>
 		<key>description</key>
 		<string>Chrome is a fast, simple, and secure web browser, built for the modern web.</string>
@@ -6613,6 +6749,97 @@ fi
 	<dict>
 		<key>autoremove</key>
 		<false/>
+		<key>blocking_applications</key>
+		<array>
+			<string>/Applications/Dropbox.app/Contents/MacOS/Dropbox</string>
+		</array>
+		<key>catalogs</key>
+		<array>
+			<string>production</string>
+		</array>
+		<key>description</key>
+		<string>Dropbox is a free service that lets you bring all your photos, docs, and videos anywhere. This means that any file you save to your Dropbox will automatically save to all your computers, phones and even the Dropbox website.</string>
+		<key>display_name</key>
+		<string>Dropbox</string>
+		<key>icon_hash</key>
+		<string>0da9f428674fe068e7189aa3fffd77837a82422fa3ea3995528ac2982a52afe1</string>
+		<key>installer_item_hash</key>
+		<string>b1ba9e9f10f548288b2430d3a1d2e324e670708e8a462ff74c269315e8076702</string>
+		<key>installer_item_location</key>
+		<string>apps/Dropbox/Dropbox-27.4.22.dmg</string>
+		<key>installer_item_size</key>
+		<integer>101057</integer>
+		<key>installer_type</key>
+		<string>copy_from_dmg</string>
+		<key>installs</key>
+		<array>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>com.getdropbox.dropbox</string>
+				<key>CFBundleName</key>
+				<string>Dropbox</string>
+				<key>CFBundleShortVersionString</key>
+				<string>27.4.22</string>
+				<key>CFBundleVersion</key>
+				<string>27.4.22</string>
+				<key>minosversion</key>
+				<string>10.6</string>
+				<key>path</key>
+				<string>/Applications/Dropbox.app</string>
+				<key>type</key>
+				<string>application</string>
+				<key>version_comparison_key</key>
+				<string>CFBundleShortVersionString</string>
+			</dict>
+		</array>
+		<key>items_to_copy</key>
+		<array>
+			<dict>
+				<key>destination_path</key>
+				<string>/Applications</string>
+				<key>source_item</key>
+				<string>Dropbox.app</string>
+			</dict>
+		</array>
+		<key>minimum_os_version</key>
+		<string>10.6</string>
+		<key>name</key>
+		<string>Dropbox</string>
+		<key>postinstall_script</key>
+		<string>#!/bin/sh
+# based on Ruby postinstall script by Riley Shott:
+# https://groups.google.com/group/munki-dev/browse_thread/thread/a2813e7f62535f13/63d127534541f863
+# modifications:
+# - always extract the helper tool with each install instead of skipping if it exists
+# - remove xattr com.apple.quarantine removal, as Munki will have already done this upon
+#   installation; normal autopkg runs also won't quarantine the download to begin with
+
+HELPER_SRC_PATH=/Applications/Dropbox.app/Contents/Resources/DropboxHelperInstaller.tgz
+HELPER_DST_DIR=/Library/DropboxHelperTools
+HELPER_DST_PATH="$HELPER_DST_DIR/DropboxHelperInstaller"
+
+if [ -e "$HELPER_SRC_PATH" ]; then
+  [ -d "$HELPER_DST_DIR" ] || mkdir "$HELPER_DST_DIR"
+  /usr/bin/tar -C "$HELPER_DST_DIR" -xz -f "$HELPER_SRC_PATH"
+  /usr/sbin/chown root:wheel "$HELPER_DST_PATH" "$HELPER_DST_DIR"
+  /bin/chmod 04511 "$HELPER_DST_PATH"
+else
+  echo "Expected $HELPER_SRC_PATH, but it was not present in the Dropbox dmg."
+  exit 1
+fi
+</string>
+		<key>unattended_install</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>remove_copied_items</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>27.4.22</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
 		<key>catalogs</key>
 		<array>
 			<string>production</string>
@@ -6813,6 +7040,70 @@ fi
 		<true/>
 		<key>version</key>
 		<string>6.10</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>production</string>
+		</array>
+		<key>description</key>
+		<string>Evernote makes it easy to remember things big and small from your everyday life using your computer, phone, tablet and the web.</string>
+		<key>display_name</key>
+		<string>Evernote</string>
+		<key>icon_hash</key>
+		<string>ea4aa511f27c9b26d6464a8f069e2615adfa31165691b9811d2975f2a66e6c7c</string>
+		<key>installer_item_hash</key>
+		<string>cc6dc6ba3e250932435088010d38f9bed9e3d363794eb1fe91271c68742a957b</string>
+		<key>installer_item_location</key>
+		<string>apps/Evernote/Evernote-6.11.1.dmg</string>
+		<key>installer_item_size</key>
+		<integer>69168</integer>
+		<key>installer_type</key>
+		<string>copy_from_dmg</string>
+		<key>installs</key>
+		<array>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>com.evernote.Evernote</string>
+				<key>CFBundleName</key>
+				<string>Evernote</string>
+				<key>CFBundleShortVersionString</key>
+				<string>6.11.1</string>
+				<key>CFBundleVersion</key>
+				<string>455059</string>
+				<key>minosversion</key>
+				<string>10.10</string>
+				<key>path</key>
+				<string>/Applications/Evernote.app</string>
+				<key>type</key>
+				<string>application</string>
+				<key>version_comparison_key</key>
+				<string>CFBundleShortVersionString</string>
+			</dict>
+		</array>
+		<key>items_to_copy</key>
+		<array>
+			<dict>
+				<key>destination_path</key>
+				<string>/Applications</string>
+				<key>source_item</key>
+				<string>Evernote.app</string>
+			</dict>
+		</array>
+		<key>minimum_os_version</key>
+		<string>10.10</string>
+		<key>name</key>
+		<string>Evernote</string>
+		<key>unattended_install</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>remove_copied_items</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>6.11.1</string>
 	</dict>
 	<dict>
 		<key>autoremove</key>
