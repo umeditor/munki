@@ -3018,6 +3018,74 @@ exit 0
 		<key>icon_hash</key>
 		<string>5f520eb8787e2174bbd3e358ae055eea44e2194b52b2b7c7fd0beb6c1d089c89</string>
 		<key>installer_item_hash</key>
+		<string>47cbf1eb22133c505abd1fd2e4bf4bada27741a945f93393e214cfa314026210</string>
+		<key>installer_item_location</key>
+		<string>apps/GoogleChrome-59.0.3071.104.dmg</string>
+		<key>installer_item_size</key>
+		<integer>61928</integer>
+		<key>installer_type</key>
+		<string>copy_from_dmg</string>
+		<key>installs</key>
+		<array>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>com.google.Chrome</string>
+				<key>CFBundleName</key>
+				<string>Chrome</string>
+				<key>CFBundleShortVersionString</key>
+				<string>59.0.3071.104</string>
+				<key>CFBundleVersion</key>
+				<string>3071.104</string>
+				<key>minosversion</key>
+				<string>10.9.0</string>
+				<key>path</key>
+				<string>/Applications/Google Chrome.app</string>
+				<key>type</key>
+				<string>application</string>
+				<key>version_comparison_key</key>
+				<string>CFBundleShortVersionString</string>
+			</dict>
+		</array>
+		<key>items_to_copy</key>
+		<array>
+			<dict>
+				<key>destination_path</key>
+				<string>/Applications</string>
+				<key>source_item</key>
+				<string>Google Chrome.app</string>
+			</dict>
+		</array>
+		<key>minimum_os_version</key>
+		<string>10.9.0</string>
+		<key>name</key>
+		<string>GoogleChrome</string>
+		<key>unattended_install</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>remove_copied_items</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>59.0.3071.104</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>production</string>
+		</array>
+		<key>category</key>
+		<string>Internet</string>
+		<key>description</key>
+		<string>Chrome is a fast, simple, and secure web browser, built for the modern web.</string>
+		<key>developer</key>
+		<string>Google</string>
+		<key>display_name</key>
+		<string>Google Chrome</string>
+		<key>icon_hash</key>
+		<string>5f520eb8787e2174bbd3e358ae055eea44e2194b52b2b7c7fd0beb6c1d089c89</string>
+		<key>installer_item_hash</key>
 		<string>ed6a2d736bf5cfc1fa690fafcf8ee69225101969da831581395a2649c59cc759</string>
 		<key>installer_item_location</key>
 		<string>apps/GoogleChrome-59.0.3071.86.dmg</string>
@@ -4014,6 +4082,74 @@ exit 0
 		<true/>
 		<key>version</key>
 		<string>7.54.0.409</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>production</string>
+		</array>
+		<key>category</key>
+		<string>Internet</string>
+		<key>description</key>
+		<string>Calling, seeing, messaging and sharing with others – wherever they are.</string>
+		<key>developer</key>
+		<string>Microsoft</string>
+		<key>display_name</key>
+		<string>Skype</string>
+		<key>icon_hash</key>
+		<string>dc3ed8ea203d371a4dc1050a8436a4cae2ed23a9b7b3988dda4cfbc196e57f05</string>
+		<key>installer_item_hash</key>
+		<string>0e5f60f1507756396522ae537efefc781ecca0f65d0e514b33519d34c6cdf7d8</string>
+		<key>installer_item_location</key>
+		<string>apps/Skype-7.55.0.600.dmg</string>
+		<key>installer_item_size</key>
+		<integer>45998</integer>
+		<key>installer_type</key>
+		<string>copy_from_dmg</string>
+		<key>installs</key>
+		<array>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>com.skype.skype</string>
+				<key>CFBundleName</key>
+				<string>Skype</string>
+				<key>CFBundleShortVersionString</key>
+				<string>7.55</string>
+				<key>CFBundleVersion</key>
+				<string>7.55.0.600</string>
+				<key>minosversion</key>
+				<string>10.10</string>
+				<key>path</key>
+				<string>/Applications/Skype.app</string>
+				<key>type</key>
+				<string>application</string>
+				<key>version_comparison_key</key>
+				<string>CFBundleVersion</string>
+			</dict>
+		</array>
+		<key>items_to_copy</key>
+		<array>
+			<dict>
+				<key>destination_path</key>
+				<string>/Applications</string>
+				<key>source_item</key>
+				<string>Skype.app</string>
+			</dict>
+		</array>
+		<key>minimum_os_version</key>
+		<string>10.10</string>
+		<key>name</key>
+		<string>Skype</string>
+		<key>unattended_install</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>remove_copied_items</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>7.55.0.600</string>
 	</dict>
 	<dict>
 		<key>autoremove</key>
@@ -5452,6 +5588,55 @@ exit 0
 		<true/>
 		<key>version</key>
 		<string>25.0.0.134</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>production</string>
+		</array>
+		<key>category</key>
+		<string>Internet Plugin</string>
+		<key>description</key>
+		<string>The Adobe AIR runtime enables developers to package the same code into native applications and games for Windows and Mac OS desktops as well as iOS and Android devices, reaching over a billion desktop systems and mobile app stores for over 500 million devices.</string>
+		<key>developer</key>
+		<string>Adobe</string>
+		<key>display_name</key>
+		<string>Adobe AIR</string>
+		<key>icon_hash</key>
+		<string>5c5d90664a3ece3a4150cd9bba13328d4e9a08a210698ef1a3e4de0d7a1c4511</string>
+		<key>installed_size</key>
+		<integer>81526</integer>
+		<key>installer_item_hash</key>
+		<string>a0fdfa938acb81f19b3d2aa8b6f15fa5b0431b25159770d306348cbb16610480</string>
+		<key>installer_item_location</key>
+		<string>apps/adobe/AdobeAIR-26.0.0.118.pkg</string>
+		<key>installer_item_size</key>
+		<integer>35000</integer>
+		<key>minimum_os_version</key>
+		<string>10.5.0</string>
+		<key>name</key>
+		<string>AdobeAIR</string>
+		<key>receipts</key>
+		<array>
+			<dict>
+				<key>installed_size</key>
+				<integer>81526</integer>
+				<key>packageid</key>
+				<string>com.adobe.pkg.AIR</string>
+				<key>version</key>
+				<string>26.0.0.118</string>
+			</dict>
+		</array>
+		<key>unattended_install</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>removepackages</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>26.0.0.118</string>
 	</dict>
 	<dict>
 		<key>autoremove</key>
@@ -6976,6 +7161,97 @@ fi
 	<dict>
 		<key>autoremove</key>
 		<false/>
+		<key>blocking_applications</key>
+		<array>
+			<string>/Applications/Dropbox.app/Contents/MacOS/Dropbox</string>
+		</array>
+		<key>catalogs</key>
+		<array>
+			<string>production</string>
+		</array>
+		<key>description</key>
+		<string>Dropbox is a free service that lets you bring all your photos, docs, and videos anywhere. This means that any file you save to your Dropbox will automatically save to all your computers, phones and even the Dropbox website.</string>
+		<key>display_name</key>
+		<string>Dropbox</string>
+		<key>icon_hash</key>
+		<string>0da9f428674fe068e7189aa3fffd77837a82422fa3ea3995528ac2982a52afe1</string>
+		<key>installer_item_hash</key>
+		<string>d5a4897abd1f7d80902aede68b0285e6f379a74fe61c14c5f0dbc45ff8f7d16e</string>
+		<key>installer_item_location</key>
+		<string>apps/Dropbox/Dropbox-28.4.14.dmg</string>
+		<key>installer_item_size</key>
+		<integer>101549</integer>
+		<key>installer_type</key>
+		<string>copy_from_dmg</string>
+		<key>installs</key>
+		<array>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>com.getdropbox.dropbox</string>
+				<key>CFBundleName</key>
+				<string>Dropbox</string>
+				<key>CFBundleShortVersionString</key>
+				<string>28.4.14</string>
+				<key>CFBundleVersion</key>
+				<string>28.4.14</string>
+				<key>minosversion</key>
+				<string>10.6</string>
+				<key>path</key>
+				<string>/Applications/Dropbox.app</string>
+				<key>type</key>
+				<string>application</string>
+				<key>version_comparison_key</key>
+				<string>CFBundleShortVersionString</string>
+			</dict>
+		</array>
+		<key>items_to_copy</key>
+		<array>
+			<dict>
+				<key>destination_path</key>
+				<string>/Applications</string>
+				<key>source_item</key>
+				<string>Dropbox.app</string>
+			</dict>
+		</array>
+		<key>minimum_os_version</key>
+		<string>10.6</string>
+		<key>name</key>
+		<string>Dropbox</string>
+		<key>postinstall_script</key>
+		<string>#!/bin/sh
+# based on Ruby postinstall script by Riley Shott:
+# https://groups.google.com/group/munki-dev/browse_thread/thread/a2813e7f62535f13/63d127534541f863
+# modifications:
+# - always extract the helper tool with each install instead of skipping if it exists
+# - remove xattr com.apple.quarantine removal, as Munki will have already done this upon
+#   installation; normal autopkg runs also won't quarantine the download to begin with
+
+HELPER_SRC_PATH=/Applications/Dropbox.app/Contents/Resources/DropboxHelperInstaller.tgz
+HELPER_DST_DIR=/Library/DropboxHelperTools
+HELPER_DST_PATH="$HELPER_DST_DIR/DropboxHelperInstaller"
+
+if [ -e "$HELPER_SRC_PATH" ]; then
+  [ -d "$HELPER_DST_DIR" ] || mkdir "$HELPER_DST_DIR"
+  /usr/bin/tar -C "$HELPER_DST_DIR" -xz -f "$HELPER_SRC_PATH"
+  /usr/sbin/chown root:wheel "$HELPER_DST_PATH" "$HELPER_DST_DIR"
+  /bin/chmod 04511 "$HELPER_DST_PATH"
+else
+  echo "Expected $HELPER_SRC_PATH, but it was not present in the Dropbox dmg."
+  exit 1
+fi
+</string>
+		<key>unattended_install</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>remove_copied_items</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>28.4.14</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
 		<key>catalogs</key>
 		<array>
 			<string>production</string>
@@ -7984,6 +8260,74 @@ fi
 		<true/>
 		<key>version</key>
 		<string>53.0</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>production</string>
+		</array>
+		<key>category</key>
+		<string>Internet</string>
+		<key>description</key>
+		<string>Mozilla Firefox is a free and open source web browser.</string>
+		<key>developer</key>
+		<string>Mozilla</string>
+		<key>display_name</key>
+		<string>Mozilla Firefox</string>
+		<key>icon_hash</key>
+		<string>5b03e872f794577b1f557fb24a953af884e9314dfc0dc4697264e465675fc7eb</string>
+		<key>installer_item_hash</key>
+		<string>0e7c03fb78665de30c30025b188c876f0a50e75f06b0d84bda5b9e05ce5846ce</string>
+		<key>installer_item_location</key>
+		<string>apps/firefox/Firefox-54.0.dmg</string>
+		<key>installer_item_size</key>
+		<integer>58251</integer>
+		<key>installer_type</key>
+		<string>copy_from_dmg</string>
+		<key>installs</key>
+		<array>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>org.mozilla.firefox</string>
+				<key>CFBundleName</key>
+				<string>Firefox</string>
+				<key>CFBundleShortVersionString</key>
+				<string>54.0</string>
+				<key>CFBundleVersion</key>
+				<string>5417.6.8</string>
+				<key>minosversion</key>
+				<string>10.9.0</string>
+				<key>path</key>
+				<string>/Applications/Firefox.app</string>
+				<key>type</key>
+				<string>application</string>
+				<key>version_comparison_key</key>
+				<string>CFBundleShortVersionString</string>
+			</dict>
+		</array>
+		<key>items_to_copy</key>
+		<array>
+			<dict>
+				<key>destination_path</key>
+				<string>/Applications</string>
+				<key>source_item</key>
+				<string>Firefox.app</string>
+			</dict>
+		</array>
+		<key>minimum_os_version</key>
+		<string>10.9.0</string>
+		<key>name</key>
+		<string>Firefox</string>
+		<key>unattended_install</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>remove_copied_items</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>54.0</string>
 	</dict>
 	<dict>
 		<key>autoremove</key>
@@ -12631,6 +12975,72 @@ rm '/Library/PrivilegedHelperTools/Google Drive Icon Helper'
 		<false/>
 		<key>blocking_applications</key>
 		<array>
+			<string>Microsoft Excel</string>
+			<string>Microsoft Error Reporting</string>
+			<string>Microsoft Auto Update</string>
+		</array>
+		<key>catalogs</key>
+		<array>
+			<string>production</string>
+		</array>
+		<key>description</key>
+		<string>&lt;html&gt;&lt;p style="font-family:Helvetica;font-size:12px"&gt;For detailed information about this update, please visit the following Web site: &lt;/p&gt;
+
+&lt;p style="font-family:Helvetica;font-size:12px"&gt;&lt;a href="https://go.microsoft.com/fwlink/?LinkID=831049" target="_blank"&gt;https://go.microsoft.com/fwlink/?LinkID=831049&lt;/a&gt;&lt;/p&gt;&lt;/html&gt;</string>
+		<key>display_name</key>
+		<string>Microsoft Excel for Mac</string>
+		<key>icon_hash</key>
+		<string>71cfb7216f655859dc3bbf4f914d58f91f7fc2012dc8f69b7402dcb5d6a4bb80</string>
+		<key>installed_size</key>
+		<integer>1511193</integer>
+		<key>installer_item_hash</key>
+		<string>4867c1c1bb7c83d940dc5493c911016cb709e2093e084af98069e3248ae0588c</string>
+		<key>installer_item_location</key>
+		<string>apps/Office2016/MSExcel2016-15.35.17061000.pkg</string>
+		<key>installer_item_size</key>
+		<integer>772483</integer>
+		<key>installs</key>
+		<array>
+			<dict>
+				<key>CFBundleVersion</key>
+				<string>15.35.17061000</string>
+				<key>path</key>
+				<string>/Applications/Microsoft Excel.app</string>
+				<key>type</key>
+				<string>application</string>
+				<key>version_comparison_key</key>
+				<string>CFBundleVersion</string>
+			</dict>
+		</array>
+		<key>minimum_os_version</key>
+		<string>10.10.0</string>
+		<key>name</key>
+		<string>MSExcel2016</string>
+		<key>receipts</key>
+		<array>
+			<dict>
+				<key>installed_size</key>
+				<integer>1511193</integer>
+				<key>packageid</key>
+				<string>com.microsoft.package.Microsoft_Excel.app</string>
+				<key>version</key>
+				<string>15.35.17061000</string>
+			</dict>
+		</array>
+		<key>unattended_install</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>removepackages</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>15.35.17061000</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>blocking_applications</key>
+		<array>
 			<string>Microsoft OneNote</string>
 			<string>Microsoft Error Reporting</string>
 			<string>Microsoft Auto Update</string>
@@ -12963,6 +13373,138 @@ rm '/Library/PrivilegedHelperTools/Google Drive Icon Helper'
 		<true/>
 		<key>version</key>
 		<string>15.34.17051500</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>blocking_applications</key>
+		<array>
+			<string>Microsoft OneNote</string>
+			<string>Microsoft Error Reporting</string>
+			<string>Microsoft Auto Update</string>
+		</array>
+		<key>catalogs</key>
+		<array>
+			<string>production</string>
+		</array>
+		<key>description</key>
+		<string>&lt;html&gt;&lt;p style="font-family:Helvetica;font-size:12px"&gt;For detailed information about this update, please visit the following Web site: &lt;/p&gt;
+
+&lt;p style="font-family:Helvetica;font-size:12px"&gt;&lt;a href="https://go.microsoft.com/fwlink/?LinkID=831049" target="_blank"&gt;https://go.microsoft.com/fwlink/?LinkID=831049&lt;/a&gt;&lt;/p&gt;&lt;/html&gt;</string>
+		<key>display_name</key>
+		<string>Microsoft OneNote for Mac</string>
+		<key>icon_hash</key>
+		<string>787458d8ab01dd59d61006ed2421bdea661fac7d641bde2819da5fa90a033df7</string>
+		<key>installed_size</key>
+		<integer>867254</integer>
+		<key>installer_item_hash</key>
+		<string>ad2ed93d5c6786ca2780bcc11ec3d92559c95d7e8ece476736e056a187fc29c1</string>
+		<key>installer_item_location</key>
+		<string>apps/Office2016/MSOneNote2016-15.35.17061000.pkg</string>
+		<key>installer_item_size</key>
+		<integer>407591</integer>
+		<key>installs</key>
+		<array>
+			<dict>
+				<key>CFBundleVersion</key>
+				<string>15.35.17061000</string>
+				<key>path</key>
+				<string>/Applications/Microsoft OneNote.app</string>
+				<key>type</key>
+				<string>application</string>
+				<key>version_comparison_key</key>
+				<string>CFBundleVersion</string>
+			</dict>
+		</array>
+		<key>minimum_os_version</key>
+		<string>10.10.0</string>
+		<key>name</key>
+		<string>MSOneNote2016</string>
+		<key>receipts</key>
+		<array>
+			<dict>
+				<key>installed_size</key>
+				<integer>867254</integer>
+				<key>packageid</key>
+				<string>com.microsoft.package.Microsoft_OneNote.app</string>
+				<key>version</key>
+				<string>15.35.17061000</string>
+			</dict>
+		</array>
+		<key>unattended_install</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>removepackages</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>15.35.17061000</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>blocking_applications</key>
+		<array>
+			<string>Microsoft OneNote</string>
+			<string>Microsoft Error Reporting</string>
+			<string>Microsoft Auto Update</string>
+		</array>
+		<key>catalogs</key>
+		<array>
+			<string>production</string>
+		</array>
+		<key>description</key>
+		<string>&lt;html&gt;&lt;p style="font-family:Helvetica;font-size:12px"&gt;For detailed information about this update, please visit the following Web site: &lt;/p&gt;
+
+&lt;p style="font-family:Helvetica;font-size:12px"&gt;&lt;a href="https://go.microsoft.com/fwlink/?LinkID=831049" target="_blank"&gt;https://go.microsoft.com/fwlink/?LinkID=831049&lt;/a&gt;&lt;/p&gt;&lt;/html&gt;</string>
+		<key>display_name</key>
+		<string>Microsoft OneNote for Mac</string>
+		<key>icon_hash</key>
+		<string>787458d8ab01dd59d61006ed2421bdea661fac7d641bde2819da5fa90a033df7</string>
+		<key>installed_size</key>
+		<integer>867228</integer>
+		<key>installer_item_hash</key>
+		<string>bdaf4eeea9b568981b145818cf143e8756e062c60fdc91fc86ed2ba13763e46e</string>
+		<key>installer_item_location</key>
+		<string>apps/Office2016/MSOneNote2016-15.35.17061600.pkg</string>
+		<key>installer_item_size</key>
+		<integer>407587</integer>
+		<key>installs</key>
+		<array>
+			<dict>
+				<key>CFBundleVersion</key>
+				<string>15.35.17061600</string>
+				<key>path</key>
+				<string>/Applications/Microsoft OneNote.app</string>
+				<key>type</key>
+				<string>application</string>
+				<key>version_comparison_key</key>
+				<string>CFBundleVersion</string>
+			</dict>
+		</array>
+		<key>minimum_os_version</key>
+		<string>10.10.0</string>
+		<key>name</key>
+		<string>MSOneNote2016</string>
+		<key>receipts</key>
+		<array>
+			<dict>
+				<key>installed_size</key>
+				<integer>867228</integer>
+				<key>packageid</key>
+				<string>com.microsoft.package.Microsoft_OneNote.app</string>
+				<key>version</key>
+				<string>15.35.17061600</string>
+			</dict>
+		</array>
+		<key>unattended_install</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>removepackages</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>15.35.17061600</string>
 	</dict>
 	<dict>
 		<key>autoremove</key>
@@ -13307,6 +13849,72 @@ rm '/Library/PrivilegedHelperTools/Google Drive Icon Helper'
 		<false/>
 		<key>blocking_applications</key>
 		<array>
+			<string>Microsoft Outlook</string>
+			<string>Microsoft Error Reporting</string>
+			<string>Microsoft Auto Update</string>
+		</array>
+		<key>catalogs</key>
+		<array>
+			<string>production</string>
+		</array>
+		<key>description</key>
+		<string>&lt;html&gt;&lt;p style="font-family:Helvetica;font-size:12px"&gt;For detailed information about this update, please visit the following Web site: &lt;/p&gt;
+
+&lt;p style="font-family:Helvetica;font-size:12px"&gt;&lt;a href="https://go.microsoft.com/fwlink/?LinkID=831049" target="_blank"&gt;https://go.microsoft.com/fwlink/?LinkID=831049&lt;/a&gt;&lt;/p&gt;&lt;/html&gt;</string>
+		<key>display_name</key>
+		<string>Microsoft Outlook for Mac</string>
+		<key>icon_hash</key>
+		<string>7d0893e3783d74c85f8a9ead4cdaed4e1c11645b55bd5513f679e3bdfda84af4</string>
+		<key>installed_size</key>
+		<integer>1631462</integer>
+		<key>installer_item_hash</key>
+		<string>0bae05e052838d14bf08a1793b5bac7b3350a26ff5b9ed3ec3f30bf96ac2ee45</string>
+		<key>installer_item_location</key>
+		<string>apps/Office2016/MSOutlook2016-15.35.17061000.pkg</string>
+		<key>installer_item_size</key>
+		<integer>789091</integer>
+		<key>installs</key>
+		<array>
+			<dict>
+				<key>CFBundleVersion</key>
+				<string>15.35.17061000</string>
+				<key>path</key>
+				<string>/Applications/Microsoft Outlook.app</string>
+				<key>type</key>
+				<string>application</string>
+				<key>version_comparison_key</key>
+				<string>CFBundleVersion</string>
+			</dict>
+		</array>
+		<key>minimum_os_version</key>
+		<string>10.10.0</string>
+		<key>name</key>
+		<string>MSOutlook2016</string>
+		<key>receipts</key>
+		<array>
+			<dict>
+				<key>installed_size</key>
+				<integer>1631462</integer>
+				<key>packageid</key>
+				<string>com.microsoft.package.Microsoft_Outlook.app</string>
+				<key>version</key>
+				<string>15.35.17061000</string>
+			</dict>
+		</array>
+		<key>unattended_install</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>removepackages</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>15.35.17061000</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>blocking_applications</key>
+		<array>
 			<string>Microsoft PowerPoint</string>
 			<string>Microsoft Error Reporting</string>
 			<string>Microsoft Auto Update</string>
@@ -13639,6 +14247,72 @@ rm '/Library/PrivilegedHelperTools/Google Drive Icon Helper'
 		<true/>
 		<key>version</key>
 		<string>15.34.17051500</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>blocking_applications</key>
+		<array>
+			<string>Microsoft PowerPoint</string>
+			<string>Microsoft Error Reporting</string>
+			<string>Microsoft Auto Update</string>
+		</array>
+		<key>catalogs</key>
+		<array>
+			<string>production</string>
+		</array>
+		<key>description</key>
+		<string>&lt;html&gt;&lt;p style="font-family:Helvetica;font-size:12px"&gt;For detailed information about this update, please visit the following Web site: &lt;/p&gt;
+
+&lt;p style="font-family:Helvetica;font-size:12px"&gt;&lt;a href="https://go.microsoft.com/fwlink/?LinkID=831049" target="_blank"&gt;https://go.microsoft.com/fwlink/?LinkID=831049&lt;/a&gt;&lt;/p&gt;&lt;/html&gt;</string>
+		<key>display_name</key>
+		<string>Microsoft PowerPoint for Mac</string>
+		<key>icon_hash</key>
+		<string>53ef3dab9ad735884c885ff9593e564cbeedb9e5f0aaf61b814feff053e05a98</string>
+		<key>installed_size</key>
+		<integer>1385521</integer>
+		<key>installer_item_hash</key>
+		<string>0694fa216d317d766070f6429479aa7461435599ac8594ff508cf657cfb7d8db</string>
+		<key>installer_item_location</key>
+		<string>apps/Office2016/MSPowerPoint2016-15.35.17061000.pkg</string>
+		<key>installer_item_size</key>
+		<integer>706175</integer>
+		<key>installs</key>
+		<array>
+			<dict>
+				<key>CFBundleVersion</key>
+				<string>15.35.17061000</string>
+				<key>path</key>
+				<string>/Applications/Microsoft PowerPoint.app</string>
+				<key>type</key>
+				<string>application</string>
+				<key>version_comparison_key</key>
+				<string>CFBundleVersion</string>
+			</dict>
+		</array>
+		<key>minimum_os_version</key>
+		<string>10.10.0</string>
+		<key>name</key>
+		<string>MSPowerPoint2016</string>
+		<key>receipts</key>
+		<array>
+			<dict>
+				<key>installed_size</key>
+				<integer>1385521</integer>
+				<key>packageid</key>
+				<string>com.microsoft.package.Microsoft_PowerPoint.app</string>
+				<key>version</key>
+				<string>15.35.17061000</string>
+			</dict>
+		</array>
+		<key>unattended_install</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>removepackages</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>15.35.17061000</string>
 	</dict>
 	<dict>
 		<key>autoremove</key>
@@ -14139,6 +14813,72 @@ exit 0
 		<true/>
 		<key>version</key>
 		<string>15.34.17051500</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>blocking_applications</key>
+		<array>
+			<string>Microsoft Word</string>
+			<string>Microsoft Error Reporting</string>
+			<string>Microsoft Auto Update</string>
+		</array>
+		<key>catalogs</key>
+		<array>
+			<string>production</string>
+		</array>
+		<key>description</key>
+		<string>&lt;html&gt;&lt;p style="font-family:Helvetica;font-size:12px"&gt;For detailed information about this update, please visit the following Web site: &lt;/p&gt;
+
+&lt;p style="font-family:Helvetica;font-size:12px"&gt;&lt;a href="https://go.microsoft.com/fwlink/?LinkID=831049" target="_blank"&gt;https://go.microsoft.com/fwlink/?LinkID=831049&lt;/a&gt;&lt;/p&gt;&lt;/html&gt;</string>
+		<key>display_name</key>
+		<string>Microsoft Word for Mac</string>
+		<key>icon_hash</key>
+		<string>f40affe61cb501db81248085e4316211481bf0b0b90b81a59ff6d794198fbb7a</string>
+		<key>installed_size</key>
+		<integer>1948555</integer>
+		<key>installer_item_hash</key>
+		<string>550cda4735dcfc4304b5144d965849e010cccc040ce57366477c517bdf4d63e0</string>
+		<key>installer_item_location</key>
+		<string>apps/Office2016/MSWord2016-15.35.17061000.pkg</string>
+		<key>installer_item_size</key>
+		<integer>1075035</integer>
+		<key>installs</key>
+		<array>
+			<dict>
+				<key>CFBundleVersion</key>
+				<string>15.35.17061000</string>
+				<key>path</key>
+				<string>/Applications/Microsoft Word.app</string>
+				<key>type</key>
+				<string>application</string>
+				<key>version_comparison_key</key>
+				<string>CFBundleVersion</string>
+			</dict>
+		</array>
+		<key>minimum_os_version</key>
+		<string>10.10.0</string>
+		<key>name</key>
+		<string>MSWord2016</string>
+		<key>receipts</key>
+		<array>
+			<dict>
+				<key>installed_size</key>
+				<integer>1948555</integer>
+				<key>packageid</key>
+				<string>com.microsoft.package.Microsoft_Word.app</string>
+				<key>version</key>
+				<string>15.35.17061000</string>
+			</dict>
+		</array>
+		<key>unattended_install</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>removepackages</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>15.35.17061000</string>
 	</dict>
 	<dict>
 		<key>autoremove</key>
@@ -15966,6 +16706,74 @@ exit 0
 			<string>production</string>
 		</array>
 		<key>category</key>
+		<string>Email</string>
+		<key>description</key>
+		<string>Mozilla Thunderbird is a free and open source mail client.</string>
+		<key>developer</key>
+		<string>Mozilla Foundation</string>
+		<key>display_name</key>
+		<string>Mozilla Thunderbird</string>
+		<key>icon_hash</key>
+		<string>8c873883c723d52329090ffc8944231f2e6959350096e4fe318f970c72bf043a</string>
+		<key>installer_item_hash</key>
+		<string>2d143d250d00883911168e45bd9518ff7c7eaa1bea4aa19a494dc5b7781240f9</string>
+		<key>installer_item_location</key>
+		<string>apps/thunderbird/Thunderbird-52.2.0.dmg</string>
+		<key>installer_item_size</key>
+		<integer>77214</integer>
+		<key>installer_type</key>
+		<string>copy_from_dmg</string>
+		<key>installs</key>
+		<array>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>org.mozilla.thunderbird</string>
+				<key>CFBundleName</key>
+				<string>Thunderbird</string>
+				<key>CFBundleShortVersionString</key>
+				<string>52.2.0</string>
+				<key>CFBundleVersion</key>
+				<string>52.2.0</string>
+				<key>minosversion</key>
+				<string>10.9.0</string>
+				<key>path</key>
+				<string>/Applications/Thunderbird.app</string>
+				<key>type</key>
+				<string>application</string>
+				<key>version_comparison_key</key>
+				<string>CFBundleShortVersionString</string>
+			</dict>
+		</array>
+		<key>items_to_copy</key>
+		<array>
+			<dict>
+				<key>destination_path</key>
+				<string>/Applications</string>
+				<key>source_item</key>
+				<string>Thunderbird.app</string>
+			</dict>
+		</array>
+		<key>minimum_os_version</key>
+		<string>10.9.0</string>
+		<key>name</key>
+		<string>Thunderbird</string>
+		<key>unattended_install</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>remove_copied_items</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>52.2.0</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>production</string>
+		</array>
+		<key>category</key>
 		<string>Video</string>
 		<key>description</key>
 		<string>VLC is a free and open source cross-platform multimedia player and framework that plays most multimedia files as well as DVD, Audio CD, VCD, and various streaming protocols.</string>
@@ -17002,6 +17810,84 @@ defaults write /Library/Preferences/com.github.salopensource.sal.plist ServerURL
 		<array>
 			<string>production</string>
 		</array>
+		<key>description</key>
+		<string>FUSE for OS X allows you to extend OS X's native file handling capabilities via third-party file systems. OSXFUSE is a successor to MacFUSE, which has been used as a software building block by dozens of products, but is no longer being maintained.</string>
+		<key>display_name</key>
+		<string>OSXFUSE</string>
+		<key>installed_size</key>
+		<integer>8780</integer>
+		<key>installer_choices_xml</key>
+		<array>
+			<dict>
+				<key>attributeSetting</key>
+				<integer>1</integer>
+				<key>choiceAttribute</key>
+				<string>selected</string>
+				<key>choiceIdentifier</key>
+				<string>10.8$OSXFUSEMacFUSE</string>
+			</dict>
+			<dict>
+				<key>attributeSetting</key>
+				<integer>1</integer>
+				<key>choiceAttribute</key>
+				<string>selected</string>
+				<key>choiceIdentifier</key>
+				<string>com.github.osxfuse.pkg.MacFUSE</string>
+			</dict>
+		</array>
+		<key>installer_item_hash</key>
+		<string>726b83567e0df5d02efdef928132633f05dc6eaf085ceb59d1eeb07ac3d181e2</string>
+		<key>installer_item_location</key>
+		<string>drivers/osxfuse-3.6.0.pkg</string>
+		<key>installer_item_size</key>
+		<integer>5114</integer>
+		<key>minimum_os_version</key>
+		<string>10.5.0</string>
+		<key>name</key>
+		<string>osxfuse</string>
+		<key>receipts</key>
+		<array>
+			<dict>
+				<key>installed_size</key>
+				<integer>4372</integer>
+				<key>packageid</key>
+				<string>com.github.osxfuse.pkg.Core</string>
+				<key>version</key>
+				<string>3.6.0</string>
+			</dict>
+			<dict>
+				<key>installed_size</key>
+				<integer>2657</integer>
+				<key>packageid</key>
+				<string>com.github.osxfuse.pkg.PrefPane</string>
+				<key>version</key>
+				<string>3.6.0</string>
+			</dict>
+			<dict>
+				<key>installed_size</key>
+				<integer>1751</integer>
+				<key>packageid</key>
+				<string>com.github.osxfuse.pkg.MacFUSE</string>
+				<key>version</key>
+				<string>3.6.0</string>
+			</dict>
+		</array>
+		<key>unattended_install</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>removepackages</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>3.6.0</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>production</string>
+		</array>
 		<key>category</key>
 		<string>Internet Plugin</string>
 		<key>description</key>
@@ -17249,6 +18135,108 @@ defaults write /Library/Preferences/com.github.salopensource.sal.plist ServerURL
 		<true/>
 		<key>version</key>
 		<string>25.0.0.171</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>production</string>
+		</array>
+		<key>category</key>
+		<string>Internet Plugin</string>
+		<key>description</key>
+		<string>Adobe® Flash® Player is a cross-platform browser-based application runtime that delivers uncompromised viewing of expressive applications, content, and videos across screens and browsers.</string>
+		<key>developer</key>
+		<string>Adobe</string>
+		<key>display_name</key>
+		<string>Adobe Flash Player</string>
+		<key>icon_hash</key>
+		<string>7dc266fa7a88b5e3ca106ec62a263ddf7eb30857ceb66b5739edd2e2e8c002cd</string>
+		<key>installed_size</key>
+		<integer>20141</integer>
+		<key>installer_item_hash</key>
+		<string>f16b3d59a8c45742f48d1a7eb9d9abbc97538e1047dab264abcfc80041f4b471</string>
+		<key>installer_item_location</key>
+		<string>internet_plugins/AdobeFlashPlayer-26.0.0.126.dmg</string>
+		<key>installer_item_size</key>
+		<integer>18738</integer>
+		<key>minimum_os_version</key>
+		<string>10.5.0</string>
+		<key>name</key>
+		<string>AdobeFlashPlayer</string>
+		<key>package_path</key>
+		<string>Install Adobe Flash Player.app/Contents/Resources/Adobe Flash Player.pkg</string>
+		<key>receipts</key>
+		<array>
+			<dict>
+				<key>installed_size</key>
+				<integer>20141</integer>
+				<key>packageid</key>
+				<string>com.adobe.pkg.FlashPlayer</string>
+				<key>version</key>
+				<string>26.0.0.126</string>
+			</dict>
+		</array>
+		<key>unattended_install</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>removepackages</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>26.0.0.126</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>production</string>
+		</array>
+		<key>category</key>
+		<string>Internet Plugin</string>
+		<key>description</key>
+		<string>Adobe® Flash® Player is a cross-platform browser-based application runtime that delivers uncompromised viewing of expressive applications, content, and videos across screens and browsers.</string>
+		<key>developer</key>
+		<string>Adobe</string>
+		<key>display_name</key>
+		<string>Adobe Flash Player</string>
+		<key>icon_hash</key>
+		<string>7dc266fa7a88b5e3ca106ec62a263ddf7eb30857ceb66b5739edd2e2e8c002cd</string>
+		<key>installed_size</key>
+		<integer>20143</integer>
+		<key>installer_item_hash</key>
+		<string>4edabd847421480096ba13239aceefbdead8db84fc7e701a8caa5b986ec54737</string>
+		<key>installer_item_location</key>
+		<string>internet_plugins/AdobeFlashPlayer-26.0.0.131.dmg</string>
+		<key>installer_item_size</key>
+		<integer>18740</integer>
+		<key>minimum_os_version</key>
+		<string>10.5.0</string>
+		<key>name</key>
+		<string>AdobeFlashPlayer</string>
+		<key>package_path</key>
+		<string>Install Adobe Flash Player.app/Contents/Resources/Adobe Flash Player.pkg</string>
+		<key>receipts</key>
+		<array>
+			<dict>
+				<key>installed_size</key>
+				<integer>20143</integer>
+				<key>packageid</key>
+				<string>com.adobe.pkg.FlashPlayer</string>
+				<key>version</key>
+				<string>26.0.0.131</string>
+			</dict>
+		</array>
+		<key>unattended_install</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>removepackages</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>26.0.0.131</string>
 	</dict>
 	<dict>
 		<key>autoremove</key>
