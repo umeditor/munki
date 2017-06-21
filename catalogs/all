@@ -3086,6 +3086,74 @@ exit 0
 		<key>icon_hash</key>
 		<string>5f520eb8787e2174bbd3e358ae055eea44e2194b52b2b7c7fd0beb6c1d089c89</string>
 		<key>installer_item_hash</key>
+		<string>fe73fe88648a726cb79d7bad835f89ca368984ef4ef4d65a3359a45cef345dd6</string>
+		<key>installer_item_location</key>
+		<string>apps/GoogleChrome-59.0.3071.109.dmg</string>
+		<key>installer_item_size</key>
+		<integer>61930</integer>
+		<key>installer_type</key>
+		<string>copy_from_dmg</string>
+		<key>installs</key>
+		<array>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>com.google.Chrome</string>
+				<key>CFBundleName</key>
+				<string>Chrome</string>
+				<key>CFBundleShortVersionString</key>
+				<string>59.0.3071.109</string>
+				<key>CFBundleVersion</key>
+				<string>3071.109</string>
+				<key>minosversion</key>
+				<string>10.9.0</string>
+				<key>path</key>
+				<string>/Applications/Google Chrome.app</string>
+				<key>type</key>
+				<string>application</string>
+				<key>version_comparison_key</key>
+				<string>CFBundleShortVersionString</string>
+			</dict>
+		</array>
+		<key>items_to_copy</key>
+		<array>
+			<dict>
+				<key>destination_path</key>
+				<string>/Applications</string>
+				<key>source_item</key>
+				<string>Google Chrome.app</string>
+			</dict>
+		</array>
+		<key>minimum_os_version</key>
+		<string>10.9.0</string>
+		<key>name</key>
+		<string>GoogleChrome</string>
+		<key>unattended_install</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>remove_copied_items</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>59.0.3071.109</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>production</string>
+		</array>
+		<key>category</key>
+		<string>Internet</string>
+		<key>description</key>
+		<string>Chrome is a fast, simple, and secure web browser, built for the modern web.</string>
+		<key>developer</key>
+		<string>Google</string>
+		<key>display_name</key>
+		<string>Google Chrome</string>
+		<key>icon_hash</key>
+		<string>5f520eb8787e2174bbd3e358ae055eea44e2194b52b2b7c7fd0beb6c1d089c89</string>
+		<key>installer_item_hash</key>
 		<string>ed6a2d736bf5cfc1fa690fafcf8ee69225101969da831581395a2649c59cc759</string>
 		<key>installer_item_location</key>
 		<string>apps/GoogleChrome-59.0.3071.86.dmg</string>
@@ -4170,6 +4238,8 @@ exit 0
 &lt;p style="font-family:Helvetica;font-size:12px"&gt;&lt;a href="https://go.microsoft.com/fwlink/?linkid=832970" target="_blank"&gt;https://go.microsoft.com/fwlink/?linkid=832970&lt;/a&gt;&lt;/p&gt;&lt;/html&gt;</string>
 		<key>display_name</key>
 		<string>Skype for Business</string>
+		<key>icon_hash</key>
+		<string>757274136e385740dfcd2c2ca0852608befe8288cf041731451aa682bd1f4b9e</string>
 		<key>installed_size</key>
 		<integer>83646</integer>
 		<key>installer_item_hash</key>
@@ -4214,6 +4284,72 @@ exit 0
 		<true/>
 		<key>version</key>
 		<string>16.6.333</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>blocking_applications</key>
+		<array>
+			<string>Skype for Business</string>
+			<string>Microsoft Error Reporting</string>
+			<string>Microsoft Auto Update</string>
+		</array>
+		<key>catalogs</key>
+		<array>
+			<string>production</string>
+		</array>
+		<key>description</key>
+		<string>&lt;html&gt;&lt;p style="font-family:Helvetica;font-size:12px"&gt;For detailed information about this update, please visit the following Web site: &lt;/p&gt;
+
+&lt;p style="font-family:Helvetica;font-size:12px"&gt;&lt;a href="https://go.microsoft.com/fwlink/?linkid=832970" target="_blank"&gt;https://go.microsoft.com/fwlink/?linkid=832970&lt;/a&gt;&lt;/p&gt;&lt;/html&gt;</string>
+		<key>display_name</key>
+		<string>Skype for Business</string>
+		<key>icon_hash</key>
+		<string>757274136e385740dfcd2c2ca0852608befe8288cf041731451aa682bd1f4b9e</string>
+		<key>installed_size</key>
+		<integer>84714</integer>
+		<key>installer_item_hash</key>
+		<string>42f5c369e5305f714fa76390f79efb507f2d0d1bd81920f46e01d34100b8e9b6</string>
+		<key>installer_item_location</key>
+		<string>apps/SkypeForBusiness-16.8.196.pkg</string>
+		<key>installer_item_size</key>
+		<integer>31133</integer>
+		<key>installs</key>
+		<array>
+			<dict>
+				<key>CFBundleVersion</key>
+				<string>16.8.196</string>
+				<key>path</key>
+				<string>/Applications/Skype for Business.app</string>
+				<key>type</key>
+				<string>application</string>
+				<key>version_comparison_key</key>
+				<string>CFBundleVersion</string>
+			</dict>
+		</array>
+		<key>minimum_os_version</key>
+		<string>10.11.0</string>
+		<key>name</key>
+		<string>SkypeForBusiness</string>
+		<key>receipts</key>
+		<array>
+			<dict>
+				<key>installed_size</key>
+				<integer>84714</integer>
+				<key>packageid</key>
+				<string>com.microsoft.SkypeForBusiness</string>
+				<key>version</key>
+				<string>16.8.196</string>
+			</dict>
+		</array>
+		<key>unattended_install</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>removepackages</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>16.8.196</string>
 	</dict>
 	<dict>
 		<key>autoremove</key>
