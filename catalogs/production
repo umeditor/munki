@@ -4898,6 +4898,74 @@ exit 0
 		<array>
 			<string>production</string>
 		</array>
+		<key>category</key>
+		<string>Music</string>
+		<key>description</key>
+		<string>Spotify is a music streaming service offering unlimited streaming of selected music from a range of major and independent record labels.</string>
+		<key>developer</key>
+		<string>Spotify</string>
+		<key>display_name</key>
+		<string>Spotify</string>
+		<key>icon_hash</key>
+		<string>296a19e886926a9f063abe4f853f97e9d0fe721259975dfd308317d83ab06b72</string>
+		<key>installer_item_hash</key>
+		<string>f060f3053f0960d5fbcbb689fbc44bc95399d5a119bebd5fb9114715b7809e1f</string>
+		<key>installer_item_location</key>
+		<string>apps/Spotify-1.0.57.474.gca9c9538.dmg</string>
+		<key>installer_item_size</key>
+		<integer>97748</integer>
+		<key>installer_type</key>
+		<string>copy_from_dmg</string>
+		<key>installs</key>
+		<array>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>com.spotify.client</string>
+				<key>CFBundleName</key>
+				<string>Spotify</string>
+				<key>CFBundleShortVersionString</key>
+				<string>1.0.57.474.gca9c9538</string>
+				<key>CFBundleVersion</key>
+				<string>1.0.57.474.gca9c9538-30</string>
+				<key>minosversion</key>
+				<string>10.7.0</string>
+				<key>path</key>
+				<string>/Applications/Spotify.app</string>
+				<key>type</key>
+				<string>application</string>
+				<key>version_comparison_key</key>
+				<string>CFBundleShortVersionString</string>
+			</dict>
+		</array>
+		<key>items_to_copy</key>
+		<array>
+			<dict>
+				<key>destination_path</key>
+				<string>/Applications</string>
+				<key>source_item</key>
+				<string>Spotify.app</string>
+			</dict>
+		</array>
+		<key>minimum_os_version</key>
+		<string>10.7.0</string>
+		<key>name</key>
+		<string>Spotify</string>
+		<key>unattended_install</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>remove_copied_items</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>1.0.57.474.gca9c9538</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>production</string>
+		</array>
 		<key>description</key>
 		<string>The Unarchiver is a much more capable replacement for "Archive Utility.app", the built-in archive unpacker program on Mac OS X. The Unarchiver is designed to handle many more formats than Archive Utility, and to better fit in with the design of the Finder.</string>
 		<key>display_name</key>
@@ -6627,6 +6695,97 @@ The setup procedure includes installing the MIT CA as well as the user's persona
 		<true/>
 		<key>version</key>
 		<string>12.5.0</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>blocking_applications</key>
+		<array>
+			<string>Citrix Receiver</string>
+			<string>Citrix Viewer</string>
+		</array>
+		<key>catalogs</key>
+		<array>
+			<string>production</string>
+		</array>
+		<key>category</key>
+		<string>Internet</string>
+		<key>description</key>
+		<string>Citrix Receiver is an easy-to-install client software that lets you access enterprise data, applications and desktops from any computing device including smartphones, tablets and PCs. Workers today typically use multiple computing devices and crave a consistent computing experience across all of them. Organizations everywhere are struggling to cope with the rapid proliferation of these devices and give users the mobile, high-definition experience they demand. Working in tandem with a Citrix-enabled IT infrastructure, Citrix Receiver gives workers consistent, secure, high-performance access from any device without introducing layers of management complexity for IT.</string>
+		<key>developer</key>
+		<string>Citrix Systems, Inc.</string>
+		<key>display_name</key>
+		<string>Citrix Receiver</string>
+		<key>icon_hash</key>
+		<string>6b20864112f822d3d2d667d87b343ef0a4c7e653c15be8a558dc3ca048100eb0</string>
+		<key>installed_size</key>
+		<integer>137449</integer>
+		<key>installer_item_hash</key>
+		<string>141e68bc4f1044c89dfc0c51ecc9d102afe0d927e63e9757de6d9483cc334d86</string>
+		<key>installer_item_location</key>
+		<string>apps/Citrix/CitrixReceiver-12.6.0.dmg</string>
+		<key>installer_item_size</key>
+		<integer>55469</integer>
+		<key>installs</key>
+		<array>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>com.citrix.receiver.nomas</string>
+				<key>CFBundleName</key>
+				<string>Citrix Receiver</string>
+				<key>CFBundleShortVersionString</key>
+				<string>12.6.0</string>
+				<key>CFBundleVersion</key>
+				<string>532443</string>
+				<key>minosversion</key>
+				<string>10.9</string>
+				<key>path</key>
+				<string>/Applications/Citrix Receiver.app</string>
+				<key>type</key>
+				<string>application</string>
+				<key>version_comparison_key</key>
+				<string>CFBundleShortVersionString</string>
+			</dict>
+			<dict>
+				<key>CFBundleShortVersionString</key>
+				<string>12.6.0</string>
+				<key>CFBundleVersion</key>
+				<string>532443</string>
+				<key>path</key>
+				<string>/Library/Internet Plug-Ins/CitrixICAClientPlugIn.plugin</string>
+				<key>type</key>
+				<string>bundle</string>
+				<key>version_comparison_key</key>
+				<string>CFBundleShortVersionString</string>
+			</dict>
+		</array>
+		<key>minimum_os_version</key>
+		<string>10.6</string>
+		<key>name</key>
+		<string>CitrixReceiver</string>
+		<key>package_path</key>
+		<string>Install Citrix Receiver.pkg</string>
+		<key>receipts</key>
+		<array>
+			<dict>
+				<key>installed_size</key>
+				<integer>137449</integer>
+				<key>packageid</key>
+				<string>com.citrix.ICAClient</string>
+				<key>version</key>
+				<string>12.6.0</string>
+			</dict>
+		</array>
+		<key>unattended_install</key>
+		<true/>
+		<key>unattended_uninstall</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>removepackages</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>12.6.0</string>
 	</dict>
 	<dict>
 		<key>autoremove</key>
@@ -16271,6 +16430,170 @@ exit 0
 	<dict>
 		<key>autoremove</key>
 		<false/>
+		<key>blocking_applications</key>
+		<array>
+			<string>Tableau</string>
+		</array>
+		<key>catalogs</key>
+		<array>
+			<string>production</string>
+		</array>
+		<key>description</key>
+		<string>Tableau Desktop is data visualization software that lets you see and understand data in minutes.</string>
+		<key>display_name</key>
+		<string>Tableau Desktop</string>
+		<key>icon_hash</key>
+		<string>f406d61d64b0c05b9dd2e90e2a3fa962f4c0a83756b500cd231b84759a081606</string>
+		<key>installed_size</key>
+		<integer>1396051</integer>
+		<key>installer_choices_xml</key>
+		<array>
+			<dict>
+				<key>attributeSetting</key>
+				<integer>1</integer>
+				<key>choiceAttribute</key>
+				<string>selected</string>
+				<key>choiceIdentifier</key>
+				<string>com.tableausoftware.desktop.app</string>
+			</dict>
+			<dict>
+				<key>attributeSetting</key>
+				<integer>0</integer>
+				<key>choiceAttribute</key>
+				<string>selected</string>
+				<key>choiceIdentifier</key>
+				<string>com.tableausoftware.desktopShortcut</string>
+			</dict>
+			<dict>
+				<key>attributeSetting</key>
+				<integer>1</integer>
+				<key>choiceAttribute</key>
+				<string>selected</string>
+				<key>choiceIdentifier</key>
+				<string>com.amazon.redshiftodbc</string>
+			</dict>
+			<dict>
+				<key>attributeSetting</key>
+				<integer>1</integer>
+				<key>choiceAttribute</key>
+				<string>selected</string>
+				<key>choiceIdentifier</key>
+				<string>com.tableausoftware.mysql</string>
+			</dict>
+			<dict>
+				<key>attributeSetting</key>
+				<integer>1</integer>
+				<key>choiceAttribute</key>
+				<string>selected</string>
+				<key>choiceIdentifier</key>
+				<string>com.tableausoftware.oracle</string>
+			</dict>
+			<dict>
+				<key>attributeSetting</key>
+				<integer>1</integer>
+				<key>choiceAttribute</key>
+				<string>selected</string>
+				<key>choiceIdentifier</key>
+				<string>com.tableausoftware.postgresql</string>
+			</dict>
+			<dict>
+				<key>attributeSetting</key>
+				<integer>1</integer>
+				<key>choiceAttribute</key>
+				<string>selected</string>
+				<key>choiceIdentifier</key>
+				<string>com.simba.sparkodbc</string>
+			</dict>
+			<dict>
+				<key>attributeSetting</key>
+				<integer>1</integer>
+				<key>choiceAttribute</key>
+				<string>selected</string>
+				<key>choiceIdentifier</key>
+				<string>com.simba.sqlserverodbc</string>
+			</dict>
+		</array>
+		<key>installer_item_hash</key>
+		<string>f0e750c4fb2b95a725af224cf84741057850aa3d7ccd4db61af2b4399fea0e70</string>
+		<key>installer_item_location</key>
+		<string>apps/Tableau/TableauDesktop-10.3.1.dmg</string>
+		<key>installer_item_size</key>
+		<integer>423046</integer>
+		<key>minimum_os_version</key>
+		<string>10.5.0</string>
+		<key>name</key>
+		<string>TableauDesktop</string>
+		<key>receipts</key>
+		<array>
+			<dict>
+				<key>installed_size</key>
+				<integer>332</integer>
+				<key>packageid</key>
+				<string>com.tableausoftware.FLEXNet.11.14.0</string>
+				<key>version</key>
+				<string>11.14.0</string>
+			</dict>
+			<dict>
+				<key>installed_size</key>
+				<integer>1010886</integer>
+				<key>packageid</key>
+				<string>com.tableausoftware.Desktop.app</string>
+				<key>version</key>
+				<string>"10300.17.0615.2100" </string>
+			</dict>
+			<dict>
+				<key>installed_size</key>
+				<integer>67839</integer>
+				<key>packageid</key>
+				<string>com.amazon.redshiftodbc</string>
+				<key>version</key>
+				<string>1.2.6</string>
+			</dict>
+			<dict>
+				<key>installed_size</key>
+				<integer>185370</integer>
+				<key>packageid</key>
+				<string>com.tableausoftware.oracle</string>
+				<key>version</key>
+				<string>11.2.0.5</string>
+			</dict>
+			<dict>
+				<key>installed_size</key>
+				<integer>616</integer>
+				<key>packageid</key>
+				<string>com.tableausoftware.postgresql</string>
+				<key>version</key>
+				<string>9.5.3.0</string>
+			</dict>
+			<dict>
+				<key>installed_size</key>
+				<integer>90299</integer>
+				<key>packageid</key>
+				<string>simba.sparkodbc</string>
+				<key>version</key>
+				<string>1.2.3.1004</string>
+			</dict>
+			<dict>
+				<key>installed_size</key>
+				<integer>40709</integer>
+				<key>packageid</key>
+				<string>com.simba.sqlserverodbc</string>
+				<key>version</key>
+				<string>1.2.3</string>
+			</dict>
+		</array>
+		<key>unattended_install</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>removepackages</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>10.3.1</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
 		<key>catalogs</key>
 		<array>
 			<string>production</string>
@@ -16965,6 +17288,74 @@ exit 0
 		<true/>
 		<key>version</key>
 		<string>52.2.0</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>production</string>
+		</array>
+		<key>category</key>
+		<string>Email</string>
+		<key>description</key>
+		<string>Mozilla Thunderbird is a free and open source mail client.</string>
+		<key>developer</key>
+		<string>Mozilla Foundation</string>
+		<key>display_name</key>
+		<string>Mozilla Thunderbird</string>
+		<key>icon_hash</key>
+		<string>8c873883c723d52329090ffc8944231f2e6959350096e4fe318f970c72bf043a</string>
+		<key>installer_item_hash</key>
+		<string>d28e27d5c81ca979c0ca7e02499ac639ed7ff7085f7783ba7ec7c8ca436f2173</string>
+		<key>installer_item_location</key>
+		<string>apps/thunderbird/Thunderbird-52.2.1.dmg</string>
+		<key>installer_item_size</key>
+		<integer>77209</integer>
+		<key>installer_type</key>
+		<string>copy_from_dmg</string>
+		<key>installs</key>
+		<array>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>org.mozilla.thunderbird</string>
+				<key>CFBundleName</key>
+				<string>Thunderbird</string>
+				<key>CFBundleShortVersionString</key>
+				<string>52.2.1</string>
+				<key>CFBundleVersion</key>
+				<string>52.2.1</string>
+				<key>minosversion</key>
+				<string>10.9.0</string>
+				<key>path</key>
+				<string>/Applications/Thunderbird.app</string>
+				<key>type</key>
+				<string>application</string>
+				<key>version_comparison_key</key>
+				<string>CFBundleShortVersionString</string>
+			</dict>
+		</array>
+		<key>items_to_copy</key>
+		<array>
+			<dict>
+				<key>destination_path</key>
+				<string>/Applications</string>
+				<key>source_item</key>
+				<string>Thunderbird.app</string>
+			</dict>
+		</array>
+		<key>minimum_os_version</key>
+		<string>10.9.0</string>
+		<key>name</key>
+		<string>Thunderbird</string>
+		<key>unattended_install</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>remove_copied_items</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>52.2.1</string>
 	</dict>
 	<dict>
 		<key>autoremove</key>
