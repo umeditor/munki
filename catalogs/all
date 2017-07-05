@@ -8933,6 +8933,74 @@ fi
 		<key>icon_hash</key>
 		<string>5b03e872f794577b1f557fb24a953af884e9314dfc0dc4697264e465675fc7eb</string>
 		<key>installer_item_hash</key>
+		<string>5ec2a1bac1059932399bdbbc9fb64fdd51f069db8768f2b52b080218eb019773</string>
+		<key>installer_item_location</key>
+		<string>apps/firefox/Firefox-54.0.1.dmg</string>
+		<key>installer_item_size</key>
+		<integer>58252</integer>
+		<key>installer_type</key>
+		<string>copy_from_dmg</string>
+		<key>installs</key>
+		<array>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>org.mozilla.firefox</string>
+				<key>CFBundleName</key>
+				<string>Firefox</string>
+				<key>CFBundleShortVersionString</key>
+				<string>54.0.1</string>
+				<key>CFBundleVersion</key>
+				<string>5417.6.28</string>
+				<key>minosversion</key>
+				<string>10.9.0</string>
+				<key>path</key>
+				<string>/Applications/Firefox.app</string>
+				<key>type</key>
+				<string>application</string>
+				<key>version_comparison_key</key>
+				<string>CFBundleShortVersionString</string>
+			</dict>
+		</array>
+		<key>items_to_copy</key>
+		<array>
+			<dict>
+				<key>destination_path</key>
+				<string>/Applications</string>
+				<key>source_item</key>
+				<string>Firefox.app</string>
+			</dict>
+		</array>
+		<key>minimum_os_version</key>
+		<string>10.9.0</string>
+		<key>name</key>
+		<string>Firefox</string>
+		<key>unattended_install</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>remove_copied_items</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>54.0.1</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>production</string>
+		</array>
+		<key>category</key>
+		<string>Internet</string>
+		<key>description</key>
+		<string>Mozilla Firefox is a free and open source web browser.</string>
+		<key>developer</key>
+		<string>Mozilla</string>
+		<key>display_name</key>
+		<string>Mozilla Firefox</string>
+		<key>icon_hash</key>
+		<string>5b03e872f794577b1f557fb24a953af884e9314dfc0dc4697264e465675fc7eb</string>
+		<key>installer_item_hash</key>
 		<string>0e7c03fb78665de30c30025b188c876f0a50e75f06b0d84bda5b9e05ce5846ce</string>
 		<key>installer_item_location</key>
 		<string>apps/firefox/Firefox-54.0.dmg</string>
@@ -17793,6 +17861,74 @@ exit 0
 		<string>2.2.4</string>
 	</dict>
 	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>production</string>
+		</array>
+		<key>description</key>
+		<string>VLC is a free and open source cross-platform multimedia player and framework that plays most multimedia files as well as DVD, Audio CD, VCD, and various streaming protocols.</string>
+		<key>display_name</key>
+		<string>VLC Media Player</string>
+		<key>icon_hash</key>
+		<string>988ee7118c8b9b25c7f7b3f22e87818dc8e630f593613489c3dfdf69897c78ff</string>
+		<key>installer_item_hash</key>
+		<string>9826a85aab0c6dca2361c70a97fa12d8f2aa140328bdc80e68b659f9228f22fd</string>
+		<key>installer_item_location</key>
+		<string>apps/VLC/VLC-2.2.6.dmg</string>
+		<key>installer_item_size</key>
+		<integer>36425</integer>
+		<key>installer_type</key>
+		<string>copy_from_dmg</string>
+		<key>installs</key>
+		<array>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>org.videolan.vlc</string>
+				<key>CFBundleName</key>
+				<string>VLC media player</string>
+				<key>CFBundleShortVersionString</key>
+				<string>2.2.6</string>
+				<key>CFBundleVersion</key>
+				<string>2.2.6</string>
+				<key>minosversion</key>
+				<string>10.6.0</string>
+				<key>path</key>
+				<string>/Applications/VLC.app</string>
+				<key>type</key>
+				<string>application</string>
+				<key>version_comparison_key</key>
+				<string>CFBundleShortVersionString</string>
+			</dict>
+		</array>
+		<key>items_to_copy</key>
+		<array>
+			<dict>
+				<key>destination_path</key>
+				<string>/Applications</string>
+				<key>source_item</key>
+				<string>VLC.app</string>
+			</dict>
+		</array>
+		<key>minimum_os_version</key>
+		<string>10.6.0</string>
+		<key>name</key>
+		<string>VLC</string>
+		<key>supported_architectures</key>
+		<array>
+			<string>x86_64</string>
+		</array>
+		<key>unattended_install</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>remove_copied_items</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>2.2.6</string>
+	</dict>
+	<dict>
 		<key>Category</key>
 		<string>Utilities</string>
 		<key>autoremove</key>
@@ -19268,7 +19404,8 @@ defaults write /Library/Preferences/com.github.salopensource.sal.plist ServerURL
 		<key>autoremove</key>
 		<false/>
 		<key>blocking_applications</key>
-		<array/>
+		<array>
+		</array>
 		<key>catalogs</key>
 		<array>
 			<string>production</string>
@@ -22895,7 +23032,8 @@ fi
 		<key>uninstallable</key>
 		<true/>
 		<key>update_for</key>
-		<array/>
+		<array>
+		</array>
 		<key>version</key>
 		<string>1.0</string>
 	</dict>
@@ -23649,6 +23787,55 @@ defaults write /Library/Preferences/ManagedInstalls.plist IconURL "https://munki
 		<true/>
 		<key>version</key>
 		<string>1.19.4</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>production</string>
+		</array>
+		<key>category</key>
+		<string>Utilities</string>
+		<key>description</key>
+		<string>VeraCrypt is an open-source utility used for on-the-fly encryption. It can create a virtual encrypted disk within a file or encrypt an entire partition.</string>
+		<key>developer</key>
+		<string>IDRIX</string>
+		<key>icon_hash</key>
+		<string>bdcd496d38dc3b28b1ae0f111d5b0554b907b48feafc559c8e79f622422cb64f</string>
+		<key>installed_size</key>
+		<integer>21060</integer>
+		<key>installer_item_hash</key>
+		<string>c7d62642bb0ed9c43c975fe2e4cb079fcf51355de7fb99720fa9048215a5b923</string>
+		<key>installer_item_location</key>
+		<string>utilities/VeraCrypt/VeraCrypt-1.20.3.pkg</string>
+		<key>installer_item_size</key>
+		<integer>9616</integer>
+		<key>minimum_os_version</key>
+		<string>10.5.0</string>
+		<key>name</key>
+		<string>VeraCrypt</string>
+		<key>receipts</key>
+		<array>
+			<dict>
+				<key>installed_size</key>
+				<integer>21060</integer>
+				<key>packageid</key>
+				<string>com.idrix.pkg.veracrypt</string>
+				<key>version</key>
+				<string>1.20.3</string>
+			</dict>
+		</array>
+		<key>requires</key>
+		<array>
+			<string>osxfuse</string>
+		</array>
+		<key>uninstall_method</key>
+		<string>removepackages</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>1.20.3</string>
 	</dict>
 	<dict>
 		<key>autoremove</key>
