@@ -5238,6 +5238,74 @@ exit 0
 		<array>
 			<string>production</string>
 		</array>
+		<key>category</key>
+		<string>Music</string>
+		<key>description</key>
+		<string>Spotify is a music streaming service offering unlimited streaming of selected music from a range of major and independent record labels.</string>
+		<key>developer</key>
+		<string>Spotify</string>
+		<key>display_name</key>
+		<string>Spotify</string>
+		<key>icon_hash</key>
+		<string>296a19e886926a9f063abe4f853f97e9d0fe721259975dfd308317d83ab06b72</string>
+		<key>installer_item_hash</key>
+		<string>1960df20fe7f311df1787d785c5d0930df391c9fb42837aabc8c333d7254fd2f</string>
+		<key>installer_item_location</key>
+		<string>apps/Spotify-1.0.59.395.ge6ca9946.dmg</string>
+		<key>installer_item_size</key>
+		<integer>98026</integer>
+		<key>installer_type</key>
+		<string>copy_from_dmg</string>
+		<key>installs</key>
+		<array>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>com.spotify.client</string>
+				<key>CFBundleName</key>
+				<string>Spotify</string>
+				<key>CFBundleShortVersionString</key>
+				<string>1.0.59.395.ge6ca9946</string>
+				<key>CFBundleVersion</key>
+				<string>1.0.59.395.ge6ca9946-18</string>
+				<key>minosversion</key>
+				<string>10.7.0</string>
+				<key>path</key>
+				<string>/Applications/Spotify.app</string>
+				<key>type</key>
+				<string>application</string>
+				<key>version_comparison_key</key>
+				<string>CFBundleShortVersionString</string>
+			</dict>
+		</array>
+		<key>items_to_copy</key>
+		<array>
+			<dict>
+				<key>destination_path</key>
+				<string>/Applications</string>
+				<key>source_item</key>
+				<string>Spotify.app</string>
+			</dict>
+		</array>
+		<key>minimum_os_version</key>
+		<string>10.7.0</string>
+		<key>name</key>
+		<string>Spotify</string>
+		<key>unattended_install</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>remove_copied_items</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>1.0.59.395.ge6ca9946</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>production</string>
+		</array>
 		<key>description</key>
 		<string>The Unarchiver is a much more capable replacement for "Archive Utility.app", the built-in archive unpacker program on Mac OS X. The Unarchiver is designed to handle many more formats than Archive Utility, and to better fit in with the design of the Finder.</string>
 		<key>display_name</key>
@@ -15043,6 +15111,72 @@ rm '/Library/PrivilegedHelperTools/Google Drive Icon Helper'
 		<false/>
 		<key>blocking_applications</key>
 		<array>
+			<string>Microsoft Outlook</string>
+			<string>Microsoft Error Reporting</string>
+			<string>Microsoft Auto Update</string>
+		</array>
+		<key>catalogs</key>
+		<array>
+			<string>production</string>
+		</array>
+		<key>description</key>
+		<string>&lt;html&gt;&lt;p style="font-family:Helvetica;font-size:12px"&gt;For detailed information about this update, please visit the following Web site: &lt;/p&gt;
+
+&lt;p style="font-family:Helvetica;font-size:12px"&gt;&lt;a href="https://go.microsoft.com/fwlink/?LinkID=831049" target="_blank"&gt;https://go.microsoft.com/fwlink/?LinkID=831049&lt;/a&gt;&lt;/p&gt;&lt;/html&gt;</string>
+		<key>display_name</key>
+		<string>Microsoft Outlook for Mac</string>
+		<key>icon_hash</key>
+		<string>7d0893e3783d74c85f8a9ead4cdaed4e1c11645b55bd5513f679e3bdfda84af4</string>
+		<key>installed_size</key>
+		<integer>1632881</integer>
+		<key>installer_item_hash</key>
+		<string>04b7b68c384532f7e702b32a5b36696e69f53728be258734eb48fccf307fbf4a</string>
+		<key>installer_item_location</key>
+		<string>apps/Office2016/MSOutlook2016-15.36.17072101.pkg</string>
+		<key>installer_item_size</key>
+		<integer>790015</integer>
+		<key>installs</key>
+		<array>
+			<dict>
+				<key>CFBundleVersion</key>
+				<string>15.36.17072101</string>
+				<key>path</key>
+				<string>/Applications/Microsoft Outlook.app</string>
+				<key>type</key>
+				<string>application</string>
+				<key>version_comparison_key</key>
+				<string>CFBundleVersion</string>
+			</dict>
+		</array>
+		<key>minimum_os_version</key>
+		<string>10.10.0</string>
+		<key>name</key>
+		<string>MSOutlook2016</string>
+		<key>receipts</key>
+		<array>
+			<dict>
+				<key>installed_size</key>
+				<integer>1632881</integer>
+				<key>packageid</key>
+				<string>com.microsoft.package.Microsoft_Outlook.app</string>
+				<key>version</key>
+				<string>15.36.17072101</string>
+			</dict>
+		</array>
+		<key>unattended_install</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>removepackages</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>15.36.17072101</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>blocking_applications</key>
+		<array>
 			<string>Microsoft PowerPoint</string>
 			<string>Microsoft Error Reporting</string>
 			<string>Microsoft Auto Update</string>
@@ -16829,6 +16963,78 @@ exit 0
 		<true/>
 		<key>version</key>
 		<string>1.0.143</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>production</string>
+		</array>
+		<key>category</key>
+		<string>Mathematics</string>
+		<key>description</key>
+		<string>RStudio is the premier integrated development environment for R. It is available in open source and commercial editions and runs on the desktop (Windows, Mac, and Linux) or over the web with RStudio Server.</string>
+		<key>developer</key>
+		<string>RStudio</string>
+		<key>display_name</key>
+		<string>RStudio</string>
+		<key>icon_hash</key>
+		<string>8af048193cf65c473dfe8bd761c4c3ef930f1d98702b1c9d3f467926df3d581f</string>
+		<key>installer_item_hash</key>
+		<string>a33d6c0bc02307b10c1f88b938c9b76209d37eb02ceff17661a99a4463aafcbd</string>
+		<key>installer_item_location</key>
+		<string>apps/rstudio/RStudio-1.0.153.dmg</string>
+		<key>installer_item_size</key>
+		<integer>72931</integer>
+		<key>installer_type</key>
+		<string>copy_from_dmg</string>
+		<key>installs</key>
+		<array>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>org.rstudio.RStudio</string>
+				<key>CFBundleName</key>
+				<string>RStudio</string>
+				<key>CFBundleShortVersionString</key>
+				<string>1.0.153</string>
+				<key>CFBundleVersion</key>
+				<string>1.0.153</string>
+				<key>minosversion</key>
+				<string>10.6.0</string>
+				<key>path</key>
+				<string>/Applications/RStudio.app</string>
+				<key>type</key>
+				<string>application</string>
+				<key>version_comparison_key</key>
+				<string>CFBundleShortVersionString</string>
+			</dict>
+		</array>
+		<key>items_to_copy</key>
+		<array>
+			<dict>
+				<key>destination_path</key>
+				<string>/Applications</string>
+				<key>source_item</key>
+				<string>RStudio.app</string>
+			</dict>
+		</array>
+		<key>minimum_os_version</key>
+		<string>10.6.0</string>
+		<key>name</key>
+		<string>RStudio</string>
+		<key>requires</key>
+		<array>
+			<string>R</string>
+		</array>
+		<key>unattended_install</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>remove_copied_items</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>1.0.153</string>
 	</dict>
 	<dict>
 		<key>autoremove</key>
@@ -19596,6 +19802,84 @@ defaults write /Library/Preferences/com.github.salopensource.sal.plist ServerURL
 		<true/>
 		<key>version</key>
 		<string>3.6.2</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>production</string>
+		</array>
+		<key>description</key>
+		<string>FUSE for OS X allows you to extend OS X's native file handling capabilities via third-party file systems. OSXFUSE is a successor to MacFUSE, which has been used as a software building block by dozens of products, but is no longer being maintained.</string>
+		<key>display_name</key>
+		<string>OSXFUSE</string>
+		<key>installed_size</key>
+		<integer>8800</integer>
+		<key>installer_choices_xml</key>
+		<array>
+			<dict>
+				<key>attributeSetting</key>
+				<integer>1</integer>
+				<key>choiceAttribute</key>
+				<string>selected</string>
+				<key>choiceIdentifier</key>
+				<string>10.8$OSXFUSEMacFUSE</string>
+			</dict>
+			<dict>
+				<key>attributeSetting</key>
+				<integer>1</integer>
+				<key>choiceAttribute</key>
+				<string>selected</string>
+				<key>choiceIdentifier</key>
+				<string>com.github.osxfuse.pkg.MacFUSE</string>
+			</dict>
+		</array>
+		<key>installer_item_hash</key>
+		<string>19f4fda0f1258c688b9839155b60ab1f7b24b09f2fa01d58c3a4b6b5c43c215a</string>
+		<key>installer_item_location</key>
+		<string>drivers/osxfuse-3.6.3.pkg</string>
+		<key>installer_item_size</key>
+		<integer>5142</integer>
+		<key>minimum_os_version</key>
+		<string>10.5.0</string>
+		<key>name</key>
+		<string>osxfuse</string>
+		<key>receipts</key>
+		<array>
+			<dict>
+				<key>installed_size</key>
+				<integer>4388</integer>
+				<key>packageid</key>
+				<string>com.github.osxfuse.pkg.Core</string>
+				<key>version</key>
+				<string>3.6.3</string>
+			</dict>
+			<dict>
+				<key>installed_size</key>
+				<integer>2669</integer>
+				<key>packageid</key>
+				<string>com.github.osxfuse.pkg.PrefPane</string>
+				<key>version</key>
+				<string>3.6.3</string>
+			</dict>
+			<dict>
+				<key>installed_size</key>
+				<integer>1743</integer>
+				<key>packageid</key>
+				<string>com.github.osxfuse.pkg.MacFUSE</string>
+				<key>version</key>
+				<string>3.6.3</string>
+			</dict>
+		</array>
+		<key>unattended_install</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>removepackages</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>3.6.3</string>
 	</dict>
 	<dict>
 		<key>autoremove</key>
