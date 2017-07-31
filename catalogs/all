@@ -16894,6 +16894,110 @@ exit 0
 			<string>production</string>
 		</array>
 		<key>category</key>
+		<string>Developer</string>
+		<key>description</key>
+		<string>R is a language and environment for statistical computing and graphics which provides a wide variety of statistical and graphical techniques: linear and nonlinear modelling, statistical tests, time series analysis, classification, clustering, etc.</string>
+		<key>developer</key>
+		<string>R Foundation</string>
+		<key>display_name</key>
+		<string>R for Mac OS X</string>
+		<key>installed_size</key>
+		<integer>142720</integer>
+		<key>installer_item_hash</key>
+		<string>ee4d0bb6954866ee23f0eb97f9a69535e81108913121acc2ae296dbd14265d2b</string>
+		<key>installer_item_location</key>
+		<string>apps/R/R-3.4.1.pkg</string>
+		<key>installer_item_size</key>
+		<integer>62674</integer>
+		<key>installs</key>
+		<array>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>org.R-project.R</string>
+				<key>CFBundleName</key>
+				<string>R</string>
+				<key>CFBundleShortVersionString</key>
+				<string>R 3.4.1 GUI 1.70 El Capitan build</string>
+				<key>CFBundleVersion</key>
+				<string>7375</string>
+				<key>minosversion</key>
+				<string>MIN_VERSION</string>
+				<key>path</key>
+				<string>/Applications/R.app</string>
+				<key>type</key>
+				<string>application</string>
+				<key>version_comparison_key</key>
+				<string>CFBundleVersion</string>
+			</dict>
+			<dict>
+				<key>CFBundleVersion</key>
+				<string>3.4.1</string>
+				<key>path</key>
+				<string>/Library/Frameworks/R.framework</string>
+				<key>type</key>
+				<string>bundle</string>
+				<key>version_comparison_key</key>
+				<string>CFBundleVersion</string>
+			</dict>
+		</array>
+		<key>minimum_os_version</key>
+		<string>10.5.0</string>
+		<key>name</key>
+		<string>R</string>
+		<key>receipts</key>
+		<array>
+			<dict>
+				<key>installed_size</key>
+				<integer>95504</integer>
+				<key>packageid</key>
+				<string>org.r-project.R.el-capitan.fw.pkg</string>
+				<key>version</key>
+				<string>30472865</string>
+			</dict>
+			<dict>
+				<key>installed_size</key>
+				<integer>4168</integer>
+				<key>packageid</key>
+				<string>org.r-project.R.el-capitan.GUI.pkg</string>
+				<key>version</key>
+				<string>1.70</string>
+			</dict>
+			<dict>
+				<key>installed_size</key>
+				<integer>35092</integer>
+				<key>packageid</key>
+				<string>org.r-project.x86_64.tcltk.x11</string>
+				<key>version</key>
+				<string>8.6.6</string>
+			</dict>
+			<dict>
+				<key>installed_size</key>
+				<integer>7956</integer>
+				<key>packageid</key>
+				<string>org.r-project.x86_64.texinfo</string>
+				<key>version</key>
+				<string>5.2</string>
+			</dict>
+		</array>
+		<key>unattended_install</key>
+		<true/>
+		<key>unattended_uninstall</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>removepackages</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>3.4.1</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>production</string>
+		</array>
+		<key>category</key>
 		<string>Utilities</string>
 		<key>description</key>
 		<string>With the Microsoft Remote Desktop app, you can connect to a remote PC and your work resources from almost anywhere. Experience the power of Windows with RemoteFX in a Remote Desktop client designed to help you get your work done wherever you are.</string>
@@ -21397,6 +21501,70 @@ defaults write /Library/Preferences/com.github.salopensource.sal.plist ServerURL
 		<key>display_name</key>
 		<string>Oracle Java 8</string>
 		<key>installed_size</key>
+		<integer>171020</integer>
+		<key>installer_item_hash</key>
+		<string>15b75721743430d04a44262a7e75118b8d2343f90d6f3efdfc4732a3ae3ea857</string>
+		<key>installer_item_location</key>
+		<string>plugins/Java/OracleJava8-1.8.144.01.pkg</string>
+		<key>installer_item_size</key>
+		<integer>61485</integer>
+		<key>installs</key>
+		<array>
+			<dict>
+				<key>CFBundleShortVersionString</key>
+				<string>1.8.0_144</string>
+				<key>CFBundleVersion</key>
+				<string>11.144.2.01</string>
+				<key>path</key>
+				<string>/Library/Internet Plug-Ins/JavaAppletPlugin.plugin/Contents/Home/lib/deploy/JavaControlPanel.prefPane</string>
+				<key>type</key>
+				<string>bundle</string>
+				<key>version_comparison_key</key>
+				<string>CFBundleVersion</string>
+			</dict>
+		</array>
+		<key>minimum_os_version</key>
+		<string>10.7.3</string>
+		<key>name</key>
+		<string>OracleJava8</string>
+		<key>receipts</key>
+		<array>
+			<dict>
+				<key>installed_size</key>
+				<integer>171020</integer>
+				<key>packageid</key>
+				<string>com.oracle.jre</string>
+				<key>version</key>
+				<string>1.0</string>
+			</dict>
+		</array>
+		<key>unattended_install</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>uninstall_script</string>
+		<key>uninstall_script</key>
+		<string>#!/bin/sh
+            # From http://www.java.com/en/download/help/mac_uninstall_java.xml
+            rm -fr /Library/Internet\ Plug-Ins/JavaAppletPlugin.plugin
+            pkgutil --forget com.oracle.jre
+            </string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>1.8.144.01</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>production</string>
+		</array>
+		<key>description</key>
+		<string>Java SE Runtime Environment 8 enables support for running Java-powered applets and applications.</string>
+		<key>display_name</key>
+		<string>Oracle Java 8</string>
+		<key>installed_size</key>
 		<integer>174988</integer>
 		<key>installer_item_hash</key>
 		<string>522bbb1fd20fe1830ee1d05c4b7ab74c76ff506976ed04bafca427a0d41a0745</string>
@@ -25608,6 +25776,85 @@ fi
 		<true/>
 		<key>version</key>
 		<string>1.8.0_131</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>production</string>
+		</array>
+		<key>category</key>
+		<string>Utility</string>
+		<key>description</key>
+		<string>The JDK is a development environment for building applications, applets, and components using the Java programming language. The JDK includes tools useful for developing and testing programs written in the Java programming language and running on the Java platform.</string>
+		<key>developer</key>
+		<string>Oracle</string>
+		<key>display_name</key>
+		<string>Oracle Java 8 development kit</string>
+		<key>icon_hash</key>
+		<string>d54e1ca541ba7a220d54b2b0b39f450df49e42aeb848cd1552d02bfa89e17847</string>
+		<key>installed_size</key>
+		<integer>513188</integer>
+		<key>installer_item_hash</key>
+		<string>2450b35e10295ccf3fb1596bdea6f8f5670f7200ae3ac592eb6a54cc030cf94b</string>
+		<key>installer_item_location</key>
+		<string>utility/Oracle/OracleJava8JDK-1.8.0_144.dmg</string>
+		<key>installer_item_size</key>
+		<integer>232038</integer>
+		<key>installs</key>
+		<array>
+			<dict>
+				<key>CFBundleShortVersionString</key>
+				<string>1.0</string>
+				<key>CFBundleVersion</key>
+				<string>1.8.0_144</string>
+				<key>path</key>
+				<string>/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk</string>
+				<key>type</key>
+				<string>bundle</string>
+				<key>version_comparison_key</key>
+				<string>CFBundleVersion</string>
+			</dict>
+		</array>
+		<key>minimum_os_version</key>
+		<string>10.7.4</string>
+		<key>name</key>
+		<string>OracleJava8JDK</string>
+		<key>receipts</key>
+		<array>
+			<dict>
+				<key>installed_size</key>
+				<integer>342168</integer>
+				<key>packageid</key>
+				<string>com.oracle.jdk8u144</string>
+				<key>version</key>
+				<string>1.1</string>
+			</dict>
+			<dict>
+				<key>installed_size</key>
+				<integer>171020</integer>
+				<key>packageid</key>
+				<string>com.oracle.jre</string>
+				<key>version</key>
+				<string>1.1</string>
+			</dict>
+		</array>
+		<key>supported_architectures</key>
+		<array>
+			<string>i386</string>
+			<string>x86_64</string>
+		</array>
+		<key>unattended_install</key>
+		<true/>
+		<key>unattended_uninstall</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>removepackages</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>1.8.0_144</string>
 	</dict>
 </array>
 </plist>
