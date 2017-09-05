@@ -2808,6 +2808,74 @@ exit 0
 			<string>production</string>
 		</array>
 		<key>category</key>
+		<string>Utilities</string>
+		<key>description</key>
+		<string>With an easy to use interface, connect to FTP, SFTP, WebDAV, Amazon S3, Google Storage, Windows Azure, Rackspace Cloud Files and even Google Docs.</string>
+		<key>developer</key>
+		<string>David V. Kocher and Yves Langisch</string>
+		<key>display_name</key>
+		<string>Cyberduck</string>
+		<key>icon_hash</key>
+		<string>db905490a75a670d961089cafd3cfd165ad0b220d861e680648377dbcf32666c</string>
+		<key>installer_item_hash</key>
+		<string>21c1d10ad9070a464271e2915fe60465bd9f9cf7fac3c2418de81495f8f1a610</string>
+		<key>installer_item_location</key>
+		<string>apps/Cyberduck-6.2.4.dmg</string>
+		<key>installer_item_size</key>
+		<integer>97540</integer>
+		<key>installer_type</key>
+		<string>copy_from_dmg</string>
+		<key>installs</key>
+		<array>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>ch.sudo.cyberduck</string>
+				<key>CFBundleName</key>
+				<string>Cyberduck</string>
+				<key>CFBundleShortVersionString</key>
+				<string>6.2.4</string>
+				<key>CFBundleVersion</key>
+				<string>26305</string>
+				<key>minosversion</key>
+				<string>10.7.3</string>
+				<key>path</key>
+				<string>/Applications/Cyberduck.app</string>
+				<key>type</key>
+				<string>application</string>
+				<key>version_comparison_key</key>
+				<string>CFBundleShortVersionString</string>
+			</dict>
+		</array>
+		<key>items_to_copy</key>
+		<array>
+			<dict>
+				<key>destination_path</key>
+				<string>/Applications</string>
+				<key>source_item</key>
+				<string>Cyberduck.app</string>
+			</dict>
+		</array>
+		<key>minimum_os_version</key>
+		<string>10.7.3</string>
+		<key>name</key>
+		<string>Cyberduck</string>
+		<key>unattended_install</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>remove_copied_items</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>6.2.4</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>production</string>
+		</array>
+		<key>category</key>
 		<string>Internet</string>
 		<key>description</key>
 		<string>Chrome is a fast, simple, and secure web browser, built for the modern web.</string>
@@ -5061,6 +5129,72 @@ exit 0
 		<key>icon_hash</key>
 		<string>757274136e385740dfcd2c2ca0852608befe8288cf041731451aa682bd1f4b9e</string>
 		<key>installed_size</key>
+		<integer>83732</integer>
+		<key>installer_item_hash</key>
+		<string>60c7ecd01283196a59baa5775e918439f5c09e7e627e8df354bf264faec310ec</string>
+		<key>installer_item_location</key>
+		<string>apps/SkypeForBusiness-16.10.97.pkg</string>
+		<key>installer_item_size</key>
+		<integer>30757</integer>
+		<key>installs</key>
+		<array>
+			<dict>
+				<key>CFBundleVersion</key>
+				<string>16.10.97</string>
+				<key>path</key>
+				<string>/Applications/Skype for Business.app</string>
+				<key>type</key>
+				<string>application</string>
+				<key>version_comparison_key</key>
+				<string>CFBundleVersion</string>
+			</dict>
+		</array>
+		<key>minimum_os_version</key>
+		<string>10.11.0</string>
+		<key>name</key>
+		<string>SkypeForBusiness</string>
+		<key>receipts</key>
+		<array>
+			<dict>
+				<key>installed_size</key>
+				<integer>83732</integer>
+				<key>packageid</key>
+				<string>com.microsoft.SkypeForBusiness</string>
+				<key>version</key>
+				<string>16.10.97</string>
+			</dict>
+		</array>
+		<key>unattended_install</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>removepackages</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>16.10.97</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>blocking_applications</key>
+		<array>
+			<string>Skype for Business</string>
+			<string>Microsoft Error Reporting</string>
+			<string>Microsoft Auto Update</string>
+		</array>
+		<key>catalogs</key>
+		<array>
+			<string>production</string>
+		</array>
+		<key>description</key>
+		<string>&lt;html&gt;&lt;p style="font-family:Helvetica;font-size:12px"&gt;For detailed information about this update, please visit the following Web site: &lt;/p&gt;
+
+&lt;p style="font-family:Helvetica;font-size:12px"&gt;&lt;a href="https://go.microsoft.com/fwlink/?linkid=832970" target="_blank"&gt;https://go.microsoft.com/fwlink/?linkid=832970&lt;/a&gt;&lt;/p&gt;&lt;/html&gt;</string>
+		<key>display_name</key>
+		<string>Skype for Business</string>
+		<key>icon_hash</key>
+		<string>757274136e385740dfcd2c2ca0852608befe8288cf041731451aa682bd1f4b9e</string>
+		<key>installed_size</key>
 		<integer>83646</integer>
 		<key>installer_item_hash</key>
 		<string>4181d23e6cc130f3bf716a3abcfaeacc931d0ae048b814bb5fd8bdb47d5ba5a1</string>
@@ -6112,6 +6246,70 @@ exit 0
 		<true/>
 		<key>version</key>
 		<string>3.11.1</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>production</string>
+		</array>
+		<key>description</key>
+		<string>The Unarchiver is a much more capable replacement for "Archive Utility.app", the built-in archive unpacker program on Mac OS X. The Unarchiver is designed to handle many more formats than Archive Utility, and to better fit in with the design of the Finder.</string>
+		<key>display_name</key>
+		<string>The Unarchiver</string>
+		<key>icon_hash</key>
+		<string>7a283f1495aef6bf64956b07476a317246546c602752fdb49556126e756b9d10</string>
+		<key>installer_item_hash</key>
+		<string>aac18688513bd7580898a0fafee2a432b6b2e05bc8155d441e4ef37812a826b0</string>
+		<key>installer_item_location</key>
+		<string>apps/TheUnarchiver-3.11.2.dmg</string>
+		<key>installer_item_size</key>
+		<integer>5293</integer>
+		<key>installer_type</key>
+		<string>copy_from_dmg</string>
+		<key>installs</key>
+		<array>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>cx.c3.theunarchiver</string>
+				<key>CFBundleName</key>
+				<string>The Unarchiver</string>
+				<key>CFBundleShortVersionString</key>
+				<string>3.11.2</string>
+				<key>CFBundleVersion</key>
+				<string>113</string>
+				<key>minosversion</key>
+				<string>10.7.0</string>
+				<key>path</key>
+				<string>/Applications/The Unarchiver.app</string>
+				<key>type</key>
+				<string>application</string>
+				<key>version_comparison_key</key>
+				<string>CFBundleShortVersionString</string>
+			</dict>
+		</array>
+		<key>items_to_copy</key>
+		<array>
+			<dict>
+				<key>destination_path</key>
+				<string>/Applications</string>
+				<key>source_item</key>
+				<string>The Unarchiver.app</string>
+			</dict>
+		</array>
+		<key>minimum_os_version</key>
+		<string>10.7.0</string>
+		<key>name</key>
+		<string>TheUnarchiver</string>
+		<key>unattended_install</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>remove_copied_items</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>3.11.2</string>
 	</dict>
 	<dict>
 		<key>autoremove</key>
@@ -9897,6 +10095,70 @@ fi
 		<true/>
 		<key>version</key>
 		<string>6.11</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>production</string>
+		</array>
+		<key>description</key>
+		<string>Evernote makes it easy to remember things big and small from your everyday life using your computer, phone, tablet and the web.</string>
+		<key>display_name</key>
+		<string>Evernote</string>
+		<key>icon_hash</key>
+		<string>ea4aa511f27c9b26d6464a8f069e2615adfa31165691b9811d2975f2a66e6c7c</string>
+		<key>installer_item_hash</key>
+		<string>0ec99f7fc5e80ec080854864c09aed5716e7c44dd34121a5ccb0cf8886648bb7</string>
+		<key>installer_item_location</key>
+		<string>apps/Evernote/Evernote-6.12.dmg</string>
+		<key>installer_item_size</key>
+		<integer>66372</integer>
+		<key>installer_type</key>
+		<string>copy_from_dmg</string>
+		<key>installs</key>
+		<array>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>com.evernote.Evernote</string>
+				<key>CFBundleName</key>
+				<string>Evernote</string>
+				<key>CFBundleShortVersionString</key>
+				<string>6.12</string>
+				<key>CFBundleVersion</key>
+				<string>455415</string>
+				<key>minosversion</key>
+				<string>10.10</string>
+				<key>path</key>
+				<string>/Applications/Evernote.app</string>
+				<key>type</key>
+				<string>application</string>
+				<key>version_comparison_key</key>
+				<string>CFBundleShortVersionString</string>
+			</dict>
+		</array>
+		<key>items_to_copy</key>
+		<array>
+			<dict>
+				<key>destination_path</key>
+				<string>/Applications</string>
+				<key>source_item</key>
+				<string>Evernote.app</string>
+			</dict>
+		</array>
+		<key>minimum_os_version</key>
+		<string>10.10</string>
+		<key>name</key>
+		<string>Evernote</string>
+		<key>unattended_install</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>remove_copied_items</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>6.12</string>
 	</dict>
 	<dict>
 		<key>autoremove</key>
@@ -22893,8 +23155,7 @@ defaults write /Library/Preferences/com.github.salopensource.sal.plist ServerURL
 		<key>autoremove</key>
 		<false/>
 		<key>blocking_applications</key>
-		<array>
-		</array>
+		<array/>
 		<key>catalogs</key>
 		<array>
 			<string>production</string>
@@ -26585,8 +26846,7 @@ fi
 		<key>uninstallable</key>
 		<true/>
 		<key>update_for</key>
-		<array>
-		</array>
+		<array/>
 		<key>version</key>
 		<string>1.0</string>
 	</dict>
