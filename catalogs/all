@@ -2876,6 +2876,74 @@ exit 0
 			<string>production</string>
 		</array>
 		<key>category</key>
+		<string>Utilities</string>
+		<key>description</key>
+		<string>With an easy to use interface, connect to FTP, SFTP, WebDAV, Amazon S3, Google Storage, Windows Azure, Rackspace Cloud Files and even Google Docs.</string>
+		<key>developer</key>
+		<string>David V. Kocher and Yves Langisch</string>
+		<key>display_name</key>
+		<string>Cyberduck</string>
+		<key>icon_hash</key>
+		<string>db905490a75a670d961089cafd3cfd165ad0b220d861e680648377dbcf32666c</string>
+		<key>installer_item_hash</key>
+		<string>e5fd3bb3938be5dc516cd84d3ba57d8af26ba2cbc6a96984d17db189fe285b13</string>
+		<key>installer_item_location</key>
+		<string>apps/Cyberduck-6.2.6.dmg</string>
+		<key>installer_item_size</key>
+		<integer>96176</integer>
+		<key>installer_type</key>
+		<string>copy_from_dmg</string>
+		<key>installs</key>
+		<array>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>ch.sudo.cyberduck</string>
+				<key>CFBundleName</key>
+				<string>Cyberduck</string>
+				<key>CFBundleShortVersionString</key>
+				<string>6.2.6</string>
+				<key>CFBundleVersion</key>
+				<string>26405</string>
+				<key>minosversion</key>
+				<string>10.7.3</string>
+				<key>path</key>
+				<string>/Applications/Cyberduck.app</string>
+				<key>type</key>
+				<string>application</string>
+				<key>version_comparison_key</key>
+				<string>CFBundleShortVersionString</string>
+			</dict>
+		</array>
+		<key>items_to_copy</key>
+		<array>
+			<dict>
+				<key>destination_path</key>
+				<string>/Applications</string>
+				<key>source_item</key>
+				<string>Cyberduck.app</string>
+			</dict>
+		</array>
+		<key>minimum_os_version</key>
+		<string>10.7.3</string>
+		<key>name</key>
+		<string>Cyberduck</string>
+		<key>unattended_install</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>remove_copied_items</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>6.2.6</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>production</string>
+		</array>
+		<key>category</key>
 		<string>Internet</string>
 		<key>description</key>
 		<string>Chrome is a fast, simple, and secure web browser, built for the modern web.</string>
@@ -3955,6 +4023,74 @@ exit 0
 		<true/>
 		<key>version</key>
 		<string>60.0.3112.90</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>production</string>
+		</array>
+		<key>category</key>
+		<string>Internet</string>
+		<key>description</key>
+		<string>Chrome is a fast, simple, and secure web browser, built for the modern web.</string>
+		<key>developer</key>
+		<string>Google</string>
+		<key>display_name</key>
+		<string>Google Chrome</string>
+		<key>icon_hash</key>
+		<string>5f520eb8787e2174bbd3e358ae055eea44e2194b52b2b7c7fd0beb6c1d089c89</string>
+		<key>installer_item_hash</key>
+		<string>f250ee0ba2d37058be84c99f0f3dd84bb676d0edf06e5c765aa478f1b7dd0fe9</string>
+		<key>installer_item_location</key>
+		<string>apps/GoogleChrome-61.0.3163.79.dmg</string>
+		<key>installer_item_size</key>
+		<integer>62867</integer>
+		<key>installer_type</key>
+		<string>copy_from_dmg</string>
+		<key>installs</key>
+		<array>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>com.google.Chrome</string>
+				<key>CFBundleName</key>
+				<string>Chrome</string>
+				<key>CFBundleShortVersionString</key>
+				<string>61.0.3163.79</string>
+				<key>CFBundleVersion</key>
+				<string>3163.79</string>
+				<key>minosversion</key>
+				<string>10.9.0</string>
+				<key>path</key>
+				<string>/Applications/Google Chrome.app</string>
+				<key>type</key>
+				<string>application</string>
+				<key>version_comparison_key</key>
+				<string>CFBundleShortVersionString</string>
+			</dict>
+		</array>
+		<key>items_to_copy</key>
+		<array>
+			<dict>
+				<key>destination_path</key>
+				<string>/Applications</string>
+				<key>source_item</key>
+				<string>Google Chrome.app</string>
+			</dict>
+		</array>
+		<key>minimum_os_version</key>
+		<string>10.9.0</string>
+		<key>name</key>
+		<string>GoogleChrome</string>
+		<key>unattended_install</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>remove_copied_items</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>61.0.3163.79</string>
 	</dict>
 	<dict>
 		<key>autoremove</key>
@@ -6182,6 +6318,74 @@ exit 0
 		<true/>
 		<key>version</key>
 		<string>1.0.60.492.gbb40dab8</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>production</string>
+		</array>
+		<key>category</key>
+		<string>Music</string>
+		<key>description</key>
+		<string>Spotify is a music streaming service offering unlimited streaming of selected music from a range of major and independent record labels.</string>
+		<key>developer</key>
+		<string>Spotify</string>
+		<key>display_name</key>
+		<string>Spotify</string>
+		<key>icon_hash</key>
+		<string>296a19e886926a9f063abe4f853f97e9d0fe721259975dfd308317d83ab06b72</string>
+		<key>installer_item_hash</key>
+		<string>d32b4c6af649cc4c2122a2edaebfb80b2ae1c198940c9546151d1425c64a51ea</string>
+		<key>installer_item_location</key>
+		<string>apps/Spotify-1.0.62.508.g2c497f24.dmg</string>
+		<key>installer_item_size</key>
+		<integer>99495</integer>
+		<key>installer_type</key>
+		<string>copy_from_dmg</string>
+		<key>installs</key>
+		<array>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>com.spotify.client</string>
+				<key>CFBundleName</key>
+				<string>Spotify</string>
+				<key>CFBundleShortVersionString</key>
+				<string>1.0.62.508.g2c497f24</string>
+				<key>CFBundleVersion</key>
+				<string>1.0.62.508.g2c497f24-26</string>
+				<key>minosversion</key>
+				<string>10.7.0</string>
+				<key>path</key>
+				<string>/Applications/Spotify.app</string>
+				<key>type</key>
+				<string>application</string>
+				<key>version_comparison_key</key>
+				<string>CFBundleShortVersionString</string>
+			</dict>
+		</array>
+		<key>items_to_copy</key>
+		<array>
+			<dict>
+				<key>destination_path</key>
+				<string>/Applications</string>
+				<key>source_item</key>
+				<string>Spotify.app</string>
+			</dict>
+		</array>
+		<key>minimum_os_version</key>
+		<string>10.7.0</string>
+		<key>name</key>
+		<string>Spotify</string>
+		<key>unattended_install</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>remove_copied_items</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>1.0.62.508.g2c497f24</string>
 	</dict>
 	<dict>
 		<key>autoremove</key>
@@ -9767,6 +9971,97 @@ fi
 	<dict>
 		<key>autoremove</key>
 		<false/>
+		<key>blocking_applications</key>
+		<array>
+			<string>/Applications/Dropbox.app/Contents/MacOS/Dropbox</string>
+		</array>
+		<key>catalogs</key>
+		<array>
+			<string>production</string>
+		</array>
+		<key>description</key>
+		<string>Dropbox is a free service that lets you bring all your photos, docs, and videos anywhere. This means that any file you save to your Dropbox will automatically save to all your computers, phones and even the Dropbox website.</string>
+		<key>display_name</key>
+		<string>Dropbox</string>
+		<key>icon_hash</key>
+		<string>0da9f428674fe068e7189aa3fffd77837a82422fa3ea3995528ac2982a52afe1</string>
+		<key>installer_item_hash</key>
+		<string>60c99b4d7bf6ff5a1c5f1ca0bb14ba434e7dde6d07c84d3a87ce03a717426256</string>
+		<key>installer_item_location</key>
+		<string>apps/Dropbox/Dropbox-34.4.20.dmg</string>
+		<key>installer_item_size</key>
+		<integer>102859</integer>
+		<key>installer_type</key>
+		<string>copy_from_dmg</string>
+		<key>installs</key>
+		<array>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>com.getdropbox.dropbox</string>
+				<key>CFBundleName</key>
+				<string>Dropbox</string>
+				<key>CFBundleShortVersionString</key>
+				<string>34.4.20</string>
+				<key>CFBundleVersion</key>
+				<string>34.4.20</string>
+				<key>minosversion</key>
+				<string>10.6</string>
+				<key>path</key>
+				<string>/Applications/Dropbox.app</string>
+				<key>type</key>
+				<string>application</string>
+				<key>version_comparison_key</key>
+				<string>CFBundleShortVersionString</string>
+			</dict>
+		</array>
+		<key>items_to_copy</key>
+		<array>
+			<dict>
+				<key>destination_path</key>
+				<string>/Applications</string>
+				<key>source_item</key>
+				<string>Dropbox.app</string>
+			</dict>
+		</array>
+		<key>minimum_os_version</key>
+		<string>10.6</string>
+		<key>name</key>
+		<string>Dropbox</string>
+		<key>postinstall_script</key>
+		<string>#!/bin/sh
+# based on Ruby postinstall script by Riley Shott:
+# https://groups.google.com/group/munki-dev/browse_thread/thread/a2813e7f62535f13/63d127534541f863
+# modifications:
+# - always extract the helper tool with each install instead of skipping if it exists
+# - remove xattr com.apple.quarantine removal, as Munki will have already done this upon
+#   installation; normal autopkg runs also won't quarantine the download to begin with
+
+HELPER_SRC_PATH=/Applications/Dropbox.app/Contents/Resources/DropboxHelperInstaller.tgz
+HELPER_DST_DIR=/Library/DropboxHelperTools
+HELPER_DST_PATH="$HELPER_DST_DIR/DropboxHelperInstaller"
+
+if [ -e "$HELPER_SRC_PATH" ]; then
+  [ -d "$HELPER_DST_DIR" ] || mkdir "$HELPER_DST_DIR"
+  /usr/bin/tar -C "$HELPER_DST_DIR" -xz -f "$HELPER_SRC_PATH"
+  /usr/sbin/chown root:wheel "$HELPER_DST_PATH" "$HELPER_DST_DIR"
+  /bin/chmod 04511 "$HELPER_DST_PATH"
+else
+  echo "Expected $HELPER_SRC_PATH, but it was not present in the Dropbox dmg."
+  exit 1
+fi
+</string>
+		<key>unattended_install</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>remove_copied_items</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>34.4.20</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
 		<key>catalogs</key>
 		<array>
 			<string>production</string>
@@ -10095,6 +10390,70 @@ fi
 		<true/>
 		<key>version</key>
 		<string>6.11</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>production</string>
+		</array>
+		<key>description</key>
+		<string>Evernote makes it easy to remember things big and small from your everyday life using your computer, phone, tablet and the web.</string>
+		<key>display_name</key>
+		<string>Evernote</string>
+		<key>icon_hash</key>
+		<string>ea4aa511f27c9b26d6464a8f069e2615adfa31165691b9811d2975f2a66e6c7c</string>
+		<key>installer_item_hash</key>
+		<string>3fc608c807883241af9e723cc82faffd5cd53a0dba734573ac88d69f64dfb531</string>
+		<key>installer_item_location</key>
+		<string>apps/Evernote/Evernote-6.12.1.dmg</string>
+		<key>installer_item_size</key>
+		<integer>66144</integer>
+		<key>installer_type</key>
+		<string>copy_from_dmg</string>
+		<key>installs</key>
+		<array>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>com.evernote.Evernote</string>
+				<key>CFBundleName</key>
+				<string>Evernote</string>
+				<key>CFBundleShortVersionString</key>
+				<string>6.12.1</string>
+				<key>CFBundleVersion</key>
+				<string>455453</string>
+				<key>minosversion</key>
+				<string>10.10</string>
+				<key>path</key>
+				<string>/Applications/Evernote.app</string>
+				<key>type</key>
+				<string>application</string>
+				<key>version_comparison_key</key>
+				<string>CFBundleShortVersionString</string>
+			</dict>
+		</array>
+		<key>items_to_copy</key>
+		<array>
+			<dict>
+				<key>destination_path</key>
+				<string>/Applications</string>
+				<key>source_item</key>
+				<string>Evernote.app</string>
+			</dict>
+		</array>
+		<key>minimum_os_version</key>
+		<string>10.10</string>
+		<key>name</key>
+		<string>Evernote</string>
+		<key>unattended_install</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>remove_copied_items</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>6.12.1</string>
 	</dict>
 	<dict>
 		<key>autoremove</key>
@@ -22551,6 +22910,84 @@ defaults write /Library/Preferences/com.github.salopensource.sal.plist ServerURL
 		<true/>
 		<key>version</key>
 		<string>3.6.3</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>production</string>
+		</array>
+		<key>description</key>
+		<string>FUSE for OS X allows you to extend OS X's native file handling capabilities via third-party file systems. OSXFUSE is a successor to MacFUSE, which has been used as a software building block by dozens of products, but is no longer being maintained.</string>
+		<key>display_name</key>
+		<string>OSXFUSE</string>
+		<key>installed_size</key>
+		<integer>8943</integer>
+		<key>installer_choices_xml</key>
+		<array>
+			<dict>
+				<key>attributeSetting</key>
+				<integer>1</integer>
+				<key>choiceAttribute</key>
+				<string>selected</string>
+				<key>choiceIdentifier</key>
+				<string>10.8$OSXFUSEMacFUSE</string>
+			</dict>
+			<dict>
+				<key>attributeSetting</key>
+				<integer>1</integer>
+				<key>choiceAttribute</key>
+				<string>selected</string>
+				<key>choiceIdentifier</key>
+				<string>com.github.osxfuse.pkg.MacFUSE</string>
+			</dict>
+		</array>
+		<key>installer_item_hash</key>
+		<string>0e7259dba3f9166840fa29d9417b0dc3d4aec1ede248d299e4410615c19b14dc</string>
+		<key>installer_item_location</key>
+		<string>drivers/osxfuse-3.7.0.pkg</string>
+		<key>installer_item_size</key>
+		<integer>5198</integer>
+		<key>minimum_os_version</key>
+		<string>10.5.0</string>
+		<key>name</key>
+		<string>osxfuse</string>
+		<key>receipts</key>
+		<array>
+			<dict>
+				<key>installed_size</key>
+				<integer>4531</integer>
+				<key>packageid</key>
+				<string>com.github.osxfuse.pkg.Core</string>
+				<key>version</key>
+				<string>3.7.0</string>
+			</dict>
+			<dict>
+				<key>installed_size</key>
+				<integer>2669</integer>
+				<key>packageid</key>
+				<string>com.github.osxfuse.pkg.PrefPane</string>
+				<key>version</key>
+				<string>3.7.0</string>
+			</dict>
+			<dict>
+				<key>installed_size</key>
+				<integer>1743</integer>
+				<key>packageid</key>
+				<string>com.github.osxfuse.pkg.MacFUSE</string>
+				<key>version</key>
+				<string>3.7.0</string>
+			</dict>
+		</array>
+		<key>unattended_install</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>removepackages</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>3.7.0</string>
 	</dict>
 	<dict>
 		<key>autoremove</key>
