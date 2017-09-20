@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>testing</string>
+		</array>
+		<key>description</key>
+		<string>Color printer/scanner in Main Street print area</string>
+		<key>display_name</key>
+		<string>Printer: Main Street (Color)</string>
+		<key>installcheck_script</key>
+		<string>#!/usr/bin/python
+import subprocess
+import sys
+import shlex
+
+printerOptions = { "MachinePhase":"Phase3", "PaperSources":"PC408", "Finisher":"FS529", "PrinterHDD":"True",  }
+
+cmd = ['/usr/bin/lpoptions', '-p', 'Versailles', '-l']
+proc = subprocess.Popen(cmd, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+(lpoptLongOut, lpoptErr) = proc.communicate()
+
+# lpoptions -p printername -l will still exit 0 even if printername does not exist
+# but it will print to stderr
+if lpoptErr:
+    print lpoptErr
+    sys.exit(0)
+
+cmd = ['/usr/bin/lpoptions', '-p', 'Versailles']
+proc = subprocess.Popen(cmd, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+(lpoptOut, lpoptErr) = proc.communicate()
+
+#Note: lpoptions -p printername will never fail. If Versailles does not exist, it
+#will still exit 0, but just produce no output.
+#Thanks, cups, I was having a good day until now.
+
+for option in lpoptLongOut.splitlines():
+    for myOption in printerOptions.keys():
+        optionName = option.split("/", 1)[0]
+        optionValues = option.split("/",1)[1].split(":")[1].strip().split(" ")
+        for opt in optionValues:
+            if "*" in opt:
+                actualOptionValue = opt.replace('*', '')
+                break
+        if optionName == myOption:
+            if not printerOptions[myOption].lower() == actualOptionValue.lower():
+                print "Found mismatch: %s is '%s', should be '%s'" % (myOption, printerOptions[myOption], actualOptionValue)
+                sys.exit(0)
+
+optionDict = dict()
+for builtOption in shlex.split(lpoptOut):
+    optionDict[builtOption.split("=")[0]] = builtOption.split("=")[1]
+
+comparisonDict = { "device-uri":"lpd://Versailles.mit.edu", "printer-info":"Main Street (Color)", "printer-location":"Main Street Print Area (E19-259)", "printer-make-and-model":"KONICA MINOLTA C280 PS" }
+for keyName in comparisonDict.keys():
+    if not comparisonDict[keyName] == optionDict[keyName]:
+        print "Settings mismatch: %s is '%s', should be '%s'" % (keyName, optionDict[keyName], comparisonDict[keyName])
+        sys.exit(0)
+
+sys.exit(1)</string>
+		<key>installer_type</key>
+		<string>nopkg</string>
+		<key>minimum_os_version</key>
+		<string>10.7.0</string>
+		<key>name</key>
+		<string>AddPrinter_Versailles</string>
+		<key>postinstall_script</key>
+		<string>#!/usr/bin/python
+import subprocess
+import sys
+
+# Populate these options if you want to set specific options for the printer. E.g. duplexing installed, etc.
+printerOptions = { "MachinePhase":"Phase3", "PaperSources":"PC408", "Finisher":"FS529", "PrinterHDD":"True",  }
+
+cmd = [ '/usr/sbin/lpadmin', '-x', 'Versailles' ]
+proc = subprocess.Popen(cmd, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+(lpadminxOut, lpadminxErr) = proc.communicate()
+
+# Install the printer
+cmd = [ '/usr/sbin/lpadmin',
+        '-p', 'Versailles',
+        '-L', 'Main Street Print Area (E19-259)',
+        '-D', 'Main Street (Color)',
+        '-v', 'lpd://Versailles.mit.edu',
+        '-P', "/Library/Printers/PPDs/Contents/Resources/KONICAMINOLTAC280.gz",
+        '-E',
+        '-o', 'printer-is-shared=false',
+        '-o', 'printer-error-policy=abort-job' ]
+
+for option in printerOptions.keys():
+    cmd.append("-o")
+    cmd.append(str(option) + "=" +  str(printerOptions[option]))
+
+proc = subprocess.Popen(cmd, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+(lpadminOut, lpadminErr) = proc.communicate()
+
+if lpadminErr:
+    print "Error: %s" % lpadminErr
+    sys.exit(1)
+print "Results: %s" % lpadminOut
+sys.exit(0)</string>
+		<key>requires</key>
+		<array>
+			<string>BizHubC308Drivers</string>
+		</array>
+		<key>unattended_install</key>
+		<true/>
+		<key>unattended_uninstall</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>uninstall_script</string>
+		<key>uninstall_script</key>
+		<string>#!/bin/bash
+/usr/sbin/lpadmin -x Versailles</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>2.0</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>testing</string>
+		</array>
+		<key>category</key>
+		<string>Printing</string>
+		<key>description</key>
+		<string>Print drivers for Konica Minolta’s bizhub C308 printer.</string>
+		<key>developer</key>
+		<string>Konica Minolta</string>
+		<key>display_name</key>
+		<string>Konica Minolta C308 series print driver</string>
+		<key>installed_size</key>
+		<integer>46286</integer>
+		<key>installer_item_hash</key>
+		<string>e4b901767a46ec9ecd76a013ad0638bfde69a8fde3b87f90a0e474b5ebd04651</string>
+		<key>installer_item_location</key>
+		<string>printers/drivers/bizhub_C658_C368_C287_C3851_109.pkg</string>
+		<key>installer_item_size</key>
+		<integer>21770</integer>
+		<key>minimum_os_version</key>
+		<string>10.5.0</string>
+		<key>name</key>
+		<string>BizHubC308Drivers</string>
+		<key>receipts</key>
+		<array>
+			<dict>
+				<key>installed_size</key>
+				<integer>23143</integer>
+				<key>packageid</key>
+				<string>jp.konicaminolta.print.package.C658</string>
+				<key>version</key>
+				<string>9.1.7</string>
+			</dict>
+			<dict>
+				<key>installed_size</key>
+				<integer>23143</integer>
+				<key>packageid</key>
+				<string>jp.konicaminolta.print.package.C658s</string>
+				<key>version</key>
+				<string>9.1.7</string>
+			</dict>
+		</array>
+		<key>unattended_install</key>
+		<true/>
+		<key>unattended_uninstall</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>removepackages</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>9.1.7</string>
+	</dict>
+</array>
+</plist>
