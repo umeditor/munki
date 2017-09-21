@@ -27203,7 +27203,7 @@ optionDict = dict()
 for builtOption in shlex.split(lpoptOut):
     optionDict[builtOption.split("=")[0]] = builtOption.split("=")[1]
 
-comparisonDict = { "device-uri":"lpd://Versailles.mit.edu", "printer-info":"Main Street (Color)", "printer-location":"Main Street Print Area (E19-259)", "printer-make-and-model":"KONICA MINOLTA C280 PS" }
+comparisonDict = { "device-uri":"lpd://Versailles.mit.edu", "printer-info":"Main Street (Color)", "printer-location":"Main Street Print Area (E19-259)", "printer-make-and-model":"KONICA MINOLTA C308 PS" }
 for keyName in comparisonDict.keys():
     if not comparisonDict[keyName] == optionDict[keyName]:
         print "Settings mismatch: %s is '%s', should be '%s'" % (keyName, optionDict[keyName], comparisonDict[keyName])
