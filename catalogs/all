@@ -28019,6 +28019,21 @@ fi
 		<string>printers/drivers/bizhub_C658_C368_C287_C3851_109.pkg</string>
 		<key>installer_item_size</key>
 		<integer>21770</integer>
+		<key>installs</key>
+		<array>
+			<dict>
+				<key>CFBundleShortVersionString</key>
+				<string>3.16.3</string>
+				<key>CFBundleVersion</key>
+				<string>3.16.3</string>
+				<key>path</key>
+				<string>/Library/Printers/KONICAMINOLTA/C658/PDEs/KONICA MINOLTA C658 Cover.plugin</string>
+				<key>type</key>
+				<string>bundle</string>
+				<key>version_comparison_key</key>
+				<string>CFBundleShortVersionString</string>
+			</dict>
+		</array>
 		<key>minimum_os_version</key>
 		<string>10.5.0</string>
 		<key>name</key>

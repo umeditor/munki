@@ -58,6 +58,21 @@
 			<string>9.1.7</string>
 		</dict>
 	</array>
+	<key>installs</key>
+	<array>
+		<dict>
+			<key>CFBundleShortVersionString</key>
+			<string>3.16.3</string>
+			<key>CFBundleVersion</key>
+			<string>3.16.3</string>
+			<key>path</key>
+			<string>/Library/Printers/KONICAMINOLTA/C658/PDEs/KONICA MINOLTA C658 Cover.plugin</string>
+			<key>type</key>
+			<string>bundle</string>
+			<key>version_comparison_key</key>
+			<string>CFBundleShortVersionString</string>
+		</dict>
+	</array>
 	<key>unattended_install</key>
 	<true/>
 	<key>unattended_uninstall</key>
