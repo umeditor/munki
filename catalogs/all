@@ -27154,7 +27154,7 @@ sys.exit(0)</string>
 		<false/>
 		<key>catalogs</key>
 		<array>
-			<string>testing</string>
+			<string>production</string>
 		</array>
 		<key>description</key>
 		<string>Color printer/scanner in Main Street print area</string>
@@ -28001,7 +28001,7 @@ fi
 		<false/>
 		<key>catalogs</key>
 		<array>
-			<string>testing</string>
+			<string>production</string>
 		</array>
 		<key>category</key>
 		<string>Printing</string>
