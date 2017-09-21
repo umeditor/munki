@@ -19,7 +19,7 @@ import subprocess
 import sys
 import shlex
 
-printerOptions = { "MachinePhase":"Phase3", "PaperSources":"PC408", "Finisher":"FS529", "PrinterHDD":"True",  }
+printerOptions = { "MachinePhase":"Phase6", "PaperSources":"PC410", "Finisher":"FS533", "PrinterHDD":"True",  }
 
 cmd = ['/usr/bin/lpoptions', '-p', 'Versailles', '-l']
 proc = subprocess.Popen(cmd, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
@@ -75,7 +75,7 @@ import subprocess
 import sys
 
 # Populate these options if you want to set specific options for the printer. E.g. duplexing installed, etc.
-printerOptions = { "MachinePhase":"Phase3", "PaperSources":"PC408", "Finisher":"FS529", "PrinterHDD":"True",  }
+printerOptions = { "MachinePhase":"Phase6", "PaperSources":"PC410", "Finisher":"FS533", "PrinterHDD":"True",  }
 
 cmd = [ '/usr/sbin/lpadmin', '-x', 'Versailles' ]
 proc = subprocess.Popen(cmd, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
@@ -87,7 +87,7 @@ cmd = [ '/usr/sbin/lpadmin',
         '-L', 'Main Street Print Area (E19-259)',
         '-D', 'Main Street (Color)',
         '-v', 'lpd://Versailles.mit.edu',
-        '-P', "/Library/Printers/PPDs/Contents/Resources/KONICAMINOLTAC280.gz",
+        '-P', "/Library/Printers/PPDs/Contents/Resources/KONICAMINOLTAC308.gz",
         '-E',
         '-o', 'printer-is-shared=false',
         '-o', 'printer-error-policy=abort-job' ]
