@@ -5382,6 +5382,74 @@ exit 0
 	<dict>
 		<key>autoremove</key>
 		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>production</string>
+		</array>
+		<key>category</key>
+		<string>Internet</string>
+		<key>description</key>
+		<string>Calling, seeing, messaging and sharing with others – wherever they are.</string>
+		<key>developer</key>
+		<string>Microsoft</string>
+		<key>display_name</key>
+		<string>Skype</string>
+		<key>icon_hash</key>
+		<string>dc3ed8ea203d371a4dc1050a8436a4cae2ed23a9b7b3988dda4cfbc196e57f05</string>
+		<key>installer_item_hash</key>
+		<string>5d5d6811dcb0727c478d198cb24b99317dd10db0e55d81601d77285434f8cf1d</string>
+		<key>installer_item_location</key>
+		<string>apps/Skype-7.59.0.37.dmg</string>
+		<key>installer_item_size</key>
+		<integer>46244</integer>
+		<key>installer_type</key>
+		<string>copy_from_dmg</string>
+		<key>installs</key>
+		<array>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>com.skype.skype</string>
+				<key>CFBundleName</key>
+				<string>Skype</string>
+				<key>CFBundleShortVersionString</key>
+				<string>7.59</string>
+				<key>CFBundleVersion</key>
+				<string>7.59.0.37</string>
+				<key>minosversion</key>
+				<string>10.10</string>
+				<key>path</key>
+				<string>/Applications/Skype.app</string>
+				<key>type</key>
+				<string>application</string>
+				<key>version_comparison_key</key>
+				<string>CFBundleVersion</string>
+			</dict>
+		</array>
+		<key>items_to_copy</key>
+		<array>
+			<dict>
+				<key>destination_path</key>
+				<string>/Applications</string>
+				<key>source_item</key>
+				<string>Skype.app</string>
+			</dict>
+		</array>
+		<key>minimum_os_version</key>
+		<string>10.10</string>
+		<key>name</key>
+		<string>Skype</string>
+		<key>unattended_install</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>remove_copied_items</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>7.59.0.37</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
 		<key>blocking_applications</key>
 		<array>
 			<string>Skype for Business</string>
@@ -5444,6 +5512,72 @@ exit 0
 		<true/>
 		<key>version</key>
 		<string>16.10.97</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>blocking_applications</key>
+		<array>
+			<string>Skype for Business</string>
+			<string>Microsoft Error Reporting</string>
+			<string>Microsoft Auto Update</string>
+		</array>
+		<key>catalogs</key>
+		<array>
+			<string>production</string>
+		</array>
+		<key>description</key>
+		<string>&lt;html&gt;&lt;p style="font-family:Helvetica;font-size:12px"&gt;For detailed information about this update, please visit the following Web site: &lt;/p&gt;
+
+&lt;p style="font-family:Helvetica;font-size:12px"&gt;&lt;a href="https://go.microsoft.com/fwlink/?linkid=832970" target="_blank"&gt;https://go.microsoft.com/fwlink/?linkid=832970&lt;/a&gt;&lt;/p&gt;&lt;/html&gt;</string>
+		<key>display_name</key>
+		<string>Skype for Business</string>
+		<key>icon_hash</key>
+		<string>757274136e385740dfcd2c2ca0852608befe8288cf041731451aa682bd1f4b9e</string>
+		<key>installed_size</key>
+		<integer>84785</integer>
+		<key>installer_item_hash</key>
+		<string>87dd6c3bbbf336f75e6f4e846bb88f887b403bfca5cd7f45e47e6699447e4fc0</string>
+		<key>installer_item_location</key>
+		<string>apps/SkypeForBusiness-16.11.149.pkg</string>
+		<key>installer_item_size</key>
+		<integer>30989</integer>
+		<key>installs</key>
+		<array>
+			<dict>
+				<key>CFBundleVersion</key>
+				<string>16.11.149</string>
+				<key>path</key>
+				<string>/Applications/Skype for Business.app</string>
+				<key>type</key>
+				<string>application</string>
+				<key>version_comparison_key</key>
+				<string>CFBundleVersion</string>
+			</dict>
+		</array>
+		<key>minimum_os_version</key>
+		<string>10.11.0</string>
+		<key>name</key>
+		<string>SkypeForBusiness</string>
+		<key>receipts</key>
+		<array>
+			<dict>
+				<key>installed_size</key>
+				<integer>84785</integer>
+				<key>packageid</key>
+				<string>com.microsoft.SkypeForBusiness</string>
+				<key>version</key>
+				<string>16.11.149</string>
+			</dict>
+		</array>
+		<key>unattended_install</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>removepackages</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>16.11.149</string>
 	</dict>
 	<dict>
 		<key>autoremove</key>
@@ -6658,6 +6792,74 @@ exit 0
 		<true/>
 		<key>version</key>
 		<string>1.0.64.399.g4637b02a</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>production</string>
+		</array>
+		<key>category</key>
+		<string>Music</string>
+		<key>description</key>
+		<string>Spotify is a music streaming service offering unlimited streaming of selected music from a range of major and independent record labels.</string>
+		<key>developer</key>
+		<string>Spotify</string>
+		<key>display_name</key>
+		<string>Spotify</string>
+		<key>icon_hash</key>
+		<string>296a19e886926a9f063abe4f853f97e9d0fe721259975dfd308317d83ab06b72</string>
+		<key>installer_item_hash</key>
+		<string>c9023cb0c6942a60ba07179070f102535f9cd37678a915a24cf2dc092bbfbd91</string>
+		<key>installer_item_location</key>
+		<string>apps/Spotify-1.0.65.320.gac7a8e02.dmg</string>
+		<key>installer_item_size</key>
+		<integer>98252</integer>
+		<key>installer_type</key>
+		<string>copy_from_dmg</string>
+		<key>installs</key>
+		<array>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>com.spotify.client</string>
+				<key>CFBundleName</key>
+				<string>Spotify</string>
+				<key>CFBundleShortVersionString</key>
+				<string>1.0.65.320.gac7a8e02</string>
+				<key>CFBundleVersion</key>
+				<string>1.0.65.320.gac7a8e02-18</string>
+				<key>minosversion</key>
+				<string>10.7.0</string>
+				<key>path</key>
+				<string>/Applications/Spotify.app</string>
+				<key>type</key>
+				<string>application</string>
+				<key>version_comparison_key</key>
+				<string>CFBundleShortVersionString</string>
+			</dict>
+		</array>
+		<key>items_to_copy</key>
+		<array>
+			<dict>
+				<key>destination_path</key>
+				<string>/Applications</string>
+				<key>source_item</key>
+				<string>Spotify.app</string>
+			</dict>
+		</array>
+		<key>minimum_os_version</key>
+		<string>10.7.0</string>
+		<key>name</key>
+		<string>Spotify</string>
+		<key>unattended_install</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>remove_copied_items</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>1.0.65.320.gac7a8e02</string>
 	</dict>
 	<dict>
 		<key>autoremove</key>
@@ -10656,6 +10858,97 @@ fi
 	<dict>
 		<key>autoremove</key>
 		<false/>
+		<key>blocking_applications</key>
+		<array>
+			<string>/Applications/Dropbox.app/Contents/MacOS/Dropbox</string>
+		</array>
+		<key>catalogs</key>
+		<array>
+			<string>production</string>
+		</array>
+		<key>description</key>
+		<string>Dropbox is a free service that lets you bring all your photos, docs, and videos anywhere. This means that any file you save to your Dropbox will automatically save to all your computers, phones and even the Dropbox website.</string>
+		<key>display_name</key>
+		<string>Dropbox</string>
+		<key>icon_hash</key>
+		<string>0da9f428674fe068e7189aa3fffd77837a82422fa3ea3995528ac2982a52afe1</string>
+		<key>installer_item_hash</key>
+		<string>06cff21e707c6eaf09e067f6cf8e37da2a6a250f9539fb1c736cbc9311192cbd</string>
+		<key>installer_item_location</key>
+		<string>apps/Dropbox/Dropbox-36.4.22.dmg</string>
+		<key>installer_item_size</key>
+		<integer>104010</integer>
+		<key>installer_type</key>
+		<string>copy_from_dmg</string>
+		<key>installs</key>
+		<array>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>com.getdropbox.dropbox</string>
+				<key>CFBundleName</key>
+				<string>Dropbox</string>
+				<key>CFBundleShortVersionString</key>
+				<string>36.4.22</string>
+				<key>CFBundleVersion</key>
+				<string>36.4.22</string>
+				<key>minosversion</key>
+				<string>10.6</string>
+				<key>path</key>
+				<string>/Applications/Dropbox.app</string>
+				<key>type</key>
+				<string>application</string>
+				<key>version_comparison_key</key>
+				<string>CFBundleShortVersionString</string>
+			</dict>
+		</array>
+		<key>items_to_copy</key>
+		<array>
+			<dict>
+				<key>destination_path</key>
+				<string>/Applications</string>
+				<key>source_item</key>
+				<string>Dropbox.app</string>
+			</dict>
+		</array>
+		<key>minimum_os_version</key>
+		<string>10.6</string>
+		<key>name</key>
+		<string>Dropbox</string>
+		<key>postinstall_script</key>
+		<string>#!/bin/sh
+# based on Ruby postinstall script by Riley Shott:
+# https://groups.google.com/group/munki-dev/browse_thread/thread/a2813e7f62535f13/63d127534541f863
+# modifications:
+# - always extract the helper tool with each install instead of skipping if it exists
+# - remove xattr com.apple.quarantine removal, as Munki will have already done this upon
+#   installation; normal autopkg runs also won't quarantine the download to begin with
+
+HELPER_SRC_PATH=/Applications/Dropbox.app/Contents/Resources/DropboxHelperInstaller.tgz
+HELPER_DST_DIR=/Library/DropboxHelperTools
+HELPER_DST_PATH="$HELPER_DST_DIR/DropboxHelperInstaller"
+
+if [ -e "$HELPER_SRC_PATH" ]; then
+  [ -d "$HELPER_DST_DIR" ] || mkdir "$HELPER_DST_DIR"
+  /usr/bin/tar -C "$HELPER_DST_DIR" -xz -f "$HELPER_SRC_PATH"
+  /usr/sbin/chown root:wheel "$HELPER_DST_PATH" "$HELPER_DST_DIR"
+  /bin/chmod 04511 "$HELPER_DST_PATH"
+else
+  echo "Expected $HELPER_SRC_PATH, but it was not present in the Dropbox dmg."
+  exit 1
+fi
+</string>
+		<key>unattended_install</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>remove_copied_items</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>36.4.22</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
 		<key>catalogs</key>
 		<array>
 			<string>production</string>
@@ -12328,6 +12621,74 @@ fi
 		<true/>
 		<key>version</key>
 		<string>55.0</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>production</string>
+		</array>
+		<key>category</key>
+		<string>Internet</string>
+		<key>description</key>
+		<string>Mozilla Firefox is a free and open source web browser.</string>
+		<key>developer</key>
+		<string>Mozilla</string>
+		<key>display_name</key>
+		<string>Mozilla Firefox</string>
+		<key>icon_hash</key>
+		<string>5b03e872f794577b1f557fb24a953af884e9314dfc0dc4697264e465675fc7eb</string>
+		<key>installer_item_hash</key>
+		<string>1733d60d2501e06a820cecf3d7fc3dda408b887043128160e21ad403ac967244</string>
+		<key>installer_item_location</key>
+		<string>apps/firefox/Firefox-56.0.1.dmg</string>
+		<key>installer_item_size</key>
+		<integer>53138</integer>
+		<key>installer_type</key>
+		<string>copy_from_dmg</string>
+		<key>installs</key>
+		<array>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>org.mozilla.firefox</string>
+				<key>CFBundleName</key>
+				<string>Firefox</string>
+				<key>CFBundleShortVersionString</key>
+				<string>56.0.1</string>
+				<key>CFBundleVersion</key>
+				<string>5617.10.2</string>
+				<key>minosversion</key>
+				<string>10.9.0</string>
+				<key>path</key>
+				<string>/Applications/Firefox.app</string>
+				<key>type</key>
+				<string>application</string>
+				<key>version_comparison_key</key>
+				<string>CFBundleShortVersionString</string>
+			</dict>
+		</array>
+		<key>items_to_copy</key>
+		<array>
+			<dict>
+				<key>destination_path</key>
+				<string>/Applications</string>
+				<key>source_item</key>
+				<string>Firefox.app</string>
+			</dict>
+		</array>
+		<key>minimum_os_version</key>
+		<string>10.9.0</string>
+		<key>name</key>
+		<string>Firefox</string>
+		<key>unattended_install</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>remove_copied_items</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>56.0.1</string>
 	</dict>
 	<dict>
 		<key>autoremove</key>
@@ -20676,6 +21037,110 @@ exit 0
 			<string>production</string>
 		</array>
 		<key>category</key>
+		<string>Developer</string>
+		<key>description</key>
+		<string>R is a language and environment for statistical computing and graphics which provides a wide variety of statistical and graphical techniques: linear and nonlinear modelling, statistical tests, time series analysis, classification, clustering, etc.</string>
+		<key>developer</key>
+		<string>R Foundation</string>
+		<key>display_name</key>
+		<string>R for Mac OS X</string>
+		<key>installed_size</key>
+		<integer>142820</integer>
+		<key>installer_item_hash</key>
+		<string>34d6be8299f3b5f31707453a62245b93def2abab92f690563d254c87fa04bf9f</string>
+		<key>installer_item_location</key>
+		<string>apps/R/R-3.4.2.pkg</string>
+		<key>installer_item_size</key>
+		<integer>62722</integer>
+		<key>installs</key>
+		<array>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>org.R-project.R</string>
+				<key>CFBundleName</key>
+				<string>R</string>
+				<key>CFBundleShortVersionString</key>
+				<string>R 3.4.2 GUI 1.70 El Capitan build</string>
+				<key>CFBundleVersion</key>
+				<string>7434</string>
+				<key>minosversion</key>
+				<string>MIN_VERSION</string>
+				<key>path</key>
+				<string>/Applications/R.app</string>
+				<key>type</key>
+				<string>application</string>
+				<key>version_comparison_key</key>
+				<string>CFBundleVersion</string>
+			</dict>
+			<dict>
+				<key>CFBundleVersion</key>
+				<string>3.4.2</string>
+				<key>path</key>
+				<string>/Library/Frameworks/R.framework</string>
+				<key>type</key>
+				<string>bundle</string>
+				<key>version_comparison_key</key>
+				<string>CFBundleVersion</string>
+			</dict>
+		</array>
+		<key>minimum_os_version</key>
+		<string>10.5.0</string>
+		<key>name</key>
+		<string>R</string>
+		<key>receipts</key>
+		<array>
+			<dict>
+				<key>installed_size</key>
+				<integer>95604</integer>
+				<key>packageid</key>
+				<string>org.r-project.R.el-capitan.fw.pkg</string>
+				<key>version</key>
+				<string>30473368</string>
+			</dict>
+			<dict>
+				<key>installed_size</key>
+				<integer>4168</integer>
+				<key>packageid</key>
+				<string>org.r-project.R.el-capitan.GUI.pkg</string>
+				<key>version</key>
+				<string>1.70</string>
+			</dict>
+			<dict>
+				<key>installed_size</key>
+				<integer>35092</integer>
+				<key>packageid</key>
+				<string>org.r-project.x86_64.tcltk.x11</string>
+				<key>version</key>
+				<string>8.6.6</string>
+			</dict>
+			<dict>
+				<key>installed_size</key>
+				<integer>7956</integer>
+				<key>packageid</key>
+				<string>org.r-project.x86_64.texinfo</string>
+				<key>version</key>
+				<string>5.2</string>
+			</dict>
+		</array>
+		<key>unattended_install</key>
+		<true/>
+		<key>unattended_uninstall</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>removepackages</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>3.4.2</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>production</string>
+		</array>
+		<key>category</key>
 		<string>Utilities</string>
 		<key>description</key>
 		<string>With the Microsoft Remote Desktop app, you can connect to a remote PC and your work resources from almost anywhere. Experience the power of Windows with RemoteFX in a Remote Desktop client designed to help you get your work done wherever you are.</string>
@@ -21025,6 +21490,78 @@ exit 0
 		<true/>
 		<key>version</key>
 		<string>1.0.44</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>production</string>
+		</array>
+		<key>category</key>
+		<string>Mathematics</string>
+		<key>description</key>
+		<string>RStudio is the premier integrated development environment for R. It is available in open source and commercial editions and runs on the desktop (Windows, Mac, and Linux) or over the web with RStudio Server.</string>
+		<key>developer</key>
+		<string>RStudio</string>
+		<key>display_name</key>
+		<string>RStudio</string>
+		<key>icon_hash</key>
+		<string>8af048193cf65c473dfe8bd761c4c3ef930f1d98702b1c9d3f467926df3d581f</string>
+		<key>installer_item_hash</key>
+		<string>a30d71591789c3ee276c6376cc496bb75748dfe012d5e0b1e8a9f844d2472a43</string>
+		<key>installer_item_location</key>
+		<string>apps/rstudio/RStudio-1.1.383.dmg</string>
+		<key>installer_item_size</key>
+		<integer>76252</integer>
+		<key>installer_type</key>
+		<string>copy_from_dmg</string>
+		<key>installs</key>
+		<array>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>org.rstudio.RStudio</string>
+				<key>CFBundleName</key>
+				<string>RStudio</string>
+				<key>CFBundleShortVersionString</key>
+				<string>1.1.383</string>
+				<key>CFBundleVersion</key>
+				<string>1.1.383</string>
+				<key>minosversion</key>
+				<string>10.6.0</string>
+				<key>path</key>
+				<string>/Applications/RStudio.app</string>
+				<key>type</key>
+				<string>application</string>
+				<key>version_comparison_key</key>
+				<string>CFBundleShortVersionString</string>
+			</dict>
+		</array>
+		<key>items_to_copy</key>
+		<array>
+			<dict>
+				<key>destination_path</key>
+				<string>/Applications</string>
+				<key>source_item</key>
+				<string>RStudio.app</string>
+			</dict>
+		</array>
+		<key>minimum_os_version</key>
+		<string>10.6.0</string>
+		<key>name</key>
+		<string>RStudio</string>
+		<key>requires</key>
+		<array>
+			<string>R</string>
+		</array>
+		<key>unattended_install</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>remove_copied_items</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>1.1.383</string>
 	</dict>
 	<dict>
 		<key>autoremove</key>
@@ -22941,6 +23478,74 @@ exit 0
 		<true/>
 		<key>version</key>
 		<string>52.3.0</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>production</string>
+		</array>
+		<key>category</key>
+		<string>Email</string>
+		<key>description</key>
+		<string>Mozilla Thunderbird is a free and open source mail client.</string>
+		<key>developer</key>
+		<string>Mozilla Foundation</string>
+		<key>display_name</key>
+		<string>Mozilla Thunderbird</string>
+		<key>icon_hash</key>
+		<string>8c873883c723d52329090ffc8944231f2e6959350096e4fe318f970c72bf043a</string>
+		<key>installer_item_hash</key>
+		<string>624714f188daecafaad14ad756ba11715dcb5e286f7f8e2177c3164ba8903784</string>
+		<key>installer_item_location</key>
+		<string>apps/thunderbird/Thunderbird-52.4.0.dmg</string>
+		<key>installer_item_size</key>
+		<integer>77330</integer>
+		<key>installer_type</key>
+		<string>copy_from_dmg</string>
+		<key>installs</key>
+		<array>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>org.mozilla.thunderbird</string>
+				<key>CFBundleName</key>
+				<string>Thunderbird</string>
+				<key>CFBundleShortVersionString</key>
+				<string>52.4.0</string>
+				<key>CFBundleVersion</key>
+				<string>52.4.0</string>
+				<key>minosversion</key>
+				<string>10.9.0</string>
+				<key>path</key>
+				<string>/Applications/Thunderbird.app</string>
+				<key>type</key>
+				<string>application</string>
+				<key>version_comparison_key</key>
+				<string>CFBundleShortVersionString</string>
+			</dict>
+		</array>
+		<key>items_to_copy</key>
+		<array>
+			<dict>
+				<key>destination_path</key>
+				<string>/Applications</string>
+				<key>source_item</key>
+				<string>Thunderbird.app</string>
+			</dict>
+		</array>
+		<key>minimum_os_version</key>
+		<string>10.9.0</string>
+		<key>name</key>
+		<string>Thunderbird</string>
+		<key>unattended_install</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>remove_copied_items</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>52.4.0</string>
 	</dict>
 	<dict>
 		<key>autoremove</key>
@@ -25024,6 +25629,57 @@ defaults write /Library/Preferences/com.github.salopensource.sal.plist ServerURL
 		<true/>
 		<key>version</key>
 		<string>27.0.0.130</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>production</string>
+		</array>
+		<key>category</key>
+		<string>Internet Plugin</string>
+		<key>description</key>
+		<string>Adobe® Flash® Player is a cross-platform browser-based application runtime that delivers uncompromised viewing of expressive applications, content, and videos across screens and browsers.</string>
+		<key>developer</key>
+		<string>Adobe</string>
+		<key>display_name</key>
+		<string>Adobe Flash Player</string>
+		<key>icon_hash</key>
+		<string>7dc266fa7a88b5e3ca106ec62a263ddf7eb30857ceb66b5739edd2e2e8c002cd</string>
+		<key>installed_size</key>
+		<integer>20060</integer>
+		<key>installer_item_hash</key>
+		<string>0853c742357858b5158974b16e0f0a0b970eeccce02ff531a0177c0456e9d388</string>
+		<key>installer_item_location</key>
+		<string>internet_plugins/AdobeFlashPlayer-27.0.0.159.dmg</string>
+		<key>installer_item_size</key>
+		<integer>18682</integer>
+		<key>minimum_os_version</key>
+		<string>10.5.0</string>
+		<key>name</key>
+		<string>AdobeFlashPlayer</string>
+		<key>package_path</key>
+		<string>Install Adobe Flash Player.app/Contents/Resources/Adobe Flash Player.pkg</string>
+		<key>receipts</key>
+		<array>
+			<dict>
+				<key>installed_size</key>
+				<integer>20060</integer>
+				<key>packageid</key>
+				<string>com.adobe.pkg.FlashPlayer</string>
+				<key>version</key>
+				<string>27.0.0.159</string>
+			</dict>
+		</array>
+		<key>unattended_install</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>removepackages</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>27.0.0.159</string>
 	</dict>
 	<dict>
 		<key>autoremove</key>
